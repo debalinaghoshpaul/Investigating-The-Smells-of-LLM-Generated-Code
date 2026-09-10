@@ -1,0 +1,16 @@
+<ruleset name="MyCustomRuleset">
+    <description>
+        My custom ruleset for PMD analysis.
+    </description>
+
+    <!-- Your custom rules go here -->
+    <rule ref="category/java/documentation.xml/CommentSize">
+    <properties>
+        <property name="maxLines" value="6" />
+        <property name="maxLineLength" value="80" />
+    </properties>
+</rule>
+</ruleset>
+
+
+

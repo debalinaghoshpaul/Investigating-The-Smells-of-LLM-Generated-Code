@@ -1,0 +1,9 @@
+<ruleset name="MyCustomRuleset">
+<description> My custom ruleset for PMD analysis. </description>
+<!--  Your custom rules go here  -->
+<rule ref="category/java/design.xml/NPathComplexity">
+    <properties>
+        <property name="reportLevel" value="200" />
+    </properties>
+</rule>
+</ruleset>

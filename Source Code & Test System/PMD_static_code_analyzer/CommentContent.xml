@@ -1,0 +1,15 @@
+<ruleset name="MyCustomRuleset">
+    <description>
+        My custom ruleset for PMD analysis.
+    </description>
+
+    <!-- Your custom rules go here -->
+    <rule ref="category/java/documentation.xml/CommentContent">
+    <properties>
+        <property name="forbiddenRegex" value="idiot|jerk" />
+    </properties>
+</rule>
+</ruleset>
+
+
+

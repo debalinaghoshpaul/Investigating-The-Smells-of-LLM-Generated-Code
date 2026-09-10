@@ -1,0 +1,12 @@
+<ruleset name="MyCustomRuleset">
+    <description>
+        My custom ruleset for PMD analysis.
+    </description>
+
+    <!-- Your custom rules go here -->
+    <rule ref="category/java/design.xml/CognitiveComplexity">
+    <properties>
+        <property name="reportLevel" value="1" />
+    </properties>
+</rule>
+</ruleset>

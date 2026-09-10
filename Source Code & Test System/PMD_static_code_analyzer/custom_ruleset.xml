@@ -1,0 +1,15 @@
+<ruleset name="MyCustomRuleset">
+    <description>
+        My custom ruleset for PMD analysis.
+    </description>
+
+    <!-- Your custom rules go here -->
+    <rule ref="category/java/design.xml/CyclomaticComplexity">
+        <properties>
+            <!-- Your rule properties go here -->
+            <property name="classReportLevel" value="1" />
+            <property name="methodReportLevel" value="1" />
+            <property name="cycloOptions" value="" />
+        </properties>
+    </rule>
+</ruleset>

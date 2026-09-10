@@ -1,0 +1,6 @@
+C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\src\testing_ChatGPT_on_java\AdditionQuiz.java:1:	PackageCase:	Package name contains upper case characters
+C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\src\testing_ChatGPT_on_java\AdditionQuiz.java:1:	PackageCase:	Package name contains upper case characters
+C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\src\testing_ChatGPT_on_java\AdditionQuiz.java:5:	UseUtilityClass:	This utility class has a non-private constructor
+C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\src\testing_ChatGPT_on_java\AdditionQuiz.java:5:	UseUtilityClass:	This utility class has a non-private constructor
+C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\src\testing_ChatGPT_on_java\AdditionQuiz.java:10:	UnusedLocalVariable:	Avoid unused local variables such as 'sum'.
+C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\src\testing_ChatGPT_on_java\AdditionQuiz.java:10:	UnusedLocalVariable:	Avoid unused local variables such as 'sum'.
