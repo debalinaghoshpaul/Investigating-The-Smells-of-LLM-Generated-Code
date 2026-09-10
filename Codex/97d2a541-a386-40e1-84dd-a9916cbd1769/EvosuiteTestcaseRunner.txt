@@ -1,0 +1,7 @@
+JUnit version 4.13
+......The 10th Fibonacci number is: 55
+
+Time: 0.315
+
+OK (6 tests)
+

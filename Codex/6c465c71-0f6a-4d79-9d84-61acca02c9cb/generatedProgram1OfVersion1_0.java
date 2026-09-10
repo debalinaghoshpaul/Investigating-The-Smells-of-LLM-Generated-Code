@@ -1,0 +1,20 @@
+public class ProductOfArray {
+
+    public static int productOfArray(int[] arr, int n) {
+        // Base case: if the array is empty, return 1
+        if (n == 0) {
+            return 1;
+        }
+
+        // Recursive case: calculate the product of the first n-1 elements and multiply it with the nth element
+        return productOfArray(arr, n - 1) * arr[n - 1];
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+        int n = arr.length;
+
+        int product = productOfArray(arr, n);
+        System.out.println("The product of the array is: " + product);
+    }
+}

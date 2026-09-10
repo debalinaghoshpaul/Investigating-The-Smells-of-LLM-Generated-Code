@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        int thousandSeparators = 1000;
+        for (int i = 0; i < thousandSeparators; i++) {
+            System.out.print(number + " ");
+        }
+        System.out.println();
+    }
+}
+

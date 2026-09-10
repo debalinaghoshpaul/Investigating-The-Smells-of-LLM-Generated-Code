@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class CharChecker {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Check if the string contains the character 'g'
+        boolean containsG = false;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == 'g') {
+                containsG = true;
+                break;
+            }
+        }
+
+        // Print the result
+        if (containsG) {
+            System.out.println("The string contains the character 'g'.");
+        } else {
+            System.out.println("The string does not contain the character 'g'.");
+        }
+    }
+}

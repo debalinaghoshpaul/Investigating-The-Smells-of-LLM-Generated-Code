@@ -1,0 +1,1 @@
+Problem Description : \nrite a Java program to create a spiral array of n * n sizes from a given integer n.\nExpected Output:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 2fac173f-c2b4-4dd4-a7e0-851afe5237ee.\n

@@ -1,0 +1,4 @@
+Violations by Category:
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 5
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 5
+Indentation: 'method def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]: 20

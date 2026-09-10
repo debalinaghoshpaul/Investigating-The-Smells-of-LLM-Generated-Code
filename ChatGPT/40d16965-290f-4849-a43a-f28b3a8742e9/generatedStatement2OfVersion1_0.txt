@@ -1,0 +1,25 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:** "Hello"
+* **Expected Output:** "llollollollo"
+
+* **Input:** "World"
+* **Expected Output:** "rldrlrlrlrlrl"
+
+* **Input:** "Java"
+* **Expected Output:** "vavajavajava"
+
+**Corner Cases:**
+
+* **Input:** "123"
+* **Expected Output:** "3333"
+
+* **Input:** "a"
+* **Expected Output:** "Invalid input. The string must be of length 3 or more."
+
+* **Input:** ""
+* **Expected Output:** "Invalid input. The string must be of length 3 or more."

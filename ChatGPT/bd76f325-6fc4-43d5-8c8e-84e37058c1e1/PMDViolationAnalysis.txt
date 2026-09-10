@@ -1,0 +1,2 @@
+Violations by Category:
+\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\bd76f325-6fc4-43d5-8c8e-84e37058c1e1\generatedProgram1OfVersion1_0.java' at line 25, column 7: Encountered ": 1

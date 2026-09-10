@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter a number: .Enter a number: ....Enter a number: 6 is not a Fibonacci number.
+.Enter a number: 3 is a Fibonacci number.
+
+Time: 0.416
+
+OK (7 tests)
+

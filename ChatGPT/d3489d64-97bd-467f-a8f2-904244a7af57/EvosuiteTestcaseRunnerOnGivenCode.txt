@@ -1,0 +1,8 @@
+JUnit version 4.13
+..
+Original array: [2, 3, 5, 7, -7, 5, 8, -5]
+Pair is (7, 8), Maximum Product: 56.Pair is (0, 0), Maximum Product: 0...
+Time: 0.344
+
+OK (6 tests)
+

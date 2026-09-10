@@ -1,0 +1,9 @@
+
+Output:
+Before merging:
+A: [1, 5, 6, 7, 8, 10]
+B: [2, 4, 9]
+
+After merging:
+A: [1, 2, 4, 5, 6, 7]
+B: [8, 9, 10]

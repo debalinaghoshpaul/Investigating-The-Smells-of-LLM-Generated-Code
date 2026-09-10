@@ -1,0 +1,12 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CognitiveComplexity: The method 'printUnsorted(int[], int)' has a cognitive complexity of 19, current threshold is 15: 1
+CyclomaticComplexity: The method 'printUnsorted(int[], int)' has a cyclomatic complexity of 14.: 1
+LocalVariableNamingConventions: The local variable name 'arr_size' doesn't match '[a-z][a-zA-Z0-9]*': 1
+ControlStatementBraces: This statement should have braces: 4
+CommentRequired: Class comments are required: 2
+NPathComplexity: The method 'printUnsorted(int[], int)' has an NPath complexity of 1620, current threshold is 200: 1
+OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.: 1
+UnnecessaryReturn: Unnecessary return statement: 1
+UnnecessaryImport: Unused import 'java.util.Arrays': 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

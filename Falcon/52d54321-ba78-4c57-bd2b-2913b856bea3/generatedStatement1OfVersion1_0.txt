@@ -1,0 +1,24 @@
+ Second smallest element is: 5
+// This program finds the second smallest element in an array.
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is 5.
+// The second smallest element in the given array is

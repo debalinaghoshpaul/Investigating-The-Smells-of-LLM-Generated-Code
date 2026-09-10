@@ -1,0 +1,8 @@
+
+Number of even numbers: 5
+Number of odd numbers: 5
+
+The program finds the number of even and odd integers in a given array of integers.
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.

@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Enter the polynomial coefficients (separated by spaces): Enter the value of x: The result is: 0
+.Enter the polynomial coefficients (separated by spaces): Enter the value of x: The result is: 0
+..Enter the polynomial coefficients (separated by spaces): .Enter the polynomial coefficients (separated by spaces): Enter the value of x: .Enter the polynomial coefficients (separated by spaces): Enter the value of x: The result is: 8
+.Enter the polynomial coefficients (separated by spaces): Enter the value of x: 
+Time: 0.5
+
+OK (7 tests)
+

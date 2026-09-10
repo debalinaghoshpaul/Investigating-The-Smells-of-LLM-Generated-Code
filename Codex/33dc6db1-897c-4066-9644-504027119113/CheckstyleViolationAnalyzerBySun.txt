@@ -1,0 +1,11 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 85). [LineLength]: 1
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 3
+FinalParameters: Parameter cardNumber should be final. [FinalParameters]: 5
+HiddenField: 'cardNumber' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '50.0' is a magic number. [MagicNumber]: 1

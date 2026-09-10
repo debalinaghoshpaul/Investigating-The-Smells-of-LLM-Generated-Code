@@ -1,0 +1,9 @@
+
+
+Test cases:
+
+1. **Corner case:** Add a large number of sales to the MultiItemSale. This will test the resizing of the sales array.
+2. **Corner case:** Add a sale with a negative price. This should throw an IllegalArgumentException.
+3. **Corner case:** Add a sale with a null name. This should throw an IllegalArgumentException.
+4. **Corner case:** Add a sale with a negative discount. This should throw an IllegalArgumentException.
+5. **Normal case:** Add a few sales to the MultiItemSale and check that the total bill is correct.

@@ -1,0 +1,100 @@
+```java
+import java.util.Scanner;
+
+public class HexadecimalToBinary {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the hexadecimal number from the user
+        System.out.println("Enter Hexadecimal Number : ");
+        String hexadecimalNumber = scanner.nextLine();
+
+        // Convert the hexadecimal number to a binary number
+        String binaryNumber = "";
+        for (int i = 0; i < hexadecimalNumber.length(); i++) {
+            char hexDigit = hexadecimalNumber.charAt(i);
+            switch (hexDigit) {
+                case '0':
+                    binaryNumber += "0000";
+                    break;
+                case '1':
+                    binaryNumber += "0001";
+                    break;
+                case '2':
+                    binaryNumber += "0010";
+                    break;
+                case '3':
+                    binaryNumber += "0011";
+                    break;
+                case '4':
+                    binaryNumber += "0100";
+                    break;
+                case '5':
+                    binaryNumber += "0101";
+                    break;
+                case '6':
+                    binaryNumber += "0110";
+                    break;
+                case '7':
+                    binaryNumber += "0111";
+                    break;
+                case '8':
+                    binaryNumber += "1000";
+                    break;
+                case '9':
+                    binaryNumber += "1001";
+                    break;
+                case 'A':
+                case 'a':
+                    binaryNumber += "1010";
+                    break;
+                case 'B':
+                case 'b':
+                    binaryNumber += "1011";
+                    break;
+                case 'C':
+                case 'c':
+                    binaryNumber += "1100";
+                    break;
+                case 'D':
+                case 'd':
+                    binaryNumber += "1101";
+                    break;
+                case 'E':
+                case 'e':
+                    binaryNumber += "1110";
+                    break;
+                case 'F':
+                case 'f':
+                    binaryNumber += "1111";
+                    break;
+                default:
+                    System.out.println("Invalid hexadecimal digit: " + hexDigit);
+                    return;
+            }
+        }
+
+        // Print the binary number
+        System.out.println("Equivalent Binary Number is: " + binaryNumber);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Valid Hexadecimal Numbers:**
+    * 37
+    * A9
+    * FFF
+    * 1234
+* **Invalid Hexadecimal Numbers:**
+    * G (invalid digit)
+    * 10000 (too many digits)
+    * ABCD (invalid digit)
+
+**Corner Cases:**
+
+* **Empty input:** The program should handle the case where the user enters an empty string.
+* **Leading and trailing whitespace:** The program should ignore leading and trailing whitespace in the input string.
+* **Case-insensitive input:** The program should handle both upper-case and lower-case hexadecimal digits.

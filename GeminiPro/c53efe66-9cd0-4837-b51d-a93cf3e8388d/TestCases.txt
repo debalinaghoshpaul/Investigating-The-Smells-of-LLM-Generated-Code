@@ -1,0 +1,45 @@
+```java
+import java.util.Scanner;
+
+public class DigitTest {
+
+    public static boolean isDigit(String str) {
+        for (char c : str.toCharArray()) {
+            if (!Character.isDigit(c)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        if (isDigit(str)) {
+            System.out.println("The string contains only digits");
+        } else {
+            System.out.println("The string does not contain only digits");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+* Positive Test Cases:
+    * Input: "123456"
+    * Input: "0"
+    * Input: "999999"
+
+* Negative Test Cases:
+    * Input: "123a45"
+    * Input: "abc123"
+    * Input: "12.345"
+
+* Corner Cases:
+    * Input: "" (empty string)
+    * Input: " " (string with only spaces)
+    * Input: null (null string)

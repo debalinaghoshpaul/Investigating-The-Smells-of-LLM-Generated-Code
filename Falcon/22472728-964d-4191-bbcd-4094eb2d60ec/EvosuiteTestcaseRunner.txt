@@ -1,0 +1,8 @@
+JUnit version 4.13
+.null
+value2
+...
+Time: 0.298
+
+OK (4 tests)
+

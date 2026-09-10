@@ -1,0 +1,27 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Test Case 1:**
+    * Input: [50, -20, 0, 30, 40, 60, 10]
+    * Expected Output: false
+* **Test Case 2:**
+    * Input: [10, 20, 30, 40, 50, 60, 10]
+    * Expected Output: true
+* **Test Case 3:**
+    * Input: [1, 2, 3, 4, 5, 6, 7, 1]
+    * Expected Output: true
+
+**Corner Cases:**
+
+* **Test Case 4:**
+    * Input: [10]
+    * Expected Output: false (Array length is less than 2)
+* **Test Case 5:**
+    * Input: []
+    * Expected Output: false (Array length is less than 2)
+* **Test Case 6:**
+    * Input: [10, null]
+    * Expected Output: false (Array contains a null element)

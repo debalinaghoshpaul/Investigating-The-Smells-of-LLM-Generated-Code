@@ -1,0 +1,21 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input 1: Latitude 1 = 25, Longitude 1 = 35, Latitude 2 = 35.5, Longitude 2 = 25.5
+* Output 1: Distance = 1480.0848451069087 km
+* Input 2: Latitude 1 = -35, Longitude 1 = -25, Latitude 2 = -35.5, Longitude 2 = -25.5
+* Output 2: Distance = 1480.0848451069087 km
+* Input 3: Latitude 1 = 0, Longitude 1 = 0, Latitude 2 = 0, Longitude 2 = 180
+* Output 3: Distance = 20015.09327189815 km
+
+**Corner Cases:**
+
+* Input 1: Latitude 1 = 90, Longitude 1 = 0, Latitude 2 = -90, Longitude 2 = 0
+* Output 1: Distance = 20015.09327189815 km (the distance between the North and South Poles)
+* Input 2: Latitude 1 = 0, Longitude 1 = 0, Latitude 2 = 0, Longitude 2 = 0
+* Output 2: Distance = 0 km (the distance between two points at the same location)
+* Input 3: Latitude 1 = 180, Longitude 1 = 0, Latitude 2 = -180, Longitude 2 = 0
+* Output 3: Distance = 0 km (the distance between two points on opposite sides of the globe)

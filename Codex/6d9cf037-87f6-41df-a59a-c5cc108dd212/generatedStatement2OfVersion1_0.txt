@@ -1,0 +1,26 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+* Input: Python
+* Output: honPythonhon
+
+* Input: Java
+* Output: avaJavaava
+
+**Corner Cases:**
+* Input: abc
+* Output: The string length must be greater than three
+
+* Input: "" (empty string)
+* Output: The string length must be greater than three
+
+* Input: "a"
+* Output: The string length must be greater than three
+
+* Input: "ab"
+* Output: The string length must be greater than three
+
+* Input: "abcde"
+* Output: edeabcdeede

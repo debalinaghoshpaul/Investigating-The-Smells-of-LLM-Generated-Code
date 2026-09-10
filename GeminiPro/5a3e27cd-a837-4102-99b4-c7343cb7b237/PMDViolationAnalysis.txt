@@ -1,0 +1,5 @@
+Violations by Category:
+MethodNamingConventions: The instance method name 'getEmployee_id' doesn't match '[a-z][a-zA-Z0-9]*': 5
+CommentRequired: Class comments are required: 5
+FormalParameterNamingConventions: The method parameter name 'employee_id' doesn't match '[a-z][a-zA-Z0-9]*': 5
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

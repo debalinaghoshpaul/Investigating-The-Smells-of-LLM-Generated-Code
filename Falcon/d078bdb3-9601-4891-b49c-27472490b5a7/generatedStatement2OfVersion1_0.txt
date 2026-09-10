@@ -1,0 +1,26 @@
+
+
+**Test Cases:**
+
+**Input:**
+
+* "I love coding in Python"
+* "Python is a great language"
+* "I want to learn Python and Java"
+* "Code is fun"
+* "I don't like Python or Java"
+
+**Output:**
+
+* "I love coding in Java"
+* "Java is a great language"
+* "I want to learn Java and Java"
+* "Coding is fun"
+* "I don't like Java or Java"
+
+**Corner Cases:**
+
+* **Empty string:** The program should handle an empty string without throwing an exception.
+* **String without the words "Python" or "code":** The program should not modify the string if it does not contain the words "Python" or "code".
+* **String with multiple occurrences of "Python" or "code":** The program should replace all occurrences of "Python" and "code" with "Java" and "coding", respectively.
+* **Case-insensitive matching:** The program should be case-insensitive, meaning it should replace "python" and "CODE" with "Java" and "coding", respectively.

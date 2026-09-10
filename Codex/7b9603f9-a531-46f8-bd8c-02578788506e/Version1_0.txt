@@ -1,0 +1,125 @@
+```java
+import java.util.Arrays;
+
+public class StoogeSort {
+
+    public static void main(String[] args) {
+        // Test case 1: empty array
+        int[] arr1 = {};
+        System.out.println("Original array (test case 1): " + Arrays.toString(arr1));
+        stoogeSort(arr1, 0, arr1.length - 1);
+        System.out.println("Sorted array (test case 1): " + Arrays.toString(arr1));
+
+        // Test case 2: array with one element
+        int[] arr2 = {5};
+        System.out.println("Original array (test case 2): " + Arrays.toString(arr2));
+        stoogeSort(arr2, 0, arr2.length - 1);
+        System.out.println("Sorted array (test case 2): " + Arrays.toString(arr2));
+
+        // Test case 3: array with multiple elements
+        int[] arr3 = {3, 1, 2, 4, 5};
+        System.out.println("Original array (test case 3): " + Arrays.toString(arr3));
+        stoogeSort(arr3, 0, arr3.length - 1);
+        System.out.println("Sorted array (test case 3): " + Arrays.toString(arr3));
+
+        // Test case 4: array with duplicate elements
+        int[] arr4 = {1, 2, 2, 3, 3, 4};
+        System.out.println("Original array (test case 4): " + Arrays.toString(arr4));
+        stoogeSort(arr4, 0, arr4.length - 1);
+        System.out.println("Sorted array (test case 4): " + Arrays.toString(arr4));
+
+        // Test case 5: array with negative elements
+        int[] arr5 = {-1, -2, -3, -4, -5};
+        System.out.println("Original array (test case 5): " + Arrays.toString(arr5));
+        try {
+            stoogeSort(arr5, 0, arr5.length - 1);
+            System.out.println("Sorted array (test case 5): " + Arrays.toString(arr5));
+        } catch (IllegalArgumentException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
+
+    public static void stoogeSort(int[] arr, int start, int end) {
+        if (start >= end) {
+            return;
+        }
+
+        if (arr[start] > arr[end]) {
+            swap(arr, start, end);
+        }
+
+        int range = (end - start + 1) / 3;
+        stoogeSort(arr, start, end - range);
+        stoogeSort(arr, start + range, end);
+        stoogeSort(arr, start, end - range);
+    }
+
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
+```
+
+**Test Cases:**
+
+**Input 1:**
+
+```
+arr = []
+```
+
+**Expected Output:**
+
+```
+Sorted array (test case 1): []
+```
+
+**Input 2:**
+
+```
+arr = [5]
+```
+
+**Expected Output:**
+
+```
+Sorted array (test case 2): [5]
+```
+
+**Input 3:**
+
+```
+arr = [3, 1, 2, 4, 5]
+```
+
+**Expected Output:**
+
+```
+Sorted array (test case 3): [1, 2, 3, 4, 5]
+```
+
+**Input 4:**
+
+```
+arr = [1, 2, 2, 3, 3, 4]
+```
+
+**Expected Output:**
+
+```
+Sorted array (test case 4): [1, 2, 2, 3, 3, 4]
+```
+
+**Input 5:**
+
+```
+arr = [-1, -2, -3, -4, -5]
+```
+
+**Expected Output:**
+
+```
+Error: The input array cannot contain negative values.
+```

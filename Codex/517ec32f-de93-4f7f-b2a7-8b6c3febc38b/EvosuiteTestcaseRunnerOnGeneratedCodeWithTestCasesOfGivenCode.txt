@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.539
+There were 5 failures:
+1) test1(testing_ChatGPT_on_java.EvenOddSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	EvenOddSumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.EvenOddSumCalculator_ESTest.test1(EvenOddSumCalculator_ESTest.java:37)
+2) test0(testing_ChatGPT_on_java.EvenOddSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	EvenOddSumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.EvenOddSumCalculator_ESTest.test0(EvenOddSumCalculator_ESTest.java:26)
+3) test4(testing_ChatGPT_on_java.EvenOddSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	EvenOddSumCalculator cannot be resolved to a type
+	EvenOddSumCalculator cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.EvenOddSumCalculator_ESTest.test4(EvenOddSumCalculator_ESTest.java:74)
+4) test3(testing_ChatGPT_on_java.EvenOddSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	EvenOddSumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.EvenOddSumCalculator_ESTest.test3(EvenOddSumCalculator_ESTest.java:61)
+5) test2(testing_ChatGPT_on_java.EvenOddSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	EvenOddSumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.EvenOddSumCalculator_ESTest.test2(EvenOddSumCalculator_ESTest.java:45)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

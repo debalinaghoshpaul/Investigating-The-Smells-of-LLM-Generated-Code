@@ -1,0 +1,1 @@
+Problem Description : \n6.10 (Use the isPrime Method) Listing 6.7, PrimeNumberMethod.java, provides the\nisPrime(int number) method for testing whether a number is prime. Use this\nmethod to find the number of prime numbers less than 10000.\n\n The programming language you need to use is: Java.\n\n Problem Id is : c285ffe7-0d26-4416-8ae6-76976dd608b0.

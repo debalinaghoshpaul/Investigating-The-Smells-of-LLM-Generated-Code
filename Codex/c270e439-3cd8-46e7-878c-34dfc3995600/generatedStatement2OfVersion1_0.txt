@@ -1,0 +1,9 @@
+
+
+**Test cases:**
+
+* **Empty file:** This test case will check if the program can read an empty file without any errors.
+* **File with one line:** This test case will check if the program can read a file with only one line.
+* **File with multiple lines:** This test case will check if the program can read a file with multiple lines.
+* **File with special characters:** This test case will check if the program can read a file with special characters, such as commas, semicolons, and newlines.
+* **Non-existent file:** This test case will check if the program can handle a non-existent file.

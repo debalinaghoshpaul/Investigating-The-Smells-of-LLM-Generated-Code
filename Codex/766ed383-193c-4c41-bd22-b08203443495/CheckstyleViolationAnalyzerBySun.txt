@@ -1,0 +1,12 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 82). [LineLength]: 5
+VisibilityModifier: Variable 'x' must be private and have accessor methods. [VisibilityModifier]: 3
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 1
+FinalParameters: Parameter x should be final. [FinalParameters]: 4
+HiddenField: 'x' hides a field. [HiddenField]: 3
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '3600.0' is a magic number. [MagicNumber]: 1

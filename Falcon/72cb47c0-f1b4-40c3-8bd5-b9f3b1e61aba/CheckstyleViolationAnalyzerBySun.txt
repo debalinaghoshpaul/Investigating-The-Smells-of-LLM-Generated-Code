@@ -1,0 +1,10 @@
+Violations by Category:
+DesignForExtension: Class 'Student' looks like designed for extension (can be subclassed), but the method 'getName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Student' final or making the method 'getName' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 8
+FinalParameters: Parameter name should be final. [FinalParameters]: 9
+HiddenField: 'name' hides a field. [HiddenField]: 6
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 10
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+MagicNumber: '90' is a magic number. [MagicNumber]: 1

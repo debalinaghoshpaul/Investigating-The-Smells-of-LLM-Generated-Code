@@ -1,0 +1,4 @@
+
+
+Output:
+New length of the array after removing duplicates: 4

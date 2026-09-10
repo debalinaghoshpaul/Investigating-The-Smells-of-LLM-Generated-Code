@@ -1,0 +1,20 @@
+JUnit version 4.13
+.E.Original Array: [1, 5, 3, 2, 4]
+Sorted Array: [1, 2, 3, 4, 5]
+.E
+Time: 0.487
+There were 2 failures:
+1) test2(testing_ChatGPT_on_java.CombSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method CombSort(int[]) is undefined for the type CombSort
+
+	at testing_ChatGPT_on_java.CombSort_ESTest.test2(CombSort_ESTest.java:39)
+2) test0(testing_ChatGPT_on_java.CombSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method CombSort(int[]) is undefined for the type CombSort
+
+	at testing_ChatGPT_on_java.CombSort_ESTest.test0(CombSort_ESTest.java:23)
+
+FAILURES!!!
+Tests run: 3,  Failures: 2
+

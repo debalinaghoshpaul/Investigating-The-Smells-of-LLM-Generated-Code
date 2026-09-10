@@ -1,0 +1,28 @@
+```java
+import java.util.Arrays;
+import java.util.List;
+
+public class MaxAndMinInList {
+
+    public static void main(String[] args) {
+        // Create a list of integers
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+        // Find the maximum and minimum values using lambda expressions
+        int maxValue = numbers.stream().max((a, b) -> a - b).get();
+        int minValue = numbers.stream().min((a, b) -> a - b).get();
+
+        // Print the results
+        System.out.println("Maximum value: " + maxValue);
+        System.out.println("Minimum value: " + minValue);
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Empty list:** The program should handle an empty list and return the appropriate maximum and minimum values (e.g., Integer.MIN_VALUE and Integer.MAX_VALUE).
+* **List with only one element:** The program should return the same value for both the maximum and minimum values.
+* **List with both positive and negative numbers:** The program should correctly identify the maximum and minimum values, regardless of the sign of the numbers.
+* **List with duplicate numbers:** The program should correctly identify the maximum and minimum values, even if there are duplicate numbers in the list.
+* **List with very large or very small numbers:** The program should handle lists with very large or very small numbers without overflowing or underflowing.

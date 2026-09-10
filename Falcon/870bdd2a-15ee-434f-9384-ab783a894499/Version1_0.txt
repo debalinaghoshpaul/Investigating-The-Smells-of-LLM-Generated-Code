@@ -1,0 +1,36 @@
+```java
+import java.util.function.IntFunction;
+
+public class Factorial {
+
+    public static void main(String[] args) {
+        // Test cases
+        int n1 = 5;
+        int n2 = 0;
+        int n3 = -3;
+
+        // Lambda expression to calculate factorial
+        IntFunction<Integer> factorial = n -> {
+            if (n < 0) {
+                throw new IllegalArgumentException("Factorial is not defined for negative numbers");
+            }
+            int result = 1;
+            for (int i = 1; i <= n; i++) {
+                result *= i;
+            }
+            return result;
+        };
+
+        // Calculate and print factorials
+        System.out.println("Factorial of " + n1 + " is " + factorial.apply(n1));
+        System.out.println("Factorial of " + n2 + " is " + factorial.apply(n2));
+        System.out.println("Factorial of " + n3 + " is " + factorial.apply(n3));
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:** n1 = 5, expected factorial = 120
+* **Corner case: zero input:** n2 = 0, expected factorial = 1
+* **Corner case: negative input:** n3 = -3, expected exception: "Factorial is not defined for negative numbers"

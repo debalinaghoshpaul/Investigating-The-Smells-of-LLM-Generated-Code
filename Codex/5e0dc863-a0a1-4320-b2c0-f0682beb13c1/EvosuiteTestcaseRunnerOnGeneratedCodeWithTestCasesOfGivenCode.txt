@@ -1,0 +1,26 @@
+JUnit version 4.13
+..Even Number from evenThread: 2
+Odd Number from oddThread: 1
+Even Number from evenThread: 4
+Odd Number from oddThread: 3
+Even Number from evenThread: 6
+Odd Number from oddThread: 5
+Even Number from evenThread: 8
+Odd Number from oddThread: 7
+Even Number from evenThread: 10
+Odd Number from oddThread: 9
+Even Number from evenThread: 12
+Odd Number from oddThread: 11
+Even Number from evenThread: 14
+Odd Number from oddThread: 13
+Even Number from evenThread: 16
+Odd Number from oddThread: 15
+Even Number from evenThread: 18
+Odd Number from oddThread: 17
+Even Number from evenThread: 20
+Odd Number from oddThread: 19
+
+Time: 0.348
+
+OK (2 tests)
+

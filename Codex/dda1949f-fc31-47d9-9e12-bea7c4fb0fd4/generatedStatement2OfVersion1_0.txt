@@ -1,0 +1,7 @@
+
+
+In this program, we create a `SharedResource` class with a method `performOperation` that requires acquiring a permit from a Semaphore before executing the operation. The `Worker` class implements the `Runnable` interface to use the shared resource and perform the operation.
+
+In the `main` method, we create two threads (Thread 1 and Thread 2) that share the same `SharedResource` instance. When the threads run, they will acquire the permit from the semaphore, perform the operation (sleep for 2 seconds in this case), and then release the permit.
+
+This ensures that only one thread can access the shared resource at a time, thereby providing thread synchronization using Semaphores.

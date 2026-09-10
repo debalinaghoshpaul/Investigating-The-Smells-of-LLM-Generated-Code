@@ -1,0 +1,54 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E
+Time: 0.269
+There were 9 failures:
+1) test0(testing_ChatGPT_on_java.Exercise5_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise5 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise5_ESTest.test0(Exercise5_ESTest.java:23)
+2) test1(testing_ChatGPT_on_java.Exercise5_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise5 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise5_ESTest.test1(Exercise5_ESTest.java:33)
+3) test4(testing_ChatGPT_on_java.Exercise5_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise5 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise5_ESTest.test4(Exercise5_ESTest.java:68)
+4) test5(testing_ChatGPT_on_java.Exercise5_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise5 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise5_ESTest.test5(Exercise5_ESTest.java:74)
+5) test2(testing_ChatGPT_on_java.Exercise5_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise5 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise5_ESTest.test2(Exercise5_ESTest.java:44)
+6) test3(testing_ChatGPT_on_java.Exercise5_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise5 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise5_ESTest.test3(Exercise5_ESTest.java:55)
+7) test8(testing_ChatGPT_on_java.Exercise5_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise5 cannot be resolved to a type
+	Exercise5 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise5_ESTest.test8(Exercise5_ESTest.java:104)
+8) test6(testing_ChatGPT_on_java.Exercise5_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise5 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise5_ESTest.test6(Exercise5_ESTest.java:82)
+9) test7(testing_ChatGPT_on_java.Exercise5_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise5 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise5_ESTest.test7(Exercise5_ESTest.java:91)
+
+FAILURES!!!
+Tests run: 9,  Failures: 9
+

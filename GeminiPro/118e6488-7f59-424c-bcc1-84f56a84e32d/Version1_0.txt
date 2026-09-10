@@ -1,0 +1,39 @@
+```java
+import java.util.Scanner;
+
+public class AverageCalculator {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Initialize the sum and count of numbers
+        double sum = 0;
+        int count = 0;
+
+        // Read numbers from the user until the user enters a negative number
+        double number;
+        while ((number = scanner.nextDouble()) >= 0) {
+            // Add the number to the sum
+            sum += number;
+
+            // Increment the count of numbers
+            count++;
+        }
+
+        // Calculate the average
+        double average = sum / count;
+
+        // Print the average
+        System.out.println("The average is: " + average);
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:** Input: 1, 2, 3, 4, 5 Output: 3.0
+* **Empty input:** Input: Output: 0.0
+* **Negative input:** Input: -1 Output: 0.0
+* **Decimal input:** Input: 1.5, 2.5, 3.5, 4.5, 5.5 Output: 3.5
+* **Large input:** Input: 1000000, 2000000, 3000000, 4000000, 5000000 Output: 3000000.0
+* **Small input:** Input: 0.0001, 0.0002, 0.0003, 0.0004, 0.0005 Output: 0.0003

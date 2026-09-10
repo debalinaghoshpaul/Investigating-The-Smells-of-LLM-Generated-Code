@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:2:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:3:23: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:3:26: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:3:30: '15' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:3:34: '20' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:3:38: '25' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:6:9: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:6:9: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\f34c9c0c-765b-4e7b-8b5b-aff3040cf318\generatedProgram1OfVersion1_0.java:12: Line is longer than 80 characters (found 85). [LineLength]
+Audit done.

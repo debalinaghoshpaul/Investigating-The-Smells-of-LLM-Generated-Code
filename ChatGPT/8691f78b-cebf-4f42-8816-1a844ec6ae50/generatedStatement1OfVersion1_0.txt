@@ -1,0 +1,2 @@
+Here's the Java program that implements a stack and creates a new stack containing elements that are in either the first or the second stack, but not in both:
+

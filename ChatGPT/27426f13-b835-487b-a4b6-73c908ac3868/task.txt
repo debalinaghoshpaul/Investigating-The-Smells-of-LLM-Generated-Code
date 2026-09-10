@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to input and display your password.\nInput your Password:                                                    \nYour password was: abc@123\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 27426f13-b835-487b-a4b6-73c908ac3868.\n

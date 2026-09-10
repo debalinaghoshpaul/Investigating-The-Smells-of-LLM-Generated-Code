@@ -1,0 +1,10 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 84). [LineLength]: 1
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 1
+FinalParameters: Parameter employee_id should be final. [FinalParameters]: 5
+HiddenField: 'employee_id' hides a field. [HiddenField]: 5
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+ParameterName: Name 'employee_id' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]: 5
+MemberName: Name 'employee_id' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]: 3
+MethodName: Name 'getEmployee_id' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]: 5
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3

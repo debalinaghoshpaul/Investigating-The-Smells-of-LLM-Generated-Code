@@ -1,0 +1,4 @@
+
+What is 0 + 0? 0
+What is 1 + 0? 1
+The answers are: [0, 1]

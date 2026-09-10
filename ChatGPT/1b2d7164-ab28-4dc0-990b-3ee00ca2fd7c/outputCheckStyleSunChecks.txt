@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:7:20: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:8:20: '20' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:9:20: '30' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:10:20: '40' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:11:20: '50' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:17:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:17:39: Parameter stack should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:26:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\1b2d7164-ab28-4dc0-990b-3ee00ca2fd7c\generatedProgram1OfVersion1_0.java:26:42: Parameter stack should be final. [FinalParameters]
+Audit done.

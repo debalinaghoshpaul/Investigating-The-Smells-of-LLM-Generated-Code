@@ -1,0 +1,38 @@
+
+Number of days in a month: 30
+
+The programming language you need to use is: java.
+
+Can you also add test cases including corner cases to test the program of the problem?
+
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+For example, you can test the program for the following cases:
+
+Case 1: 31 days in a month
+Case 2: 30 days in a month
+Case 3: 29 days in a month
+Case 4: 28 days in a month
+Case 5: 27 days in a month
+Case 6: 26 days in a month
+Case 7: 25 days in a month
+Case 8: 24 days in a month
+Case 9: 23 days in a month
+Case 10: 22 days in a month
+Case 11: 21 days in a month
+Case 12: 20 days in a month
+Case 13: 19 days in a month
+Case 14: 18 days in a month
+Case 15: 17 days in a month
+Case 16: 16 days in a month
+Case 17: 15 days in a month
+Case 18: 14 days in a month
+Case 19: 13 days in a month
+Case 20: 12 days in a month
+Case 21: 11 days in a month
+Case 22: 10 days in a month
+Case 23: 9 days in a month
+Case 24: 8 days in a month
+Case 25: 7 days in a month
+Case 26: 6 days in a month
+Case

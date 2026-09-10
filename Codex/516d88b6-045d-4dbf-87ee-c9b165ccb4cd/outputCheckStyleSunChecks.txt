@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:8:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:9:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:13:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:16:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:16:29: Parameter args should be final. [FinalParameters]
+Audit done.

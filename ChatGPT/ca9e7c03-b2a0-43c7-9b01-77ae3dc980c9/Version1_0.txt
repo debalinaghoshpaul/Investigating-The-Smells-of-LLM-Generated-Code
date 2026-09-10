@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94nnespYD3NpHQGGXfRRmcFScVUZt",
+  "object" : "chat.completion",
+  "created" : 1710931770,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\n\npublic class KSmallestElements {\n\n    public static void main(String[] args) {\n        int[] array = {1, 4, 17, 7, 25, 3, 100};\n        int k = 3;\n\n        Arrays.sort(array);\n\n        System.out.println(\"Original Array: \" + Arrays.toString(array));\n        System.out.print(k + \" smallest elements of the said array are: \");\n        for (int i = 0; i < k; i++) {\n            System.out.print(array[i] + \" \");\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 122,
+    "completion_tokens" : 121,
+    "total_tokens" : 243
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

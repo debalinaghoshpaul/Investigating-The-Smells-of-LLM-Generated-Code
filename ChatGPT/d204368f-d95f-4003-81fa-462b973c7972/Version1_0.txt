@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91zt2rFm4DEI8GyrSieWEWaDrbKwd",
+  "object" : "chat.completion",
+  "created" : 1710263248,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class RearrangeArray {\n\n    public static void main(String[] args) {\n        int[] nums = { 1, 2, 4, 9, 5, 3, 8, 7, 10, 12, 14 };\n\n        rearrangeArray(nums);\n\n        System.out.println(\"Array with every second element is greater than its left and right elements: \" + Arrays.toString(nums));\n    }\n\n    public static void rearrangeArray(int[] nums) {\n        Arrays.sort(nums);\n\n        int[] result = new int[nums.length];\n        int index = 0;\n\n        for (int i = 0; i < nums.length; i += 2) {\n            result[i] = nums[index++];\n        }\n\n        for (int i = 1; i < nums.length; i += 2) {\n            result[i] = nums[index++];\n        }\n\n        System.arraycopy(result, 0, nums, 0, nums.length);\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 166,
+    "completion_tokens" : 211,
+    "total_tokens" : 377
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

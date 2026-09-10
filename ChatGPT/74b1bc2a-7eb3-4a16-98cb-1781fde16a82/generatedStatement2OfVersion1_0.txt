@@ -1,0 +1,11 @@
+
+
+**Test cases:**
+
+* **Empty list:** The program should not break if the input list is empty.
+* **List with all even numbers:** The program should filter out all even numbers.
+* **List with all odd numbers:** The program should filter out all odd numbers.
+* **List with a mix of even and odd numbers:** The program should filter out the even and odd numbers correctly.
+* **List with duplicate numbers:** The program should filter out duplicate numbers correctly.
+* **List with negative numbers:** The program should handle negative numbers correctly.
+* **List with zero:** The program should handle zero correctly.

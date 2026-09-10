@@ -1,0 +1,14 @@
+JUnit version 4.13
+.
+Original list of numbers: [-2158.729696664325, 0.0]
+Sum of even numbers: 0.0
+Sum of odd numbers: -2158.729696664325
+.
+Original list of numbers: [42, 45]
+Sum of even numbers: 42.0
+Sum of odd numbers: 45.0
+...
+Time: 0.345
+
+OK (5 tests)
+

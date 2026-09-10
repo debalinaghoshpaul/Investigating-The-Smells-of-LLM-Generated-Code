@@ -1,0 +1,24 @@
+JUnit version 4.13
+.E.E.E
+Time: 0.52
+There were 3 failures:
+1) test2(testing_ChatGPT_on_java.WordFrequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type WordFrequency must be defined in its own file
+
+	at testing_ChatGPT_on_java.WordFrequency.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.WordFrequency_ESTest.test2(WordFrequency_ESTest.java:47)
+2) test1(testing_ChatGPT_on_java.WordFrequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.WordFrequency.main(Main.java:6)
+	at testing_ChatGPT_on_java.WordFrequency_ESTest.test1(WordFrequency_ESTest.java:41)
+3) test0(testing_ChatGPT_on_java.WordFrequency_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.WordFrequency.main(Main.java:6)
+	at testing_ChatGPT_on_java.WordFrequency_ESTest.test0(WordFrequency_ESTest.java:26)
+
+FAILURES!!!
+Tests run: 3,  Failures: 3
+

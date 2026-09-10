@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\d93c0f5e-f283-4ef0-ae8b-4a724b543f95\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\d93c0f5e-f283-4ef0-ae8b-4a724b543f95\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\d93c0f5e-f283-4ef0-ae8b-4a724b543f95\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\d93c0f5e-f283-4ef0-ae8b-4a724b543f95\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\d93c0f5e-f283-4ef0-ae8b-4a724b543f95\generatedProgram1OfVersion1_0.java:8:44: '2020' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\d93c0f5e-f283-4ef0-ae8b-4a724b543f95\generatedProgram1OfVersion1_0.java:9:42: '2021' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\d93c0f5e-f283-4ef0-ae8b-4a724b543f95\generatedProgram1OfVersion1_0.java:9:48: '12' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\d93c0f5e-f283-4ef0-ae8b-4a724b543f95\generatedProgram1OfVersion1_0.java:9:52: '31' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\d93c0f5e-f283-4ef0-ae8b-4a724b543f95\generatedProgram1OfVersion1_0.java:11: Line is longer than 80 characters (found 84). [LineLength]
+Audit done.

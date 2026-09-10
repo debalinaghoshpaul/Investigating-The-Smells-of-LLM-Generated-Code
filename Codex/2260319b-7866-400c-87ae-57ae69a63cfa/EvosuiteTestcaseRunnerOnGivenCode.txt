@@ -1,0 +1,13 @@
+JUnit version 4.13
+.Input value: Negative number
+.Input value: Positive number
+.Input value: .Input value: .Input value: Negative number
+.Input value: Negative small number
+.Input value: Positive number
+.Input value: Positive small number
+.Input value: Zero
+.
+Time: 0.382
+
+OK (10 tests)
+

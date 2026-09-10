@@ -1,0 +1,58 @@
+public class Dog {
+    private String name;
+    private String breed;
+
+    public Dog(String name, String breed) {
+        this.name = name;
+        this.breed = breed;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void printAttributes() {
+        System.out.println("Name: " + name);
+        System.out.println("Breed: " + breed);
+    }
+
+    public void setAttributes(String name, String breed) {
+        this.name = name;
+        this.breed = breed;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog1 = new Dog("Fido", "Labrador");
+        Dog dog2 = new Dog("Max", "German Shepherd");
+
+        dog1.setName("Fido");
+        dog1.setBreed("Labrador");
+
+        dog2.setName("Max");
+        dog2.setBreed("German Shepherd");
+
+        dog1.printAttributes();
+        dog2.printAttributes();
+
+        dog1.setAttributes("Fido", "Labrador");
+        dog2.setAttributes("Max", "German Shepherd");
+
+        dog1.printAttributes();
+        dog2.printAttributes();
+    }
+}
+

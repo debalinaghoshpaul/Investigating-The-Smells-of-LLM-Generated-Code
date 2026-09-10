@@ -1,0 +1,14 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * n = 0
+    * n = 1
+    * n = 9
+    * n = 10
+* **General cases:**
+    * n = 5
+    * n = 10
+    * n = 15
+    * n = 20

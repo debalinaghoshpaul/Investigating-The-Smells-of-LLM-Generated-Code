@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\c51944bc-5a9b-431a-a8fd-fbaef0ba675b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\c51944bc-5a9b-431a-a8fd-fbaef0ba675b\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\c51944bc-5a9b-431a-a8fd-fbaef0ba675b\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\c51944bc-5a9b-431a-a8fd-fbaef0ba675b\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\c51944bc-5a9b-431a-a8fd-fbaef0ba675b\generatedProgram1OfVersion1_0.java:17:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\c51944bc-5a9b-431a-a8fd-fbaef0ba675b\generatedProgram1OfVersion1_0.java:18:23: '=' is not preceded with whitespace. [WhitespaceAround]
+Audit done.

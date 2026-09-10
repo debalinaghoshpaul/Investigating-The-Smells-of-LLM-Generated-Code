@@ -1,0 +1,38 @@
+import java.util.Stack;
+
+public class StackMaxMin {
+
+  public static void main(String[] args) {
+    Stack<Integer> stack = new Stack<>();
+    stack.push(1);
+    stack.push(2);
+    stack.push(3);
+    stack.push(4);
+    stack.push(5);
+
+    System.out.println("Maximum element in the stack: " + findMax(stack));
+    System.out.println("Minimum element in the stack: " + findMin(stack));
+  }
+
+  public static int findMax(Stack<Integer> stack) {
+    int max = Integer.MIN_VALUE;
+    while (!stack.isEmpty()) {
+      int current = stack.pop();
+      if (current > max) {
+        max = current;
+      }
+    }
+    return max;
+  }
+
+  public static int findMin(Stack<Integer> stack) {
+    int min = Integer.MAX_VALUE;
+    while (!stack.isEmpty()) {
+      int current = stack.pop();
+      if (current < min) {
+        min = current;
+      }
+    }
+    return min;
+  }
+}

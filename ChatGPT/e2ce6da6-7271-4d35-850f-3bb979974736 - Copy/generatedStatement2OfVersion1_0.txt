@@ -1,0 +1,2 @@
+
+In this program, we have a `Parcel` class that represents each parcel with attributes `weight` and `location`. We calculate the cost of each parcel based on the weight and the delivery location. The main function takes input for 5 parcels and calculates the cost for each parcel.

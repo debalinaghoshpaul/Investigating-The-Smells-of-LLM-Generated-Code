@@ -1,0 +1,86 @@
+Here is a simple Java program to count the number of words ending in 'm' or 'n' (not case sensitive) in a given text:
+
+```java
+import java.util.Scanner;
+
+public class CountWordsEndingInMN {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input text from the user
+        System.out.println("Enter the text:");
+        String text = scanner.nextLine();
+
+        // Convert the text to lowercase for case-insensitive comparison
+        text = text.toLowerCase();
+
+        // Split the text into words
+        String[] words = text.split(" ");
+
+        // Initialize the count of words ending in 'm' or 'n'
+        int count = 0;
+
+        // Iterate over the words and check if they end in 'm' or 'n'
+        for (String word : words) {
+            if (word.endsWith("m") || word.endsWith("n")) {
+                count++;
+            }
+        }
+
+        // Print the count of words ending in 'm' or 'n'
+        System.out.println("The number of words ending in 'm' or 'n' is: " + count);
+    }
+}
+```
+
+Here are some test cases including corner cases:
+
+**Test Case 1:**
+
+```
+Input: The quick brown fox jumped over the lazy dog
+Output: 3
+```
+
+**Test Case 2:**
+
+```
+Input: The rain in Spain stays mainly on the plain
+Output: 2
+```
+
+**Test Case 3:**
+
+```
+Input: Rhythm and blues
+Output: 2
+```
+
+**Test Case 4:**
+
+```
+Input: Empty string
+Output: 0
+```
+
+**Test Case 5:**
+
+```
+Input: String with no words ending in 'm' or 'n'
+Output: 0
+```
+
+**Test Case 6:**
+
+```
+Input: String with words that are all one character long
+Output: 0
+```
+
+**Test Case 7:**
+
+```
+Input: String with words that are all ending with 'm' or 'n'
+Output: Number of words in the string
+```

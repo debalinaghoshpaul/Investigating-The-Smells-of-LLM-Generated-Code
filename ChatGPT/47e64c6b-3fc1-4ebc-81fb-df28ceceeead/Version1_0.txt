@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-945EC53ON27FAm0aLNljcPljmLKPJ",
+  "object" : "chat.completion",
+  "created" : 1710760436,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class SpeedConverter {\n\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        System.out.print(\"Input distance in meters: \");\n        double distance = input.nextDouble();\n\n        System.out.print(\"Input hour: \");\n        int hour = input.nextInt();\n\n        System.out.print(\"Input minutes: \");\n        int minutes = input.nextInt();\n\n        System.out.print(\"Input seconds: \");\n        int seconds = input.nextInt();\n\n        // Calculate total time in seconds\n        int totalTimeSeconds = hour * 3600 + minutes * 60 + seconds;\n\n        // Calculate speed in meters/second\n        double speedMetersSecond = distance / totalTimeSeconds;\n\n        // Calculate speed in km/h\n        double speedKmH = (distance / 1000) / (totalTimeSeconds / 3600);\n\n        // Calculate speed in miles/h\n        double speedMilesH = (distance / 1609) / (totalTimeSeconds / 3600);\n\n        System.out.println(\"Your speed in meters/second is \" + speedMetersSecond);\n        System.out.println(\"Your speed in km/h is \" + speedKmH);\n        System.out.println(\"Your speed in miles/h is \" + speedMilesH);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 177,
+    "completion_tokens" : 264,
+    "total_tokens" : 441
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

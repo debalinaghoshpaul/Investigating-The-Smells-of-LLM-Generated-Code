@@ -1,0 +1,7 @@
+JUnit version 4.13
+.......Number of possible triangles: 3
+
+Time: 0.502
+
+OK (7 tests)
+

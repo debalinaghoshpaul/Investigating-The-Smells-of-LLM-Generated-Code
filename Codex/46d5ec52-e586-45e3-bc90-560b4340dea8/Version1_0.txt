@@ -1,0 +1,184 @@
+```java
+import java.util.Scanner;
+
+public class ContinuousSubarraySum {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Read the input array
+        System.out.println("Enter the size of the array: ");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        System.out.println("Enter the elements of the array: ");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        // Read the target sum
+        System.out.println("Enter the target sum: ");
+        int target = sc.nextInt();
+
+        // Find the total number of continuous subarrays whose sum equals the target sum
+        int count = findContinuousSubarraySum(arr, n, target);
+
+        // Print the result
+        System.out.println("The total number of continuous subarrays whose sum equals " + target + " is: " + count);
+    }
+
+    // Function to find the total number of continuous subarrays whose sum equals the target sum
+    public static int findContinuousSubarraySum(int[] arr, int n, int target) {
+        int count = 0;
+        int sum = 0;
+
+        // Iterate over the array
+        for (int i = 0; i < n; i++) {
+            // Add the current element to the sum
+            sum += arr[i];
+
+            // Check if the sum equals the target sum
+            if (sum == target) {
+                // Increment the count
+                count++;
+
+                // Reset the sum to zero
+                sum = 0;
+            }
+
+            // Check if the sum exceeds the target sum
+            else if (sum > target) {
+                // Reset the sum to zero
+                sum = 0;
+
+                // Decrement the count
+                count--;
+            }
+        }
+
+        // Return the count
+        return count;
+    }
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+
+```
+Input:
+n = 5
+arr = [1, 1, 1, 1, 1]
+target = 2
+
+Output:
+The total number of continuous subarrays whose sum equals 2 is: 10
+```
+
+**Test Case 2:**
+
+```
+Input:
+n = 5
+arr = [1, 2, 3, 4, 5]
+target = 5
+
+Output:
+The total number of continuous subarrays whose sum equals 5 is: 5
+```
+
+**Test Case 3:**
+
+```
+Input:
+n = 5
+arr = [1, 2, 3, 4, 5]
+target = 10
+
+Output:
+The total number of continuous subarrays whose sum equals 10 is: 0
+```
+
+**Test Case 4:**
+
+```
+Input:
+n = 5
+arr = [1, 2, 3, 4, 5]
+target = 1
+
+Output:
+The total number of continuous subarrays whose sum equals 1 is: 5
+```
+
+**Test Case 5:**
+
+```
+Input:
+n = 5
+arr = [1, 2, 3, 4, 5]
+target = 0
+
+Output:
+The total number of continuous subarrays whose sum equals 0 is: 1
+```
+
+**Test Case 6:**
+
+```
+Input:
+n = 5
+arr = [1, 2, 3, 4, 5]
+target = -1
+
+Output:
+The total number of continuous subarrays whose sum equals -1 is: 0
+```
+
+**Test Case 7:**
+
+```
+Input:
+n = 5
+arr = [1, 2, 3, 4, 5]
+target = 6
+
+Output:
+The total number of continuous subarrays whose sum equals 6 is: 2
+```
+
+**Test Case 8:**
+
+```
+Input:
+n = 5
+arr = [1, 2, 3, 4, 5]
+target = 7
+
+Output:
+The total number of continuous subarrays whose sum equals 7 is: 1
+```
+
+**Test Case 9:**
+
+```
+Input:
+n = 5
+arr = [1, 2, 3, 4, 5]
+target = 8
+
+Output:
+The total number of continuous subarrays whose sum equals 8 is: 0
+```
+
+**Test Case 10:**
+
+```
+Input:
+n = 5
+arr = [1, 2, 3, 4, 5]
+target = 9
+
+Output:
+The total number of continuous subarrays whose sum equals 9 is: 0
+```

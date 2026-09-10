@@ -1,0 +1,32 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.33
+There were 4 failures:
+1) test1(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type ReadWriteLockExercise must be defined in its own file
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise.<init>(ReadWriteLockDemo.java:5)
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test1(ReadWriteLockExercise_ESTest.java:39)
+2) test0(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type ReadWriteLockExercise must be defined in its own file
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise.<init>(ReadWriteLockDemo.java:5)
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test0(ReadWriteLockExercise_ESTest.java:22)
+3) test3(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type ReadWriteLockExercise must be defined in its own file
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise$Writer.<init>(ReadWriteLockDemo.java:5)
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test3(ReadWriteLockExercise_ESTest.java:102)
+4) test2(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type ReadWriteLockExercise must be defined in its own file
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise$SharedResource.<init>(ReadWriteLockDemo.java:5)
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test2(ReadWriteLockExercise_ESTest.java:75)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

@@ -1,0 +1,27 @@
+No GPU found. Running on CPU.
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Main {
+    public static void main(String[] args) {
+        String mainString = "This is a sample string";
+        String removeString = "sample";
+        String outputString = "";
+
+        Pattern pattern = Pattern.compile(removeString);
+        Matcher matcher = pattern.matcher(mainString);
+
+        while (matcher.find()) {
+            outputString += matcher.group();
+        }
+
+        System.out.println("The programming language you need to use is: java.");
+        System.out.println("Can you also add test cases including corner cases to test the program of the problem?");
+        System.out.println(outputString);
+    }
+}
+
+Output:
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+This is a sample string

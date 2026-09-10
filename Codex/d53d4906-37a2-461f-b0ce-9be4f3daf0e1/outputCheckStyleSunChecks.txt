@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:14: Line is longer than 80 characters (found 106). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:14:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:14:35: Parameter s1 should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:14:46: Parameter s2 should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:14:57: Parameter interleaving should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:14:78: Parameter interleavings should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:21: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\d53d4906-37a2-461f-b0ce-9be4f3daf0e1\generatedProgram1OfVersion1_0.java:25: Line is longer than 80 characters (found 88). [LineLength]
+Audit done.

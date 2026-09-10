@@ -1,0 +1,4 @@
+
+The square of 1 is 1
+The cube of 1 is 1
+The fourth power of 1 is 1

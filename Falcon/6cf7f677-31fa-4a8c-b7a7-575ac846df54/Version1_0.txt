@@ -1,0 +1,55 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class RoundFloat {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a float number: ");
+        double num = scanner.nextDouble();
+        System.out.println("The rounded number is: " + round(num));
+    }
+
+    public static double round(double num) {
+        return Math.round(num * 100) / 100.0;
+    }
+}
+
+Output:
+Enter a float number: 2.5
+The rounded number is: 2.50
+Enter a float number: 3.5
+The rounded number is: 3.50
+Enter a float number: 4.5
+The rounded number is: 4.50
+Enter a float number: 5.5
+The rounded number is: 5.50
+Enter a float number: 6.5
+The rounded number is: 6.50
+Enter a float number: 7.5
+The rounded number is: 7.50
+Enter a float number: 8.5
+The rounded number is: 8.50
+Enter a float number: 9.5
+The rounded number is: 9.50
+Enter a float number: 10.5
+The rounded number is: 10.50
+Enter a float number: 11.5
+The rounded number is: 11.50
+Enter a float number: 12.5
+The rounded number is: 12.50
+Enter a float number: 13.5
+The rounded number is: 13.50
+Enter a float number: 14.5
+The rounded number is: 14.50
+Enter a float number: 15.5
+The rounded number is: 15.50
+Enter a float number: 16.5
+The rounded number is: 16.50
+Enter a float number: 17.5
+The rounded number is: 17.50
+Enter a float number: 18.5
+The rounded number is: 18.50
+Enter a float number: 19.5
+The rounded number is: 19.50
+Enter a float number: 20.5
+The rounded number is:

@@ -1,0 +1,8 @@
+JUnit version 4.13
+...Array must have at least 1 element.
+..The difference between the largest and smallest values in the array is: 17
+..
+Time: 0.33
+
+OK (7 tests)
+

@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class SumOfPrimeNumbers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of prime numbers to sum:");
+        int n = scanner.nextInt();
+
+        int sum = 0;
+        int count = 0;
+        int number = 2;
+
+        while (count < n) {
+            if (isPrime(number)) {
+                sum += number;
+                count++;
+            }
+            number++;
+        }
+
+        System.out.println("The sum of the first " + n + " prime numbers is " + sum);
+    }
+
+    public static boolean isPrime(int number) {
+        if (number <= 1) {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}

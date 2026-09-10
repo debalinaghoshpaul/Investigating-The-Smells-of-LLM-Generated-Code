@@ -1,0 +1,12 @@
+
+
+**Test cases including corner cases:**
+
+* **Empty array:** The program should not crash and should return an empty array.
+* **One-element array:** The program should not crash and should return the array as it is.
+* **Array with all elements equal:** The program should not crash and should return the array as it is.
+* **Array with only two elements:** The program should not crash and should sort the array correctly.
+* **Array with a large number of elements:** The program should not crash and should sort the array correctly.
+* **Array with duplicate elements:** The program should not crash and should sort the array correctly.
+* **Array with negative elements:** The program should not crash and should sort the array correctly.
+* **Array with floating-point elements:** The program should not crash and should sort the array correctly.

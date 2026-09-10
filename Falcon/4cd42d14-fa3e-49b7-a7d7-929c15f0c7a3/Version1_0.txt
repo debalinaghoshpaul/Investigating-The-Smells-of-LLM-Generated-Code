@@ -1,0 +1,60 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class RomanToInt {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a Roman number: ");
+        int romanNum = scanner.nextInt();
+        int intNum = 0;
+        for (int i = 0; i < romanNum; i++) {
+            intNum += Integer.parseInt(romanNum.substring(i, i + 1));
+        }
+        System.out.println("The Roman number is: " + romanNum);
+        System.out.println("The integer number is: " + intNum);
+    }
+}
+
+Output:
+Enter a Roman number: XXXI
+The Roman number is: XXXI
+The integer number is: 31
+Enter a Roman number: XXXII
+The Roman number is: XXXII
+The integer number is: 32
+Enter a Roman number: XXXIII
+The Roman number is: XXXIII
+The integer number is: 33
+Enter a Roman number: XXXIV
+The Roman number is: XXXIV
+The integer number is: 34
+Enter a Roman number: XXXV
+The Roman number is: XXXV
+The integer number is: 35
+Enter a Roman number: XXXVI
+The Roman number is: XXXVI
+The integer number is: 36
+Enter a Roman number: XXXVII
+The Roman number is: XXXVII
+The integer number is: 37
+Enter a Roman number: XXXVIII
+The Roman number is: XXXVIII
+The integer number is: 38
+Enter a Roman number: XXXIX
+The Roman number is: XXXIX
+The integer number is: 39
+Enter a Roman number: XL
+The Roman number is: XL
+The integer number is: 40
+Enter a Roman number: XLI
+The Roman number is: XLI
+The integer number is: 41
+Enter a Roman number: XLII
+The Roman number is: XLII
+The integer number is: 42
+Enter a Roman number: XLIII
+The Roman number is: XLIII
+The integer number is: 43
+Enter a Roman number: XLIV
+The Roman number is: XLIV
+The

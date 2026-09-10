@@ -1,0 +1,9 @@
+Violations by Category:
+FinalParameters: Parameter args should be final. [FinalParameters]: 5
+VisibilityModifier: Variable 'val' must be private and have accessor methods. [VisibilityModifier]: 6
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+UnusedImports: Unused import - java.util.LinkedList. [UnusedImports]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 6
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 2
+MagicNumber: '10' is a magic number. [MagicNumber]: 5

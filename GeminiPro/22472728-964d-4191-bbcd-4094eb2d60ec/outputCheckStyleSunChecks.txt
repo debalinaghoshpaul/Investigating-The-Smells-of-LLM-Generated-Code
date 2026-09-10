@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:8:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:9:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:11:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:11:30: Parameter key should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:21:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:21:28: Parameter key should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:21:40: Parameter value should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:31:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:31:29: Parameter args should be final. [FinalParameters]
+Audit done.

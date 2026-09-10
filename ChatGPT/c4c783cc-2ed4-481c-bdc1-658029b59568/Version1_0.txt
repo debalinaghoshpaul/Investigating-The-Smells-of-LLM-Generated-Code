@@ -1,0 +1,107 @@
+### **Add Two Numbers Without Arithmetic Operators** 
+
+```java
+import java.util.Scanner;
+
+public class AddNumbersWithoutArithmeticOperators {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the two numbers from the user
+        System.out.println("Enter the first number:");
+        int x = scanner.nextInt();
+
+        System.out.println("Enter the second number:");
+        int y = scanner.nextInt();
+
+        // Initialize the sum to 0
+        int sum = 0;
+
+        // Add the two numbers using bitwise operators
+        while (y != 0) {
+            // Add the carry to the sum
+            sum = sum + carry;
+
+            // Add the two numbers without the carry
+            x = x + y - carry;
+
+            // Calculate the carry
+            carry = (x & y) << 1;
+        }
+
+        // Print the sum of the two numbers
+        System.out.println("The sum of the two numbers is: " + sum);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * x = 0, y = 0 (expected output: 0)
+    * x = 0, y = 1 (expected output: 1)
+    * x = 1, y = 0 (expected output: 1)
+    * x = -1, y = 1 (expected output: 0)
+    * x = 1, y = -1 (expected output: 0)
+
+* **Positive Test Cases:**
+    * x = 10, y = 12 (expected output: 22)
+    * x = 25, y = 35 (expected output: 60)
+    * x = 123, y = 456 (expected output: 579)
+
+* **Negative Test Cases:**
+    * x = -10, y = -12 (expected output: -22)
+    * x = -25, y = -35 (expected output: -60)
+    * x = -123, y = -456 (expected output: -579)
+
+### **Compute the Number of Trailing Zeros in a Factorial**
+
+```java
+import java.util.Scanner;
+
+public class ComputeTrailingZerosInFactorial {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the number from the user
+        System.out.println("Enter the number:");
+        int n = scanner.nextInt();
+
+        // Initialize the number of trailing zeros to 0
+        int trailingZeros = 0;
+
+        // Compute the number of trailing zeros
+        for (int i = 5; i <= n; i += 5) {
+            int temp = i;
+            while (temp % 5 == 0) {
+                trailingZeros++;
+                temp /= 5;
+            }
+        }
+
+        // Print the number of trailing zeros
+        System.out.println("The number of trailing zeros in " + n + "! is: " + trailingZeros);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * n = 0 (expected output: 0)
+    * n = 1 (expected output: 0)
+    * n = 5 (expected output: 1)
+    * n = 10 (expected output: 2)
+    * n = 25 (expected output: 6)
+
+* **Positive Test Cases:**
+    * n = 100 (expected output: 24)
+    * n = 1000 (expected output: 249)
+    * n = 10000 (expected output: 2499)
+
+* **Negative Test Cases:**
+    * n = -1 (expected output: Invalid input)
+    * n = -5 (expected output: Invalid input)
+    * n = -10 (expected output: Invalid input)

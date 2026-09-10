@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Input first number: Input second number: Sum: -16
+.Input first number: ..Input first number: .Input first number: Input second number: Sum: 16
+
+Time: 0.487
+
+OK (5 tests)
+

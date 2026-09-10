@@ -1,0 +1,45 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.363
+There were 6 failures:
+1) test2(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Money cannot be resolved to a type
+	Money cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Money_ESTest.test2(Money_ESTest.java:54)
+2) test3(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Money cannot be resolved
+	Money cannot be resolved to a type
+	Money cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Money_ESTest.test3(Money_ESTest.java:73)
+3) test4(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Money cannot be resolved
+	Money cannot be resolved to a type
+	Money cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Money_ESTest.test4(Money_ESTest.java:88)
+4) test5(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Money cannot be resolved to a type
+	Money cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Money_ESTest.test5(Money_ESTest.java:101)
+5) test0(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Money cannot be resolved
+
+	at testing_ChatGPT_on_java.Money_ESTest.test0(Money_ESTest.java:24)
+6) test1(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Money cannot be resolved to a type
+	Money cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Money_ESTest.test1(Money_ESTest.java:37)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

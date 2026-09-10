@@ -1,0 +1,12 @@
+
+
+Test cases:
+
+* **Corner cases:**
+    * `num1 = 19, num2 = 20, num3 = 21` -> false
+    * `num1 = 20, num2 = 19, num3 = 21` -> false
+    * `num1 = 21, num2 = 19, num3 = 20` -> false
+* **Normal cases:**
+    * `num1 = 15, num2 = 20, num3 = 25` -> false
+    * `num1 = 25, num2 = 20, num3 = 30` -> true
+    * `num1 = 20, num2 = 10, num3 = 30` -> true

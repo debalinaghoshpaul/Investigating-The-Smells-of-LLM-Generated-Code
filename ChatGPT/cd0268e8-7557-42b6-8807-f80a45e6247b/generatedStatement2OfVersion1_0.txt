@@ -1,0 +1,23 @@
+
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* Depositing and withdrawing money from both types of accounts
+* Calculating interest for the savings account
+* Viewing balances for both types of accounts
+
+**Negative Test Cases:**
+
+* Withdrawing an amount greater than the balance (should not be allowed)
+* Withdrawing an amount greater than the balance plus the overdraft limit (for current account, should not be allowed)
+* Depositing a negative amount (should not be allowed)
+* Calculating interest for the current account (should be 0)
+
+**Corner Cases:**
+
+* Withdrawing an amount equal to the balance (should reduce the balance to 0)
+* Withdrawing an amount equal to the balance plus the overdraft limit (for current account, should reduce the balance and overdraft limit to 0)
+* Depositing an amount of 0 (should not change the balance)
+* Creating an account with a negative balance (should throw an exception)

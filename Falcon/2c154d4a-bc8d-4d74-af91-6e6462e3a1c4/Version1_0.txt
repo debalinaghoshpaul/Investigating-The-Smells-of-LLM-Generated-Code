@@ -1,0 +1,55 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class FloorDivision {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int dividend = scanner.nextInt();
+        int divisor = scanner.nextInt();
+        int floorDivision = (int) Math.floor(dividend / divisor);
+        int floorModulus = (int) Math.floorMod(dividend % divisor, divisor);
+        System.out.println("Floor Division: " + floorDivision);
+        System.out.println("Floor Modulus: " + floorModulus);
+    }
+}
+
+// Output:
+// Floor Division: 3
+// Floor Modulus: 3
+
+// Test Cases:
+// Corner Case 1: dividend = 0, divisor = 0
+// Output: Floor Division: 0
+// Floor Modulus: 0
+
+// Corner Case 2: dividend = 0, divisor = 1
+// Output: Floor Division: 0
+// Floor Modulus: 0
+
+// Corner Case 3: dividend = 1, divisor = 0
+// Output: Floor Division: 1
+// Floor Modulus: 0
+
+// Corner Case 4: dividend = 1, divisor = 1
+// Output: Floor Division: 1
+// Floor Modulus: 1
+
+// Corner Case 5: dividend = 2, divisor = 0
+// Output: Floor Division: 2
+// Floor Modulus: 0
+
+// Corner Case 6: dividend = 2, divisor = 1
+// Output: Floor Division: 2
+// Floor Modulus: 1
+
+// Corner Case 7: dividend = 3, divisor = 0
+// Output: Floor Division: 3
+// Floor Modulus: 0
+
+// Corner Case 8: dividend = 3, divisor = 1
+// Output: Floor Division: 3
+// Floor Modulus: 1
+
+// Corner Case 9: dividend = 4, divisor = 0
+// Output: Floor Division: 4
+// Floor Modulus:

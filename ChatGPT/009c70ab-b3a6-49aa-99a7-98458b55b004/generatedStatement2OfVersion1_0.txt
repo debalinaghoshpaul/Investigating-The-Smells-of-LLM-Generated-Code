@@ -1,0 +1,5 @@
+
+
+In this program, we create two arrays `arr1` and `arr2` with the same elements. Then, we use the `arraysAreEqual` method to compare the two arrays. The method first checks if the lengths of the arrays are equal. If they are not, it returns false. Otherwise, it compares each element of the arrays and returns false if any elements are not equal.
+
+You can modify the arrays `arr1` and `arr2` with different elements and test the program with different input arrays to see if it works correctly.

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called Rectangle with private instance variables length and width. Provide public getter and setter methods to access and modify these variables.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 6befee9b-3699-4086-925c-8ccba77946cf.\n

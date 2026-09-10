@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class LongestPalindromicSubstring {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		// Get the input string
+		System.out.println("Enter a string: ");
+		String str = scanner.nextLine();
+
+		// Find the longest palindromic substring
+		String longestPalindrome = findLongestPalindromicSubstring(str);
+
+		// Print the longest palindromic substring
+		System.out.println("The longest palindromic substring is: " + longestPalindrome);
+	}
+
+	public static String findLongestPalindromicSubstring(String str) {
+		// Initialize the longest palindrome to an empty string
+		String longestPalindrome = "";
+
+		// Iterate through the string
+		for (int i = 0; i < str.length(); i++) {
+			// Expand around the current character
+			String palindrome = expandAroundCenter(str, i, i);
+
+			// If the current palindrome is longer than the longest palindrome so far, update the longest palindrome
+			if (palindrome.length() > longestPalindrome.length()) {
+				longestPalindrome = palindrome;
+			}
+
+			// Expand around the current character and its next character
+			palindrome = expandAroundCenter(str, i, i + 1);
+
+			// If the current palindrome is longer than the longest palindrome so far, update the longest palindrome
+			if (palindrome.length() > longestPalindrome.length()) {
+				longestPalindrome = palindrome;
+			}
+		}
+
+		// Return the longest palindrome
+		return longestPalindrome;
+	}
+
+	public static String expandAroundCenter(String str, int left, int right) {
+		// Expand the palindrome around the center
+		while (left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
+			left--;
+			right++;
+		}
+
+		// Return the palindrome
+		return str.substring(left + 1, right);
+	}
+}

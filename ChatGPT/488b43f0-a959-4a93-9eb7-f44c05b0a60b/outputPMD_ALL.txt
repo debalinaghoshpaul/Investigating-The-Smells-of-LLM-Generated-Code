@@ -1,0 +1,6 @@
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\488b43f0-a959-4a93-9eb7-f44c05b0a60b\generatedProgram1OfVersion1_0.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\488b43f0-a959-4a93-9eb7-f44c05b0a60b\generatedProgram1OfVersion1_0.java:5:	CommentRequired:	Class comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\488b43f0-a959-4a93-9eb7-f44c05b0a60b\generatedProgram1OfVersion1_0.java:5:	UseUtilityClass:	This utility class has a non-private constructor
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\488b43f0-a959-4a93-9eb7-f44c05b0a60b\generatedProgram1OfVersion1_0.java:7:	CommentRequired:	Public method and constructor comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\488b43f0-a959-4a93-9eb7-f44c05b0a60b\generatedProgram1OfVersion1_0.java:12:	CommentRequired:	Public method and constructor comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\488b43f0-a959-4a93-9eb7-f44c05b0a60b\generatedProgram1OfVersion1_0.java:25:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops

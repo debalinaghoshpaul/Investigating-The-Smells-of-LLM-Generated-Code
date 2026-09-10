@@ -1,0 +1,11 @@
+
+
+Test cases:
+
+* **Normal case:** The original array contains positive integers and the copy array is the same size as the original array.
+* **Empty array:** The original array is empty.
+* **Single element array:** The original array contains only one element.
+* **Large array:** The original array contains a large number of elements (e.g., 10000).
+* **Negative elements:** The original array contains negative integers.
+* **Decimal elements:** The original array contains decimal elements.
+* **Null array:** The original array is null.

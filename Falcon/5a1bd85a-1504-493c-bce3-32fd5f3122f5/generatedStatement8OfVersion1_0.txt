@@ -1,0 +1,2 @@
+
+* **Array with all the same elements:**

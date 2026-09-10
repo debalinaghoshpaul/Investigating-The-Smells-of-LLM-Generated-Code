@@ -1,0 +1,5 @@
+
+
+This code defines a `findLength` method that takes a string as input and recursively calculates its length by counting each character until the string becomes empty. The base case checks if the string is empty and returns 0, while the recursive case adds 1 to the length and calls the function with the substring starting from the second character.
+
+You can run this code to find the length of any given string.

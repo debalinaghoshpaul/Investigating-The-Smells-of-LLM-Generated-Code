@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Key: One, Value: 1
+Key: Two, Value: 2
+Key: Three, Value: 3
+.
+Time: 0.329
+
+OK (2 tests)
+

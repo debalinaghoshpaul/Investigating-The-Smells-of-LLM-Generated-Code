@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94q4srVXWJRCv6oBETTiU51bmG64A",
+  "object" : "chat.completion",
+  "created" : 1710940526,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Node class to create a binary tree node\nclass Node {\n    int data;\n    Node left, right;\n\n    public Node(int item) {\n        data = item;\n        left = right = null;\n    }\n}\n\npublic class BinaryTreeIdentical {\n\n    // Function to check if two binary trees are identical\n    public static boolean areIdentical(Node root1, Node root2) {\n        if (root1 == null && root2 == null) {\n            return true;\n        }\n        \n        if (root1 != null && root2 != null) {\n            return (root1.data == root2.data && areIdentical(root1.left, root2.left) && areIdentical(root1.right, root2.right));\n        }\n        \n        return false;\n    }\n\n    public static void main(String[] args) {\n        Node root1 = new Node(1);\n        Node root2 = new Node(1);\n        root1.left = new Node(2);\n        root1.right = new Node(3);\n        root1.left.left = new Node(4);\n        root1.left.right = new Node(5);\n\n        root2.left = new Node(2);\n        root2.right = new Node(3);\n        root2.left.left = new Node(4);\n        root2.left.right = new Node(5);\n\n        if (areIdentical(root1, root2)) {\n            System.out.println(\"Binary trees are identical.\");\n        } else {\n            System.out.println(\"Binary trees are not identical.\");\n        }\n    }\n}\n```\n\nOutput:\nBinary trees are identical."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 86,
+    "completion_tokens" : 326,
+    "total_tokens" : 412
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

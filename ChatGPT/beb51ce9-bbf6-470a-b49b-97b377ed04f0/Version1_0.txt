@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-932OPGvcoWN2Se9fcyW7A3JsTTymR",
+  "object" : "chat.completion",
+  "created" : 1710511209,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.ArrayList;\nimport java.util.Collections;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<String> list1 = new ArrayList<>();\n        list1.add(\"apple\");\n        list1.add(\"banana\");\n        list1.add(\"cherry\");\n\n        ArrayList<String> list2 = new ArrayList<>();\n        list2.add(\"apple\");\n        list2.add(\"banana\");\n        list2.add(\"cherry\");\n\n        // Comparing two array lists\n        boolean isEqual = list1.equals(list2);\n\n        if(isEqual) {\n            System.out.println(\"The two array lists are equal.\");\n        } else {\n            System.out.println(\"The two array lists are not equal.\");\n        }\n    }\n}\n```\n\nThis program compares two array lists `list1` and `list2` to check if they are equal or not. If the two array lists have the same elements in the same order, the program will output \"The two array lists are equal.\". Otherwise, it will output \"The two array lists are not equal.\"."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 74,
+    "completion_tokens" : 215,
+    "total_tokens" : 289
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

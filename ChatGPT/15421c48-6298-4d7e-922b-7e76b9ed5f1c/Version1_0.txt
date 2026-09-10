@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9D9pdrEhU9mrbr5JpslRyt0MZkq94",
+  "object" : "chat.completion",
+  "created" : 1712923085,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "public class Journal {\n    private String authorName;\n    private String paperTitle;\n    private Date dateOfSubmission;\n    \n    public Journal(String authorName, String paperTitle, Date dateOfSubmission) {\n        this.authorName = authorName;\n        this.paperTitle = paperTitle;\n        this.dateOfSubmission = dateOfSubmission;\n    }\n    \n    public void displayDetails() {\n        System.out.println(\"Author: \" + authorName);\n        System.out.println(\"Paper Title: \" + paperTitle);\n        System.out.println(\"Date of Submission: \" + dateOfSubmission);\n    }\n    \n    public String getSubmissionDetails() {\n        String[] words = paperTitle.split(\" \");\n        StringBuilder formattedTitle = new StringBuilder();\n        \n        for(String word : words) {\n            formattedTitle.append(word.substring(0,1).toUpperCase())\n                         .append(word.substring(1).toLowerCase())\n                         .append(\" \");\n        }\n        \n        return formattedTitle.toString().trim();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 173,
+    "completion_tokens" : 197,
+    "total_tokens" : 370
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

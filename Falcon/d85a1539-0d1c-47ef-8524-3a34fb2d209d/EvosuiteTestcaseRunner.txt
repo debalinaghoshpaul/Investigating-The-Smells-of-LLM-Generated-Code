@@ -1,0 +1,7 @@
+JUnit version 4.13
+.The difference between the largest and the smallest integer is: 86517432
+.
+Time: 0.347
+
+OK (2 tests)
+

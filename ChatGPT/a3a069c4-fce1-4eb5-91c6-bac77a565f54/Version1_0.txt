@@ -1,0 +1,76 @@
+```java
+// Java program to compare two linked lists
+
+// A linked list node
+class Node {
+    int data;
+    Node next;
+}
+
+// A linked list
+class LinkedList {
+    Node head;
+
+    // Function to insert a node at the beginning of the linked list
+    void push(int data) {
+        Node newNode = new Node();
+        newNode.data = data;
+        newNode.next = head;
+        head = newNode;
+    }
+
+    // Function to compare two linked lists
+    boolean compare(LinkedList otherList) {
+        Node thisNode = head;
+        Node otherNode = otherList.head;
+
+        // Traverse both lists simultaneously
+        while (thisNode != null && otherNode != null) {
+            // Check if the data in the nodes is not equal
+            if (thisNode.data != otherNode.data) {
+                return false;
+            }
+
+            // Move to the next nodes in both lists
+            thisNode = thisNode.next;
+            otherNode = otherNode.next;
+        }
+
+        // Check if both lists have reached the end
+        return (thisNode == null && otherNode == null);
+    }
+
+    // Function to print the linked list
+    void printList() {
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + " ");
+            temp = temp.next;
+        }
+        System.out.println();
+    }
+
+    // Driver code
+    public static void main(String[] args) {
+        LinkedList list1 = new LinkedList();
+        list1.push(1);
+        list1.push(2);
+        list1.push(3);
+
+        LinkedList list2 = new LinkedList();
+        list2.push(1);
+        list2.push(2);
+        list2.push(3);
+
+        // Compare the two linked lists
+        boolean isEqual = list1.compare(list2);
+
+        // Print the result
+        if (isEqual) {
+            System.out.println("The two linked lists are equal.");
+        } else {
+            System.out.println("The two linked lists are not equal.");
+        }
+    }
+}
+```

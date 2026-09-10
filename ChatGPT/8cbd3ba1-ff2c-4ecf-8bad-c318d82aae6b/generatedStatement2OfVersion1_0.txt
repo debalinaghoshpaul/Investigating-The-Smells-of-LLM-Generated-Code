@@ -1,0 +1,4 @@
+
+
+Output:
+The index of the first non-repeating character in the string 'leetcode' is: 3

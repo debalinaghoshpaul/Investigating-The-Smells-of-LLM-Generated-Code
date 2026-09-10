@@ -1,0 +1,12 @@
+JUnit version 4.13
+..AES Encrypted Data: AES-encrypted data
+AES Decrypted Data: AES-decrypted data
+RSA Encrypted Data: RSA-encrypted data
+RSA Decrypted Data: RSA-decrypted data
+Empty String Encrypted Data: AES-encrypted data
+Empty String Decrypted Data: AES-decrypted data
+
+Time: 0.536
+
+OK (2 tests)
+

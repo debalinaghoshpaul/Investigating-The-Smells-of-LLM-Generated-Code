@@ -1,0 +1,46 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: testing_ChatGPT_on_java.Vowel_Check
+* Starting client
+* Connecting to master process on port 3281
+* Analyzing classpath: 
+* Error while initializing target class: Catch type is not a subclass of Throwable in exception handler 212
+Exception Details:
+  Location:
+    testing_ChatGPT_on_java/Vowel_Check.main([Ljava/lang/String;)V @212: astore_1
+  Reason:
+    Type 'testing_ChatGPT_on_java/NoVowelsException' (constant pool 44) is not assignable to 'java/lang/Throwable'
+  Bytecode:
+    0x0000000: 120d 122a 01b8 0015 120d 122a 122d b800
+    0x0000010: 1a14 002e 1230 b800 3412 30b2 003a b800
+    0x0000020: 4012 30b6 0044 a000 1012 46b8 0040 1247
+    0x0000030: b600 44a7 0005 1249 4c12 0d12 2a12 4ab8
+    0x0000040: 001a b200 50bb 0052 5914 002e 1247 b800
+    0x0000050: 3412 47b2 003a b800 4012 16b6 0044 a000
+    0x0000060: 1012 46b8 0040 1253 b600 44a7 0005 1255
+    0x0000070: b700 582b b600 5cb6 0060 b600 6512 0d12
+    0x0000080: 2a12 66b8 001a 2bb8 0069 120d 122a 126a
+    0x0000090: b800 1ab2 0050 1400 2e12 16b8 0034 1216
+    0x00000a0: b200 3ab8 0040 126b b600 44a0 0010 1246
+    0x00000b0: b800 4012 2db6 0044 a700 0512 6db6 0065
+    0x00000c0: 120d 122a 126e b800 1ab8 0040 126f b600
+    0x00000d0: 44a7 004b 4c12 0d12 2a12 70b8 001a b200
+    0x00000e0: 50bb 0052 5914 002e 1253 b800 3412 53b2
+    0x00000f0: 003a b800 4012 4ab6 0044 a000 1012 46b8
+    0x0000100: 0040 1266 b600 44a7 0005 1272 b700 582b
+    0x0000110: b600 75b6 005c b600 60b6 0065 120d 122a
+    0x0000120: 1276 b800 1a12 0d12 2ab8 0024 b1       
+  Exception Handler Table:
+    bci [8, 192] => handler: 212
+  Stackmap Table:
+    same_frame(@54)
+    same_locals_1_stack_item_frame(@56,Object[#126])
+    full_frame(@110,{Object[#127],Object[#126]},{Object[#98],Uninitialized[#69],Uninitialized[#69]})
+    full_frame(@112,{Object[#127],Object[#126]},{Object[#98],Uninitialized[#69],Uninitialized[#69],Object[#126]})
+    same_locals_1_stack_item_extended(@187,Object[#98])
+    full_frame(@189,{Object[#127],Object[#126]},{Object[#98],Object[#126]})
+    full_frame(@212,{Object[#127]},{Object[#44]})
+    full_frame(@266,{Object[#127],Object[#44]},{Object[#98],Uninitialized[#225],Uninitialized[#225]})
+    full_frame(@268,{Object[#127],Object[#44]},{Object[#98],Uninitialized[#225],Uninitialized[#225],Object[#126]})
+    full_frame(@284,{Object[#127],Object[#4]},{})
+
+* Computation finished

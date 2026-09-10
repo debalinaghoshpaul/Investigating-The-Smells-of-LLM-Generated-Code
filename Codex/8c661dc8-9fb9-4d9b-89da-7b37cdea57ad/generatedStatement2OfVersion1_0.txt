@@ -1,0 +1,8 @@
+
+
+Test cases:
+
+* **Normal case:** Input: 1000, Output: 1000.0 inch is 25.4 meters
+* **Zero input:** Input: 0, Output: 0.0 inch is 0.0 meters
+* **Negative input:** Input: -1000, Output: -1000.0 inch is -25.4 meters
+* **Decimal input:** Input: 12.5, Output: 12.5 inch is 0.3175 meters

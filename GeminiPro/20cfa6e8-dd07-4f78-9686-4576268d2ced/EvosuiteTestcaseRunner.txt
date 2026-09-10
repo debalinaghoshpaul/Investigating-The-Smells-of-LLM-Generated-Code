@@ -1,0 +1,54 @@
+JUnit version 4.13
+.A security manager has already been established for the current application.
+Key: USERDOMAIN_ROAMINGPROFILE, Value: LAPTOP-OB8UBN3T
+Key: LOCALAPPDATA, Value: C:\Users\debal\AppData\Local
+Key: PROCESSOR_LEVEL, Value: 6
+Key: USERDOMAIN, Value: LAPTOP-OB8UBN3T
+Key: FPS_BROWSER_APP_PROFILE_STRING, Value: Internet Explorer
+Key: LOGONSERVER, Value: \\LAPTOP-OB8UBN3T
+Key: PROMPT, Value: $P$G
+Key: SESSIONNAME, Value: Console
+Key: ALLUSERSPROFILE, Value: C:\ProgramData
+Key: PROCESSOR_ARCHITECTURE, Value: AMD64
+Key: PSModulePath, Value: C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+Key: SystemDrive, Value: C:
+Key: OneDrive, Value: C:\Users\debal\OneDrive
+Key: =C:, Value: C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\target\classes
+Key: APPDATA, Value: C:\Users\debal\AppData\Roaming
+Key: EFC_12424, Value: 1
+Key: JUNIT_HOME, Value: C:\JUNIT
+Key: USERNAME, Value: debal
+Key: ProgramFiles(x86), Value: C:\Program Files (x86)
+Key: CommonProgramFiles, Value: C:\Program Files\Common Files
+Key: Path, Value: C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-20\bin;C:\Morphy;C:\Program Files\Git LFS;C:\Morphy;"%CLASSPATH%;%JUNIT_HOME%\JUNIT4.10.jar;.;;C:\JUNIT\JUNIT4.10.jar;.;;%GSON_HOME%\gson-2.8.6.jar;:;";C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Git\cmd;C:\Users\debal\AppData\Local\Programs\Python\Launcher\;C:\Users\debal\AppData\Local\Microsoft\WindowsApps;C:\Users\debal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\debal\AppData\Roaming\npm;C:\Morphy\jackson-databind-2.15.2.jar;C:\Morphy\com.fasterxml.jackson.databind\jackson-databind-2.15.2.jar;C:\Morphy\jackson-core-2.15.2.jar;C:\Morphy\TestSystem;C:\Morphy;C:\Users\debal\AppData\Local\Programs\Microsoft VS Code\bin\code;
+Key: FPS_BROWSER_USER_PROFILE_STRING, Value: Default
+Key: PATHEXT, Value: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+Key: DriverData, Value: C:\Windows\System32\Drivers\DriverData
+Key: OS, Value: Windows_NT
+Key: COMPUTERNAME, Value: LAPTOP-OB8UBN3T
+Key: PROCESSOR_REVISION, Value: 8c01
+Key: CLASSPATH, Value: %CLASSPATH%;%JUNIT_HOME%\JUNIT4.10.jar;.;;C:\JUNIT\JUNIT4.10.jar;.;;C:\JUNIT\JUNIT4.10.jar;.;
+Key: CommonProgramW6432, Value: C:\Program Files\Common Files
+Key: ComSpec, Value: C:\WINDOWS\system32\cmd.exe
+Key: ProgramData, Value: C:\ProgramData
+Key: GIT_LFS_PATH, Value: C:\Program Files\Git LFS
+Key: ProgramW6432, Value: C:\Program Files
+Key: HOMEPATH, Value: \Users\debal
+Key: SystemRoot, Value: C:\WINDOWS
+Key: TEMP, Value: C:\Users\debal\AppData\Local\Temp
+Key: HOMEDRIVE, Value: C:
+Key: PROCESSOR_IDENTIFIER, Value: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+Key: USERPROFILE, Value: C:\Users\debal
+Key: TMP, Value: C:\Users\debal\AppData\Local\Temp
+Key: CommonProgramFiles(x86), Value: C:\Program Files (x86)\Common Files
+Key: ProgramFiles, Value: C:\Program Files
+Key: PUBLIC, Value: C:\Users\Public
+Key: NUMBER_OF_PROCESSORS, Value: 8
+Key: windir, Value: C:\WINDOWS
+Key: =::, Value: ::\
+Key: ZES_ENABLE_SYSMAN, Value: 1
+.
+Time: 0.346
+
+OK (2 tests)
+

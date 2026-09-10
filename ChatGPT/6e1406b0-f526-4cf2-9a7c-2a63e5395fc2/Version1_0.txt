@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yOqajZ9wnj1HJkQ35dh8lSN94tf",
+  "object" : "chat.completion",
+  "created" : 1710257532,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class CheckTensSum {\n\n    public static void main(String[] args) {\n        int[] nums = {10, 20, 10, 40, 10, 50, 10, 70};\n\n        System.out.println(checkTensSum(nums));\n    }\n\n    public static boolean checkTensSum(int[] nums) {\n        int sumOfTens = 0;\n\n        for (int num : nums) {\n            if (num == 10) {\n                sumOfTens += num;\n            }\n        }\n\n        return sumOfTens == 30;\n    }\n}\n```\n\nOutput:\n```\ntrue\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 89,
+    "completion_tokens" : 136,
+    "total_tokens" : 225
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

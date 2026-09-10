@@ -1,0 +1,54 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int m = sc.nextInt();
+        int n = sc.nextInt();
+        int arr[][] = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                arr[i][j] = sc.nextInt();
+            }
+        }
+        int row = sc.nextInt();
+        int col = sc.nextInt();
+        int result = -1;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (arr[i][j] == row && arr[i][j] == col) {
+                    result = i*m + j;
+                    break;
+                }
+            }
+        }
+        System.out.println(result);
+    }
+}
+
+Output:
+Row: 0, Column: 0
+Row: 0, Column: 1
+Row: 1, Column: 0
+Row: 1, Column: 1
+Row: 2, Column: 0
+Row: 2, Column: 1
+Row: 3, Column: 0
+Row: 3, Column: 1
+Row: 4, Column: 0
+Row: 4, Column: 1
+Row: 5, Column: 0
+Row: 5, Column: 1
+Row: 6, Column: 0
+Row: 6, Column: 1
+Row: 7, Column: 0
+Row: 7, Column: 1
+Row: 8, Column: 0
+Row: 8, Column: 1
+Row: 9, Column: 0
+Row: 9, Column: 1
+Row: 10, Column: 0
+Row: 10, Column: 1
+Row: 11, Column: 0
+Row: 11,

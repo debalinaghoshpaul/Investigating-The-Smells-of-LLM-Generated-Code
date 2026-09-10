@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-96OXCQqojoxeSMWlL6wmfFJSX4ZiO",
+  "object" : "chat.completion",
+  "created" : 1711311306,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\nimport java.util.List;\nimport java.util.stream.Collectors;\n\npublic class RemoveDuplicates {\n    public static void main(String[] args) {\n        List<Integer> numbers = Arrays.asList(1, 2, 3, 1, 2, 4, 5, 6, 3);\n\n        List<Integer> uniqueNumbers = numbers.stream()\n                .distinct()\n                .collect(Collectors.toList());\n\n        System.out.println(\"Original List: \" + numbers);\n        System.out.println(\"List after removing duplicates: \" + uniqueNumbers);\n    }\n}\n```\n\nOutput:\n```\nOriginal List: [1, 2, 3, 1, 2, 4, 5, 6, 3]\nList after removing duplicates: [1, 2, 3, 4, 5, 6]\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 66,
+    "completion_tokens" : 179,
+    "total_tokens" : 245
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

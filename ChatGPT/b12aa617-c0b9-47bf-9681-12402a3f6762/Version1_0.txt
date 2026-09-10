@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DA54Ljv2ZHf1DBChTIGcbJfVjv8q",
+  "object" : "chat.completion",
+  "created" : 1712924042,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\nclass StudentRecord {\n    private int quiz1, quiz2, quiz3, midterm, finalExam;\n    private double overallNumericScore;\n    private char finalLetterGrade;\n\n    // Constructor\n    public StudentRecord(int quiz1, int quiz2, int quiz3, int midterm, int finalExam) {\n        this.quiz1 = quiz1;\n        this.quiz2 = quiz2;\n        this.quiz3 = quiz3;\n        this.midterm = midterm;\n        this.finalExam = finalExam;\n        computeOverallNumericGrade();\n        computeFinalLetterGrade();\n    }\n\n    // Accessor methods\n    public double getOverallNumericScore() {\n        return overallNumericScore;\n    }\n\n    public char getFinalLetterGrade() {\n        return finalLetterGrade;\n    }\n\n    // Calculate overall numeric grade based on grading policy\n    private void computeOverallNumericGrade() {\n        double quizPercentage = ((quiz1 + quiz2 + quiz3) / 30.0) * 25;\n        double midtermPercentage = (midterm / 100.0) * 35;\n        double finalPercentage = (finalExam / 100.0) * 40;\n\n        overallNumericScore = quizPercentage + midtermPercentage + finalPercentage;\n    }\n\n    // Determine final letter grade based on overall numeric score\n    private void computeFinalLetterGrade() {\n        if (overallNumericScore >= 90) {\n            finalLetterGrade = 'A';\n        } else if (overallNumericScore >= 80) {\n            finalLetterGrade = 'B';\n        } else if (overallNumericScore >= 70) {\n            finalLetterGrade = 'C';\n        } else if (overallNumericScore >= 60) {\n            finalLetterGrade = 'D';\n        } else {\n            finalLetterGrade = 'F';\n        }\n    }\n\n    public String toString() {\n        return \"Quiz Scores: \" + quiz1 + \", \" + quiz2 + \", \" + quiz3 + \"\\n\" +\n               \"Midterm Exam: \" + midterm + \"\\n\" +\n               \"Final Exam: \" + finalExam + \"\\n\" +\n               \"Overall Numeric Score: \" + overallNumericScore + \"\\n\" +\n               \"Final Letter Grade: \" + finalLetterGrade;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\n        System.out.println(\"Enter three quiz scores (out of 10):\");\n        int quiz1 = scanner.nextInt();\n        int quiz2 = scanner.nextInt();\n        int quiz3 = scanner.nextInt();\n\n        System.out.println(\"Enter midterm exam score (out of 100):\");\n        int midterm = scanner.nextInt();\n\n        System.out.println(\"Enter final exam score (out of 100):\");\n        int finalExam = scanner.nextInt();\n\n        StudentRecord student = new StudentRecord(quiz1, quiz2, quiz3, midterm, finalExam);\n\n        System.out.println(\"\\nStudent's Record:\\n\" + student.toString());\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 417,
+    "completion_tokens" : 625,
+    "total_tokens" : 1042
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

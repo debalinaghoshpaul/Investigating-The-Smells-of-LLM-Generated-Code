@@ -1,0 +1,39 @@
+**Problem Description:**
+
+Write a Java program to return the sum of the digits present in the given string. In the absence of digits, the sum is 0.
+
+**Sample Output:**
+
+```
+Input: "123"
+Output: 6
+
+Input: "abc"
+Output: 0
+```
+
+**Test Cases:**
+
+**Regular Cases:**
+
+* Input: "123"
+* Input: "456"
+* Input: "987"
+
+**Edge Cases:**
+
+* Input: "0"
+* Input: "10"
+* Input: "100"
+
+**Corner Cases:**
+
+* Input: "" (empty string)
+* Input: "a1b2c3" (digits mixed with characters)
+* Input: "12 34" (digits separated by spaces)
+
+**Invalid Cases:**
+
+* Input: null (not a string)
+* Input: "12.34" (contains decimal points)
+* Input: "12e3" (contains scientific notation)

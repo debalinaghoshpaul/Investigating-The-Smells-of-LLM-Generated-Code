@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class AddLastThreeCharsAtStartAndEnd {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Check if the string length is greater than three
+        if (str.length() < 3) {
+            System.out.println("The string length must be greater than three");
+            return;
+        }
+
+        // Get the last three characters of the string
+        String lastThreeChars = str.substring(str.length() - 3);
+
+        // Add the last three characters at the front and back of the string
+        String newStr = lastThreeChars + str + lastThreeChars;
+
+        // Print the new string
+        System.out.println("The new string is: " + newStr);
+    }
+}

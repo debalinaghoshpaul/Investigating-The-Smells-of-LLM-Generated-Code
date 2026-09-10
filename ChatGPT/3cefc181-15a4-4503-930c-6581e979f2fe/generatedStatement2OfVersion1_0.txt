@@ -1,0 +1,21 @@
+
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * `-5 + 8 * 6`: Negative number in the first operand
+    * `(55+9) % 9`: Division by zero
+    * `20 + -3*5 / 8`: Division by zero
+    * `5 + 15 / 3 * 2 - 8 % 3 : 43`: Multiple operations and an unexpected result
+
+* **Positive Test Cases:**
+    * `10 + 20 * 3`: Positive numbers in all operands
+    * `(50+10) % 5`: Division by a positive number
+    * `20 + -3*5 / 2`: Positive and negative numbers in the operands
+    * `5 + 15 / 3 * 2 - 8 % 3 : 40`: Multiple operations with a different expected result
+
+* **Negative Test Cases:**
+    * `-10 + 20 * 3`: Negative number in the first operand
+    * `(50+10) % 0`: Division by zero
+    * `20 + -3*5 / -2`: Negative numbers in the operands and division by a negative number
+    * `5 + 15 / 3 * 2 - 8 % 3 : 41`: Multiple operations with a different expected result

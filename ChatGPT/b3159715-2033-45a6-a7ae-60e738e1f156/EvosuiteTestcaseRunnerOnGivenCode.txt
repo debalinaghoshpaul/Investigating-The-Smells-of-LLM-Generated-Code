@@ -1,0 +1,8 @@
+JUnit version 4.13
+.....Index position of 25 is: 0
+Index position of 77 is: 6
+.
+Time: 0.33
+
+OK (6 tests)
+

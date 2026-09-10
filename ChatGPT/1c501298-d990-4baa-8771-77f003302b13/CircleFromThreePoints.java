@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class CircleFromThreePoints {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the three points
+        double x1 = scanner.nextDouble();
+        double y1 = scanner.nextDouble();
+        double x2 = scanner.nextDouble();
+        double y2 = scanner.nextDouble();
+        double x3 = scanner.nextDouble();
+        double y3 = scanner.nextDouble();
+
+        // Compute the center of the circle
+        double x0 = (x1*x1*y2 + x2*x2*y3 + x3*x3*y1 - y1*y1*x2 - y2*y2*x3 - y3*y3*x1) / (2*(x1*y2 - x2*y1 + x2*y3 - x3*y2 + x3*y1 - x1*y3));
+        double y0 = (x1*x1*y3 + x2*x2*y1 + x3*x3*y2 - y1*y1*x3 - y2*y2*x1 - y3*y3*x2) / (2*(x1*y2 - x2*y1 + x2*y3 - x3*y2 + x3*y1 - x1*y3));
+
+        // Compute the radius of the circle
+        double radius = Math.sqrt((x1 - x0)*(x1 - x0) + (y1 - y0)*(y1 - y0));
+
+        // Print the center and radius of the circle
+        System.out.println("Center: (" + x0 + ", " + y0 + ")");
+        System.out.println("Radius: " + radius);
+    }
+}

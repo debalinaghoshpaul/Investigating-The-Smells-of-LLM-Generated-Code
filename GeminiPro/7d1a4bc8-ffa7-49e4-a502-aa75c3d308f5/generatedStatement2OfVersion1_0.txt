@@ -1,0 +1,22 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: ["Hello", "World", "This", "is", "a", "sample", "list"]
+* Expected Output: Longest String: sample, Smallest String: a
+
+* Input: ["Java", "Python", "C++", "JavaScript", "Ruby"]
+* Expected Output: Longest String: JavaScript, Smallest String: Java
+
+**Corner Cases:**
+
+* Input: [] (empty list)
+* Expected Output: Longest String: null, Smallest String: null
+
+* Input: [" "] (single-character string)
+* Expected Output: Longest String:  , Smallest String:  
+
+* Input: ["Lorem ipsum dolor sit amet"] (long string)
+* Expected Output: Longest String: Lorem ipsum dolor sit amet, Smallest String: Lorem ipsum dolor sit amet

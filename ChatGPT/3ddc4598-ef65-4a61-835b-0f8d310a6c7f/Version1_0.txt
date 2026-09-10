@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-932JoH5mWGi0DLOmIoObnKX0M6rjQ",
+  "object" : "chat.completion",
+  "created" : 1710510924,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.ArrayList;\nimport java.util.Collections;\n\npublic class ArrayListShuffle {\n    public static void main(String[] args) {\n        \n        // Creating an ArrayList\n        ArrayList<String> originalList = new ArrayList<>();\n        originalList.add(\"Apple\");\n        originalList.add(\"Banana\");\n        originalList.add(\"Orange\");\n        originalList.add(\"Grapes\");\n        \n        // Creating a new ArrayList to store shuffled elements\n        ArrayList<String> shuffledList = new ArrayList<>(originalList);\n        \n        // Shuffling the elements in the new ArrayList\n        Collections.shuffle(shuffledList);\n        \n        // Displaying the original and shuffled ArrayLists\n        System.out.println(\"Original List: \" + originalList);\n        System.out.println(\"Shuffled List: \" + shuffledList);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 81,
+    "completion_tokens" : 160,
+    "total_tokens" : 241
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

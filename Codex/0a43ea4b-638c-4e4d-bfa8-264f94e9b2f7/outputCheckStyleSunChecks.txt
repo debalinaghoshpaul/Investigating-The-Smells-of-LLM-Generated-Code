@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Stack\0a43ea4b-638c-4e4d-bfa8-264f94e9b2f7\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Stack\0a43ea4b-638c-4e4d-bfa8-264f94e9b2f7\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Stack\0a43ea4b-638c-4e4d-bfa8-264f94e9b2f7\generatedProgram1OfVersion1_0.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Stack\0a43ea4b-638c-4e4d-bfa8-264f94e9b2f7\generatedProgram1OfVersion1_0.java:5:9: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Stack\0a43ea4b-638c-4e4d-bfa8-264f94e9b2f7\generatedProgram1OfVersion1_0.java:5:33: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Stack\0a43ea4b-638c-4e4d-bfa8-264f94e9b2f7\generatedProgram1OfVersion1_0.java:9:28: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Stack\0a43ea4b-638c-4e4d-bfa8-264f94e9b2f7\generatedProgram1OfVersion1_0.java:10:28: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Stack\0a43ea4b-638c-4e4d-bfa8-264f94e9b2f7\generatedProgram1OfVersion1_0.java:11:28: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Stack\0a43ea4b-638c-4e4d-bfa8-264f94e9b2f7\generatedProgram1OfVersion1_0.java:18: Line is longer than 80 characters (found 91). [LineLength]
+Audit done.

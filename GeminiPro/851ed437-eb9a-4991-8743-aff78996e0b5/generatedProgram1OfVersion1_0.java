@@ -1,0 +1,65 @@
+import java.util.Arrays;
+
+public class QuickSort {
+
+    public static void main(String[] args) {
+        // Test cases
+        int[] arr1 = {10, 7, 8, 9, 1, 5};
+        int[] arr2 = {};
+        int[] arr3 = {1};
+        int[] arr4 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+        int[] arr5 = {1, 2, 3, 4, 5, 10, 9, 8, 7, 6};
+
+        // Sort the arrays
+        quickSort(arr1, 0, arr1.length - 1);
+        quickSort(arr2, 0, arr2.length - 1);
+        quickSort(arr3, 0, arr3.length - 1);
+        quickSort(arr4, 0, arr4.length - 1);
+        quickSort(arr5, 0, arr5.length - 1);
+
+        // Print the sorted arrays
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr3));
+        System.out.println(Arrays.toString(arr4));
+        System.out.println(Arrays.toString(arr5));
+    }
+
+    public static void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            // Partition the array
+            int partitionIndex = partition(arr, low, high);
+
+            // Recursively sort the left and right subarrays
+            quickSort(arr, low, partitionIndex - 1);
+            quickSort(arr, partitionIndex + 1, high);
+        }
+    }
+
+    public static int partition(int[] arr, int low, int high) {
+        // Choose the pivot element
+        int pivot = arr[high];
+        int i = (low - 1);
+
+        // Iterate through the array
+        for (int j = low; j < high; j++) {
+            // If the current element is less than the pivot
+            if (arr[j] < pivot) {
+                i++;
+
+                // Swap the current element with the element at index i
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        // Swap the pivot element with the element at index i + 1
+        int temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+
+        // Return the partition index
+        return i + 1;
+    }
+}

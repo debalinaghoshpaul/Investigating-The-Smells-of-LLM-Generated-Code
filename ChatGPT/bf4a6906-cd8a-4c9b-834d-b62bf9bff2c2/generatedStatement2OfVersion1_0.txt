@@ -1,0 +1,3 @@
+
+
+This program demonstrates the implementation of a stack using a linked list in Java. The stack supports operations like push, pop, peek, and display. Feel free to modify the program as needed.

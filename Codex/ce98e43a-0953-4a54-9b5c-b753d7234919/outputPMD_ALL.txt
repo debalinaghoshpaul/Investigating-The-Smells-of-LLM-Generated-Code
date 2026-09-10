@@ -1,0 +1,6 @@
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\ce98e43a-0953-4a54-9b5c-b753d7234919\generatedProgram1OfVersion1_0.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\ce98e43a-0953-4a54-9b5c-b753d7234919\generatedProgram1OfVersion1_0.java:1:	CommentRequired:	Class comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\ce98e43a-0953-4a54-9b5c-b753d7234919\generatedProgram1OfVersion1_0.java:2:	CommentRequired:	Field comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\ce98e43a-0953-4a54-9b5c-b753d7234919\generatedProgram1OfVersion1_0.java:3:	CommentRequired:	Field comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\ce98e43a-0953-4a54-9b5c-b753d7234919\generatedProgram1OfVersion1_0.java:4:	CommentRequired:	Field comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\ce98e43a-0953-4a54-9b5c-b753d7234919\generatedProgram1OfVersion1_0.java:7:	CommentRequired:	Public method and constructor comments are required

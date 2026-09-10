@@ -1,0 +1,64 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.26
+There were 11 failures:
+1) test00(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	solution cannot be resolved
+
+	at testing_ChatGPT_on_java.solution_ESTest.test00(solution_ESTest.java:23)
+2) test01(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	solution cannot be resolved
+
+	at testing_ChatGPT_on_java.solution_ESTest.test01(solution_ESTest.java:30)
+3) test10(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	solution cannot be resolved to a type
+	solution cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.solution_ESTest.test10(solution_ESTest.java:136)
+4) test04(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	solution cannot be resolved
+
+	at testing_ChatGPT_on_java.solution_ESTest.test04(solution_ESTest.java:61)
+5) test05(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	solution cannot be resolved
+
+	at testing_ChatGPT_on_java.solution_ESTest.test05(solution_ESTest.java:77)
+6) test02(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	solution cannot be resolved
+
+	at testing_ChatGPT_on_java.solution_ESTest.test02(solution_ESTest.java:37)
+7) test03(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	solution cannot be resolved
+
+	at testing_ChatGPT_on_java.solution_ESTest.test03(solution_ESTest.java:45)
+8) test08(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	solution cannot be resolved
+
+	at testing_ChatGPT_on_java.solution_ESTest.test08(solution_ESTest.java:123)
+9) test09(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	solution cannot be resolved
+
+	at testing_ChatGPT_on_java.solution_ESTest.test09(solution_ESTest.java:130)
+10) test06(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	solution cannot be resolved
+
+	at testing_ChatGPT_on_java.solution_ESTest.test06(solution_ESTest.java:92)
+11) test07(testing_ChatGPT_on_java.solution_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	solution cannot be resolved
+
+	at testing_ChatGPT_on_java.solution_ESTest.test07(solution_ESTest.java:108)
+
+FAILURES!!!
+Tests run: 11,  Failures: 11
+

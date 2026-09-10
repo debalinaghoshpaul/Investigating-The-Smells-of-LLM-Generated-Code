@@ -1,0 +1,21 @@
+
+
+**Test Cases:**
+
+**Valid Cases:**
+
+* Add an account with valid account number, account holder name, and initial balance.
+* Remove an account with a valid account number.
+* Deposit a valid amount of money into an account.
+* Withdraw a valid amount of money from an account.
+* Check the balance of an account.
+
+**Corner Cases:**
+
+* Add an account with an invalid account number (e.g., empty string, null).
+* Add an account with an invalid account holder name (e.g., empty string, null).
+* Add an account with a negative initial balance.
+* Remove an account with an invalid account number (e.g., empty string, null).
+* Deposit a negative amount of money into an account.
+* Withdraw an amount that exceeds the account balance.
+* Withdraw money from an account with an invalid account number (e.g., empty string, null).

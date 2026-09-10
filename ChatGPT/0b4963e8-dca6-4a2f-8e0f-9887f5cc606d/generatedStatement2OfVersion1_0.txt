@@ -1,0 +1,9 @@
+
+
+**Test cases:**
+
+* **Normal case:** The list contains a mix of uppercase and lowercase letters.
+* **Empty list:** The list is empty.
+* **Null list:** The list is null.
+* **List with null elements:** The list contains null elements.
+* **List with special characters:** The list contains special characters.

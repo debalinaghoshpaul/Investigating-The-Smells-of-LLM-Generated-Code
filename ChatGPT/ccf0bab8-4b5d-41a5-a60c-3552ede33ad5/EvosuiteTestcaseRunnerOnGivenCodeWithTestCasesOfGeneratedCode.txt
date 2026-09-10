@@ -1,0 +1,23 @@
+JUnit version 4.13
+.E.E
+Time: 0.379
+There were 2 failures:
+1) test1(testing_ChatGPT_on_java.ReverseLinkedList_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	The public type ReverseLinkedList must be defined in its own file
+	The type LinkedList is not generic; it cannot be parameterized with arguments <Integer>
+	The type LinkedList is not generic; it cannot be parameterized with arguments <>
+
+	at testing_ChatGPT_on_java.ReverseLinkedList.<init>(Main.java:2)
+	at testing_ChatGPT_on_java.ReverseLinkedList_ESTest.test1(ReverseLinkedList_ESTest.java:27)
+2) test0(testing_ChatGPT_on_java.ReverseLinkedList_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	The type LinkedList is not generic; it cannot be parameterized with arguments <Integer>
+	The type LinkedList is not generic; it cannot be parameterized with arguments <>
+
+	at testing_ChatGPT_on_java.ReverseLinkedList.main(Main.java:6)
+	at testing_ChatGPT_on_java.ReverseLinkedList_ESTest.test0(ReverseLinkedList_ESTest.java:21)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Input the year: 20 is a leap year
+.Input the year: .Input the year: 7 is not a leap year
+.Input the year: 0 is a leap year
+..Input the year: .Input the year: -8 is a leap year
+
+Time: 0.345
+
+OK (7 tests)
+

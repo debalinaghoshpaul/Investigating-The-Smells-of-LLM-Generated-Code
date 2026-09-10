@@ -1,0 +1,58 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class CompareStringsIgnoringCase {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the two strings from the user
+        System.out.print("Enter the first string: ");
+        String str1 = input.nextLine();
+
+        System.out.print("Enter the second string: ");
+        String str2 = input.nextLine();
+
+        // Compare the strings ignoring case differences
+        int comparison = str1.compareToIgnoreCase(str2);
+
+        // Print the result
+        if (comparison == 0) {
+            System.out.println("The two strings are equal.");
+        } else if (comparison > 0) {
+            System.out.println("The first string is lexicographically greater than the second string.");
+        } else {
+            System.out.println("The second string is lexicographically greater than the first string.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: `apple`, `banana`
+* Output: `The second string is lexicographically greater than the first string.`
+
+* Input: `apple`, `APPLE`
+* Output: `The two strings are equal.`
+
+* Input: `123`, `abc`
+* Output: `The first string is lexicographically greater than the second string.`
+
+**Corner Cases:**
+
+* Input: `"", ""`
+* Output: `The two strings are equal.`
+
+* Input: `"a", ""`
+* Output: `The first string is lexicographically greater than the second string.`
+
+* Input: `null`, `"a"`
+* Output: `NullPointerException` (because `null` cannot be compared with a non-null string)
+
+* Input: `"a", null`
+* Output: `NullPointerException` (because `null` cannot be compared with a non-null string)

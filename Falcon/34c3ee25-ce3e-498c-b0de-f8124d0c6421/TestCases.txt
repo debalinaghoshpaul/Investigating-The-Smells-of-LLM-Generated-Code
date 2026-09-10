@@ -1,0 +1,39 @@
+**Java program:**
+
+```java
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class CurrentDateAndTime {
+
+    public static void main(String[] args) {
+        // Create a LocalDateTime object
+        LocalDateTime now = LocalDateTime.now();
+
+        // Create a DateTimeFormatter object to format the date and time
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
+        // Format the date and time
+        String formattedDateTime = now.format(formatter);
+
+        // Print the formatted date and time
+        System.out.println(formattedDateTime);
+    }
+}
+```
+
+**Test cases:**
+
+**Normal case:**
+
+* Input: None
+* Output: The current date and time in the format "yyyy-MM-dd HH:mm:ss"
+
+**Corner cases:**
+
+* **Invalid format string:**
+    * Input: A DateTimeFormatter object with an invalid format string
+    * Output: An IllegalArgumentException is thrown
+* **Null LocalDateTime object:**
+    * Input: A null LocalDateTime object
+    * Output: A NullPointerException is thrown

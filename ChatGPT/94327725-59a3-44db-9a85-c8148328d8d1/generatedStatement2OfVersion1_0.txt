@@ -1,0 +1,5 @@
+
+
+This program creates a stack with elements 1, 2, 3, 4, and 5. The `removeElements` method removes all even numbers from the original stack and returns a new stack with only odd numbers. Finally, the program prints both the original and new stack.
+
+You can modify the `removeElements` method to define your own condition for removing elements from the original stack.

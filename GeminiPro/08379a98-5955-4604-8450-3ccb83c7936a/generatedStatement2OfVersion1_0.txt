@@ -1,0 +1,33 @@
+
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* Input: `List<String> words = Arrays.asList("apple", "banana", "orange", "grape", "strawberry");`
+  * Expected Output: `true`
+* Input: `List<String> words = Arrays.asList("banana", "orange", "grape", "strawberry", "apple");`
+  * Expected Output: `true`
+* Input: `List<String> words = Arrays.asList("apple pie", "banana bread", "orange juice", "grape jelly", "strawberry shortcake");`
+  * Expected Output: `true`
+
+**Negative Test Cases:**
+
+* Input: `List<String> words = Arrays.asList("banana", "orange", "grape", "strawberry");`
+  * Expected Output: `false`
+* Input: `List<String> words = Arrays.asList();`
+  * Expected Output: `false`
+* Input: `List<String> words = null;`
+  * Expected Output: `false`
+
+**Corner Cases:**
+
+* Input: `List<String> words = Arrays.asList("apple", "banana", "orange", "grape", "strawberry");`
+  * Target word: "Apple"
+  * Expected Output: `false` (case-sensitive search)
+* Input: `List<String> words = Arrays.asList("apple", "banana", "orange", "grape", "strawberry");`
+  * Target word: ""
+  * Expected Output: `false` (empty target word)
+* Input: `List<String> words = Arrays.asList("apple", "banana", "orange", "grape", "strawberry");`
+  * Target word: "apple "
+  * Expected Output: `false` (contains trailing whitespace)

@@ -1,0 +1,3 @@
+
+
+In this solution, we perform a depth-first search (DFS) traversal of the binary tree while keeping track of the current consecutive path length. We update the longest path length whenever we encounter a consecutive sequence. Finally, we return the longest consecutive path length found in the binary tree.

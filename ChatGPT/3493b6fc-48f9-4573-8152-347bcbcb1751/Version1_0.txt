@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-945Ak4qMIbPZGE3j3KcsIR4hNvDZc",
+  "object" : "chat.completion",
+  "created" : 1710760222,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class BMICalculator {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        System.out.print(\"Enter weight in pounds: \");\n        double weight = sc.nextDouble();\n\n        System.out.print(\"Enter height in inches: \");\n        double height = sc.nextDouble();\n\n        double bmi = calculateBMI(weight, height);\n\n        System.out.println(\"Body Mass Index is \" + bmi);\n    }\n\n    public static double calculateBMI(double weight, double height) {\n        double bmi = (weight / (height * height)) * 703;\n        return bmi;\n    }\n}\n```\n\nYou can run this Java program, enter the weight in pounds and height in inches as input, and it will calculate the Body Mass Index (BMI) accordingly."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 95,
+    "completion_tokens" : 165,
+    "total_tokens" : 260
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

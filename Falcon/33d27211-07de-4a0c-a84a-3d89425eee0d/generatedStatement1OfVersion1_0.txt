@@ -1,0 +1,8 @@
+ Input first number: 5 Input second number: 1 false
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example:
+// Input first number: 5
+// Input second number: 0.5
+// 

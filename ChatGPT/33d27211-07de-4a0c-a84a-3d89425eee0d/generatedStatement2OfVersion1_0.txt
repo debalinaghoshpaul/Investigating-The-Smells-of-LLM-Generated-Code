@@ -1,0 +1,19 @@
+
+
+**Test cases:**
+
+* **Valid inputs:**
+    * Input first number: 0.5
+    * Input second number: 0.75
+    * Output: true
+* **Invalid inputs:**
+    * Input first number: 0
+    * Input second number: 1
+    * Output: false
+* **Corner cases:**
+    * Input first number: 0
+    * Input second number: 0
+    * Output: false
+    * Input first number: 1
+    * Input second number: 1
+    * Output: false

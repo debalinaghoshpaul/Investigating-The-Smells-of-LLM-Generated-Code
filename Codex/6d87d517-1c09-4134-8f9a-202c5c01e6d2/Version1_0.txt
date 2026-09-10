@@ -1,0 +1,38 @@
+```java
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateFormat {
+
+    public static void main(String[] args) {
+        // Create a Date object
+        Date date = new Date();
+
+        // Create a SimpleDateFormat object with the desired date format
+        SimpleDateFormat sdf1 = new SimpleDateFormat("dd-MM-yyyy");
+        SimpleDateFormat sdf2 = new SimpleDateFormat("MM/dd/yyyy");
+        SimpleDateFormat sdf3 = new SimpleDateFormat("yyyy-MM-dd");
+
+        // Format the date using the SimpleDateFormat object
+        String dateString1 = sdf1.format(date);
+        String dateString2 = sdf2.format(date);
+        String dateString3 = sdf3.format(date);
+
+        // Print the formatted date
+        System.out.println("Date in dd-MM-yyyy format: " + dateString1);
+        System.out.println("Date in MM/dd/yyyy format: " + dateString2);
+        System.out.println("Date in yyyy-MM-dd format: " + dateString3);
+    }
+}
+```
+
+**Test cases**
+
+* **Corner cases:**
+    * Date with a year of 0001 or 9999
+    * Date with a month of 01 or 12
+    * Date with a day of 01 or 31
+* **Normal cases:**
+    * Date with a year between 1900 and 2023
+    * Date with a month between 02 and 11
+    * Date with a day between 02 and 30

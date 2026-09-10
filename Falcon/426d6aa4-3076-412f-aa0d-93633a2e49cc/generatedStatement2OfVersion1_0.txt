@@ -1,0 +1,21 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Empty array
+* Array with only one element
+* Array with only two elements
+* Array with only three elements
+* Array with all the same elements
+* Array with a single unique element that appears multiple times
+* Array with a large number of elements
+
+**General Cases:**
+
+* Array with a mix of positive and negative integers
+* Array with elements that sum up to the target
+* Array with elements that do not sum up to the target
+* Array with duplicate elements
+* Array with elements that are close to the target

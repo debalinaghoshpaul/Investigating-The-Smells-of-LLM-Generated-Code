@@ -1,0 +1,44 @@
+
+Enter an integer: 3456
+Reversed integer: 6543
+Enter an integer: 12345
+Reversed integer: 54321
+Enter an integer: 0
+Reversed integer: 00000
+Enter an integer: -1
+Reversed integer: 1
+Enter an integer: -2
+Reversed integer: -2
+Enter an integer: -3
+Reversed integer: -3
+Enter an integer: -4
+Reversed integer: -4
+Enter an integer: -5
+Reversed integer: -5
+Enter an integer: -6
+Reversed integer: -6
+Enter an integer: -7
+Reversed integer: -7
+Enter an integer: -8
+Reversed integer: -8
+Enter an integer: -9
+Reversed integer: -9
+Enter an integer: -10
+Reversed integer: -10
+Enter an integer: -11
+Reversed integer: -11
+Enter an integer: -12
+Reversed integer: -12
+Enter an integer: -13
+Reversed integer: -13
+Enter an integer: -14
+Reversed integer: -14
+Enter an integer: -15
+Reversed integer: -15
+Enter an integer: -16
+Reversed integer: -16
+Enter an integer: -17
+Reversed integer: -17
+Enter an integer: -18
+Reversed integer: -18
+Enter an integer: -19

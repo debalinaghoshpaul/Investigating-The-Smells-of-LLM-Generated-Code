@@ -1,0 +1,3 @@
+
+
+**Edge Case 2: Array with duplicate elements**

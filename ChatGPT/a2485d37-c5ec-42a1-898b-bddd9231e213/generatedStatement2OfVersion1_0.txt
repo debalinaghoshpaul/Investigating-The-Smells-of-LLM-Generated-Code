@@ -1,0 +1,11 @@
+
+
+Test cases:
+
+* **Normal case:** "The quick brown fox jumps over the lazy dog"
+* **Empty string:** ""
+* **Single word:** "Hello"
+* **Sentence with punctuation:** "Hello, world!"
+* **Sentence with numbers:** "123 Main Street"
+* **Sentence with special characters:** "<>[]{}"
+* **Sentence with leading and trailing spaces:** "   Hello, world!   "

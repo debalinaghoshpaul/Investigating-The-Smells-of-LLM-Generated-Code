@@ -1,0 +1,5 @@
+ Floor Division: 0
+// Floor Modulus: 0
+
+// Corner Case 3: dividend = 1, divisor = 0
+// 

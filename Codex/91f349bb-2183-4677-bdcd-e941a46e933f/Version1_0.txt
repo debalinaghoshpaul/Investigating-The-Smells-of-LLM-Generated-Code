@@ -1,0 +1,28 @@
+```java
+import java.util.Scanner;
+
+public class RemoveFirstTwoChars {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input string
+        String input = scanner.nextLine();
+
+        // Check if the first character is 'g'
+        if (input.charAt(0) == 'g') {
+            // Keep the first character
+            input = input.substring(1);
+        }
+
+        // Check if the second character is 'h'
+        if (input.length() >= 2 && input.charAt(1) == 'h') {
+            // Keep the second character
+            input = input.substring(2);
+        }
+
+        // Print the output string
+        System.out.println(input);
+    }
+}
+```

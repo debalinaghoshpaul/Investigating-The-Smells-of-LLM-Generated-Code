@@ -1,0 +1,6 @@
+
+Student ID: 1
+Student Name: John Doe
+Grade 95 added successfully.
+Invalid grade. Grade should be between 0 and 100.
+Student Grades: [95]

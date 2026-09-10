@@ -1,0 +1,30 @@
+
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, I can.
+// The length of the string is: 5.
+// The length of the string is: 6.
+// The length of the string is: 7.
+// The length of the string is: 8.
+// The length of the string is: 9.
+// The length of the string is: 10.
+// The length of the string is: 11.
+// The length of the string is: 12.
+// The length of the string is: 13.
+// The length of the string is: 14.
+// The length of the string is: 15.
+// The length of the string is: 16.
+// The length of the string is: 17.
+// The length of the string is: 18.
+// The length of the string is: 19.
+// The length of the string is: 20.
+// The length of the string is: 21.
+// The length of the string is: 22.
+// The length of the string is: 23.
+// The length of the string is: 24.
+// The length of the string is: 25.
+// The length of the string is: 26.
+// The length of the string is: 27.
+// The length of the string is: 28.
+// The length of the string is: 29.
+// The length

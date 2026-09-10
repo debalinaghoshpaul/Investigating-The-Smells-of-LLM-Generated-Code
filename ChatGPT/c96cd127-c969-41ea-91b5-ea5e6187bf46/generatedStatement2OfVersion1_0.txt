@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+| Input | Expected Output |
+|---|---|
+| 5 | Number is: 1 and cube of 1 is: 1<br>Number is: 2 and cube of 2 is: 8<br>Number is: 3 and cube of 3 is: 27<br>Number is: 4 and cube of 4 is: 64<br>Number is: 5 and cube of 5 is: 125 |
+| 10 | Number is: 1 and cube of 1 is: 1<br>Number is: 2 and cube of 2 is: 8<br>Number is: 3 and cube of 3 is: 27<br>Number is: 4 and cube of 4 is: 64<br>Number is: 5 and cube of 5 is: 125<br>Number is: 6 and cube of 6 is: 216<br>Number is: 7 and cube of 7 is: 343<br>Number is: 8 and cube of 8 is: 512<br>Number is: 9 and cube of 9 is: 729<br>Number is: 10 and cube of 10 is: 1000 |
+
+**Corner Cases:**
+
+| Input | Expected Output |
+|---|---|
+| 0 |  |
+| -1 |  |
+| 1 | Number is: 1 and cube of 1 is: 1 |
+| 2 | Number is: 1 and cube of 1 is: 1<br>Number is: 2 and cube of 2 is: 8 |

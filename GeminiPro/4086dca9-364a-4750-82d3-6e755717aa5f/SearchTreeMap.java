@@ -1,0 +1,26 @@
+import java.util.TreeMap;
+
+public class SearchTreeMap {
+
+    public static void main(String[] args) {
+        // Create a TreeMap
+        TreeMap<String, Integer> treeMap = new TreeMap<>();
+
+        // Add some key-value pairs to the TreeMap
+        treeMap.put("Alice", 10);
+        treeMap.put("Bob", 20);
+        treeMap.put("Carol", 30);
+        treeMap.put("Dave", 40);
+        treeMap.put("Eve", 50);
+
+        // Search for a value in the TreeMap
+        Integer value = treeMap.get("Carol");
+
+        // Print the value if it is found
+        if (value != null) {
+            System.out.println("The value for the key \"Carol\" is: " + value);
+        } else {
+            System.out.println("The key \"Carol\" does not exist in the TreeMap.");
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-945gPe5xWsXby6qU1kU2T8GUOVkk4",
+  "object" : "chat.completion",
+  "created" : 1710762185,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.math.BigInteger;\n\npublic class ExtractPrimitiveValue {\n\n    public static void main(String[] args) {\n        BigInteger bigInteger = new BigInteger(\"123456789\");\n\n        byte byteValue = bigInteger.byteValue();\n        short shortValue = bigInteger.shortValue();\n        int intValue = bigInteger.intValue();\n        long longValue = bigInteger.longValue();\n        float floatValue = bigInteger.floatValue();\n        double doubleValue = bigInteger.doubleValue();\n        \n        System.out.println(\"BigInteger value : \" + bigInteger);\n        System.out.println(\"Byte value : \" + byteValue);\n        System.out.println(\"Short value : \" + shortValue);\n        System.out.println(\"Int value : \" + intValue);\n        System.out.println(\"Long value : \" + longValue);\n        System.out.println(\"Float value: \" + floatValue);\n        System.out.println(\"Double value : \" + doubleValue);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 217,
+    "completion_tokens" : 183,
+    "total_tokens" : 400
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

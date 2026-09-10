@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8yU3bxV8ddNd87TDEYgTeGp6bYnI9",
+  "object" : "chat.completion",
+  "created" : 1709425911,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Circle {\n    private double radius;\n\n    public double getRadius() {\n        return radius;\n    }\n\n    public void setRadius(double radius) {\n        this.radius = radius;\n    }\n\n    public double calculateArea() {\n        return Math.PI * radius * radius;\n    }\n\n    public double calculatePerimeter() {\n        return 2 * Math.PI * radius;\n    }\n\n    public static void main(String[] args) {\n        Circle circle = new Circle();\n        circle.setRadius(5.0);\n        System.out.println(\"Radius: \" + circle.getRadius());\n        System.out.println(\"Area: \" + circle.calculateArea());\n        System.out.println(\"Perimeter: \" + circle.calculatePerimeter());\n    }\n}\n```\nOutput:\nRadius: 5.0\nArea: 78.53981633974483\nPerimeter: 31.41592653589793"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 110,
+    "completion_tokens" : 183,
+    "total_tokens" : 293
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

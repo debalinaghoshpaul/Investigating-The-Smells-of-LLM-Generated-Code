@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8ymDXIu5nwFqqjMBfJPLLwvotvauU",
+  "object" : "chat.completion",
+  "created" : 1709495719,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Abstract class Vehicle\nabstract class Vehicle {\n    public abstract void startEngine();\n    public abstract void stopEngine();\n}\n\n// Subclass Car\nclass Car extends Vehicle {\n    @Override\n    public void startEngine() {\n        System.out.println(\"Car engine started\");\n    }\n\n    @Override\n    public void stopEngine() {\n        System.out.println(\"Car engine stopped\");\n    }\n}\n\n// Subclass Motorcycle\nclass Motorcycle extends Vehicle {\n    @Override\n    public void startEngine() {\n        System.out.println(\"Motorcycle engine started\");\n    }\n\n    @Override\n    public void stopEngine() {\n        System.out.println(\"Motorcycle engine stopped\");\n    }\n}\n\n// Main class to test the functionality\npublic class Main {\n    public static void main(String[] args) {\n        Vehicle car = new Car();\n        car.startEngine();\n        car.stopEngine();\n\n        Vehicle motorcycle = new Motorcycle();\n        motorcycle.startEngine();\n        motorcycle.stopEngine();\n    }\n}\n```\n\nOutput:\n```\nCar engine started\nCar engine stopped\nMotorcycle engine started\nMotorcycle engine stopped\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 97,
+    "completion_tokens" : 223,
+    "total_tokens" : 320
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

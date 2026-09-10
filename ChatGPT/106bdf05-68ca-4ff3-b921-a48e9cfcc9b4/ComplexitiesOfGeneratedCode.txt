@@ -1,0 +1,3 @@
+Cyclomatic complexity: 16
+Cognitive complexity: 36
+Lines of Code (LOC): 84

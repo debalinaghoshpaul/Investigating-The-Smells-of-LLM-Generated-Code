@@ -1,0 +1,13 @@
+JUnit version 4.13
+....All possible permutations of the string 'abc': 
+abc
+acb
+bac
+bca
+cab
+cba
+...
+Time: 0.456
+
+OK (7 tests)
+

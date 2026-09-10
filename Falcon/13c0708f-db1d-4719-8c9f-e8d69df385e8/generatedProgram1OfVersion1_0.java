@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+public class CocktailSort {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int n = arr.length;
+
+        Arrays.sort(arr);
+        System.out.println("Sorted array:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+

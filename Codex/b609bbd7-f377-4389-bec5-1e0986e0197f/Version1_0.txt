@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97ln8hHIc66aKkjuqvNUdGXSbQOHf",
+  "object" : "chat.completion",
+  "created" : 1711639034,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.concurrent.Phaser;\n\npublic class PhaserExample {\n\n    public static void main(String[] args) {\n        Phaser phaser = new Phaser(3); // 3 threads will be participating\n\n        Thread t1 = new Thread(new MyThread(phaser, \"Thread 1\"));\n        Thread t2 = new Thread(new MyThread(phaser, \"Thread 2\"));\n        Thread t3 = new Thread(new MyThread(phaser, \"Thread 3\"));\n\n        t1.start();\n        t2.start();\n        t3.start();\n\n        // Wait for all threads to arrive at this phaser before moving on\n        phaser.arriveAndAwaitAdvance();\n\n        System.out.println(\"All threads have finished their tasks\");\n    }\n\n    static class MyThread implements Runnable {\n        private Phaser phaser;\n        private String name;\n\n        public MyThread(Phaser phaser, String name) {\n            this.phaser = phaser;\n            this.name = name;\n        }\n\n        @Override\n        public void run() {\n            System.out.println(name + \" is doing some task\");\n            phaser.arriveAndDeregister();\n        }\n    }\n} \n\nIn this program, we create a Phaser object with 3 threads participating. Each thread performs a task and then arrives at the phaser. The main thread waits for all threads to arrive at the phaser before proceeding. Finally, a message is printed indicating that all threads have finished their tasks."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 69,
+    "completion_tokens" : 295,
+    "total_tokens" : 364
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

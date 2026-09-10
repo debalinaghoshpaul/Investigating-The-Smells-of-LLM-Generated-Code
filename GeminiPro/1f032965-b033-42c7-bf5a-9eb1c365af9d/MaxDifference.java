@@ -1,0 +1,46 @@
+import java.util.Arrays;
+
+public class MaxDifference {
+
+    public static int findMaxDifference(int[] nums) {
+        // Initialize the maximum difference to 0
+        int maxDiff = 0;
+
+        // Initialize the minimum element to the first element in the array
+        int minElem = nums[0];
+
+        // Iterate over the remaining elements in the array
+        for (int i = 1; i < nums.length; i++) {
+            // Update the minimum element if the current element is smaller
+            minElem = Math.min(minElem, nums[i]);
+
+            // Update the maximum difference if the difference between the current element and the minimum element is greater than the current maximum difference
+            maxDiff = Math.max(maxDiff, nums[i] - minElem);
+        }
+
+        // Return the maximum difference
+        return maxDiff;
+    }
+
+    public static void main(String[] args) {
+        // Test case 1:
+        int[] nums1 = {2, 3, 1, 7, 9, 5, 11, 3, 5};
+        System.out.println("Test case 1: " + findMaxDifference(nums1) + "\n");
+
+        // Test case 2:
+        int[] nums2 = {2, 3, 1, 7, 9, 5};
+        System.out.println("Test case 2: " + findMaxDifference(nums2) + "\n");
+
+        // Test case 3:
+        int[] nums3 = {1, 2, 3};
+        System.out.println("Test case 3: " + findMaxDifference(nums3) + "\n");
+
+        // Corner case 1: Empty array
+        int[] nums4 = {};
+        System.out.println("Corner case 1: " + findMaxDifference(nums4) + "\n");
+
+        // Corner case 2: Array with only one element
+        int[] nums5 = {5};
+        System.out.println("Corner case 2: " + findMaxDifference(nums5) + "\n");
+    }
+}

@@ -1,0 +1,4 @@
+
+
+Output:
+Rearranged String: STUVWXYZ1829

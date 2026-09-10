@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Input number: 7 + 77  + 777
+.Input number: .Input number: .
+Time: 0.361
+
+OK (4 tests)
+

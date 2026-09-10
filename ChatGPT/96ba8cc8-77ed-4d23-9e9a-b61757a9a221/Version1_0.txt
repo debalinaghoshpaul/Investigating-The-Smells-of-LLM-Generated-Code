@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EMyejCHx6qqmHubhCZUWJRQnansO",
+  "object" : "chat.completion",
+  "created" : 1713211944,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Random;\nimport java.util.Scanner;\n\npublic class MemoryMatchingGame {\n\n    private static int[][] cards = new int[4][4];\n    private static boolean[][] faceUp = new boolean[4][4];\n\n    public static void main(String[] args) {\n        initializeCards();\n        shuffleCards();\n\n        Scanner scanner = new Scanner(System.in);\n\n        while (!isGameOver()) {\n            displayBoard();\n\n            System.out.println(\"Enter the coordinates of the first card (row column):\");\n            int row1 = scanner.nextInt();\n            int col1 = scanner.nextInt();\n\n            System.out.println(\"Enter the coordinates of the second card (row column):\");\n            int row2 = scanner.nextInt();\n            int col2 = scanner.nextInt();\n\n            if (cards[row1][col1] == cards[row2][col2]) {\n                faceUp[row1][col1] = true;\n                faceUp[row2][col2] = true;\n            }\n\n            clearScreen();\n        }\n\n        System.out.println(\"Congratulations! You have matched all the cards!\");\n    }\n\n    private static void initializeCards() {\n        int value = 1;\n        for (int i = 0; i < 4; i++) {\n            for (int j = 0; j < 4; j++) {\n                cards[i][j] = value;\n                value = (value % 8) + 1;\n            }\n        }\n    }\n\n    private static void shuffleCards() {\n        Random random = new Random();\n        \n        for (int i = 0; i < 1000; i++) {\n            int row1 = random.nextInt(4);\n            int col1 = random.nextInt(4);\n            int row2 = random.nextInt(4);\n            int col2 = random.nextInt(4);\n\n            int temp = cards[row1][col1];\n            cards[row1][col1] = cards[row2][col2];\n            cards[row2][col2] = temp;\n        }\n    }\n\n    private static boolean isGameOver() {\n        for (int i = 0; i < 4; i++) {\n            for (int j = 0; j < 4; j++) {\n                if (!faceUp[i][j]) {\n                    return false;\n                }\n            }\n        }\n        return true;\n    }\n\n    private static void displayBoard() {\n        System.out.println(\"Current Board:\");\n        for (int i = 0; i < 4; i++) {\n            for (int j = 0; j < 4; j++) {\n                if (faceUp[i][j]) {\n                    System.out.print(cards[i][j] + \" \");\n                } else {\n                    System.out.print(\"* \");\n                }\n            }\n            System.out.println();\n        }\n    }\n\n    private static void clearScreen() {\n        for (int i = 0; i < 50; i++) {\n            System.out.println();\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 417,
+    "completion_tokens" : 607,
+    "total_tokens" : 1024
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

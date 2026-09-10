@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\5f018ca5-f124-4f72-8a59-6dd5da43131e\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\5f018ca5-f124-4f72-8a59-6dd5da43131e\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\5f018ca5-f124-4f72-8a59-6dd5da43131e\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\5f018ca5-f124-4f72-8a59-6dd5da43131e\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\5f018ca5-f124-4f72-8a59-6dd5da43131e\generatedProgram1OfVersion1_0.java:13:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\5f018ca5-f124-4f72-8a59-6dd5da43131e\generatedProgram1OfVersion1_0.java:13:39: Parameter binaryNumber should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\5f018ca5-f124-4f72-8a59-6dd5da43131e\generatedProgram1OfVersion1_0.java:15:28: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\5f018ca5-f124-4f72-8a59-6dd5da43131e\generatedProgram1OfVersion1_0.java:16:45: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\5f018ca5-f124-4f72-8a59-6dd5da43131e\generatedProgram1OfVersion1_0.java:16:65: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\5f018ca5-f124-4f72-8a59-6dd5da43131e\generatedProgram1OfVersion1_0.java:17:29: '10' is a magic number. [MagicNumber]
+Audit done.

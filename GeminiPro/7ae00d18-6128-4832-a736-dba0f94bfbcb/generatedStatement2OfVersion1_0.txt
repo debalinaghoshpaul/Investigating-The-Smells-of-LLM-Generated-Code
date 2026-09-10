@@ -1,0 +1,12 @@
+
+
+**Test Cases:**
+
+| Test Case | Input | Output |
+|---|---|---|
+| Normal case | a = 5, b = 3 | 15 |
+| Normal case | a = -5, b = 3 | -15 |
+| Normal case | a = 5, b = -3 | -15 |
+| Corner case | a = 0, b = 5 | 0 |
+| Corner case | a = 5, b = 0 | 0 |
+| Corner case | a = Integer.MAX_VALUE, b = Integer.MIN_VALUE | Integer.MIN_VALUE |

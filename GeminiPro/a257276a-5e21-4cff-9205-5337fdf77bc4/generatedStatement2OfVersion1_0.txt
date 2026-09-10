@@ -1,0 +1,8 @@
+
+
+Test cases:
+
+* **Positive test case:** number = 25 (x = 3, y = 4)
+* **Negative test case:** number = 13 (no solution)
+* **Corner case:** number = 1 (x = 1, y = 0)
+* **Corner case:** number = 0 (x = 0, y = 0)

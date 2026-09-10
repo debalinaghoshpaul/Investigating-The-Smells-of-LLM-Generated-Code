@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Top element of the stack: 5
+Bottom element of the stack: 5
+.
+Time: 0.298
+
+OK (2 tests)
+

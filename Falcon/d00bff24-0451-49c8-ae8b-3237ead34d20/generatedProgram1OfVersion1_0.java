@@ -1,0 +1,19 @@
+import java.util.Arrays;
+
+public class MinSubArraySum {
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int size = 4;
+        int sum = 0;
+        int minSum = Integer.MAX_VALUE;
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            if (sum < minSum) {
+                minSum = sum;
+            }
+        }
+        System.out.println("Sub-array size: " + size + " Sub-array from 0 to " + size + " and sum is: " + minSum);
+    }
+}
+
+// 

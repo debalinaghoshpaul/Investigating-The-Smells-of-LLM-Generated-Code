@@ -1,0 +1,11 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 83). [LineLength]: 6
+VisibilityModifier: Variable 'accountNumber' must be private and have accessor methods. [VisibilityModifier]: 4
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 3
+FinalParameters: Parameter accountNumber should be final. [FinalParameters]: 13
+HiddenField: 'accountNumber' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '123456' is a magic number. [MagicNumber]: 8

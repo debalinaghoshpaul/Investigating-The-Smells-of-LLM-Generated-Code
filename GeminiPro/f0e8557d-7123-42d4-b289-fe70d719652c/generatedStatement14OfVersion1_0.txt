@@ -1,0 +1,5 @@
+
+Input: null
+Expected output:
+Even count: 0
+Odd count: 0

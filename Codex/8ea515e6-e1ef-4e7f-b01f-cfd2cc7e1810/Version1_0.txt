@@ -1,0 +1,45 @@
+```java
+import java.util.*;
+
+public class TripletSum {
+
+    public static void main(String[] args) {
+        int[] nums = { 1, 6, 3, 0, 8, 4, 1, 7 };
+        int sum = 7;
+        findTriplets(nums, sum);
+    }
+
+    public static void findTriplets(int[] nums, int sum) {
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums.length - 2; i++) {
+            int j = i + 1;
+            int k = nums.length - 1;
+
+            while (j < k) {
+                int currentSum = nums[i] + nums[j] + nums[k];
+
+                if (currentSum == sum) {
+                    System.out.println("Triplet found: (" + nums[i] + ", " + nums[j] + ", " + nums[k] + ")");
+                    j++;
+                    k--;
+                } else if (currentSum < sum) {
+                    j++;
+                } else {
+                    k--;
+                }
+            }
+        }
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Empty array:** no triplets will be found.
+* **Array with only one element:** no triplets will be found.
+* **Array with all elements equal to zero:** no triplets will be found.
+* **Array with all elements equal to a non-zero number:** all triplets will be equal to that number.
+* **Array with a single triplet that equals the given sum:** the triplet will be found.
+* **Array with multiple triplets that equal the given sum:** all triplets will be found.
+* **Array with triplets that both equal and do not equal the given sum:** all triplets that equal the given sum will be found, and the ones that do not will not be found.

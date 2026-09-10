@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97ls0dDvy80zMpHzZy28kVF7kGn1J",
+  "object" : "chat.completion",
+  "created" : 1711639336,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.concurrent.Exchanger;\n\npublic class DataExchanger {\n    public static void main(String[] args) {\n        Exchanger<String> exchanger = new Exchanger<>();\n\n        Thread producerThread = new Thread(() -> {\n            try {\n                String message = \"Hello from Producer\";\n                System.out.println(\"Producer sending message: \" + message);\n                String receivedMessage = exchanger.exchange(message);\n                System.out.println(\"Producer received message: \" + receivedMessage);\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n            }\n        });\n\n        Thread consumerThread = new Thread(() -> {\n            try {\n                String message = \"Hello from Consumer\";\n                System.out.println(\"Consumer sending message: \" + message);\n                String receivedMessage = exchanger.exchange(message);\n                System.out.println(\"Consumer received message: \" + receivedMessage);\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n            }\n        });\n\n        producerThread.start();\n        consumerThread.start();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 63,
+    "completion_tokens" : 198,
+    "total_tokens" : 261
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

@@ -1,0 +1,76 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class BinaryToDecimal {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a binary number: ");
+        int binaryNumber = scanner.nextInt();
+        System.out.print("Decimal Number: ");
+        int decimalNumber = binaryToDecimal(binaryNumber);
+        System.out.println("Decimal Number: " + decimalNumber);
+    }
+
+    public static int binaryToDecimal(int binaryNumber) {
+        int decimalNumber = 0;
+        while (binaryNumber!= 0) {
+            decimalNumber = decimalNumber * 10 + binaryNumber % 10;
+            binaryNumber /= 10;
+        }
+        return decimalNumber;
+    }
+}
+
+Output:
+Input a binary number: 100
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal Number: 4
+Decimal

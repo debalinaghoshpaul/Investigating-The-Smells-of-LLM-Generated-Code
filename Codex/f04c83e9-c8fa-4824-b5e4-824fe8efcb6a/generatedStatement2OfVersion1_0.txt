@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Run the program on a system with a variety of environment variables and system properties set.
+* Run the program on a system with no environment variables or system properties set.
+
+**Corner Cases:**
+
+* Run the program on a system where the environment variable or system property value is very long.
+* Run the program on a system where the environment variable or system property value contains special characters.
+* Run the program on a system where the security manager has been established.
+* Run the program on a system where the security manager has not been established.

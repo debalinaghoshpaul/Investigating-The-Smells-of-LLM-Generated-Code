@@ -1,0 +1,126 @@
+**Java program to find out whether a region in the current string matches a region in another string:**
+
+```java
+import java.util.Scanner;
+
+public class StringRegionMatch {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Get the two strings from the user
+        System.out.println("Enter the first string:");
+        String str1 = sc.nextLine();
+
+        System.out.println("Enter the second string:");
+        String str2 = sc.nextLine();
+
+        // Get the starting and ending indices of the region in the first string
+        System.out.println("Enter the starting index of the region in the first string:");
+        int startIndex1 = sc.nextInt();
+
+        System.out.println("Enter the ending index of the region in the first string:");
+        int endIndex1 = sc.nextInt();
+
+        // Get the starting and ending indices of the region in the second string
+        System.out.println("Enter the starting index of the region in the second string:");
+        int startIndex2 = sc.nextInt();
+
+        System.out.println("Enter the ending index of the region in the second string:");
+        int endIndex2 = sc.nextInt();
+
+        // Check if the two regions match
+        boolean match = str1.substring(startIndex1, endIndex1).equals(str2.substring(startIndex2, endIndex2));
+
+        // Print the result
+        if (match) {
+            System.out.println("The two regions match.");
+        } else {
+            System.out.println("The two regions do not match.");
+        }
+    }
+}
+```
+
+**Test cases:**
+
+* **Test case 1:**
+    * str1 = "Hello world"
+    * startIndex1 = 0
+    * endIndex1 = 5
+    * str2 = "Hello world"
+    * startIndex2 = 0
+    * endIndex2 = 5
+    * Expected output: The two regions match.
+* **Test case 2:**
+    * str1 = "Hello world"
+    * startIndex1 = 0
+    * endIndex1 = 5
+    * str2 = "Hello world!"
+    * startIndex2 = 0
+    * endIndex2 = 5
+    * Expected output: The two regions do not match.
+* **Test case 3:**
+    * str1 = "Hello world"
+    * startIndex1 = 0
+    * endIndex1 = 5
+    * str2 = "Hello"
+    * startIndex2 = 0
+    * endIndex2 = 5
+    * Expected output: The two regions do not match.
+* **Test case 4:**
+    * str1 = "Hello world"
+    * startIndex1 = 6
+    * endIndex1 = 11
+    * str2 = "world"
+    * startIndex2 = 0
+    * endIndex2 = 5
+    * Expected output: The two regions match.
+* **Test case 5:**
+    * str1 = "Hello world"
+    * startIndex1 = 0
+    * endIndex1 = 5
+    * str2 = ""
+    * startIndex2 = 0
+    * endIndex2 = 0
+    * Expected output: The two regions do not match.
+* **Test case 6:**
+    * str1 = ""
+    * startIndex1 = 0
+    * endIndex1 = 0
+    * str2 = "Hello world"
+    * startIndex2 = 0
+    * endIndex2 = 5
+    * Expected output: The two regions do not match.
+* **Test case 7:**
+    * str1 = null
+    * startIndex1 = 0
+    * endIndex1 = 5
+    * str2 = "Hello world"
+    * startIndex2 = 0
+    * endIndex2 = 5
+    * Expected output: The two regions do not match.
+* **Test case 8:**
+    * str1 = "Hello world"
+    * startIndex1 = 0
+    * endIndex1 = 5
+    * str2 = null
+    * startIndex2 = 0
+    * endIndex2 = 5
+    * Expected output: The two regions do not match.
+* **Test case 9:**
+    * str1 = "Hello world"
+    * startIndex1 = -1
+    * endIndex1 = 5
+    * str2 = "Hello world"
+    * startIndex2 = 0
+    * endIndex2 = 5
+    * Expected output: The two regions do not match.
+* **Test case 10:**
+    * str1 = "Hello world"
+    * startIndex1 = 0
+    * endIndex1 = 6
+    * str2 = "Hello world"
+    * startIndex2 = 0
+    * endIndex2 = 5
+    * Expected output: The two regions do not match.

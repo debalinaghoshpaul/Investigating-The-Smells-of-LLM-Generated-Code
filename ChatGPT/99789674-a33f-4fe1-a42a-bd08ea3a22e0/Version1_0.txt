@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95WcFpTk2I41ne3IR5wcaBU5V7QmX",
+  "object" : "chat.completion",
+  "created" : 1711104043,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class CheckNumber {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Get input from user\n        System.out.print(\"Enter a number: \");\n        int number = sc.nextInt();\n\n        // Check if the number is positive or negative\n        if (number > 0) {\n            System.out.println(\"Number is positive\");\n        } else {\n            System.out.println(\"Number is negative\");\n        }\n        \n        sc.close();\n    }\n} \n\n//Test Data Input number: 35\n//Expected Output : Number is positive\n\n//Output:\n//Enter a number: 35\n//Number is positive"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 84,
+    "completion_tokens" : 138,
+    "total_tokens" : 222
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

@@ -1,0 +1,42 @@
+```java
+import java.util.Scanner;
+
+public class SumOfNOddNaturalNumbers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the number of terms from the user
+        System.out.print("Enter the number of terms: ");
+        int n = scanner.nextInt();
+
+        // Initialize the sum to 0
+        int sum = 0;
+
+        // Iterate over the numbers from 1 to n
+        for (int i = 1; i <= n; i++) {
+            // If the number is odd, add it to the sum
+            if (i % 2 != 0) {
+                sum += i;
+            }
+        }
+
+        // Print the sum of the odd numbers
+        System.out.println("The sum of the odd natural numbers upto " + n + " terms is: " + sum);
+    }
+}
+```
+
+**Test cases:**
+
+* **Valid input:**
+    * Input: 5
+    * Expected output: 25
+* **Invalid input:**
+    * Input: -1
+    * Expected output: "Invalid input"
+* **Corner cases:**
+    * Input: 0
+    * Expected output: 0
+    * Input: 1
+    * Expected output: 1

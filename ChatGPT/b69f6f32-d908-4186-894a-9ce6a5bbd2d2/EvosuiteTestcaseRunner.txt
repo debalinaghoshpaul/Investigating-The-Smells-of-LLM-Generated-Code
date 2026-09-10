@@ -1,0 +1,7 @@
+JUnit version 4.13
+..Enter x: Enter n: Enter y: Result: 1
+..Enter x: ....Enter x: Enter n: Enter y: .Enter x: 
+Time: 1.249
+
+OK (9 tests)
+

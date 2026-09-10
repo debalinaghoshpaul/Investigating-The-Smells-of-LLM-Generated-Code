@@ -1,0 +1,75 @@
+**Java Program:**
+
+```java
+import java.util.*;
+
+public class FirstNonRepeatingCharacter {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the string: ");
+        String str = sc.nextLine();
+        sc.close();
+
+        int[] charCount = new int[256];
+
+        // Count the occurrences of each character
+        for (char c : str.toCharArray()) {
+            charCount[c]++;
+        }
+
+        // Find the first character with count 1
+        for (char c = 'a'; c <= 'z'; c++) {
+            if (charCount[c] == 1) {
+                System.out.println("First non-repeating character: " + c);
+                return;
+            }
+        }
+
+        // If no non-repeating character is found
+        System.out.println("No non-repeating character found");
+    }
+}
+```
+
+**Test Cases:**
+
+**Case 1:**
+* Input: "hello"
+* Output: "h"
+
+**Case 2:**
+* Input: "aabbccdd"
+* Output: "No non-repeating character found"
+
+**Case 3:**
+* Input: "aabbgdcee"
+* Output: "f"
+
+**Case 4:**
+* Input: "" (empty string)
+* Output: "No non-repeating character found"
+
+**Case 5:**
+* Input: "a"
+* Output: "a"
+
+**Case 6:**
+* Input: "aaabbcde"
+* Output: "e"
+
+**Case 7:**
+* Input: "abcdefghijklmnopqrstuvwxyz"
+* Output: "a"
+
+**Case 8:**
+* Input: "zyxwvutsrqponmlkjihgfedcba"
+* Output: "a"
+
+**Case 9:**
+* Input: "1234567890"
+* Output: "1"
+
+**Case 10:**
+* Input: "~!@#$%^&*()_+"
+* Output: "~"

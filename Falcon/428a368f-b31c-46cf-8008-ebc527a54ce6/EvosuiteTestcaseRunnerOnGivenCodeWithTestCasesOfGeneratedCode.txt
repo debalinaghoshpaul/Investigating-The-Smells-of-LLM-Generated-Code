@@ -1,0 +1,31 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.378
+There were 4 failures:
+1) test3(testing_ChatGPT_on_java.InsertionSort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type InsertionSort must be defined in its own file
+
+	at testing_ChatGPT_on_java.InsertionSort.<init>(SelectionSort.java:4)
+	at testing_ChatGPT_on_java.InsertionSort_ESTest.test3(InsertionSort_ESTest.java:44)
+2) test2(testing_ChatGPT_on_java.InsertionSort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.InsertionSort.main(SelectionSort.java:18)
+	at testing_ChatGPT_on_java.InsertionSort_ESTest.test2(InsertionSort_ESTest.java:38)
+3) test1(testing_ChatGPT_on_java.InsertionSort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type InsertionSort must be defined in its own file
+
+	at testing_ChatGPT_on_java.InsertionSort.<init>(SelectionSort.java:4)
+	at testing_ChatGPT_on_java.InsertionSort_ESTest.test1(InsertionSort_ESTest.java:29)
+4) test0(testing_ChatGPT_on_java.InsertionSort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type InsertionSort must be defined in its own file
+
+	at testing_ChatGPT_on_java.InsertionSort.<init>(SelectionSort.java:4)
+	at testing_ChatGPT_on_java.InsertionSort_ESTest.test0(InsertionSort_ESTest.java:21)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

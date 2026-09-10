@@ -1,0 +1,1 @@
+Problem Description : \n21.14 (Web crawler) Rewrite Listing 12.18, WebCrawler.java, to improve the performance\nby using appropriate new data structures for listOfPendingURLs and\nlistofTraversedURLs.\n\n The programming language you need to use is: Java.\n\n Problem Id is : ea17ad5c-c89a-4de0-9fec-9e73eb324594.

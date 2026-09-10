@@ -1,0 +1,12 @@
+
+
+Test cases:
+
+* **Corner cases:**
+    * Empty array: []
+    * Array with single element: [20]
+    * Array with all duplicate elements: [20, 20, 20]
+
+* **Regular cases:**
+    * Array with duplicate elements: [20, 20, 30, 40, 50, 50, 50]
+    * Array with no duplicate elements: [20, 30, 40, 50]

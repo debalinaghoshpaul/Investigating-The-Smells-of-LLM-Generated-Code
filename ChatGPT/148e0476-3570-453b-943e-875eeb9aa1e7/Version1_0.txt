@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9200Gq357pum39n8Wijv0Hy5OayOm",
+  "object" : "chat.completion",
+  "created" : 1710263696,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.ArrayList;\n\npublic class LongestBitonicSubarray {\n\n    public static void main(String[] args) {\n        int[] arr = {1, 5, 2, 3, 4, 6, 8, 3, 2, 1};\n        ArrayList<Integer> longestBitonicSubarray = findLongestBitonicSubarray(arr);\n        System.out.println(\"Longest Bitonic Subarray: \" + longestBitonicSubarray);\n    }\n\n    public static ArrayList<Integer> findLongestBitonicSubarray(int[] arr) {\n        int n = arr.length;\n        int start = 0;\n        int maxLength = 1;\n        int currentLength = 1;\n        boolean increasing = true;\n\n        for (int i = 1; i < n; i++) {\n            if (arr[i] > arr[i - 1] && increasing) {\n                currentLength++;\n            } else if (arr[i] < arr[i - 1] && increasing) {\n                increasing = false;\n                currentLength++;\n            } else if (arr[i] < arr[i - 1] && !increasing) {\n                currentLength++;\n            } else {\n                if (currentLength > maxLength) {\n                    maxLength = currentLength;\n                    start = i - currentLength;\n                }\n                currentLength = 1;\n                increasing = true;\n            }\n        }\n\n        if (currentLength > maxLength) {\n            maxLength = currentLength;\n            start = n - currentLength;\n        }\n\n        ArrayList<Integer> longestBitonicSubarray = new ArrayList<>();\n        for (int i = start; i < start + maxLength; i++) {\n            longestBitonicSubarray.add(arr[i]);\n        }\n\n        return longestBitonicSubarray;\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 112,
+    "completion_tokens" : 366,
+    "total_tokens" : 478
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

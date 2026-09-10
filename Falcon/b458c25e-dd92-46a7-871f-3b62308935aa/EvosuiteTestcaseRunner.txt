@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter the size of the array: The array is: 
+0 1 2 3 4 5 6 7 
+.Enter the size of the array: ..Enter the size of the array: .Enter the size of the array: 
+Time: 0.36
+
+OK (5 tests)
+

@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Employee ID: 101
+Employee Name: John Doe
+Employee Salary: $50000.00
+E.
+Time: 0.33
+There was 1 failure:
+1) test0(testing_ChatGPT_on_java.MainEmployee_ESTest)
+java.lang.AssertionError: Expecting exception: InstantiationError
+	at org.junit.Assert.fail(Assert.java:89)
+	at testing_ChatGPT_on_java.MainEmployee_ESTest.test0(MainEmployee_ESTest.java:24)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1

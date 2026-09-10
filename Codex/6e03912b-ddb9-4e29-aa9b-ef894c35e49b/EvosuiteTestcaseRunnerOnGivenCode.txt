@@ -1,0 +1,10 @@
+JUnit version 4.13
+.
+Name: 
+Salary: 0.0
+HireDate: 2014-02-14
+..............
+Time: 0.354
+
+OK (15 tests)
+

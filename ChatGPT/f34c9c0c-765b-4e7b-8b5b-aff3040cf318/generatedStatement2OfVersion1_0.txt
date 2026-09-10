@@ -1,0 +1,3 @@
+
+
+This program calculates the average value of the elements in the `nums` array. It iterates through each element in the array, calculates the sum of all elements, and then divides the sum by the number of elements to get the average value.

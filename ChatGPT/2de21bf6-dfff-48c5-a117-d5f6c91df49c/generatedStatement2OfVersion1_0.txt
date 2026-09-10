@@ -1,0 +1,30 @@
+
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* Input: 1, 2, 3, 4, 5
+* Expected Output: Sum: 15, Average: 3.0
+
+* Input: 10, 20, 30, 40, 50
+* Expected Output: Sum: 150, Average: 30.0
+
+**Negative Test Cases:**
+
+* Input: -1, -2, -3, -4, -5
+* Expected Output: Sum: -15, Average: -3.0
+
+* Input: 0, 0, 0, 0, 0
+* Expected Output: Sum: 0, Average: 0.0
+
+**Corner Cases:**
+
+* Input: 0, 1, 2, 3, 4
+* Expected Output: Sum: 10, Average: 2.0
+
+* Input: 1, 0, 3, 4, 5
+* Expected Output: Sum: 13, Average: 2.6
+
+* Input: 1, 2, 3, 4, 0
+* Expected Output: Sum: 10, Average: 2.0

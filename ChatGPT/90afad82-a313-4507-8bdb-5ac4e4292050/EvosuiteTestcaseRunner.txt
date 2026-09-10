@@ -1,0 +1,7 @@
+JUnit version 4.13
+....Sum of array values: 30
+..
+Time: 0.483
+
+OK (6 tests)
+

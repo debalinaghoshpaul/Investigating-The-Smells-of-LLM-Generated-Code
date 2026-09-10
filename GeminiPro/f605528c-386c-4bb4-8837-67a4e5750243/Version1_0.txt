@@ -1,0 +1,32 @@
+```java
+import java.util.Scanner;
+
+public class LeapYear {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter a year: ");
+        int year = input.nextInt();
+
+        if (isLeapYear(year)) {
+            System.out.println(year + " is a leap year.");
+        } else {
+            System.out.println(year + " is not a leap year.");
+        }
+    }
+
+    public static boolean isLeapYear(int year) {
+        return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
+    }
+}
+```
+
+Test cases:
+
+* **Valid leap years:** 2000, 2004, 2008, 2012
+* **Invalid leap years:** 1900, 1901, 2002, 2005
+* **Corner cases:**
+    * Year 0: Not a leap year
+    * Year 100: Not a leap year
+    * Year 400: A leap year

@@ -1,0 +1,32 @@
+```java
+import java.util.Scanner;
+
+public class EvenOrOdd {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Read the input number
+        System.out.print("Input a number: ");
+        int number = input.nextInt();
+
+        // Check if the number is even or odd
+        if (number % 2 == 0) {
+            System.out.println("1");
+        } else {
+            System.out.println("0");
+        }
+    }
+}
+```
+
+**Test Cases**
+
+* **Positive even number:** 20
+* **Negative even number:** -2
+* **Positive odd number:** 11
+* **Negative odd number:** -3
+* **Zero:** 0
+* **Corner cases:**
+    * **Integer.MIN_VALUE:** -2147483648
+    * **Integer.MAX_VALUE:** 2147483647

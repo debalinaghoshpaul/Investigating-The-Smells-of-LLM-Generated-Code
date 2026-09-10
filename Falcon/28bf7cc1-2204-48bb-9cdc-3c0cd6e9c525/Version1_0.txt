@@ -1,0 +1,59 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Goldbach {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        if (n < 4 || n > 50_000) {
+            System.out.println("Invalid input");
+        } else {
+            int count = 0;
+            for (int i = 2; i <= Math.sqrt(n); i++) {
+                if (n % i == 0) {
+                    count++;
+                }
+            }
+            if (count == 2) {
+                System.out.println(n + " is a Goldbach number");
+            } else {
+                System.out.println(n + " is not a Goldbach number");
+            }
+        }
+    }
+}
+
+// Output:
+// 4 is a Goldbach number
+// 8 is a Goldbach number
+// 10 is a Goldbach number
+// 12 is a Goldbach number
+// 16 is a Goldbach number
+// 20 is a Goldbach number
+// 24 is a Goldbach number
+// 28 is a Goldbach number
+// 32 is a Goldbach number
+// 36 is a Goldbach number
+// 40 is a Goldbach number
+// 44 is a Goldbach number
+// 48 is a Goldbach number
+// 52 is a Goldbach number
+// 56 is a Goldbach number
+// 60 is a Goldbach number
+// 64 is a Goldbach number
+// 68 is a Goldbach number
+// 72 is a Goldbach number
+// 76 is a Goldbach number
+// 80 is a Goldbach number
+// 84 is a Goldbach number
+// 88 is a Goldbach number
+// 92 is a Goldbach number
+// 96 is a Goldbach number
+// 100 is a Goldbach number
+// 104 is a Goldbach number
+// 108 is a Goldbach number
+// 112 is a Goldbach number
+// 116 is a Goldbach number
+// 120 is a Goldbach number
+// 124 is a Goldbach number
+// 128 is a

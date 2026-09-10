@@ -1,0 +1,58 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class StringRotation {
+
+    public static boolean isRotation(String s1, String s2) {
+        if (s1.length() != s2.length()) {
+            return false;
+        }
+
+        String s1s1 = s1 + s1;
+        return s1s1.contains(s2);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the first string: ");
+        String s1 = scanner.nextLine();
+
+        System.out.print("Enter the second string: ");
+        String s2 = scanner.nextLine();
+
+        if (isRotation(s1, s2)) {
+            System.out.println("The two strings are rotations of each other.");
+        } else {
+            System.out.println("The two strings are not rotations of each other.");
+        }
+
+        scanner.close();
+    }
+}
+```
+
+**Test Cases:**
+
+* **Positive Test Cases:**
+    * **s1:** "abcde", **s2:** "bcdea"
+    * **s1:** "12345", **s2:** "51234"
+    * **s1:** "hello", **s2:** "elloh"
+
+* **Negative Test Cases:**
+    * **s1:** "abcde", **s2:** "bcdef"
+    * **s1:** "12345", **s2:** "45123"
+    * **s1:** "hello", **s2:** "olleh"
+
+**Corner Cases:**
+
+* **Empty strings:**
+    * **s1:** "", **s2:** ""
+* **Strings with different lengths:**
+    * **s1:** "abcde", **s2:** "abcdef"
+* **Strings with special characters:**
+    * **s1:** "abc&^*", **s2:** "&^*abc"
+* **Strings with spaces:**
+    * **s1:** "a b c", **s2:** "b c a"

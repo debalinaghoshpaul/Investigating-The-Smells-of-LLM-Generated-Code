@@ -1,0 +1,6 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_DateTime\e724e741-17a7-4255-828d-303d8218d23f\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_DateTime\e724e741-17a7-4255-828d-303d8218d23f\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_DateTime\e724e741-17a7-4255-828d-303d8218d23f\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_DateTime\e724e741-17a7-4255-828d-303d8218d23f\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+Audit done.

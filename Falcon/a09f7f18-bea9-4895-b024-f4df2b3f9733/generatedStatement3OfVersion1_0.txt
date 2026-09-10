@@ -1,0 +1,3 @@
+ Equilibrium indices found at : [3, 6]
+// Equilibrium indices found at : [3, 6]
+// 

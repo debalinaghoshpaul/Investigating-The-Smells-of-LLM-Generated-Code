@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program that throws an exception and catch it using a try-catch block.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : d6ce9750-7b69-491c-980f-4609129c1e61.\n

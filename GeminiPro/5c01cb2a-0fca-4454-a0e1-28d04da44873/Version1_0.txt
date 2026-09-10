@@ -1,0 +1,29 @@
+```java
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class SortStrings {
+
+    public static void main(String[] args) {
+        // Create a list of strings
+        List<String> strings = Arrays.asList("apple", "banana", "cherry", "dog", "elephant");
+
+        // Sort the list of strings in alphabetical order using a lambda expression
+        Collections.sort(strings, (s1, s2) -> s1.compareTo(s2));
+
+        // Print the sorted list of strings
+        System.out.println(strings);
+    }
+}
+```
+
+**Test cases:**
+
+* **Empty list:** []
+* **List with one element:** ["apple"]
+* **List with multiple elements:** ["apple", "banana", "cherry", "dog", "elephant"]
+* **List with duplicate elements:** ["apple", "apple", "banana", "banana", "cherry"]
+* **List with elements of different lengths:** ["a", "apple", "banana", "cherry", "dog", "elephant"]
+* **List with special characters:** ["apple", "banana", "cherry", "$", "*"]
+* **List with null elements:** ["apple", "banana", "cherry", null]

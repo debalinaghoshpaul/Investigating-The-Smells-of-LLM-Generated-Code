@@ -1,0 +1,5 @@
+
+
+In this program, we first define the limit up to which we want to calculate the sum of all prime numbers. We also specify the number of threads to use for parallel processing. The program then creates multiple threads, each responsible for calculating the sum of prime numbers within a specific range. The `PrimeCalculator` class implements the logic for checking if a number is prime and adds it to the sum if it is. Finally, the main thread waits for all worker threads to finish and prints the total sum of all prime numbers.
+
+You can run this program and adjust the `limit` and `numThreads` variables to experiment with different scenarios.

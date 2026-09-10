@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:3:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:4:22: '12' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:4:26: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:4:29: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:4:32: '20' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:4:36: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:4:39: '15' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:6: Line is longer than 80 characters (found 116). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:9:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\a650b484-982c-4cf7-847a-7b95c74ced8b\generatedProgram1OfVersion1_0.java:9:38: Parameter arr should be final. [FinalParameters]
+Audit done.

@@ -1,0 +1,106 @@
+JUnit version 4.13
+.Reader thread: MockThread-0, value: 0
+Reader thread: MockThread-1, value: 0
+Reader thread: MockThread-3, value: 0
+Reader thread: MockThread-2, value: 0
+Reader thread: MockThread-4, value: 0
+Writer thread: MockThread-5 set value to 42
+Reader thread: MockThread-6, value: 0
+Reader thread: MockThread-7, value: 0
+Reader thread: MockThread-8, value: 0
+Reader thread: MockThread-9, value: 0
+Reader thread: MockThread-10, value: 0
+Writer thread: MockThread-11 set value to 42
+Reader thread: MockThread-12, value: 0
+Reader thread: MockThread-13, value: 0
+Reader thread: MockThread-14, value: 0
+Reader thread: MockThread-15, value: 0
+Reader thread: MockThread-16, value: 0
+Writer thread: MockThread-17 set value to 42
+Reader thread: MockThread-19, value: 0
+Reader thread: MockThread-18, value: 0
+Reader thread: MockThread-20, value: 0
+Reader thread: MockThread-21, value: 0
+Reader thread: MockThread-22, value: 0
+Writer thread: MockThread-23 set value to 42
+Reader thread: MockThread-25, value: 0
+Reader thread: MockThread-26, value: 0
+Reader thread: MockThread-24, value: 0
+Reader thread: MockThread-27, value: 0
+Reader thread: MockThread-28, value: 0
+Writer thread: MockThread-29 set value to 42
+Reader thread: MockThread-30, value: 0
+Reader thread: MockThread-31, value: 0
+Reader thread: MockThread-32, value: 0
+Reader thread: MockThread-33, value: 0
+Reader thread: MockThread-34, value: 0
+Reader thread: MockThread-36, value: 0
+Reader thread: MockThread-37, value: 0
+Writer thread: MockThread-35 set value to 42
+Reader thread: MockThread-38, value: 0
+Reader thread: MockThread-39, value: 0
+Writer thread: MockThread-41 set value to 42
+Reader thread: MockThread-40, value: 42
+Reader thread: MockThread-42, value: 0
+Reader thread: MockThread-43, value: 0
+Reader thread: MockThread-44, value: 0
+Reader thread: MockThread-45, value: 0
+Reader thread: MockThread-46, value: 0
+Writer thread: MockThread-47 set value to 42
+Reader thread: MockThread-48, value: 0
+Reader thread: MockThread-49, value: 0
+Reader thread: MockThread-50, value: 0
+Reader thread: MockThread-51, value: 0
+Reader thread: MockThread-52, value: 0
+Writer thread: MockThread-53 set value to 42
+Reader thread: MockThread-54, value: 0
+Reader thread: MockThread-55, value: 0
+Reader thread: MockThread-56, value: 0
+Reader thread: MockThread-57, value: 0
+Reader thread: MockThread-58, value: 0
+Writer thread: MockThread-59 set value to 42
+Reader thread: MockThread-60, value: 0
+Reader thread: MockThread-61, value: 0
+Reader thread: MockThread-63, value: 0
+Reader thread: MockThread-64, value: 0
+Writer thread: MockThread-65 set value to 42
+Reader thread: MockThread-66, value: 0
+Reader thread: MockThread-67, value: 0
+Reader thread: MockThread-62, value: 42
+Reader thread: MockThread-68, value: 0
+Reader thread: MockThread-69, value: 0
+Reader thread: MockThread-70, value: 0
+Reader thread: MockThread-72, value: 0
+Writer thread: MockThread-71 set value to 42
+Reader thread: MockThread-74, value: 0
+Reader thread: MockThread-75, value: 0
+Reader thread: MockThread-73, value: 0
+Reader thread: MockThread-76, value: 0
+Writer thread: MockThread-77 set value to 42
+Reader thread: MockThread-78, value: 0
+Reader thread: MockThread-79, value: 0
+Reader thread: MockThread-80, value: 0
+Reader thread: MockThread-82, value: 0
+Reader thread: MockThread-86, value: 0
+Writer thread: MockThread-83 set value to 42
+Reader thread: MockThread-81, value: 42
+Reader thread: MockThread-85, value: 0
+Writer thread: MockThread-89 set value to 42
+Reader thread: MockThread-87, value: 42
+Reader thread: MockThread-88, value: 42
+Reader thread: MockThread-84, value: 42
+Reader thread: MockThread-90, value: 0
+Reader thread: MockThread-91, value: 0
+Reader thread: MockThread-92, value: 0
+Reader thread: MockThread-93, value: 0
+Reader thread: MockThread-94, value: 0
+Writer thread: MockThread-95 set value to 42
+Reader thread: MockThread-98, value: 0
+Reader thread: MockThread-97, value: 0
+Reader thread: MockThread-96, value: 0
+Reader thread: MockThread-99, value: 0
+...
+Time: 0.362
+
+OK (4 tests)
+

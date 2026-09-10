@@ -1,0 +1,24 @@
+
+
+**Test Cases:**
+
+**Valid Cases:**
+
+* dog
+* tiger
+* giraffe
+
+**Invalid Cases:**
+
+* cat
+* lion
+* elephant
+* zebra
+
+**Corner Cases:**
+
+* **Empty string:** "" (should not match)
+* **Single-character word:** "g" (should match)
+* **Word starting with 'g':** "grape" (should not match)
+* **Word ending with 'g':** "dog" (should not match)
+* **Word containing multiple 'g's:** "giggle" (should match)

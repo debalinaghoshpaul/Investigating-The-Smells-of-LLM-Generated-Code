@@ -1,0 +1,74 @@
+```java
+import java.util.Scanner;
+
+public class MinimumSubarraySum {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input array
+        System.out.println("Enter the array elements:");
+        int[] nums = new int[scanner.nextInt()];
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = scanner.nextInt();
+        }
+
+        // Get the subarray size
+        System.out.println("Enter the subarray size:");
+        int subarraySize = scanner.nextInt();
+
+        // Find the minimum subarray sum
+        int minSum = Integer.MAX_VALUE;
+        int currentSum = 0;
+        for (int i = 0; i < nums.length - subarraySize + 1; i++) {
+            currentSum = 0;
+            for (int j = i; j < i + subarraySize; j++) {
+                currentSum += nums[j];
+            }
+            if (currentSum < minSum) {
+                minSum = currentSum;
+            }
+        }
+
+        // Print the minimum subarray sum
+        System.out.println("Minimum subarray sum of size " + subarraySize + " is: " + minSum);
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:**
+```
+Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Subarray size: 4
+Output: Sub-array from 0 to 3 and sum is: 10
+```
+
+* **Edge case: Subarray size is 1**
+```
+Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Subarray size: 1
+Output: Sub-array from 0 to 0 and sum is: 1
+```
+
+* **Edge case: Subarray size is greater than the array size**
+```
+Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Subarray size: 11
+Output: Invalid subarray size
+```
+
+* **Edge case: Negative numbers in the array**
+```
+Input: [-1, 2, -3, 4, -5, 6, -7, 8, -9, 10]
+Subarray size: 4
+Output: Sub-array from 2 to 5 and sum is: -12
+```
+
+* **Edge case: Empty array**
+```
+Input: []
+Subarray size: 4
+Output: Invalid array size
+```

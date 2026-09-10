@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93P0QAS191W2oQLhJWJYKfpAWFr1K",
+  "object" : "chat.completion",
+  "created" : 1710598134,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\n\npublic class CountStackElements {\n\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        \n        // Pushing elements to the stack\n        stack.push(5);\n        stack.push(10);\n        stack.push(15);\n        stack.push(20);\n        \n        // Counting all elements in the stack\n        int count = 0;\n        for(int i : stack) {\n            count++;\n        }\n        \n        System.out.println(\"Total elements in the stack: \" + count);\n    }\n}\n```\n\nThis program creates a stack, pushes some elements to it, and then counts all the elements in the stack. The count is then printed to the console."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 63,
+    "completion_tokens" : 150,
+    "total_tokens" : 213
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

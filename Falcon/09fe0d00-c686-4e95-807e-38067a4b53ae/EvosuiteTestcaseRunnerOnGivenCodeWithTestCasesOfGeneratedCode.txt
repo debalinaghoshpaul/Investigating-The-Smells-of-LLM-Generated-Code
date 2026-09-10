@@ -1,0 +1,74 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.383
+There were 13 failures:
+1) test09(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.readNumbersFromUser(DuplicateNumbers.java:15)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test09(Duplicate_Number_Check_ESTest.java:140)
+2) test08(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.readNumbersFromUser(DuplicateNumbers.java:15)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test08(Duplicate_Number_Check_ESTest.java:131)
+3) test07(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.checkDuplicates(DuplicateNumbers.java:32)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test07(Duplicate_Number_Check_ESTest.java:124)
+4) test06(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.checkDuplicates(DuplicateNumbers.java:32)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test06(Duplicate_Number_Check_ESTest.java:108)
+5) test01(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.main(DuplicateNumbers.java:5)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test01(Duplicate_Number_Check_ESTest.java:35)
+6) test12(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Duplicate_Number_Check must be defined in its own file
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.<init>(DuplicateNumbers.java:4)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test12(Duplicate_Number_Check_ESTest.java:181)
+7) test00(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.main(DuplicateNumbers.java:5)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test00(Duplicate_Number_Check_ESTest.java:27)
+8) test11(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.main(DuplicateNumbers.java:5)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test11(Duplicate_Number_Check_ESTest.java:168)
+9) test10(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.main(DuplicateNumbers.java:5)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test10(Duplicate_Number_Check_ESTest.java:158)
+10) test05(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.checkDuplicates(DuplicateNumbers.java:32)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test05(Duplicate_Number_Check_ESTest.java:90)
+11) test04(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.main(DuplicateNumbers.java:5)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test04(Duplicate_Number_Check_ESTest.java:75)
+12) test03(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.readNumbersFromUser(DuplicateNumbers.java:15)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test03(Duplicate_Number_Check_ESTest.java:58)
+13) test02(testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Duplicate_Number_Check.readNumbersFromUser(DuplicateNumbers.java:15)
+	at testing_ChatGPT_on_java.Duplicate_Number_Check_ESTest.test02(Duplicate_Number_Check_ESTest.java:49)
+
+FAILURES!!!
+Tests run: 13,  Failures: 13
+

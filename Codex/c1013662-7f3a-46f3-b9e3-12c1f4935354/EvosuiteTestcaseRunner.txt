@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Input the first number: Input the second number: false
+.Input the first number: Input the second number: Invalid input. The numbers must be between 25 and 75.
+..Input the first number: Input the second number: true
+.Input the first number: Input the second number: Invalid input. The numbers must be between 25 and 75.
+.Input the first number: Input the second number: Invalid input. The numbers must be between 25 and 75.
+.Input the first number: Input the second number: Invalid input. The numbers must be between 25 and 75.
+.Input the first number: .Input the first number: 
+Time: 0.36
+
+OK (9 tests)
+

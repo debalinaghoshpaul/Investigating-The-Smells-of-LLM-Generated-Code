@@ -1,0 +1,45 @@
+**Java Program to Check if a Given String Ends with Another String:**
+
+```java
+import java.util.Scanner;
+
+public class StringEndsWith {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the first string
+        System.out.println("Enter the first string: ");
+        String str1 = scanner.nextLine();
+
+        // Read the second string
+        System.out.println("Enter the second string: ");
+        String str2 = scanner.nextLine();
+
+        // Check if the first string ends with the second string
+        boolean result = str1.endsWith(str2);
+
+        // Print the result
+        if (result) {
+            System.out.println("The first string ends with the second string.");
+        } else {
+            System.out.println("The first string does not end with the second string.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: "Hello", "o" -> Output: True (str1 ends with str2)
+* Input: "Programming", "ing" -> Output: True (str1 ends with str2)
+* Input: "Java", "C#" -> Output: False (str1 does not end with str2)
+
+**Corner Cases:**
+
+* Input: "", "" -> Output: True (empty strings end with any string)
+* Input: "abc", "abc" -> Output: True (str1 is equal to str2)
+* Input: "abc", "abcd" -> Output: False (str1 does not end with str2, str2 is longer)
+* Input: "abc", "" -> Output: True (any string ends with an empty string)

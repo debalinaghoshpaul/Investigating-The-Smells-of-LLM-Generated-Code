@@ -1,0 +1,6 @@
+
+Input:
+0
+
+Output:
+0.0

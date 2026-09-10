@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class CheckBinaryTrees {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+        int[] arr1 = new int[n1];
+        int[] arr2 = new int[n2];
+        for (int i = 0; i < n1; i++) {
+            arr1[i] = sc.nextInt();
+        }
+        for (int i = 0; i < n2; i++) {
+            arr2[i] = sc.nextInt();
+        }
+        Queue<Integer> queue1 = new LinkedList<>();
+        Queue<Integer> queue2 = new LinkedList<>();
+        for (int i = 0; i < n1; i++) {
+            queue1.add(arr1[i]);
+        }
+        for (int i = 0; i < n2; i++) {
+            queue2.add(arr2[i]);
+        }
+        while (!queue1.isEmpty() &&!queue2.isEmpty()) {
+            int x = queue1.poll();
+            int y = queue2.poll();
+            if (x!= y) {
+                System.out.println("No");
+                return;
+            }
+        }
+        if (queue1.isEmpty() && queue2.isEmpty()) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+// 

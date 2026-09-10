@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.512
+There were 5 failures:
+1) test1(testing_ChatGPT_on_java.StringLengthCalculator_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.StringLengthCalculator.calculateStringLength(StringLength.java:4)
+	at testing_ChatGPT_on_java.StringLengthCalculator_ESTest.test1(StringLengthCalculator_ESTest.java:32)
+2) test0(testing_ChatGPT_on_java.StringLengthCalculator_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.StringLengthCalculator.calculateStringLength(StringLength.java:4)
+	at testing_ChatGPT_on_java.StringLengthCalculator_ESTest.test0(StringLengthCalculator_ESTest.java:23)
+3) test3(testing_ChatGPT_on_java.StringLengthCalculator_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.StringLengthCalculator.main(StringLength.java:16)
+	at testing_ChatGPT_on_java.StringLengthCalculator_ESTest.test3(StringLengthCalculator_ESTest.java:45)
+4) test2(testing_ChatGPT_on_java.StringLengthCalculator_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.StringLengthCalculator.calculateStringLength(StringLength.java:4)
+	at testing_ChatGPT_on_java.StringLengthCalculator_ESTest.test2(StringLengthCalculator_ESTest.java:38)
+5) test4(testing_ChatGPT_on_java.StringLengthCalculator_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type StringLengthCalculator must be defined in its own file
+
+	at testing_ChatGPT_on_java.StringLengthCalculator.<init>(StringLength.java:2)
+	at testing_ChatGPT_on_java.StringLengthCalculator_ESTest.test4(StringLengthCalculator_ESTest.java:51)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

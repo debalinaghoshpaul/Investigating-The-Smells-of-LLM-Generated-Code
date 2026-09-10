@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Enter the upper limit: 
+Numbers divisible by 3: 
+3 6 9 12 15 18 21 24 27 30 33 36 
+Numbers divisible by 5: 
+5 10 15 20 25 30 35 
+Numbers divisible by both 3 and 5: 
+15 30 ..Enter the upper limit: 
+.Enter the upper limit: 
+
+Time: 0.345
+
+OK (4 tests)
+

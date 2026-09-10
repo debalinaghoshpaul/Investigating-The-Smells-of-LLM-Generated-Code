@@ -1,0 +1,10 @@
+JUnit version 4.13
+..Enter waypoints (x y timestamp), enter 'q' to quit:
+.Enter waypoints (x y timestamp), enter 'q' to quit:
+.Enter waypoints (x y timestamp), enter 'q' to quit:
+.Enter waypoints (x y timestamp), enter 'q' to quit:
+
+Time: 0.572
+
+OK (5 tests)
+

@@ -1,0 +1,4 @@
+
+Input first floating point number: 1235
+Input second floating point number: 2534
+These numbers are different.

@@ -1,0 +1,57 @@
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is: 17
+
+Enter a decimal number: 15
+Octal number is:

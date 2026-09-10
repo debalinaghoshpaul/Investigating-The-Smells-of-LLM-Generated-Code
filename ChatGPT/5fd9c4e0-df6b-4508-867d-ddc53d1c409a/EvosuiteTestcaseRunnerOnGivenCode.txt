@@ -1,0 +1,21 @@
+JUnit version 4.13
+.Stack is empty
+.Invalid value of n
+...Stack is empty
+....Stack Underflow
+....Stack is full
+.Stack elements: 0 
+.Initialize a stack:
+Input some elements on the stack:
+Stack elements: 5 4 3 2 1 
+
+The 2nd element from the top is 4
+
+The 3rd element from the top is 3
+
+The 4th element from the top is 2
+..
+Time: 0.423
+
+OK (17 tests)
+

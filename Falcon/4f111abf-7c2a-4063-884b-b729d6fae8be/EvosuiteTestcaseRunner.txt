@@ -1,0 +1,16 @@
+JUnit version 4.13
+..Final value of the counter: 10000
+Final value of the counter: 20000
+Final value of the counter: 30000
+Final value of the counter: 40000
+Final value of the counter: 50000
+Final value of the counter: 60000
+Final value of the counter: 70000
+Final value of the counter: 80000
+Final value of the counter: 90000
+Final value of the counter: 100000
+
+Time: 0.347
+
+OK (2 tests)
+

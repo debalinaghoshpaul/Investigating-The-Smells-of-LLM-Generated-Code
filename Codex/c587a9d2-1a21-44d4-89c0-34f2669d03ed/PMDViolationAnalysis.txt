@@ -1,0 +1,5 @@
+Violations by Category:
+CommentRequired: Class comments are required: 11
+ForLoopCanBeForeach: This for loop can be replaced by a foreach loop: 1
+UnnecessaryImport: Unused import 'java.util.*': 2
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

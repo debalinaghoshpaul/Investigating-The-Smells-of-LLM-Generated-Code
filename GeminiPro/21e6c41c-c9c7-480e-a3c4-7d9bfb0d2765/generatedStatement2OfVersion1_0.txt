@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+* **Valid Hexadecimal Numbers:**
+    * 37
+    * A9
+    * FFF
+    * 1234
+* **Invalid Hexadecimal Numbers:**
+    * G (invalid digit)
+    * 10000 (too many digits)
+    * ABCD (invalid digit)
+
+**Corner Cases:**
+
+* **Empty input:** The program should handle the case where the user enters an empty string.
+* **Leading and trailing whitespace:** The program should ignore leading and trailing whitespace in the input string.
+* **Case-insensitive input:** The program should handle both upper-case and lower-case hexadecimal digits.

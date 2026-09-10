@@ -1,0 +1,60 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class NumbersGreaterThanAverage {
+
+    public static void main(String[] args) {
+        // Get the input array from the user
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the array elements separated by spaces:");
+        String[] inputArray = scanner.nextLine().split(" ");
+        int[] numbers = new int[inputArray.length];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = Integer.parseInt(inputArray[i]);
+        }
+
+        // Calculate the average of the array
+        double average = calculateAverage(numbers);
+
+        // Find the numbers that are greater than the average
+        int[] greaterThanAverage = findNumbersGreaterThanAverage(numbers, average);
+
+        // Print the original array, the average, and the numbers that are greater than the average
+        System.out.println("Original Array: " + Arrays.toString(numbers));
+        System.out.println("The average of the said array is: " + average);
+        System.out.println("The numbers in the said array that are greater than the average are: " + Arrays.toString(greaterThanAverage));
+    }
+
+    /**
+     * Calculates the average of an array of integers.
+     *
+     * @param numbers The array of integers to calculate the average of.
+     * @return The average of the array.
+     */
+    private static double calculateAverage(int[] numbers) {
+        double sum = 0;
+        for (int number : numbers) {
+            sum += number;
+        }
+        return sum / numbers.length;
+    }
+
+    /**
+     * Finds the numbers in an array that are greater than the average.
+     *
+     * @param numbers The array of integers to find the greater than average numbers in.
+     * @param average The average of the array.
+     * @return An array of the numbers that are greater than the average.
+     */
+    private static int[] findNumbersGreaterThanAverage(int[] numbers, double average) {
+        int[] greaterThanAverage = new int[numbers.length];
+        int count = 0;
+        for (int number : numbers) {
+            if (number > average) {
+                greaterThanAverage[count] = number;
+                count++;
+            }
+        }
+        return Arrays.copyOf(greaterThanAverage, count);
+    }
+}

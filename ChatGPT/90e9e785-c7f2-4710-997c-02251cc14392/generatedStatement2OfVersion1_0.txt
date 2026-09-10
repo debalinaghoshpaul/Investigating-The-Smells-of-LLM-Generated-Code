@@ -1,0 +1,3 @@
+
+
+This Java program defines a recursive method `sumOfOddNumbers` that calculates the sum of all odd numbers in an array. The main method initializes an array of numbers and calls the `sumOfOddNumbers` method to compute the sum of odd numbers. The `sumOfOddNumbersHelper` method is a recursive helper function that is called for each element in the array. If the current element is odd, it adds the element to the sum, otherwise it skips the element.

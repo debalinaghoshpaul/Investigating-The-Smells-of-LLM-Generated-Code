@@ -1,0 +1,5 @@
+
+
+In this program, we create a `CountDownLatch` object for both starting and finishing signals. We then create three worker threads and start them. When the `main` method starts, it counts down the start signal, and all threads begin their work. Once all threads have finished their work, they count down the finish signal. The `main` method waits for all threads to finish by calling `await` on the finish signal. Finally, it prints a message indicating that all threads have finished executing.
+
+You can adjust the number of worker threads by changing the loop limit in the `main` method and also specify the number of threads that must signal they have finished by changing the count in the `finishSignal` `CountDownLatch` object.

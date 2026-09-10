@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:38:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:39:3: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:39:27: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:47:3: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:47:36: Parameter animal should be final. [FinalParameters]
+Audit done.

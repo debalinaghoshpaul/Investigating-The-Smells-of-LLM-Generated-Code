@@ -1,0 +1,24 @@
+```java
+import java.util.Scanner;
+
+public class CreateNewString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Get the number of characters to take from the first and last positions
+        System.out.println("Enter the number of characters to take from the first and last positions: ");
+        int numChars = scanner.nextInt();
+
+        // Create a new string by taking the specified number of characters from the first and last positions
+        String newString = inputString.substring(0, numChars) + inputString.substring(inputString.length() - numChars);
+
+        // Print the new string
+        System.out.println("The new string is: " + newString);
+    }
+}
+```

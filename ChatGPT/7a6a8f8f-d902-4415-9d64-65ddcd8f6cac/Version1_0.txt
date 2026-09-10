@@ -1,0 +1,58 @@
+```java
+import java.util.Arrays;
+
+public class ExponentialSearch {
+
+    public static void main(String[] args) {
+        // Test cases
+        int[] arr1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] arr2 = {};
+        int[] arr3 = {1};
+
+        // Corner cases
+        int[] arr4 = null;
+
+        // Expected results
+        int expected1 = 4;
+        int expected2 = -1;
+        int expected3 = 0;
+
+        // Actual results
+        int actual1 = exponentialSearch(arr1, 5);
+        int actual2 = exponentialSearch(arr2, 5);
+        int actual3 = exponentialSearch(arr3, 1);
+
+        // Print results
+        System.out.println("Test case 1: " + (actual1 == expected1));
+        System.out.println("Test case 2: " + (actual2 == expected2));
+        System.out.println("Test case 3: " + (actual3 == expected3));
+
+        // Corner case: null array
+        int actual4 = exponentialSearch(arr4, 5);
+        System.out.println("Corner case: null array: " + (actual4 == -1));
+    }
+
+    public static int exponentialSearch(int[] arr, int key) {
+        // If the array is null, return -1
+        if (arr == null) {
+            return -1;
+        }
+
+        // If the array is empty, return -1
+        if (arr.length == 0) {
+            return -1;
+        }
+
+        // Find the range where the key may exist
+        int i = 1;
+        while (i < arr.length && arr[i] <= key) {
+            i *= 2;
+        }
+
+        // Perform binary search in the range
+        int low = i / 2;
+        int high = Math.min(i, arr.length - 1);
+        return Arrays.binarySearch(arr, low, high + 1, key);
+    }
+}
+```

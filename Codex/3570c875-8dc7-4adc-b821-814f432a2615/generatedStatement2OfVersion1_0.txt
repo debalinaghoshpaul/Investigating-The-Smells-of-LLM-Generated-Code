@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **num1 = 0.0 and num2 = 0.0:** This is a corner case where the two numbers are exactly the same. The program should output "These numbers are the same."
+* **num1 = 1.0 and num2 = 1.0000000000000002:** This is a corner case where the two numbers are very close, but not exactly the same. The program should output "These numbers are different."
+
+**Other Test Cases:**
+
+* **num1 = 1235.456789 and num2 = 1235.45:** This is a test case where the two numbers are the same up to two decimal places. The program should output "These numbers are the same."
+* **num1 = 1235.456789 and num2 = 1235.46:** This is a test case where the two numbers are different up to two decimal places. The program should output "These numbers are different."
+* **num1 = 0.0000000001 and num2 = 0.0000000002:** This is a test case where the two numbers are very small and close together. The program should output "These numbers are different."
+* **num1 = 1234567890123456789.1234567890123456789 and num2 = 1234567890123456789.1234567890123456790:** This is a test case where the two numbers are very large and close together. The program should output "These numbers are different."

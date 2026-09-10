@@ -1,0 +1,49 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class SpeedCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter distance in meters: ");
+        int distance = scanner.nextInt();
+        System.out.print("Enter hours: ");
+        int hours = scanner.nextInt();
+        System.out.print("Enter minutes: ");
+        int minutes = scanner.nextInt();
+        System.out.print("Enter seconds: ");
+        int seconds = scanner.nextInt();
+
+        double metersPerSecond = (double)distance / (double)hours / 3600;
+        double kilometersPerHour = (double)distance / (double)minutes / 60;
+        double milesPerHour = (double)distance / (double)seconds / 60;
+
+        System.out.println("Your speed in meters/second is: " + metersPerSecond);
+        System.out.println("Your speed in km/h is: " + kilometersPerHour);
+        System.out.println("Your speed in miles/h is: " + milesPerHour);
+    }
+}
+
+Output:
+Enter distance in meters: 2500
+Enter hours: 5
+Enter minutes: 56
+Enter seconds: 23
+Your speed in meters/second is: 0.11691531
+Your speed in km/h is: 0.42089513
+Your speed in miles/h is: 0.26158804
+
+Enter distance in meters: 2500
+Enter hours: 5
+Enter minutes: 56
+Enter seconds: 23
+Your speed in meters/second is: 0.11691531
+Your speed in km/h is: 0.42089513
+Your speed in miles/h is: 0.26158804
+
+Enter distance in meters: 2500
+Enter hours: 5
+Enter minutes: 56
+Enter seconds: 23
+Your speed in meters/second is: 0.11691531
+Your speed in km/h is: 0.42089513
+Your speed in miles/h is: 0.26158804

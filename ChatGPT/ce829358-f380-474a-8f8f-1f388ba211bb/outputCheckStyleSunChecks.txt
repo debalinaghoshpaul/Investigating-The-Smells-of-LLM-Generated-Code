@@ -1,0 +1,6 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\ce829358-f380-474a-8f8f-1f388ba211bb\GivenSolution.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\ce829358-f380-474a-8f8f-1f388ba211bb\GivenSolution.java:36:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\ce829358-f380-474a-8f8f-1f388ba211bb\GivenSolution.java:37:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\ce829358-f380-474a-8f8f-1f388ba211bb\GivenSolution.java:37:29: Parameter args should be final. [FinalParameters]
+Audit done.

@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class PythagoreanTriplet {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input
+        System.out.println("Enter a positive number: ");
+        int number = scanner.nextInt();
+
+        // Check if there are two integers x and y such that x^2 + y^2 = number
+        boolean found = false;
+        for (int x = 1; x <= number; x++) {
+            for (int y = 1; y <= number; y++) {
+                if (x * x + y * y == number) {
+                    found = true;
+                    break;
+                }
+            }
+        }
+
+        // Print the result
+        if (found) {
+            System.out.println("Yes, there are two integers x and y such that x^2 + y^2 = " + number);
+        } else {
+            System.out.println("No, there are no two integers x and y such that x^2 + y^2 = " + number);
+        }
+    }
+}

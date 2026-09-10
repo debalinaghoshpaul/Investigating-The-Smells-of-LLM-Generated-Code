@@ -1,0 +1,5 @@
+
+Input:
+
+Output:
+No shapes to draw

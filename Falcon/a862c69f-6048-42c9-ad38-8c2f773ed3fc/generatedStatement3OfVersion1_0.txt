@@ -1,0 +1,198 @@
+
+Input: , Pattern: a
+Matches: false
+
+Input: , Pattern: a.
+Matches: false
+
+Input: , Pattern: a?
+Matches: true
+
+Input: , Pattern: a*
+Matches: true
+
+Input: , Pattern: a?.
+Matches: false
+
+Input: , Pattern: a*.
+Matches: true
+
+Input: a, Pattern: a
+Matches: true
+
+Input: a, Pattern: a.
+Matches: true
+
+Input: a, Pattern: a?
+Matches: false
+
+Input: a, Pattern: a*
+Matches: true
+
+Input: a, Pattern: a?.
+Matches: true
+
+Input: a, Pattern: a*.
+Matches: true
+
+Input: ab, Pattern: a
+Matches: false
+
+Input: ab, Pattern: a.
+Matches: true
+
+Input: ab, Pattern: a?
+Matches: false
+
+Input: ab, Pattern: a*
+Matches: true
+
+Input: ab, Pattern: a?.
+Matches: true
+
+Input: ab, Pattern: a*.
+Matches: true
+
+Input: abc, Pattern: a
+Matches: false
+
+Input: abc, Pattern: a.
+Matches: true
+
+Input: abc, Pattern: a?
+Matches: false
+
+Input: abc, Pattern: a*
+Matches: true
+
+Input: abc, Pattern: a?.
+Matches: true
+
+Input: abc, Pattern: a*.
+Matches: true
+
+Input: a?, Pattern: a
+Matches: true
+
+Input: a?, Pattern: a.
+Matches: true
+
+Input: a?, Pattern: a?
+Matches: true
+
+Input: a?, Pattern: a*
+Matches: true
+
+Input: a?, Pattern: a?.
+Matches: true
+
+Input: a?, Pattern: a*.
+Matches: true
+
+Input: a*, Pattern: a
+Matches: true
+
+Input: a*, Pattern: a.
+Matches: true
+
+Input: a*, Pattern: a?
+Matches: true
+
+Input: a*, Pattern: a*
+Matches: true
+
+Input: a*, Pattern: a?.
+Matches: true
+
+Input: a*, Pattern: a*.
+Matches: true
+
+Input: a.bc, Pattern: a
+Matches: false
+
+Input: a.bc, Pattern: a.
+Matches: true
+
+Input: a.bc, Pattern: a?
+Matches: false
+
+Input: a.bc, Pattern: a*
+Matches: true
+
+Input: a.bc, Pattern: a?.
+Matches: true
+
+Input: a.bc, Pattern: a*.
+Matches: true
+
+Input: a?bc, Pattern: a
+Matches: false
+
+Input: a?bc, Pattern: a.
+Matches: true
+
+Input: a?bc, Pattern: a?
+Matches: true
+
+Input: a?bc, Pattern: a*
+Matches: true
+
+Input: a?bc, Pattern: a?.
+Matches: true
+
+Input: a?bc, Pattern: a*.
+Matches: true
+
+Input: a*bc, Pattern: a
+Matches: false
+
+Input: a*bc, Pattern: a.
+Matches: true
+
+Input: a*bc, Pattern: a?
+Matches: true
+
+Input: a*bc, Pattern: a*
+Matches: true
+
+Input: a*bc, Pattern: a?.
+Matches: true
+
+Input: a*bc, Pattern: a*.
+Matches: true
+
+Input: a?.bc, Pattern: a
+Matches: false
+
+Input: a?.bc, Pattern: a.
+Matches: true
+
+Input: a?.bc, Pattern: a?
+Matches: true
+
+Input: a?.bc, Pattern: a*
+Matches: true
+
+Input: a?.bc, Pattern: a?.
+Matches: true
+
+Input: a?.bc, Pattern: a*.
+Matches: true
+
+Input: a*.bc, Pattern: a
+Matches: false
+
+Input: a*.bc, Pattern: a.
+Matches: true
+
+Input: a*.bc, Pattern: a?
+Matches: true
+
+Input: a*.bc, Pattern: a*
+Matches: true
+
+Input: a*.bc, Pattern: a?.
+Matches: true
+
+Input: a*.bc, Pattern: a*.
+Matches: true

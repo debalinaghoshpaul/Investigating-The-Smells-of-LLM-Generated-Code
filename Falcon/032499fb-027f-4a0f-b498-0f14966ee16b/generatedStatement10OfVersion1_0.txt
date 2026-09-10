@@ -1,0 +1,6 @@
+
+
+**Explanation:**
+The leaders in the array are 4 and 0.
+
+**Input:**

@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Enter a value for inch: 0.0 inches is 0.0 meters
+Enter an integer between 0 and 1000: The sum of digits is: 0
+.Enter a value for inch: ..Enter a value for inch: 999.0 inches is 25.374599999999997 meters
+Enter an integer between 0 and 1000: The sum of digits is: 27
+.Enter a value for inch: -99.0 inches is -2.5145999999999997 meters
+Enter an integer between 0 and 1000: Please enter a valid integer between 0 and 1000
+.Enter a value for inch: .Enter a value for inch: 3999.0 inches is 101.57459999999999 meters
+Enter an integer between 0 and 1000: Please enter a valid integer between 0 and 1000
+
+Time: 0.344
+
+OK (7 tests)
+

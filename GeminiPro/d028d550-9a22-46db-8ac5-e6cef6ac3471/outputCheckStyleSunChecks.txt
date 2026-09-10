@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:7:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:8:30: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:8:33: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:9:30: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:25:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:25:47: Parameter nums should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:31: Line is longer than 80 characters (found 108). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:31:35: Parameter nums should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:31:47: Parameter permutation should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\d028d550-9a22-46db-8ac5-e6cef6ac3471\generatedProgram1OfVersion1_0.java:31:74: Parameter permutations should be final. [FinalParameters]
+Audit done.

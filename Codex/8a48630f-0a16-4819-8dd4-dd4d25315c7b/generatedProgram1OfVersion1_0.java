@@ -1,0 +1,38 @@
+import java.util.Arrays;
+import java.util.HashSet;
+
+public class FindDuplicates {
+
+    public static void main(String[] args) {
+        // Test cases
+        String[] arr1 = {"a", "b", "c", "d", "e"};
+        String[] arr2 = {"a", "b", "c", "d", "e", "f"};
+        String[] arr3 = {"a", "b", "c", "d", "e", "e"};
+        String[] arr4 = {};
+        String[] arr5 = {"a"};
+
+        System.out.println(findDuplicates(arr1)); // []
+        System.out.println(findDuplicates(arr2)); // [f]
+        System.out.println(findDuplicates(arr3)); // [e]
+        System.out.println(findDuplicates(arr4)); // []
+        System.out.println(findDuplicates(arr5)); // [a]
+    }
+
+    // Function to find duplicate values in an array of string values
+    public static String[] findDuplicates(String[] arr) {
+        if (arr == null || arr.length == 0) {
+            return new String[0];
+        }
+
+        HashSet<String> set = new HashSet<>();
+        HashSet<String> duplicates = new HashSet<>();
+
+        for (String s : arr) {
+            if (!set.add(s)) {
+                duplicates.add(s);
+            }
+        }
+
+        return duplicates.toArray(new String[0]);
+    }
+}

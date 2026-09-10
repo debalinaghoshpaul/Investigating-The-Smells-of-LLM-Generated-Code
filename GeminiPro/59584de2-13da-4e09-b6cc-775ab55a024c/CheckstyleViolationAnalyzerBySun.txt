@@ -1,0 +1,9 @@
+Violations by Category:
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 23
+FinalParameters: Parameter queue should be final. [FinalParameters]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+LeftCurly: '{' at column 5 should be on the previous line. [LeftCurly]: 2
+SimplifyBooleanExpression: Expression can be simplified. [SimplifyBooleanExpression]: 1
+NeedBraces: 'while' construct must use '{}'s. [NeedBraces]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '10' is a magic number. [MagicNumber]: 4

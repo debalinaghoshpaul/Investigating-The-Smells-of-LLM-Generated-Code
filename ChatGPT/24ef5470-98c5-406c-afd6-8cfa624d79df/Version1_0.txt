@@ -1,0 +1,76 @@
+**Problem 1**
+```java
+public class RearrangeOddEven {
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        rearrangeOddEven(arr);
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+    }
+
+    private static void rearrangeOddEven(int[] arr) {
+        int oddIndex = 0;
+        int evenIndex = arr.length - 1;
+
+        while (oddIndex < evenIndex) {
+            while (arr[oddIndex] % 2 != 0) {
+                oddIndex++;
+            }
+            while (arr[evenIndex] % 2 == 0) {
+                evenIndex--;
+            }
+            if (oddIndex < evenIndex) {
+                int temp = arr[oddIndex];
+                arr[oddIndex] = arr[evenIndex];
+                arr[evenIndex] = temp;
+                oddIndex++;
+                evenIndex--;
+            }
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+| Input Array | Expected Output |
+|---|---|
+| [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | [1, 3, 5, 7, 9, 2, 4, 6, 8, 10] |
+| [2, 4, 6, 8, 10] | [2, 4, 6, 8, 10] |
+| [1, 3, 5, 7, 9] | [1, 3, 5, 7, 9] |
+| [0, 2, 4, 6, 8, 10] | [0, 2, 4, 6, 8, 10] |
+| [] | [] |
+
+**Problem 2**
+
+```java
+public class CreateArrayOfStringValues {
+
+    public static void main(String[] args) {
+        int n = 5;
+        String[] arr = createArrayOfStringValues(n);
+        for (String s : arr) {
+            System.out.print(s + " ");
+        }
+    }
+
+    private static String[] createArrayOfStringValues(int n) {
+        String[] arr = new String[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = String.valueOf(i);
+        }
+        return arr;
+    }
+}
+```
+
+**Test Cases:**
+
+| Input n | Expected Output |
+|---|---|
+| 5 | [0, 1, 2, 3, 4] |
+| 0 | [] |
+| 10 | [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] |
+| -1 | [] |

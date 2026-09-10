@@ -1,0 +1,3 @@
+
+
+* **Corner case:** Check if the enum does not contain an unexpected constant.

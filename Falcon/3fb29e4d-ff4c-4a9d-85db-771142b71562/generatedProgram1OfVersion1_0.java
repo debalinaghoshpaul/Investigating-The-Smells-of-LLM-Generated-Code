@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class MaxDistinctPrimeFactors {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        List<Integer> factors = new ArrayList<>();
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i)) {
+                factors.add(i);
+            }
+        }
+        int max = 0;
+        for (int i = 0; i < factors.size(); i++) {
+            int count = 0;
+            for (int j = 0; j < factors.size(); j++) {
+                if (factors.get(i) % factors.get(j) == 0) {
+                    count++;
+                }
+            }
+            if (count > max) {
+                max = count;
+            }
+        }
+        System.out.println(max);
+    }
+
+    public static boolean isPrime(int n) {
+        if (n <= 1) {
+            return false;
+        }
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+// 

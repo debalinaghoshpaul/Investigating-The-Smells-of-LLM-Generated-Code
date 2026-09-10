@@ -1,0 +1,39 @@
+```java
+import java.util.Scanner;
+
+public class PentagonArea {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Read the length of the side of the pentagon
+        System.out.println("Enter the length of the side of the pentagon: ");
+        double sideLength = input.nextDouble();
+
+        // Read the apothem of the pentagon
+        System.out.println("Enter the apothem of the pentagon: ");
+        double apothem = input.nextDouble();
+
+        // Calculate the area of the pentagon
+        double area = (5 * sideLength * apothem) / 2;
+
+        // Print the area of the pentagon
+        System.out.println("The area of the pentagon is: " + area);
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* Side length = 5, Apothem = 4
+* Side length = 10, Apothem = 6
+* Side length = 15, Apothem = 8
+
+**Corner Cases:**
+
+* Side length = 0, Apothem = 4 (Invalid: Side length cannot be zero)
+* Side length = 5, Apothem = 0 (Invalid: Apothem cannot be zero)
+* Side length = -5, Apothem = 4 (Invalid: Side length cannot be negative)
+* Side length = 5, Apothem = -4 (Invalid: Apothem cannot be negative)

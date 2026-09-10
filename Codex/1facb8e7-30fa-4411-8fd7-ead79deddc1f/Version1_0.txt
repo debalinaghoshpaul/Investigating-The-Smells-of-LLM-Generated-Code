@@ -1,0 +1,26 @@
+```java
+import java.util.*;
+
+public class ReverseOrderKeysInMap {
+
+    public static void main(String[] args) {
+        // create a map
+        Map<String, Integer> map = new HashMap<>();
+        map.put("one", 1);
+        map.put("two", 2);
+        map.put("three", 3);
+        map.put("four", 4);
+        map.put("five", 5);
+
+        // get a reverse order view of the keys
+        Set<String> keys = map.keySet();
+        List<String> reverseKeys = new ArrayList<>(keys);
+        Collections.reverse(reverseKeys);
+
+        // print the reverse order view of the keys
+        for (String key : reverseKeys) {
+            System.out.println(key);
+        }
+    }
+}
+```

@@ -1,0 +1,47 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Test Case 1:**
+    * Input: The first day of the year (e.g., January 1, 2023)
+    * Expected Output:
+        * Maximum year: 2023
+        * Maximum month: 11 (December)
+        * Maximum week: 53
+        * Maximum date: 31
+
+* **Test Case 2:**
+    * Input: The last day of the month (e.g., January 31, 2023)
+    * Expected Output:
+        * Maximum year: 2023
+        * Maximum month: 11 (December)
+        * Maximum week: 53
+        * Maximum date: 31
+
+* **Test Case 3:**
+    * Input: The last day of the week (e.g., Sunday, January 29, 2023)
+    * Expected Output:
+        * Maximum year: 2023
+        * Maximum month: 11 (December)
+        * Maximum week: 53
+        * Maximum date: 31
+
+**Normal Cases:**
+
+* **Test Case 4:**
+    * Input: A random date (e.g., February 15, 2023)
+    * Expected Output:
+        * Maximum year: 2023
+        * Maximum month: 11 (December)
+        * Maximum week: 53
+        * Maximum date: 31
+
+* **Test Case 5:**
+    * Input: A leap year date (e.g., February 29, 2024)
+    * Expected Output:
+        * Maximum year: 2024
+        * Maximum month: 11 (December)
+        * Maximum week: 53
+        * Maximum date: 29

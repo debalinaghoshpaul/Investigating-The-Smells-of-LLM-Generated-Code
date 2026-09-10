@@ -1,0 +1,58 @@
+JUnit version 4.13
+.E.E.E.E..E..E..E.E.E.E
+Time: 0.385
+There were 10 failures:
+1) test04(testing_ChatGPT_on_java.Circle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getDiameter() is undefined for the type Circle
+
+	at testing_ChatGPT_on_java.Circle_ESTest.test04(Circle_ESTest.java:49)
+2) test05(testing_ChatGPT_on_java.Circle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getDiameter() is undefined for the type Circle
+
+	at testing_ChatGPT_on_java.Circle_ESTest.test05(Circle_ESTest.java:56)
+3) test02(testing_ChatGPT_on_java.Circle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getPerimeter() is undefined for the type Circle
+
+	at testing_ChatGPT_on_java.Circle_ESTest.test02(Circle_ESTest.java:35)
+4) test03(testing_ChatGPT_on_java.Circle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getPerimeter() is undefined for the type Circle
+
+	at testing_ChatGPT_on_java.Circle_ESTest.test03(Circle_ESTest.java:42)
+5) test11(testing_ChatGPT_on_java.Circle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getDiameter() is undefined for the type Circle
+
+	at testing_ChatGPT_on_java.Circle_ESTest.test11(Circle_ESTest.java:101)
+6) test12(testing_ChatGPT_on_java.Circle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getDiameter() is undefined for the type Circle
+
+	at testing_ChatGPT_on_java.Circle_ESTest.test12(Circle_ESTest.java:107)
+7) test08(testing_ChatGPT_on_java.Circle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getPerimeter() is undefined for the type Circle
+
+	at testing_ChatGPT_on_java.Circle_ESTest.test08(Circle_ESTest.java:80)
+8) test09(testing_ChatGPT_on_java.Circle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getPerimeter() is undefined for the type Circle
+
+	at testing_ChatGPT_on_java.Circle_ESTest.test09(Circle_ESTest.java:86)
+9) test06(testing_ChatGPT_on_java.Circle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getDiameter() is undefined for the type Circle
+
+	at testing_ChatGPT_on_java.Circle_ESTest.test06(Circle_ESTest.java:64)
+10) test07(testing_ChatGPT_on_java.Circle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method printCircleInfo() is undefined for the type Circle
+
+	at testing_ChatGPT_on_java.Circle_ESTest.test07(Circle_ESTest.java:71)
+
+FAILURES!!!
+Tests run: 13,  Failures: 10
+

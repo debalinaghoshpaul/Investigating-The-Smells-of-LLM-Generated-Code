@@ -1,0 +1,7 @@
+
+Input:
+arr = [1, 4, 17, 7, 25, 3, 100]
+k = 3
+Output:
+Original Array: [1, 4, 17, 7, 25, 3, 100]
+3 largest elements of the said array are: [100, 25, 17]

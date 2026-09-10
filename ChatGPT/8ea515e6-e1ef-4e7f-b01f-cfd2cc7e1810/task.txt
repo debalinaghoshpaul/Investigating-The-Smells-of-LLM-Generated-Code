@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find all triplets equal to a given sum in an unsorted array of integers.\nExample: Input : nums = { 1, 6, 3, 0, 8, 4, 1, 7 } Output: Triplets of sum 7 (0 1 6) (0 3 4)\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810.\n

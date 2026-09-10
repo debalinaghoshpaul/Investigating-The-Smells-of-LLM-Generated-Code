@@ -1,0 +1,11 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 106). [LineLength]: 2
+FinalParameters: Parameter args should be final. [FinalParameters]: 10
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 3
+HiddenField: 'name' hides a field. [HiddenField]: 3
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+UnusedImports: Unused import - java.util.Arrays. [UnusedImports]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '4' is a magic number. [MagicNumber]: 10

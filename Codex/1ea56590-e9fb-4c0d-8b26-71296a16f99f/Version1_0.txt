@@ -1,0 +1,64 @@
+```java
+public class KaprekarNumbers {
+
+    public static void main(String[] args) {
+        System.out.println("Kaprekar numbers less than 1000:");
+
+        // Test corner cases
+        System.out.println(isKaprekar(0)); // false
+        System.out.println(isKaprekar(1)); // true
+        System.out.println(isKaprekar(10)); // false
+        System.out.println(isKaprekar(100)); // false
+        System.out.println(isKaprekar(1000)); // false
+
+        // Generate and show all Kaprekar numbers less than 1000
+        int count = 0;
+        for (int i = 1; i < 1000; i++) {
+            if (isKaprekar(i)) {
+                System.out.println(i);
+                count++;
+            }
+        }
+
+        System.out.println("Total Kaprekar numbers: " + count);
+    }
+
+    /**
+     * Check if a number is a Kaprekar number.
+     *
+     * @param n the number to check
+     * @return true if the number is a Kaprekar number, false otherwise
+     */
+    public static boolean isKaprekar(int n) {
+        // If the number is 1, it is a Kaprekar number
+        if (n == 1) {
+            return true;
+        }
+
+        // Calculate the square of the number
+        long sq = n * n;
+
+        // Convert the square to a string
+        String sqStr = String.valueOf(sq);
+
+        // Find the length of the square string
+        int len = sqStr.length();
+
+        // If the length of the square string is odd, the number is not a Kaprekar number
+        if (len % 2 != 0) {
+            return false;
+        }
+
+        // Split the square string into two parts
+        String left = sqStr.substring(0, len / 2);
+        String right = sqStr.substring(len / 2);
+
+        // Convert the two parts to integers
+        int leftInt = Integer.parseInt(left);
+        int rightInt = Integer.parseInt(right);
+
+        // If the sum of the two parts is equal to the original number, the number is a Kaprekar number
+        return leftInt + rightInt == n;
+    }
+}
+```

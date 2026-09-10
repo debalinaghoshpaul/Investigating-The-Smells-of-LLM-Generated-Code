@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Enter a string: 
+.Enter a string: 
+The trimmed string is: The trimmed string is:
+.
+Time: 0.359
+
+OK (3 tests)
+

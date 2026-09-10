@@ -1,0 +1,57 @@
+```java
+import java.util.Arrays;
+
+public class SecondLargestElement {
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int secondLargest = findSecondLargestElement(arr);
+        System.out.println("The second largest element in the array is: " + secondLargest);
+    }
+
+    public static int findSecondLargestElement(int[] arr) {
+        // Check if the array is empty or has only one element
+        if (arr == null || arr.length < 2) {
+            throw new IllegalArgumentException("The array must have at least two elements.");
+        }
+
+        // Sort the array in ascending order
+        Arrays.sort(arr);
+
+        // Return the second largest element, which is the last element in the sorted array
+        return arr[arr.length - 2];
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+```
+Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Output: 9
+```
+
+**Edge Case 1: Array with only one element**
+```
+Input: [1]
+Exception: The array must have at least two elements.
+```
+
+**Edge Case 2: Array with duplicate elements**
+```
+Input: [1, 1, 2, 3, 3, 4, 4, 5, 5, 6]
+Output: 5
+```
+
+**Edge Case 3: Array with negative elements**
+```
+Input: [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
+Output: -9
+```
+
+**Edge Case 4: Array with the same elements**
+```
+Input: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Output: 1
+```

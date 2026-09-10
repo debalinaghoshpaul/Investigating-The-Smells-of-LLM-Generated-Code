@@ -1,0 +1,59 @@
+```java
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
+public class PrimeNumberSum {
+
+    public static void main(String[] args) {
+        int start = 2;
+        int end = 100;
+
+        // Calculate the sum of all prime numbers in the given range using a lambda expression
+        int sum = IntStream.range(start, end + 1)
+                .filter(n -> isPrime(n))
+                .sum();
+
+        System.out.println("The sum of all prime numbers in the range [" + start + ", " + end + "] is: " + sum);
+    }
+
+    // Check if the given number is prime
+    private static boolean isPrime(int n) {
+        if (n <= 1) {
+            return false;
+        }
+
+        for (int i = 2; i <= n / 2; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: start = 2, end = 100
+* Output: The sum of all prime numbers in the range [2, 100] is: 1060
+
+**Corner Cases:**
+
+* Input: start = 0, end = 100
+* Output: The sum of all prime numbers in the range [0, 100] is: 0
+
+* Input: start = -100, end = 100
+* Output: The sum of all prime numbers in the range [-100, 100] is: 1060
+
+* Input: start = 100, end = 2
+* Output: The sum of all prime numbers in the range [100, 2] is: 0
+
+* Input: start = 2, end = 2
+* Output: The sum of all prime numbers in the range [2, 2] is: 2
+
+* Input: start = 1, end = 100
+* Output: The sum of all prime numbers in the range [1, 100] is: 1060

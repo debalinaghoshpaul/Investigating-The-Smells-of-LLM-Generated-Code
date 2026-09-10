@@ -1,0 +1,5 @@
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\7dd9ddee-e7f0-4ecc-b4ce-40a1873df54e\generatedProgram1OfVersion1_0.java:2:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\7dd9ddee-e7f0-4ecc-b4ce-40a1873df54e\generatedProgram1OfVersion1_0.java:2:	CommentRequired:	Class comments are required
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\7dd9ddee-e7f0-4ecc-b4ce-40a1873df54e\generatedProgram1OfVersion1_0.java:2:	UseUtilityClass:	This utility class has a non-private constructor
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\7dd9ddee-e7f0-4ecc-b4ce-40a1873df54e\generatedProgram1OfVersion1_0.java:4:	CommentRequired:	Public method and constructor comments are required
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\7dd9ddee-e7f0-4ecc-b4ce-40a1873df54e\generatedProgram1OfVersion1_0.java:29:	CommentRequired:	Public method and constructor comments are required

@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Duplicate values in the array are: 
+null
+.Duplicate values in the array are: 
+orange
+apple
+...Duplicate values in the array are: 
+
+Time: 0.335
+
+OK (5 tests)
+

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yjbv5KlEJHOXRpBoge3dRBlVEoV",
+  "object" : "chat.completion",
+  "created" : 1710258819,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.HashMap;\n\npublic class MajorityElement {\n\n    public static int getMajorityElement(int[] nums) {\n        HashMap<Integer, Integer> map = new HashMap<>();\n        int majorityElement = 0;\n\n        for(int num : nums) {\n            if(map.containsKey(num)) {\n                map.put(num, map.get(num) + 1);\n            } else {\n                map.put(num, 1);\n            }\n\n            if(map.get(num) > nums.length / 2) {\n                majorityElement = num;\n                break;\n            }\n        }\n\n        return majorityElement;\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {1, 2, 2, 2, 3, 2, 4, 2, 2};\n\n        int majorityElement = getMajorityElement(nums);\n\n        if(majorityElement != 0) {\n            System.out.println(\"The majority element is: \" + majorityElement);\n        } else {\n            System.out.println(\"No majority element found\");\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 91,
+    "completion_tokens" : 216,
+    "total_tokens" : 307
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

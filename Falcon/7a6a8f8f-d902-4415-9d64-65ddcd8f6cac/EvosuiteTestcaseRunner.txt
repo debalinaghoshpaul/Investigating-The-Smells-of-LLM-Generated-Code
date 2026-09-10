@@ -1,0 +1,10 @@
+JUnit version 4.13
+......Test case 1: true
+Test case 2: true
+Test case 3: true
+Corner case: null array: true
+..
+Time: 0.501
+
+OK (8 tests)
+

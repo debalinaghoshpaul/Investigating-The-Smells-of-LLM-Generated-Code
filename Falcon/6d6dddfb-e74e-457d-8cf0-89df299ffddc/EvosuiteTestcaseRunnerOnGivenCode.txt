@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Original Array: [11, 15, 13, 10, 45, 20, 11, 15]
+true
+.
+Time: 0.331
+
+OK (2 tests)
+

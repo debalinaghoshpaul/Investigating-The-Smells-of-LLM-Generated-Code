@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:7:17: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:12:22: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:19: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:20: Line is longer than 80 characters (found 117). [LineLength]
+Audit done.

@@ -1,0 +1,7 @@
+JUnit version 4.13
+.....[ABCD, ACBD, ACDB, CABD, CADB, CDAB]
+..
+Time: 0.362
+
+OK (7 tests)
+

@@ -1,0 +1,7 @@
+
+Enter the starting number of the range:
+1
+Enter the ending number of the range:
+2
+The number with the maximum number of distinct prime factors is: 2
+Number of distinct prime factors: 1

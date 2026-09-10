@@ -1,0 +1,31 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.267
+There were 4 failures:
+1) test3(testing_ChatGPT_on_java.InsertionSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	InsertionSort cannot be resolved to a type
+	InsertionSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.InsertionSort_ESTest.test3(InsertionSort_ESTest.java:44)
+2) test2(testing_ChatGPT_on_java.InsertionSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	InsertionSort cannot be resolved
+
+	at testing_ChatGPT_on_java.InsertionSort_ESTest.test2(InsertionSort_ESTest.java:38)
+3) test1(testing_ChatGPT_on_java.InsertionSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	InsertionSort cannot be resolved to a type
+	InsertionSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.InsertionSort_ESTest.test1(InsertionSort_ESTest.java:29)
+4) test0(testing_ChatGPT_on_java.InsertionSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	InsertionSort cannot be resolved to a type
+	InsertionSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.InsertionSort_ESTest.test0(InsertionSort_ESTest.java:21)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

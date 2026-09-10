@@ -1,0 +1,70 @@
+Here is a Java program to count the number of even and odd elements in a given array of integers:
+
+ public class EvenOdd {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int evenCount = 0;
+        int oddCount = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
+                evenCount++;
+            } else {
+                oddCount++;
+            }
+        }
+        System.out.println("Even count: " + evenCount);
+        System.out.println("Odd count: " + oddCount);
+    }
+}
+
+Here are some test cases including corner cases to test the program:
+
+* Test case 1:
+```
+Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Expected output:
+Even count: 5
+Odd count: 5
+```
+* Test case 2:
+```
+Input: [1, 3, 5, 7, 9]
+Expected output:
+Even count: 0
+Odd count: 5
+```
+* Test case 3:
+```
+Input: [2, 4, 6, 8, 10]
+Expected output:
+Even count: 5
+Odd count: 0
+```
+* Test case 4:
+```
+Input: [1]
+Expected output:
+Even count: 0
+Odd count: 1
+```
+* Test case 5:
+```
+Input: [2]
+Expected output:
+Even count: 1
+Odd count: 0
+```
+* Test case 6:
+```
+Input: []
+Expected output:
+Even count: 0
+Odd count: 0
+```
+* Test case 7:
+```
+Input: null
+Expected output:
+Even count: 0
+Odd count: 0
+```

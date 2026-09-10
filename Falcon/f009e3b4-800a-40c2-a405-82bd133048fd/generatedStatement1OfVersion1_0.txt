@@ -1,0 +1,24 @@
+
+// Enter the two adjoining sides of the parallelogram:
+// 3 4
+// Enter the diagonal of the parallelogram:
+// 5
+// The parallelogram is a rectangle.
+// Enter the two adjoining sides of the parallelogram:
+// 3 4
+// Enter the diagonal of the parallelogram:
+// 5
+// The parallelogram is a rhombus.
+// Enter the two adjoining sides of the parallelogram:
+// 3 4
+// Enter the diagonal of the parallelogram:
+// 5
+// The parallelogram is not a rectangle or a rhombus.
+// Enter the two adjoining sides of the parallelogram:
+// 3 4
+// Enter the diagonal of the parallelogram:
+// 5
+// The parallelogram is not a rectangle or a rhombus.
+// Enter the two adjoining sides of the parallelogram:
+// 3 4
+// Enter the diagonal of the parallelog

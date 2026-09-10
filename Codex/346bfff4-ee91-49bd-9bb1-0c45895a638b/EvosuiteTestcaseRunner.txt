@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Original List: [1, 2, 3, 4, 5]
+Reversed List: [5, 4, 3, 2, 1]
+.....
+Time: 0.335
+
+OK (6 tests)
+

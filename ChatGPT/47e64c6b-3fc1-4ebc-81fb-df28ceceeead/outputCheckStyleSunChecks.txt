@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:20:39: '3600' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:20:56: '60' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:26:39: '1000' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:26:67: '3600' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:29:42: '1609' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:29:70: '3600' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataType\47e64c6b-3fc1-4ebc-81fb-df28ceceeead\generatedProgram1OfVersion1_0.java:31: Line is longer than 80 characters (found 82). [LineLength]
+Audit done.

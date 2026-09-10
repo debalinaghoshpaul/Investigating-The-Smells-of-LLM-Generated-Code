@@ -1,0 +1,16 @@
+
+
+**Test Cases:**
+
+* **Valid Case:**
+* Input: None
+* Expected output: Current local time in the format "dd-MM-yyyy HH:mm:ss"
+
+* **Corner Cases:**
+* **Case 1:**
+* Input: None
+* Expected output: Current local time in the format "dd-MM-yyyy HH:mm:ss", even if the time is close to midnight or noon.
+
+* **Case 2:**
+* Input: None
+* Expected output: Current local time in the format "dd-MM-yyyy HH:mm:ss", even if the system time is set to an unexpected value.

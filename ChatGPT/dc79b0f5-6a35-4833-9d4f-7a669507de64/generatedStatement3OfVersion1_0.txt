@@ -1,0 +1,6 @@
+
+Merged Stack without duplicates:
+4
+3
+2
+1

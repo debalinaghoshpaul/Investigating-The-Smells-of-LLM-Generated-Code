@@ -1,0 +1,43 @@
+```java
+import java.util.regex.Pattern;
+
+public class ReplaceWithString {
+
+    public static void main(String[] args) {
+        String str = "This is a test is string is to see if is works is";
+        String replacedString = replaceWithNot(str);
+        System.out.println(replacedString);
+    }
+
+    public static String replaceWithNot(String str) {
+        return Pattern.compile("is").matcher(str).replaceAll("is not");
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: "This is a test string is to see if is works is"
+* Output: "This is a test string is not to see if is not works is not"
+
+* Input: "is is is is is is is"
+* Output: "is not is not is not is not is not is not is not"
+
+**Corner Cases:**
+
+* Input: "" (empty string)
+* Output: ""
+
+* Input: "is"
+* Output: "is not"
+
+* Input: "not is"
+* Output: "not is not"
+
+* Input: "This is nota string"
+* Output: "This is nota string" (no replacement is done)
+
+* Input: "This is is not a string"
+* Output: "This is is not not a string" (only the first occurrence of "is" is replaced)

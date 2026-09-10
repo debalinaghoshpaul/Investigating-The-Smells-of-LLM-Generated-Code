@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+import java.util.List;
+
+class Node {
+    int data;
+    Node next;
+
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
+class LinkedListToArrayList {
+    Node head;
+    List<Integer> arrayList = new ArrayList<>();
+
+    public LinkedListToArrayList(Node head) {
+        this.head = head;
+    }
+
+    public List<Integer> getArrayList() {
+        List<Integer> arrayList = new ArrayList<>();
+        Node currentNode = head;
+        while (currentNode!= null) {
+            arrayList.add(currentNode.data);
+            currentNode = currentNode.next;
+        }
+        return arrayList;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Node head = new Node(1);
+        head.next = new Node(2);
+        head.next.next = new Node(3);
+        head.next.next.next = new Node(4);
+        head.next.next.next.next = new Node(5);
+        LinkedListToArrayList list = new LinkedListToArrayList(head);
+        System.out.println(list.getArrayList());
+    }
+}
+

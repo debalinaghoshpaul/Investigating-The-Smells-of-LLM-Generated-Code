@@ -1,0 +1,12 @@
+JUnit version 4.13
+..Thread Thread-1 read value: 1
+.Thread GIjgYk|} read value: null
+Thread GIjgYk|} read value: null
+Thread GIjgYk|} read value: null
+Thread GIjgYk|} read value: null
+Thread GIjgYk|} read value: null
+.
+Time: 1.068
+
+OK (4 tests)
+

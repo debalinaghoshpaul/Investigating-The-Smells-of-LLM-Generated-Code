@@ -1,0 +1,27 @@
+
+
+**Test cases:**
+
+**Normal cases:**
+
+* Flight number: 1234
+* Destination: London
+* Departure time: 10:00
+* Expected departure time: 10:15
+
+* Flight number: 4567
+* Destination: Paris
+* Departure time: 11:00
+* Expected departure time: 11:30
+
+**Corner cases:**
+
+* Flight number: 0
+* Destination: null
+* Departure time: ""
+* Expected departure time: null
+
+* Flight number: -1
+* Destination: "123"
+* Departure time: "abc"
+* Expected departure time: "xyz"

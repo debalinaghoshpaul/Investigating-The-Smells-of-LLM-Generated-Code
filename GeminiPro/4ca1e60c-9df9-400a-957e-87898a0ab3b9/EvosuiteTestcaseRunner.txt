@@ -1,0 +1,10 @@
+JUnit version 4.13
+..Enter the first string:
+Enter the second string:
+The appended string is: QWVHS^u.;7CR
+.Enter the first string:
+
+Time: 0.479
+
+OK (3 tests)
+

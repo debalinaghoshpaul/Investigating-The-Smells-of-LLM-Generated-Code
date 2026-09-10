@@ -1,0 +1,39 @@
+```java
+import java.util.Scanner;
+
+public class SumOfDigits {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input integer
+        System.out.print("Input an integer: ");
+        int number = scanner.nextInt();
+
+        // Compute the sum of the digits
+        int sum = 0;
+        while (number > 0) {
+            sum += number % 10;
+            number /= 10;
+        }
+
+        // Print the result
+        System.out.println("The sum of the digits is: " + sum);
+    }
+}
+```
+
+Test cases:
+
+* **Positive integer:** Input: 25, Output: 7
+* **Negative integer:** Input: -123, Output: 6
+* **Zero:** Input: 0, Output: 0
+* **Leading zeros:** Input: 0012, Output: 3
+* **Large integer:** Input: 1234567890, Output: 45
+* **Special case:** Input: Integer.MAX_VALUE, Output: 7
+
+Test cases to cover corner cases:
+
+* **Empty input:** Input: "", Output: Invalid input
+* **Non-numeric input:** Input: "abc", Output: Invalid input
+* **Input too large:** Input: 1234567890123456789, Output: Integer too large

@@ -1,0 +1,16 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+    * Input: March 15, 2023
+    * Output: Wednesday
+* **Corner case: leap year**
+    * Input: February 29, 2024
+    * Output: Thursday
+* **Corner case: month with 31 days**
+    * Input: January 31, 2023
+    * Output: Tuesday
+* **Corner case: month with 28 days**
+    * Input: February 28, 2023
+    * Output: Tuesday

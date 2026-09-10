@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:6:28: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:6:31: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:6:34: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:7:22: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:17:18: '7' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:23:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:23:33: Parameter arr should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\42a2bc14-4cd0-44eb-a7aa-d1199fa38f64\generatedProgram1OfVersion1_0.java:23:44: Parameter target should be final. [FinalParameters]
+Audit done.

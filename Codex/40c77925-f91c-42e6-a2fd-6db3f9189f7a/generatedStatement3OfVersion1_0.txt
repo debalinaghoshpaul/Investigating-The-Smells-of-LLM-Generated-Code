@@ -1,0 +1,9 @@
+
+        The first 5 natural numbers are :
+        1
+        2
+        3
+        4
+        5
+        The Sum of Natural Number upto 5 terms : 15
+        

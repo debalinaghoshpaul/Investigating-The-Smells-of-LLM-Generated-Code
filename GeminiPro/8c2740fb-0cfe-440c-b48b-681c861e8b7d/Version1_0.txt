@@ -1,0 +1,87 @@
+```java
+// Person.java
+// Parent abstract class Person with abstract methods eat() and exercise()
+abstract class Person {
+    abstract void eat();
+    abstract void exercise();
+}
+
+// Athlete.java
+// Child class Athlete that extends Person and implements eat() and exercise() methods
+class Athlete extends Person {
+    @Override
+    void eat() {
+        System.out.println("An athlete eats a healthy diet with plenty of fruits, vegetables, and whole grains.");
+    }
+
+    @Override
+    void exercise() {
+        System.out.println("An athlete exercises regularly and vigorously.");
+    }
+}
+
+// LazyPerson.java
+// Child class LazyPerson that extends Person and implements eat() and exercise() methods
+class LazyPerson extends Person {
+    @Override
+    void eat() {
+        System.out.println("A lazy person eats junk food and sugary drinks.");
+    }
+
+    @Override
+    void exercise() {
+        System.out.println("A lazy person rarely exercises.");
+    }
+}
+
+// Main.java
+// Main class to test the Person, Athlete, and LazyPerson classes
+public class Main {
+    public static void main(String[] args) {
+        // Create an Athlete object and call eat() and exercise() methods
+        Person athlete = new Athlete();
+        athlete.eat();
+        athlete.exercise();
+
+        // Create a LazyPerson object and call eat() and exercise() methods
+        Person lazyPerson = new LazyPerson();
+        lazyPerson.eat();
+        lazyPerson.exercise();
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Test Cases:**
+```
+Person athlete = new Athlete();
+athlete.eat(); // Output: An athlete eats a healthy diet with plenty of fruits, vegetables, and whole grains.
+athlete.exercise(); // Output: An athlete exercises regularly and vigorously.
+
+Person lazyPerson = new LazyPerson();
+lazyPerson.eat(); // Output: A lazy person eats junk food and sugary drinks.
+lazyPerson.exercise(); // Output: A lazy person rarely exercises.
+```
+
+**Negative Test Cases:**
+```
+// Attempt to create an instance of the abstract Person class
+Person person = new Person(); // Compilation error: Cannot instantiate the type Person
+
+// Attempt to call abstract methods directly from the Person class
+person.eat(); // Compilation error: The method eat() is undefined for the type Person
+person.exercise(); // Compilation error: The method exercise() is undefined for the type Person
+```
+
+**Corner Cases:**
+```
+// Check if the methods still work if the Person object is null
+Person athlete = null;
+athlete.eat(); // NullPointerException: Cannot invoke method eat() on null object
+
+// Check if the methods still work if the Person object is not initialized properly
+Person lazyPerson = new Person();
+lazyPerson.eat(); // NullPointerException: Cannot invoke method eat() on null object
+lazyPerson.exercise(); // NullPointerException: Cannot invoke method exercise() on null object
+```

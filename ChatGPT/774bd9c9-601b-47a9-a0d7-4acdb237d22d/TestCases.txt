@@ -1,0 +1,46 @@
+## Java program to add a string with a specific number of times separated by a substring
+
+```java
+import java.util.Scanner;
+
+public class AddStringNTimes {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the string to be repeated
+        System.out.println("Enter the string to be repeated:");
+        String str = scanner.nextLine();
+
+        // Get the number of times to repeat the string
+        System.out.println("Enter the number of times to repeat the string:");
+        int n = scanner.nextInt();
+
+        // Get the substring to be used as a separator
+        System.out.println("Enter the substring to be used as a separator:");
+        String separator = scanner.nextLine();
+
+        // Add the string with the specified number of times separated by the substring
+        String result = "";
+        for (int i = 0; i < n; i++) {
+            result += str + separator;
+        }
+
+        // Remove the last substring from the result
+        result = result.substring(0, result.length() - separator.length());
+
+        // Print the result
+        System.out.println("The result is:" + result);
+    }
+}
+```
+
+## Test cases including corner cases
+
+| Test case | Expected output |
+|---|---|
+| `str = "abc", n = 3, separator = ","` | `abc,abc,abc` |
+| `str = "123", n = 2, separator = "-"` | `123-123` |
+| `str = "hello", n = 1, separator = ""` | `hello` |
+| `str = "", n = 0, separator = ","` | `` |
+| `str = null, n = 1, separator = "."` | `null` |

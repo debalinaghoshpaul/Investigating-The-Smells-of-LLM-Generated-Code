@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter a positive integer less than ten billion: .Enter a positive integer less than ten billion: Number of digits in the number: 1
+..Enter a positive integer less than ten billion: Number of digits in the number: 1
+.Enter a positive integer less than ten billion: 
+Time: 0.409
+
+OK (5 tests)
+

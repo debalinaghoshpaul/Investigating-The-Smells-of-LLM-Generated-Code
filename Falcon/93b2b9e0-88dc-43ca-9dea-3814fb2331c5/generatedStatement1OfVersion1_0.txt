@@ -1,0 +1,29 @@
+
+// Enter three side lengths: 3 4 5
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem?
+//

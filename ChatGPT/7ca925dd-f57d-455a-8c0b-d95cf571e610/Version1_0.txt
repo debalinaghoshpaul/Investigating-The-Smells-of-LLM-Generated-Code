@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93PU0lEGqH7Vbbyc2gFPBFLYNaNxu",
+  "object" : "chat.completion",
+  "created" : 1710599968,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\n\npublic class RemoveElementFromStack {\n    \n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        \n        stack.push(1);\n        stack.push(2);\n        stack.push(3);\n        stack.push(4);\n        stack.push(5);\n        \n        int elementToRemove = 3;\n        \n        removeElement(stack, elementToRemove);\n        \n        System.out.println(\"Stack after removing element \"+ elementToRemove + \":\");\n        System.out.println(stack);\n    }\n    \n    public static void removeElement(Stack<Integer> stack, int element) {\n        Stack<Integer> tempStack = new Stack<>();\n        \n        while(!stack.isEmpty()) {\n            int current = stack.pop();\n            if(current != element) {\n                tempStack.push(current);\n            }\n        }\n        \n        while(!tempStack.isEmpty()) {\n            stack.push(tempStack.pop());\n        }\n    }\n}\n```\n\nIn this program, we create a stack and push some elements into it. Then, we specify the element we want to remove from the stack. We then call the `removeElement` method which removes the specified element from the stack. Finally, we print the stack after removing the element."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 62,
+    "completion_tokens" : 247,
+    "total_tokens" : 309
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

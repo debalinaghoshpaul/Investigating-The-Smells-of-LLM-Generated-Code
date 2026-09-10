@@ -1,0 +1,33 @@
+JUnit version 4.13
+..Enter the year: 
+Enter the gender: 
+Enter the name: 
+M name Joshua is ranked #3 in year 0
+Enter another inquiry? (Y/N) 
+.Enter the year: 
+Enter the gender: 
+Enter the name: 
+The name is not found.
+Enter another inquiry? (Y/N) 
+.Enter the year: 
+Enter the gender: 
+Enter the name: 
+The name is not found.
+Enter another inquiry? (Y/N) 
+.Enter the year: 
+Enter the gender: 
+Enter the name: 
+The name is not found.
+Enter another inquiry? (Y/N) 
+.Enter the year: 
+Enter the gender: 
+Enter the name: 
+F name Olivia is ranked #2 in year 0
+Enter another inquiry? (Y/N) 
+Enter the year: 
+.Enter the year: 
+
+Time: 0.521
+
+OK (7 tests)
+

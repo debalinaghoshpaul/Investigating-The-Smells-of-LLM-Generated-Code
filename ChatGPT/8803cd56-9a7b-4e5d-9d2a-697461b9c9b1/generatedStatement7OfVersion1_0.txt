@@ -1,0 +1,5 @@
+
+Restaurant restaurant = new Restaurant();
+restaurant.addMenuItem("Pizza", 10.0, -1.0);
+double averageRating = restaurant.calculateAverageRating();
+System.out.println(averageRating); // Expected output: -1.0

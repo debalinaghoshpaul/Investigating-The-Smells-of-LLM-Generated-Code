@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\8c2740fb-0cfe-440c-b48b-681c861e8b7d\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\8c2740fb-0cfe-440c-b48b-681c861e8b7d\generatedProgram1OfVersion1_0.java:12: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\8c2740fb-0cfe-440c-b48b-681c861e8b7d\generatedProgram1OfVersion1_0.java:17: Line is longer than 80 characters (found 107). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\8c2740fb-0cfe-440c-b48b-681c861e8b7d\generatedProgram1OfVersion1_0.java:30: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\8c2740fb-0cfe-440c-b48b-681c861e8b7d\generatedProgram1OfVersion1_0.java:34:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\8c2740fb-0cfe-440c-b48b-681c861e8b7d\generatedProgram1OfVersion1_0.java:35:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\8c2740fb-0cfe-440c-b48b-681c861e8b7d\generatedProgram1OfVersion1_0.java:35:29: Parameter args should be final. [FinalParameters]
+Audit done.

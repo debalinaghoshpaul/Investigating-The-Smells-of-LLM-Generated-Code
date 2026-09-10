@@ -1,0 +1,5 @@
+
+Vowels: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
+Consonants: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
+### Explanation:
+This program takes a string as input and separates the vowels and consonants from it. The vowels are stored in the variable "vowels" and the consonants are stored in the variable "consonants". The program then prints out the vowels and consonants separately. The vowels are printed out as "a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z" and the consonants are printed out as "a, b, c, d, e, f, g, h, i, j, k, l, m, n, o,

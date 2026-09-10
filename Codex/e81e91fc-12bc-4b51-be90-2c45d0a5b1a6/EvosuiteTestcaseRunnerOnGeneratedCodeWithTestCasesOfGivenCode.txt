@@ -1,0 +1,48 @@
+JUnit version 4.13
+.E.E.E..E.E
+Time: 0.5
+There were 5 failures:
+1) test2(testing_ChatGPT_on_java.SleepSort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	AtomicInteger cannot be resolved to a type
+	AtomicInteger cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.SleepSort.main(SleepSort.java:11)
+	at testing_ChatGPT_on_java.SleepSort_ESTest.test2(SleepSort_ESTest.java:64)
+2) test3(testing_ChatGPT_on_java.SleepSort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	AtomicInteger cannot be resolved to a type
+	AtomicInteger cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.SleepSort.main(SleepSort.java:11)
+	at testing_ChatGPT_on_java.SleepSort_ESTest.test3(SleepSort_ESTest.java:80)
+3) test4(testing_ChatGPT_on_java.SleepSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+
+	at testing_ChatGPT_on_java.SleepSort_ESTest.test4(SleepSort_ESTest.java:100)
+4) test0(testing_ChatGPT_on_java.SleepSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+
+	at testing_ChatGPT_on_java.SleepSort_ESTest.test0(SleepSort_ESTest.java:26)
+5) test1(testing_ChatGPT_on_java.SleepSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sleepSortAndPrint(int[]) is undefined for the type SleepSort
+
+	at testing_ChatGPT_on_java.SleepSort_ESTest.test1(SleepSort_ESTest.java:49)
+
+FAILURES!!!
+Tests run: 6,  Failures: 5
+

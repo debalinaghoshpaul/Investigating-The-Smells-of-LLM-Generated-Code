@@ -1,0 +1,8 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 84). [LineLength]: 1
+DesignForExtension: Class 'Bank' looks like designed for extension (can be subclassed), but the method 'addAccount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Bank' final or making the method 'addAccount' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 9
+FinalParameters: Parameter account should be final. [FinalParameters]: 10
+HiddenField: 'accountNumber' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 11

@@ -1,0 +1,68 @@
+```java
+import java.util.Arrays;
+
+public class StringArraySearch {
+
+    public static int findIndexOfString(String str, String toFind) {
+        if (str == null || toFind == null || toFind.isEmpty()) {
+            return -1;
+        }
+
+        int index = str.indexOf(toFind);
+        return index == -1 ? -1 : index;
+    }
+
+    public static int findIndexOfArrayElement(int[] arr, int toFind) {
+        if (arr == null || arr.length == 0) {
+            return -1;
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == toFind) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        // Test cases for string search
+        String str1 = "Hello world!";
+        String[] toFind1 = {"Hello", "world", "!", "Java"};
+        int[] expected1 = {0, 6, 12, -1};
+        for (int i = 0; i < toFind1.length; i++) {
+            int result = findIndexOfString(str1, toFind1[i]);
+            System.out.println("Index of '" + toFind1[i] + "' in '" + str1 + "': " + result);
+            if (result != expected1[i]) {
+                System.out.println("Incorrect result for string search!");
+            }
+        }
+
+        // Test cases for array search
+        int[] arr2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] toFind2 = {1, 5, 10, 11};
+        int[] expected2 = {0, 4, 9, -1};
+        for (int i = 0; i < toFind2.length; i++) {
+            int result = findIndexOfArrayElement(arr2, toFind2[i]);
+            System.out.println("Index of " + toFind2[i] + " in " + Arrays.toString(arr2) + ": " + result);
+            if (result != expected2[i]) {
+                System.out.println("Incorrect result for array search!");
+            }
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Empty strings and arrays
+* Elements that do not exist in the string or array
+
+**Regular Cases:**
+
+* Searching for elements at the beginning, middle, and end of the string or array
+* Searching for duplicate elements
+* Searching for elements that are not present in the string or array

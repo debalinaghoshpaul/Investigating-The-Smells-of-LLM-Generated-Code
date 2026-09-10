@@ -1,0 +1,24 @@
+```java
+import java.util.LinkedList;
+
+public class LinkedListGetFirstAndLastOccurrence {
+
+    public static void main(String[] args) {
+        // create a linked list
+        LinkedList<String> linkedList = new LinkedList<>();
+        linkedList.add("Red");
+        linkedList.add("Green");
+        linkedList.add("Blue");
+        linkedList.add("Orange");
+        linkedList.add("Red");
+
+        // get the first occurrence of the element "Red"
+        int firstOccurrence = linkedList.indexOf("Red");
+        System.out.println("First occurrence of Red: " + firstOccurrence);
+
+        // get the last occurrence of the element "Red"
+        int lastOccurrence = linkedList.lastIndexOf("Red");
+        System.out.println("Last occurrence of Red: " + lastOccurrence);
+    }
+}
+```

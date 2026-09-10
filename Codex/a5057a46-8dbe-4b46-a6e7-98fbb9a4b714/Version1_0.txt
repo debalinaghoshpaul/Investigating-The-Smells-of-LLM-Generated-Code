@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93VADt5QRQHfwUNqHSq0eDESAYBZi",
+  "object" : "chat.completion",
+  "created" : 1710621805,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Playable interface\ninterface Playable {\n    void play();\n}\n\n// Football class\nclass Football implements Playable {\n    @Override\n    public void play() {\n        System.out.println(\"Playing Football\");\n    }\n}\n\n// Volleyball class\nclass Volleyball implements Playable {\n    @Override\n    public void play() {\n        System.out.println(\"Playing Volleyball\");\n    }\n}\n\n// Basketball class\nclass Basketball implements Playable {\n    @Override\n    public void play() {\n        System.out.println(\"Playing Basketball\");\n    }\n}\n\n// Main class\npublic class Main {\n    public static void main(String[] args) {\n        Playable football = new Football();\n        Playable volleyball = new Volleyball();\n        Playable basketball = new Basketball();\n        \n        football.play();\n        volleyball.play();\n        basketball.play();\n    }\n}\n```\n\nOutput:\n```\nPlaying Football\nPlaying Volleyball\nPlaying Basketball\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 103,
+    "completion_tokens" : 189,
+    "total_tokens" : 292
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

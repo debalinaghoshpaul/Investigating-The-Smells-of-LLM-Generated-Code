@@ -1,0 +1,23 @@
+```java
+import java.text.DecimalFormat;
+
+public class NumberFormatter {
+
+    public static void main(String[] args) {
+        // Create a DecimalFormat object with the desired pattern
+        DecimalFormat formatter = new DecimalFormat("#,###");
+
+        // Format the number and print it
+        System.out.println(formatter.format(123456789)); // Output: 123,456,789
+    }
+}
+```
+
+**Test cases:**
+
+* **Positive integer:** 123456789 (Output: 123,456,789)
+* **Negative integer:** -123456789 (Output: -123,456,789)
+* **Decimal number:** 123456.789 (Output: 123,456.789)
+* **Zero:** 0 (Output: 0)
+* **Empty string:** "" (Output: "")
+* **Invalid input:** "abc" (Output: Invalid input)

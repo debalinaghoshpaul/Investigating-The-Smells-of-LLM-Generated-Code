@@ -1,0 +1,8 @@
+JUnit version 4.13
+...Stack before sorting: [30, -5, 18, 14, -3]
+Stack after sorting: [-5, -3, 14, 18, 30]
+..
+Time: 0.433
+
+OK (5 tests)
+

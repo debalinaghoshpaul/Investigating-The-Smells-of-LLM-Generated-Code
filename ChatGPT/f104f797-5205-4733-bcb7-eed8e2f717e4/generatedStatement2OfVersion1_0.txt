@@ -1,0 +1,28 @@
+
+
+**Test Cases:**
+
+* **Test Case 1:**
+    * Input: "bcabc"
+    * Expected Output: "abc"
+* **Test Case 2:**
+    * Input: "cbacdcbc"
+    * Expected Output: "abc"
+* **Test Case 3:**
+    * Input: "bcabbcad"
+    * Expected Output: "abc"
+* **Test Case 4:**
+    * Input: "abcabcbb"
+    * Expected Output: "abc"
+* **Test Case 5:**
+    * Input: "thequickbrownfoxjumpsoverthelazydog"
+    * Expected Output: "abcdefghijklmnopqrstuvwxyz"
+* **Test Case 6:**
+    * Input: "abc"
+    * Expected Output: "abc"
+
+**Corner Cases:**
+
+* **Empty String:** The program should return an empty string if the input string is empty.
+* **String with All Duplicate Characters:** The program should return the same string if all the characters in the input string are duplicates.
+* **String with Special Characters or Numbers:** The program should ignore any special characters or numbers in the input string and only consider lowercase letters.

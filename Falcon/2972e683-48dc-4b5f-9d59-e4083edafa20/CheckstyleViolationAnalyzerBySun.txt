@@ -1,0 +1,5 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 88). [LineLength]: 2
+JavadocMethod: '. [JavadocMethod]: 3
+FinalParameters: Parameter nums should be final. [FinalParameters]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1

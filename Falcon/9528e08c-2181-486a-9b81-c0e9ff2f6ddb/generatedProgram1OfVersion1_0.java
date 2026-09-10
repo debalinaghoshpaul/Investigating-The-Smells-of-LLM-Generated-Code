@@ -1,0 +1,52 @@
+public class Animal {
+    public void eat() {
+        System.out.println("Animal is eating");
+    }
+    public void sound() {
+        System.out.println("Animal is making sound");
+    }
+}
+
+public class Lion extends Animal {
+    public void eat() {
+        System.out.println("Lion is eating meat");
+    }
+    public void sound() {
+        System.out.println("Lion is roaring");
+    }
+}
+
+public class Tiger extends Animal {
+    public void eat() {
+        System.out.println("Tiger is eating fish");
+    }
+    public void sound() {
+        System.out.println("Tiger is growling");
+    }
+}
+
+public class Panther extends Animal {
+    public void eat() {
+        System.out.println("Panther is eating meat");
+    }
+    public void sound() {
+        System.out.println("Panther is purring");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Lion lion = new Lion();
+        Tiger tiger = new Tiger();
+        Panther panther = new Panther();
+
+        lion.eat();
+        tiger.eat();
+        panther.eat();
+
+        lion.sound();
+        tiger.sound();
+        panther.sound();
+    }
+}
+

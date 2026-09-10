@@ -1,0 +1,51 @@
+```java
+interface Playable {
+    void play();
+}
+
+class Football implements Playable {
+    @Override
+    public void play() {
+        System.out.println("Playing football");
+    }
+}
+
+class Volleyball implements Playable {
+    @Override
+    public void play() {
+        System.out.println("Playing volleyball");
+    }
+}
+
+class Basketball implements Playable {
+    @Override
+    public void play() {
+        System.out.println("Playing basketball");
+    }
+}
+
+public class Sports {
+
+    public static void main(String[] args) {
+        Playable football = new Football();
+        football.play(); // Playing football
+
+        Playable volleyball = new Volleyball();
+        volleyball.play(); // Playing volleyball
+
+        Playable basketball = new Basketball();
+        basketball.play(); // Playing basketball
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Corner case:** Passing a `null` object to the `play()` method.
+    * Expected output: `NullPointerException` is thrown.
+* **Corner case:** Creating an instance of an abstract class or an interface.
+    * Expected output: `InstantiationException` is thrown.
+* **Corner case:** Overriding the `play()` method in a subclass and not invoking the superclass implementation.
+    * Expected output: The subclass's implementation of the `play()` method is executed without invoking the superclass implementation. This may result in unexpected behavior.
+* **Corner case:** Implementing the `Playable` interface in a class that already implements another interface with a conflicting method signature.
+    * Expected output: `IncompatibleClassChangeError` is thrown.

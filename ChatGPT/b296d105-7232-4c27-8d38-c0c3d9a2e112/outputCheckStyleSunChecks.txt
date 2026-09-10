@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:6:29: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:6:32: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:6:35: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:6:38: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:12:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:12:32: Parameter digits should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:14: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:16:29: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:22: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\b296d105-7232-4c27-8d38-c0c3d9a2e112\generatedProgram1OfVersion1_0.java:25: Line has trailing spaces. [RegexpSingleline]
+Audit done.

@@ -1,0 +1,7 @@
+
+Input:
+Enter the size of the array: 5
+Enter the elements of the array: 1 2 3 4 5
+Enter the specified number: 6
+Output:
+The specified number does not appear in every pair of adjacent integers of the given array.

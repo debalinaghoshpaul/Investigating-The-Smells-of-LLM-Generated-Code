@@ -1,0 +1,7 @@
+Violations by Category:
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 2
+FinalParameters: Parameter name should be final. [FinalParameters]: 10
+HiddenField: 'name' hides a field. [HiddenField]: 10
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 5
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1

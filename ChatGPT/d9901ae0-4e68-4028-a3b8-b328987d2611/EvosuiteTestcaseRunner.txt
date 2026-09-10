@@ -1,0 +1,12 @@
+JUnit version 4.13
+..Original Array: [0, 1, 0, 1, 1, 0, 1, 0]
+Array after separating 0s and 1s: [0, 0, 0, 0, 1, 1, 1, 1]
+.Array after separating 0s and 1s: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+Array after separating 0s and 1s: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+.Array after separating 0s and 1s: [-896, 1]
+..Array after separating 0s and 1s: [0, 1]
+
+Time: 0.345
+
+OK (6 tests)
+

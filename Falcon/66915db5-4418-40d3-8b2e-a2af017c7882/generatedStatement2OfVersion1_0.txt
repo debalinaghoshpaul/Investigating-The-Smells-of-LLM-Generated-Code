@@ -1,0 +1,27 @@
+
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* **Input:** x = 5, y = 20, p = 3
+* **Output:** 5
+* **Explanation:** The numbers in the range 5..20 that are divisible by 3 are {6, 9, 12, 15, 18}.
+
+* **Input:** x = 1, y = 10, p = 2
+* **Output:** 5
+* **Explanation:** The numbers in the range 1..10 that are divisible by 2 are {2, 4, 6, 8, 10}.
+
+**Corner Cases:**
+
+* **Input:** x = 0, y = 0, p = 1
+* **Output:** 1
+* **Explanation:** The only number in the range 0..0 is 0, which is divisible by 1.
+
+* **Input:** x = 1, y = 1, p = 2
+* **Output:** 0
+* **Explanation:** There are no numbers in the range 1..1 that are divisible by 2.
+
+* **Input:** x = -10, y = 10, p = 3
+* **Output:** 7
+* **Explanation:** The numbers in the range -10..10 that are divisible by 3 are {-9, -6, -3, 0, 3, 6, 9}.

@@ -1,0 +1,75 @@
+**Problem Description :** \nWrite a Java program to read a string and return it without the first two characters. Keep the first character if it is 'g' and keep the second character if it is 'h'.\nSample Output:\n\n\n The programming language you need to use is: java.\n\n Can you generate test cases including corner cases to test the program of the given problem?
+```java
+import java.util.Scanner;
+
+public class RemoveFirstTwoCharacters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input string
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Check if the string is empty
+        if (inputString.isEmpty()) {
+            System.out.println("The input string is empty.");
+            return;
+        }
+
+        // Check if the first character is 'g'
+        char firstChar = inputString.charAt(0);
+        if (firstChar == 'g') {
+            // Keep the first character
+            inputString = inputString.substring(1);
+        }
+
+        // Check if the second character is 'h'
+        char secondChar = inputString.charAt(1);
+        if (secondChar == 'h') {
+            // Keep the second character
+            inputString = inputString.substring(0, 1) + inputString.substring(2);
+        }
+
+        // Remove the first two characters
+        inputString = inputString.substring(2);
+
+        // Print the result
+        System.out.println("The string without the first two characters is: " + inputString);
+    }
+}
+```
+
+**Test Cases:**
+
+**1. Normal Case:**
+
+* Input: "good morning"
+* Output: "od morning"
+
+**2. First Character is 'g':**
+
+* Input: "great day"
+* Output: "reat day"
+
+**3. Second Character is 'h':**
+
+* Input: "hello world"
+* Output: "ello world"
+
+**4. Corner Cases:**
+
+**a. Empty String:**
+
+* Input: ""
+* Output: "The input string is empty."
+
+**b. String with Only One Character:**
+
+* Input: "g"
+* Output: "g"
+
+**c. String with Only Two Characters:**
+
+* Input: "gh"
+* Output: "h"

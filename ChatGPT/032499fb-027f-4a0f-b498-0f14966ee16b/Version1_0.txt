@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91ymacM4NBatTOIC3DAXvF0wPpJLL",
+  "object" : "chat.completion",
+  "created" : 1710259004,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class LeadersInArray {\n    public static void printLeaders(int[] arr) {\n        int n = arr.length;\n        int maxRight = arr[n-1];\n        \n        System.out.println(\"Leaders in the array: \");\n        System.out.print(maxRight + \" \");\n        \n        for(int i = n-2; i >= 0; i--) {\n            if(arr[i] > maxRight) {\n                System.out.print(arr[i] + \" \");\n                maxRight = arr[i];\n            }\n        }\n    }\n    \n    public static void main(String[] args) {\n        int[] arr = {16, 17, 4, 3, 5, 2};\n        printLeaders(arr);\n    }\n}\n```\n\nOutput:\nLeaders in the array: \n5 17 16"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 83,
+    "completion_tokens" : 166,
+    "total_tokens" : 249
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

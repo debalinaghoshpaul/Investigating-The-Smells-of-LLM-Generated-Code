@@ -1,0 +1,65 @@
+**Java program to create a string from two given strings:**
+
+```java
+import java.util.Scanner;
+
+public class CreateString {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the two strings from the user.
+        System.out.print("Enter the first string: ");
+        String firstString = input.nextLine();
+
+        System.out.print("Enter the second string: ");
+        String secondString = input.nextLine();
+
+        // Create a new string to store the combined characters.
+        String combinedString = "";
+
+        // Iterate over the first string and add each character to the combined string.
+        for (int i = 0; i < firstString.length(); i++) {
+            combinedString += firstString.charAt(i);
+        }
+
+        // Iterate over the second string and add each character to the combined string.
+        for (int i = 0; i < secondString.length(); i++) {
+            combinedString += secondString.charAt(i);
+        }
+
+        // Print the combined string.
+        System.out.println("The combined string is: " + combinedString);
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Test case 1:**
+    * Input: firstString = "Hello", secondString = "World"
+    * Expected output: "HelloWorld"
+
+* **Test case 2:**
+    * Input: firstString = "123", secondString = "456"
+    * Expected output: "123456"
+
+* **Test case 3:**
+    * Input: firstString = "", secondString = "World"
+    * Expected output: "World"
+
+* **Test case 4:**
+    * Input: firstString = "Hello", secondString = ""
+    * Expected output: "Hello"
+
+* **Test case 5:**
+    * Input: firstString = null, secondString = "World"
+    * Expected output: "java.lang.NullPointerException"
+
+* **Test case 6:**
+    * Input: firstString = "Hello", secondString = null
+    * Expected output: "java.lang.NullPointerException"
+
+* **Test case 7:**
+    * Input: firstString = null, secondString = null
+    * Expected output: "java.lang.NullPointerException"

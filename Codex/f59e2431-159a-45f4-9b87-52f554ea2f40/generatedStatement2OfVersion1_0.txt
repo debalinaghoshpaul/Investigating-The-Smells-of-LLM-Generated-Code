@@ -1,0 +1,30 @@
+
+
+**Test Cases:**
+
+* **Positive integers:**
+    * Input: 123
+    * Expected output: 6
+    * Input: 987
+    * Expected output: 24
+* **Negative integers:**
+    * Input: -123
+    * Expected output: 6
+    * Input: -987
+    * Expected output: 24
+* **Zero:**
+    * Input: 0
+    * Expected output: 0
+* **Large integers:**
+    * Input: 123456789
+    * Expected output: 45
+* **Corner cases:**
+    * **Empty input:**
+        * Input:
+        * Expected output: The input is not an integer.
+    * **Non-numeric input:**
+        * Input: abc
+        * Expected output: The input is not an integer.
+    * **Very large integers (overflow):**
+        * Input: 2147483647
+        * Expected output: The result is too large for an integer.

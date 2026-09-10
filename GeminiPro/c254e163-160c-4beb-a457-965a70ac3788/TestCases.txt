@@ -1,0 +1,64 @@
+**Java Program:**
+
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class CheckStringFrequency {
+
+    public static void main(String[] args) {
+        String input = "abcdefghiopqrstuvwxyz1234567890";
+
+        // Map to store the frequency of each substring
+        Map<String, Integer> substringFrequency = new HashMap<>();
+
+        // Check the frequency of substrings of length 3
+        for (int i = 0; i < input.length() - 2; i++) {
+            String substring3 = input.substring(i, i + 3);
+            substringFrequency.put(substring3, substringFrequency.getOrDefault(substring3, 0) + 1);
+        }
+
+        // Check the frequency of substrings of length 4
+        for (int i = 0; i < input.length() - 3; i++) {
+            String substring4 = input.substring(i, i + 4);
+            substringFrequency.put(substring4, substringFrequency.getOrDefault(substring4, 0) + 1);
+        }
+
+        // Check if the frequency of substrings of length 3 and 4 are the same
+        boolean sameFrequency = true;
+        for (Map.Entry<String, Integer> entry : substringFrequency.entrySet()) {
+            if (entry.getValue() % 2 != 0) {
+                sameFrequency = false;
+                break;
+            }
+        }
+
+        // Print the result
+        System.out.println(sameFrequency);
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Cases:**
+
+* Input: "aabbbcccc"
+* Output: true (Substring "aaa" and "bbb" appear the same number of times)
+
+* Input: "1234567890abcdef"
+* Output: true (Substring "123", "456", "abc", and "def" appear the same number of times)
+
+**Corner Cases:**
+
+* Input: ""
+* Output: true (No substrings to check)
+
+* Input: "abcdefghi"
+* Output: false (Substring "abc" and "def" appear different number of times)
+
+* Input: "1234ab"
+* Output: false (Different lengths of substrings)
+
+* Input: "12341234"
+* Output: true (Substring "1234" appears the same number of times)

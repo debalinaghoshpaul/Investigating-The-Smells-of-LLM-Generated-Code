@@ -1,0 +1,58 @@
+No GPU found. Running on CPU.
+public class PowerOfFour {
+    public static void main(String[] args) {
+        int num = 64;
+        if (num % 4 == 0) {
+            System.out.println(num + " is a power of 4.");
+        } else {
+            System.out.println(num + " is not a power of 4.");
+        }
+    }
+}
+
+// Output: 64 is a power of 4.
+// Output: 6 is not a power of 4.
+
+public class PowerOfTwo {
+    public static void main(String[] args) {
+        int num = 6;
+        if (num == 2) {
+            System.out.println(num + " is a power of 2.");
+        } else {
+            System.out.println(num + " is not a power of 2.");
+        }
+    }
+}
+
+// Output: 6 is a power of 2.
+// Output: 6 is not a power of 2.
+
+public class AddTwoNumbers {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 12;
+        int result = x + y;
+        System.out.println("Result = " + result);
+    }
+}
+
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result = 22.
+// Output: Result

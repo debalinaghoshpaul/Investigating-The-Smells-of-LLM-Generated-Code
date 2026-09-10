@@ -1,0 +1,40 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
+
+public class FilterList {
+
+    public static <T> ArrayList<T> filter(List<T> list, Predicate<T> predicate) {
+        ArrayList<T> filteredList = new ArrayList<>();
+        for (T element : list) {
+            if (predicate.test(element)) {
+                filteredList.add(element);
+            }
+        }
+        return filteredList;
+    }
+
+    public static void main(String[] args) {
+        // Test case 1: Filter a list of integers to get only even numbers
+        List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        Predicate<Integer> isEven = n -> n % 2 == 0;
+        ArrayList<Integer> evenNumbers = filter(numbers, isEven);
+        System.out.println("Even numbers: " + evenNumbers);
+
+        // Test case 2: Filter a list of strings to get only words starting with 'A'
+        List<String> words = List.of("Apple", "Banana", "Cherry", "Dog", "Elephant", "Fish");
+        Predicate<String> startsWithA = s -> s.startsWith("A");
+        ArrayList<String> wordsStartingWithA = filter(words, startsWithA);
+        System.out.println("Words starting with 'A': " + wordsStartingWithA);
+
+        // Corner case 1: Empty list
+        List<Integer> emptyList = List.of();
+        ArrayList<Integer> filteredEmptyList = filter(emptyList, isEven);
+        System.out.println("Filtered empty list: " + filteredEmptyList);
+
+        // Corner case 2: Predicate that returns false for all elements
+        Predicate<Integer> allFalse = n -> false;
+        ArrayList<Integer> filteredWithAllFalse = filter(numbers, allFalse);
+        System.out.println("Filtered with predicate returning false for all elements: " + filteredWithAllFalse);
+    }
+}

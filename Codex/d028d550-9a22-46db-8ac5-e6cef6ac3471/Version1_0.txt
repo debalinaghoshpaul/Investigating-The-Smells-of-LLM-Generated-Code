@@ -1,0 +1,59 @@
+```java
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Permutations {
+
+    public static void main(String[] args) {
+        int[] nums1 = {1, 2, 3, 4};
+        int[] nums2 = {1, 2, 3};
+
+        List<List<Integer>> permutations1 = permute(nums1);
+        List<List<Integer>> permutations2 = permute(nums2);
+
+        System.out.println("Possible permutations of the said array:");
+        for (List<Integer> permutation : permutations1) {
+            System.out.println(permutation);
+        }
+
+        System.out.println("Possible permutations of the said array:");
+        for (List<Integer> permutation : permutations2) {
+            System.out.println(permutation);
+        }
+    }
+
+    public static List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> permutations = new ArrayList<>();
+        backtrack(nums, new ArrayList<>(), permutations);
+        return permutations;
+    }
+
+    private static void backtrack(int[] nums, List<Integer> permutation, List<List<Integer>> permutations) {
+        if (permutation.size() == nums.length) {
+            permutations.add(new ArrayList<>(permutation));
+        } else {
+            for (int num : nums) {
+                if (!permutation.contains(num)) {
+                    permutation.add(num);
+                    backtrack(nums, permutation, permutations);
+                    permutation.remove(permutation.size() - 1);
+                }
+            }
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty array**: `nums = {}`
+* **Array with duplicate elements**: `nums = {1, 2, 2, 3}`
+
+**Regular Cases:**
+
+* **Small array**: `nums = {1, 2, 3}`
+* **Medium array**: `nums = {1, 2, 3, 4}`
+* **Large array**: `nums = {1, 2, 3, 4, 5, 6}`

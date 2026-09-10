@@ -1,0 +1,38 @@
+```java
+import java.util.Scanner;
+
+public class DivideTwoNumbers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the two numbers from the user
+        System.out.println("Enter the first number:");
+        int num1 = scanner.nextInt();
+
+        System.out.println("Enter the second number:");
+        int num2 = scanner.nextInt();
+
+        // Calculate the quotient
+        int quotient = num1 / num2;
+
+        // Print the quotient
+        System.out.println("The quotient is: " + quotient);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Positive numbers:**
+    * 50 / 3 = 16
+    * 100 / 10 = 10
+* **Negative numbers:**
+    * -50 / -3 = 16
+    * -100 / -10 = 10
+* **Zero:**
+    * 0 / 3 = 0
+    * 100 / 0 = ArithmeticException
+* **Corner cases:**
+    * Integer.MAX_VALUE / Integer.MIN_VALUE = -1
+    * Integer.MIN_VALUE / Integer.MAX_VALUE = 0

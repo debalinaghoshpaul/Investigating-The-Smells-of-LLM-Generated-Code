@@ -1,0 +1,4 @@
+Violations by Category:
+CommentRequired: Class comments are required: 7
+SimplifyBooleanReturns: This if statement can be replaced by `return !{condition} || {elseBranch};`: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

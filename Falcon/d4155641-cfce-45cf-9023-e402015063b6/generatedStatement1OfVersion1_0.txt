@@ -1,0 +1,54 @@
+
+Enter distance: 15
+Enter time: 50.0
+Enter speed: 30.0
+Average speed in miles per hour: 10.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed:

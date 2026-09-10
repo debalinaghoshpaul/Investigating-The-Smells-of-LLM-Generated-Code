@@ -1,0 +1,2 @@
+
+This Java program defines a class called Person with private instance variables name, age, and country. It provides public getter and setter methods to access and modify these variables. In the main method, an instance of the Person class is created, and the setter methods are used to set the values for name, age, and country. Finally, the getter methods are used to display these values.

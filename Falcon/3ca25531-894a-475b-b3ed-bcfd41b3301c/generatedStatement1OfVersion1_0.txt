@@ -1,0 +1,27 @@
+
+// 1.4 (Print a table)
+// a^2 a^3 a^4
+// 1  1   1   1
+// 2  4   8   16
+// 3  9  27   81
+// 4  16 64   256
+// The programming language you need to use is: Java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes
+// No
+// 1.4 (Print a table)
+// a^2 a^3 a^4
+// 1  1   1   1
+// 2  4   8   16
+// 3  9  27   81
+// 4  16 64   256
+// 1.4 (Print a table)
+// a^2 a^3 a^4
+// 1  1   1   1
+// 2  4   8   16
+// 3  9  27   81
+// 4  16 64   256
+// 1.4 (Print a table)
+// a^2 a^3 a^4
+// 1  1   1   1
+// 2

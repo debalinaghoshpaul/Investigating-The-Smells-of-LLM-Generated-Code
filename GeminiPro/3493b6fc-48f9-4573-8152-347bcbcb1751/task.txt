@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to compute the body mass index (BMI).\nTest Data Input weight in pounds: 452 Input height in inches: 72 Expected Output: Body Mass Index is 61.30159143458721 \n\n\n The programming language you need to use is: java.\n\n Problem Id is : 3493b6fc-48f9-4573-8152-347bcbcb1751.\n

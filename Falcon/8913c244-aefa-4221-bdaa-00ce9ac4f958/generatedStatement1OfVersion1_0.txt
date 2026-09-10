@@ -1,0 +1,48 @@
+
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35

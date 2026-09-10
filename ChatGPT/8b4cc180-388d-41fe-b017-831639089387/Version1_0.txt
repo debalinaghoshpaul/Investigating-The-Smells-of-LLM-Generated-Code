@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-96Orb3mAJVFzPv2GoNzKaLpM0CeQ1",
+  "object" : "chat.completion",
+  "created" : 1711312571,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\nimport java.util.List;\n\npublic class SecondMinMax {\n\n    public static void main(String[] args) {\n        List<Integer> numbers = Arrays.asList(5, 2, 8, 3, 9, 1);\n\n        int secondSmallest = numbers.stream()\n                .sorted()\n                .distinct()\n                .skip(1)\n                .findFirst()\n                .orElseThrow(() -> new IllegalArgumentException(\"List is too small\"));\n\n        int secondLargest = numbers.stream()\n                .sorted()\n                .distinct()\n                .skip(numbers.size() - 2)\n                .findFirst()\n                .orElseThrow(() -> new IllegalArgumentException(\"List is too small\"));\n\n        System.out.println(\"Second Smallest: \" + secondSmallest);\n        System.out.println(\"Second Largest: \" + secondLargest);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 66,
+    "completion_tokens" : 169,
+    "total_tokens" : 235
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

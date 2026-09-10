@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called Person with private instance variables name, age. and country. Provide public getter and setter methods to access and modify these variables.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : f642d09d-2414-4ddd-83f2-004d2e1fc841.\n

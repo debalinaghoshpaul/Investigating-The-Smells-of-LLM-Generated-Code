@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-96Odeusuds5bDHLVldtlD3QyiUpLL",
+  "object" : "chat.completion",
+  "created" : 1711311706,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\nimport java.util.List;\n\npublic class StringCount {\n\n    public static void main(String[] args) {\n        List<String> stringList = Arrays.asList(\"apple\", \"banana\", \"orange\", \"avocado\", \"grape\", \"kiwi\");\n\n        char specificLetter = 'a';\n\n        long count = stringList.stream()\n                .filter(s -> s.startsWith(String.valueOf(specificLetter)))\n                .count();\n\n        System.out.println(\"Number of strings starting with letter '\" + specificLetter + \"' : \" + count);\n    }\n}\n```\n\nOutput:\nNumber of strings starting with letter 'a' : 3"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 76,
+    "completion_tokens" : 129,
+    "total_tokens" : 205
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

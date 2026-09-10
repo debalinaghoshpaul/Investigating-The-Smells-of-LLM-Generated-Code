@@ -1,0 +1,39 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.236
+There were 6 failures:
+1) test0(testing_ChatGPT_on_java.FindElement_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	FindElement cannot be resolved
+
+	at testing_ChatGPT_on_java.FindElement_ESTest.test0(FindElement_ESTest.java:29)
+2) test1(testing_ChatGPT_on_java.FindElement_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	FindElement cannot be resolved
+
+	at testing_ChatGPT_on_java.FindElement_ESTest.test1(FindElement_ESTest.java:38)
+3) test4(testing_ChatGPT_on_java.FindElement_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	FindElement cannot be resolved
+
+	at testing_ChatGPT_on_java.FindElement_ESTest.test4(FindElement_ESTest.java:69)
+4) test5(testing_ChatGPT_on_java.FindElement_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	FindElement cannot be resolved to a type
+	FindElement cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.FindElement_ESTest.test5(FindElement_ESTest.java:82)
+5) test2(testing_ChatGPT_on_java.FindElement_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	FindElement cannot be resolved
+
+	at testing_ChatGPT_on_java.FindElement_ESTest.test2(FindElement_ESTest.java:53)
+6) test3(testing_ChatGPT_on_java.FindElement_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	FindElement cannot be resolved
+
+	at testing_ChatGPT_on_java.FindElement_ESTest.test3(FindElement_ESTest.java:61)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

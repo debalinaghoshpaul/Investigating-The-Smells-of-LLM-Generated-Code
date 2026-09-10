@@ -1,0 +1,19 @@
+import java.util.HashSet;
+import java.util.Arrays;
+
+public class HashSetToArray {
+
+    public static void main(String[] args) {
+        // create a hash set
+        HashSet<String> hashSet = new HashSet<>();
+        hashSet.add("apple");
+        hashSet.add("banana");
+        hashSet.add("cherry");
+
+        // convert the hash set to an array
+        String[] array = hashSet.toArray(new String[hashSet.size()]);
+
+        // print the array
+        System.out.println(Arrays.toString(array));
+    }
+}

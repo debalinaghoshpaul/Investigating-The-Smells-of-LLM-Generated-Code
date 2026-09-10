@@ -1,0 +1,31 @@
+
+
+**Test Cases:**
+
+**1. Orthogonal Lines:**
+
+* P(-1, 2)
+* Q(3, 4)
+* R(5, -2)
+* S(1, 0)
+
+**2. Non-Orthogonal Lines:**
+
+* P(-1, 2)
+* Q(3, 4)
+* R(5, 2)
+* S(1, 0)
+
+**3. Lines on the same line:**
+
+* P(-1, 2)
+* Q(3, 4)
+* R(5, 6)
+* S(7, 8)
+
+**4. Lines on the same point:**
+
+* P(0, 0)
+* Q(0, 0)
+* R(0, 0)
+* S(0, 0)

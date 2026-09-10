@@ -1,0 +1,18 @@
+
+
+**Test cases:**
+
+* **Normal cases:**
+    * n = 10, k = 5 -> binomial coefficient: 252
+    * n = 15, k = 7 -> binomial coefficient: 6435
+    * n = 20, k = 10 -> binomial coefficient: 184756
+
+* **Corner cases:**
+    * n = 0, k = 0 -> binomial coefficient: 1
+    * n = 1, k = 1 -> binomial coefficient: 1
+    * n = 10, k = 10 -> binomial coefficient: 1
+
+* **Invalid cases:**
+    * n = -5, k = 2 -> binomial coefficient: 0 (invalid input)
+    * n = 10, k = -1 -> binomial coefficient: 0 (invalid input)
+    * n = 10, k = 11 -> binomial coefficient: 0 (invalid input)

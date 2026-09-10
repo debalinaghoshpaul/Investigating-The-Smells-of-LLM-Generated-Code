@@ -1,0 +1,23 @@
+
+Enter the length of a side of the hexagon: 6
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is: 93.53074360871938
+The area of the hexagon is

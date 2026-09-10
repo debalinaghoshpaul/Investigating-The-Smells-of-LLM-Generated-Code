@@ -1,0 +1,17 @@
+JUnit version 4.13
+.Input the number: .Input the number: .Input the number:      1
+    212
+   32123
+  4321234
+ 543212345
+65432123456
+ 543212345
+  4321234
+   32123
+    212
+     1
+.
+Time: 0.45
+
+OK (4 tests)
+

@@ -1,0 +1,2 @@
+Here is a Java program that finds the maximum and minimum value of an array:
+

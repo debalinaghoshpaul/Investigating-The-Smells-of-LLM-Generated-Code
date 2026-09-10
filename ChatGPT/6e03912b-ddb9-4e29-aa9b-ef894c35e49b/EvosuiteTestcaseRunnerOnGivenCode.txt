@@ -1,0 +1,18 @@
+JUnit version 4.13
+.Enter the employee's name:
+Enter the employee's job title:
+Enter the employee's salary:
+.......Enter the employee's name:
+Enter the employee's job title:
+Enter the employee's salary:
+Enter the percentage to update the salary:
+Employee{name='Engineer', jobTitle='Engineer', salary=85600.0}
+..Enter the employee's name:
+Enter the employee's job title:
+Enter the employee's salary:
+Enter the percentage to update the salary:
+...........
+Time: 0.356
+
+OK (21 tests)
+

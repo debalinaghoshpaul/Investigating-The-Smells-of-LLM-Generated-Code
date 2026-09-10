@@ -1,0 +1,3 @@
+
+
+You can replace the `numbers` array with any array of integers to find the maximum and minimum values in that array.

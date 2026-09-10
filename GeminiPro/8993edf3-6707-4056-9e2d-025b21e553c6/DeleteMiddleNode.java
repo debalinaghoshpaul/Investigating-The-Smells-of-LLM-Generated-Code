@@ -1,0 +1,79 @@
+import java.util.*;
+
+public class DeleteMiddleNode {
+
+    public static void main(String[] args) {
+        // Create a sample singly linked list
+        Node head = new Node(10);
+        head.next = new Node(20);
+        head.next.next = new Node(30);
+        head.next.next.next = new Node(40);
+        head.next.next.next.next = new Node(50);
+
+        // Delete the fourth node (node with value 40)
+        deleteNode(head, 40);
+
+        // Print the resulting linked list
+        Node current = head;
+        while (current != null) {
+            System.out.print(current.data + " -> ");
+            current = current.next;
+        }
+        System.out.println("null");
+    }
+
+    public static void deleteNode(Node head, int data) {
+        if (head == null) {
+            return;
+        }
+
+        if (head.data == data) {
+            head = head.next;
+            return;
+        }
+
+        Node current = head;
+        while (current.next != null && current.next.data != data) {
+            current = current.next;
+        }
+
+        if (current.next != null) {
+            current.next = current.next.next;
+        }
+    }
+
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+        }
+    }
+
+    //Test Cases:
+
+    //Corner Cases:
+
+    //Empty linked list
+    Node head = null;
+    deleteNode(head, 40);
+
+    //Node to be deleted is the first node
+    head = new Node(10);
+    head.next = new Node(20);
+    head.next.next = new Node(30);
+    deleteNode(head, 10);
+
+    //Node to be deleted is the last node
+    head = new Node(10);
+    head.next = new Node(20);
+    head.next.next = new Node(30);
+    deleteNode(head, 30);
+
+    //Node to be deleted is not present in the linked list
+    head = new Node(10);
+    head.next = new Node(20);
+    head.next.next = new Node(30);
+    deleteNode(head, 40);
+}

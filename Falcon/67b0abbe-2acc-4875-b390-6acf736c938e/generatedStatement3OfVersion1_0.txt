@@ -1,0 +1,13 @@
+ The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, we can add test cases including corner cases to test the program of the problem.
+
+public class ReplaceString {
+    public static void main(String[] args) {
+        String str = "The programming language you need to use is: python";
+        String newStr = str.replace("python", "java");
+        System.out.println(newStr);
+    }
+}
+
+// 

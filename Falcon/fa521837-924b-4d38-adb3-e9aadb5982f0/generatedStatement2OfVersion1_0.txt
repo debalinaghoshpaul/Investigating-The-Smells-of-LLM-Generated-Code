@@ -1,0 +1,24 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Input:** firstInteger = 0, secondInteger = 0
+* **Expected Output:** 1
+
+**Normal Cases:**
+
+* **Input:** firstInteger = 123, secondInteger = 456
+* **Expected Output:** 3
+
+* **Input:** firstInteger = -123, secondInteger = 456
+* **Expected Output:** 3
+
+* **Input:** firstInteger = 12345, secondInteger = 67890
+* **Expected Output:** 5
+
+**Negative Cases:**
+
+* **Input:** firstInteger = -12345, secondInteger = -67890
+* **Expected Output:** 5 (Note that the negative sign is ignored when computing the sum.)

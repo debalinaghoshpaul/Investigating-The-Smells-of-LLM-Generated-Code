@@ -1,0 +1,43 @@
+import java.util.Stack;
+
+public class StackIntersection {
+
+    public static void main(String[] args) {
+        // Create two stacks
+        Stack<Integer> stack1 = new Stack<>();
+        Stack<Integer> stack2 = new Stack<>();
+
+        // Push some elements into the stacks
+        stack1.push(1);
+        stack1.push(2);
+        stack1.push(3);
+        stack1.push(4);
+        stack1.push(5);
+
+        stack2.push(3);
+        stack2.push(4);
+        stack2.push(5);
+        stack2.push(6);
+        stack2.push(7);
+
+        // Create a new stack to store the intersection of the two stacks
+        Stack<Integer> intersection = new Stack<>();
+
+        // Iterate through the first stack and check if each element is in the second stack
+        for (int element : stack1) {
+            if (!stack2.contains(element)) {
+                intersection.push(element);
+            }
+        }
+
+        // Iterate through the second stack and check if each element is in the first stack
+        for (int element : stack2) {
+            if (!stack1.contains(element)) {
+                intersection.push(element);
+            }
+        }
+
+        // Print the intersection of the two stacks
+        System.out.println(intersection);
+    }
+}

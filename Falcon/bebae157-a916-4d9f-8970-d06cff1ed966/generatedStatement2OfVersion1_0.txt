@@ -1,0 +1,16 @@
+
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * `arr = null`: Should return 0.
+    * `arr = {}`: Should return 0.
+    * `arr = {1}`: Should return 0.
+    * `arr = {1, 2}`: Should return 0.
+* **Valid Cases:**
+    * `arr = {3, 4, 5, 6}`: Should return 3.
+    * `arr = {3, 4, 5, 6, 7, 8}`: Should return 12.
+    * `arr = {1, 2, 3, 4, 5}`: Should return 0.
+* **Invalid Cases:**
+    * `arr = {0, 1, 2}`: Should throw an exception or return -1, since the array contains non-positive integers.
+    * `arr = {-1, 0, 1}`: Should throw an exception or return -1, since the array contains negative integers.

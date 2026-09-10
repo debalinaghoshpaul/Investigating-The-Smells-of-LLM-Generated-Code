@@ -1,0 +1,13 @@
+
+
+**Test cases with corner cases:**
+
+* **Empty string:** "" (invalid)
+* **String with less than 10 characters:** "12345678" (invalid)
+* **String without any digits:** "abcdefghij" (invalid)
+* **String with only one digit:** "password1" (invalid)
+* **String with more than 10 characters and at least two digits:** "Password123" (valid)
+* **String with only digits:** "1234567890" (valid)
+* **String with only letters:** "abcdefghij" (invalid)
+* **String with special characters:** "password!@#$" (invalid)
+* **String with spaces:** "password 123" (invalid)

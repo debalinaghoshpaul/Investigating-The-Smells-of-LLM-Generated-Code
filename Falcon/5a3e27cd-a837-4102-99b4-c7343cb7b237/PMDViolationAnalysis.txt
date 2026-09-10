@@ -1,0 +1,5 @@
+Violations by Category:
+LocalVariableNamingConventions: The local variable name 'employee_id' doesn't match '[a-z][a-zA-Z0-9]*': 3
+CommentRequired: Class comments are required: 12
+FormalParameterNamingConventions: The method parameter name 'employee_id' doesn't match '[a-z][a-zA-Z0-9]*': 6
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

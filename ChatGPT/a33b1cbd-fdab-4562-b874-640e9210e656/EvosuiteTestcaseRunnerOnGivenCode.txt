@@ -1,0 +1,29 @@
+JUnit version 4.13
+...Stack is empty!
+.....Stack is empty
+....Stack Underflow
+....Stack is full
+.Stack elements: 1410 
+.
+Stack-1
+Stack elements: 3 2 1 
+
+Stack-2
+Stack elements: 6 5 3 
+
+Stack-3
+Stack elements: 4 2 1 
+
+New stack that contains all elements from two stacks (stack1, stack2) without duplicates:
+Stack elements: 6 5 3 2 1 
+
+New stack that contains all elements from two stacks (stack1, stack3) without duplicates:
+Stack elements: 4 3 2 1 
+
+New stack that contains all elements from two stacks (stack3, stack2) without duplicates:
+Stack elements: 6 5 3 4 2 1 
+
+Time: 0.431
+
+OK (18 tests)
+

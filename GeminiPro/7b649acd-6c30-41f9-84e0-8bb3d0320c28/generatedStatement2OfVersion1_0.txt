@@ -1,0 +1,25 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: 123.456
+* Output: The number has 3 decimal places.
+* Input: 0.123
+* Output: The number has 3 decimal places.
+* Input: -123.456
+* Output: The number has 3 decimal places.
+
+**Corner Cases:**
+
+* Input: 123
+* Output: The number has no decimal places.
+* Input: 0
+* Output: The number has no decimal places.
+* Input: -0.123
+* Output: The number has 3 decimal places.
+* Input: 123.
+* Output: The number has 0 decimal places.
+* Input: .123
+* Output: The number has 3 decimal places.

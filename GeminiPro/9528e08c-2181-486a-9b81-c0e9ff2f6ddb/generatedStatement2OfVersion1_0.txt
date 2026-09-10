@@ -1,0 +1,28 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:** Create a Lion object and call its eat() and sound() methods.
+* **Expected Output:** The lion eats meat.
+                     The lion roars.
+
+* **Input:** Create a Tiger object and call its eat() and sound() methods.
+* **Expected Output:** The tiger eats meat.
+                     The tiger growls.
+
+* **Input:** Create a Panther object and call its eat() and sound() methods.
+* **Expected Output:** The panther eats meat.
+                     The panther purrs.
+
+**Corner Cases:**
+
+* **Input:** Create an Animal object (without specifying any subclass) and try to call its eat() and sound() methods.
+* **Expected Output:** Error: Cannot instantiate the abstract class Animal
+
+* **Input:** Create an object of a non-existent subclass of Animal (e.g., Dog).
+* **Expected Output:** Error: Class Dog does not exist
+
+* **Input:** Create an object of a subclass of Animal and try to cast it to a different subclass (e.g., cast a Lion object to a Tiger object).
+* **Expected Output:** Error: ClassCastException

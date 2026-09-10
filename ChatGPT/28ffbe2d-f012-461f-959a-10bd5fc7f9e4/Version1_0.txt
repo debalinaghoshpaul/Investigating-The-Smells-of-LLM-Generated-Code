@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8ym9T6KtGFqZZGDwZQ5kXsnJDB6xM",
+  "object" : "chat.completion",
+  "created" : 1709495467,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Abstract class Employee\nabstract class Employee {\n    String name;\n    int age;\n    \n    public Employee(String name, int age) {\n        this.name = name;\n        this.age = age;\n    }\n    \n    // Abstract method to calculate salary\n    public abstract double calculateSalary();\n    \n    // Abstract method to display employee information\n    public abstract void displayInfo();\n}\n\n// Subclass Manager\nclass Manager extends Employee {\n    double salary;\n\n    public Manager(String name, int age, double salary) {\n        super(name, age);\n        this.salary = salary;\n    }\n\n    // Calculate salary for Manager (just a sample calculation)\n    @Override\n    public double calculateSalary() {\n        return salary + 5000; // Adding bonus for managers\n    }\n\n    // Display Manager information\n    @Override\n    public void displayInfo() {\n        System.out.println(\"Manager Details:\");\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Age: \" + age);\n        System.out.println(\"Salary: $\" + calculateSalary());\n    }\n}\n\n// Subclass Programmer\nclass Programmer extends Employee {\n    double salary;\n\n    public Programmer(String name, int age, double salary) {\n        super(name, age);\n        this.salary = salary;\n    }\n\n    // Calculate salary for Programmer (just a sample calculation)\n    @Override\n    public double calculateSalary() {\n        return salary + 3000; // Adding bonus for programmers\n    }\n\n    // Display Programmer information\n    @Override\n    public void displayInfo() {\n        System.out.println(\"Programmer Details:\");\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Age: \" + age);\n        System.out.println(\"Salary: $\" + calculateSalary());\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Manager manager = new Manager(\"John Doe\", 35, 60000);\n        manager.displayInfo();\n        \n        System.out.println();\n        \n        Programmer programmer = new Programmer(\"Jane Smith\", 28, 50000);\n        programmer.displayInfo();\n    }\n}\n```\n\nOutput:\n```\nManager Details:\nName: John Doe\nAge: 35\nSalary: $65000.0\n\nProgrammer Details:\nName: Jane Smith\nAge: 28\nSalary: $53000.0\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 96,
+    "completion_tokens" : 482,
+    "total_tokens" : 578
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

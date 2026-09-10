@@ -1,0 +1,1 @@
+Problem Description : \n6.32 (Game: chance of winning at craps) Revise Exercise 6.30 to run it 15,000 times\nand display the number of winning games.\n\n The programming language you need to use is: Java.\n\n Problem Id is : 9c9dd0a9-8dfe-4b6b-970b-91314276e11a.

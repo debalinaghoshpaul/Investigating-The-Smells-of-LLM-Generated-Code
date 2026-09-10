@@ -1,0 +1,12 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * n = 0: The output should be 1.
+    * n = 1: The output should be 1.
+    * n = 1000: The output should be 1001.
+* **Regular cases:**
+    * n = 2000: The output should be 2002.
+    * n = 3000: The output should be 3003.
+    * n = 4000: The output should be 4004.

@@ -1,0 +1,28 @@
+```java
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+public class GetKeyLessThanOrEqualTo {
+    public static void main(String[] args) {
+        // create a sorted map
+        SortedMap<String, Integer> sortedMap = new TreeMap<>();
+
+        // put some key-value pairs into the map
+        sortedMap.put("Apple", 10);
+        sortedMap.put("Banana", 20);
+        sortedMap.put("Cherry", 30);
+        sortedMap.put("Date", 40);
+        sortedMap.put("Elderberry", 50);
+
+        // get the key less than or equal to "Cherry"
+        String key = sortedMap.floorKey("Cherry");
+
+        // get the value associated with the key
+        Integer value = sortedMap.get(key);
+
+        // print the key and value
+        System.out.println("Key: " + key);
+        System.out.println("Value: " + value);
+    }
+}
+```

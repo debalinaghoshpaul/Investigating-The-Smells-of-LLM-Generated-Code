@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93POsn4gdc1chBNlaFadb04MSlDMN",
+  "object" : "chat.completion",
+  "created" : 1710599650,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\n\npublic class StackRotation {\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        \n        stack.push(1);\n        stack.push(2);\n        stack.push(3);\n        stack.push(4);\n        stack.push(5);\n        \n        rotateLeft(stack);\n        \n        System.out.println(\"Stack after rotation:\");\n        while (!stack.isEmpty()) {\n            System.out.print(stack.pop() + \" \");\n        }\n    }\n    \n    public static void rotateLeft(Stack<Integer> stack) {\n        if (stack.isEmpty() || stack.size() == 1) {\n            return;\n        }\n        \n        int firstElement = stack.pop();\n        stack.add(0, firstElement);\n    }\n}\n```\n\nThis program creates a stack, pushes elements onto the stack, rotates the elements to the left direction, and then prints the stack after rotation. The `rotateLeft` method pops the first element from the stack and adds it back to the top of the stack, effectively rotating the elements to the left."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 66,
+    "completion_tokens" : 216,
+    "total_tokens" : 282
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

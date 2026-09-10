@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8rmSjK7kyZBMOVzqeeNbWokTtN3HI",
+  "object" : "chat.completion",
+  "created" : 1707828365,
+  "model" : "gpt-3.5-turbo-0613",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is a Java program that copies the contents of one TreeMap to another:\n\n```java\nimport java.util.*;\n\npublic class CopyTreeMap {\n\n    public static void main(String[] args) {\n\n        // Creating a TreeMap\n        TreeMap<Integer, String> originalTreeMap = new TreeMap<>();\n\n        // Adding elements to the TreeMap\n        originalTreeMap.put(1, \"One\");\n        originalTreeMap.put(2, \"Two\");\n        originalTreeMap.put(3, \"Three\");\n\n        // Creating a new TreeMap to copy the contents\n        TreeMap<Integer, String> copiedTreeMap = new TreeMap<>();\n\n        // Copying the contents of the original TreeMap to the new TreeMap\n        copiedTreeMap.putAll(originalTreeMap);\n\n        // Printing the original TreeMap\n        System.out.println(\"Original TreeMap: \" + originalTreeMap);\n\n        // Printing the copied TreeMap\n        System.out.println(\"Copied TreeMap: \" + copiedTreeMap);\n    }\n}\n```\n\nOutput:\n\n```\nOriginal TreeMap: {1=One, 2=Two, 3=Three}\nCopied TreeMap: {1=One, 2=Two, 3=Three}\n```\n\nIn this program, we first create an originalTreeMap and add some elements to it. Then, we create another TreeMap called copiedTreeMap and use the `putAll` method to copy all the elements from the originalTreeMap to the copiedTreeMap. Finally, we print both the original and copied TreeMaps to verify the copy operation."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 58,
+    "completion_tokens" : 307,
+    "total_tokens" : 365
+  },
+  "system_fingerprint" : null
+}

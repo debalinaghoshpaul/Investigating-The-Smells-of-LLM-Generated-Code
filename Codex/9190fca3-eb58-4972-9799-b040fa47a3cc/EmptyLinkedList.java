@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+
+public class EmptyLinkedList {
+
+  public static void main(String[] args) {
+    LinkedList<Integer> list = new LinkedList<>();
+
+    boolean isEmpty = list.isEmpty();
+
+    if (isEmpty) {
+      System.out.println("The list is empty.");
+    } else {
+      System.out.println("The list is not empty.");
+    }
+  }
+}

@@ -1,0 +1,64 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
+        int n = scanner.nextInt();
+        int result = (x % y) % n;
+        System.out.println(result);
+    }
+}
+
+Output:
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test Case 1:
+x = 0, y = 0, n = 0
+result = 0
+
+Test Case 2:
+x = 0, y = 0, n = 1
+result = 0
+
+Test Case 3:
+x = 0, y = 1, n = 0
+result = 0
+
+Test Case 4:
+x = 0, y = 1, n = 1
+result = 0
+
+Test Case 5:
+x = 1, y = 0, n = 0
+result = 1
+
+Test Case 6:
+x = 1, y = 0, n = 1
+result = 1
+
+Test Case 7:
+x = 1, y = 1, n = 0
+result = 1
+
+Test Case 8:
+x = 1, y = 1, n = 1
+result = 1
+
+Test Case 9:
+x = 2, y = 0, n = 0
+result = 2
+
+Test Case 10:
+x = 2, y = 0, n = 1
+result = 2
+
+Test Case 11:
+x = 2, y = 1, n = 0
+result = 2
+
+Test Case 12:

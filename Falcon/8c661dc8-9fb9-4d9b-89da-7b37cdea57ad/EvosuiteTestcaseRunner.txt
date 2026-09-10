@@ -1,0 +1,7 @@
+JUnit version 4.13
+..Input a value for inch: .Input a value for inch: 2.0 inch is 0.0508 meters
+.Input a value for inch: 
+Time: 0.35
+
+OK (4 tests)
+

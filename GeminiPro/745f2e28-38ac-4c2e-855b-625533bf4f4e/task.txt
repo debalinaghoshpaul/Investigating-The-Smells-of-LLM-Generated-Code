@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find the contiguous subarray of given length k which has the maximum average value of a given array of integers. Display the maximum average value.\nExpected Output:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 745f2e28-38ac-4c2e-855b-625533bf4f4e.\n

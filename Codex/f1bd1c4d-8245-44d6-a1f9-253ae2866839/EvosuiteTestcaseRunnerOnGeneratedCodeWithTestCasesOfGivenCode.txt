@@ -1,0 +1,19 @@
+JUnit version 4.13
+.E.E
+Time: 0.525
+There were 2 failures:
+1) test0(testing_ChatGPT_on_java.Example16_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example16 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example16_ESTest.test0(Example16_ESTest.java:20)
+2) test1(testing_ChatGPT_on_java.Example16_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Example16 cannot be resolved to a type
+	Example16 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Example16_ESTest.test1(Example16_ESTest.java:25)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

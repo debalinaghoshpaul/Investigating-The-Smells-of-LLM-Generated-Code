@@ -1,0 +1,12 @@
+JUnit version 4.13
+..Drawing a circle with radius 5.0
+Drawing a square with side length 4.0
+Drawing a triangle with base 3.0 and height 4.0
+Area of circle: 78.53981633974483
+Area of square: 16.0
+Area of triangle: 6.0
+
+Time: 0.378
+
+OK (2 tests)
+

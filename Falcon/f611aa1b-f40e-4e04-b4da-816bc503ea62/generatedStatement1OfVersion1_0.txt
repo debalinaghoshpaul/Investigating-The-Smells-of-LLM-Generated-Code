@@ -1,0 +1,54 @@
+
+Current Date time: Fri Jun 16 14:17:40 IST 2017
+
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test Case 1:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 2:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 3:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 4:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 5:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 6:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 7:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 8:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 9:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 10:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 11:
+Date date = new Date();
+System.out.println("Current Date time: " + date);
+
+Test Case 12:
+Date date = new Date();
+System.out

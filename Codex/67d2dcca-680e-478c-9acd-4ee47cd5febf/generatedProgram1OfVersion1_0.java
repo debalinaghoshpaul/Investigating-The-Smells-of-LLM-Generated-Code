@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class GetStringLength {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.print("Enter a string: ");
+        String str = input.nextLine();
+
+        // Get the length of the string
+        int length = str.length();
+
+        // Print the length of the string
+        System.out.println("The length of the string is: " + length);
+    }
+}

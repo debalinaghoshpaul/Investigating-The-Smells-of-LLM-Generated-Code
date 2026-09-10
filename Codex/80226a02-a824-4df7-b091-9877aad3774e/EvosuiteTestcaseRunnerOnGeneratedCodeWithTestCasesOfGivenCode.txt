@@ -1,0 +1,30 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.251
+There were 4 failures:
+1) test2(testing_ChatGPT_on_java.Filter_List_elements_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Filter_List_elements cannot be resolved
+
+	at testing_ChatGPT_on_java.Filter_List_elements_ESTest.test2(Filter_List_elements_ESTest.java:45)
+2) test3(testing_ChatGPT_on_java.Filter_List_elements_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Filter_List_elements cannot be resolved to a type
+	Filter_List_elements cannot be resolved to a type
+	Filter_List_elements cannot be resolved
+
+	at testing_ChatGPT_on_java.Filter_List_elements_ESTest.test3(Filter_List_elements_ESTest.java:58)
+3) test0(testing_ChatGPT_on_java.Filter_List_elements_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Filter_List_elements cannot be resolved
+
+	at testing_ChatGPT_on_java.Filter_List_elements_ESTest.test0(Filter_List_elements_ESTest.java:27)
+4) test1(testing_ChatGPT_on_java.Filter_List_elements_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Filter_List_elements cannot be resolved
+
+	at testing_ChatGPT_on_java.Filter_List_elements_ESTest.test1(Filter_List_elements_ESTest.java:36)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

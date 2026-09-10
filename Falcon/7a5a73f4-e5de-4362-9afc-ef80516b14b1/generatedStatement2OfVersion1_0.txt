@@ -1,0 +1,10 @@
+
+
+**Test Cases:**
+
+* **Normal case:**
+    * Input: Current date = 2023-03-08
+    * Expected output: Date after 2 weeks = 2023-03-22
+* **Corner case:**
+    * Input: Current date = 2023-12-31
+    * Expected output: Date after 2 weeks = 2024-01-14

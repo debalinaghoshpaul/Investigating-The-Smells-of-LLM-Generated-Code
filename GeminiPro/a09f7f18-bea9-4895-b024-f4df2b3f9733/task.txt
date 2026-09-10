@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find equilibrium indices in a given array of integers.\nExample: Input : nums = {-7, 1, 5, 2, -4, 3, 0} Output: Equilibrium indices found at : 3 Equilibrium indices found at : 6\n\n\n The programming language you need to use is: java.\n\n Problem Id is : a09f7f18-bea9-4895-b024-f4df2b3f9733.\n

@@ -1,0 +1,52 @@
+### Java program to match two strings where one string contains wildcard characters
+
+```java
+import java.util.regex.*;
+
+public class WildcardMatcher {
+
+    public static void main(String[] args) {
+        String text = "This is a test string.";
+        String pattern = "Th*s *s *t*t st**g.";
+
+        boolean matches = Pattern.matches(pattern, text);
+
+        System.out.println("The text \"" + text + "\" matches the pattern \"" + pattern + "\"? " + matches);
+    }
+}
+```
+
+### Test cases
+
+**Positive test cases**
+
+* Text: "This is a test string."
+* Pattern: "Th*s *s *t*t st**g."
+
+* Text: "This is a test string with some extra characters."
+* Pattern: "Th*s *s *t*t st**g.*"
+
+* Text: "This is a test string with some extra characters and some wildcards."
+* Pattern: "Th*s *s *t*t st**g.*??"
+
+**Negative test cases**
+
+* Text: "This is a test string."
+* Pattern: "Th*s *s *t*t st**g.???"
+
+* Text: "This is a test string with some extra characters."
+* Pattern: "Th*s *s *t*t st**g"
+
+* Text: "This is a test string with some extra characters and some wildcards."
+* Pattern: "Th*s *s *t*t s*g.*??"
+
+**Corner cases**
+
+* Text: ""
+* Pattern: "*"
+
+* Text: "This is a test string."
+* Pattern: ""
+
+* Text: ""
+* Pattern: ""

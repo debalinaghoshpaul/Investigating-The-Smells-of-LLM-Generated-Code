@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91zKtH8fJ8dOam6ACfh0W5sgehSoG",
+  "object" : "chat.completion",
+  "created" : 1710261131,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class SortArrayAlternately {\n    \n    public static void main(String[] args) {\n        int[] arr = {5, 2, 8, 1, 4, 9};\n        \n        System.out.println(\"Original array: \" + Arrays.toString(arr));\n        \n        sortArrayAlternately(arr);\n        \n        System.out.println(\"Sorted array alternately: \" + Arrays.toString(arr));\n    }\n    \n    public static void sortArrayAlternately(int[] arr) {\n        Arrays.sort(arr);\n        \n        int[] result = new int[arr.length];\n        \n        int left = 0, right = arr.length - 1;\n        \n        for (int i = 0; i < arr.length; i++) {\n            if (i % 2 == 0) {\n                result[i] = arr[right];\n                right--;\n            } else {\n                result[i] = arr[left];\n                left++;\n            }\n        }\n        \n        System.arraycopy(result, 0, arr, 0, arr.length);\n    }\n}\n```\n\nOutput:\n```\nOriginal array: [5, 2, 8, 1, 4, 9]\nSorted array alternately: [9, 1, 8, 2, 5, 4]\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 104,
+    "completion_tokens" : 268,
+    "total_tokens" : 372
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DWRBiy1OVg6frrgaV2o2oHyI9E4U",
+  "object" : "chat.completion",
+  "created" : 1713009981,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Money {\n    private int dollars;\n    private int cents;\n    \n    // Constructors\n    public Money() {\n        this.dollars = 0;\n        this.cents = 0;\n    }\n    \n    public Money(int dollars) {\n        this.dollars = dollars;\n        this.cents = 0;\n    }\n    \n    public Money(int dollars, int cents) {\n        this.dollars = dollars;\n        this.cents = cents;\n    }\n    \n    // Accessor and Mutator methods\n    public int getDollars() {\n        return dollars;\n    }\n    \n    public void setDollars(int dollars) {\n        this.dollars = dollars;\n    }\n    \n    public int getCents() {\n        return cents;\n    }\n    \n    public void setCents(int cents) {\n        this.cents = cents;\n    }\n    \n    // Method to add money\n    public void add(Money m) {\n        this.dollars += m.getDollars();\n        this.cents += m.getCents();\n        if (this.cents >= 100) {\n            this.dollars += this.cents / 100;\n            this.cents = this.cents % 100;\n        }\n    }\n    \n    // Method to subtract money\n    public void minus(Money m) {\n        this.dollars -= m.getDollars();\n        this.cents -= m.getCents();\n        if (this.cents < 0) {\n            this.dollars--;\n            this.cents += 100;\n        }\n    }\n    \n    // Method to check if two Money objects are equal\n    public boolean equals(Money m) {\n        return (this.dollars == m.getDollars() && this.cents == m.getCents());\n    }\n    \n    // toString method to print the amount of money\n    public String toString() {\n        return \"$\" + dollars + \".\" + (cents < 10 ? \"0\" : \"\") + cents;\n    }\n    \n    public static void main(String[] args) {\n        Money m1 = new Money(10, 50);\n        Money m2 = new Money(5, 25);\n        \n        System.out.println(\"Initial values:\");\n        System.out.println(\"m1: \" + m1);\n        System.out.println(\"m2: \" + m2);\n        \n        m1.add(m2);\n        \n        System.out.println(\"\\nValues after adding m2 to m1:\");\n        System.out.println(\"m1: \" + m1);\n        System.out.println(\"m2: \" + m2);\n        \n        m2.minus(new Money(2, 75));\n        \n        System.out.println(\"\\nValues after subtracting $2.75 from m2:\");\n        System.out.println(\"m1: \" + m1);\n        System.out.println(\"m2: \" + m2);\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 331,
+    "completion_tokens" : 597,
+    "total_tokens" : 928
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

@@ -1,0 +1,2 @@
+Here is a simple Java program that finds the index of a specific element in an array:
+

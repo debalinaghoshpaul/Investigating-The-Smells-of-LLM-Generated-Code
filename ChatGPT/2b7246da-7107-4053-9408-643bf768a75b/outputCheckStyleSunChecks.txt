@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b7246da-7107-4053-9408-643bf768a75b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b7246da-7107-4053-9408-643bf768a75b\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b7246da-7107-4053-9408-643bf768a75b\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b7246da-7107-4053-9408-643bf768a75b\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b7246da-7107-4053-9408-643bf768a75b\generatedProgram1OfVersion1_0.java:7:33: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b7246da-7107-4053-9408-643bf768a75b\generatedProgram1OfVersion1_0.java:8: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b7246da-7107-4053-9408-643bf768a75b\generatedProgram1OfVersion1_0.java:10:29: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b7246da-7107-4053-9408-643bf768a75b\generatedProgram1OfVersion1_0.java:13: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b7246da-7107-4053-9408-643bf768a75b\generatedProgram1OfVersion1_0.java:15: Line has trailing spaces. [RegexpSingleline]
+Audit done.

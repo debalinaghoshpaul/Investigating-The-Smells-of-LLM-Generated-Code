@@ -1,0 +1,10 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 90). [LineLength]: 2
+WhitespaceAfter: 'if' is not followed by whitespace. [WhitespaceAfter]: 6
+WhitespaceAround: 'if' is not followed by whitespace. [WhitespaceAround]: 6
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 10
+FinalParameters: Parameter args should be final. [FinalParameters]: 3
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '3' is a magic number. [MagicNumber]: 3

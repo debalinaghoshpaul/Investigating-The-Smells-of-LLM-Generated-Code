@@ -1,0 +1,8 @@
+JUnit version 4.13
+....Input a positive integer: 3 is a palindrome number.
+.Input a positive integer: 35 is not a palindrome number.
+.Input a positive integer: .Input a positive integer: 
+Time: 0.346
+
+OK (7 tests)
+

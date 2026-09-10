@@ -1,0 +1,5 @@
+ Equilibrium indices found at : [3, 6]
+// Equilibrium indices found at : [3, 6]
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// 

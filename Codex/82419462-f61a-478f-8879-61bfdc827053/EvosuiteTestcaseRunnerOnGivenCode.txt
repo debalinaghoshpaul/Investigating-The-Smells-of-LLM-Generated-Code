@@ -1,0 +1,8 @@
+JUnit version 4.13
+.MockThread-0 sending data: Data from Thread 1
+.Time-limited test sending data: 
+.
+Time: 0.384
+
+OK (3 tests)
+

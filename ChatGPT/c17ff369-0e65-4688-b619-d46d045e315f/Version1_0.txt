@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93QnKgg3yENz7GsvbWZc8wNwqjlgs",
+  "object" : "chat.completion",
+  "created" : 1710605010,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\n\npublic class StackChecker {\n\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        \n        // Push elements to the stack\n        stack.push(10);\n        stack.push(20);\n        stack.push(30);\n        \n        // Check if all elements of the stack are even numbers\n        boolean allEven = checkCondition(stack, element -> element % 2 == 0);\n        \n        if(allEven) {\n            System.out.println(\"All elements of the stack are even numbers.\");\n        } else {\n            System.out.println(\"Not all elements of the stack are even numbers.\");\n        }\n    }\n    \n    public static boolean checkCondition(Stack<Integer> stack, Condition condition) {\n        for(int element : stack) {\n            if(!condition.evaluate(element)) {\n                return false;\n            }\n        }\n        return true;\n    }\n    \n    interface Condition {\n        boolean evaluate(int element);\n    }\n\n}\n```\n\nIn this program, we first create a stack and push some elements to it. We then define a `checkCondition` method that takes a stack and a `Condition` interface as parameters. The `Condition` interface defines a method `evaluate` that checks if a given element satisfies a condition.\n\nIn the `main` method, we use a lambda expression to check if all elements of the stack are even numbers. The lambda expression checks if the element modulo 2 is 0, which indicates that the element is even.\n\nFeel free to modify the condition in the lambda expression to check for different conditions."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 67,
+    "completion_tokens" : 319,
+    "total_tokens" : 386
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

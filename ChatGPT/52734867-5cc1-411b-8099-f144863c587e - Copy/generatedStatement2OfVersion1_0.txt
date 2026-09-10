@@ -1,0 +1,2 @@
+
+This Java program sets up a simple trivia game with five questions, answers, and point values. It prompts the player with each question, checks their answer, and keeps track of their total score. Finally, it displays the total score at the end of the game.

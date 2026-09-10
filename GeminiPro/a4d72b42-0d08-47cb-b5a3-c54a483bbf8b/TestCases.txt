@@ -1,0 +1,48 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class RemoveCharacterFromString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get input string and character to remove
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+        System.out.println("Enter the character to remove: ");
+        char ch = scanner.next().charAt(0);
+
+        // Create a new string without the specified character
+        String newStr = str.replaceAll(Character.toString(ch), "");
+
+        // Print the modified string
+        System.out.println("Modified string: " + newStr);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: "Hello World", Character: 'l'
+* Expected Output: "Heo Word"
+
+* Input: "Programming", Character: 'm'
+* Expected Output: "Prograing"
+
+**Corner Cases:**
+
+* Input: "Empty", Character: 'a'
+* Expected Output: "Empty" (Character not found)
+
+* Input: "aaaaaaaaaa", Character: 'a'
+* Expected Output: "" (All characters removed)
+
+* Input: null, Character: 'c'
+* Expected Output: "null" (Null string)
+
+* Input: "12345", Character: '6'
+* Expected Output: "12345" (Character not found in numeric string)

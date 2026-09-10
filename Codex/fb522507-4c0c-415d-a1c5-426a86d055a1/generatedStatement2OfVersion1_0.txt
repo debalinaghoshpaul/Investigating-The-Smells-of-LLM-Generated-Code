@@ -1,0 +1,17 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **n < 2:** 0, 1 (expected: false)
+* **n = 2:** 2 (expected: true)
+
+**Normal Cases:**
+
+* **n = 7:** 7 (expected: true)
+* **n = 10:** 10 (expected: false)
+
+**Edge Cases:**
+
+* **n = Integer.MAX_VALUE:** The largest possible integer (expected: false)

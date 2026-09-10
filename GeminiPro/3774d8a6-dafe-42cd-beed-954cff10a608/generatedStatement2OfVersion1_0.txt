@@ -1,0 +1,16 @@
+
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* Side length = 5, Apothem = 4
+* Side length = 10, Apothem = 6
+* Side length = 15, Apothem = 8
+
+**Corner Cases:**
+
+* Side length = 0, Apothem = 4 (Invalid: Side length cannot be zero)
+* Side length = 5, Apothem = 0 (Invalid: Apothem cannot be zero)
+* Side length = -5, Apothem = 4 (Invalid: Side length cannot be negative)
+* Side length = 5, Apothem = -4 (Invalid: Apothem cannot be negative)

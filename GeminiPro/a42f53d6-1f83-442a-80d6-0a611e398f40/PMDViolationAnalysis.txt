@@ -1,0 +1,6 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CognitiveComplexity: The method 'main(String[])' has a cognitive complexity of 16, current threshold is 15: 1
+CommentRequired: Class comments are required: 4
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+UnusedLocalVariable: Avoid unused local variables such as 'value'.: 1

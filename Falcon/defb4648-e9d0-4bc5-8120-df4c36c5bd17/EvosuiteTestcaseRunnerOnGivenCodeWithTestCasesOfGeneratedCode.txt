@@ -1,0 +1,29 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.378
+There were 4 failures:
+1) test1(testing_ChatGPT_on_java.WordExtractor_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	WordExtractor cannot be resolved
+
+	at testing_ChatGPT_on_java.WordExtractor_ESTest.test1(WordExtractor_ESTest.java:34)
+2) test0(testing_ChatGPT_on_java.WordExtractor_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	WordExtractor cannot be resolved
+
+	at testing_ChatGPT_on_java.WordExtractor_ESTest.test0(WordExtractor_ESTest.java:25)
+3) test3(testing_ChatGPT_on_java.WordExtractor_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	WordExtractor cannot be resolved to a type
+	WordExtractor cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.WordExtractor_ESTest.test3(WordExtractor_ESTest.java:55)
+4) test2(testing_ChatGPT_on_java.WordExtractor_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	WordExtractor cannot be resolved
+
+	at testing_ChatGPT_on_java.WordExtractor_ESTest.test2(WordExtractor_ESTest.java:49)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

@@ -1,0 +1,25 @@
+```java
+import java.util.PriorityQueue; 
+  
+class GFG { 
+      
+    static void printQueue(PriorityQueue<Integer> queue) 
+    { 
+    while (queue.isEmpty() == false) 
+        System.out.printf("%d ", queue.poll()); 
+    } 
+      
+    public static void main(String[] args) 
+    { 
+        PriorityQueue<Integer> queue = new PriorityQueue<>(); 
+  
+        queue.add(10); 
+        queue.add(30); 
+        queue.add(20); 
+        queue.add(40); 
+  
+        System.out.println("Elements of the priority queue: "); 
+        printQueue(queue); 
+    } 
+} 
+```

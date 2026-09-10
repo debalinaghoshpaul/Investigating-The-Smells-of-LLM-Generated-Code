@@ -1,0 +1,14 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * `num1 = Integer.MIN_VALUE, num2 = Integer.MAX_VALUE`
+    * `num1 = Integer.MAX_VALUE, num2 = Integer.MIN_VALUE`
+    * `num1 = 0, num2 = Integer.MIN_VALUE`
+    * `num1 = 0, num2 = Integer.MAX_VALUE`
+* **Regular cases:**
+    * `num1 = 1, num2 = 2`
+    * `num1 = -1, num2 = -2`
+    * `num1 = 1, num2 = -2`
+    * `num1 = -1, num2 = 2`

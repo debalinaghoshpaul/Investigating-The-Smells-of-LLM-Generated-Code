@@ -1,0 +1,7 @@
+
+Input:
+0
+
+Output:
+Even numbers: 0
+Odd numbers: 0

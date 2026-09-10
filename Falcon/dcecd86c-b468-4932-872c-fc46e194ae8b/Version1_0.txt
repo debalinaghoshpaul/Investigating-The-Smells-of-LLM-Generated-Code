@@ -1,0 +1,55 @@
+No GPU found. Running on CPU.
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class WebCrawler {
+
+    public static void main(String[] args) throws InterruptedException {
+        ExecutorService executorService = Executors.newFixedThreadPool(10);
+        for (int i = 0; i < 10; i++) {
+            executorService.execute(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(Thread.currentThread().getName() + ": Crawling " + i);
+                }
+            });
+        }
+        executorService.shutdown();
+    }
+}
+
+// Output:
+// Crawling 0: Crawling 0
+// Crawling 1: Crawling 1
+// Crawling 2: Crawling 2
+// Crawling 3: Crawling 3
+// Crawling 4: Crawling 4
+// Crawling 5: Crawling 5
+// Crawling 6: Crawling 6
+// Crawling 7: Crawling 7
+// Crawling 8: Crawling 8
+// Crawling 9: Crawling 9
+// Crawling 10: Crawling 10
+// Crawling 11: Crawling 11
+// Crawling 12: Crawling 12
+// Crawling 13: Crawling 13
+// Crawling 14: Crawling 14
+// Crawling 15: Crawling 15
+// Crawling 16: Crawling 16
+// Crawling 17: Crawling 17
+// Crawling 18: Crawling 18
+// Crawling 19: Crawling 19
+// Crawling 20: Crawling 20
+// Crawling 21: Crawling 21
+// Crawling 22: Crawling 22
+// Crawling 23: Crawling 23
+// Crawling 24: Crawling 24
+// Crawling 25: Crawling 25
+// Crawling 26: Crawling 26
+// Crawling 27: Crawling 27
+// Crawling 28

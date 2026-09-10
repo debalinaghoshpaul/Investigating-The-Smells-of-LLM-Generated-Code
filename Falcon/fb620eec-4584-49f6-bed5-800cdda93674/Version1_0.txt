@@ -1,0 +1,32 @@
+```java
+import java.util.Arrays;
+
+public class FindDuplicateValues {
+
+    public static void main(String[] args) {
+        // Initialize an array of integer values
+        int[] arr = {1, 2, 3, 4, 5, 1, 2, 3};
+
+        // Sort the array in ascending order
+        Arrays.sort(arr);
+
+        // Iterate over the array to find duplicate values
+        for (int i = 0; i < arr.length - 1; i++) {
+            // If the current element is equal to the next element, then it is a duplicate
+            if (arr[i] == arr[i + 1]) {
+                // Print the duplicate value
+                System.out.println("Duplicate value: " + arr[i]);
+            }
+        }
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Empty array:** The program should not print any duplicate values.
+* **Array with one element:** The program should not print any duplicate values.
+* **Array with all duplicate elements:** The program should print all the elements in the array as duplicate values.
+* **Array with some duplicate elements:** The program should print the duplicate values in the array.
+* **Array with negative values:** The program should handle negative values correctly and print the duplicate values in the array.
+* **Array with floating-point values:** The program should handle floating-point values correctly and print the duplicate values in the array.

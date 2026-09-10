@@ -1,0 +1,16 @@
+ The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, you can add a test case where the string is empty.
+// You can also add a test case where the first character is not 'g' or 'h'.
+// You can also add a test case where the second character is not 'g' or 'h'.
+// You can also add a test case where the first character is 'g' and the second character is not 'h'.
+// You can also add a test case where the first character is 'h' and the second character is not 'g'.
+// You can also add a test case where the first character is 'g' and the second character is 'h'.
+// You can also add a test case where the first character is 'h' and the second character is 'g'.
+// You can also add a test case where the first character is 'g' and the second character is 'h'.
+// You can also add a test case where the first character is 'h' and the second character is 'g'.
+// You can also add a test case where the first character is 'g' and the second character is 'h'.
+// You can also add a test case where the first character is 'h' and the second character is 'g'.
+// You can also add a test case where the first character is 'g' and the second character is 'h'.
+// You can also add a test case where the first character is 'h' and the

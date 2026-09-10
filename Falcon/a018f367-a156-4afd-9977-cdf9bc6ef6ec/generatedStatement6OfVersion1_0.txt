@@ -1,0 +1,5 @@
+
+
+**Input for normal cases:**
+
+* **With 10 or 30:**

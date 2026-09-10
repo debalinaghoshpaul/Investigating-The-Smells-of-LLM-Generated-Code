@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:2:9: Variable 'data' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:3:10: Variable 'next' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:5:10: Parameter data should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:5:14: 'data' hides a field. [HiddenField]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:12:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:12:10: Variable 'head' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:35:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:39:40: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:40:45: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2b08903e-d35c-4f02-a3af-235162434bc9\generatedProgram1OfVersion1_0.java:41:50: '5' is a magic number. [MagicNumber]
+Audit done.

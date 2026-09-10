@@ -1,0 +1,29 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Two binary numbers of different lengths
+* Two binary numbers with leading zeros
+* Two binary numbers with trailing zeros
+
+**Normal Cases:**
+
+* Two binary numbers of the same length
+* Two binary numbers with no leading or trailing zeros
+* Two binary numbers with a mix of leading and trailing zeros
+
+**Examples:**
+
+* **Input:** 10, 11
+* **Output:** 101
+
+* **Input:** 100, 111
+* **Output:** 1011
+
+* **Input:** 1010, 1111
+* **Output:** 11001
+
+* **Input:** 111011, 100110
+* **Output:** 1011101

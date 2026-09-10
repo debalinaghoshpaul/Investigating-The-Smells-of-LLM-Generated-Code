@@ -1,0 +1,53 @@
+
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* **Input:**
+    * Distance: 2500 meters
+    * Time: 5 hours, 56 minutes, 23 seconds
+* **Expected Output:**
+    * Speed in meters/second: 0.11691531
+    * Speed in km/h: 0.42089513
+    * Speed in miles/h: 0.26158804
+
+* **Input:**
+    * Distance: 10000 meters
+    * Time: 2 hours, 30 minutes, 0 seconds
+* **Expected Output:**
+    * Speed in meters/second: 1.38888889
+    * Speed in km/h: 5.02
+    * Speed in miles/h: 3.12
+
+* **Input:**
+    * Distance: 500 meters
+    * Time: 0 hours, 10 minutes, 20 seconds
+* **Expected Output:**
+    * Speed in meters/second: 0.013888889
+    * Speed in km/h: 0.05
+    * Speed in miles/h: 0.03
+
+**Corner Cases:**
+
+* **Input:**
+    * Distance: 0 meters
+    * Time: 5 hours, 56 minutes, 23 seconds
+* **Expected Output:**
+    * Speed in meters/second: 0
+    * Speed in km/h: 0
+    * Speed in miles/h: 0
+
+* **Input:**
+    * Distance: 2500 meters
+    * Time: 0 hours, 0 minutes, 0 seconds
+* **Expected Output:**
+    * Speed in meters/second: Infinity
+    * Speed in km/h: Infinity
+    * Speed in miles/h: Infinity
+
+* **Input:**
+    * Distance: 2500 meters
+    * Time: -5 hours, -56 minutes, -23 seconds
+* **Expected Output:**
+    * Error message: "Invalid input. Time cannot be negative."

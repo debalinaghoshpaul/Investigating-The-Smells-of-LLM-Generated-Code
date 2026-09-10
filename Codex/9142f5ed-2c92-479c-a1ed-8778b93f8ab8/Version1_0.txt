@@ -1,0 +1,54 @@
+```java
+import java.util.Scanner;
+
+public class DivideUsingSubtraction {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the dividend and divisor from the user
+        System.out.print("Input the dividend: ");
+        int dividend = input.nextInt();
+        System.out.print("Input the divisor: ");
+        int divisor = input.nextInt();
+
+        // Check if the divisor is 0
+        if (divisor == 0) {
+            System.out.println("Error: Division by 0 is not allowed");
+            return;
+        }
+
+        // Perform the division using the subtraction operator
+        int quotient = 0;
+        while (dividend >= divisor) {
+            dividend -= divisor;
+            quotient++;
+        }
+
+        // Print the result
+        System.out.println("Result: " + quotient);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal case:**
+    * Input: dividend = 625, divisor = 25
+    * Output: Result: 25.0
+* **Corner cases:**
+    * **Dividend is 0:**
+        * Input: dividend = 0, divisor = 25
+        * Output: Result: 0.0
+    * **Divisor is 1:**
+        * Input: dividend = 625, divisor = 1
+        * Output: Result: 625.0
+    * **Divisor is negative:**
+        * Input: dividend = 625, divisor = -25
+        * Output: Result: -25.0
+    * **Dividend is negative:**
+        * Input: dividend = -625, divisor = 25
+        * Output: Result: -25.0
+    * **Both dividend and divisor are negative:**
+        * Input: dividend = -625, divisor = -25
+        * Output: Result: 25.0

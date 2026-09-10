@@ -1,0 +1,64 @@
+```java
+import java.util.HashSet;
+import java.util.Set;
+
+public class HappyNumbers {
+
+    public static void main(String[] args) {
+        int count = 0;
+        int number = 1;
+
+        Set<Integer> seen = new HashSet<>();
+
+        while (count < 10) {
+            if (isHappy(number, seen)) {
+                System.out.println(number);
+                count++;
+            }
+            number++;
+        }
+    }
+
+    private static boolean isHappy(int number, Set<Integer> seen) {
+        if (number == 1) {
+            return true;
+        }
+
+        if (seen.contains(number)) {
+            return false;
+        }
+
+        seen.add(number);
+
+        int sum = 0;
+        while (number > 0) {
+            int digit = number % 10;
+            sum += digit * digit;
+            number /= 10;
+        }
+
+        return isHappy(sum, seen);
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* Input: number = 19
+* Expected Output: true
+
+* Input: number = 82
+* Expected Output: false
+
+**Corner Cases:**
+
+* Input: number = 0
+* Expected Output: false
+
+* Input: number = -1
+* Expected Output: false
+
+* Input: number = Integer.MAX_VALUE
+* Expected Output: false

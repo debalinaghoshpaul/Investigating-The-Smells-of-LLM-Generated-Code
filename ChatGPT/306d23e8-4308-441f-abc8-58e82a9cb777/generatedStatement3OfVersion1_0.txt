@@ -1,0 +1,4 @@
+
+arr1 without 0 and -1: true
+arr2 without 0 and -1: false
+arr3 without 0 and -1: false

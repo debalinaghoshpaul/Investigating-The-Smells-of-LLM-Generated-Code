@@ -1,0 +1,3 @@
+
+
+Make sure to replace "product_ratings.csv" with the actual CSV file path containing the product ratings. This code will read the CSV file, extract the product names and count, store the ratings in a 2D array, calculate the average rating for each product, and print out the results.

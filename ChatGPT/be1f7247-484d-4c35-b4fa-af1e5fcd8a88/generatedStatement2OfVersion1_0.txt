@@ -1,0 +1,5 @@
+
+
+This program uses three stacks - one for storing the elements, one for storing the maximum values encountered so far, and one for storing the minimum values encountered so far. The `push` method pushes an element onto the stack and updates the maxStack and minStack accordingly. The `pop` method pops an element from the stack and also updates maxStack and minStack if necessary. The `getMax` and `getMin` methods return the maximum and minimum elements in the stack respectively. 
+
+In the `main` method, we create an instance of `MaxMinStack`, push some elements onto the stack, and then print the maximum and minimum elements in the stack before and after popping an element.

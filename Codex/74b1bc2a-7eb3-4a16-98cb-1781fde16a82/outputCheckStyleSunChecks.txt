@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:9:21: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:10:21: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:11:21: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:20: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:20:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:20:40: Parameter numbers should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\74b1bc2a-7eb3-4a16-98cb-1781fde16a82\generatedProgram1OfVersion1_0.java:20:63: Parameter filter should be final. [FinalParameters]
+Audit done.

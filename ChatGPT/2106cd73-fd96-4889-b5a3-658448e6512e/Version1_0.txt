@@ -1,0 +1,53 @@
+```java
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+public class WriteReadFile {
+
+    public static void main(String[] args) {
+        String fileName = "test.txt";
+
+        // Write to file
+        try {
+            FileWriter writer = new FileWriter(fileName);
+            writer.write("Hello, world!");
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // Read from file
+        try {
+            String content = new String(Files.readAllBytes(Paths.get(fileName)));
+            System.out.println(content);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: "test.txt"
+* Expected Output: "Hello, world!"
+
+**Corner Cases:**
+
+* **Empty File:**
+    * Input: "empty.txt" (empty file)
+    * Expected Output: ""
+* **Non-existent File:**
+    * Input: "non-existent.txt" (non-existent file)
+    * Expected Output: "Exception: File not found"
+* **Read-Only File:**
+    * Input: "read-only.txt" (read-only file)
+    * Expected Output: "Exception: Permission denied"
+* **Write-Only File:**
+    * Input: "write-only.txt" (write-only file)
+    * Expected Output: "Exception: Permission denied"

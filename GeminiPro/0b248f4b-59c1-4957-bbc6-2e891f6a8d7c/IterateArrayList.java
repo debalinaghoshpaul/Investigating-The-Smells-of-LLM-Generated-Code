@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class IterateArrayList {
+
+    public static void main(String[] args) {
+        // Create an ArrayList
+        ArrayList<String> names = new ArrayList<>();
+
+        // Add some elements to the ArrayList
+        names.add("John");
+        names.add("Mary");
+        names.add("Bob");
+
+        // Iterate through the ArrayList using a for-each loop
+        for (String name : names) {
+            System.out.println(name);
+        }
+
+        // Iterate through the ArrayList using an iterator
+        Iterator<String> iterator = names.iterator();
+        while (iterator.hasNext()) {
+            String name = iterator.next();
+            System.out.println(name);
+        }
+    }
+}

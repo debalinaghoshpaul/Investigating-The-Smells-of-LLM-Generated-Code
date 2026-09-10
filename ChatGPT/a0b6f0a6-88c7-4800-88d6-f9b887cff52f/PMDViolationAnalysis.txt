@@ -1,0 +1,5 @@
+Violations by Category:
+UselessParentheses: Useless parentheses.: 1
+CommentRequired: Class comments are required: 14
+SuspiciousEqualsMethodName: The method name and parameter number are suspiciously close to equals(Object): 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

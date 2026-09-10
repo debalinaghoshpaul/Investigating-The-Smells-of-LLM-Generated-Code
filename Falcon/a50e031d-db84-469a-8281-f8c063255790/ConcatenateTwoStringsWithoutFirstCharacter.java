@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class ConcatenateTwoStringsWithoutFirstCharacter {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the two strings from the user
+        System.out.println("Enter the first string:");
+        String str1 = scanner.nextLine();
+
+        System.out.println("Enter the second string:");
+        String str2 = scanner.nextLine();
+
+        // Check if the strings are valid
+        if (str1.length() < 1 || str2.length() < 1) {
+            System.out.println("Invalid input. The strings must be at least 1 character long.");
+            return;
+        }
+
+        // Remove the first character from each string
+        str1 = str1.substring(1);
+        str2 = str2.substring(1);
+
+        // Concatenate the two strings
+        String concatenatedString = str1 + str2;
+
+        // Print the concatenated string
+        System.out.println("The concatenated string is: " + concatenatedString);
+    }
+}

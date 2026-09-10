@@ -1,0 +1,14 @@
+JUnit version 4.13
+..Thread MockThread-0 is waiting at the barrier.
+Thread MockThread-1 is waiting at the barrier.
+Thread MockThread-2 is waiting at the barrier.
+Barrier reached! All threads have arrived at the barrier.
+Thread MockThread-2 has crossed the barrier and continued execution.
+Thread MockThread-0 has crossed the barrier and continued execution.
+Thread MockThread-1 has crossed the barrier and continued execution.
+.Barrier reached! All threads have arrived at the barrier.
+
+Time: 0.346
+
+OK (3 tests)
+

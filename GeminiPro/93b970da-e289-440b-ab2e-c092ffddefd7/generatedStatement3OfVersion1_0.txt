@@ -1,0 +1,20 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Empty array
+* Array with all even elements
+* Array with all odd elements
+
+**Regular Cases:**
+
+* Array with mixed even and odd elements
+* Array with large numbers
+* Array with negative numbers
+
+**Example Input and Output:**
+
+**Corner Case 1: Empty Array**
+

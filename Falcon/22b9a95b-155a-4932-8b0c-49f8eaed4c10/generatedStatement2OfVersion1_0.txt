@@ -1,0 +1,9 @@
+
+
+**Test Cases:**
+
+* **Normal case:** Deposit and withdraw funds from both the BankAccount and SavingsAccount objects.
+* **Corner case:** Withdraw more than the available balance from the SavingsAccount object.
+* **Edge case:** Deposit a negative amount into the BankAccount and SavingsAccount objects.
+* **Edge case:** Withdraw a negative amount from the BankAccount and SavingsAccount objects.
+* **Edge case:** Create a BankAccount and SavingsAccount object with a zero balance and attempt to withdraw funds.

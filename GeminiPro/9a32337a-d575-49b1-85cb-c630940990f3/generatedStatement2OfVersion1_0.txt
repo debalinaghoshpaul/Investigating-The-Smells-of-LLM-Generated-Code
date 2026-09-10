@@ -1,0 +1,31 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: Current month is January
+* Output:
+    * Month name: January
+    * Month number: 1
+    * Number of days in the month: 31
+
+* Input: Current month is June
+* Output:
+    * Month name: June
+    * Month number: 6
+    * Number of days in the month: 30
+
+**Corner Cases:**
+
+* Input: Current month is February in a leap year
+* Output:
+    * Month name: February
+    * Month number: 2
+    * Number of days in the month: 29
+
+* Input: Current month is December in a non-leap year
+* Output:
+    * Month name: December
+    * Month number: 12
+    * Number of days in the month: 31

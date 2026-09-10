@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Average {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+        System.out.print("Enter the third number: ");
+        int num3 = scanner.nextInt();
+        double avg = (num1 + num2 + num3) / 3.0;
+        System.out.println("Average of " + num1 + ", " + num2 + " and " + num3 + " is: " + avg);
+    }
+}
+
+public class Perimeter {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the width of the rectangle: ");
+        int width = scanner.nextInt();
+        System.out.print("Enter the height of the rectangle: ");
+        int height = scanner.nextInt();
+        double perimeter = (2 * width + 2 * height) / 2.0;
+        System.out.println("Perimeter of the rectangle is: " + perimeter);
+    }
+}
+
+public class Area {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the width of the rectangle: ");
+        int width = scanner.nextInt();
+        System.out.print("Enter the height of the rectangle: ");
+        int height = scanner.nextInt();
+        double area = (width * height) / 2.0;
+        System.out.println("Area of the rectangle is: " + area);
+    }
+}
+### 

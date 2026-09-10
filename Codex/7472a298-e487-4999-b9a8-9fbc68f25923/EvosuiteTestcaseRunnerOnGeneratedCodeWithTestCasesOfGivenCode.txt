@@ -1,0 +1,9 @@
+JUnit version 4.13
+.....Enter the number of rows in the grid: Enter the number of columns in the grid: Enter the values for the grid (0 for empty space, 1 for obstacle): 
+..Enter the number of rows in the grid: Enter the number of columns in the grid: Enter the values for the grid (0 for empty space, 1 for obstacle): 
+.Enter the number of rows in the grid: Enter the number of columns in the grid: Enter the values for the grid (0 for empty space, 1 for obstacle): 
+
+Time: 0.484
+
+OK (8 tests)
+

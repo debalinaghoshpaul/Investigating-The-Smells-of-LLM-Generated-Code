@@ -1,0 +1,82 @@
+No GPU found. Running on CPU.
+import java.util.Calendar;
+
+public class Main {
+    public static void main(String[] args) {
+        Calendar calendar = Calendar.getInstance();
+        int year = calendar.get(Calendar.YEAR);
+        int month = calendar.get(Calendar.MONTH) + 1;
+        int week = calendar.get(Calendar.WEEK_OF_MONTH);
+        int date = calendar.get(Calendar.DATE);
+
+        System.out.println("Year = " + year);
+        System.out.println("Month = " + month);
+        System.out.println("Week = " + week);
+        System.out.println("Date = " + date);
+    }
+}
+
+Output:
+Year = 2020
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2021
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2022
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2023
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2024
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2025
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2026
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2027
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2028
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2029
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2030
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2031
+Month = 1
+Week = 1
+Date = 1
+
+Year = 2032
+Month = 1
+Week

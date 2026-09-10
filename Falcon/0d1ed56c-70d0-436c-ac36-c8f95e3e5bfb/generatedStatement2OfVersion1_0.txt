@@ -1,0 +1,9 @@
+
+
+Test cases:
+
+* **Date1 and date2 are the same:** The difference in hours, minutes, milliseconds, and nanoseconds should all be 0.
+* **Date1 is before date2:** The difference in hours, minutes, milliseconds, and nanoseconds should all be positive.
+* **Date1 is after date2:** The difference in hours, minutes, milliseconds, and nanoseconds should all be negative.
+* **Date1 and date2 are very close together:** The difference in hours, minutes, milliseconds, and nanoseconds should all be very small.
+* **Date1 and date2 are very far apart:** The difference in hours, minutes, milliseconds, and nanoseconds should all be very large.

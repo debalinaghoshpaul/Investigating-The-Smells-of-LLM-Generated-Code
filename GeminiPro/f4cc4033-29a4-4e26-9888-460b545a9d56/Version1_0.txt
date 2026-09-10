@@ -1,0 +1,65 @@
+```java
+import java.util.Scanner;
+
+public class CountPrimeNumbers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input from the user.
+        System.out.print("Enter a positive number: ");
+        int number = scanner.nextInt();
+
+        // Initialize the count of prime numbers.
+        int count = 0;
+
+        // Iterate over all the numbers from 2 to the given number.
+        for (int i = 2; i <= number; i++) {
+            // Check if the number is prime.
+            boolean isPrime = true;
+            for (int j = 2; j < i / 2; j++) {
+                if (i % j == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            // If the number is prime, increment the count.
+            if (isPrime) {
+                count++;
+            }
+        }
+
+        // Print the count of prime numbers.
+        System.out.println("The number of prime numbers less than " + number + " is " + count);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Input:** 10
+* **Expected Output:** 4
+
+* **Input:** 20
+* **Expected Output:** 8
+
+* **Input:** 50
+* **Expected Output:** 15
+
+* **Input:** 100
+* **Expected Output:** 25
+
+* **Input:** 1000
+* **Expected Output:** 168
+
+**Corner Cases:**
+
+* **Input:** 1
+* **Expected Output:** 0
+
+* **Input:** 2
+* **Expected Output:** 1
+
+* **Input:** -1
+* **Expected Output:** Invalid input

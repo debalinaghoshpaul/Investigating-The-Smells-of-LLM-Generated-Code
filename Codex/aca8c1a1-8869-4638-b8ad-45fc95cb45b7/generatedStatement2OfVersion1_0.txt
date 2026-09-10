@@ -1,0 +1,23 @@
+
+
+**Test Cases:**
+
+* **Valid Inputs:**
+    * a
+    * e
+    * i
+    * o
+    * u
+    * A
+    * E
+    * I
+    * O
+    * U
+* **Invalid Inputs:**
+    * 1 (not a letter)
+    * ab (string of length > 1)
+    * # (not a letter)
+    *  (empty string)
+* **Corner Cases:**
+    * aA (mixed case letter)
+    * Z (capital letter)

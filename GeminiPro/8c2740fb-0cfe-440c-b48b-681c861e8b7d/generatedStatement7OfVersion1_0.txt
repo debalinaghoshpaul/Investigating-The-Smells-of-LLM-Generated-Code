@@ -1,0 +1,9 @@
+
+// Check if the methods still work if the Person object is null
+Person athlete = null;
+athlete.eat(); // NullPointerException: Cannot invoke method eat() on null object
+
+// Check if the methods still work if the Person object is not initialized properly
+Person lazyPerson = new Person();
+lazyPerson.eat(); // NullPointerException: Cannot invoke method eat() on null object
+lazyPerson.exercise(); // NullPointerException: Cannot invoke method exercise() on null object

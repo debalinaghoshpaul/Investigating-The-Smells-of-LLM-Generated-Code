@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class InOrderTraversal {
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(10);
+        root.left = new TreeNode(20);
+        root.right = new TreeNode(30);
+        root.left.left = new TreeNode(40);
+        root.left.right = new TreeNode(50);
+        inOrderTraversal(root);
+    }
+
+    public static void inOrderTraversal(TreeNode root) {
+        if (root!= null) {
+            System.out.print(root.val + " ");
+            inOrderTraversal(root.left);
+            inOrderTraversal(root.right);
+        }
+    }
+
+    public static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+            left = null;
+            right = null;
+        }
+    }
+}
+

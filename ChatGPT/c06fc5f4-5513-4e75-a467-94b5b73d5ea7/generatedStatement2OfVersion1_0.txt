@@ -1,0 +1,21 @@
+
+
+**Test Cases:**
+
+* Input: [1, 2, 3, 4, 5], n = 2
+* Expected Output: [3, 4, 5, 1, 2]
+
+* Input: [1, 2, 3, 4, 5], n = 3
+* Expected Output: [4, 5, 1, 2, 3]
+
+* Input: [1, 2, 3, 4, 5], n = 0
+* Expected Output: [1, 2, 3, 4, 5]
+
+* Input: [1, 2, 3, 4, 5], n = 5
+* Expected Output: [1, 2, 3, 4, 5]
+
+* Input: [1, 2], n = 1
+* Expected Output: [2, 1]
+
+**Checking for Three Increasing Adjacent Numbers**
+

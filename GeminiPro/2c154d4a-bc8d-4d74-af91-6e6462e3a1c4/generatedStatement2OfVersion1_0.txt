@@ -1,0 +1,23 @@
+
+
+Here are some test cases, including corner cases, to test the program:
+
+* **Test case 1:** Dividend = 10, Divisor = 3
+* **Expected output:** Floor division = 3, Floor modulus = 1
+* **Explanation:** The floor division of 10 by 3 is 3, and the floor modulus is 1.
+
+* **Test case 2:** Dividend = -10, Divisor = 3
+* **Expected output:** Floor division = -4, Floor modulus = -1
+* **Explanation:** The floor division of -10 by 3 is -4, and the floor modulus is -1.
+
+* **Test case 3:** Dividend = 10, Divisor = 0
+* **Expected output:** ArithmeticException: / by zero
+* **Explanation:** Dividing by zero is undefined, so an ArithmeticException is thrown.
+
+* **Test case 4:** Dividend = Integer.MAX_VALUE, Divisor = 2
+* **Expected output:** Floor division = Integer.MAX_VALUE / 2, Floor modulus = 1
+* **Explanation:** The floor division of Integer.MAX_VALUE by 2 is Integer.MAX_VALUE / 2, and the floor modulus is 1.
+
+* **Test case 5:** Dividend = Integer.MIN_VALUE, Divisor = -2
+* **Expected output:** Floor division = Integer.MIN_VALUE / -2, Floor modulus = 0
+* **Explanation:** The floor division of Integer.MIN_VALUE by -2 is Integer.MIN_VALUE / -2, and the floor modulus is 0.

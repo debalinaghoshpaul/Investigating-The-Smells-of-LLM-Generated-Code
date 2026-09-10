@@ -1,0 +1,25 @@
+html
+<html>
+<head>
+<title>Java Source Code</title>
+<style>
+body {
+font-family: monospace;
+}
+span.keyword {
+color: navy;
+font-weight: bold;
+}
+span.comment {
+color: green;
+}
+span.literal {
+color: blue;
+}
+</style>
+</head>
+<body>
+<span class="comment">// This is a Java file with only comments</span>
+<span class="comment">// There is no code in this file</span>
+</body>
+</html>

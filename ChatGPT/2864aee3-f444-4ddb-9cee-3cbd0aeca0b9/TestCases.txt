@@ -1,0 +1,85 @@
+**Problem Description:**
+
+Write a Java program to get a substring of a given string at two specified positions.
+
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class Substring {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Get the starting and ending positions of the substring
+        System.out.println("Enter the starting position: ");
+        int start = scanner.nextInt();
+        System.out.println("Enter the ending position: ");
+        int end = scanner.nextInt();
+
+        // Get the substring using the substring() method
+        String substring = str.substring(start, end);
+
+        // Print the substring
+        System.out.println("The substring is: " + substring);
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* Input String: "Programming"
+* Start Position: 2
+* End Position: 7
+* Expected Output: "gramm"
+
+* Input String: "Java"
+* Start Position: 0
+* End Position: 3
+* Expected Output: "Java"
+
+* Input String: "Python"
+* Start Position: 1
+* End Position: 4
+* Expected Output: "ytho"
+
+**Boundary Test Cases:**
+
+* Input String: "C#"
+* Start Position: 0
+* End Position: 0
+* Expected Output: "" (Empty string)
+
+* Input String: "JavaScript"
+* Start Position: 4
+* End Position: 4
+* Expected Output: "" (Empty string)
+
+* Input String: "Kotlin"
+* Start Position: 0
+* End Position: 7
+* Expected Output: "Kotlin" (Full string)
+
+**Negative Test Cases:**
+
+* Input String: "Swift"
+* Start Position: -1
+* End Position: 2
+* Expected Output: "Error: Starting position cannot be negative."
+
+* Input String: "Go"
+* Start Position: 2
+* End Position: 1
+* Expected Output: "Error: Starting position must be less than ending position."
+
+* Input String: "Rust"
+* Start Position: 0
+* End Position: 10
+* Expected Output: "Error: Ending position is out of bounds."

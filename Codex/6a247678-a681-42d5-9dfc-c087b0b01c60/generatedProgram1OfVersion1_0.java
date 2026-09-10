@@ -1,0 +1,65 @@
+import java.util.Arrays;
+
+public class MoveZeros {
+    public static void main(String[] args) {
+        int[] arr = {0, 3, 4, 0, 1, 2, 5, 0};
+        System.out.println("Original array: " + Arrays.toString(arr));
+        int[] newArr = moveZeros(arr);
+        System.out.println("Result: " + Arrays.toString(newArr));
+    }
+
+    private static int[] moveZeros(int[] arr) {
+        int[] newArr = new int[arr.length];
+        int newArrIndex = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != 0) {
+                newArr[newArrIndex] = arr[i];
+                newArrIndex++;
+            }
+        }
+        return newArr;
+    }
+
+    // Test cases
+    @Test
+    public void testEmptyArray() {
+        int[] arr = {};
+        int[] newArr = moveZeros(arr);
+        Assert.assertArrayEquals(newArr, new int[]{});
+    }
+
+    @Test
+    public void testAllZerosArray() {
+        int[] arr = {0, 0, 0, 0, 0};
+        int[] newArr = moveZeros(arr);
+        Assert.assertArrayEquals(newArr, new int[]{0, 0, 0, 0, 0});
+    }
+
+    @Test
+    public void testSingleZeroArray() {
+        int[] arr = {1, 0, 2, 3, 4};
+        int[] newArr = moveZeros(arr);
+        Assert.assertArrayEquals(newArr, new int[]{1, 2, 3, 4, 0});
+    }
+
+    @Test
+    public void testMultipleZerosArray() {
+        int[] arr = {1, 0, 2, 0, 3, 0, 4, 0, 5};
+        int[] newArr = moveZeros(arr);
+        Assert.assertArrayEquals(newArr, new int[]{1, 2, 3, 4, 5, 0, 0, 0, 0});
+    }
+
+    @Test
+    public void testNegativeValuesArray() {
+        int[] arr = {1, 0, -2, 0, 3, 0, 4, 0, 5};
+        int[] newArr = moveZeros(arr);
+        Assert.assertArrayEquals(newArr, new int[]{1, -2, 3, 4, 5, 0, 0, 0, 0});
+    }
+
+    @Test
+    public void testLargeValuesArray() {
+        int[] arr = {1, 0, Integer.MAX_VALUE, 0, 3, 0, 4, 0, 5};
+        int[] newArr = moveZeros(arr);
+        Assert.assertArrayEquals(newArr, new int[]{1, Integer.MAX_VALUE, 3, 4, 5, 0, 0, 0, 0});
+    }
+}

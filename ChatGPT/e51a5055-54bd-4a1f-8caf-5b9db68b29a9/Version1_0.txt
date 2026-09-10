@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95Wk3CTScAZN9hkEJlSfh8iZIpq8B",
+  "object" : "chat.completion",
+  "created" : 1711104527,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class GreatestNumber {\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\n        // Taking input from the user\n        System.out.print(\"Input the 1st number: \");\n        int num1 = scanner.nextInt();\n\n        System.out.print(\"Input the 2nd number: \");\n        int num2 = scanner.nextInt();\n\n        System.out.print(\"Input the 3rd number: \");\n        int num3 = scanner.nextInt();\n\n        // Finding the greatest number\n        int greatest = num1;\n        if (num2 > greatest) {\n            greatest = num2;\n        }\n        if (num3 > greatest) {\n            greatest = num3;\n        }\n\n        // Printing the greatest number\n        System.out.println(\"The greatest: \" + greatest);\n\n        scanner.close();\n    }\n}\n```\nTest Data Input the 1st number: 25 \nInput the 2nd number: 78 \nInput the 3rd number: 87 \nExpected Output : The greatest: 87"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 108,
+    "completion_tokens" : 219,
+    "total_tokens" : 327
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

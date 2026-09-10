@@ -1,0 +1,15 @@
+JUnit version 4.13
+..Enter the string: 
+Enter the number of times to concatenate the string: 
+The concatenated string is: 7777777
+.Enter the string: 
+Enter the number of times to concatenate the string: 
+.Enter the string: 
+.Enter the string: 
+Enter the number of times to concatenate the string: 
+The concatenated string is: 
+
+Time: 0.519
+
+OK (5 tests)
+

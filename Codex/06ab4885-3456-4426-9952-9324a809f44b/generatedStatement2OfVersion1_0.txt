@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Input: n = 0
+* Input: n = 1
+* Input: n = 2
+
+**Regular Cases:**
+
+* Input: n = 5
+* Input: n = 10
+* Input: n = 15

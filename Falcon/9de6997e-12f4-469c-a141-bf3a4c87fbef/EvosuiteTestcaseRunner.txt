@@ -1,0 +1,51 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E
+Time: 0.377
+There were 8 failures:
+1) test0(testing_ChatGPT_on_java.PalindromeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type PalindromeChecker must be defined in its own file
+
+	at testing_ChatGPT_on_java.PalindromeChecker.<init>(Palindrome.java:2)
+	at testing_ChatGPT_on_java.PalindromeChecker_ESTest.test0(PalindromeChecker_ESTest.java:21)
+2) test1(testing_ChatGPT_on_java.PalindromeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type PalindromeChecker must be defined in its own file
+
+	at testing_ChatGPT_on_java.PalindromeChecker.<init>(Palindrome.java:2)
+	at testing_ChatGPT_on_java.PalindromeChecker_ESTest.test1(PalindromeChecker_ESTest.java:27)
+3) test2(testing_ChatGPT_on_java.PalindromeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.PalindromeChecker.main(Palindrome.java:23)
+	at testing_ChatGPT_on_java.PalindromeChecker_ESTest.test2(PalindromeChecker_ESTest.java:33)
+4) test3(testing_ChatGPT_on_java.PalindromeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type PalindromeChecker must be defined in its own file
+
+	at testing_ChatGPT_on_java.PalindromeChecker.<init>(Palindrome.java:2)
+	at testing_ChatGPT_on_java.PalindromeChecker_ESTest.test3(PalindromeChecker_ESTest.java:38)
+5) test4(testing_ChatGPT_on_java.PalindromeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.PalindromeChecker.isPalindrome(Palindrome.java:4)
+	at testing_ChatGPT_on_java.PalindromeChecker_ESTest.test4(PalindromeChecker_ESTest.java:44)
+6) test5(testing_ChatGPT_on_java.PalindromeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.PalindromeChecker.isPalindrome(Palindrome.java:4)
+	at testing_ChatGPT_on_java.PalindromeChecker_ESTest.test5(PalindromeChecker_ESTest.java:50)
+7) test6(testing_ChatGPT_on_java.PalindromeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.PalindromeChecker.isPalindrome(Palindrome.java:4)
+	at testing_ChatGPT_on_java.PalindromeChecker_ESTest.test6(PalindromeChecker_ESTest.java:64)
+8) test7(testing_ChatGPT_on_java.PalindromeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.PalindromeChecker.isPalindrome(Palindrome.java:4)
+	at testing_ChatGPT_on_java.PalindromeChecker_ESTest.test7(PalindromeChecker_ESTest.java:78)
+
+FAILURES!!!
+Tests run: 8,  Failures: 8
+

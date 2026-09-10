@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95DBY42caFYqjFJGQp13JRnFx0Fj7",
+  "object" : "chat.completion",
+  "created" : 1711029352,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class MaxRegions {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Taking input for number of lines\n        System.out.print(\"Enter the number of lines: \");\n        int n = sc.nextInt();\n\n        // Calculating maximum number of regions\n        int regions = (n * n + n + 2) / 2;\n\n        System.out.println(\"Maximum number of regions achieved by drawing \" + n + \" lines is: \" + regions);\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 177,
+    "completion_tokens" : 115,
+    "total_tokens" : 292
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

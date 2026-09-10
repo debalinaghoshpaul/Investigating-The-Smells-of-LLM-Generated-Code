@@ -1,0 +1,3 @@
+
+
+* **Corner case (single element array):**

@@ -1,0 +1,8 @@
+JUnit version 4.13
+..First day of the week: 2014-02-10
+Last day of the week: 2014-02-16
+
+Time: 0.33
+
+OK (2 tests)
+

@@ -1,0 +1,53 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Circle {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the radius of the circle: ");
+        double radius = scanner.nextDouble();
+        System.out.println("The area of the circle is: " + (Math.PI * radius * radius));
+        System.out.println("The circumference of the circle is: " + (2 * Math.PI * radius));
+    }
+}
+
+Output:
+Enter the radius of the circle: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25

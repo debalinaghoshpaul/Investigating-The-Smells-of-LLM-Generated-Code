@@ -1,0 +1,10 @@
+
+
+**Test Cases:**
+
+* **Empty array:** `array = {}`
+* **Array with only true values:** `array = {{true, true}, {true, true}}`
+* **Array with only false values:** `array = {{false, false}, {false, false}}`
+* **Array with mixed true and false values:** `array = {{true, false, true}, {false, true, false}}`
+* **Array with different number of columns in each row:** `array = {{true, false, true}, {false, true}}`
+* **Array with null values:** `array = {{true, false, null}, {false, true, null}}`

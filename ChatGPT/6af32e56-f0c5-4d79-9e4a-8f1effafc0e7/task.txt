@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to check whether there is a pair with a specified sum in a given sorted and rotated array.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 6af32e56-f0c5-4d79-9e4a-8f1effafc0e7.\n

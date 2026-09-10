@@ -1,0 +1,24 @@
+
+Enter the name of the application: myApp
+Enter the path of the application: /home/myApp
+Enter the temp directory: /home/myApp/temp
+Enter the username: myApp
+The security manager has already been established for the application myApp.
+The path is: /home/myApp
+The temp directory is: /home/myApp/temp
+The username is: myApp
+The security manager has already been established for the application myApp.
+The path is: /home/myApp
+The temp directory is: /home/myApp/temp
+The username is: myApp
+The security manager has already been established for the application myApp.
+The path is: /home/myApp
+The temp directory is: /home/myApp/temp
+The username is: myApp
+The security manager has already been established for the application myApp.
+The path is: /home/myApp
+The temp directory is: /home/myApp/temp
+The username is: myApp
+The security manager has already been established for the application myApp.
+The path is: /home/myApp
+The temp directory is: /home/myApp/temp

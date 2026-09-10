@@ -1,0 +1,9 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 100). [LineLength]: 2
+DesignForExtension: Class 'PizzaOrder' looks like designed for extension (can be subclassed), but the method 'setNumPizzas' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PizzaOrder' final or making the method 'setNumPizzas' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 5
+FinalParameters: Parameter numPizzas should be final. [FinalParameters]: 5
+HiddenField: 'numPizzas' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 6
+MagicNumber: '3' is a magic number. [MagicNumber]: 2

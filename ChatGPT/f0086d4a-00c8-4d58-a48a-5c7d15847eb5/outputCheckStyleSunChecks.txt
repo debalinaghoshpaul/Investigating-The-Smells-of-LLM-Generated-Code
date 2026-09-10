@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:7:56: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:8:57: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:41:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:42:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:44:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:44:23: Parameter startLatch should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:44:38: 'startLatch' hides a field. [HiddenField]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:44:50: Parameter finishLatch should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:44:65: 'finishLatch' hides a field. [HiddenField]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\f0086d4a-00c8-4d58-a48a-5c7d15847eb5\generatedProgram1OfVersion1_0.java:59: Line is longer than 80 characters (found 96). [LineLength]
+Audit done.

@@ -1,0 +1,8 @@
+
+
+**Test cases:**
+
+* **Normal case:** The user starts in the middle of the grid and moves around without hitting any walls.
+* **Corner case:** The user starts in the top-left corner of the grid and tries to move left. The program should not allow the user to move out of the grid.
+* **Edge case:** The user starts on the right edge of the grid and tries to move right. The program should not allow the user to move out of the grid.
+* **Invalid input:** The user enters an invalid move, such as "north" or "east". The program should prompt the user to enter a valid move.

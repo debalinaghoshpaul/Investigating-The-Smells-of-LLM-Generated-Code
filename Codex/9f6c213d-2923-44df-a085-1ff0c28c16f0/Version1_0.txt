@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93VEHDBxdZYBaHvxgByjc5fQF6hH0",
+  "object" : "chat.completion",
+  "created" : 1710622057,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Searchable interface\ninterface Searchable {\n    void search(String keyword);\n}\n\n// Document class implementing Searchable interface\nclass Document implements Searchable {\n    private String content;\n\n    public Document(String content) {\n        this.content = content;\n    }\n\n    @Override\n    public void search(String keyword) {\n        if(content.contains(keyword)) {\n            System.out.println(\"Keyword '\" + keyword + \"' found in the document\");\n        } else {\n            System.out.println(\"Keyword '\" + keyword + \"' not found in the document\");\n        }\n    }\n}\n\n// WebPage class implementing Searchable interface\nclass WebPage implements Searchable {\n    private String url;\n    \n    public WebPage(String url) {\n        this.url = url;\n    }\n    \n    @Override\n    public void search(String keyword) {\n        // Assume we are searching on the webpage content from the URL\n        System.out.println(\"Searching for keyword '\" + keyword + \"' on webpage: \" + url);\n        // Perform search on webpage content and display result\n    }\n}\n\npublic class SearchTest {\n    public static void main(String[] args) {\n        Document doc = new Document(\"This is a sample document for testing search functionality\");\n        WebPage webpage = new WebPage(\"https://www.example.com\");\n        \n        doc.search(\"sample\");\n        webpage.search(\"testing\");\n    }\n}\n```\nIn this Java program, we have created an interface `Searchable` with a method `search(String keyword)` that searches for a given keyword. We have implemented this interface in two classes `Document` and `WebPage` with their own implementations of the `search()` method.\n\nThe `Document` class represents a document with some content, and the `search()` method searches for the keyword in the document's content. The `WebPage` class represents a webpage with a URL, and the `search()` method will perform the search on the webpage's content from the given URL.\n\nIn the `main` method, we have created instances of `Document` and `WebPage` classes and tested the `search()` method by searching for different keywords on them."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 104,
+    "completion_tokens" : 431,
+    "total_tokens" : 535
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

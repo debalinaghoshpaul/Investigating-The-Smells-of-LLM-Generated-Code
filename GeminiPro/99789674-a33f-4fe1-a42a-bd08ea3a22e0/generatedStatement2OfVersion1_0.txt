@@ -1,0 +1,11 @@
+
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| 35 | Number is positive |
+| 0 | Number is zero |
+| -10 | Number is negative |
+| 123456789 | Number is positive |
+| -987654321 | Number is negative |

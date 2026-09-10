@@ -1,0 +1,5 @@
+
+
+In this program, we define a `Stack` class that has methods for pushing, popping, and checking if the stack is empty. The `removeElements` method removes elements from the stack that do not satisfy the given condition. We use a temporary stack to store the elements that satisfy the condition and then push them back into the original stack.
+
+In the `main` method, we create a stack, push some elements into it, and then call the `removeElements` method with a given condition. Finally, we display the updated stack after removing elements that do not satisfy the condition.

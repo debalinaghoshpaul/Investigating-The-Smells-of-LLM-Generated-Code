@@ -1,0 +1,75 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class GetNumber {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        if (number > 0) {
+            System.out.println("Number is positive");
+        } else {
+            System.out.println("Number is negative");
+        }
+    }
+}
+
+Output:
+Enter a number: 35
+Number is positive
+
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test Data Input number: 35
+Expected Output : Number is positive
+
+Test Data Input number: -35
+Expected Output : Number is negative
+
+Test Data Input number: 0
+Expected Output : Number is positive
+
+Test Data Input number: -0
+Expected Output : Number is negative
+
+Test Data Input number: 0.0
+Expected Output : Number is positive
+
+Test Data Input number: -0.0
+Expected Output : Number is negative
+
+Test Data Input number: 0.00
+Expected Output : Number is positive
+
+Test Data Input number: -0.00
+Expected Output : Number is negative
+
+Test Data Input number: 0.000
+Expected Output : Number is positive
+
+Test Data Input number: -0.000
+Expected Output : Number is negative
+
+Test Data Input number: 0.0000
+Expected Output : Number is positive
+
+Test Data Input number: -0.0000
+Expected Output : Number is negative
+
+Test Data Input number: 0.00000
+Expected Output : Number is positive
+
+Test Data Input number: -0.00000
+Expected Output : Number is negative
+
+Test Data Input number: 0.000000
+Expected Output : Number is positive
+
+Test Data Input number: -0.000000
+Expected Output : Number is negative
+
+Test Data Input number: 0.0000000
+Expected Output

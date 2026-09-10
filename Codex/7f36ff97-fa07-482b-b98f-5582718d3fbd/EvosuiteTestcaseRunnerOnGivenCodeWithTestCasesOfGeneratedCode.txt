@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.5
+There were 5 failures:
+1) test3(testing_ChatGPT_on_java.Example110_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example110.main(PowerOf4.java:5)
+	at testing_ChatGPT_on_java.Example110_ESTest.test3(Example110_ESTest.java:67)
+2) test2(testing_ChatGPT_on_java.Example110_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example110.main(PowerOf4.java:5)
+	at testing_ChatGPT_on_java.Example110_ESTest.test2(Example110_ESTest.java:59)
+3) test4(testing_ChatGPT_on_java.Example110_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Example110 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Example110.<init>(PowerOf4.java:4)
+	at testing_ChatGPT_on_java.Example110_ESTest.test4(Example110_ESTest.java:73)
+4) test1(testing_ChatGPT_on_java.Example110_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example110.main(PowerOf4.java:5)
+	at testing_ChatGPT_on_java.Example110_ESTest.test1(Example110_ESTest.java:44)
+5) test0(testing_ChatGPT_on_java.Example110_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example110.main(PowerOf4.java:5)
+	at testing_ChatGPT_on_java.Example110_ESTest.test0(Example110_ESTest.java:27)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

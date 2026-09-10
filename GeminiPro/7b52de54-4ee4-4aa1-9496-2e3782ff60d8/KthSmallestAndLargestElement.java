@@ -1,0 +1,96 @@
+import java.util.Arrays;
+
+public class KthSmallestAndLargestElement {
+
+    public static void main(String[] args) {
+        // Original array
+        int[] arr = {1, 4, 17, 7, 25, 3, 100};
+
+        // K'th smallest element
+        int kthSmallestElement = findKthSmallestElement(arr, 3);
+
+        // K'th largest element
+        int kthLargestElement = findKthLargestElement(arr, 3);
+
+        // Print the results
+        System.out.println("Original Array: " + Arrays.toString(arr));
+        System.out.println("K'th smallest element of the said array: " + kthSmallestElement);
+        System.out.println("K'th largest element of the said array: " + kthLargestElement);
+    }
+
+    public static int findKthSmallestElement(int[] arr, int k) {
+        // Sort the array in ascending order
+        Arrays.sort(arr);
+
+        // Return the kth element of the sorted array
+        return arr[k - 1];
+    }
+
+    public static int findKthLargestElement(int[] arr, int k) {
+        // Sort the array in descending order
+        Arrays.sort(arr);
+
+        // Return the kth element of the sorted array
+        return arr[arr.length - k];
+    }
+
+    // Test cases
+    public static void testCases() {
+        // Test case 1: Empty array
+        int[] arr1 = {};
+        int k1 = 3;
+        int expectedKthSmallestElement1 = -1;
+        int expectedKthLargestElement1 = -1;
+
+        // Test case 2: Array with all elements equal
+        int[] arr2 = {1, 1, 1, 1, 1};
+        int k2 = 3;
+        int expectedKthSmallestElement2 = 1;
+        int expectedKthLargestElement2 = 1;
+
+        // Test case 3: Array with negative elements
+        int[] arr3 = {-1, -2, -3, -4, -5};
+        int k3 = 3;
+        int expectedKthSmallestElement3 = -3;
+        int expectedKthLargestElement3 = -1;
+
+        // Test case 4: Array with large values
+        int[] arr4 = {1000000, 2000000, 3000000, 4000000, 5000000};
+        int k4 = 3;
+        int expectedKthSmallestElement4 = 3000000;
+        int expectedKthLargestElement4 = 5000000;
+
+        // Print the test cases
+        System.out.println("Test Case 1:");
+        System.out.println("Array: " + Arrays.toString(arr1));
+        System.out.println("K'th smallest element: " + findKthSmallestElement(arr1, k1));
+        System.out.println("K'th largest element: " + findKthLargestElement(arr1, k1));
+        System.out.println("Expected K'th smallest element: " + expectedKthSmallestElement1);
+        System.out.println("Expected K'th largest element: " + expectedKthLargestElement1);
+        System.out.println();
+
+        System.out.println("Test Case 2:");
+        System.out.println("Array: " + Arrays.toString(arr2));
+        System.out.println("K'th smallest element: " + findKthSmallestElement(arr2, k2));
+        System.out.println("K'th largest element: " + findKthLargestElement(arr2, k2));
+        System.out.println("Expected K'th smallest element: " + expectedKthSmallestElement2);
+        System.out.println("Expected K'th largest element: " + expectedKthLargestElement2);
+        System.out.println();
+
+        System.out.println("Test Case 3:");
+        System.out.println("Array: " + Arrays.toString(arr3));
+        System.out.println("K'th smallest element: " + findKthSmallestElement(arr3, k3));
+        System.out.println("K'th largest element: " + findKthLargestElement(arr3, k3));
+        System.out.println("Expected K'th smallest element: " + expectedKthSmallestElement3);
+        System.out.println("Expected K'th largest element: " + expectedKthLargestElement3);
+        System.out.println();
+
+        System.out.println("Test Case 4:");
+        System.out.println("Array: " + Arrays.toString(arr4));
+        System.out.println("K'th smallest element: " + findKthSmallestElement(arr4, k4));
+        System.out.println("K'th largest element: " + findKthLargestElement(arr4, k4));
+        System.out.println("Expected K'th smallest element: " + expectedKthSmallestElement4);
+        System.out.println("Expected K'th largest element: " + expectedKthLargestElement4);
+        System.out.println();
+    }
+}

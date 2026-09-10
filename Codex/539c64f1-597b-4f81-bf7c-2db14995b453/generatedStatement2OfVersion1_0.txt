@@ -1,0 +1,13 @@
+
+
+**Test Cases:**
+
+* **Corner cases:**
+    * **Test case 1:** All elements in the array are negative.
+    * **Test case 2:** All elements in the array are positive.
+    * **Test case 3:** The array is empty.
+
+* **Normal cases:**
+    * **Test case 4:** The array contains a mix of positive and negative integers.
+    * **Test case 5:** The array contains duplicate elements.
+    * **Test case 6:** The array contains large integer values.

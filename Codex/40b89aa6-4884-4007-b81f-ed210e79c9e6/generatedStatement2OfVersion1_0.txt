@@ -1,0 +1,39 @@
+
+
+**Test Cases:**
+
+* **Normal case:**
+    * Birth year: 1990
+    * Birth month: 1
+    * Birth day: 1
+    * Current year: 2023
+    * Current month: 1
+    * Current day: 1
+    * Expected age: 33
+
+* **Corner case 1: User's birthday has not yet passed this year**
+    * Birth year: 1990
+    * Birth month: 12
+    * Birth day: 31
+    * Current year: 2023
+    * Current month: 1
+    * Current day: 1
+    * Expected age: 32
+
+* **Corner case 2: User was born on February 29th of a leap year**
+    * Birth year: 1992
+    * Birth month: 2
+    * Birth day: 29
+    * Current year: 2024
+    * Current month: 2
+    * Current day: 28
+    * Expected age: 32
+
+* **Corner case 3: User was born on a leap year that is not a multiple of 400**
+    * Birth year: 1900
+    * Birth month: 2
+    * Birth day: 29
+    * Current year: 2023
+    * Current month: 2
+    * Current day: 28
+    * Expected age: 122

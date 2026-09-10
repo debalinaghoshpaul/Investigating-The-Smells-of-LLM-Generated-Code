@@ -1,0 +1,17 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * Empty array
+    * Array with only one element
+    * Window size is 1
+    * Window size is equal to the array length
+    * Window size is greater than the array length
+* **Normal cases:**
+    * Array with positive integers
+    * Array with negative integers
+    * Array with duplicate elements
+* **Stress cases:**
+    * Array with a large number of elements
+    * Window size is a large number

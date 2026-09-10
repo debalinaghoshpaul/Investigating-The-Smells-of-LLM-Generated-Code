@@ -1,0 +1,11 @@
+JUnit version 4.13
+..Enter a string: 
+Output string: 
+.Enter a string: 
+Output string: 5[z Wa@hZ
+..Enter a string: 
+..
+Time: 0.355
+
+OK (7 tests)
+

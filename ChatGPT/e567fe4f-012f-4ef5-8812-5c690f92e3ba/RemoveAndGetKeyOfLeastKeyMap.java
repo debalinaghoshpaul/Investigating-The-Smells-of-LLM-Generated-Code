@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class RemoveAndGetKeyOfLeastKeyMap {
+
+    public static void main(String[] args) {
+        // Create a map
+        Map<Integer, String> map = new HashMap<>();
+
+        // Add key-value pairs to the map
+        map.put(1, "One");
+        map.put(2, "Two");
+        map.put(3, "Three");
+        map.put(4, "Four");
+
+        // Get the least key
+        int leastKey = Collections.min(map.keySet());
+
+        // Get the value associated with the least key
+        String leastValue = map.get(leastKey);
+
+        // Remove the key-value pair associated with the least key
+        map.remove(leastKey);
+
+        // Print the least key and value
+        System.out.println("Least key: " + leastKey);
+        System.out.println("Least value: " + leastValue);
+
+        // Print the remaining key-value pairs in the map
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " = " + entry.getValue());
+        }
+    }
+}

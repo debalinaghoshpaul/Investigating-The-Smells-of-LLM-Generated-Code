@@ -1,0 +1,12 @@
+
+
+**Test cases including corner cases:**
+
+* **Corner case:** Passing a `null` object to the `play()` method.
+    * Expected output: `NullPointerException` is thrown.
+* **Corner case:** Creating an instance of an abstract class or an interface.
+    * Expected output: `InstantiationException` is thrown.
+* **Corner case:** Overriding the `play()` method in a subclass and not invoking the superclass implementation.
+    * Expected output: The subclass's implementation of the `play()` method is executed without invoking the superclass implementation. This may result in unexpected behavior.
+* **Corner case:** Implementing the `Playable` interface in a class that already implements another interface with a conflicting method signature.
+    * Expected output: `IncompatibleClassChangeError` is thrown.

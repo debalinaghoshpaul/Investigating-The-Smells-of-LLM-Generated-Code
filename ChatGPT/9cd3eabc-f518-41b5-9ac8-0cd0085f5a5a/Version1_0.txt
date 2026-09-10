@@ -1,0 +1,36 @@
+```java
+import java.util.Calendar;
+import java.util.TimeZone;
+
+public class GetCurrentTimeInNewYork {
+
+    public static void main(String[] args) {
+        // Create a calendar object for the current time in New York
+        Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("America/New_York"));
+
+        // Get the current hour, minute, and second
+        int hour = calendar.get(Calendar.HOUR_OF_DAY);
+        int minute = calendar.get(Calendar.MINUTE);
+        int second = calendar.get(Calendar.SECOND);
+
+        // Print the current time
+        System.out.println("The current time in New York is " + hour + ":" + minute + ":" + second);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: None
+* Expected Output: The current time in New York
+
+**Corner Cases:**
+
+* Input: Time zone that does not exist
+* Expected Output: Exception thrown
+* Input: Time zone that is not supported by the Java API
+* Expected Output: Exception thrown
+* Input: Time zone that is not a valid time zone identifier
+* Expected Output: Exception thrown

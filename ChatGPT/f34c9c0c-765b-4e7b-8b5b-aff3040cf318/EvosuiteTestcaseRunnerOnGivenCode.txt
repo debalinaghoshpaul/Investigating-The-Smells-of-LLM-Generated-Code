@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Average value of the array elements is : 7.0
+.
+Time: 0.332
+
+OK (2 tests)
+

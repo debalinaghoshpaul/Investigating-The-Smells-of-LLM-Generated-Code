@@ -1,0 +1,4 @@
+
+
+* **Table with only one column:**
+

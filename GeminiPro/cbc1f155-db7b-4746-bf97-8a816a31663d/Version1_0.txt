@@ -1,0 +1,34 @@
+```java
+import java.util.Scanner;
+
+public class PerfectSquare {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // Check if the number is a perfect square using a lambda expression
+        boolean isPerfectSquare = Math.sqrt(number) % 1 == 0;
+
+        // Print the result
+        System.out.println(number + " is " + (isPerfectSquare ? "" : "not ") + "a perfect square.");
+    }
+}
+```
+
+**Test Cases:**
+
+* **Corner Case 1:** Input: 0
+    * Output: 0 is a perfect square.
+* **Corner Case 2:** Input: 1
+    * Output: 1 is a perfect square.
+* **Regular Case 1:** Input: 16
+    * Output: 16 is a perfect square.
+* **Regular Case 2:** Input: 25
+    * Output: 25 is a perfect square.
+* **Failure Case 1:** Input: 10
+    * Output: 10 is not a perfect square.
+* **Failure Case 2:** Input: 12
+    * Output: 12 is not a perfect square.

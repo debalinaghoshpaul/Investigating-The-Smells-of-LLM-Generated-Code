@@ -1,0 +1,5 @@
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\36034412-518f-4df6-946d-60623a3a5f1f\generatedProgram1OfVersion1_0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\36034412-518f-4df6-946d-60623a3a5f1f\generatedProgram1OfVersion1_0.java:3:	CommentRequired:	Class comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\36034412-518f-4df6-946d-60623a3a5f1f\generatedProgram1OfVersion1_0.java:3:	UseUtilityClass:	This utility class has a non-private constructor
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\36034412-518f-4df6-946d-60623a3a5f1f\generatedProgram1OfVersion1_0.java:5:	CommentRequired:	Public method and constructor comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\36034412-518f-4df6-946d-60623a3a5f1f\generatedProgram1OfVersion1_0.java:6:	CloseResource:	Ensure that resources like this Scanner object are closed after use

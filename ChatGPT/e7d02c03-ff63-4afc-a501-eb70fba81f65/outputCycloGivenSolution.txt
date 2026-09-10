@@ -1,0 +1,2 @@
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\givenSolution.java:2:	CyclomaticComplexity:	The class 'Example12' has a total cyclomatic complexity of 2 (highest 2).
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\givenSolution.java:3:	CyclomaticComplexity:	The method 'main(String[])' has a cyclomatic complexity of 2.

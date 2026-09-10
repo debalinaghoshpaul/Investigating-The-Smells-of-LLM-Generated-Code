@@ -1,0 +1,60 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class RepeatCharacters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Get the number of characters to repeat
+        System.out.println("Enter the number of characters to repeat: ");
+        int numChar = scanner.nextInt();
+
+        // Get the number of times to repeat the characters
+        System.out.println("Enter the number of times to repeat the characters: ");
+        int numRepeat = scanner.nextInt();
+
+        // Repeat the characters
+        String repeatedChars = str.substring(str.length() - numChar).repeat(numRepeat);
+
+        // Print the repeated characters
+        System.out.println("The repeated characters are: " + repeatedChars);
+    }
+}
+```
+
+**Test Cases (Including Corner Cases):**
+
+**1. Valid Test Case:**
+
+* Input String: "Hello"
+* Number of Characters to Repeat: 4
+* Number of Times to Repeat: 2
+* Expected Output: "llollo"
+
+**2. Invalid Test Case:**
+
+* Input String: "Hello"
+* Number of Characters to Repeat: 0
+* Number of Times to Repeat: 5
+* Expected Output: "" (Empty string, since there are no characters to repeat)
+
+**3. Corner Case: Input String Has Fewer Characters Than the Number of Characters to Repeat**
+
+* Input String: "Hi"
+* Number of Characters to Repeat: 5
+* Number of Times to Repeat: 2
+* Expected Output: "HiHi" (The entire string is repeated since it has fewer characters than the specified number)
+
+**4. Corner Case: Number of Characters to Repeat Is Equal to the Length of the String**
+
+* Input String: "Test"
+* Number of Characters to Repeat: 4
+* Number of Times to Repeat: 2
+* Expected Output: "TestTest" (The entire string is repeated twice)

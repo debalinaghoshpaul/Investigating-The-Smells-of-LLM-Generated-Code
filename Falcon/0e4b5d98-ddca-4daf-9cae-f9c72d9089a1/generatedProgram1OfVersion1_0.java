@@ -1,0 +1,82 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Bank {
+    private List<Account> accounts = new ArrayList<>();
+
+    public void addAccount(Account account) {
+        accounts.add(account);
+    }
+
+    public void removeAccount(Account account) {
+        accounts.remove(account);
+    }
+
+    public void deposit(int amount) {
+        for (Account account : accounts) {
+            account.deposit(amount);
+        }
+    }
+
+    public void withdraw(int amount) {
+        for (Account account : accounts) {
+            account.withdraw(amount);
+        }
+    }
+}
+
+public class Account {
+    private int id;
+    private String name;
+    private double balance;
+
+    public Account(int id, String name, double balance) {
+        this.id = id;
+        this.name = name;
+        this.balance = balance;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public void deposit(int amount) {
+        balance += amount;
+    }
+
+    public void withdraw(int amount) {
+        balance -= amount;
+    }
+}
+
+public class TestBank {
+    public static void main(String[] args) {
+        Bank bank = new Bank();
+        bank.addAccount(new Account(1, "John", 1000.0));
+        bank.addAccount(new Account(2, "Jane", 2000.0));
+        bank.addAccount(new Account(3, "Bob", 3000.0));
+        bank.removeAccount(new Account(1, "John", 1000.0));
+        bank.deposit(1000.0);
+        bank.withdraw(2000.0);
+    }
+}

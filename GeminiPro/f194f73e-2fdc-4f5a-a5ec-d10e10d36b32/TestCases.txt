@@ -1,0 +1,55 @@
+**Java program:**
+
+```java
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine();
+
+        // Get the number of characters to repeat
+        System.out.print("Enter the number of characters to repeat: ");
+        int p = scanner.nextInt();
+
+        // Check if the number of characters to repeat is valid
+        if (p <= 0 || p > input.length()) {
+            System.out.println("Invalid number of characters to repeat.");
+            return;
+        }
+
+        // Create the new string
+        String newString = "";
+        for (int i = 0; i < p; i++) {
+            newString += input.charAt(i);
+        }
+
+        // Print the new string
+        System.out.println("The new string is: " + newString);
+    }
+}
+```
+
+**Test cases:**
+
+**Valid test cases:**
+
+| Input String | Number of Characters to Repeat | Expected Output |
+|---|---|---|
+| Hello | 3 | Hel |
+| World | 4 | Worl |
+| Computer | 5 | Comp |
+
+**Corner cases:**
+
+| Input String | Number of Characters to Repeat | Expected Output |
+|---|---|---|
+| Empty string | 2 |  |
+| String with only one character | 1 | |
+| Number of characters to repeat is greater than the length of the input string | 6 | |
+| Number of characters to repeat is zero | 0 |  |
+| Number of characters to repeat is negative | -2 | |

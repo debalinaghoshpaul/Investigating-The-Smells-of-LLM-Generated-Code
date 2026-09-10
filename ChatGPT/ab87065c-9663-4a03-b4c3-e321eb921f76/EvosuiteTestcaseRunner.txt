@@ -1,0 +1,7 @@
+JUnit version 4.13
+...Current quantity: 0.0 liters
+.........
+Time: 0.419
+
+OK (12 tests)
+

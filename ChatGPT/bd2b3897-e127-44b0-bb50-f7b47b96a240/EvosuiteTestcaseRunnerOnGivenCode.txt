@@ -1,0 +1,20 @@
+JUnit version 4.13
+..Input 1st integer: .Input 1st integer: Input 2nd integer: Sum of two integers: 16
+Difference of two integers: 0
+Product of two integers: 64
+Average of two integers: 8.00
+Distance of two integers: 0
+Max integer: 8
+Min integer: 8
+Input 1st integer: .Input 1st integer: Input 2nd integer: Sum of two integers: 9
+Difference of two integers: 9
+Product of two integers: 0
+Average of two integers: 4.50
+Distance of two integers: 9
+Max integer: 9
+Min integer: 0
+
+Time: 0.35
+
+OK (4 tests)
+

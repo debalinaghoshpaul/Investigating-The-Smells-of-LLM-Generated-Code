@@ -1,0 +1,45 @@
+
+
+### Test Cases:
+
+**Corner Cases:**
+
+* **Test Case 1:**
+* Input: `-1234.5678`
+* Expected Output: `-1235.0`
+
+* **Test Case 2:**
+* Input: `0.12345678`
+* Expected Output: `0.0`
+
+* **Test Case 3:**
+* Input: `12345678.9`
+* Expected Output: `12345679.0`
+
+**Positive Test Cases:**
+
+* **Test Case 4:**
+* Input: `123.45`
+* Expected Output: `123.0`
+
+* **Test Case 5:**
+* Input: `-456.78`
+* Expected Output: `-457.0`
+
+* **Test Case 6:**
+* Input: `789.1234`
+* Expected Output: `789.0`
+
+**Negative Test Cases:**
+
+* **Test Case 7:**
+* Input: `-0.1234`
+* Expected Output: `-0.0`
+
+* **Test Case 8:**
+* Input: `-987.65`
+* Expected Output: `-988.0`
+
+* **Test Case 9:**
+* Input: `0.0`
+* Expected Output: `0.0`

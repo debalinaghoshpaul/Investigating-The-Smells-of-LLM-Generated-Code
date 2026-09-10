@@ -1,0 +1,3 @@
+Violations by Category:
+Cannot parameterize ast: class(Comparator) with [Building], expecting  0 type arguments: 1
+29]Comparator<Building>]: 1

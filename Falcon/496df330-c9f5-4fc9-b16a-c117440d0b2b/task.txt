@@ -1,0 +1,1 @@
+Problem Description : \n6.13 (Sum series) Write a method to compute the following series:\nm(i) = 1/3 + 2/4 + ... + i/(i+2)\nWrite a test program that displays the following table:\nI       m(i)\n1       0.3333\n2       0.8333\n...\n19      14.7093\n20      15.6184\n\n The programming language you need to use is: Java.\n\n Problem Id is : 496df330-c9f5-4fc9-b16a-c117440d0b2b.

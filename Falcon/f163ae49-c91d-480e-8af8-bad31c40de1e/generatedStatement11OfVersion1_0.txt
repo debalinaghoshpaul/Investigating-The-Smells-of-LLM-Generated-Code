@@ -1,0 +1,6 @@
+
+Input:
+nums5 = []
+
+Output:
+No sub-arrays with 0 sum

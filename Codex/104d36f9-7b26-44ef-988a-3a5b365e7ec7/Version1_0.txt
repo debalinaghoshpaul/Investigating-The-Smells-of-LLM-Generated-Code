@@ -1,0 +1,32 @@
+```java
+import java.util.Arrays;
+
+public class AnagramCheck {
+
+    public static void main(String[] args) {
+        String str1 = "anagram";
+        String str2 = "nagaram";
+
+        // Check if the lengths of the two strings are the same
+        if (str1.length() != str2.length()) {
+            System.out.println("The strings are not anagrams");
+            return;
+        }
+
+        // Convert both strings to character arrays
+        char[] charArray1 = str1.toCharArray();
+        char[] charArray2 = str2.toCharArray();
+
+        // Sort the character arrays
+        Arrays.sort(charArray1);
+        Arrays.sort(charArray2);
+
+        // Check if the sorted character arrays are equal
+        if (Arrays.equals(charArray1, charArray2)) {
+            System.out.println("The strings are anagrams");
+        } else {
+            System.out.println("The strings are not anagrams");
+        }
+    }
+}
+```

@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Triplets {
+    public static void main(String[] args) {
+        int[] nums = {1, 6, 3, 0, 8, 4, 1, 7};
+        int targetSum = 7;
+        List<List<Integer>> triplets = new ArrayList<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                for (int k = j + 1; k < nums.length; k++) {
+                    if (nums[i] + nums[j] + nums[k] == targetSum) {
+                        List<Integer> triplet = new ArrayList<>();
+                        triplet.add(nums[i]);
+                        triplet.add(nums[j]);
+                        triplet.add(nums[k]);
+                        triplets.add(triplet);
+                    }
+                }
+            }
+        }
+        System.out.println(Arrays.toString(triplets.toArray()));
+    }
+}
+

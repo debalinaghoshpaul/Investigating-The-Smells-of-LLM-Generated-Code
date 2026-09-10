@@ -1,0 +1,67 @@
+```java
+import java.util.*;
+
+public class BinaryArraySort {
+
+    public static void main(String[] args) {
+        int[] b_nums = {0, 1, 1, 0, 1, 1, 0, 1, 0, 0};
+        System.out.println("Original array: " + Arrays.toString(b_nums));
+        sortBinaryArray(b_nums);
+        System.out.println("Sorted array: " + Arrays.toString(b_nums));
+    }
+
+    public static void sortBinaryArray(int[] b_nums) {
+        int left = 0, right = b_nums.length - 1;
+        while (left < right) {
+            if (b_nums[left] > b_nums[right]) {
+                int temp = b_nums[left];
+                b_nums[left] = b_nums[right];
+                b_nums[right] = temp;
+                left++;
+                right--;
+            } else {
+                left++;
+            }
+        }
+    }
+
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+```
+Input: b_nums[] = {0, 1, 1, 0, 1, 1, 0, 1, 0, 0}
+Expected Output: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+```
+
+**Test Case 2:**
+```
+Input: b_nums[] = {1, 1, 1, 0, 0, 0, 0}
+Expected Output: [0, 0, 0, 0, 0, 1, 1, 1]
+```
+
+**Test Case 3:**
+```
+Input: b_nums[] = {0, 0, 0, 0, 0}
+Expected Output: [0, 0, 0, 0, 0]
+```
+
+**Test Case 4:**
+```
+Input: b_nums[] = {1, 1, 1, 1, 1}
+Expected Output: [1, 1, 1, 1, 1]
+```
+
+**Test Case 5:**
+```
+Input: b_nums[] = {}
+Expected Output: []
+```
+
+**Test Case 6:**
+```
+Input: b_nums[] = null
+Expected Output: Exception
+```

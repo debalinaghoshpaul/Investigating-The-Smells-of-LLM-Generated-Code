@@ -1,0 +1,82 @@
+**Program to check if a specified array of integers contains 10 or 30:**
+
+```java
+import java.util.Scanner;
+
+public class Contains10or30 {
+
+    public static boolean contains10or30(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 10 || arr[i] == 30) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the number of elements in the array: ");
+        int n = input.nextInt();
+
+        int[] arr = new int[n];
+
+        System.out.println("Enter the elements of the array: ");
+        for (int i = 0; i < n; i++) {
+            arr[i] = input.nextInt();
+        }
+
+        if (contains10or30(arr)) {
+            System.out.println("The array contains 10 or 30.");
+        } else {
+            System.out.println("The array does not contain 10 or 30.");
+        }
+    }
+}
+```
+
+**Test cases:**
+
+* **Corner cases:**
+    * An array with no elements
+    * An array with only one element
+* **Normal cases:**
+    * An array with 10 or 30
+    * An array without 10 or 30
+
+**Input for corner cases:**
+
+* **No elements:**
+```
+Enter the number of elements in the array: 0
+```
+
+* **One element:**
+```
+Enter the number of elements in the array: 1
+Enter the elements of the array: 15
+```
+
+**Input for normal cases:**
+
+* **With 10 or 30:**
+```
+Enter the number of elements in the array: 5
+Enter the elements of the array: 10 20 30 40 50
+```
+
+* **Without 10 or 30:**
+```
+Enter the number of elements in the array: 5
+Enter the elements of the array: 15 25 35 45 55
+```
+
+**Output:**
+
+* **Corner cases:**
+    * **No elements:** The array does not contain 10 or 30.
+    * **One element:** The array does not contain 10 or 30.
+* **Normal cases:**
+    * **With 10 or 30:** The array contains 10 or 30.
+    * **Without 10 or 30:** The array does not contain 10 or 30.

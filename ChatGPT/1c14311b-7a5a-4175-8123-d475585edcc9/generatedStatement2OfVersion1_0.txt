@@ -1,0 +1,8 @@
+
+
+**Test cases**
+
+* **Normal case:** `abdefghijklmnopqrstuvwxyz`
+* **Corner case 1:** `a`
+* **Corner case 2:** `aAb`
+* **Corner case 3:** `z`

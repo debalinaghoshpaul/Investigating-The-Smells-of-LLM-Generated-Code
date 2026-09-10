@@ -1,0 +1,8 @@
+
+
+**Test cases:**
+
+* **Normal case:** Radius = 7.5, Area = 176.71458676442586, Perimeter = 47.12388980384689
+* **Corner case 1:** Radius = 0, Area = 0, Perimeter = 0
+* **Corner case 2:** Radius = -1, Area = NaN, Perimeter = NaN
+* **Corner case 3:** Radius = Double.MAX_VALUE, Area = Infinity, Perimeter = Infinity

@@ -1,0 +1,25 @@
+import java.util.Stack;
+
+public class StackExample {
+
+    public static void main(String[] args) {
+        // Create two stacks
+        Stack<Integer> stack1 = new Stack<>();
+        Stack<Integer> stack2 = new Stack<>();
+
+        // Push elements into the stacks
+        stack1.push(1);
+        stack1.push(2);
+        stack1.push(3);
+
+        stack2.push(1);
+        stack2.push(2);
+        stack2.push(3);
+
+        // Check if the stacks are equal
+        boolean isEqual = stack1.equals(stack2);
+
+        // Print the result
+        System.out.println("Are the stacks equal? " + isEqual);
+    }
+}

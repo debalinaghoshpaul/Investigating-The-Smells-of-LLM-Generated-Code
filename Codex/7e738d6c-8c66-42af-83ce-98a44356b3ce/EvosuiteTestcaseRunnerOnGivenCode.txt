@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Input first number: .Input first number: Input second number: ..Input first number: Input second number: 5 x 5 = 25
+.Input first number: Input second number: 9 x 1 = 9
+
+Time: 0.345
+
+OK (5 tests)
+

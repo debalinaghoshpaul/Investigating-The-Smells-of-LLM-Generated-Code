@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93PlTXPmxjbCro6j9KWdPcDtrUqjF",
+  "object" : "chat.completion",
+  "created" : 1710601051,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is a Java program that implements a stack and moves the nth element from the top of the stack to the top:\n\n```java\nimport java.util.Stack;\n\npublic class StackMoveNthElement {\n\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        stack.push(1);\n        stack.push(2);\n        stack.push(3);\n        stack.push(4);\n        stack.push(5);\n\n        int n = 3; // move the 3rd element from the top to the top\n\n        System.out.println(\"Original stack: \" + stack);\n        moveNthElementToTop(stack, n);\n        System.out.println(\"Stack after moving \" + n + \"th element to top: \" + stack);\n    }\n\n    public static void moveNthElementToTop(Stack<Integer> stack, int n) {\n        if (stack.size() < n) {\n            System.out.println(\"Stack size is less than \" + n);\n            return;\n        }\n\n        Stack<Integer> tempStack = new Stack<>();\n        int size = stack.size();\n\n        // Pop elements from the original stack and push them to a temporary stack until the nth element\n        for (int i = 0; i < n - 1; i++) {\n            tempStack.push(stack.pop());\n        }\n\n        // Pop the nth element from the original stack\n        int nthElement = stack.pop();\n\n        // Pop elements from the temporary stack and push them back to the original stack\n        while (!tempStack.isEmpty()) {\n            stack.push(tempStack.pop());\n        }\n\n        // Push the nth element to the top of the original stack\n        stack.push(nthElement);\n\n        // Push the remaining elements from the original stack to the temporary stack and then back to the original stack\n        for (int i = 0; i < size - n - 1; i++) {\n            tempStack.push(stack.pop());\n        }\n\n        while (!tempStack.isEmpty()) {\n            stack.push(tempStack.pop());\n        }\n    } \n}\n```\n\nThis program creates a stack, pushes some elements onto the stack, and then moves the nth element from the top of the stack to the top using the `moveNthElementToTop` method. The output will show the original stack and the stack after moving the nth element to the top."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 74,
+    "completion_tokens" : 478,
+    "total_tokens" : 552
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

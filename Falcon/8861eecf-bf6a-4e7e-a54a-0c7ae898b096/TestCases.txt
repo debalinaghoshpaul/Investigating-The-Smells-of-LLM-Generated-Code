@@ -1,0 +1,106 @@
+```java
+import java.util.Scanner;
+
+public class Remove2ndCharacter {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Find the substring of length three starting with 'z' and ending with 'g'
+        int startIndex = inputString.indexOf("z");
+        int endIndex = inputString.indexOf("g");
+        if (startIndex == -1 || endIndex == -1 || endIndex - startIndex < 2) {
+            System.out.println("The substring 'z...g' is not present in the input string.");
+            return;
+        }
+        String substring = inputString.substring(startIndex, endIndex + 1);
+
+        // Remove the 2nd character from the substring
+        String newSubstring = substring.substring(0, 1) + substring.substring(2);
+
+        // Replace the old substring with the new substring in the input string
+        String newString = inputString.replace(substring, newSubstring);
+
+        // Print the new string
+        System.out.println("The new string is: " + newString);
+    }
+}
+```
+
+**Test Cases:**
+
+**Input 1:**
+
+```
+zebras grazing
+```
+
+**Output:**
+
+```
+The new string is: zeas grazing
+```
+
+**Input 2:**
+
+```
+The lazy dog
+```
+
+**Output:**
+
+```
+The new string is: The lazy dog
+```
+
+**Input 3:**
+
+```
+zagg
+```
+
+**Output:**
+
+```
+The substring 'z...g' is not present in the input string.
+```
+
+**Input 4:**
+
+```
+zigzag
+```
+
+**Output:**
+
+```
+The new string is: zigzag
+```
+
+**Input 5:**
+
+```
+zzzzz
+```
+
+**Output:**
+
+```
+The new string is: zzzz
+```
+
+**Input 6:**
+
+```
+zzz
+```
+
+**Output:**
+
+```
+The substring 'z...g' is not present in the input string.
+```

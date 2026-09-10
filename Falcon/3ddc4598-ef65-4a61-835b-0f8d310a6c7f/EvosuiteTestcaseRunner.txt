@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Original ArrayList: [Red, Green, Blue]
+Copy ArrayList: [Red, Green, Blue]
+.
+Time: 0.471
+
+OK (2 tests)
+

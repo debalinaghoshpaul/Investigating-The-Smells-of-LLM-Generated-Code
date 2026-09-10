@@ -1,0 +1,59 @@
+**Sample Input and Output:**
+
+**Input:** "pqq"
+
+**Output:** True (pq-balanced)
+
+**Input:** "pqqp"
+
+**Output:** False (invalid 'q' before 'p')
+
+**Input:** "pqp"
+
+**Output:** True (pq-balanced)
+
+**Input:** "pq"
+
+**Output:** True (pq-balanced)
+
+**Input:** "p"
+
+**Output:** False (needs at least one 'p' and 'q')
+
+**Input:** ""
+
+**Output:** False (empty string)
+
+**Test Cases with Corner Cases:**
+
+**Input:** "pqpqpqp"
+
+**Expected Output:** True (multiple consecutive 'pq' pairs)
+
+**Input:** "p-q"
+
+**Expected Output:** False (character other than 'p' or 'q')
+
+**Input:** "p-qpqp"
+
+**Expected Output:** False ('-' character invalidates pq-balance)
+
+**Input:** "pq-"
+
+**Expected Output:** False ('-' character invalidates pq-balance)
+
+**Input:** "p"
+
+**Expected Output:** False (single character invalid)
+
+**Input:** "q"
+
+**Expected Output:** False (single character invalid)
+
+**Input:** "pp"
+
+**Expected Output:** False (no 'q' character)
+
+**Input:** "qq"
+
+**Expected Output:** False (no 'p' character)

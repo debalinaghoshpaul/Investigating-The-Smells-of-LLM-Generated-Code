@@ -1,0 +1,8 @@
+
+Person athlete = new Athlete();
+athlete.eat(); // Output: An athlete eats a healthy diet with plenty of fruits, vegetables, and whole grains.
+athlete.exercise(); // Output: An athlete exercises regularly and vigorously.
+
+Person lazyPerson = new LazyPerson();
+lazyPerson.eat(); // Output: A lazy person eats junk food and sugary drinks.
+lazyPerson.exercise(); // Output: A lazy person rarely exercises.

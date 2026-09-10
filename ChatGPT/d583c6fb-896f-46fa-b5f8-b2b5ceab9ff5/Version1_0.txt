@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-96OU36pYowSqoX8a9SszoBjKQE9RX",
+  "object" : "chat.completion",
+  "created" : 1711311111,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class SumOfEvenOddNumbers {\n\n    public static void main(String[] args) {\n        List<Integer> numbers = new ArrayList<>();\n        numbers.add(1);\n        numbers.add(2);\n        numbers.add(3);\n        numbers.add(4);\n        numbers.add(5);\n        numbers.add(6);\n        numbers.add(7);\n        numbers.add(8);\n        numbers.add(9);\n        numbers.add(10);\n\n        int sumOfEvenNumbers = numbers.stream().filter(num -> num % 2 == 0).mapToInt(num -> num).sum();\n        int sumOfOddNumbers = numbers.stream().filter(num -> num % 2 != 0).mapToInt(num -> num).sum();\n\n        System.out.println(\"Sum of even numbers: \" + sumOfEvenNumbers);\n        System.out.println(\"Sum of odd numbers: \" + sumOfOddNumbers);\n    }\n}\n```\n\nOutput:\n```\nSum of even numbers: 30\nSum of odd numbers: 25\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 71,
+    "completion_tokens" : 218,
+    "total_tokens" : 289
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

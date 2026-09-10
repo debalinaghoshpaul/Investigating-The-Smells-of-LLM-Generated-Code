@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Original Array: [1, 2, 3, 4, 5]
+Reversed Array: [5, 4, 3, 2, 1]
+...
+Time: 0.407
+
+OK (4 tests)
+

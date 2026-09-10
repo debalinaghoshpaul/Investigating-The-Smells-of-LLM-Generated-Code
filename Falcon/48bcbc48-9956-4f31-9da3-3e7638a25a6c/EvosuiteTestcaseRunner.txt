@@ -1,0 +1,10 @@
+JUnit version 4.13
+..Enter the array of integers, separated by spaces:
+No, the array does not contain three increasing adjacent numbers.
+.Enter the array of integers, separated by spaces:
+.Enter the array of integers, separated by spaces:
+
+Time: 0.361
+
+OK (4 tests)
+

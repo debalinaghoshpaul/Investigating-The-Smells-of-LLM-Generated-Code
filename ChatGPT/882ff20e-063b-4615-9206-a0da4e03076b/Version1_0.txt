@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94ti78cKElts58GXkEftjKe6Zb0IF",
+  "object" : "chat.completion",
+  "created" : 1710954491,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class PerfectSquare {\n\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        System.out.print(\"Enter a positive number: \");\n        int number = input.nextInt();\n        \n        if(isPerfectSquare(number)) {\n            System.out.println(number + \" is a perfect square.\");\n        } else {\n            System.out.println(number + \" is not a perfect square.\");\n        }\n        \n        input.close();\n    }\n    \n    public static boolean isPerfectSquare(int number) {\n        int sqrt = (int) Math.sqrt(number);\n        return (sqrt * sqrt == number);\n    }\n\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 73,
+    "completion_tokens" : 129,
+    "total_tokens" : 202
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

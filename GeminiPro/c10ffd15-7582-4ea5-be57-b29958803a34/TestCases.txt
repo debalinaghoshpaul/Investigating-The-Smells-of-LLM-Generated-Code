@@ -1,0 +1,56 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class ConsecutiveIdenticalLetters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string:");
+        String inputString = scanner.nextLine();
+
+        // Check if there are two consecutive identical letters in the string
+        boolean hasConsecutiveIdenticalLetters = false;
+        for (int i = 0; i < inputString.length() - 1; i++) {
+            if (inputString.charAt(i) == inputString.charAt(i + 1)) {
+                hasConsecutiveIdenticalLetters = true;
+                break;
+            }
+        }
+
+        // Print the result
+        if (hasConsecutiveIdenticalLetters) {
+            System.out.println("Yes, the string contains two consecutive identical letters.");
+        } else {
+            System.out.println("No, the string does not contain two consecutive identical letters.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:** "hello"
+**Output:** False
+
+* **Input:** "programming"
+**Output:** True
+
+* **Input:** "abcabc"
+**Output:** True
+
+**Corner Cases:**
+
+* **Input:** ""
+**Output:** False
+
+* **Input:** "a"
+**Output:** False
+
+* **Input:** "aa"
+**Output:** True

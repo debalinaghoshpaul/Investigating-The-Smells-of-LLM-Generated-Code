@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-920GKncF2KMAxoru4vkX3DtgGr1HC",
+  "object" : "chat.completion",
+  "created" : 1710264692,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class MinimumSubarraySum {\n\n    public static void findMinimumSubarraySum(int[] nums, int subarraySize) {\n        if (nums == null || nums.length == 0 || subarraySize <= 0 || subarraySize > nums.length) {\n            System.out.println(\"Invalid input\");\n            return;\n        }\n\n        int minSum = Integer.MAX_VALUE;\n        int minIndex = 0;\n\n        for (int i = 0; i <= nums.length - subarraySize; i++) {\n            int sum = 0;\n            for (int j = i; j < i + subarraySize; j++) {\n                sum += nums[j];\n            }\n            if (sum < minSum) {\n                minSum = sum;\n                minIndex = i;\n            }\n        }\n\n        System.out.println(\"Sub-array size: \" + subarraySize);\n        System.out.println(\"Sub-array from \" + minIndex + \" to \" + (minIndex + subarraySize - 1) + \" and sum is: \" + minSum);\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};\n        int subarraySize = 4;\n\n        findMinimumSubarraySum(nums, subarraySize);\n    }\n}\n```\n\nOutput:\n```\nSub-array size: 4\nSub-array from 0 to 3 and sum is: 10\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 129,
+    "completion_tokens" : 326,
+    "total_tokens" : 455
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

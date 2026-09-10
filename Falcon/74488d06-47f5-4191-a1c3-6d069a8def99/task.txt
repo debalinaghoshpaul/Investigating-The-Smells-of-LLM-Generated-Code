@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to test that a given array of integers of length 2 contains a 4 or a 7.\nOriginal Array: [5, 7]                                                 \ntrue\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 74488d06-47f5-4191-a1c3-6d069a8def99.\n

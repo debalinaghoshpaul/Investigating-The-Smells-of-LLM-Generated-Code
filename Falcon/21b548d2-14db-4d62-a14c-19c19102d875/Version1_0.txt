@@ -1,0 +1,143 @@
+**Java Program:**
+
+```java
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class ProductRatings {
+
+    public static void main(String[] args) {
+        // Read header line to get product names and number of products
+        String headerLine = null;
+        int numProducts = 0;
+        try {
+            Scanner headerScanner = new Scanner(new File("product_ratings.csv"));
+            headerLine = headerScanner.nextLine();
+            String[] headerFields = headerLine.split(",");
+            numProducts = headerFields.length - 1;
+            headerScanner.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("Error reading header line: " + e.getMessage());
+            return;
+        }
+
+        // Create 2D array to store ratings
+        double[][] ratings = new double[numProducts][];
+        for (int i = 0; i < numProducts; i++) {
+            ratings[i] = new double[5];
+        }
+
+        // Read data from CSV file and store in 2D array
+        try {
+            Scanner dataScanner = new Scanner(new File("product_ratings.csv"));
+            // Skip header line
+            dataScanner.nextLine();
+            while (dataScanner.hasNextLine()) {
+                String dataLine = dataScanner.nextLine();
+                String[] dataFields = dataLine.split(",");
+                for (int i = 0; i < numProducts; i++) {
+                    ratings[i][Integer.parseInt(dataFields[i + 1]) - 1] = Double.parseDouble(dataFields[0]);
+                }
+            }
+            dataScanner.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("Error reading data: " + e.getMessage());
+            return;
+        }
+
+        // Calculate and output average rating for each product
+        for (int i = 0; i < numProducts; i++) {
+            double averageRating = 0.0;
+            for (int j = 0; j < 5; j++) {
+                averageRating += ratings[i][j];
+            }
+            averageRating /= 5.0;
+            System.out.println("Average rating for product " + headerLine.split(",")[i + 1] + ": " + averageRating);
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Case 1:**
+```
+product_ratings.csv
+
+Product 1,1,2,3,4,5
+1,2,3,4,5
+2,3,4,5,1
+3,4,5,1,2
+4,5,1,2,3
+5,1,2,3,4
+```
+**Expected Output:**
+```
+Average rating for product Product 1: 3.0
+Average rating for product Product 2: 3.2
+Average rating for product Product 3: 3.4
+Average rating for product Product 4: 3.6
+Average rating for product Product 5: 3.8
+```
+
+**Valid Case 2 (Empty Ratings):**
+```
+product_ratings.csv
+
+Product 1,1,2,3,4,5
+1,,3,,5
+2,,4,,1
+3,,5,,2
+4,,1,,3
+5,,2,,4
+```
+**Expected Output:**
+```
+Average rating for product Product 1: 3.0
+Average rating for product Product 2: 2.5
+Average rating for product Product 3: 3.5
+Average rating for product Product 4: 2.5
+Average rating for product Product 5: 3.0
+```
+
+**Corner Cases:**
+
+**Corner Case 1 (Missing Header Line):**
+```
+1,2,3,4,5
+2,3,4,5,1
+3,4,5,1,2
+4,5,1,2,3
+5,1,2,3,4
+```
+**Expected Output:**
+```
+Error reading header line: Invalid header line.
+```
+
+**Corner Case 2 (Invalid Rating Value):**
+```
+product_ratings.csv
+
+Product 1,1,2,3,4,5
+1,2,3,4,5
+2,3,4,5,1
+3,4,5,1,2
+4,5,1,2,3
+5,1,2,3,4
+6,1,2,3,4
+```
+**Expected Output:**
+```
+Error reading data: Invalid rating value.
+```
+
+**Corner Case 3 (Empty File):**
+```
+product_ratings.csv
+```
+**Expected Output:**
+```
+Error reading header line: File is empty.
+```

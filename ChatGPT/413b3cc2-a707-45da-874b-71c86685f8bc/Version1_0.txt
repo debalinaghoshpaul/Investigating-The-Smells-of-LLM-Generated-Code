@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xpWhmc5RZ4rxjlFLFWVtmzTMGzt",
+  "object" : "chat.completion",
+  "created" : 1710255342,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class AddMatrices {\n    public static void main(String[] args) {\n        int[][] matrix1 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n        int[][] matrix2 = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};\n\n        int[][] result = addMatrices(matrix1, matrix2);\n\n        System.out.println(\"Matrix 1:\");\n        printMatrix(matrix1);\n\n        System.out.println(\"Matrix 2:\");\n        printMatrix(matrix2);\n\n        System.out.println(\"Result:\");\n        printMatrix(result);\n    }\n\n    public static int[][] addMatrices(int[][] matrix1, int[][] matrix2) {\n        int numRows = matrix1.length;\n        int numColumns = matrix1[0].length;\n        int[][] result = new int[numRows][numColumns];\n\n        for (int i = 0; i < numRows; i++) {\n            for (int j = 0; j < numColumns; j++) {\n                result[i][j] = matrix1[i][j] + matrix2[i][j];\n            }\n        }\n\n        return result;\n    }\n\n    public static void printMatrix(int[][] matrix) {\n        for (int[] row : matrix) {\n            System.out.println(Arrays.toString(row));\n        }\n    }\n}\n```\n\nOutput:\n```\nMatrix 1:\n[1, 2, 3]\n[4, 5, 6]\n[7, 8, 9]\nMatrix 2:\n[9, 8, 7]\n[6, 5, 4]\n[3, 2, 1]\nResult:\n[10, 10, 10]\n[10, 10, 10]\n[10, 10, 10]\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 62,
+    "completion_tokens" : 396,
+    "total_tokens" : 458
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

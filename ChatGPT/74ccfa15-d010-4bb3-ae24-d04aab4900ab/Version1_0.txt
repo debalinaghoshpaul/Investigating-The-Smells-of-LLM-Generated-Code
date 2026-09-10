@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95Bfodz8K6wndS4Q1d4HSuncFOng2",
+  "object" : "chat.completion",
+  "created" : 1711023540,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class CountPrimes {\n    \n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        \n        System.out.println(\"Number of prime numbers less than or equal to \" + n + \": \" + countPrimes(n));\n        \n        sc.close();\n    }\n    \n    public static int countPrimes(int n) {\n        int count = 0;\n        for (int i = 2; i <= n; i++) {\n            if (isPrime(i)) {\n                count++;\n            }\n        }\n        return count;\n    }\n    \n    public static boolean isPrime(int num) {\n        if (num <= 1) {\n            return false;\n        }\n        for (int i = 2; i <= Math.sqrt(num); i++) {\n            if (num % i == 0) {\n                return false;\n            }\n        }\n        return true;\n    }\n\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 69,
+    "completion_tokens" : 208,
+    "total_tokens" : 277
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

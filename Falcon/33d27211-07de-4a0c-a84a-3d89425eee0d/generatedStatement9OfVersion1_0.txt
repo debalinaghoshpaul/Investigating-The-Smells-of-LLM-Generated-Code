@@ -1,0 +1,2 @@
+ Input first number: 5 Input second number: 0.005 false
+// Input

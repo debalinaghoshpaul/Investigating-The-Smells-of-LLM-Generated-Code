@@ -1,0 +1,13 @@
+
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * ZoneOffset.ofHours(-24)
+    * ZoneOffset.ofHours(+24)
+    * ZoneOffset.ofHours(0)
+* **Regular Cases:**
+    * ZoneOffset.ofHours(-5)
+    * ZoneOffset.ofHours(+8)
+    * ZoneOffset.ofHours(-12)
+

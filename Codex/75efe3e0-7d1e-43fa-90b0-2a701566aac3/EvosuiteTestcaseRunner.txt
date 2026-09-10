@@ -1,0 +1,59 @@
+JUnit version 4.13
+.E.E.E..E.E
+Time: 21.096
+There were 5 failures:
+1) test0(testing_ChatGPT_on_java.SpellChecker_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.PrintStream.write(PrintStream.java:482)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:104)
+	at java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
+	at java.io.PrintStream.write(PrintStream.java:527)
+	at java.io.PrintStream.print(PrintStream.java:669)
+	at java.io.PrintStream.println(PrintStream.java:823)
+	at java.lang.Throwable$WrappedPrintStream.println(Throwable.java:748)
+	at java.lang.Throwable.printStackTrace(Throwable.java:658)
+	at java.lang.Throwable.printStackTrace(Throwable.java:643)
+	at java.lang.Throwable.printStackTrace(Throwable.java:634)
+	at testing_ChatGPT_on_java.SpellChecker.main(SpellChecker.java:33)
+	at testing_ChatGPT_on_java.SpellChecker_ESTest.test0(SpellChecker_ESTest.java:26)
+2) test1(testing_ChatGPT_on_java.SpellChecker_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.lang.Throwable.printStackTrace(Throwable.java:655)
+	at java.lang.Throwable.printStackTrace(Throwable.java:643)
+	at java.lang.Throwable.printStackTrace(Throwable.java:634)
+	at testing_ChatGPT_on_java.SpellChecker.main(SpellChecker.java:33)
+	at testing_ChatGPT_on_java.SpellChecker_ESTest.test1(SpellChecker_ESTest.java:35)
+3) test4(testing_ChatGPT_on_java.SpellChecker_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.lang.Throwable.printStackTrace(Throwable.java:655)
+	at java.lang.Throwable.printStackTrace(Throwable.java:643)
+	at java.lang.Throwable.printStackTrace(Throwable.java:634)
+	at testing_ChatGPT_on_java.SpellChecker.loadDictionary(SpellChecker.java:46)
+	at testing_ChatGPT_on_java.SpellChecker.main(SpellChecker.java:12)
+	at testing_ChatGPT_on_java.SpellChecker_ESTest.test4(SpellChecker_ESTest.java:61)
+4) test2(testing_ChatGPT_on_java.SpellChecker_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.lang.Throwable.printStackTrace(Throwable.java:655)
+	at java.lang.Throwable.printStackTrace(Throwable.java:643)
+	at java.lang.Throwable.printStackTrace(Throwable.java:634)
+	at testing_ChatGPT_on_java.SpellChecker.loadDictionary(SpellChecker.java:46)
+	at testing_ChatGPT_on_java.SpellChecker.main(SpellChecker.java:12)
+	at testing_ChatGPT_on_java.SpellChecker_ESTest.test2(SpellChecker_ESTest.java:42)
+5) test3(testing_ChatGPT_on_java.SpellChecker_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.lang.Throwable.printStackTrace(Throwable.java:655)
+	at java.lang.Throwable.printStackTrace(Throwable.java:643)
+	at java.lang.Throwable.printStackTrace(Throwable.java:634)
+	at testing_ChatGPT_on_java.SpellChecker.loadDictionary(SpellChecker.java:46)
+	at testing_ChatGPT_on_java.SpellChecker.main(SpellChecker.java:12)
+	at testing_ChatGPT_on_java.SpellChecker_ESTest.test3(SpellChecker_ESTest.java:52)
+
+FAILURES!!!
+Tests run: 6,  Failures: 5
+

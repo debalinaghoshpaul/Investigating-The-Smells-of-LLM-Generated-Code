@@ -1,0 +1,52 @@
+```java
+import java.util.Scanner;
+
+public class ReverseInteger {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int number = input.nextInt();
+
+        // Handle negative numbers
+        boolean isNegative = number < 0;
+        if (isNegative) {
+            number = -number;
+        }
+
+        int reversedNumber = 0;
+        while (number > 0) {
+            int lastDigit = number % 10;
+            reversedNumber = reversedNumber * 10 + lastDigit;
+            number /= 10;
+        }
+
+        // Handle negative numbers again
+        if (isNegative) {
+            reversedNumber = -reversedNumber;
+        }
+
+        System.out.println("Reversed integer: " + reversedNumber);
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Integers:**
+
+* 123 -> 321
+* 4567 -> 7654
+* 987654321 -> 123456789
+
+**Negative Integers:**
+
+* -123 -> -321
+* -4567 -> -7654
+* -987654321 -> -123456789
+
+**Corner Cases:**
+
+* 0 -> 0
+* 1000000000 (maximum integer value) -> 0 (overflow)
+* -1000000000 (minimum integer value) -> 0 (overflow)

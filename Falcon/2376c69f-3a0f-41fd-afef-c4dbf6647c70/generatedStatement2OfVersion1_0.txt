@@ -1,0 +1,16 @@
+
+
+**Test cases:**
+
+**Normal cases:**
+
+* n = 0 => [1]
+* n = 1 => [1, 1]
+* n = 2 => [1, 1, 2]
+* n = 3 => [1, 1, 2, 5]
+* n = 4 => [1, 1, 2, 5, 14]
+
+**Corner cases:**
+
+* n = -1 => [0]  // Invalid input, return an empty array
+* n = Integer.MAX_VALUE => [1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, ...]  // The array will be too large to store, so it will throw an OutOfMemoryError.

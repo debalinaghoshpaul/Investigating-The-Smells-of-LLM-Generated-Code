@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.536
+There were 5 failures:
+1) test2(testing_ChatGPT_on_java.BinaryArraySort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BinaryArraySort.sortBinaryArray(solution.java:13)
+	at testing_ChatGPT_on_java.BinaryArraySort_ESTest.test2(BinaryArraySort_ESTest.java:45)
+2) test3(testing_ChatGPT_on_java.BinaryArraySort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type BinaryArraySort must be defined in its own file
+
+	at testing_ChatGPT_on_java.BinaryArraySort.<init>(solution.java:4)
+	at testing_ChatGPT_on_java.BinaryArraySort_ESTest.test3(BinaryArraySort_ESTest.java:51)
+3) test4(testing_ChatGPT_on_java.BinaryArraySort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BinaryArraySort.main(solution.java:6)
+	at testing_ChatGPT_on_java.BinaryArraySort_ESTest.test4(BinaryArraySort_ESTest.java:57)
+4) test0(testing_ChatGPT_on_java.BinaryArraySort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BinaryArraySort.sortBinaryArray(solution.java:13)
+	at testing_ChatGPT_on_java.BinaryArraySort_ESTest.test0(BinaryArraySort_ESTest.java:23)
+5) test1(testing_ChatGPT_on_java.BinaryArraySort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BinaryArraySort.sortBinaryArray(solution.java:13)
+	at testing_ChatGPT_on_java.BinaryArraySort_ESTest.test1(BinaryArraySort_ESTest.java:38)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

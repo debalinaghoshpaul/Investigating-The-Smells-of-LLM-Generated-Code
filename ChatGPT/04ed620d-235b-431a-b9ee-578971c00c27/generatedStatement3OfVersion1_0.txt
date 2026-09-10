@@ -1,0 +1,9 @@
+
+Input:
+Hello 123 world
+I have 5 apples
+Today is a sunny day
+Sum is: 456
+
+Output:
+Sum of all positive integers in the sentences: 584

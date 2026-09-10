@@ -1,0 +1,7 @@
+
+Input:
+Today's date: 2023-03-31
+
+Output:
+10 days before today: 2023-03-21
+10 days after today: 2023-04-10

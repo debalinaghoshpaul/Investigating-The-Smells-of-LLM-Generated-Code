@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class StrobogrammaticNumber {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        String number = scanner.nextLine();
+
+        boolean isStrobogrammatic = true;
+        for (int i = 0; i < number.length() / 2; i++) {
+            char leftDigit = number.charAt(i);
+            char rightDigit = number.charAt(number.length() - 1 - i);
+
+            if (leftDigit == '0' && rightDigit != '0') {
+                isStrobogrammatic = false;
+                break;
+            } else if (leftDigit == '1' && rightDigit != '1') {
+                isStrobogrammatic = false;
+                break;
+            } else if (leftDigit == '6' && rightDigit != '9') {
+                isStrobogrammatic = false;
+                break;
+            } else if (leftDigit == '8' && rightDigit != '8') {
+                isStrobogrammatic = false;
+                break;
+            } else if (leftDigit == '9' && rightDigit != '6') {
+                isStrobogrammatic = false;
+                break;
+            }
+        }
+
+        if (isStrobogrammatic) {
+            System.out.println(number + " is a strobogrammatic number.");
+        } else {
+            System.out.println(number + " is not a strobogrammatic number.");
+        }
+    }
+}

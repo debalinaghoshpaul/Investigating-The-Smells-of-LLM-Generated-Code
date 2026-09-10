@@ -1,0 +1,3 @@
+
+Original Array: [1, 3, 4, 7, 17, 25, 100]
+3 largest elements of the said array are: 100 25 17

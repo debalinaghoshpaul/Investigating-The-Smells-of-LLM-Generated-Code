@@ -1,0 +1,11 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 124). [LineLength]: 5
+LocalVariableName: Name 'A' must match pattern '^([a-z][a-zA-Z0-9]*|_)$'. [LocalVariableName]: 12
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 1
+FinalParameters: Parameter name should be final. [FinalParameters]: 6
+HiddenField: 'name' hides a field. [HiddenField]: 5
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 5
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1

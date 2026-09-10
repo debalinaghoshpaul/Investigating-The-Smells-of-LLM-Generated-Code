@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95A0gyxOoq64gIh1C9QVWnKLv3bKF",
+  "object" : "chat.completion",
+  "created" : 1711017146,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class StringMatcher {\n\n    public static boolean isMatch(String input, String pattern) {\n        int m = input.length();\n        int n = pattern.length();\n\n        boolean[][] dp = new boolean[m + 1][n + 1];\n        dp[0][0] = true;\n\n        for (int j = 1; j <= n; j++) {\n            if (pattern.charAt(j - 1) == '*') {\n                dp[0][j] = dp[0][j - 1];\n            }\n        }\n\n        for (int i = 1; i <= m; i++) {\n            for (int j = 1; j <= n; j++) {\n                if (input.charAt(i - 1) == pattern.charAt(j - 1) || pattern.charAt(j - 1) == '?') {\n                    dp[i][j] = dp[i - 1][j - 1];\n                } else if (pattern.charAt(j - 1) == '*') {\n                    dp[i][j] = dp[i][j - 1] || dp[i - 1][j];\n                }\n            }\n        }\n\n        return dp[m][n];\n    }\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\n        System.out.print(\"Enter the input string: \");\n        String input = scanner.nextLine();\n\n        System.out.print(\"Enter the pattern: \");\n        String pattern = scanner.nextLine();\n\n        if (isMatch(input, pattern)) {\n            System.out.println(\"The input string matches the pattern.\");\n        } else {\n            System.out.println(\"The input string does not match the pattern.\");\n        }\n    }\n}\n```\n\nTo use this program, simply run it and input the string you want to match and the pattern you want to match it against. The program will then tell you whether the input string matches the pattern or not."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 86,
+    "completion_tokens" : 396,
+    "total_tokens" : 482
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

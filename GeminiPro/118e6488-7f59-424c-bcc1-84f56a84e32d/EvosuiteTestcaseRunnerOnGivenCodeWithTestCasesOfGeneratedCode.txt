@@ -1,0 +1,29 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.596
+There were 4 failures:
+1) test0(testing_ChatGPT_on_java.AverageCalculator_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.AverageCalculator.main(solution.java:6)
+	at testing_ChatGPT_on_java.AverageCalculator_ESTest.test0(AverageCalculator_ESTest.java:27)
+2) test1(testing_ChatGPT_on_java.AverageCalculator_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.AverageCalculator.main(solution.java:6)
+	at testing_ChatGPT_on_java.AverageCalculator_ESTest.test1(AverageCalculator_ESTest.java:44)
+3) test2(testing_ChatGPT_on_java.AverageCalculator_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.AverageCalculator.main(solution.java:6)
+	at testing_ChatGPT_on_java.AverageCalculator_ESTest.test2(AverageCalculator_ESTest.java:60)
+4) test3(testing_ChatGPT_on_java.AverageCalculator_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type AverageCalculator must be defined in its own file
+
+	at testing_ChatGPT_on_java.AverageCalculator.<init>(solution.java:4)
+	at testing_ChatGPT_on_java.AverageCalculator_ESTest.test3(AverageCalculator_ESTest.java:73)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

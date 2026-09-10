@@ -1,0 +1,2 @@
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedprogram1OfVersion1_0.java:4:	CyclomaticComplexity:	The class 'MaximumPriorityQueue' has a total cyclomatic complexity of 1 (highest 1).
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedprogram1OfVersion1_0.java:5:	CyclomaticComplexity:	The method 'main(String[])' has a cyclomatic complexity of 1.

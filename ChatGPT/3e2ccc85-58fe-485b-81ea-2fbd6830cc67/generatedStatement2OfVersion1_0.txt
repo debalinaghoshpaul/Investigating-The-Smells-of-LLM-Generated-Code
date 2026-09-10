@@ -1,0 +1,9 @@
+
+
+Test cases:
+
+* **Normal case:** Input: 25. Expected output: 3.
+* **Corner case:** Input: 0. Expected output: 0.
+* **Corner case:** Input: 1. Expected output: 1.
+* **Corner case:** Input: -1. Expected output: 1 (negative numbers are not considered in the count of factors).
+* **Corner case:** Input: Integer.MAX_VALUE. Expected output: 2 (every integer has at least 1 and itself as factors).

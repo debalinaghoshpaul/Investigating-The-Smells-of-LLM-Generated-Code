@@ -1,0 +1,10 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 96). [LineLength]: 1
+MultipleVariableDeclarations: Each variable declaration must be in its own statement. [MultipleVariableDeclarations]: 1
+FinalParameters: Parameter width should be final. [FinalParameters]: 6
+HiddenField: 'width' hides a field. [HiddenField]: 3
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '5.0' is a magic number. [MagicNumber]: 4

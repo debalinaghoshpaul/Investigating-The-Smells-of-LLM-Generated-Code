@@ -1,0 +1,6 @@
+Violations by Category:
+CustomImportOrder: Wrong lexicographical order for 'java.util.Arrays' import. Should be before 'java.util.Scanner'. [CustomImportOrder]: 1
+OuterTypeFilename: The name of the outer type and the file do not match. [OuterTypeFilename]: 1
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+Indentation: 'method def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]: 13

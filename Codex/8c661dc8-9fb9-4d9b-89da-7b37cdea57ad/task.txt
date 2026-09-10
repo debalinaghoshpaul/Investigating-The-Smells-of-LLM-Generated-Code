@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program that reads a number in inches and converts it to meters. Note: One inch is 0.0254 meter. Input a value for inch: 1000 : 1000.0 inch is 25.4 meters\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 8c661dc8-9fb9-4d9b-89da-7b37cdea57ad.\n

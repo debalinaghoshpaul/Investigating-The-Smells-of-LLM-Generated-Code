@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95Wg6MxM8ogxoa3sDhCkUz0F2Ow2V",
+  "object" : "chat.completion",
+  "created" : 1711104282,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class QuadraticEquationSolver {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        \n        System.out.print(\"Input a: \");\n        double a = input.nextDouble();\n        \n        System.out.print(\"Input b: \");\n        double b = input.nextDouble();\n        \n        System.out.print(\"Input c: \");\n        double c = input.nextDouble();\n        \n        double discriminant = b * b - 4 * a * c;\n        \n        if (discriminant > 0) {\n            double root1 = (-b + Math.sqrt(discriminant)) / (2 * a);\n            double root2 = (-b - Math.sqrt(discriminant)) / (2 * a);\n            System.out.println(\"The roots are \" + root1 + \" and \" + root2);\n        } else if (discriminant == 0) {\n            double root = -b / (2 * a);\n            System.out.println(\"The root is \" + root);\n        } else {\n            System.out.println(\"The equation has no real roots.\");\n        }\n        \n        input.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 110,
+    "completion_tokens" : 235,
+    "total_tokens" : 345
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

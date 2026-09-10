@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97lcGuA0OT5eaegSAaocTsDPTAzFn",
+  "object" : "chat.completion",
+  "created" : 1711638360,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.concurrent.ConcurrentHashMap;\n\npublic class ConcurrentMapExample {\n\n    public static void main(String[] args) {\n        ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>();\n\n        // Adding elements to the map\n        map.put(\"A\", 1);\n        map.put(\"B\", 2);\n        map.put(\"C\", 3);\n\n        // Accessing the map concurrently using multiple threads\n        Runnable task1 = () -> {\n            for (String key : map.keySet()) {\n                System.out.println(\"Key: \" + key + \", Value: \" + map.get(key));\n            }\n        };\n\n        Runnable task2 = () -> {\n            for (String key : map.keySet()) {\n                System.out.println(\"Key: \" + key + \", Value: \" + map.get(key));\n            }\n        };\n\n        Thread thread1 = new Thread(task1);\n        Thread thread2 = new Thread(task2);\n\n        thread1.start();\n        thread2.start();\n    }\n} \n\nIn this program, we create a ConcurrentHashMap and add elements to it. We then create two Runnable tasks that access the map concurrently using multiple threads. Each thread will iterate over the keys in the map and print out the corresponding values. Finally, we create two threads using these tasks and start them to demonstrate concurrent access to the map."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 68,
+    "completion_tokens" : 264,
+    "total_tokens" : 332
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

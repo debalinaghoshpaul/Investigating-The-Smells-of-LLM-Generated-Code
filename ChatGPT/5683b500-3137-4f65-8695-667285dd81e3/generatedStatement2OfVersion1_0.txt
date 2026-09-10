@@ -1,0 +1,23 @@
+
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* **Input:** HelloBeautifulWorld
+* **Output:** Hello-Beautiful-World
+* **Input:** ThisIsAString
+* **Output:** This-Is-A-String
+* **Input:** 12345
+* **Output:** 12345 (no change)
+
+**Corner Cases:**
+
+* **Input:** null
+* **Output:** null (no change)
+* **Input:** "" (empty string)
+* **Output:** "" (no change)
+* **Input:** "a" (single character)
+* **Output:** "a" (no change)
+* **Input:** "1A" (upper case letter followed by a digit)
+* **Output:** "1A" (no change)

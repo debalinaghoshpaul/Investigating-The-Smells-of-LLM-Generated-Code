@@ -1,0 +1,23 @@
+ [1, 2, 3, 4, 5]
+
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test Case 1:
+arr1 = [1, 2, 3, 4, 5]
+arr2 = [1, 2, 3, 4, 5]
+arr3 = [1, 2, 3, 4, 5]
+arr4 = [1, 2, 3, 4, 5]
+arr5 = [1, 2, 3, 4, 5]
+arr6 = [1, 2, 3, 4, 5]
+arr7 = [1, 2, 3, 4, 5]
+arr8 = [1, 2, 3, 4, 5]
+arr9 = [1, 2, 3, 4, 5]
+arr10 = [1, 2, 3, 4, 5]
+arr11 = [1, 2, 3, 4, 5]
+arr12 = [1, 2, 3, 4, 5]
+arr13 = [1, 2, 3, 4, 5]
+arr14 = [1, 2, 3, 4, 5]
+arr15 = [1, 2, 3, 4, 5]
+arr16 = [1, 2, 3, 4, 5]
+arr17 = [1, 2, 3, 4,

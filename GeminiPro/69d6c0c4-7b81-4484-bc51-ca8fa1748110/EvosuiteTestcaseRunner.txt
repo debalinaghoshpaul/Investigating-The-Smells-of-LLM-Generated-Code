@@ -1,0 +1,28 @@
+JUnit version 4.13
+.Enter the year: 
+Enter the gender: 
+Enter the name: 
+The name is not found.
+Enter another inquiry? (Y/N) 
+.Enter the year: 
+Enter the gender: 
+Enter the name: 
+M name Jacob is ranked #1 in year 9
+Enter another inquiry? (Y/N) 
+..Enter the year: 
+Enter the gender: 
+Enter the name: 
+The name is not found.
+Enter another inquiry? (Y/N) 
+.Enter the year: 
+Enter the gender: 
+Enter the name: 
+The name is not found.
+Enter another inquiry? (Y/N) 
+Enter the year: 
+.Enter the year: 
+
+Time: 0.471
+
+OK (6 tests)
+

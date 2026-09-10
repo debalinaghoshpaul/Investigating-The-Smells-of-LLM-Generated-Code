@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create an array (length # 0) of string values. The elements will contain "0", "1", "2" … through ... n-1.\n96. Write a Java program to check if there is a 10 in an array of integers with a 20 somewhere later on. \n\n\n The programming language you need to use is: java.\n\n Problem Id is : b458c25e-dd92-46a7-871f-3b62308935aa.\n

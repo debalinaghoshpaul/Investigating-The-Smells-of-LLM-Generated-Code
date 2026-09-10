@@ -1,0 +1,18 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:3:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:5: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:9: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:11:9: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:11:9: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:11:24: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:13:13: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:13:13: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:14:33: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:15:27: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:19: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\45956807-2968-42c9-8479-381618b94716\generatedProgram1OfVersion1_0.java:21: Line has trailing spaces. [RegexpSingleline]
+Audit done.

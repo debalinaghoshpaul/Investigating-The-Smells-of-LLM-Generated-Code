@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Pair found: 0, 0
+...Pair found: 4, 2
+.Pair not found.
+
+Time: 0.341
+
+OK (5 tests)
+

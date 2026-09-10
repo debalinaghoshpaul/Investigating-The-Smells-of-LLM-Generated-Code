@@ -1,0 +1,7 @@
+JUnit version 4.13
+...Fibonacci number at position 10 is: 55
+..
+Time: 0.585
+
+OK (5 tests)
+

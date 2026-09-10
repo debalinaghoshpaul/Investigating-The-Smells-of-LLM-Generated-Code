@@ -1,0 +1,5 @@
+
+
+**Explanation:** The last element in the input array is 10, so the resulting array contains the elements before the last 10.
+
+**Input:**

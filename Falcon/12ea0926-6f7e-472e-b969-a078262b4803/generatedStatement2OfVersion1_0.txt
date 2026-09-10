@@ -1,0 +1,9 @@
+
+
+**Test cases:**
+
+* **Normal case:** Input a file with names and genders, and the program should output the names that are used for both genders.
+* **Empty file:** Input an empty file, and the program should output "0 names used for both genders".
+* **Invalid file:** Input a file that does not exist, and the program should output an error message.
+* **File with duplicate names:** Input a file with duplicate names, and the program should output the unique names that are used for both genders.
+* **File with names that are not in alphabetical order:** Input a file with names that are not in alphabetical order, and the program should output the names that are used for both genders in alphabetical order.

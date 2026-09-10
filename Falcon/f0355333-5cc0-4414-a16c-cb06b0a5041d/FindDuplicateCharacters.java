@@ -1,0 +1,31 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class FindDuplicateCharacters {
+
+    public static void main(String[] args) {
+        String str = "Programming";
+        findDuplicateCharacters(str);
+    }
+
+    public static void findDuplicateCharacters(String str) {
+        // Create a HashMap to store the character counts
+        Map<Character, Integer> charMap = new HashMap<>();
+
+        // Traverse the string and update the character counts
+        for (char c : str.toCharArray()) {
+            if (charMap.containsKey(c)) {
+                charMap.put(c, charMap.get(c) + 1);
+            } else {
+                charMap.put(c, 1);
+            }
+        }
+
+        // Print the duplicate characters
+        for (Map.Entry<Character, Integer> entry : charMap.entrySet()) {
+            if (entry.getValue() > 1) {
+                System.out.println(entry.getKey() + ": " + entry.getValue());
+            }
+        }
+    }
+}

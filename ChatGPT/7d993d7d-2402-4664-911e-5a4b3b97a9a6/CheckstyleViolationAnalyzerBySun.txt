@@ -1,0 +1,11 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 138). [LineLength]: 1
+DesignForExtension: Class 'LongestConsecutivePath' looks like designed for extension (can be subclassed), but the method 'longestConsecutive' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LongestConsecutivePath' final or making the method 'longestConsecutive' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 1
+WhitespaceAfter: 'if' is not followed by whitespace. [WhitespaceAfter]: 3
+WhitespaceAround: 'if' is not followed by whitespace. [WhitespaceAround]: 3
+VisibilityModifier: Variable 'val' must be private and have accessor methods. [VisibilityModifier]: 3
+FinalParameters: Parameter x should be final. [FinalParameters]: 6
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+MagicNumber: '3' is a magic number. [MagicNumber]: 3

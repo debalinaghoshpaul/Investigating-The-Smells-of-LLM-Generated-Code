@@ -1,0 +1,117 @@
+No GPU found. Running on CPU.
+public class Person {
+    private String firstName;
+    private String lastName;
+
+    public Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+}
+
+public class Employee extends Person {
+    private String jobTitle;
+
+    public Employee(String firstName, String lastName, String jobTitle) {
+        super(firstName, lastName);
+        this.jobTitle = jobTitle;
+    }
+
+    public String getJobTitle() {
+        return jobTitle;
+    }
+
+    public void setJobTitle(String jobTitle) {
+        this.jobTitle = jobTitle;
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Person person = new Person("John", "Smith");
+        Employee employee = new Employee("John", "Smith", "Engineer");
+
+        System.out.println(person.getFirstName());
+        System.out.println(person.getLastName());
+        System.out.println(person.getJobTitle());
+
+        System.out.println(employee.getFirstName());
+        System.out.println(employee.getLastName());
+        System.out.println(employee.getJobTitle());
+    }
+}
+
+Output:
+John
+Smith
+Engineer
+John
+Engineer
+
+John
+Smith
+Engineer
+John
+Engineer
+
+John
+Smith
+Engineer
+John
+Engineer
+
+John
+Smith
+Engineer
+John
+Engineer
+
+John
+Smith
+Engineer
+John
+Engineer
+
+John
+Smith
+Engineer
+John
+Engineer
+
+John
+Smith
+Engineer
+John
+Engineer
+
+John
+Smith
+Engineer
+John
+Engineer
+
+John
+Smith
+Engineer
+John
+Engineer
+
+John
+Smith
+Engineer

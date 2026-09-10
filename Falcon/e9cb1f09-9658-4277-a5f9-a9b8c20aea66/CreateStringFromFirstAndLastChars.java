@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class CreateStringFromFirstAndLastChars {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the first and second strings from the user.
+        System.out.println("Enter the first string: ");
+        String str1 = scanner.nextLine();
+
+        System.out.println("Enter the second string: ");
+        String str2 = scanner.nextLine();
+
+        // Create a new string to store the first and last characters of the two strings.
+        String newString = "";
+
+        // Check if the length of the first string is greater than 0.
+        if (str1.length() > 0) {
+            // Add the first character of the first string to the new string.
+            newString += str1.charAt(0);
+        } else {
+            // If the length of the first string is 0, add # to the new string.
+            newString += "#";
+        }
+
+        // Check if the length of the second string is greater than 0.
+        if (str2.length() > 0) {
+            // Add the last character of the second string to the new string.
+            newString += str2.charAt(str2.length() - 1);
+        } else {
+            // If the length of the second string is 0, add # to the new string.
+            newString += "#";
+        }
+
+        // Print the new string.
+        System.out.println("The new string is: " + newString);
+    }
+}

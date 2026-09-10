@@ -1,0 +1,77 @@
+```java
+import java.util.Arrays;
+import java.util.Random;
+
+public class Bogosort {
+
+    public static void main(String[] args) {
+        int[] arr = {5, 3, 1, 2, 4};
+        System.out.println("Unsorted array: " + Arrays.toString(arr));
+        bogosort(arr);
+        System.out.println("Sorted array: " + Arrays.toString(arr));
+    }
+
+    public static void bogosort(int[] arr) {
+        Random random = new Random();
+
+        while (!isSorted(arr)) {
+            shuffle(arr, random);
+        }
+    }
+
+    public static boolean isSorted(int[] arr) {
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] < arr[i - 1]) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static void shuffle(int[] arr, Random random) {
+        for (int i = 0; i < arr.length; i++) {
+            int j = random.nextInt(arr.length);
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+    }
+
+    // Test cases
+
+    public static void testEmptyArray() {
+        int[] arr = {};
+        bogosort(arr);
+        assert isSorted(arr);
+    }
+
+    public static void testSingleElementArray() {
+        int[] arr = {1};
+        bogosort(arr);
+        assert isSorted(arr);
+    }
+
+    public static void testSortedArray() {
+        int[] arr = {1, 2, 3, 4, 5};
+        bogosort(arr);
+        assert isSorted(arr);
+    }
+
+    public static void testUnsortedArray() {
+        int[] arr = {5, 3, 1, 2, 4};
+        bogosort(arr);
+        assert isSorted(arr);
+    }
+
+    public static void testLargeArray() {
+        int[] arr = new int[1000];
+        Random random = new Random();
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = random.nextInt(1000);
+        }
+        bogosort(arr);
+        assert isSorted(arr);
+    }
+}
+```

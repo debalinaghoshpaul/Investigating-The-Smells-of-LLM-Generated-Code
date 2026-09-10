@@ -1,0 +1,4 @@
+
+Output: 30
+
+* **Corner case 1: The data is a single line.**

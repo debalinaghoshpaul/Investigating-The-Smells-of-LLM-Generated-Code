@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yqRaGId6lZ0QIjIPXFO8CqxFXOv",
+  "object" : "chat.completion",
+  "created" : 1710259243,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class SmallestElements {\n\n    public static void main(String[] args) {\n        int[] arr = {12, 34, 10, 6, 40};\n\n        findSmallestElements(arr);\n    }\n\n    public static void findSmallestElements(int[] arr) {\n        int smallest = Integer.MAX_VALUE;\n        int secondSmallest = Integer.MAX_VALUE;\n\n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] < smallest) {\n                secondSmallest = smallest;\n                smallest = arr[i];\n            } else if (arr[i] < secondSmallest && arr[i] != smallest) {\n                secondSmallest = arr[i];\n            }\n        }\n\n        System.out.println(\"Smallest element: \" + smallest);\n        System.out.println(\"Second smallest element: \" + secondSmallest);\n    }\n}\n```\n\nThis program defines a method `findSmallestElements` that takes an array as input and finds the smallest and second smallest elements using a simple iteration through the array. The `main` method creates an array and calls the `findSmallestElements` method to print the results."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 68,
+    "completion_tokens" : 240,
+    "total_tokens" : 308
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

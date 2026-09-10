@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:2:40: Parameter columnNumber should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:6:50: '26' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:8:49: '26' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:14:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:14:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:15:28: '28' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\fe8cb839-38c8-495f-933b-ef777209bbbe\generatedProgram1OfVersion1_0.java:17: Line is longer than 80 characters (found 105). [LineLength]
+Audit done.

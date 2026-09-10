@@ -1,0 +1,11 @@
+
+Is stack empty? true
+5 pushed into the stack.
+10 pushed into the stack.
+15 pushed into the stack.
+Top element of the stack: 15
+15 popped from the stack.
+10 popped from the stack.
+5 popped from the stack.
+Stack is empty. Cannot pop.
+Is stack empty? true

@@ -1,0 +1,11 @@
+
+
+**Test cases:**
+
+* **Normal case:** Input array: {2, 4, 6, 8, 10, 12, 14}. Expected output: 2 4 6 8 10 12 14
+* **Empty array:** Input array: {}. Expected output: Empty tree
+* **Single element array:** Input array: {10}. Expected output: 10
+* **Array with duplicate elements:** Input array: {2, 4, 6, 8, 8, 10, 12, 14}. Expected output: 2 4 6 8 8 10 12 14
+
+**Java program to find the number of bits required to flip to convert two given integers:**
+

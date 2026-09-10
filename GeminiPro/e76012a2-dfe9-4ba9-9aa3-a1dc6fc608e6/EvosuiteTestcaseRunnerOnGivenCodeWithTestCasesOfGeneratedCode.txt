@@ -1,0 +1,25 @@
+JUnit version 4.13
+.E
+Time: 0.533
+There was 1 failure:
+1) test0(testing_ChatGPT_on_java.Solution_ESTest)
+java.lang.NoClassDefFoundError: testing_ChatGPT_on_java/Solution (wrong name: testing_ChatGPT_on_java/solution)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.evosuite.runtime.EvoAssertions.assertThrownBy(EvoAssertions.java:86)
+	at org.evosuite.runtime.EvoAssertions.verifyException(EvoAssertions.java:49)
+	at testing_ChatGPT_on_java.Solution_ESTest.test0(Solution_ESTest.java:32)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+

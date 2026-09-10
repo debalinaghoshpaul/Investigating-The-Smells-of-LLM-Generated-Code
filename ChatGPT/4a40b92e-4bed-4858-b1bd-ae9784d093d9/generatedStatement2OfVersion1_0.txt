@@ -1,0 +1,3 @@
+
+
+This program defines a method `findSmallestElements` that takes an array as input and finds the smallest and second smallest elements using a simple iteration through the array. The `main` method creates an array and calls the `findSmallestElements` method to print the results.

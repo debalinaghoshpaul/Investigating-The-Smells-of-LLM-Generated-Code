@@ -1,0 +1,8 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+LocalVariableNamingConventions: The local variable name 'A' doesn't match '[a-z][a-zA-Z0-9]*': 2
+CommentRequired: Class comments are required: 3
+FormalParameterNamingConventions: The method parameter name 'A' doesn't match '[a-z][a-zA-Z0-9]*': 2
+OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.: 1
+AvoidArrayLoops: Arrays.copyOf or System.arraycopy are more efficient: 2
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

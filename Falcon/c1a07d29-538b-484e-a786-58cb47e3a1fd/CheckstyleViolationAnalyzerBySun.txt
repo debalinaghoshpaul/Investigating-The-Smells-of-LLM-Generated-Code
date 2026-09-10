@@ -1,0 +1,10 @@
+Violations by Category:
+InnerAssignment: Inner assignments should be avoided. [InnerAssignment]: 2
+DesignForExtension: Class 'Rectangle' looks like designed for extension (can be subclassed), but the method 'getWidth' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Rectangle' final or making the method 'getWidth' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 10
+FinalParameters: Parameter width should be final. [FinalParameters]: 7
+HiddenField: 'width' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 12
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '3' is a magic number. [MagicNumber]: 3

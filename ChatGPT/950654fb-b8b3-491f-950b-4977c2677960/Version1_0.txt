@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DWmlMUD7wpXbnK2DIN0dZKvSzgAw",
+  "object" : "chat.completion",
+  "created" : 1713011319,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Class Definition for PhoneBillingSystem:\n\n```java\n// NationalCall class\nclass NationalCall {\n    private String sourcePhoneNumber;\n    private String destinationPhoneNumber;\n    private int totalDurationCurrentCall;\n    private int totalDurationAllCalls;\n    private double currentCallPrice;\n    private double totalPriceAllCalls;\n\n    // Constructor\n    public NationalCall(String sourcePhoneNumber, String destinationPhoneNumber, int totalDurationCurrentCall) {\n        this.sourcePhoneNumber = sourcePhoneNumber;\n        this.destinationPhoneNumber = destinationPhoneNumber;\n        this.totalDurationCurrentCall = totalDurationCurrentCall;\n        this.totalDurationAllCalls = 0;\n        this.currentCallPrice = 0.0;\n        this.totalPriceAllCalls = 0.0;\n    }\n\n    // Getter and setter methods\n\n    // Method to calculate call price\n    public void calculateCallPrice() {\n        if(totalDurationCurrentCall <= 60) {\n            currentCallPrice = 0.20;\n        } else if(totalDurationCurrentCall <= 120) {\n            currentCallPrice = 0.20 + 0.15;\n        } else {\n            currentCallPrice = 0.20 + 0.15 + 0.10;\n        }\n    }\n\n    // Method to display details\n    public void displayDetails() {\n        System.out.println(\"Source Phone Number: \" + sourcePhoneNumber);\n        System.out.println(\"Destination Phone Number: \" + destinationPhoneNumber);\n        System.out.println(\"Total Duration of Current Call: \" + totalDurationCurrentCall + \" seconds\");\n        System.out.println(\"Total Price of Current Call: $\" + currentCallPrice);\n        System.out.println(\"Total Price of All Calls: $\" + totalPriceAllCalls);\n    }\n}\n\n// InternationalCall class\nclass InternationalCall extends NationalCall {\n    private int sourceCountryCode;\n    private int destinationCountryCode;\n\n    // Constructor\n    public InternationalCall(String sourcePhoneNumber, String destinationPhoneNumber, int totalDurationCurrentCall, int countryCode1, int countryCode2) {\n        super(sourcePhoneNumber, destinationPhoneNumber, totalDurationCurrentCall);\n        this.sourceCountryCode = countryCode1;\n        this.destinationCountryCode = countryCode2;\n    }\n\n    // Method to calculate discount\n    public void discountCall() {\n        if(totalDurationAllCalls <= 600) {\n            currentCallPrice -= currentCallPrice * 0.05;\n        } else if(totalDurationAllCalls <= 1200) {\n            currentCallPrice -= currentCallPrice * 0.07;\n        } else {\n            currentCallPrice -= currentCallPrice * 0.10;\n        }\n    }\n}\n\n// Main class\npublic class Main {\n    public static void main(String[] args) {\n        // Testing NationalCall class\n        NationalCall nationalCall = new NationalCall(\"1234567890\", \"9876543210\", 90);\n        nationalCall.calculateCallPrice();\n        nationalCall.displayDetails();\n\n        // Testing InternationalCall class\n        InternationalCall internationalCall = new InternationalCall(\"1234567890\", \"9876543210\", 150, 1, 2);\n        internationalCall.calculateCallPrice();\n        internationalCall.discountCall();\n        internationalCall.displayDetails();\n    }\n}\n```\n\nThis is a basic implementation of the PhoneBillingSystem using the NationalCall and InternationalCall classes in Java. You can further enhance and modify the code as per your requirements."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 422,
+    "completion_tokens" : 684,
+    "total_tokens" : 1106
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

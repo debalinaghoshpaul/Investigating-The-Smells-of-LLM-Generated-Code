@@ -1,0 +1,4 @@
+
+
+**Corner Case: Empty Input**
+

@@ -1,0 +1,9 @@
+Violations by Category:
+TypeName: Name 'copilotTest' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]: 1
+LineLength: Line is longer than 80 characters (found 107). [LineLength]: 1
+FinalParameters: Parameter args should be final. [FinalParameters]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '7' is a magic number. [MagicNumber]: 1

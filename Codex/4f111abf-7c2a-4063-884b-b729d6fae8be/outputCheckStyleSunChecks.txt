@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\4f111abf-7c2a-4063-884b-b729d6fae8be\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\4f111abf-7c2a-4063-884b-b729d6fae8be\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\4f111abf-7c2a-4063-884b-b729d6fae8be\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\4f111abf-7c2a-4063-884b-b729d6fae8be\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\4f111abf-7c2a-4063-884b-b729d6fae8be\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\4f111abf-7c2a-4063-884b-b729d6fae8be\generatedProgram1OfVersion1_0.java:5:26: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\4f111abf-7c2a-4063-884b-b729d6fae8be\generatedProgram1OfVersion1_0.java:27:33: '1000' is a magic number. [MagicNumber]
+Audit done.

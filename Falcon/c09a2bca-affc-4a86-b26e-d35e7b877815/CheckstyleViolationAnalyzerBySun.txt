@@ -1,0 +1,8 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 81). [LineLength]: 1
+DesignForExtension: Class 'LoadedDice' looks like designed for extension (can be subclassed), but the method 'nextInt' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'LoadedDice' final or making the method 'nextInt' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 1
+FinalParameters: Parameter num should be final. [FinalParameters]: 3
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 3
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '100' is a magic number. [MagicNumber]: 2

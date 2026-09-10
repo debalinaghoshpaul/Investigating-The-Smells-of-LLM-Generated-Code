@@ -1,0 +1,3 @@
+
+Before validating: Marks: 10 -15 25 102 30 
+After validating: Marks: 10 25 30 0 0 

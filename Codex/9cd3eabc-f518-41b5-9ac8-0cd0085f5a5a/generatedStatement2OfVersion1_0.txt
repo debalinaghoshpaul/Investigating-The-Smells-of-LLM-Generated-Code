@@ -1,0 +1,17 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: None
+* Expected Output: The current time in New York
+
+**Corner Cases:**
+
+* Input: Time zone that does not exist
+* Expected Output: Exception thrown
+* Input: Time zone that is not supported by the Java API
+* Expected Output: Exception thrown
+* Input: Time zone that is not a valid time zone identifier
+* Expected Output: Exception thrown

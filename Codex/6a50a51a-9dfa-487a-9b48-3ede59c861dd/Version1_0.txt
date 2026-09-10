@@ -1,0 +1,85 @@
+```java
+import java.util.*;
+
+public class CombinationSum {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input from the user
+        System.out.println("Input number of elements of the array: ");
+        int n = scanner.nextInt();
+
+        int[] candidates = new int[n];
+        System.out.println("Input number format: ");
+        for (int i = 0; i < n; i++) {
+            candidates[i] = scanner.nextInt();
+        }
+
+        System.out.println("Input target number: ");
+        int target = scanner.nextInt();
+
+        // Find all unique combinations
+        List<List<Integer>> combinations = combinationSum(candidates, target);
+
+        // Print the combinations
+        System.out.println("Combinations: ");
+        for (List<Integer> combination : combinations) {
+            System.out.println(combination);
+        }
+    }
+
+    public static List<List<Integer>> combinationSum(int[] candidates, int target) {
+        List<List<Integer>> combinations = new ArrayList<>();
+        combinationSum(candidates, target, 0, new ArrayList<>(), combinations);
+        return combinations;
+    }
+
+    private static void combinationSum(int[] candidates, int target, int index, List<Integer> combination, List<List<Integer>> combinations) {
+        if (target == 0) {
+            combinations.add(new ArrayList<>(combination));
+            return;
+        }
+
+        if (target < 0 || index >= candidates.length) {
+            return;
+        }
+
+        combination.add(candidates[index]);
+        combinationSum(candidates, target - candidates[index], index, combination, combinations);
+        combination.remove(combination.size() - 1);
+        combinationSum(candidates, target, index + 1, combination, combinations);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Input:** candidates = [2, 3, 4, 5], target = 7
+**Output:** [[2, 2, 3], [2, 5], [3, 4]]
+
+* **Input:** candidates = [2, 3, 4, 5], target = 8
+**Output:** [[2, 2, 2, 2], [2, 3, 3], [3, 5]]
+
+* **Input:** candidates = [2, 3, 4, 5], target = 9
+**Output:** [[2, 2, 2, 3], [2, 2, 5], [2, 3, 4], [3, 3, 3]]
+
+* **Input:** candidates = [2, 3, 4, 5], target = 10
+**Output:** [[2, 2, 2, 2, 2], [2, 2, 3, 3], [2, 3, 5], [3, 3, 4]]
+
+* **Input:** candidates = [2, 3, 4, 5], target = 11
+**Output:** [[2, 2, 2, 2, 3], [2, 2, 3, 4], [2, 3, 3, 3], [3, 3, 5]]
+
+**Corner Cases:**
+
+* **Empty candidates array:**
+**Input:** candidates = [], target = 7
+**Output:** []
+
+* **Target is less than the smallest element in the candidates array:**
+**Input:** candidates = [5], target = 4
+**Output:** []
+
+* **Target is greater than the sum of all elements in the candidates array:**
+**Input:** candidates = [2, 3], target = 10
+**Output:** []

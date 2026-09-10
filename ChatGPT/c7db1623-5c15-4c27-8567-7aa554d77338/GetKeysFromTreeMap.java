@@ -1,0 +1,26 @@
+import java.util.TreeMap;
+import java.util.Set;
+import java.util.Iterator;
+
+public class GetKeysFromTreeMap {
+
+    public static void main(String[] args) {
+        // Create a TreeMap
+        TreeMap<String, Integer> treeMap = new TreeMap<>();
+
+        // Add some key-value pairs to the TreeMap
+        treeMap.put("One", 1);
+        treeMap.put("Two", 2);
+        treeMap.put("Three", 3);
+
+        // Get the set of keys from the TreeMap
+        Set<String> keys = treeMap.keySet();
+
+        // Iterate over the keys and print them out
+        Iterator<String> iterator = keys.iterator();
+        while (iterator.hasNext()) {
+            String key = iterator.next();
+            System.out.println(key);
+        }
+    }
+}

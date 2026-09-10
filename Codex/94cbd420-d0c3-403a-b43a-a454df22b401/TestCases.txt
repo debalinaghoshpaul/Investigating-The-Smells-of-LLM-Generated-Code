@@ -1,0 +1,62 @@
+**Java program:**
+
+```java
+import java.util.Scanner;
+
+public class AppendStrings {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the first string:");
+        String str1 = input.nextLine();
+
+        System.out.println("Enter the second string:");
+        String str2 = input.nextLine();
+
+        // Check if the strings are equal lengths
+        if (str1.length() == str2.length()) {
+            // Append the strings together
+            String result = str1 + str2;
+
+            // Print the result
+            System.out.println("The appended string is: " + result);
+        } else {
+            // Get the shorter string
+            String shorterString = str1.length() < str2.length() ? str1 : str2;
+
+            // Get the number of characters to remove from the longer string
+            int numCharsToRemove = Math.abs(str1.length() - str2.length());
+
+            // Remove the characters from the beginning of the longer string
+            String longerString = str1.length() > str2.length() ? str1 : str2;
+            longerString = longerString.substring(numCharsToRemove);
+
+            // Append the strings together
+            String result = shorterString + longerString;
+
+            // Print the result
+            System.out.println("The appended string is: " + result);
+        }
+    }
+}
+```
+
+**Test cases:**
+
+**Corner cases:**
+
+* Two empty strings
+* One empty string and one non-empty string
+* Two strings of different lengths
+* Two strings of the same length but with different characters
+* Two strings of the same length but with the same characters
+
+**General test cases:**
+
+* Two strings of the same length with some matching characters
+* Two strings of different lengths with some matching characters
+* Two strings of different lengths with no matching characters
+* Strings of different lengths with special characters
+* Strings of different lengths with multi-byte characters
+* Strings with line breaks and other non-printable characters

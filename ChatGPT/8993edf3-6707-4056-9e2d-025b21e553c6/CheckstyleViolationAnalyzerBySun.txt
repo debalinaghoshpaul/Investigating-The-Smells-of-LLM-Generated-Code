@@ -1,0 +1,14 @@
+Violations by Category:
+VisibilityModifier: Variable 'data' must be private and have accessor methods. [VisibilityModifier]: 3
+HiddenField: 'data' hides a field. [HiddenField]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+LineLength: Line is longer than 80 characters (found 87). [LineLength]: 2
+WhitespaceAfter: 'if' is not followed by whitespace. [WhitespaceAfter]: 7
+WhitespaceAround: 'if' is not followed by whitespace. [WhitespaceAround]: 15
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 12
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 2
+FinalParameters: Parameter data should be final. [FinalParameters]: 4
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '10' is a magic number. [MagicNumber]: 6

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-932Fm1cUj3nqjNxX6OYHrOClmVu0t",
+  "object" : "chat.completion",
+  "created" : 1710510674,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.ArrayList;\nimport java.util.Collections;\n\npublic class ArrayListExample {\n    \n    public static void main(String[] args) {\n        // Create an array list\n        ArrayList<Integer> numbers = new ArrayList<>();\n        \n        // Add elements to the array list\n        numbers.add(10);\n        numbers.add(5);\n        numbers.add(8);\n        numbers.add(3);\n        numbers.add(12);\n        \n        // Sort the array list\n        Collections.sort(numbers);\n        \n        // Print the sorted array list\n        System.out.println(\"Sorted array list: \");\n        for(int num : numbers) {\n            System.out.println(num);\n        }\n    }\n\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 76,
+    "completion_tokens" : 133,
+    "total_tokens" : 209
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

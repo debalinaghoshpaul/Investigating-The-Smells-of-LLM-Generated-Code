@@ -1,0 +1,42 @@
+
+
+**Test Cases:**
+
+**Test Case 1:**
+Input:
+- Circle with radius 5
+- Cylinder with radius 5 and height 10
+
+Output:
+- Drawing a circle with radius 5
+- Area of circle: 78.53981633974483
+- Drawing a cylinder with radius 5 and height 10
+- Total surface area of cylinder: 314.1592653589793
+
+**Test Case 2:**
+Input:
+- Circle with radius 0
+- Cylinder with radius 0 and height 10
+
+Output:
+- Drawing a circle with radius 0
+- Area of circle: 0.0
+- Drawing a cylinder with radius 0 and height 10
+- Total surface area of cylinder: 0.0
+
+**Test Case 3:**
+Input:
+- Circle with radius -5
+- Cylinder with radius -5 and height -10
+
+Output:
+- Drawing a circle with radius -5
+- Area of circle: 78.53981633974483
+- Drawing a cylinder with radius -5 and height -10
+- Total surface area of cylinder: 314.1592653589793
+
+**Corner Cases:**
+
+- Radius of circle or cylinder is negative.
+- Height of cylinder is negative.
+- Radius of circle or cylinder is zero.

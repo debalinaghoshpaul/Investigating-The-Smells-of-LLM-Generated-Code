@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95X2uMmefnJSjimSLcrYu6isXA4Eq",
+  "object" : "chat.completion",
+  "created" : 1711105696,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class VowelOrConsonant {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        System.out.print(\"Input an alphabet: \");\n        String userInput = input.nextLine();\n\n        if(userInput.length() != 1 || !Character.isLetter(userInput.charAt(0))) {\n            System.out.println(\"Error: Please enter a single alphabet character.\");\n        } else {\n            char ch = Character.toLowerCase(userInput.charAt(0));\n            \n            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {\n                System.out.println(\"Input letter is Vowel\");\n            } else {\n                System.out.println(\"Input letter is Consonant\");\n            }\n        }\n\n        input.close();\n    }\n}\n```\n\nTest Data Input an alphabet: p \nExpected Output : Input letter is Consonant"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 131,
+    "completion_tokens" : 194,
+    "total_tokens" : 325
+  },
+  "system_fingerprint" : "fp_fa89f7a861"
+}

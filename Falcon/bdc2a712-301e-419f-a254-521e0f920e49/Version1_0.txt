@@ -1,0 +1,84 @@
+```java
+import java.util.*;
+import java.lang.*;
+
+public class ModeFinder {
+
+    public static void main(String[] args) {
+        // Input: An array of integers
+        int[] arr = {1, 2, 3, 4, 5, 1, 2, 3};
+
+        // Find the mode values
+        int[] modes = findModes(arr);
+
+        // Print the mode values
+        System.out.println("The mode values are:");
+        for (int mode : modes) {
+            System.out.println(mode);
+        }
+    }
+
+    /**
+     * Finds the mode values in an array of integers.
+     *
+     * @param arr The array of integers
+     * @return An array of the mode values
+     */
+    public static int[] findModes(int[] arr) {
+        // Initialize the map to store the frequency of each element
+        Map<Integer, Integer> frequencyMap = new HashMap<>();
+
+        // Calculate the frequency of each element
+        for (int num : arr) {
+            if (frequencyMap.containsKey(num)) {
+                frequencyMap.put(num, frequencyMap.get(num) + 1);
+            } else {
+                frequencyMap.put(num, 1);
+            }
+        }
+
+        // Find the maximum frequency
+        int maxFrequency = 0;
+        for (int frequency : frequencyMap.values()) {
+            maxFrequency = Math.max(maxFrequency, frequency);
+        }
+
+        // Find the mode values
+        List<Integer> modeValues = new ArrayList<>();
+        for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
+            if (entry.getValue() == maxFrequency) {
+                modeValues.add(entry.getKey());
+            }
+        }
+
+        // Convert the list of mode values to an array
+        int[] modes = new int[modeValues.size()];
+        for (int i = 0; i < modeValues.size(); i++) {
+            modes[i] = modeValues.get(i);
+        }
+
+        // Sort the array of mode values in ascending order
+        Arrays.sort(modes);
+
+        // Return the array of mode values
+        return modes;
+    }
+}
+```
+
+**Test cases:**
+
+**Input:** ```[1, 2, 3, 4, 5, 1, 2, 3]```
+**Output:** ```[1, 2, 3]```
+
+**Input:** ```[1, 2, 3, 4, 5]```
+**Output:** ```[]```
+
+**Input:** ```[1, 1, 1, 1, 1]```
+**Output:** ```[1]```
+
+**Input:** ```[1, 2, 1, 2]```
+**Output:** ```[1, 2]```
+
+**Input:** ```[]```
+**Output:** ```[]```

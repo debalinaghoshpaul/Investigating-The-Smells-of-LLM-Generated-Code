@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class EvenPositionString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Create a new string to store the updated string
+        String updatedString = "";
+
+        // Iterate over the input string and append every character at an even position to the updated string
+        for (int i = 0; i < inputString.length(); i++) {
+            if (i % 2 == 0) {
+                updatedString += inputString.charAt(i);
+            }
+        }
+
+        // Print the updated string
+        System.out.println("The updated string is: " + updatedString);
+    }
+}

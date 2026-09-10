@@ -1,0 +1,5 @@
+
+
+Make sure to create a file named `words.txt` and add a list of words you want to check against. Each word should be on a new line.
+
+You can compile and run this program to enter a word and see all the words from the file that can be formed using the letters of the entered word.

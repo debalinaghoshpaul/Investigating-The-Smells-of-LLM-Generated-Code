@@ -1,0 +1,51 @@
+```java
+import java.util.Arrays;
+import java.util.List;
+
+public class AverageOfListUsingLambda {
+
+    public static void main(String[] args) {
+        // Create a list of doubles
+        List<Double> numbers = Arrays.asList(1.0, 2.0, 3.0, 4.0, 5.0);
+
+        // Find the average of the list using a lambda expression
+        double average = numbers.stream()
+                .mapToDouble(Double::doubleValue)
+                .average()
+                .getAsDouble();
+
+        // Print the average
+        System.out.println("The average of the list is: " + average);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+```
+Input: [1.0, 2.0, 3.0, 4.0, 5.0]
+Expected Output: 3.0
+```
+
+**Empty List:**
+
+```
+Input: []
+Expected Output: 0.0
+```
+
+**List with NaN Values:**
+
+```
+Input: [1.0, 2.0, Double.NaN, 4.0, 5.0]
+Expected Output: 3.0
+```
+
+**List with Infinite Values:**
+
+```
+Input: [1.0, 2.0, Double.POSITIVE_INFINITY, 4.0, 5.0]
+Expected Output: Infinity
+```

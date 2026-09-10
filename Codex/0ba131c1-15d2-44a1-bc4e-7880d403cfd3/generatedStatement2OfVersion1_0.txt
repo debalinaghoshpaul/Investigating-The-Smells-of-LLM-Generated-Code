@@ -1,0 +1,22 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: w3resource
+* Expected Output: 4
+
+* Input: Hello World
+* Expected Output: 3
+
+**Corner Cases:**
+
+* Input: ""
+* Expected Output: 0
+
+* Input: "123"
+* Expected Output: 0
+
+* Input: "aeiouAEIOU"
+* Expected Output: 10

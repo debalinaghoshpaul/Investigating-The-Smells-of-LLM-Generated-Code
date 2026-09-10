@@ -1,0 +1,480 @@
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:1
+
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\Absolute_Java_Classes\15421c48-6298-4d7e-922b-7e76b9ed5f1c\GivenSolution.java' at line 29, column 1: Encountered "package".
+Was expecting one of:
+    <EOF> 
+    ";" ...
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                                        ] 0/1 (0:00:00) 
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:01) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:01) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                                        ] 0/1 (0:00:00) 
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                                        ] 0/1 (0:00:00) 
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files   0% [                  ] 0/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+Processing files 100% [==================] 1/1 (0:00:00) Violations:0, Errors:0
+

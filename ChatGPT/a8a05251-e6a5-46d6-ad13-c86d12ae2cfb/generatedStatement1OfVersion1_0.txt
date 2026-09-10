@@ -1,0 +1,2 @@
+Here is a Java program that implements a stack and checks if two stacks are equal:
+

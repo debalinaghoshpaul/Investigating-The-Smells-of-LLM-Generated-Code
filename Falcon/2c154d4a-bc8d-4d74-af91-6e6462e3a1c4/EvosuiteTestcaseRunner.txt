@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Enter the dividend: Enter the divisor: The floor division is: 0
+The floor modulus is: 3
+.Enter the dividend: Enter the divisor: The floor division is: 1
+The floor modulus is: 0
+..Enter the dividend: .Enter the dividend: .Enter the dividend: Enter the divisor: 
+Time: 0.36
+
+OK (6 tests)
+

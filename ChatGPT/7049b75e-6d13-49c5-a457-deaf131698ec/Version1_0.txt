@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-920hQPNgzIIKcv0OLNSu4Cuwngbr5",
+  "object" : "chat.completion",
+  "created" : 1710266372,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class NegativeDominance {\n    \n    public static boolean checkNegativeDominance(int[] arr) {\n        int negativeCount = 0;\n        int positiveCount = 0;\n        \n        for(int num : arr) {\n            if(num < 0) {\n                negativeCount++;\n            } else {\n                positiveCount++;\n            }\n        }\n        \n        return negativeCount > positiveCount;\n    }\n    \n    public static void main(String[] args) {\n        int[] arr = {1, -2, -5, -4, 3, -6};\n        \n        System.out.println(\"Original array of numbers: [1, -2, -5, -4, 3, -6]\");\n        \n        boolean isNegativeDominant = checkNegativeDominance(arr);\n        \n        if(isNegativeDominant) {\n            System.out.println(\"Check Negative Dominance in the said array! true\");\n        } else {\n            System.out.println(\"Check Negative Dominance in the said array! false\");\n        }\n    }\n}\n```\n\nOutput:\n```\nOriginal array of numbers: [1, -2, -5, -4, 3, -6]\nCheck Negative Dominance in the said array! true\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 110,
+    "completion_tokens" : 251,
+    "total_tokens" : 361
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

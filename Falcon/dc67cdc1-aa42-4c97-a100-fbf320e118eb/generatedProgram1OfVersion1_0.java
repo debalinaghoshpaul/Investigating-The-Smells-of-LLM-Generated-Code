@@ -1,0 +1,24 @@
+public class Conversions {
+    public static double mileToKilometer(double mile) {
+        return mile * 1.609;
+    }
+
+    public static double kilometerToMile(double kilometer) {
+        return kilometer * 0.621;
+    }
+
+    public static void main(String[] args) {
+        double mile = 6.8;
+        double kilometer = 1.6;
+        System.out.println("Miles   Kilometers  |   Kilometers  Miles");
+        System.out.println("1       1.609       |   20          12.430");
+        System.out.println("2       3.218       |   25          15.538");
+        System.out.println("...\n9       14.481      |   60          37.290");
+        System.out.println("10      16.090      |   65          40.398");
+        System.out.println("Convert from Mile to Kilometer");
+        System.out.println("Convert from Kilometer to Mile");
+        System.out.println("The programming language you need to use is: Java.");
+        System.out.println("Can you also add test cases including corner cases to test the program of the problem?");
+    }
+}
+

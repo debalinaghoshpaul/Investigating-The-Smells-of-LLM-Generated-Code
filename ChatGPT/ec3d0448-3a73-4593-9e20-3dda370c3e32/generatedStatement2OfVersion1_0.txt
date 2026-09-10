@@ -1,0 +1,3 @@
+
+
+This program defines a method `containsValue` that takes an array of integers and a value to search for. It then iterates through the array and checks if the value is found. The main method tests this method with an example array and value.

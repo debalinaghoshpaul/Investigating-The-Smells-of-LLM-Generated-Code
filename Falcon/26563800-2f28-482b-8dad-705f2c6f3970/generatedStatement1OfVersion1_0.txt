@@ -1,0 +1,45 @@
+
+Enter a decimal number: 5
+Binary number is: 101
+
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test cases:
+Input a Decimal Number: 5
+Binary number is: 101
+Input a Decimal Number: 0
+Binary number is: 0
+Input a Decimal Number: -5
+Binary number is: 11111111
+Input a Decimal Number: -10
+Binary number is: 11111111
+Input a Decimal Number: -15
+Binary number is: 11111111
+Input a Decimal Number: -20
+Binary number is: 11111111
+Input a Decimal Number: -25
+Binary number is: 11111111
+Input a Decimal Number: -30
+Binary number is: 11111111
+Input a Decimal Number: -35
+Binary number is: 11111111
+Input a Decimal Number: -40
+Binary number is: 11111111
+Input a Decimal Number: -45
+Binary number is: 11111111
+Input a Decimal Number: -50
+Binary number is: 11111111
+Input a Decimal Number: -55
+Binary number is: 11111111
+Input a Decimal Number: -60
+Binary number is: 11111111
+Input a Decimal Number: -65
+Binary number is: 11111111
+Input a Decimal Number: -70
+Binary number is: 11111111
+Input a Decimal Number: -75
+Binary number is: 11111111
+Input a Decimal Number: -80
+Binary number is: 111111

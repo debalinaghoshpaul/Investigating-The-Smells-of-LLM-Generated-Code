@@ -1,0 +1,25 @@
+
+
+**Test cases**
+
+**Positive test cases:**
+
+* "pq"
+* "pqq"
+* "pqqq"
+* "pqqqq"
+
+**Negative test cases:**
+
+* "" (empty string)
+* "q"
+* "qq"
+* "qqq"
+* "pqpq"
+* "pqpqq"
+* "pqpqqq"
+
+**Corner cases:**
+
+* "p" (a single p without any q's)
+* "pq" (a single p followed by a single q)

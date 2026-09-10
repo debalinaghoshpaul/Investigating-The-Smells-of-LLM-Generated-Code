@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95FIh33Zj7ST1i4oniHSlWuhGVltU",
+  "object" : "chat.completion",
+  "created" : 1711037483,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class AbecadarianWord {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        System.out.print(\"Enter a word: \");\n        String word = input.next();\n\n        if (isAbecadarian(word)) {\n            System.out.println(\"The word '\" + word + \"' is an Abecadarian word.\");\n        } else {\n            System.out.println(\"The word '\" + word + \"' is not an Abecadarian word.\");\n        }\n    }\n\n    public static boolean isAbecadarian(String word) {\n        word = word.toLowerCase();\n        for (int i = 1; i < word.length(); i++) {\n            if (word.charAt(i) < word.charAt(i - 1)) {\n                return false;\n            }\n        }\n        return true;\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 126,
+    "completion_tokens" : 176,
+    "total_tokens" : 302
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

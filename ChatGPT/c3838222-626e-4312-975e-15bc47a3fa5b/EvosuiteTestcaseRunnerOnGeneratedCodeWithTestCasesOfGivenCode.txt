@@ -1,0 +1,25 @@
+JUnit version 4.13
+.E.E.E
+Time: 0.22
+There were 3 failures:
+1) test1(testing_ChatGPT_on_java.CyclicBarrierExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	CyclicBarrierExercise cannot be resolved to a type
+	CyclicBarrierExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.CyclicBarrierExercise_ESTest.test1(CyclicBarrierExercise_ESTest.java:27)
+2) test0(testing_ChatGPT_on_java.CyclicBarrierExercise_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	CyclicBarrierExercise cannot be resolved
+
+	at testing_ChatGPT_on_java.CyclicBarrierExercise_ESTest.test0(CyclicBarrierExercise_ESTest.java:21)
+3) test2(testing_ChatGPT_on_java.CyclicBarrierExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	CyclicBarrierExercise cannot be resolved to a type
+	CyclicBarrierExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.CyclicBarrierExercise_ESTest.test2(CyclicBarrierExercise_ESTest.java:32)
+
+FAILURES!!!
+Tests run: 3,  Failures: 3
+

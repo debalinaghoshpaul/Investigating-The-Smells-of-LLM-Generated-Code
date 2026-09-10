@@ -1,0 +1,51 @@
+```java
+import java.time.Instant;
+
+public class SecondsSince1970 {
+
+    public static void main(String[] args) {
+        // Get the current time as an Instant object
+        Instant now = Instant.now();
+
+        // Get the number of seconds since the epoch (January 1, 1970 at 00:00:00 UTC)
+        long secondsSince1970 = now.getEpochSecond();
+
+        // Print the number of seconds since the epoch
+        System.out.println("Seconds since 1970: " + secondsSince1970);
+    }
+}
+```
+
+### Test cases
+
+#### Corner cases
+
+* **Time before the epoch:**
+```java
+Instant beforeEpoch = Instant.ofEpochSecond(-1);
+long secondsSince1970 = beforeEpoch.getEpochSecond();
+System.out.println("Seconds since 1970: " + secondsSince1970);
+```
+
+* **Time equal to the epoch:**
+```java
+Instant epoch = Instant.ofEpochSecond(0);
+long secondsSince1970 = epoch.getEpochSecond();
+System.out.println("Seconds since 1970: " + secondsSince1970);
+```
+
+#### Normal cases
+
+* **Time after the epoch:**
+```java
+Instant afterEpoch = Instant.ofEpochSecond(1);
+long secondsSince1970 = afterEpoch.getEpochSecond();
+System.out.println("Seconds since 1970: " + secondsSince1970);
+```
+
+* **Time in the future:**
+```java
+Instant inFuture = Instant.now().plusSeconds(1000000);
+long secondsSince1970 = inFuture.getEpochSecond();
+System.out.println("Seconds since 1970: " + secondsSince1970);
+```

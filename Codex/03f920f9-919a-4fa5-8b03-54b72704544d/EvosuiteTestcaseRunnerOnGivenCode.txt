@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Input an integer number less than ten billion: Number of digits in the number: 1
+.Input an integer number less than ten billion: Number of digits in the number: 3
+..Input an integer number less than ten billion: Number of digits in the number: 2
+.Input an integer number less than ten billion: Number of digits in the number: 1
+.Input an integer number less than ten billion: Number of digits in the number: 4
+.Input an integer number less than ten billion: The number is not an integer
+
+Time: 0.423
+
+OK (7 tests)
+

@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:2:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:3:16: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:3:22: '20' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:3:26: '30' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:3:30: '40' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:5:17: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\a3ce53ce-9843-4abe-b91e-2d9f02394cbd\generatedProgram1OfVersion1_0.java:28: Line has trailing spaces. [RegexpSingleline]
+Audit done.

@@ -1,0 +1,10 @@
+To solve this problem, you can follow these steps:
+
+1. Read the CSV file and extract the header line to get the product names and count the number of products.
+2. Create a 2D array to store the ratings for each product.
+3. Read the CSV file line by line, ignoring the header line, and populate the 2D array with the ratings.
+4. Calculate the average rating for each product by summing up all the ratings and dividing by the number of ratings.
+5. Print out the average rating for each product.
+
+Here is a sample Java code implementation for the above steps:
+

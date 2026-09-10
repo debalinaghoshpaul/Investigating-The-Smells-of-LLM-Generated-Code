@@ -1,0 +1,229 @@
+```java
+import java.util.Arrays;
+
+public class ArrayManipulation {
+
+    public static void main(String[] args) {
+        // Test case 1
+        int[] arr1 = {1, 2, 3, 4, 5, 10, 6, 7, 8, 9};
+        int[] result1 = createArrayBeforeTen(arr1);
+        System.out.println(Arrays.toString(result1)); // Output: [1, 2, 3, 4, 5]
+
+        // Test case 2
+        int[] arr2 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] result2 = createArrayBeforeTen(arr2);
+        System.out.println(Arrays.toString(result2)); // Output: [1, 2, 3, 4, 5, 6]
+
+        // Test case 3
+        int[] arr3 = {1, 2, 3, 4, 5, 10};
+        int[] result3 = createArrayBeforeTen(arr3);
+        System.out.println(Arrays.toString(result3)); // Output: [1, 2, 3, 4, 5]
+
+        // Test case 4
+        int[] arr4 = {1, 2, 3, 4, 5};
+        int[] result4 = createArrayBeforeTen(arr4);
+        System.out.println(Arrays.toString(result4)); // Output: [1, 2, 3, 4, 5]
+
+        // Test case 5
+        int[] arr5 = {1, 2, 3, 4, 5, 10, 6, 7, 8, 9};
+        int[] start = {1, 2, 3};
+        int[] end = {8, 9, 10};
+        boolean isEqual = checkSameNumbersAtStartAndEnd(arr5, start, end);
+        System.out.println(isEqual); // Output: false
+
+        // Test case 6
+        int[] arr6 = {1, 2, 3, 4, 5, 1, 2, 3};
+        int[] start6 = {1, 2, 3};
+        int[] end6 = {1, 2, 3};
+        boolean isEqual6 = checkSameNumbersAtStartAndEnd(arr6, start6, end6);
+        System.out.println(isEqual6); // Output: true
+
+        // Test case 7
+        int[] arr7 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] start7 = {1, 2, 3};
+        int[] end7 = {4, 5, 6};
+        boolean isEqual7 = checkSameNumbersAtStartAndEnd(arr7, start7, end7);
+        System.out.println(isEqual7); // Output: false
+
+        // Corner cases
+        // Test case 8
+        int[] arr8 = {};
+        int[] result8 = createArrayBeforeTen(arr8);
+        System.out.println(Arrays.toString(result8)); // Output: []
+
+        // Test case 9
+        int[] arr9 = {10};
+        int[] result9 = createArrayBeforeTen(arr9);
+        System.out.println(Arrays.toString(result9)); // Output: []
+
+        // Test case 10
+        int[] arr10 = {1, 2, 3, 4, 5, 10, 10, 10};
+        int[] result10 = createArrayBeforeTen(arr10);
+        System.out.println(Arrays.toString(result10)); // Output: [1, 2, 3, 4, 5]
+
+        // Test case 11
+        int[] arr11 = {};
+        int[] start11 = {};
+        int[] end11 = {};
+        boolean isEqual11 = checkSameNumbersAtStartAndEnd(arr11, start11, end11);
+        System.out.println(isEqual11); // Output: true
+
+        // Test case 12
+        int[] arr12 = {1};
+        int[] start12 = {1};
+        int[] end12 = {1};
+        boolean isEqual12 = checkSameNumbersAtStartAndEnd(arr12, start12, end12);
+        System.out.println(isEqual12); // Output: true
+    }
+
+    public static int[] createArrayBeforeTen(int[] arr) {
+        // Find the index of the last element with value 10
+        int lastTenIndex = -1;
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] == 10) {
+                lastTenIndex = i;
+                break;
+            }
+        }
+
+        // If there is no element with value 10, return the original array
+        if (lastTenIndex == -1) {
+            return arr;
+        }
+
+        // Create a new array to store the elements before the last 10
+        int[] newArr = new int[lastTenIndex];
+        for (int i = 0; i < lastTenIndex; i++) {
+            newArr[i] = arr[i];
+        }
+
+        return newArr;
+    }
+
+    public static boolean checkSameNumbersAtStartAndEnd(int[] arr, int[] start, int[] end) {
+        // Check if the start and end arrays have the same length
+        if (start.length != end.length) {
+            return false;
+        }
+
+        // Check if the start and end arrays are empty
+        if (start.length == 0) {
+            return true;
+        }
+
+        // Check if the first elements of the start and end arrays are the same
+        if (start[0] != end[0]) {
+            return false;
+        }
+
+        // Check if the last elements of the start and end arrays are the same
+        if (start[start.length - 1] != end[end.length - 1]) {
+            return false;
+        }
+
+        // Iterate over the remaining elements of the start and end arrays to check if they are the same
+        for (int i = 1; i < start.length - 1; i++) {
+            if (start[i] != end[i]) {
+                return false;
+            }
+        }
+
+        // If all the elements of the start and end arrays are the same, return true
+        return true;
+    }
+}
+```
+
+**Test Cases:**
+
+**Input:**
+```
+arr = {1, 2, 3, 4, 5, 10, 6, 7, 8, 9}
+start = {1, 2, 3}
+end = {8, 9, 10}
+```
+
+**Output:**
+```
+false
+```
+
+**Explanation:** The numbers at the start and end of the array are not the same.
+
+**Input:**
+```
+arr = {1, 2, 3, 4, 5, 1, 2, 3}
+start = {1, 2, 3}
+end = {1, 2, 3}
+```
+
+**Output:**
+```
+true
+```
+
+**Explanation:** The numbers at the start and end of the array are the same.
+
+**Input:**
+```
+arr = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+start = {1, 2, 3}
+end = {4, 5, 6}
+```
+
+**Output:**
+```
+false
+```
+
+**Explanation:** The numbers at the start and end of the array are not the same.
+
+**Corner Cases:**
+
+**Input:**
+```
+arr = {}
+```
+
+**Output:**
+```
+[]
+```
+
+**Explanation:** The input array is empty, so the resulting array is also empty.
+
+**Input:**
+```
+arr = {10}
+```
+
+**Output:**
+```
+[]
+```
+
+**Explanation:** The input array contains only one element, and it is equal to 10, so the resulting array is empty.
+
+**Input:**
+```
+arr = {1, 2, 3, 4, 5, 10, 10, 10}
+```
+
+**Output:**
+```
+[1, 2, 3, 4, 5]
+```
+
+**Explanation:** The last element in the input array is 10, so the resulting array contains the elements before the last 10.
+
+**Input:**
+```
+arr = {}
+start = {}
+end = {}
+```
+
+**Output:**
+```
+true
+

@@ -1,0 +1,14 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Empty array (`arr2`)
+* Array with a single element (`arr3`)
+* Array in reverse order (`arr4`)
+* Array in almost sorted order (`arr5`)
+
+**Normal Cases:**
+
+* Array with positive and negative numbers (`arr1`)

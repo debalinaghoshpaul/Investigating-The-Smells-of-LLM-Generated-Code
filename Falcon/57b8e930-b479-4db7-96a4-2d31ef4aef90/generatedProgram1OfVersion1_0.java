@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class PopulationProjection {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the current population: ");
+        int currentPopulation = scanner.nextInt();
+        System.out.print("Enter the number of births per second: ");
+        int birthsPerSecond = scanner.nextInt();
+        System.out.print("Enter the number of deaths per second: ");
+        int deathsPerSecond = scanner.nextInt();
+        System.out.print("Enter the number of new immigrants per second: ");
+        int immigrantsPerSecond = scanner.nextInt();
+        System.out.print("Enter the number of days in a year: ");
+        int daysInYear = scanner.nextInt();
+        System.out.print("Enter the number of years: ");
+        int years = scanner.nextInt();
+
+        double population = currentPopulation + birthsPerSecond + deathsPerSecond + immigrantsPerSecond;
+        double populationPerYear = population / (daysInYear * 24 * 60 * 60 * 1000);
+        double populationPerDay = populationPerYear / (24 * 60 * 60 * 1000);
+        double populationPerHour = populationPerDay / (60 * 60 * 1000);
+        double populationPerMinute = populationPerHour / (60 * 1000);
+        double populationPerSecond = populationPerMinute / 1000;
+
+        System.out.println("Population for each of the next five years:");
+        for (int i = 0; i < years; i++) {
+            System.out.printf("%.2f ", populationPerSecond);
+            populationPerSecond -= populationPerSecond;
+        }
+        System.out.println();
+    }
+}
+

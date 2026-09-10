@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ReplaceString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Replace all occurrences of "is" with "is not"
+        String replacedString = inputString.replaceAll("is", "is not");
+
+        // Print the replaced string
+        System.out.println("Replaced string: " + replacedString);
+    }
+}

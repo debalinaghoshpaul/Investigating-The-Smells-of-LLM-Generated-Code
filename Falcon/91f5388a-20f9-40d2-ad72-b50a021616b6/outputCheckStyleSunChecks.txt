@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Lambda\91f5388a-20f9-40d2-ad72-b50a021616b6\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Lambda\91f5388a-20f9-40d2-ad72-b50a021616b6\generatedProgram1OfVersion1_0.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Lambda\91f5388a-20f9-40d2-ad72-b50a021616b6\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Lambda\91f5388a-20f9-40d2-ad72-b50a021616b6\generatedProgram1OfVersion1_0.java:7:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Lambda\91f5388a-20f9-40d2-ad72-b50a021616b6\generatedProgram1OfVersion1_0.java:11:18: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Lambda\91f5388a-20f9-40d2-ad72-b50a021616b6\generatedProgram1OfVersion1_0.java:12:18: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Lambda\91f5388a-20f9-40d2-ad72-b50a021616b6\generatedProgram1OfVersion1_0.java:13:18: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Lambda\91f5388a-20f9-40d2-ad72-b50a021616b6\generatedProgram1OfVersion1_0.java:16:32: Parameter o1 should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Lambda\91f5388a-20f9-40d2-ad72-b50a021616b6\generatedProgram1OfVersion1_0.java:16:44: Parameter o2 should be final. [FinalParameters]
+Audit done.

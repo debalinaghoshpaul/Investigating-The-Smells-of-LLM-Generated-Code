@@ -1,0 +1,27 @@
+import java.util.TreeMap;
+
+public class RemoveAndGetGreatestKey {
+
+    public static void main(String[] args) {
+        // create a TreeMap
+        TreeMap<Integer, String> treeMap = new TreeMap<>();
+
+        // add key-value pairs to the TreeMap
+        treeMap.put(1, "One");
+        treeMap.put(2, "Two");
+        treeMap.put(3, "Three");
+        treeMap.put(4, "Four");
+        treeMap.put(5, "Five");
+
+        // get the last key (greatest key) in the TreeMap
+        Integer lastKey = treeMap.lastKey();
+
+        // remove the last key and its associated value from the TreeMap
+        treeMap.remove(lastKey);
+
+        // print the remaining key-value pairs in the TreeMap
+        for (Integer key : treeMap.keySet()) {
+            System.out.println(key + " = " + treeMap.get(key));
+        }
+    }
+}

@@ -1,0 +1,18 @@
+
+
+**Test Cases**
+
+**Corner Cases:**
+
+* n = 0
+* s = 0
+* n = 1
+* s = 1
+
+**Regular Cases:**
+
+* n = 3
+* s = 6
+
+*Input:*
+

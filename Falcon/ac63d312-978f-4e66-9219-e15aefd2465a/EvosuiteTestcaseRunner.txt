@@ -1,0 +1,16 @@
+JUnit version 4.13
+.Enter the string: 
+.Enter the string: 
+Enter the character sequence: 
+The string is less than the character sequence.
+.Enter the string: 
+Enter the character sequence: 
+The string and character sequence are equal.
+.Enter the string: 
+Enter the character sequence: 
+The string is greater than the character sequence.
+.
+Time: 0.328
+
+OK (5 tests)
+

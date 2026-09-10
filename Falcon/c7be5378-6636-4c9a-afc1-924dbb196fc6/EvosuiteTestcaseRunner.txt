@@ -1,0 +1,8 @@
+JUnit version 4.13
+...Enter the coordinates of the triangle vertices (x1, y1), (x2, y2), (x3, y3):
+...Enter the coordinates of the triangle vertices (x1, y1), (x2, y2), (x3, y3):
+..
+Time: 0.55
+
+OK (8 tests)
+

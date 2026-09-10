@@ -1,0 +1,106 @@
+```java
+import java.util.Scanner;
+
+public class CountTriples {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user.
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Initialize the count of triples to 0.
+        int count = 0;
+
+        // Iterate over the string, starting from the second character.
+        for (int i = 1; i < str.length(); i++) {
+            // Check if the current character is the same as the previous two characters.
+            if (str.charAt(i) == str.charAt(i - 1) && str.charAt(i) == str.charAt(i - 2)) {
+                // If so, increment the count of triples.
+                count++;
+            }
+        }
+
+        // Print the count of triples.
+        System.out.println("The number of triples in the string is: " + count);
+    }
+}
+```
+
+### Corner Cases
+
+**Empty string:** The program should handle the case where the input string is empty. In this case, the count of triples should be 0.
+
+**Single character string:** The program should handle the case where the input string contains only one character. In this case, the count of triples should be 0.
+
+**String with no triples:** The program should handle the case where the input string does not contain any triples. In this case, the count of triples should be 0.
+
+**String with multiple triples:** The program should handle the case where the input string contains multiple triples. In this case, the count of triples should be equal to the number of triples in the string.
+
+**String with overlapping triples:** The program should handle the case where the input string contains overlapping triples. In this case, the count of triples should be equal to the number of unique triples in the string.
+
+### Test Cases
+
+**Test Case 1:**
+
+```
+Input: ""
+
+Expected Output:
+The number of triples in the string is: 0
+```
+
+**Test Case 2:**
+
+```
+Input: "a"
+
+Expected Output:
+The number of triples in the string is: 0
+```
+
+**Test Case 3:**
+
+```
+Input: "aaa"
+
+Expected Output:
+The number of triples in the string is: 1
+```
+
+**Test Case 4:**
+
+```
+Input: "abcde"
+
+Expected Output:
+The number of triples in the string is: 0
+```
+
+**Test Case 5:**
+
+```
+Input: "aaabbbccc"
+
+Expected Output:
+The number of triples in the string is: 3
+```
+
+**Test Case 6:**
+
+```
+Input: "aaabbbbbcccc"
+
+Expected Output:
+The number of triples in the string is: 3
+```
+
+**Test Case 7:**
+
+```
+Input: "aaabbbaaaccc"
+
+Expected Output:
+The number of triples in the string is: 4
+```

@@ -1,0 +1,7 @@
+
+
+**Test Cases:**
+
+* **Normal case:** The current month is January, so there are 11 months left in the year.
+* **Corner case:** The current month is December, so there are 0 months left in the year.
+* **Edge case:** The current month is February in a leap year, so there are 11 months left in the year.

@@ -1,0 +1,12 @@
+Violations by Category:
+AtclauseOrder: ' expecting <EOF> while parsing JAVADOC [AtclauseOrder]: 1
+SingleLineJavadoc: ' expecting <EOF> while parsing JAVADOC [SingleLineJavadoc]: 1
+OuterTypeFilename: The name of the outer type and the file do not match. [OuterTypeFilename]: 1
+JavadocMethod: '. [JavadocMethod]: 1
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+JavadocTagContinuationIndentation: ' expecting <EOF> while parsing JAVADOC [JavadocTagContinuationIndentation]: 1
+SummaryJavadoc: ' expecting <EOF> while parsing JAVADOC [SummaryJavadoc]: 1
+NonEmptyAtclauseDescription: ' expecting <EOF> while parsing JAVADOC [NonEmptyAtclauseDescription]: 1
+JavadocParagraph: ' expecting <EOF> while parsing JAVADOC [JavadocParagraph]: 1
+Indentation: 'method def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]: 6
+RequireEmptyLineBeforeBlockTagGroup: ' expecting <EOF> while parsing JAVADOC [RequireEmptyLineBeforeBlockTagGroup]: 1

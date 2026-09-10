@@ -1,0 +1,8 @@
+
+// Input a hexadecimal number: 25
+// Equivalent decimal number is: 37
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, I can add test cases including corner cases to test the program of the problem.
+
+// 

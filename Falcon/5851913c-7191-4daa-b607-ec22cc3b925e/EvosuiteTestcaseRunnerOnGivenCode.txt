@@ -1,0 +1,9 @@
+JUnit version 4.13
+..Array1: [10, 11, 10, 20, 43, 20, 50]
+Array2: [10, 13, 11, 20, 44, 30, 50]
+Number of elements: 2
+
+Time: 0.345
+
+OK (2 tests)
+

@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Enter two integers:
+The greatest common divisor of 2 and 4 is 2
+.Enter two integers:
+The greatest common divisor of 4 and 2 is 2
+.Enter two integers:
+.....Enter two integers:
+
+Time: 0.365
+
+OK (8 tests)
+

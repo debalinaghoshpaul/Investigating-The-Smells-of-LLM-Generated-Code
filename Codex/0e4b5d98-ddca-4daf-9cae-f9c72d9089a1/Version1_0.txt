@@ -1,0 +1,84 @@
+**Java Program:**
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Bank {
+    private List<Account> accounts;
+
+    public Bank() {
+        this.accounts = new ArrayList<>();
+    }
+
+    public void addAccount(Account account) {
+        accounts.add(account);
+    }
+
+    public void removeAccount(Account account) {
+        accounts.remove(account);
+    }
+
+    public void deposit(Account account, double amount) {
+        account.setBalance(account.getBalance() + amount);
+    }
+
+    public void withdraw(Account account, double amount) {
+        if (amount <= account.getBalance()) {
+            account.setBalance(account.getBalance() - amount);
+        }
+    }
+
+    public List<Account> getAccounts() {
+        return accounts;
+    }
+}
+
+public class Account {
+    private String accountNumber;
+    private String accountHolderName;
+    private double balance;
+
+    public Account(String accountNumber, String accountHolderName, double balance) {
+        this.accountNumber = accountNumber;
+        this.accountHolderName = accountHolderName;
+        this.balance = balance;
+    }
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Cases:**
+
+* Add an account with valid account number, account holder name, and initial balance.
+* Remove an account with a valid account number.
+* Deposit a valid amount of money into an account.
+* Withdraw a valid amount of money from an account.
+* Check the balance of an account.
+
+**Corner Cases:**
+
+* Add an account with an invalid account number (e.g., empty string, null).
+* Add an account with an invalid account holder name (e.g., empty string, null).
+* Add an account with a negative initial balance.
+* Remove an account with an invalid account number (e.g., empty string, null).
+* Deposit a negative amount of money into an account.
+* Withdraw an amount that exceeds the account balance.
+* Withdraw money from an account with an invalid account number (e.g., empty string, null).

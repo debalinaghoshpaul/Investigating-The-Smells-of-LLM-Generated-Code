@@ -1,0 +1,6 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 2
+CommentRequired: Class comments are required: 12
+AtLeastOneConstructor: Each class should declare at least one constructor: 4
+UnnecessaryImport: Unused import 'java.util.concurrent.Future': 2
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

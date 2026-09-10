@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter a: Enter b: Enter c: Enter d: Enter e: Enter f: The system is inconsistent.
+.Enter a: ..Enter a: .Enter a: Enter b: Enter c: Enter d: Enter e: Enter f: The system is inconsistent.
+
+Time: 0.52
+
+OK (5 tests)
+

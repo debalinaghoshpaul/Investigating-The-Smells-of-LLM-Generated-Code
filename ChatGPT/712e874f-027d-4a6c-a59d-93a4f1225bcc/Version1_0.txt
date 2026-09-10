@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93PY8eh4MUaSaA5AOMAXPC3fl5cRY",
+  "object" : "chat.completion",
+  "created" : 1710600224,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Below is a Java program that swaps the top two elements of a given stack:\n\n```java\nimport java.util.Stack;\n\npublic class SwapStackElements {\n\n    public static void swapTopTwoElements(Stack<Integer> stack) {\n        if (stack.size() < 2) {\n            System.out.println(\"Stack does not have enough elements to swap.\");\n            return;\n        }\n\n        int top1 = stack.pop();\n        int top2 = stack.pop();\n\n        stack.push(top1);\n        stack.push(top2);\n    }\n\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        stack.push(1);\n        stack.push(2);\n        stack.push(3);\n        stack.push(4);\n\n        System.out.println(\"Before swapping:\");\n        System.out.println(stack);\n\n        swapTopTwoElements(stack);\n\n        System.out.println(\"After swapping:\");\n        System.out.println(stack);\n    }\n}\n```\n\nIn this program, we first check if the stack has at least 2 elements. If it does, we pop the top two elements, swap them, and then push them back onto the stack. Finally, we demonstrate the swapping by printing the stack before and after the operation.\n\nYou can run this program in any Java IDE or online compiler to see the swapping in action."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 66,
+    "completion_tokens" : 262,
+    "total_tokens" : 328
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

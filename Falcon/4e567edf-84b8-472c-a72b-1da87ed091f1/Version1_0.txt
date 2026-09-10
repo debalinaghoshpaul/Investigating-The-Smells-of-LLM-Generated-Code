@@ -1,0 +1,18 @@
+No GPU found. Running on CPU.
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class ValidatePhoneNumber {
+    public static void main(String[] args) {
+        String phoneNumber = "123-456-7890";
+        Pattern pattern = Pattern.compile("\\d{3}-\\d{3}-\\d{4}");
+        Matcher matcher = pattern.matcher(phoneNumber);
+        if (matcher.matches()) {
+            System.out.println("Valid phone number");
+        } else {
+            System.out.println("Invalid phone number");
+        }
+    }
+}
+// Output: Valid phone number
+// Test cases: 123-456-7890, 123-456-7891, 123-456-7892, 123-456-7893, 123-456-7894, 123-456-7895, 123-456-7896, 123-456-7897, 123-456-7898, 123-456-7899, 123-456-7900, 123-456-7901, 123-456-7902, 123-456-7903, 123-456-7904, 123-456-7905, 123-456-7906, 123-456-7907, 123-456-7908, 123-456-7909, 123-456-7910, 123-456-7911, 123-456-7912, 123-456-7913, 123-456-7914, 123-456-7915, 123-456-7916, 123-456-7917, 123-456-7918, 123-456-7919, 123-456-7920, 123-456-7921, 123-456-7922, 123-456-7923, 123-456-7924, 123-456-7925, 123-456-7926, 123-456-7927, 123-456-7928, 123-456-7929, 123-456-7930, 123-456-7931, 123-456-7932, 123-456-

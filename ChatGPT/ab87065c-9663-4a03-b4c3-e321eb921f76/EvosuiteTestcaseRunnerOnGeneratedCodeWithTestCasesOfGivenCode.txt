@@ -1,0 +1,13 @@
+JUnit version 4.13
+.E
+Time: 0.392
+There was 1 failure:
+1) test0(testing_ChatGPT_on_java.Container_ESTest)
+java.lang.AssertionError: Exception was not thrown in testing_ChatGPT_on_java.Container but in org.junit.Assert.fail(Assert.java:89): java.lang.AssertionError: Expecting exception: Error
+	at org.evosuite.runtime.EvoAssertions.assertThrownBy(EvoAssertions.java:112)
+	at org.evosuite.runtime.EvoAssertions.verifyException(EvoAssertions.java:49)
+	at testing_ChatGPT_on_java.Container_ESTest.test0(Container_ESTest.java:32)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+

@@ -1,0 +1,19 @@
+
+
+Test cases:
+
+* **Corner cases:**
+    * n = 1 (not prime)
+    * n = 2 (not a power of 2)
+    * n = 4 (not prime)
+    * n = 8 (not prime)
+* **Valid Mersenne numbers:**
+    * n = 3
+    * n = 7
+    * n = 31
+    * n = 127
+* **Invalid Mersenne numbers:**
+    * n = 5 (prime, but not a power of 2)
+    * n = 10 (not prime)
+    * n = 16 (not prime)
+    * n = 25 (not prime)

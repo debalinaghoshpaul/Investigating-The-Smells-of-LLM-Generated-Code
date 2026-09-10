@@ -1,0 +1,47 @@
+```java
+import java.util.Arrays;
+
+public class CheckArrayContainsElements {
+
+    public static void main(String[] args) {
+        // Test case 1: Array contains both elements
+        int[] arr1 = {1, 65, 2, 77, 3, 4, 5};
+        boolean result1 = containsElements(arr1, 65, 77);
+        System.out.println("Test Case 1: " + result1); // Output: true
+
+        // Test case 2: Array contains only one element
+        int[] arr2 = {1, 2, 3, 4, 5};
+        boolean result2 = containsElements(arr2, 65, 77);
+        System.out.println("Test Case 2: " + result2); // Output: false
+
+        // Test case 3: Array is empty
+        int[] arr3 = {};
+        boolean result3 = containsElements(arr3, 65, 77);
+        System.out.println("Test Case 3: " + result3); // Output: false
+
+        // Test case 4: Array contains both elements in different order
+        int[] arr4 = {77, 65, 1, 2, 3, 4, 5};
+        boolean result4 = containsElements(arr4, 65, 77);
+        System.out.println("Test Case 4: " + result4); // Output: true
+
+        // Test case 5: Array contains one element multiple times
+        int[] arr5 = {1, 65, 65, 2, 3, 4, 5};
+        boolean result5 = containsElements(arr5, 65, 77);
+        System.out.println("Test Case 5: " + result5); // Output: true
+
+        // Test case 6: Array contains both elements but one of them is at the end
+        int[] arr6 = {1, 2, 3, 4, 5, 65, 77};
+        boolean result6 = containsElements(arr6, 65, 77);
+        System.out.println("Test Case 6: " + result6); // Output: true
+
+        // Test case 7: Array contains both elements but one of them is at the beginning
+        int[] arr7 = {65, 1, 2, 3, 4, 5, 77};
+        boolean result7 = containsElements(arr7, 65, 77);
+        System.out.println("Test Case 7: " + result7); // Output: true
+    }
+
+    public static boolean containsElements(int[] arr, int element1, int element2) {
+        return Arrays.asList(arr).contains(element1) && Arrays.asList(arr).contains(element2);
+    }
+}
+```

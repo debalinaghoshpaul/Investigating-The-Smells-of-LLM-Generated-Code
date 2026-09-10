@@ -1,0 +1,33 @@
+JUnit version 4.13
+.E...E.E..E........E
+Time: 0.392
+There were 5 failures:
+1) test08(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method printEmployeeDetails() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test08(Employee_ESTest.java:100)
+2) test07(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getYearsOfService() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test07(Employee_ESTest.java:84)
+3) test00(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getYearsOfService() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test00(Employee_ESTest.java:28)
+4) test01(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getYearsOfService() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test01(Employee_ESTest.java:37)
+5) test14(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getYearsOfService() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test14(Employee_ESTest.java:153)
+
+FAILURES!!!
+Tests run: 15,  Failures: 5
+

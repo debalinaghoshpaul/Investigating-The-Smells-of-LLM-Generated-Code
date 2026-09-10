@@ -1,0 +1,4 @@
+
+    Input: [1]
+    Output: First Smallest Element: 1, Second Smallest Element: Integer.MAX_VALUE
+    

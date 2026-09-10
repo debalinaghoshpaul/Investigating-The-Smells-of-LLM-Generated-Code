@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:2:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:3:17: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:8:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:8:42: Parameter x should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:9:22: '-19' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:10:27: '7' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:11:27: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\b120b84c-b29e-46a5-9e41-a67176621adc\generatedProgram1OfVersion1_0.java:12:27: '6' is a magic number. [MagicNumber]
+Audit done.

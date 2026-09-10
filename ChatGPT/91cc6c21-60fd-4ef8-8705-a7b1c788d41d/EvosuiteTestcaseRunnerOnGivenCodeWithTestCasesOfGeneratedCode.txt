@@ -1,0 +1,13 @@
+JUnit version 4.13
+...E
+Time: 0.36
+There was 1 failure:
+1) test0(testing_ChatGPT_on_java.Exercise2_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method average(double, double, double) is undefined for the type Exercise2
+
+	at testing_ChatGPT_on_java.Exercise2_ESTest.test0(Exercise2_ESTest.java:23)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+

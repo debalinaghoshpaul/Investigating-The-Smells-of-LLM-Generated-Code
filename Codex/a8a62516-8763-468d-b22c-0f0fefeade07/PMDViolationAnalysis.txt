@@ -1,0 +1,5 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+LooseCoupling: Avoid using implementation types like 'TreeMap'; use the interface instead: 1
+CommentRequired: Class comments are required: 3
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

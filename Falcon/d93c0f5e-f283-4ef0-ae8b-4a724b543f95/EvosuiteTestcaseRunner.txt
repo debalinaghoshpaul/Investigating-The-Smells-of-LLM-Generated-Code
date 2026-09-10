@@ -1,0 +1,10 @@
+JUnit version 4.13
+..Difference between the two dates:
+Years: 1
+Months: 23
+Days: 730
+
+Time: 0.345
+
+OK (2 tests)
+

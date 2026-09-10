@@ -1,0 +1,7 @@
+JUnit version 4.13
+...`C/VqJW: $0.0
+.........
+Time: 0.348
+
+OK (12 tests)
+

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9453QcWAs1iSJzQw7RowNYyAxb88H",
+  "object" : "chat.completion",
+  "created" : 1710759768,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class MinutesToYearsDays {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        \n        System.out.print(\"Input the number of minutes: \");\n        long minutes = sc.nextLong();\n        \n        long years = minutes / (60 * 24 * 365);\n        long days = (minutes % (60 * 24 * 365)) / (60 * 24);\n        \n        System.out.println(minutes + \" minutes is approximately \" + years + \" years and \" + days + \" days\");\n        \n        sc.close();\n    }\n}\n```\nOutput:\n```\nInput the number of minutes: 3456789\n3456789 minutes is approximately 6 years and 210 days\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 91,
+    "completion_tokens" : 159,
+    "total_tokens" : 250
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

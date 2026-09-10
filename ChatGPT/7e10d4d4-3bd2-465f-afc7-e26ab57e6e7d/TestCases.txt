@@ -1,0 +1,63 @@
+```java
+import java.util.Scanner;
+
+public class LastIndexOfString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input strings
+        System.out.println("Enter the first string:");
+        String str1 = scanner.nextLine();
+        System.out.println("Enter the second string:");
+        String str2 = scanner.nextLine();
+
+        // Find the last index of the second string in the first string
+        int lastIndex = str1.lastIndexOf(str2);
+
+        // Print the result
+        if (lastIndex == -1) {
+            System.out.println("The second string is not found in the first string.");
+        } else {
+            System.out.println("The last index of the second string in the first string is: " + lastIndex);
+        }
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:**
+```
+Enter the first string: Hello world
+Enter the second string: world
+The last index of the second string in the first string is: 6
+```
+
+* **Corner case 1: The second string is not found in the first string:**
+```
+Enter the first string: Hello world
+Enter the second string: Java
+The second string is not found in the first string.
+```
+
+* **Corner case 2: The second string is empty:**
+```
+Enter the first string: Hello world
+Enter the second string: 
+The last index of the second string in the first string is: -1
+```
+
+* **Corner case 3: The first string is empty:**
+```
+Enter the first string: 
+Enter the second string: world
+The second string is not found in the first string.
+```
+
+* **Corner case 4: The second string is longer than the first string:**
+```
+Enter the first string: Hello
+Enter the second string: HelloWorld
+The second string is not found in the first string.
+```

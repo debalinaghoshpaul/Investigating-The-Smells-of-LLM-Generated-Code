@@ -1,0 +1,28 @@
+```java
+import java.util.Arrays;
+
+public class BooleanArrayToString {
+
+    public static void main(String[] args) {
+        // Sample array
+        boolean[][] array = {{true, false, true}, {false, true, false}};
+
+        // Convert the array to a string representation
+        String arrayString = Arrays.deepToString(array)
+                .replace("true", "t")
+                .replace("false", "f");
+
+        // Print the string representation
+        System.out.println(arrayString);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Empty array:** `array = {}`
+* **Array with only true values:** `array = {{true, true}, {true, true}}`
+* **Array with only false values:** `array = {{false, false}, {false, false}}`
+* **Array with mixed true and false values:** `array = {{true, false, true}, {false, true, false}}`
+* **Array with different number of columns in each row:** `array = {{true, false, true}, {false, true}}`
+* **Array with null values:** `array = {{true, false, null}, {false, true, null}}`

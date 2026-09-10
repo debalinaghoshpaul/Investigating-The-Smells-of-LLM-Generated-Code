@@ -1,0 +1,24 @@
+
+
+**Test Cases:**
+
+* **Valid Roman numerals:**
+    * **MCMXCIV** (1994)
+    * **MMVIII** (2008)
+    * **MDCLXVI** (1666)
+    * **CMXCIX** (999)
+    * **XLII** (42)
+* **Invalid Roman numerals:**
+    * **IIII** (invalid, should be IV)
+    * **VV** (invalid, should be V)
+    * **XXXX** (invalid, should be XL)
+    * **CCCC** (invalid, should be CD)
+    * **MMMM** (invalid, should be M_M_M)
+* **Empty string:**
+    * **""** (should return 0)
+
+**Corner Cases:**
+
+* **Zero (0):** The Roman numeral **""** should be converted to 0.
+* **Large numbers:** The program should be able to convert large Roman numerals, such as **MMMMCMXCIX** (4999).
+* **Invalid characters:** The program should handle invalid characters, such as spaces, punctuation marks, and numbers.

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93UbStiPTYr276wlmYmA0BOcV5qtA",
+  "object" : "chat.completion",
+  "created" : 1710619650,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Shape interface\ninterface Shape {\n    double getArea();\n}\n\n// Rectangle class\nclass Rectangle implements Shape {\n    private double length;\n    private double width;\n\n    public Rectangle(double length, double width) {\n        this.length = length;\n        this.width = width;\n    }\n\n    @Override\n    public double getArea() {\n        return length * width;\n    }\n}\n\n// Circle class\nclass Circle implements Shape {\n    private double radius;\n\n    public Circle(double radius) {\n        this.radius = radius;\n    }\n\n    @Override\n    public double getArea() {\n        return Math.PI * radius * radius;\n    }\n}\n\n// Triangle class\nclass Triangle implements Shape {\n    private double base;\n    private double height;\n\n    public Triangle(double base, double height) {\n        this.base = base;\n        this.height = height;\n    }\n\n    @Override\n    public double getArea() {\n        return 0.5 * base * height;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Rectangle rectangle = new Rectangle(5, 4);\n        Circle circle = new Circle(3);\n        Triangle triangle = new Triangle(6, 8);\n\n        System.out.println(\"Area of rectangle: \" + rectangle.getArea());\n        System.out.println(\"Area of circle: \" + circle.getArea());\n        System.out.println(\"Area of triangle: \" + triangle.getArea());\n    }\n}\n```\n\nOutput:\n```\nArea of rectangle: 20.0\nArea of circle: 28.274333882308138\nArea of triangle: 24.0\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 95,
+    "completion_tokens" : 332,
+    "total_tokens" : 427
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

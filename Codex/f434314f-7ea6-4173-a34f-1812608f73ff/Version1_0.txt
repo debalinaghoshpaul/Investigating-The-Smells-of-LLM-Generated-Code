@@ -1,0 +1,28 @@
+```java
+import java.util.ArrayList;
+
+public class ArrayListSearch {
+
+    public static void main(String[] args) {
+        // Create an ArrayList of strings
+        ArrayList<String> names = new ArrayList<>();
+
+        // Add some names to the ArrayList
+        names.add("John");
+        names.add("Mary");
+        names.add("Bob");
+        names.add("Alice");
+
+        // Search for the name "Mary" in the ArrayList
+        int index = names.indexOf("Mary");
+
+        // If the name is found, print its index
+        if (index >= 0) {
+            System.out.println("The index of \"Mary\" is " + index);
+        } else {
+            // If the name is not found, print a message
+            System.out.println("The name \"Mary\" is not in the list.");
+        }
+    }
+}
+```

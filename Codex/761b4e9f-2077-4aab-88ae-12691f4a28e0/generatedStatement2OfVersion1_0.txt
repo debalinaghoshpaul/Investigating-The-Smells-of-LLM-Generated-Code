@@ -1,0 +1,31 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+    * Input:
+        * num1 = 220
+        * num2 = 284
+    * Output:
+        * These numbers are amicable.
+* **Corner cases:**
+    * Input:
+        * num1 = 1
+        * num2 = 1
+    * Output:
+        * These numbers are not amicable.
+    * Input:
+        * num1 = 0
+        * num2 = 0
+    * Output:
+        * These numbers are not amicable.
+    * Input:
+        * num1 = -1
+        * num2 = -1
+    * Output:
+        * These numbers are not amicable.
+    * Input:
+        * num1 = Integer.MAX_VALUE
+        * num2 = Integer.MAX_VALUE
+    * Output:
+        * These numbers are not amicable.

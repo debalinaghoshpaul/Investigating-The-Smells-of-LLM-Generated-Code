@@ -1,0 +1,12 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 82). [LineLength]: 4
+WhitespaceAfter: 'if' is not followed by whitespace. [WhitespaceAfter]: 1
+WhitespaceAround: 'if' is not followed by whitespace. [WhitespaceAround]: 1
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 2
+FinalParameters: Parameter content should be final. [FinalParameters]: 5
+HiddenField: 'content' hides a field. [HiddenField]: 2
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 3
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1

@@ -1,0 +1,59 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class ToastSubstring {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine();
+
+        int firstIndex = str.indexOf("toast");
+        int lastIndex = str.lastIndexOf("toast");
+
+        if (firstIndex == -1 || lastIndex == -1) {
+            System.out.println("Substring 'toast' not found.");
+        } else {
+            String substring = str.substring(firstIndex + 5, lastIndex);
+            System.out.println("Substring between 'toast': " + substring);
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Test Case 1:**
+    * Input: "I love toast and butter toast"
+    * Expected Output: "and butter"
+
+* **Test Case 2:**
+    * Input: "This is a toasty toast"
+    * Expected Output: " is a toasty"
+
+* **Test Case 3:**
+    * Input: "Toast is my favorite food"
+    * Expected Output: "" (empty string, since 'toast' appears only once)
+
+**Corner Cases:**
+
+* **Test Case 4:**
+    * Input: "" (empty string)
+    * Expected Output: "Substring 'toast' not found."
+
+* **Test Case 5:**
+    * Input: "toast"
+    * Expected Output: "" (empty string, since 'toast' appears only once)
+
+* **Test Case 6:**
+    * Input: "I love to toast toast"
+    * Expected Output: "and butter" (substring between first and last occurrence of 'toast')
+
+* **Test Case 7:**
+    * Input: "This toast is burnt"
+    * Expected Output: "" (empty string, since 'toast' appears only once)

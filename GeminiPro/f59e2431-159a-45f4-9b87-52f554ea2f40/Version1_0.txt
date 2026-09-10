@@ -1,0 +1,53 @@
+```java
+import java.util.Scanner;
+
+public class SumOfDigits {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input integer
+        System.out.println("Input an integer:");
+        int number = scanner.nextInt();
+
+        // Compute the sum of digits
+        int sumOfDigits = 0;
+        while (number > 0) {
+            sumOfDigits += number % 10;
+            number /= 10;
+        }
+
+        // Print the result
+        System.out.println("The sum is " + sumOfDigits);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Positive integers:**
+    * Input: 123
+    * Expected output: 6
+    * Input: 987
+    * Expected output: 24
+* **Negative integers:**
+    * Input: -123
+    * Expected output: 6
+    * Input: -987
+    * Expected output: 24
+* **Zero:**
+    * Input: 0
+    * Expected output: 0
+* **Large integers:**
+    * Input: 123456789
+    * Expected output: 45
+* **Corner cases:**
+    * **Empty input:**
+        * Input:
+        * Expected output: The input is not an integer.
+    * **Non-numeric input:**
+        * Input: abc
+        * Expected output: The input is not an integer.
+    * **Very large integers (overflow):**
+        * Input: 2147483647
+        * Expected output: The result is too large for an integer.

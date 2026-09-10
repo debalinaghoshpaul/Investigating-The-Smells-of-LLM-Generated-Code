@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Merged Stack without duplicates: [3, 2, 1, 5, 4]
+.....
+Time: 0.421
+
+OK (6 tests)
+

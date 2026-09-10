@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Enter a string: 
+.Enter a string: 
+The lowercase string is: iz,(-@%fmjn#"m<f.
+.
+Time: 0.361
+
+OK (3 tests)
+

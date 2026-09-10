@@ -1,0 +1,30 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class CountSubstrings {
+
+    public static void main(String[] args) {
+        String str = "geeksforgeeks";
+        int len1 = 3;
+        int len2 = 4;
+        System.out.println(countSubstrings(str, len1, len2));
+    }
+
+    public static int countSubstrings(String str, int len1, int len2) {
+        int count1 = 0;
+        int count2 = 0;
+        Map<String, Integer> map = new HashMap<>();
+        for (int i = 0; i < str.length() - len1 + 1; i++) {
+            String sub1 = str.substring(i, i + len1);
+            count1 += map.getOrDefault(sub1, 0) + 1;
+            map.put(sub1, map.getOrDefault(sub1, 0) + 1);
+        }
+        map.clear();
+        for (int i = 0; i < str.length() - len2 + 1; i++) {
+            String sub2 = str.substring(i, i + len2);
+            count2 += map.getOrDefault(sub2, 0) + 1;
+            map.put(sub2, map.getOrDefault(sub2, 0) + 1);
+        }
+        return count1 == count2 ? 1 : 0;
+    }
+}

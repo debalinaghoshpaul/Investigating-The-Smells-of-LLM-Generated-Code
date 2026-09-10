@@ -1,0 +1,7 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 110). [LineLength]: 1
+DesignForExtension: Class 'Inventory' looks like designed for extension (can be subclassed), but the method 'addProduct' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Inventory' final or making the method 'addProduct' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 5
+FinalParameters: Parameter product should be final. [FinalParameters]: 7
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 6

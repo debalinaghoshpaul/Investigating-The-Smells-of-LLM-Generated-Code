@@ -1,0 +1,100 @@
+import java.util.Scanner;
+
+public class JavaInstalled {
+
+    public static void main(String[] args) {
+        // Create a Scanner object to read input from the console.
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user to enter the Java version.
+        System.out.println("Enter the Java version: ");
+
+        // Read the Java version from the console.
+        String javaVersion = scanner.nextLine();
+
+        // Check if the Java version is not empty.
+        if (javaVersion.isEmpty()) {
+            // If the Java version is empty, print an error message and exit the program.
+            System.out.println("Error: The Java version cannot be empty.");
+            System.exit(1);
+        }
+
+        // Check if the Java version is valid.
+        if (!isValidJavaVersion(javaVersion)) {
+            // If the Java version is not valid, print an error message and exit the program.
+            System.out.println("Error: The Java version is not valid.");
+            System.exit(1);
+        }
+
+        // Check if Java is installed on the computer.
+        if (isJavaInstalled(javaVersion)) {
+            // If Java is installed on the computer, print a message indicating that Java is installed.
+            System.out.println("Java is installed on your computer.");
+        } else {
+            // If Java is not installed on the computer, print a message indicating that Java is not installed.
+            System.out.println("Java is not installed on your computer.");
+        }
+    }
+
+    /**
+     * Checks if the given Java version is valid.
+     *
+     * @param javaVersion The Java version to check.
+     * @return True if the Java version is valid, false otherwise.
+     */
+    private static boolean isValidJavaVersion(String javaVersion) {
+        // Check if the Java version is null.
+        if (javaVersion == null) {
+            return false;
+        }
+
+        // Check if the Java version is empty.
+        if (javaVersion.isEmpty()) {
+            return false;
+        }
+
+        // Check if the Java version is a valid format.
+        if (!javaVersion.matches("^(\\d+\\.\\d+\\.\\d+).*")) {
+            return false;
+        }
+
+        // Check if the Java version is a valid version.
+        if (!JavaVersion.isValidVersion(javaVersion)) {
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * Checks if Java is installed on the computer.
+     *
+     * @param javaVersion The Java version to check.
+     * @return True if Java is installed on the computer, false otherwise.
+     */
+    private static boolean isJavaInstalled(String javaVersion) {
+        try {
+            // Create a Runtime object.
+            Runtime runtime = Runtime.getRuntime();
+
+            // Execute the Java command.
+            Process process = runtime.exec("java -version");
+
+            // Get the output from the Java command.
+            Scanner scanner = new Scanner(process.getInputStream());
+
+            // Check if the output from the Java command contains the Java version.
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+
+                if (line.contains(javaVersion)) {
+                    return true;
+                }
+            }
+
+            return false;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+}

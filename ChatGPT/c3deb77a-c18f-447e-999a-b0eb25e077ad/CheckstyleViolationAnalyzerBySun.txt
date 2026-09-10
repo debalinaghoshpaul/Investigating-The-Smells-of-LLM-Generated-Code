@@ -1,0 +1,12 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 125). [LineLength]: 5
+DesignForExtension: Class 'BookStore' looks like designed for extension (can be subclassed), but the method 'trackSalesStatus' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BookStore' final or making the method 'trackSalesStatus' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 3
+WhitespaceAfter: 'if' is not followed by whitespace. [WhitespaceAfter]: 1
+WhitespaceAround: 'if' is not followed by whitespace. [WhitespaceAround]: 1
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 8
+FinalParameters: Parameter bookCategory should be final. [FinalParameters]: 8
+HiddenField: 'bookCategory' hides a field. [HiddenField]: 6
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 7
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 5
+MagicNumber: '20.99' is a magic number. [MagicNumber]: 6

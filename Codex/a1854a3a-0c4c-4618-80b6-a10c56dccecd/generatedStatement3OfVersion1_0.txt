@@ -1,0 +1,12 @@
+
+
+**Test Cases for Rotate a String**
+
+* **Corner cases:**
+    * Empty string: `str = ""`
+    * Offset greater than string length: `str = "abc", offset = 5`
+    * Negative offset: `str = "abc", offset = -2`
+
+* **Normal cases:**
+    * Offset within string length: `str = "abcde", offset = 2`
+    * Offset equal to string length: `str = "abcde", offset = 5`

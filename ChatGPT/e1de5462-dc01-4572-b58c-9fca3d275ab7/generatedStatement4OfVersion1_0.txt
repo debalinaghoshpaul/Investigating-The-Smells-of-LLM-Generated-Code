@@ -1,0 +1,4 @@
+
+
+**2. Corner Case (Zero Salary):**
+

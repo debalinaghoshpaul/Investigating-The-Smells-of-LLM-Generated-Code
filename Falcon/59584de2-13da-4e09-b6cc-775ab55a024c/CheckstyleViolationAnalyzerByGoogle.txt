@@ -1,0 +1,6 @@
+Violations by Category:
+OuterTypeFilename: The name of the outer type and the file do not match. [OuterTypeFilename]: 1
+LeftCurlyEol: '{' at column 5 should be on the previous line. [LeftCurlyEol]: 2
+NeedBraces: 'while' construct must use '{}'s. [NeedBraces]: 1
+AbbreviationAsWordInName: Abbreviation in name 'GFG' must contain no more than '1' consecutive capital letters. [AbbreviationAsWordInName]: 1
+Indentation: 'method def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]: 9

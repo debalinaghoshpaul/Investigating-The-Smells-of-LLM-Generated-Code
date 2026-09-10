@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DWHy9PAhWxRHDlWpeuBqKdRM9fTE",
+  "object" : "chat.completion",
+  "created" : 1713009410,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "public class Money {\n    private int dollars;\n    private int cents;\n\n    public Money() {\n        this.dollars = 0;\n        this.cents = 0;\n    }\n\n    public Money(int dollars, int cents) {\n        this.dollars = dollars;\n        this.cents = cents;\n    }\n\n    public Money(int dollars) {\n        this.dollars = dollars;\n        this.cents = 0;\n    }\n\n    public static Money add(Money m1, Money m2) {\n        int totalCents = m1.cents + m2.cents;\n        int extraDollars = totalCents / 100;\n        int totalDollars = m1.dollars + m2.dollars + extraDollars;\n        int remainingCents = totalCents % 100;\n\n        return new Money(totalDollars, remainingCents);\n    }\n\n    public static Money minus(Money m1, Money m2) {\n        int totalCents1 = m1.dollars * 100 + m1.cents;\n        int totalCents2 = m2.dollars * 100 + m2.cents;\n        \n        if (totalCents1 < totalCents2) {\n            System.out.println(\"Error: Cannot subtract larger amount from a smaller one\");\n            return new Money();\n        }\n        \n        int diffCents = totalCents1 - totalCents2;\n        int diffDollars = diffCents / 100;\n        int remainingCents = diffCents % 100;\n        \n        return new Money(diffDollars, remainingCents);\n    }\n\n    public int getDollars() {\n        return dollars;\n    }\n\n    public void setDollars(int dollars) {\n        this.dollars = dollars;\n    }\n\n    public int getCents() {\n        return cents;\n    }\n\n    public void setCents(int cents) {\n        this.cents = cents;\n    }\n\n    public boolean equals(Money m) {\n        return this.dollars == m.dollars && this.cents == m.cents;\n    }\n\n    @Override\n    public String toString() {\n        return \"$\" + dollars + \".\" + String.format(\"%02d\", cents);\n    }\n\n    public static void main(String[] args) {\n        Money m1 = new Money(5, 75);\n        Money m2 = new Money(3, 50);\n\n        Money sum = Money.add(m1, m2);\n        Money difference = Money.minus(m1, m2);\n\n        System.out.println(\"m1: \" + m1);\n        System.out.println(\"m2: \" + m2);\n        System.out.println(\"Sum: \" + sum);\n        System.out.println(\"Difference: \" + difference);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 190,
+    "completion_tokens" : 581,
+    "total_tokens" : 771
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

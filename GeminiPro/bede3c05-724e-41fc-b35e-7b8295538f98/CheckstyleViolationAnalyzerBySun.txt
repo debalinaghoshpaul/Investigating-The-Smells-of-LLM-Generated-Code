@@ -1,0 +1,10 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 95). [LineLength]: 1
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 2
+FinalParameters: Parameter radius should be final. [FinalParameters]: 5
+HiddenField: 'radius' hides a field. [HiddenField]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '7.0' is a magic number. [MagicNumber]: 3

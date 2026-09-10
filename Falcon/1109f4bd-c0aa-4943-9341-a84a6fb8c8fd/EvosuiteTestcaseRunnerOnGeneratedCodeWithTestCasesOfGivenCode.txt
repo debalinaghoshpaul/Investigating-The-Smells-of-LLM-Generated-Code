@@ -1,0 +1,49 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E
+Time: 0.268
+There were 7 failures:
+1) test3(testing_ChatGPT_on_java.MergeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	MergeSort cannot be resolved to a type
+	MergeSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.MergeSort_ESTest.test3(MergeSort_ESTest.java:44)
+2) test2(testing_ChatGPT_on_java.MergeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	MergeSort cannot be resolved to a type
+	MergeSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.MergeSort_ESTest.test2(MergeSort_ESTest.java:36)
+3) test5(testing_ChatGPT_on_java.MergeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	MergeSort cannot be resolved to a type
+	MergeSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.MergeSort_ESTest.test5(MergeSort_ESTest.java:76)
+4) test4(testing_ChatGPT_on_java.MergeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	MergeSort cannot be resolved to a type
+	MergeSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.MergeSort_ESTest.test4(MergeSort_ESTest.java:60)
+5) test6(testing_ChatGPT_on_java.MergeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	MergeSort cannot be resolved to a type
+	MergeSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.MergeSort_ESTest.test6(MergeSort_ESTest.java:93)
+6) test1(testing_ChatGPT_on_java.MergeSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	MergeSort cannot be resolved
+
+	at testing_ChatGPT_on_java.MergeSort_ESTest.test1(MergeSort_ESTest.java:30)
+7) test0(testing_ChatGPT_on_java.MergeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	MergeSort cannot be resolved to a type
+	MergeSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.MergeSort_ESTest.test0(MergeSort_ESTest.java:21)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+

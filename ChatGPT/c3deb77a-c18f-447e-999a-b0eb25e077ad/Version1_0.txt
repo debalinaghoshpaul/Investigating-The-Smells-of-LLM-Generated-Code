@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DVIqfobOmUC25tzfy1SzV5w9qk5K",
+  "object" : "chat.completion",
+  "created" : 1713005620,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class BookStore {\n    private static int totalBooksSold = 0;\n    \n    private String bookCategory;\n    private String author;\n    private String title;\n    private String publisher;\n    private double sellingPrice;\n    private int quantity;\n    \n    public BookStore(String bookCategory, String author, String title, String publisher, double sellingPrice, int quantity) {\n        this.bookCategory = bookCategory;\n        this.author = author;\n        this.title = title;\n        this.publisher = publisher;\n        this.sellingPrice = sellingPrice;\n        this.quantity = quantity;\n    }\n    \n    public void trackSalesStatus() {\n        System.out.println(\"Total number of books sold: \" + totalBooksSold);\n    }\n    \n    public void displayQuantity() {\n        System.out.println(\"Quantity available for book '\" + title + \"': \" + quantity);\n    }\n    \n    public void sellBook(int numSold) {\n        if(quantity >= numSold) {\n            totalBooksSold += numSold;\n            quantity -= numSold;\n            System.out.println(numSold + \" book(s) of '\" + title + \"' sold successfully.\");\n        } else {\n            System.out.println(\"Insufficient quantity available for sale.\");\n        }\n    }\n    \n    public static void main(String[] args) {\n        BookStore book1 = new BookStore(\"Kids\", \"Unknown Author\", \"Adventure Time\", \"ABC Publishing\", 20.99, 50);\n        BookStore book2 = new BookStore(\"Engineering\", \"John Smith\", \"Introduction to Java\", \"XYZ Publishing\", 29.99, 30);\n        \n        book1.sellBook(10);\n        book1.displayQuantity();\n        book1.trackSalesStatus();\n        \n        book2.sellBook(5);\n        book2.displayQuantity();\n        book2.trackSalesStatus();\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 199,
+    "completion_tokens" : 375,
+    "total_tokens" : 574
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

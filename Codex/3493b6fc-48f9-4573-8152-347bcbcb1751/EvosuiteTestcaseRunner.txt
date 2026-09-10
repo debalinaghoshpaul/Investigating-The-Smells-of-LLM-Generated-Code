@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter weight in pounds: Enter height in inches: Body Mass Index is Infinity
+.Enter weight in pounds: Enter height in inches: Body Mass Index is 117.17826327319325
+..Enter weight in pounds: .Enter weight in pounds: Enter height in inches: 
+Time: 0.533
+
+OK (5 tests)
+

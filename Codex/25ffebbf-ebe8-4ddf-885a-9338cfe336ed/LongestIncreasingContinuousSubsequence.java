@@ -1,0 +1,48 @@
+import java.util.*;
+
+public class LongestIncreasingContinuousSubsequence {
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] arr2 = {1, 2, 3, 4, 5, 6, 2, 3, 4, 5};
+        int[] arr3 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30};
+        int[] arr4 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 1};
+
+        System.out.println(findLongestIncreasingContinuousSubsequence(arr)); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        System.out.println(findLongestIncreasingContinuousSubsequence(arr2)); // [1, 2, 3, 4, 5, 6]
+        System.out.println(findLongestIncreasingContinuousSubsequence(arr3)); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+        System.out.println(findLongestIncreasingContinuousSubsequence(arr4)); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+    }
+
+    public static List<Integer> findLongestIncreasingContinuousSubsequence(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            return new ArrayList<>();
+        }
+
+        int startIndex = 0;
+        int endIndex = 0;
+        int maxLen = 1;
+
+        int currentStartIndex = 0;
+
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > arr[i - 1]) {
+                if (i - currentStartIndex + 1 > maxLen) {
+                    maxLen = i - currentStartIndex + 1;
+                    startIndex = currentStartIndex;
+                    endIndex = i;
+                }
+            } else {
+                currentStartIndex = i;
+            }
+        }
+
+        List<Integer> result = new ArrayList<>();
+
+        for (int i = startIndex; i <= endIndex; i++) {
+            result.add(arr[i]);
+        }
+
+        return result;
+    }
+}

@@ -1,0 +1,13 @@
+Starting audit...
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:2:1: Top-level class Animal has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:12:1: Top-level class Lion has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:12:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:24:1: Top-level class Tiger has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:24:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:36:1: Top-level class Panther has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:36:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:48:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:48:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:49:3: Missing a Javadoc comment. [MissingJavadocMethod]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\9528e08c-2181-486a-9b81-c0e9ff2f6ddb\GivenSolution.java:52:5: Distance between variable 'panther' declaration and its first usage is 5, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value). [VariableDeclarationUsageDistance]
+Audit done.

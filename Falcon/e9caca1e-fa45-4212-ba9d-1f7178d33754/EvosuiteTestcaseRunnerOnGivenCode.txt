@@ -1,0 +1,13 @@
+JUnit version 4.13
+.Input first number: Input second number: Input third number: Neither all are equal or different
+.Input first number: .Input first number: .Input first number: Input second number: Input third number: Neither all are equal or different
+.Input first number: Input second number: Input third number: All numbers are equal
+.Input first number: Input second number: Input third number: Neither all are equal or different
+.Input first number: Input second number: Input third number: All numbers are different
+..Input first number: Input second number: Input third number: All numbers are different
+.Input first number: Input second number: Input third number: Neither all are equal or different
+
+Time: 0.426
+
+OK (10 tests)
+

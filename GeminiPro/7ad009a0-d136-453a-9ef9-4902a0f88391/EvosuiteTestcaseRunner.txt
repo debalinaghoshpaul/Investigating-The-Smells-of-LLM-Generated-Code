@@ -1,0 +1,8 @@
+JUnit version 4.13
+.....Original Array: [1, 4, 17, 7, 25, 3, 100]
+3 largest elements of the said array are: [17, 25, 100]
+..
+Time: 0.345
+
+OK (7 tests)
+

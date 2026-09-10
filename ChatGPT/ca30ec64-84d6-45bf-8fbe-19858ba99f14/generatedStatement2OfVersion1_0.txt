@@ -1,0 +1,22 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: Time zone offset to GMT: 256
+* Expected Output: Current time is 23:40:24
+
+**Corner Cases:**
+
+* Input: Time zone offset to GMT: 0
+* Expected Output: Current time is 00:00:00
+
+* Input: Time zone offset to GMT: -240
+* Expected Output: Current time is 04:00:00
+
+* Input: Time zone offset to GMT: 1440
+* Expected Output: Current time is 00:00:00
+
+* Input: Time zone offset to GMT: -1440
+* Expected Output: Current time is 00:00:00

@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.375
+There were 5 failures:
+1) test1(testing_ChatGPT_on_java.Exception_OddNumber_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exception_OddNumber.checkEvenNumber(OddNumberException.java:19)
+	at testing_ChatGPT_on_java.Exception_OddNumber_ESTest.test1(Exception_OddNumber_ESTest.java:28)
+2) test0(testing_ChatGPT_on_java.Exception_OddNumber_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exception_OddNumber.checkEvenNumber(OddNumberException.java:19)
+	at testing_ChatGPT_on_java.Exception_OddNumber_ESTest.test0(Exception_OddNumber_ESTest.java:21)
+3) test3(testing_ChatGPT_on_java.Exception_OddNumber_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exception_OddNumber must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exception_OddNumber.<init>(OddNumberException.java:2)
+	at testing_ChatGPT_on_java.Exception_OddNumber_ESTest.test3(Exception_OddNumber_ESTest.java:46)
+4) test2(testing_ChatGPT_on_java.Exception_OddNumber_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exception_OddNumber.trynumber(OddNumberException.java:10)
+	at testing_ChatGPT_on_java.Exception_OddNumber_ESTest.test2(Exception_OddNumber_ESTest.java:41)
+5) test4(testing_ChatGPT_on_java.Exception_OddNumber_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exception_OddNumber.main(OddNumberException.java:3)
+	at testing_ChatGPT_on_java.Exception_OddNumber_ESTest.test4(Exception_OddNumber_ESTest.java:52)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

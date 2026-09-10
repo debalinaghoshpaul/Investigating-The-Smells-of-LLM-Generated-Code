@@ -1,0 +1,20 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+    * Input first string: Once in a blue moon
+    * Input second string: See eye to eye
+    * Expected output: false
+* **Corner case 1:**
+    * Input first string: ""
+    * Input second string: abc
+    * Expected output: true
+* **Corner case 2:**
+    * Input first string: abc
+    * Input second string: ""
+    * Expected output: false
+* **Corner case 3:**
+    * Input first string: abc
+    * Input second string: abc
+    * Expected output: true

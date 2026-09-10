@@ -1,0 +1,111 @@
+```java
+import java.util.*;
+
+public class WordFrequency {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the text
+        String text = scanner.nextLine();
+
+        // Split the text into words
+        String[] words = text.split(" ");
+
+        // Create a map to store the word frequencies
+        Map<String, Integer> wordFrequencies = new HashMap<>();
+
+        // Count the frequency of each word
+        for (String word : words) {
+            if (wordFrequencies.containsKey(word)) {
+                wordFrequencies.put(word, wordFrequencies.get(word) + 1);
+            } else {
+                wordFrequencies.put(word, 1);
+            }
+        }
+
+        // Find the word with the highest frequency
+        String mostFrequentWord = "";
+        int maxFrequency = 0;
+        for (Map.Entry<String, Integer> entry : wordFrequencies.entrySet()) {
+            if (entry.getValue() > maxFrequency) {
+                mostFrequentWord = entry.getKey();
+                maxFrequency = entry.getValue();
+            }
+        }
+
+        // Find the word with the most letters
+        String longestWord = "";
+        int maxLength = 0;
+        for (String word : words) {
+            if (word.length() > maxLength) {
+                longestWord = word;
+                maxLength = word.length();
+            }
+        }
+
+        // Print the most frequent word and the word with the most letters
+        System.out.println("Most frequent word: " + mostFrequentWord);
+        System.out.println("Word with the most letters: " + longestWord);
+    }
+}
+```
+
+**Test Cases:**
+
+**Input:**
+
+```
+The programming language you need to use is java. Can you also generate test cases including corner cases to test the program?
+```
+
+**Output:**
+
+```
+Most frequent word: the
+Word with the most letters: programming
+```
+
+**Test Case 2:**
+
+**Input:**
+
+```
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+```
+
+**Output:**
+
+```
+Most frequent word: a
+Word with the most letters: a
+```
+
+**Test Case 3:**
+
+**Input:**
+
+```
+1 2 3 4 5 6 7 8 9 0
+```
+
+**Output:**
+
+```
+Most frequent word: 1
+Word with the most letters: 1
+```
+
+**Test Case 4:**
+
+**Input:**
+
+```
+```
+
+**Output:**
+
+```
+Most frequent word: null
+Word with the most letters: null
+```

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yCxUxrphll7JTK8d1okQ5UeQZqS",
+  "object" : "chat.completion",
+  "created" : 1710256795,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class EvenOddCounter {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        System.out.print(\"Enter the size of the array: \");\n        int n = sc.nextInt();\n\n        int[] arr = new int[n];\n        System.out.println(\"Enter the elements of the array:\");\n        for (int i = 0; i < n; i++) {\n            arr[i] = sc.nextInt();\n        }\n\n        int evenCount = 0;\n        int oddCount = 0;\n\n        for (int num : arr) {\n            if (num % 2 == 0) {\n                evenCount++;\n            } else {\n                oddCount++;\n            }\n        }\n\n        System.out.println(\"Number of even integers: \" + evenCount);\n        System.out.println(\"Number of odd integers: \" + oddCount);\n\n        sc.close();\n    }\n}\n```\n\nThis program takes the size of the array and the elements of the array as input from the user, then it counts the number of even and odd integers in the array and prints the result."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 71,
+    "completion_tokens" : 230,
+    "total_tokens" : 301
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

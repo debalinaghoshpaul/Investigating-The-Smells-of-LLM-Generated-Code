@@ -1,0 +1,3 @@
+
+
+This program uses a `LinkedHashSet` to store unique elements from the input array. Then, it creates a new array with the unique elements and prints it out. You can run this program to see the output.

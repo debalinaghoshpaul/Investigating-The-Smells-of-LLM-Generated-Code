@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\a1b64daa-1172-47da-a910-d690d9c959f3\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\a1b64daa-1172-47da-a910-d690d9c959f3\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\a1b64daa-1172-47da-a910-d690d9c959f3\generatedProgram1OfVersion1_0.java:14: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\a1b64daa-1172-47da-a910-d690d9c959f3\generatedProgram1OfVersion1_0.java:14:48: Parameter date1 should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\a1b64daa-1172-47da-a910-d690d9c959f3\generatedProgram1OfVersion1_0.java:14:65: Parameter date2 should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\a1b64daa-1172-47da-a910-d690d9c959f3\generatedProgram1OfVersion1_0.java:26:29: Parameter args should be final. [FinalParameters]
+Audit done.

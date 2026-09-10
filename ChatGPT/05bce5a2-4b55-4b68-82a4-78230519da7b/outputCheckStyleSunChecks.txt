@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:3:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:5: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:8: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:10: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:11: Line is longer than 80 characters (found 127). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:13: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:14:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\05bce5a2-4b55-4b68-82a4-78230519da7b\generatedProgram1OfVersion1_0.java:14:42: Parameter n should be final. [FinalParameters]
+Audit done.

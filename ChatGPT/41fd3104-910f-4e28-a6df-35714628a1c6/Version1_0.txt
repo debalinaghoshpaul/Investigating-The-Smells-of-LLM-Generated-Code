@@ -1,0 +1,43 @@
+```java
+// Animal.java
+public class Animal {
+    public void makeSound() {
+        System.out.println("Animal makes a sound.");
+    }
+}
+
+// Cat.java
+public class Cat extends Animal {
+    @Override
+    public void makeSound() {
+        System.out.println("Meow!");
+    }
+}
+
+// Main.java
+public class Main {
+    public static void main(String[] args) {
+        Animal animal = new Animal();
+        animal.makeSound(); // Output: Animal makes a sound.
+
+        Cat cat = new Cat();
+        cat.makeSound(); // Output: Meow!
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: Create an instance of the Animal class and call its makeSound() method.
+* Input: Create an instance of the Cat class and call its makeSound() method.
+* Input: Create an array of Animal objects and iterate through them, calling the makeSound() method on each object.
+
+**Corner Cases:**
+
+* Input: Create an instance of the Animal class and attempt to call a non-existent method on it.
+* Input: Create an instance of the Cat class and attempt to call a non-existent method on it.
+* Input: Attempt to create an instance of an abstract class (e.g., Animal).
+* Input: Attempt to cast an object to a subclass that it is not an instance of (e.g., casting an Animal object to a Cat object).
+* Input: Pass a null value to the constructor of an Animal or Cat object.

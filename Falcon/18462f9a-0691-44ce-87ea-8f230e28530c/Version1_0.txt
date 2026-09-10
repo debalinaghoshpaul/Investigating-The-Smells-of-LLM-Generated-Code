@@ -1,0 +1,48 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        String lowerCaseStr = str.toLowerCase();
+        System.out.println(lowerCaseStr);
+    }
+}
+
+Output: The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The programming language you need to use is: java.
+The

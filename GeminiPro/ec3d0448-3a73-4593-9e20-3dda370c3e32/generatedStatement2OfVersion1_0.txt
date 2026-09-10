@@ -1,0 +1,10 @@
+
+
+**Test Cases:**
+
+* **Corner cases:**
+    * **Empty array:** arr3 = {}
+* **Positive cases:**
+    * **Array contains the value:** arr1 = {1, 2, 3, 4, 5}, value1 = 3
+* **Negative cases:**
+    * **Array does not contain the value:** arr2 = {6, 7, 8, 9, 10}, value2 = 11

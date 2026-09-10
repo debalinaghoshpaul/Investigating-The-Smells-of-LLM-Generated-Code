@@ -1,0 +1,121 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E
+Time: 0.363
+There were 7 failures:
+1) test3(testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+
+	at testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest.test3(BinaryTreeSubtree_ESTest.java:75)
+2) test2(testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+
+	at testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest.test2(BinaryTreeSubtree_ESTest.java:59)
+3) test5(testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest.test5(BinaryTreeSubtree_ESTest.java:105)
+4) test4(testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest.test4(BinaryTreeSubtree_ESTest.java:88)
+5) test6(testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+
+	at testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest.test6(BinaryTreeSubtree_ESTest.java:126)
+6) test1(testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved
+
+	at testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest.test1(BinaryTreeSubtree_ESTest.java:45)
+7) test0(testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved to a type
+	BinaryTreeSubtree cannot be resolved
+
+	at testing_ChatGPT_on_java.BinaryTreeSubtree_ESTest.test0(BinaryTreeSubtree_ESTest.java:20)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+

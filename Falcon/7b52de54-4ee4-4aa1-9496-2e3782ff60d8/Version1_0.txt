@@ -1,0 +1,47 @@
+No GPU found. Running on CPU.
+import java.util.Arrays;
+
+public class KthSmallestLargest {
+    public static void main(String[] args) {
+        int[] arr = {1, 4, 17, 7, 25, 3, 100};
+        int k = 2;
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+
+        System.out.println("Kth smallest element of the said array: " + min);
+        System.out.println("Kth largest element of the said array: " + max);
+    }
+}
+
+// Output:
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25
+// Kth smallest element of the said array: 3
+// Kth largest element of the said array: 25

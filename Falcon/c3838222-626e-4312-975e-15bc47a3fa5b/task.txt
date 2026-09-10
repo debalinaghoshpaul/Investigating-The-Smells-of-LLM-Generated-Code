@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to showcase the usage of the CyclicBarrier class for thread synchronization.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : c3838222-626e-4312-975e-15bc47a3fa5b.\n

@@ -1,0 +1,3 @@
+
+
+This Java program sorts the input array of integers and then calculates the largest gap between adjacent elements. Finally, it prints the original array and the largest gap.

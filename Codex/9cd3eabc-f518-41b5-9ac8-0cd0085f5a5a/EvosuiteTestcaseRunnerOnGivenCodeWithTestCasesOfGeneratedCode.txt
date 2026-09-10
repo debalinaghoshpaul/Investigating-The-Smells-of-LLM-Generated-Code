@@ -1,0 +1,13 @@
+JUnit version 4.13
+..E.
+Time: 0.348
+There was 1 failure:
+1) test1(testing_ChatGPT_on_java.Exercise5_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method count_Words(String) is undefined for the type Exercise5
+
+	at testing_ChatGPT_on_java.Exercise5_ESTest.test1(Exercise5_ESTest.java:39)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create class called "TrafficLight" with attributes for color and duration, and methods to change the color and check for red or green.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 0d7be32c-47ea-4d52-8562-adc00bd60f6b.\n

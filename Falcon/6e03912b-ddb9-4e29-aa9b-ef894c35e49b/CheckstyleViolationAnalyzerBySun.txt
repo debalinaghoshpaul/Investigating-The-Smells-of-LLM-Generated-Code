@@ -1,0 +1,9 @@
+Violations by Category:
+DesignForExtension: Class 'Employee' looks like designed for extension (can be subclassed), but the method 'getName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Employee' final or making the method 'getName' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 6
+FinalParameters: Parameter name should be final. [FinalParameters]: 7
+HiddenField: 'name' hides a field. [HiddenField]: 6
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 8
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '50000' is a magic number. [MagicNumber]: 1

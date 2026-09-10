@@ -1,0 +1,23 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: Today is June 15, 2023
+* Output: Last day of the current month: June 30, 2023
+
+**Corner Cases:**
+
+* **February in a leap year:**
+    * Input: Today is February 28, 2024 (leap year)
+    * Output: Last day of the current month: February 29, 2024
+* **February in a non-leap year:**
+    * Input: Today is February 28, 2023 (non-leap year)
+    * Output: Last day of the current month: February 28, 2023
+* **December:**
+    * Input: Today is December 31, 2022
+    * Output: Last day of the current month: December 31, 2022
+* **January:**
+    * Input: Today is January 1, 2023
+    * Output: Last day of the current month: January 31, 2023

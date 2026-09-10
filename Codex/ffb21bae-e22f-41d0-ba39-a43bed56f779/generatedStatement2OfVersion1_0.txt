@@ -1,0 +1,27 @@
+
+
+**Test Cases:**
+
+**Valid Hex Codes:**
+
+* `#FFFFFF`
+* `#000000`
+* `#123456`
+* `#ABCDEF`
+* `#abcdeF`
+
+**Invalid Hex Codes:**
+
+* `##FFFFFF` (extra hash symbol)
+* `#FFFFFFG` (invalid character)
+* `#12345` (too short)
+* `#1234567` (too long)
+* `123456` (no hash symbol)
+
+**Corner Cases:**
+
+* **Empty string:** `""` (invalid)
+* **Whitespace-only string:** `"\s"` (invalid)
+* **Invalid characters:** `"#$%^&*()"` (invalid)
+* **Hex code with leading or trailing whitespace:** `"\n#FFFFFF"` (valid)
+* **Hex code with mixed case:** `"#AbCdEf"` (valid)

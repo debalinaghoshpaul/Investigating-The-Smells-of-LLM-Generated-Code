@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\1c14311b-7a5a-4175-8123-d475585edcc9\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\1c14311b-7a5a-4175-8123-d475585edcc9\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\1c14311b-7a5a-4175-8123-d475585edcc9\generatedProgram1OfVersion1_0.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\1c14311b-7a5a-4175-8123-d475585edcc9\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\1c14311b-7a5a-4175-8123-d475585edcc9\generatedProgram1OfVersion1_0.java:3:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\1c14311b-7a5a-4175-8123-d475585edcc9\generatedProgram1OfVersion1_0.java:9: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\1c14311b-7a5a-4175-8123-d475585edcc9\generatedProgram1OfVersion1_0.java:11: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\1c14311b-7a5a-4175-8123-d475585edcc9\generatedProgram1OfVersion1_0.java:15:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\1c14311b-7a5a-4175-8123-d475585edcc9\generatedProgram1OfVersion1_0.java:15:41: Parameter word should be final. [FinalParameters]
+Audit done.

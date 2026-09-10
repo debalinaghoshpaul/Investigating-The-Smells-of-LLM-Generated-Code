@@ -1,0 +1,2 @@
+Here is an updated version of the PartiallyFilledArray class with the enhanced functionality as described in the problem description:
+

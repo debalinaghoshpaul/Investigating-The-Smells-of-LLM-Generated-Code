@@ -1,0 +1,8 @@
+
+
+**Test cases:**
+
+* **Positive test case:** The array contains a subarray with 0 sum.
+* **Negative test case:** The array does not contain a subarray with 0 sum.
+* **Corner case:** The array contains only one element.
+* **Corner case:** The array is empty.

@@ -1,0 +1,36 @@
+
+// Enter a number: 4
+// The number is not a perfect square.
+// Enter a number: 8
+// The number is not a perfect square.
+// Enter a number: 16
+// The number is a perfect square.
+// Enter a number: 32
+// The number is not a perfect square.
+// Enter a number: 64
+// The number is not a perfect square.
+// Enter a number: 128
+// The number is a perfect square.
+// Enter a number: 256
+// The number is not a perfect square.
+// Enter a number: 512
+// The number is not a perfect square.
+// Enter a number: 1024
+// The number is not a perfect square.
+// Enter a number: 2048
+// The number is not a perfect square.
+// Enter a number: 4096
+// The number is not a perfect square.
+// Enter a number: 8192
+// The number is not a perfect square.
+// Enter a number: 16384
+// The number is not a perfect square.
+// Enter a number: 32768
+// The number is not a perfect square.
+// Enter a number: 65536
+// The number is not a perfect square.
+// Enter a number: 131072
+// The number is not a perfect square.
+// Enter a number: 262144
+// The number is not a perfect square.
+// Enter a number: 524288

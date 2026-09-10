@@ -1,0 +1,2 @@
+Violations by Category:
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1

@@ -1,0 +1,41 @@
+```java
+import java.time.OffsetDateTime;
+import java.time.ZoneOffset;
+
+public class ZoneOffsets {
+
+    public static void main(String[] args) {
+        // Define a ZoneOffset for UTC
+        ZoneOffset utcOffset = ZoneOffset.UTC;
+
+        // Define a ZoneOffset for America/New_York
+        ZoneOffset newYorkOffset = ZoneOffset.ofHours(-5);
+
+        // Create an OffsetDateTime for UTC
+        OffsetDateTime utcDateTime = OffsetDateTime.now(utcOffset);
+
+        // Create an OffsetDateTime for America/New_York
+        OffsetDateTime newYorkDateTime = OffsetDateTime.now(newYorkOffset);
+
+        // Print the zone offsets
+        System.out.println("UTC Offset: " + utcOffset);
+        System.out.println("America/New_York Offset: " + newYorkOffset);
+
+        // Print the OffsetDateTimes
+        System.out.println("UTC DateTime: " + utcDateTime);
+        System.out.println("America/New_York DateTime: " + newYorkDateTime);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * ZoneOffset.ofHours(-24)
+    * ZoneOffset.ofHours(+24)
+    * ZoneOffset.ofHours(0)
+* **Regular Cases:**
+    * ZoneOffset.ofHours(-5)
+    * ZoneOffset.ofHours(+8)
+    * ZoneOffset.ofHours(-12)
+

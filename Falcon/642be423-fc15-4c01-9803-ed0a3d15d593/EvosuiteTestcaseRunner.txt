@@ -1,0 +1,114 @@
+JUnit version 4.13
+.Enter your move (left, right, up, down): 
+N*********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Enter your move (left, right, up, down): 
+..Enter your move (left, right, up, down): 
+$*********
+N*********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Enter your move (left, right, up, down): 
+.Enter your move (left, right, up, down): 
+N*********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Enter your move (left, right, up, down): 
+.Enter your move (left, right, up, down): 
+N*********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Enter your move (left, right, up, down): 
+.Enter your move (left, right, up, down): 
+$N********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Enter your move (left, right, up, down): 
+.Enter your move (left, right, up, down): 
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+*********N
+Enter your move (left, right, up, down): 
+.Enter your move (left, right, up, down): 
+**********
+N$********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Enter your move (left, right, up, down): 
+.Enter your move (left, right, up, down): 
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+*********N
+Enter your move (left, right, up, down): 
+.Enter your move (left, right, up, down): 
+**********
+**********
+**********
+**********
+**********
+******N***
+******$***
+**********
+**********
+**********
+Enter your move (left, right, up, down): 
+
+Time: 0.503
+
+OK (10 tests)
+

@@ -1,0 +1,60 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        String str = Integer.toString(num);
+        System.out.println("Input an integer: " + num + " String format of the said integer: " + str);
+    }
+}
+
+Output:
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35
+String format of the said integer: 35
+Input an integer: 35

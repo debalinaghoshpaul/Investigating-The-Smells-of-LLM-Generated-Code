@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97mKU0EZSWcQYUjbRk8uvAGLRi8fh",
+  "object" : "chat.completion",
+  "created" : 1711641102,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.concurrent.locks.StampedLock;\n\npublic class SharedResource {\n    private int resource;\n    private final StampedLock lock = new StampedLock();\n\n    public void writeResource(int newValue) {\n        long stamp = lock.writeLock();\n        try {\n            this.resource = newValue;\n        } finally {\n            lock.unlockWrite(stamp);\n        }\n    }\n\n    public int readResource() {\n        long stamp = lock.tryOptimisticRead();\n        int value = this.resource;\n        if (!lock.validate(stamp)) {\n            stamp = lock.readLock();\n            try {\n                value = this.resource;\n            } finally {\n                lock.unlockRead(stamp);\n            }\n        }\n        return value;\n    }\n\n    public static void main(String[] args) {\n        SharedResource sharedResource = new SharedResource();\n\n        // Write to shared resource\n        sharedResource.writeResource(42);\n\n        // Read from shared resource\n        int value = sharedResource.readResource();\n        System.out.println(\"Value read from shared resource: \" + value);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 74,
+    "completion_tokens" : 214,
+    "total_tokens" : 288
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

@@ -1,0 +1,6 @@
+
+Input:
+Enter the number of rows: -1
+
+Output:
+Invalid input. The number of rows must be a positive integer.

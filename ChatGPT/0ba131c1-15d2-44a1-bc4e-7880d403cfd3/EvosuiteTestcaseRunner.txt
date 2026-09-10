@@ -1,0 +1,9 @@
+JUnit version 4.13
+..........Input the string: 
+Number of vowels in the string: 3
+.Input the string: 
+
+Time: 0.423
+
+OK (11 tests)
+

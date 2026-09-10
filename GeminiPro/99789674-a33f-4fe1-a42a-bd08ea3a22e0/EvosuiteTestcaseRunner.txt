@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Enter a number: 
+.Enter a number: 
+..Enter a number: 
+Number is zero
+.Enter a number: 
+Number is positive
+.Enter a number: 
+Number is negative
+
+Time: 0.377
+
+OK (6 tests)
+

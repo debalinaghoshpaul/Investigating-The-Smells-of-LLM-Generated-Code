@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class FindNumberInMatrix {
+    public static void main(String[] args) {
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number to find: ");
+        int number = scanner.nextInt();
+
+        boolean found = false;
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (matrix[i][j] == number) {
+                    System.out.println("The number is found at position (" + i + ", " + j + ")");
+                    found = true;
+                }
+            }
+        }
+
+        if (!found) {
+            System.out.println("The number is not found");
+        }
+    }
+}

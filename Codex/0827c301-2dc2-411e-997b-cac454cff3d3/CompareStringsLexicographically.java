@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class CompareStringsLexicographically {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the two strings from the user
+        System.out.println("Enter the first string: ");
+        String firstString = scanner.nextLine();
+
+        System.out.println("Enter the second string: ");
+        String secondString = scanner.nextLine();
+
+        // Compare the two strings lexicographically
+        int comparisonResult = firstString.compareTo(secondString);
+
+        // Print the result of the comparison
+        if (comparisonResult == 0) {
+            System.out.println("The two strings are lexicographically equal.");
+        } else if (comparisonResult < 0) {
+            System.out.println("The first string is lexicographically less than the second string.");
+        } else {
+            System.out.println("The first string is lexicographically greater than the second string.");
+        }
+    }
+}

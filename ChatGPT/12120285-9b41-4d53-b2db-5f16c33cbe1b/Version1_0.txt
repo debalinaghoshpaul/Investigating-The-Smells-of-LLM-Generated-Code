@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8ykSPbyATworScJ2BpoQ011bFp0IL",
+  "object" : "chat.completion",
+  "created" : 1709488953,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n//Abstract class Shape\nabstract class Shape {\n    abstract double calculateArea();\n    abstract double calculatePerimeter();\n}\n\n//Subclass Circle\nclass Circle extends Shape {\n    double radius;\n\n    Circle(double radius) {\n        this.radius = radius;\n    }\n\n    @Override\n    double calculateArea() {\n        return Math.PI * radius * radius;\n    }\n\n    @Override\n    double calculatePerimeter() {\n        return 2 * Math.PI * radius;\n    }\n}\n\n//Subclass Triangle\nclass Triangle extends Shape {\n    double side1, side2, side3;\n\n    Triangle(double side1, double side2, double side3) {\n        this.side1 = side1;\n        this.side2 = side2;\n        this.side3 = side3;\n    }\n\n    @Override\n    double calculateArea() {\n        double s = (side1 + side2 + side3) / 2;\n        return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));\n    }\n\n    @Override\n    double calculatePerimeter() {\n        return side1 + side2 + side3;\n    }\n}\n\n//Main class\npublic class Main {\n    public static void main(String[] args) {\n        Circle circle = new Circle(5.0);\n        System.out.println(\"Circle Area: \" + circle.calculateArea());\n        System.out.println(\"Circle Perimeter: \" + circle.calculatePerimeter());\n\n        Triangle triangle = new Triangle(3.0, 4.0, 5.0);\n        System.out.println(\"Triangle Area: \" + triangle.calculateArea());\n        System.out.println(\"Triangle Perimeter: \" + triangle.calculatePerimeter());\n    }\n}\n```\nOutput:\n```\nCircle Area: 78.53981633974483\nCircle Perimeter: 31.41592653589793\nTriangle Area: 6.0\nTriangle Perimeter: 12.0\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 98,
+    "completion_tokens" : 404,
+    "total_tokens" : 502
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

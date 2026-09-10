@@ -1,0 +1,3 @@
+
+
+This code defines the Team and Competition classes, implements a deep copy constructor for the Team class, and tests the deep copy constructor by creating a copy of an existing team object, modifying the competition information for the copy, and then displaying the data for both the original and copied teams. The original team should remain unchanged after modifying the copied team.

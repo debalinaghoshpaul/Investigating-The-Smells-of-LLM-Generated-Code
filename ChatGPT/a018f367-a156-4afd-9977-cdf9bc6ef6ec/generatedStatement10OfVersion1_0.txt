@@ -1,0 +1,10 @@
+
+
+**Output:**
+
+* **Corner cases:**
+    * **No elements:** The array does not contain 10 or 30.
+    * **One element:** The array does not contain 10 or 30.
+* **Normal cases:**
+    * **With 10 or 30:** The array contains 10 or 30.
+    * **Without 10 or 30:** The array does not contain 10 or 30.

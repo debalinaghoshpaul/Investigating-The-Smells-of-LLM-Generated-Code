@@ -1,0 +1,3 @@
+
+
+The above program rearranges the given array such that every second element is greater than its left and right elements. We first sort the array in ascending order, then copy the sorted elements to a temporary array. We then iterate through the original array and fill in the elements at odd indexes from the temporary array in ascending order. Finally, we print the rearranged array.

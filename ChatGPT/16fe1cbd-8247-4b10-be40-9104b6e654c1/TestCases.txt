@@ -1,0 +1,103 @@
+**Java Program:**
+
+```java
+import java.util.*;
+
+public class RearrangeString {
+
+    public static String rearrangeString(String str, int k) {
+        if (str == null || str.length() == 0) {
+            return "";
+        }
+
+        Map<Character, Integer> map = new HashMap<>();
+        for (char c : str.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+
+        PriorityQueue<Map.Entry<Character, Integer>> pq = new PriorityQueue<>((a, b) -> b.getValue() - a.getValue());
+        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+            pq.add(entry);
+        }
+
+        StringBuilder sb = new StringBuilder();
+        while (!pq.isEmpty()) {
+            List<Map.Entry<Character, Integer>> temp = new ArrayList<>();
+            int count = k;
+            while (!pq.isEmpty() && count > 0) {
+                Map.Entry<Character, Integer> entry = pq.poll();
+                sb.append(entry.getKey());
+                entry.setValue(entry.getValue() - 1);
+                if (entry.getValue() > 0) {
+                    temp.add(entry);
+                }
+                count--;
+            }
+            for (Map.Entry<Character, Integer> entry : temp) {
+                pq.add(entry);
+            }
+            if (pq.isEmpty() && sb.length() < str.length()) {
+                return "";
+            }
+        }
+
+        return sb.toString();
+    }
+
+    public static void main(String[] args) {
+        String str = "aaabb";
+        int k = 3;
+        String result = rearrangeString(str, k);
+        System.out.println(result); // Output: abab
+
+        str = "aaabbcc";
+        k = 2;
+        result = rearrangeString(str, k);
+        System.out.println(result); // Output: abcacba
+
+        str = "aaabbbcccc";
+        k = 1;
+        result = rearrangeString(str, k);
+        System.out.println(result); // Output: abc
+
+        str = "aaabbbcccc";
+        k = 0;
+        result = rearrangeString(str, k);
+        System.out.println(result); // Output: aabbcbcc
+
+        str = "aaabbbcccc";
+        k = 4;
+        result = rearrangeString(str, k);
+        System.out.println(result); // Output: ""
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty string:**
+    * Input: ""
+    * Expected Output: ""
+* **String with only one character:**
+    * Input: "a"
+    * Expected Output: "a"
+* **Value of k greater than the length of the string:**
+    * Input: "aaabbb", k = 4
+    * Expected Output: ""
+* **Value of k equal to 0:**
+    * Input: "aaabbb", k = 0
+    * Expected Output: "aabbcbcc"
+
+**Valid Cases:**
+
+* **String with repeated characters:**
+    * Input: "aaabb", k = 3
+    * Expected Output: "abab"
+* **String with varied characters:**
+    * Input: "aaabbcc", k = 2
+    * Expected Output: "abcacba"
+* **String with multiple of k characters:**
+    * Input: "aaabbbcccc", k = 1
+    * Expected Output: "abc"

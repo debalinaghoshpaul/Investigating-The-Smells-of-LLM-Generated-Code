@@ -1,0 +1,99 @@
+```java
+import java.util.*;
+
+public class StudentScores {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the number of students
+        System.out.println("Enter the number of students: ");
+        int numStudents = input.nextInt();
+
+        // Create an array to store the students' names
+        String[] names = new String[numStudents];
+
+        // Create an array to store the students' ids
+        String[] ids = new String[numStudents];
+
+        // Create an array to store the students' marks
+        int[] marks = new int[numStudents];
+
+        // Get the students' names, ids, and marks
+        for (int i = 0; i < numStudents; i++) {
+            System.out.println("Enter the name of student " + (i + 1) + ": ");
+            names[i] = input.next();
+
+            System.out.println("Enter the id of student " + (i + 1) + ": ");
+            ids[i] = input.next();
+
+            System.out.println("Enter the mark of student " + (i + 1) + ": ");
+            marks[i] = input.nextInt();
+        }
+
+        // Find the highest and lowest scores
+        int highestScore = marks[0];
+        int lowestScore = marks[0];
+        String highestScoreName = names[0];
+        String highestScoreId = ids[0];
+        String lowestScoreName = names[0];
+        String lowestScoreId = ids[0];
+        for (int i = 1; i < numStudents; i++) {
+            if (marks[i] > highestScore) {
+                highestScore = marks[i];
+                highestScoreName = names[i];
+                highestScoreId = ids[i];
+            } else if (marks[i] < lowestScore) {
+                lowestScore = marks[i];
+                lowestScoreName = names[i];
+                lowestScoreId = ids[i];
+            }
+        }
+
+        // Display the highest and lowest scores
+        System.out.println("The highest score is: " + highestScore);
+        System.out.println("The student with the highest score is: " + highestScoreName);
+        System.out.println("The id of the student with the highest score is: " + highestScoreId);
+        System.out.println("The lowest score is: " + lowestScore);
+        System.out.println("The student with the lowest score is: " + lowestScoreName);
+        System.out.println("The id of the student with the lowest score is: " + lowestScoreId);
+    }
+}
+```
+
+Test cases:
+
+* **Normal case:**
+    * Input:
+        * Number of students: 3
+        * Student 1: John, 12345, 90
+        * Student 2: Mary, 23456, 80
+        * Student 3: Bob, 34567, 70
+    * Output:
+        * Highest score: 90
+        * Student with the highest score: John
+        * Id of the student with the highest score: 12345
+        * Lowest score: 70
+        * Student with the lowest score: Bob
+        * Id of the student with the lowest score: 34567
+* **Corner case 1:**
+    * Input:
+        * Number of students: 1
+        * Student 1: John, 12345, 90
+    * Output:
+        * Highest score: 90
+        * Student with the highest score: John
+        * Id of the student with the highest score: 12345
+        * Lowest score: 90
+        * Student with the lowest score: John
+        * Id of the student with the lowest score: 12345
+* **Corner case 2:**
+    * Input:
+        * Number of students: 0
+    * Output:
+        * Highest score: N/A
+        * Student with the highest score: N/A
+        * Id of the student with the highest score: N/A
+        * Lowest score: N/A
+        * Student with the lowest score: N/A
+        * Id of the student with the lowest score: N/A

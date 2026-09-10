@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\52734867-5cc1-411b-8099-f144863c587e - Copy\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\52734867-5cc1-411b-8099-f144863c587e - Copy\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\52734867-5cc1-411b-8099-f144863c587e - Copy\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\52734867-5cc1-411b-8099-f144863c587e - Copy\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\52734867-5cc1-411b-8099-f144863c587e - Copy\generatedProgram1OfVersion1_0.java:21:33: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\52734867-5cc1-411b-8099-f144863c587e - Copy\generatedProgram1OfVersion1_0.java:21:36: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\52734867-5cc1-411b-8099-f144863c587e - Copy\generatedProgram1OfVersion1_0.java:32: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\52734867-5cc1-411b-8099-f144863c587e - Copy\generatedProgram1OfVersion1_0.java:35: Line is longer than 80 characters (found 93). [LineLength]
+Audit done.

@@ -1,0 +1,2 @@
+
+In this program, we have an abstract class `BankAccount` with abstract methods `deposit()` and `withdraw()`. We then create two subclasses `SavingsAccount` and `CurrentAccount` which extend `BankAccount` and implement the respective methods to handle deposits and withdrawals for each account type. Finally, in the main method, we create instances of each subclass and perform deposit and withdrawal operations.

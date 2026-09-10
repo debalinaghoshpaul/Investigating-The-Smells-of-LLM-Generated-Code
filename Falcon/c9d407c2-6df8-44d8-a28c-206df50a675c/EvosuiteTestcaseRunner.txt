@@ -1,0 +1,16 @@
+JUnit version 4.13
+..Input string: pq
+Matches the pattern: true
+
+Test cases:
+paqr matches: false
+ppq matches: true
+p matches: false
+pqrr matches: false
+p1q matches: true
+p?q matches: true
+
+Time: 0.391
+
+OK (2 tests)
+

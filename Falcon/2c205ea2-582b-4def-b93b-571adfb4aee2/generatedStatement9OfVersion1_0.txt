@@ -1,0 +1,7 @@
+
+Test Case 3:
+Input:
+radius = -5
+
+Expected Output:
+Exception: Radius cannot be negative.

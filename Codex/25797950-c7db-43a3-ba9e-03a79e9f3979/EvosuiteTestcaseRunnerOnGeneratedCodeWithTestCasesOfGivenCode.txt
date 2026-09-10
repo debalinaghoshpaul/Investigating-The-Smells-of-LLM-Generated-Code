@@ -1,0 +1,124 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.348
+There were 17 failures:
+1) test05(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test05(Airplane_ESTest.java:70)
+2) test16(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method setScheduledDeparture(LocalTime) is undefined for the type Airplane
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test16(Airplane_ESTest.java:175)
+3) test04(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test04(Airplane_ESTest.java:62)
+4) test15(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method getDelayTime() is undefined for the type Airplane
+	The method delay(int) is undefined for the type Airplane
+	The method checkStatus() is undefined for the type Airplane
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test15(Airplane_ESTest.java:164)
+5) test03(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test03(Airplane_ESTest.java:52)
+6) test14(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method getScheduledDeparture() is undefined for the type Airplane
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test14(Airplane_ESTest.java:156)
+7) test02(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method setFlightNumber(String) is undefined for the type Airplane
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test02(Airplane_ESTest.java:43)
+8) test13(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method setDestination(String) is undefined for the type Airplane
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test13(Airplane_ESTest.java:148)
+9) test01(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method getScheduledDeparture() is undefined for the type Airplane
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test01(Airplane_ESTest.java:34)
+10) test12(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test12(Airplane_ESTest.java:140)
+11) test00(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method delay(int) is undefined for the type Airplane
+	The method checkStatus() is undefined for the type Airplane
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test00(Airplane_ESTest.java:26)
+12) test11(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test11(Airplane_ESTest.java:132)
+13) test10(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test10(Airplane_ESTest.java:124)
+14) test09(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method checkStatus() is undefined for the type Airplane
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test09(Airplane_ESTest.java:116)
+15) test08(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method delay(int) is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test08(Airplane_ESTest.java:99)
+16) test07(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method delay(int) is undefined for the type Airplane
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test07(Airplane_ESTest.java:91)
+17) test06(testing_ChatGPT_on_java.Airplane_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Airplane(String, String, LocalTime) is undefined
+	The method getDelayTime() is undefined for the type Airplane
+	The method delay(int) is undefined for the type Airplane
+	The method getDelayTime() is undefined for the type Airplane
+
+	at testing_ChatGPT_on_java.Airplane_ESTest.test06(Airplane_ESTest.java:80)
+
+FAILURES!!!
+Tests run: 17,  Failures: 17
+

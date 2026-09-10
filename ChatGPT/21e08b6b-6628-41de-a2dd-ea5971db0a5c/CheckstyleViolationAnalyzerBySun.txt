@@ -1,0 +1,12 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 102). [LineLength]: 1
+MultipleVariableDeclarations: Each variable declaration must be in its own statement. [MultipleVariableDeclarations]: 1
+VisibilityModifier: Variable 'data' must be private and have accessor methods. [VisibilityModifier]: 3
+FinalParameters: Parameter data should be final. [FinalParameters]: 4
+HiddenField: 'data' hides a field. [HiddenField]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+UnusedImports: Unused import - java.util.LinkedList. [UnusedImports]: 2
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '3' is a magic number. [MagicNumber]: 7

@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class MaxAvgSubarray {
+    public static void main(String[] args) {
+        int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int k = 3;
+        int max = Integer.MIN_VALUE;
+        int start = 0;
+        int end = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (i == 0 || arr[i]!= arr[i - 1]) {
+                start = i;
+            }
+            if (i == arr.length - 1 || arr[i]!= arr[i + 1]) {
+                end = i;
+            }
+            if (start < 0 || end < 0 || start >= arr.length || end >= arr.length) {
+                continue;
+            }
+            max = Math.max(max, arr[start] + arr[end]);
+            start++;
+            end++;
+        }
+        System.out.println(max);
+    }
+}
+

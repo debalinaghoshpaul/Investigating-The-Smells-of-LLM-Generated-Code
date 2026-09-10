@@ -1,0 +1,13 @@
+
+
+**Corner Cases:**
+
+* **Negative Input:**
+    * Input: -5
+    * Expected Output: "Invalid input. Natural numbers must be positive."
+* **Zero Input:**
+    * Input: 0
+    * Expected Output: "Invalid input. Natural numbers must be greater than 0."
+* **Large Input:**
+    * Input: 100000
+    * Expected Output: "Invalid input. Natural numbers must be less than or equal to 10."

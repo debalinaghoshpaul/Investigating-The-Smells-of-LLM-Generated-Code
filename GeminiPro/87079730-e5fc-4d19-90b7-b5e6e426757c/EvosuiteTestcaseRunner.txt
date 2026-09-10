@@ -1,0 +1,23 @@
+JUnit version 4.13
+.E.E
+Time: 0.487
+There were 2 failures:
+1) test0(testing_ChatGPT_on_java.Exercise14_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	The type LinkedList is not generic; it cannot be parameterized with arguments <String>
+	The type LinkedList is not generic; it cannot be parameterized with arguments <String>
+
+	at testing_ChatGPT_on_java.Exercise14.main(RemoveAllElementsLinkedList.java:6)
+	at testing_ChatGPT_on_java.Exercise14_ESTest.test0(Exercise14_ESTest.java:21)
+2) test1(testing_ChatGPT_on_java.Exercise14_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	The public type Exercise14 must be defined in its own file
+	The type LinkedList is not generic; it cannot be parameterized with arguments <String>
+	The type LinkedList is not generic; it cannot be parameterized with arguments <String>
+
+	at testing_ChatGPT_on_java.Exercise14.<init>(RemoveAllElementsLinkedList.java:3)
+	at testing_ChatGPT_on_java.Exercise14_ESTest.test1(Exercise14_ESTest.java:27)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

@@ -1,0 +1,7 @@
+JUnit version 4.13
+...........A pair with the sum 10 exists in the array.
+....
+Time: 0.468
+
+OK (15 tests)
+

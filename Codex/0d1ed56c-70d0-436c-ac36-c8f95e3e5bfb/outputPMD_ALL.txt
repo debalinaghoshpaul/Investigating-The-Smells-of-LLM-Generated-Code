@@ -1,0 +1,5 @@
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_DateTime\0d1ed56c-70d0-436c-ac36-c8f95e3e5bfb\generatedProgram1OfVersion1_0.java:3:	UnnecessaryImport:	Unused import 'java.time.temporal.ChronoUnit'
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_DateTime\0d1ed56c-70d0-436c-ac36-c8f95e3e5bfb\generatedProgram1OfVersion1_0.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_DateTime\0d1ed56c-70d0-436c-ac36-c8f95e3e5bfb\generatedProgram1OfVersion1_0.java:5:	CommentRequired:	Class comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_DateTime\0d1ed56c-70d0-436c-ac36-c8f95e3e5bfb\generatedProgram1OfVersion1_0.java:5:	UseUtilityClass:	This utility class has a non-private constructor
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_DateTime\0d1ed56c-70d0-436c-ac36-c8f95e3e5bfb\generatedProgram1OfVersion1_0.java:6:	CommentRequired:	Public method and constructor comments are required

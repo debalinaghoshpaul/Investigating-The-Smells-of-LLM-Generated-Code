@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95DZXrfspfe7EjwVBLvD6FFyAFdPy",
+  "object" : "chat.completion",
+  "created" : 1711030839,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class WordExtractor {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        \n        System.out.println(\"Enter a sentence:\");\n        String input = sc.nextLine();\n        \n        String[] words = input.split(\"[^a-zA-Z0-9]\");\n        \n        for (String word : words) {\n            if (word.length() >= 3 && word.length() <= 6) {\n                System.out.println(word);\n            }\n        }\n    }\n}\n```\n\nExample input:\n```\nEnter a sentence:\nHello, how are you doing today?\n```\n\nOutput:\n```\nHello\nhow\nare\nyou\ndoing\ntoday\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 183,
+    "completion_tokens" : 145,
+    "total_tokens" : 328
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,41 @@
+```java
+import java.util.Calendar;
+import java.util.TimeZone;
+
+public class PrintCurrentTimeInGMT {
+
+    public static void main(String[] args) {
+        // Create a calendar object and set it to the current time in GMT.
+        Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("GMT"));
+
+        // Get the current time from the calendar.
+        int hour = calendar.get(Calendar.HOUR_OF_DAY);
+        int minute = calendar.get(Calendar.MINUTE);
+        int second = calendar.get(Calendar.SECOND);
+
+        // Print the current time to the console.
+        System.out.println("Current time is " + hour + ":" + minute + ":" + second);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: Time zone offset to GMT: 256
+* Expected Output: Current time is 23:40:24
+
+**Corner Cases:**
+
+* Input: Time zone offset to GMT: 0
+* Expected Output: Current time is 00:00:00
+
+* Input: Time zone offset to GMT: -240
+* Expected Output: Current time is 04:00:00
+
+* Input: Time zone offset to GMT: 1440
+* Expected Output: Current time is 00:00:00
+
+* Input: Time zone offset to GMT: -1440
+* Expected Output: Current time is 00:00:00

@@ -1,0 +1,51 @@
+**Test Cases**
+
+**Positive Test Cases:**
+
+* **Test Case 1:**
+   * **Input:** "Hello", "Hello"
+   * **Expected Output:** True
+
+* **Test Case 2:**
+   * **Input:** "javaTpoint", "JavaTpoint"
+   * **Expected Output:** True
+
+* **Test Case 3:**
+   * **Input:** "12345", "12345"
+   * **Expected Output:** True
+
+**Negative Test Cases:**
+
+* **Test Case 4:**
+   * **Input:** "Hello", "Hi"
+   * **Expected Output:** False
+
+* **Test Case 5:**
+   * **Input:** "javaTpoint", "Java Point"
+   * **Expected Output:** False
+
+* **Test Case 6:**
+   * **Input:** "12345", "54321"
+   * **Expected Output:** False
+
+**Corner Cases:**
+
+* **Test Case 7:**
+   * **Input:** Null, "Hello"
+   * **Expected Output:** NullPointerException
+
+* **Test Case 8:**
+   * **Input:** "Hello", Null
+   * **Expected Output:** NullPointerException
+
+* **Test Case 9:**
+   * **Input:** Empty string, Empty string
+   * **Expected Output:** True
+
+* **Test Case 10:**
+   * **Input:** "HelloWorld", "Hello"
+   * **Expected Output:** False
+
+* **Test Case 11:**
+   * **Input:** "Hello", "HelloWorld"
+   * **Expected Output:** False

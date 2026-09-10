@@ -1,0 +1,117 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.501
+There were 16 failures:
+1) test06(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	The method minmax(int) is undefined for the type PancakeSort
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test06(PancakeSort_ESTest.java:147)
+2) test07(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	The method flip(int[], int) in the type PancakeSort is not applicable for the arguments (int)
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test07(PancakeSort_ESTest.java:169)
+3) test08(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor PancakeSort(int[]) is undefined
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test08(PancakeSort_ESTest.java:176)
+4) test09(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	heap cannot be resolved or is not a field
+	The method flip(int[], int) in the type PancakeSort is not applicable for the arguments (int)
+	The method minmax(int) is undefined for the type PancakeSort
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test09(PancakeSort_ESTest.java:190)
+5) test02(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	heap cannot be resolved or is not a field
+	heap cannot be resolved or is not a field
+	heap cannot be resolved or is not a field
+	The method sort(int, int) is undefined for the type PancakeSort
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test02(PancakeSort_ESTest.java:72)
+6) test13(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	The method sort(int, int) is undefined for the type PancakeSort
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test13(PancakeSort_ESTest.java:267)
+7) test03(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	The method minmax(int) is undefined for the type PancakeSort
+	The method flip(int[], int) in the type PancakeSort is not applicable for the arguments (int)
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test03(PancakeSort_ESTest.java:101)
+8) test14(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	heap cannot be resolved or is not a field
+	heap cannot be resolved or is not a field
+	The method minmax(int) is undefined for the type PancakeSort
+	The method sort(int, int) is undefined for the type PancakeSort
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test14(PancakeSort_ESTest.java:282)
+9) test04(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	heap cannot be resolved or is not a field
+	heap cannot be resolved or is not a field
+	The method flip(int[], int) in the type PancakeSort is not applicable for the arguments (int)
+	The method flip(int[], int) in the type PancakeSort is not applicable for the arguments (int)
+	The method sort(int, int) is undefined for the type PancakeSort
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test04(PancakeSort_ESTest.java:121)
+10) test15(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	heap cannot be resolved or is not a field
+	The method sort(int, int) is undefined for the type PancakeSort
+	The method sort(int, int) is undefined for the type PancakeSort
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test15(PancakeSort_ESTest.java:293)
+11) test05(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor PancakeSort(int[]) is undefined
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test05(PancakeSort_ESTest.java:133)
+12) test10(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	heap cannot be resolved or is not a field
+	heap cannot be resolved or is not a field
+	The method sort(int, int) is undefined for the type PancakeSort
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test10(PancakeSort_ESTest.java:218)
+13) test00(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	heap cannot be resolved or is not a field
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test00(PancakeSort_ESTest.java:30)
+14) test11(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor PancakeSort(int[]) is undefined
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test11(PancakeSort_ESTest.java:240)
+15) test01(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor PancakeSort(int[]) is undefined
+	The method sort(int, int) is undefined for the type PancakeSort
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test01(PancakeSort_ESTest.java:49)
+16) test12(testing_ChatGPT_on_java.PancakeSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor PancakeSort(int[]) is undefined
+
+	at testing_ChatGPT_on_java.PancakeSort_ESTest.test12(PancakeSort_ESTest.java:257)
+
+FAILURES!!!
+Tests run: 16,  Failures: 16
+

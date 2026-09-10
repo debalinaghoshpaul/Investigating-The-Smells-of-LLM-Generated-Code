@@ -1,0 +1,42 @@
+```java
+import java.security.Security;
+import java.util.Properties;
+
+public class SystemPropertiesAndEnvironment {
+
+    public static void main(String[] args) {
+        // Get the current system environment
+        Properties environment = System.getenv();
+        for (String key : environment.stringPropertyNames()) {
+            System.out.println(key + ": " + environment.getProperty(key));
+        }
+
+        // Get the current system properties
+        Properties properties = System.getProperties();
+        for (String key : properties.stringPropertyNames()) {
+            System.out.println(key + ": " + properties.getProperty(key));
+        }
+
+        // Check whether a security manager has already been established for the current application
+        if (System.getSecurityManager() != null) {
+            System.out.println("A security manager has already been established for the current application");
+        } else {
+            System.out.println("A security manager has not been established for the current application");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Run the program on a system with a variety of environment variables and system properties set.
+* Run the program on a system with no environment variables or system properties set.
+
+**Corner Cases:**
+
+* Run the program on a system where the environment variable or system property value is very long.
+* Run the program on a system where the environment variable or system property value contains special characters.
+* Run the program on a system where the security manager has been established.
+* Run the program on a system where the security manager has not been established.

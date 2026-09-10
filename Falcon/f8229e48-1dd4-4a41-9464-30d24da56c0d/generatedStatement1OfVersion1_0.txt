@@ -1,0 +1,8 @@
+
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+['H', 'e', 'l', 'l', 'o','', 'W', 'o', 'r', 'l', 'd','', 'W', 'o', 'r', 'l', 'd']
+['H', 'e', 'l', 'l', 'o','', 'W', 'o', 'r', 'l', 'd','', 'W', 'o', 'r', 'l', 'd']
+['H', 'e', 'l', 'l', 'o','', 'W', 'o', 'r', 'l', 'd','', 'W', 'o', 'r', 'l', 'd']
+['H', 'e', 'l', 'l', 'o','', 'W', 'o', 'r', 'l', 'd','', 'W', 'o', 'r', 'l', 'd']
+['H', 'e', 'l', 'l', 'o','', '

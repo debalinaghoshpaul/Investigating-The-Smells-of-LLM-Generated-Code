@@ -1,0 +1,4 @@
+
+File file = new File("test-directory");
+file.setReadable(false);
+file.setWritable(false);

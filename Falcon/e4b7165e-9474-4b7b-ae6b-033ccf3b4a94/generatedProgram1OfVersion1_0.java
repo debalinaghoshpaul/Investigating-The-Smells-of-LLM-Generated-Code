@@ -1,0 +1,55 @@
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.Callable;
+
+public class CallableFuture {
+    public static void main(String[] args) throws InterruptedException {
+        ExecutorService executorService = Executors.newCachedThreadPool();
+        Future<Integer> future = executorService.submit(new Callable<Integer>() {
+            @Override
+            public Integer call() throws Exception {
+                Thread.sleep(1000);
+                return 10;
+            }
+        });
+        System.out.println(future.get());
+    }
+}
+
+class Callable<T> {
+    public T call() throws Exception {
+        return null;
+    }
+}
+
+class Future<T> {
+    public T get() throws Exception {
+        return null;
+    }
+}
+
+public class TestCase {
+    public static void main(String[] args) throws InterruptedException {
+        ExecutorService executorService = Executors.newCachedThreadPool();
+        Future<Integer> future = executorService.submit(new Callable<Integer>() {
+            @Override
+            public Integer call() throws Exception {
+                Thread.sleep(1000);
+                return 10;
+            }
+        });
+        System.out.println(future.get());
+    }
+}
+
+class Callable<T> {
+    public T call() throws Exception {
+        return null;
+    }
+}
+
+class Future<T> {
+    public T get() throws Exception {
+        return null;
+    }
+}

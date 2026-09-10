@@ -1,0 +1,11 @@
+JUnit version 4.13
+.Input first number: .Input first number: Input second number: Input third number: Neither increasing or decreasing order
+.Input first number: Input second number: Input third number: Neither increasing or decreasing order
+.Input first number: .Input first number: Input second number: Input third number: Neither increasing or decreasing order
+..Input first number: Input second number: Input third number: Neither increasing or decreasing order
+.Input first number: Input second number: Input third number: Neither increasing or decreasing order
+
+Time: 0.5
+
+OK (8 tests)
+

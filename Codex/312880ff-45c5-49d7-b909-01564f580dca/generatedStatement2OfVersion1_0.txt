@@ -1,0 +1,9 @@
+
+
+**Test cases:**
+
+* **Normal case:** The program should successfully append text to an existing file.
+* **Empty file:** The program should successfully append text to an empty file.
+* **Non-existent file:** The program should create a new file and append text to it.
+* **Invalid file name:** The program should throw an exception if the file name is invalid.
+* **Insufficient permissions:** The program should throw an exception if the user does not have sufficient permissions to write to the file.

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9CsLmP7sJsBftPgddlYQ2JHIPpf5N",
+  "object" : "chat.completion",
+  "created" : 1712855886,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class BillGenerator {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        \n        String[] names = new String[3];\n        int[] quantities = new int[3];\n        double[] prices = new double[3];\n        \n        for (int i = 0; i < 3; i++) {\n            System.out.println(\"Input name of item \" + (i+1) + \":\");\n            names[i] = sc.nextLine();\n            \n            System.out.println(\"Input quantity of item \" + (i+1) + \":\");\n            quantities[i] = sc.nextInt();\n            \n            System.out.println(\"Input price of item \" + (i+1) + \":\");\n            prices[i] = sc.nextDouble();\n            \n            sc.nextLine(); // Consume the newline character\n        }\n        \n        System.out.println(\"\\nYour bill:\\n\");\n        System.out.printf(\"%-30s %-10s %-10s %-10s\\n\", \"Item\", \"Quantity\", \"Price\", \"Total\");\n        \n        double subtotal = 0.0;\n        for (int i = 0; i < 3; i++) {\n            double total = quantities[i] * prices[i];\n            subtotal += total;\n            System.out.printf(\"%-30s %-10d %-10.2f %-10.2f\\n\", names[i], quantities[i], prices[i], total);\n        }\n        \n        double salesTax = subtotal * 0.0625;\n        double total = subtotal + salesTax;\n        \n        System.out.printf(\"\\n%-30s %-10.2f\\n\", \"Subtotal\", subtotal);\n        System.out.printf(\"%-30s %-10.2f\\n\", \"6.25% sales tax\", salesTax);\n        System.out.printf(\"%-30s %-10.2f\\n\", \"Total\", total);\n        \n        sc.close();\n    }\n\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 305,
+    "completion_tokens" : 397,
+    "total_tokens" : 702
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

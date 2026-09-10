@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        if (str.equals("Python")) {
+            System.out.println("Python");
+        } else if (str.equals("C++")) {
+            System.out.println("C++");
+        } else {
+            System.out.println("Java");
+        }
+    }
+}
+
+// 

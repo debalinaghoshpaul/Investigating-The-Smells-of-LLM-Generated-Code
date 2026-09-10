@@ -1,0 +1,94 @@
+**Problem 1: Find the Index of First Unique Character in a String**
+
+**Java Code:**
+
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class FirstUniqueCharacterIndex {
+
+    public static int findFirstUniqueCharacterIndex(String str) {
+        Map<Character, Integer> characterCounts = new HashMap<>();
+
+        // Count the occurrences of each character
+        for (char c : str.toCharArray()) {
+            characterCounts.merge(c, 1, Integer::sum);
+        }
+
+        // Find the first character with count 1
+        for (int i = 0; i < str.length(); i++) {
+            if (characterCounts.get(str.charAt(i)) == 1) {
+                return i;
+            }
+        }
+
+        // No unique character found
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        String str = "wresource";
+        int index = findFirstUniqueCharacterIndex(str);
+        System.out.println("First unique character of the above: " + index);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Input:** "wresource"
+* **Output:** 0
+* **Input:** "geeksforgeeks"
+* **Output:** 0
+* **Input:** "aaaaa"
+* **Output:** -1 (No unique character)
+
+**Problem 2: Check if a String is a Permutation of Another String**
+
+**Java Code:**
+
+```java
+import java.util.Arrays;
+
+public class StringPermutation {
+
+    public static boolean isPermutation(String str1, String str2) {
+        // Check if the strings are the same length
+        if (str1.length() != str2.length()) {
+            return false;
+        }
+
+        // Sort both strings
+        char[] arr1 = str1.toCharArray();
+        Arrays.sort(arr1);
+
+        char[] arr2 = str2.toCharArray();
+        Arrays.sort(arr2);
+
+        // Check if the sorted strings are equal
+        return Arrays.equals(arr1, arr2);
+    }
+
+    public static void main(String[] args) {
+        String str1 = "xxyz";
+        String str2 = "yxzx";
+        boolean result = isPermutation(str1, str2);
+        System.out.println("Original strings: " + str1 + " " + str2);
+        System.out.println("Permutation: " + result);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Input:** "xxyz", "yxzx"
+* **Output:** true (Permutation)
+* **Input:** "abc", "def"
+* **Output:** false (Not a permutation)
+* **Input:** "a", "aa"
+* **Output:** false (Not a permutation)
+* **Input:** "Hello", "hello"
+* **Output:** true (Permutation, ignoring case)
+* **Corner Case:** **Input:** "null", "not null"
+* **Output:** false (Second string is not a permutation of the null string)

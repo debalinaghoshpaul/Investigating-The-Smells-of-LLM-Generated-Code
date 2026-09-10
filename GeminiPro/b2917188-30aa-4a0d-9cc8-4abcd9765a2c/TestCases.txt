@@ -1,0 +1,50 @@
+**Java program:**
+
+```java
+import java.util.Scanner;
+
+public class CheckStringEnd {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the two strings from the user
+        System.out.println("Enter first string:");
+        String str1 = scanner.nextLine();
+
+        System.out.println("Enter second string:");
+        String str2 = scanner.nextLine();
+
+        // Convert the strings to lowercase for case-insensitive comparison
+        str1 = str1.toLowerCase();
+        str2 = str2.toLowerCase();
+
+        // Check if str1 ends with str2
+        boolean endsWith = str1.endsWith(str2);
+
+        // Check if str2 ends with str1
+        boolean endsWith2 = str2.endsWith(str1);
+
+        // Print the result
+        if (endsWith || endsWith2) {
+            System.out.println("One of the strings appears at the end of the other.");
+        } else {
+            System.out.println("Neither string appears at the end of the other.");
+        }
+    }
+}
+```
+
+**Test cases:**
+
+**Corner cases:**
+
+* **Empty strings:** `str1 = "", str2 = ""`
+* **Strings with different lengths:** `str1 = "abc", str2 = "abcd"`
+* **Strings with spaces and special characters:** `str1 = "Hello world!", str2 = "!dlrow olleH"`
+
+**Normal cases:**
+
+* **str1 ends with str2:** `str1 = "Hello world", str2 = "world"`
+* **str2 ends with str1:** `str1 = "abcde", str2 = "cde"`
+* **Neither string ends with the other:** `str1 = "abc", str2 = "xyz"`

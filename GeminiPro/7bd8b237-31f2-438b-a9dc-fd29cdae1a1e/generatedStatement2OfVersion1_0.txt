@@ -1,0 +1,18 @@
+
+
+**Test cases:**
+
+| Input | Expected output |
+|---|---|
+| 6 | 93.53074360871938 |
+| 10 | 259.80762113533157 |
+| 0 | 0.0 |
+| -6 | Invalid input |
+| 100 | 25980.762113533157 |
+
+**Corner cases:**
+
+| Input | Expected output |
+|---|---|
+| 0 | 0.0 |
+| Negative value | Invalid input |

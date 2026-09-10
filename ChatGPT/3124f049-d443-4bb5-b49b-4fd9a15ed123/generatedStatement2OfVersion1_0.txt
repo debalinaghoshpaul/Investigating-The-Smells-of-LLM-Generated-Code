@@ -1,0 +1,4 @@
+
+
+Output:
+Check if the array alternates between positive and negative values: true

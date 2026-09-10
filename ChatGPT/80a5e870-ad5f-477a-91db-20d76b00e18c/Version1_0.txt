@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91zYx5lgldL1WFYRgx2ybndL2LL18",
+  "object" : "chat.completion",
+  "created" : 1710262003,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.HashSet;\n\npublic class SubarrayZeroSum {\n\n    public static boolean hasSubarrayZeroSum(int[] nums) {\n        HashSet<Integer> set = new HashSet<>();\n        int sum = 0;\n\n        for (int num : nums) {\n            sum += num;\n\n            if (num == 0 || sum == 0 || set.contains(sum)) {\n                return true;\n            }\n\n            set.add(sum);\n        }\n\n        return false;\n    }\n\n    public static void main(String[] args) {\n        int[] nums1 = {1, 2, -2, 3, 4, 5, 6};\n        int[] nums2 = {1, 2, 3, 4, 5, 6};\n        int[] nums3 = {1, 2, -3, 4, 5, 6};\n\n        System.out.println(\"Does the array nums1 contain a subarray with 0 sum: \" + hasSubarrayZeroSum(nums1));\n        System.out.println(\"Does the array nums2 contain a subarray with 0 sum: \" + hasSubarrayZeroSum(nums2));\n        System.out.println(\"Does the array nums3 contain a subarray with 0 sum: \" + hasSubarrayZeroSum(nums3));\n    }\n}\n```\n\nOutput:\n```\nDoes the array nums1 contain a subarray with 0 sum: true\nDoes the array nums2 contain a subarray with 0 sum: false\nDoes the array nums3 contain a subarray with 0 sum: true\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 188,
+    "completion_tokens" : 326,
+    "total_tokens" : 514
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

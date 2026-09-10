@@ -1,0 +1,7 @@
+JUnit version 4.13
+.The ASCII value of Z is: 90
+.
+Time: 0.347
+
+OK (2 tests)
+

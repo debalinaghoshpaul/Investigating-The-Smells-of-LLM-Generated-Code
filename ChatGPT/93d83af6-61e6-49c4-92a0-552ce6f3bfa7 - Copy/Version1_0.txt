@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9Ea0vXdWS4HI3I7EEvQg3bs5di35C",
+  "object" : "chat.completion",
+  "created" : 1713262057,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is a possible implementation of the modified PizzaOrder class in Java:\n\n```java\npublic class PizzaOrder {\n    private Pizza[] pizzas;\n\n    public PizzaOrder() {\n        this.pizzas = new Pizza[0];\n    }\n\n    public void setNumPizzas(int numPizzas) {\n        this.pizzas = new Pizza[numPizzas];\n    }\n\n    public void setPizza(int index, Pizza newPizza) {\n        if (index >= 0 && index < this.pizzas.length) {\n            this.pizzas[index] = newPizza;\n        } else {\n            System.out.println(\"Index out of bounds\");\n        }\n    }\n\n    public void displayOrder() {\n        System.out.println(\"Order:\");\n        for (int i = 0; i < this.pizzas.length; i++) {\n            if (this.pizzas[i] != null) {\n                System.out.println(\"Pizza \" + (i + 1) + \": \" + this.pizzas[i].getDescription());\n            } else {\n                System.out.println(\"Pizza \" + (i + 1) + \": (No pizza)\");\n            }\n        }\n    }\n\n    public static void main(String[] args) {\n        PizzaOrder order = new PizzaOrder();\n        order.setNumPizzas(2);\n        \n        Pizza pizza1 = new Pizza(\"Margherita\", 10.99);\n        Pizza pizza2 = new Pizza(\"Pepperoni\", 12.99);\n\n        order.setPizza(0, pizza1);\n        order.setPizza(1, pizza2);\n\n        order.displayOrder();\n    }\n}\n\nclass Pizza {\n    private String description;\n    private double price;\n\n    public Pizza(String description, double price) {\n        this.description = description;\n        this.price = price;\n    }\n\n    public String getDescription() {\n        return description + \" $\" + price;\n    }\n}\n```\n\nIn this implementation, the PizzaOrder class now uses an array to store an arbitrary number of pizzas in the order. The setNumPizzas method is used to create an array of the appropriate size, and the setPizza method allows you to set a pizza at a specific index in the array. The displayOrder method prints out the details of each pizza in the order.\n\nYou can test this implementation by creating a PizzaOrder object, setting the number of pizzas, creating Pizza objects, and setting them in the order using the setPizza method. Finally, you can display the order to verify that it is working correctly."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 206,
+    "completion_tokens" : 500,
+    "total_tokens" : 706
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

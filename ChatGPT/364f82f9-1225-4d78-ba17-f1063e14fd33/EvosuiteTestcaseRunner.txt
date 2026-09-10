@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Original array of elements: prst
+Missing letter in the said array: t
+Original array of elements: ACDE
+Missing letter in the said array: E
+......
+Time: 0.487
+
+OK (7 tests)
+

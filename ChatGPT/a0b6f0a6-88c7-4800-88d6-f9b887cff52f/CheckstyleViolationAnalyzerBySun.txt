@@ -1,0 +1,10 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 89). [LineLength]: 5
+DesignForExtension: Class 'Temperature' looks like designed for extension (can be subclassed), but the method 'getDegreesCelsius' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Temperature' final or making the method 'getDegreesCelsius' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 9
+WhitespaceAfter: ',' is not followed by whitespace. [WhitespaceAfter]: 5
+FinalParameters: Parameter value should be final. [FinalParameters]: 12
+HiddenField: 'value' hides a field. [HiddenField]: 8
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 13
+MagicNumber: '5.0' is a magic number. [MagicNumber]: 15

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93Uu8ESCttwUrHW9cWzQ7qulWVRHF",
+  "object" : "chat.completion",
+  "created" : 1710620808,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "// Define the Resizable interface\ninterface Resizable {\n    void resizeWidth(int width);\n    void resizeHeight(int height);\n}\n\n// Implement the Resizable interface in the Rectangle class\nclass Rectangle implements Resizable {\n    private int width;\n    private int height;\n    \n    public Rectangle(int width, int height) {\n        this.width = width;\n        this.height = height;\n    }\n    \n    @Override\n    public void resizeWidth(int width) {\n        this.width = width;\n    }\n    \n    @Override\n    public void resizeHeight(int height) {\n        this.height = height;\n    }\n    \n    public void displayDimensions() {\n        System.out.println(\"Width: \" + width + \", Height: \" + height);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Rectangle rectangle = new Rectangle(10, 5);\n        rectangle.displayDimensions();\n        \n        rectangle.resizeWidth(15);\n        rectangle.displayDimensions();\n        \n        rectangle.resizeHeight(8);\n        rectangle.displayDimensions();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 95,
+    "completion_tokens" : 211,
+    "total_tokens" : 306
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

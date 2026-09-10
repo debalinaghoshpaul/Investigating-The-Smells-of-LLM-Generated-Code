@@ -1,0 +1,9 @@
+
+
+**Test Cases:**
+
+* **Normal case:** Resizing the rectangle to a valid width and height (e.g., width = 10, height = 8)
+* **Corner cases:**
+    * Resizing the rectangle to a negative width or height (e.g., width = -5, height = 0)
+    * Resizing the rectangle to a zero width or height (e.g., width = 0, height = 0)
+    * Resizing the rectangle to a width or height that is too large (e.g., width = Integer.MAX_VALUE, height = Integer.MAX_VALUE)

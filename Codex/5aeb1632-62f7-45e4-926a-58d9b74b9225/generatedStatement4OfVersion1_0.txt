@@ -1,0 +1,3 @@
+
+
+* **Valid file with only read permission:**

@@ -1,0 +1,69 @@
+// Java program to display the first 10 Lucas numbers
+
+class LucasNumbers {
+
+    // Function to print the first n Lucas numbers
+    public static void printLucasNumbers(int n) {
+        // Initialize the first two Lucas numbers
+        int a = 2;
+        int b = 1;
+
+        // Iterate over the remaining Lucas numbers
+        for (int i = 3; i <= n; i++) {
+            // Calculate the next Lucas number
+            int c = a + b;
+
+            // Print the Lucas number
+            System.out.println(c);
+
+            // Update the previous Lucas numbers
+            a = b;
+            b = c;
+        }
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        // Print the first 10 Lucas numbers
+        printLucasNumbers(10);
+    }
+}
+
+/*
+Test cases including corner cases:
+
+Test Case 1:
+Input: n = 1
+Expected output:
+2
+
+Test Case 2:
+Input: n = 2
+Expected output:
+2
+1
+
+Test Case 3:
+Input: n = 0
+Expected output:
+(No output, since there are no Lucas numbers to print)
+
+Test Case 4:
+Input: n = -1
+Expected output:
+(No output, since the input is not valid)
+
+Test Case 5:
+Input: n = 10
+Expected output:
+2
+1
+3
+4
+7
+11
+18
+29
+47
+76
+*/

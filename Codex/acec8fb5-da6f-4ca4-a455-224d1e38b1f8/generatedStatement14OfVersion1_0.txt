@@ -1,0 +1,5 @@
+
+
+* **Input number of terms is 0:**
+
+Input:

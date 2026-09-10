@@ -1,0 +1,8 @@
+Violations by Category:
+WhitespaceAfter: 'typecast' is not followed by whitespace. [WhitespaceAfter]: 4
+FinalParameters: Parameter args should be final. [FinalParameters]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '10' is a magic number. [MagicNumber]: 4
+OperatorWrap: '+' should be on a new line. [OperatorWrap]: 2

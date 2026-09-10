@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-99vxb1CLE19MoRDKspypacdGDr0fh",
+  "object" : "chat.completion",
+  "created" : 1712154779,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.io.IOException;\nimport java.net.URL;\nimport java.util.HashSet;\nimport java.util.Set;\nimport java.util.concurrent.ExecutorService;\nimport java.util.concurrent.Executors;\nimport java.util.concurrent.TimeUnit;\nimport java.util.regex.Matcher;\nimport java.util.regex.Pattern;\n\npublic class WebCrawler {\n    private static final int MAX_DEPTH = 2;\n    private Set<String> visitedUrls = new HashSet<>();\n    private ExecutorService executor = Executors.newFixedThreadPool(10);\n\n    public static void main(String[] args) {\n        WebCrawler webCrawler = new WebCrawler();\n        webCrawler.startCrawling(\"https://www.example.com\", 0);\n    }\n\n    public void startCrawling(String url, int depth) {\n        if (depth > MAX_DEPTH || visitedUrls.contains(url)) {\n            return;\n        }\n\n        visitedUrls.add(url);\n\n        executor.execute(() -> {\n            try {\n                System.out.println(\"Crawling: \" + url);\n                \n                URL websiteUrl = new URL(url);\n                String content = HtmlParser.getContent(websiteUrl);\n\n                if (content != null) {\n                    Set<String> links = extractLinks(content);\n                    for (String link : links) {\n                        startCrawling(link, depth + 1);\n                    }\n                }\n\n            } catch (IOException e) {\n                e.printStackTrace();\n            }\n        });\n    }\n\n    private Set<String> extractLinks(String content) {\n        Set<String> links = new HashSet<>();\n        Pattern pattern = Pattern.compile(\"<a[^>]+href=['\\\"](.*?)['\\\"][^>]*>\");\n        Matcher matcher = pattern.matcher(content);\n\n        while (matcher.find()) {\n            links.add(matcher.group(1));\n        }\n\n        return links;\n    }\n\n    public void shutdown() {\n        executor.shutdown();\n        try {\n            executor.awaitTermination(10, TimeUnit.SECONDS);\n        } catch (InterruptedException e) {\n            e.printStackTrace();\n        }\n    }\n}\n\nclass HtmlParser {\n    public static String getContent(URL url) throws IOException {\n        // Implement method to fetch content from URL\n        return null;\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 67,
+    "completion_tokens" : 427,
+    "total_tokens" : 494
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

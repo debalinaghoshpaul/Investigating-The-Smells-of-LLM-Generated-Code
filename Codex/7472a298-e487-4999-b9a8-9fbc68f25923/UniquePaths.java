@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class UniquePaths {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the dimensions of the grid
+        System.out.print("Enter the number of rows in the grid: ");
+        int m = scanner.nextInt();
+        System.out.print("Enter the number of columns in the grid: ");
+        int n = scanner.nextInt();
+
+        // Create the grid
+        int[][] grid = new int[m][n];
+
+        // Get the values for the grid
+        System.out.println("Enter the values for the grid (0 for empty space, 1 for obstacle): ");
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                grid[i][j] = scanner.nextInt();
+            }
+        }
+
+        // Find the number of unique paths
+        int numPaths = findUniquePaths(grid);
+
+        // Print the number of unique paths
+        System.out.println("Unique paths from top-left corner to bottom-right corner of the said grid: " + numPaths);
+    }
+
+    public static int findUniquePaths(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+
+        // Create a 2D array to store the number of unique paths to each cell
+        int[][] dp = new int[m][n];
+
+        // Initialize the first row and first column of the dp array
+        for (int i = 0; i < m; i++) {
+            if (grid[i][0] == 1) {
+                break;
+            }
+            dp[i][0] = 1;
+        }
+        for (int j = 0; j < n; j++) {
+            if (grid[0][j] == 1) {
+                break;
+            }
+            dp[0][j] = 1;
+        }
+
+        // Fill the rest of the dp array
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                if (grid[i][j] == 1) {
+                    dp[i][j] = 0;
+                } else {
+                    dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+                }
+            }
+        }
+
+        // Return the number of unique paths to the bottom-right corner
+        return dp[m - 1][n - 1];
+    }
+}

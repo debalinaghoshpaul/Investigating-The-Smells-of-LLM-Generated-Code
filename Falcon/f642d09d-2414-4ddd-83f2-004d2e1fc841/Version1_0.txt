@@ -1,0 +1,57 @@
+No GPU found. Running on CPU.
+public class Person {
+    private String name;
+    private int age;
+    private String country;
+
+    public Person(String name, int age, String country) {
+        this.name = name;
+        this.age = age;
+        this.country = country;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public static void main(String[] args) {
+        Person person = new Person("John", 30, "USA");
+        System.out.println(person.getName());
+        System.out.println(person.getAge());
+        System.out.println(person.getCountry());
+        person.setName("Jane");
+        person.setAge(40);
+        person.setCountry("Canada");
+        System.out.println(person.getName());
+        System.out.println(person.getAge());
+        System.out.println(person.getCountry());
+    }
+}
+
+Output:
+John
+30
+USA
+Jane
+40
+Canada

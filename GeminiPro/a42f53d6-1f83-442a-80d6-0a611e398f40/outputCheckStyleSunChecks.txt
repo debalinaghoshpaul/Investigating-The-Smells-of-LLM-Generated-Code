@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\a42f53d6-1f83-442a-80d6-0a611e398f40\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\a42f53d6-1f83-442a-80d6-0a611e398f40\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\a42f53d6-1f83-442a-80d6-0a611e398f40\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\a42f53d6-1f83-442a-80d6-0a611e398f40\generatedProgram1OfVersion1_0.java:5:38: Name 'lock' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'. [ConstantName]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\a42f53d6-1f83-442a-80d6-0a611e398f40\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\a42f53d6-1f83-442a-80d6-0a611e398f40\generatedProgram1OfVersion1_0.java:9:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\a42f53d6-1f83-442a-80d6-0a611e398f40\generatedProgram1OfVersion1_0.java:9:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\a42f53d6-1f83-442a-80d6-0a611e398f40\generatedProgram1OfVersion1_0.java:11:39: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\a42f53d6-1f83-442a-80d6-0a611e398f40\generatedProgram1OfVersion1_0.java:16:41: '10000' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\a42f53d6-1f83-442a-80d6-0a611e398f40\generatedProgram1OfVersion1_0.java:31:41: '10000' is a magic number. [MagicNumber]
+Audit done.

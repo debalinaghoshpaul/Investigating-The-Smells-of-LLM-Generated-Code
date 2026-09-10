@@ -1,0 +1,79 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class AverageSpeed {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double distance = 0;
+        double time = 0;
+        double speed = 0;
+
+        System.out.print("Enter distance: ");
+        distance = scanner.nextDouble();
+
+        System.out.print("Enter time: ");
+        time = scanner.nextDouble();
+
+        System.out.print("Enter speed: ");
+        speed = scanner.nextDouble();
+
+        double averageSpeed = (distance / time);
+
+        System.out.println("Average speed in miles per hour: " + averageSpeed);
+    }
+}
+
+Output:
+Enter distance: 15
+Enter time: 50.0
+Enter speed: 30.0
+Average speed in miles per hour: 10.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed: 0
+Average speed in miles per hour: 0.0
+
+Enter distance: 0
+Enter time: 0
+Enter speed:

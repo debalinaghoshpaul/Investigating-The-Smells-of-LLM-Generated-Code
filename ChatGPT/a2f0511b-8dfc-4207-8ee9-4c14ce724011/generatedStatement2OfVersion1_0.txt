@@ -1,0 +1,5 @@
+
+
+In this solution, we first read the list of produce items from a file called `produce.txt`. We then randomly select three items from the list to populate a `BoxOfProduce` object. We prompt the user to enter substitutions for each of the items in the box, update the box with the substitutions, and finally output the final contents of the box. 
+
+Make sure to create a file named `produce.txt` in the same directory as your Java source code file containing the list of produce items (one item per line).

@@ -1,0 +1,6 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 85). [LineLength]: 3
+FinalParameters: Parameter args should be final. [FinalParameters]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '3' is a magic number. [MagicNumber]: 10

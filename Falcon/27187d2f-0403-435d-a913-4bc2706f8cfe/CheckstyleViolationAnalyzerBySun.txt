@@ -1,0 +1,8 @@
+Violations by Category:
+DesignForExtension: Class 'Library' looks like designed for extension (can be subclassed), but the method 'addBook' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Library' final or making the method 'addBook' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 5
+FinalParameters: Parameter book should be final. [FinalParameters]: 5
+HiddenField: 'title' hides a field. [HiddenField]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 7
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1

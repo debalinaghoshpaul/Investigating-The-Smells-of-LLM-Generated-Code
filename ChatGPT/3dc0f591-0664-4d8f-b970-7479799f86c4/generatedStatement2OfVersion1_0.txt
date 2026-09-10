@@ -1,0 +1,3 @@
+ 
+
+This Java program defines a method `removeElement` that takes an array and an element to remove as input, and returns a new array without the specified element. The main method demonstrates the usage of this method by removing the element 3 from the array [1, 2, 3, 4, 5].

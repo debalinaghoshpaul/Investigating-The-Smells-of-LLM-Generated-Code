@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\defb4648-e9d0-4bc5-8120-df4c36c5bd17\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\defb4648-e9d0-4bc5-8120-df4c36c5bd17\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\defb4648-e9d0-4bc5-8120-df4c36c5bd17\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\defb4648-e9d0-4bc5-8120-df4c36c5bd17\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\defb4648-e9d0-4bc5-8120-df4c36c5bd17\generatedProgram1OfVersion1_0.java:6: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\defb4648-e9d0-4bc5-8120-df4c36c5bd17\generatedProgram1OfVersion1_0.java:9: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\defb4648-e9d0-4bc5-8120-df4c36c5bd17\generatedProgram1OfVersion1_0.java:11: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\defb4648-e9d0-4bc5-8120-df4c36c5bd17\generatedProgram1OfVersion1_0.java:13:34: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\defb4648-e9d0-4bc5-8120-df4c36c5bd17\generatedProgram1OfVersion1_0.java:13:56: '6' is a magic number. [MagicNumber]
+Audit done.

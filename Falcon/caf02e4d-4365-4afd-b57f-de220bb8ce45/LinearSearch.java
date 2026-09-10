@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class LinearSearch {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the array and the element to search for
+        System.out.println("Enter the array elements (separated by spaces): ");
+        int[] arr = getArray(input);
+        System.out.println("Enter the element to search for: ");
+        int element = input.nextInt();
+
+        // Perform linear search
+        int index = linearSearch(arr, element);
+
+        // Print the result
+        if (index != -1) {
+            System.out.println("Element found at index: " + index);
+        } else {
+            System.out.println("Element not found");
+        }
+    }
+
+    // Method to get the array elements from the input
+    private static int[] getArray(Scanner input) {
+        String[] inputArr = input.nextLine().split(" ");
+        int[] arr = new int[inputArr.length];
+        for (int i = 0; i < inputArr.length; i++) {
+            arr[i] = Integer.parseInt(inputArr[i]);
+        }
+        return arr;
+    }
+
+    // Method to perform linear search
+    private static int linearSearch(int[] arr, int element) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == element) {
+                return i;
+            }
+        }
+        return -1;
+    }
+}

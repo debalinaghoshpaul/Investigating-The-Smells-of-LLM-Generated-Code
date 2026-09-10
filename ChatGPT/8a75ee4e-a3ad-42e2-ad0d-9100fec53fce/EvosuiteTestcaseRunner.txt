@@ -1,0 +1,7 @@
+JUnit version 4.13
+..Enter number of months: Debt amount after 9 months: $138000
+..Enter number of months: .Enter number of months: ..
+Time: 0.503
+
+OK (7 tests)
+

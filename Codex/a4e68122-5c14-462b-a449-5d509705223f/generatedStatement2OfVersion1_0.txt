@@ -1,0 +1,17 @@
+
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * **Input:** 0
+    * **Expected Output:** 1
+    * **Input:** 1
+    * **Expected Output:** 0
+
+* **General Cases:**
+    * **Input:** 15
+    * **Expected Output:** 1
+    * **Input:** 28
+    * **Expected Output:** 2
+    * **Input:** 1024
+    * **Expected Output:** 10

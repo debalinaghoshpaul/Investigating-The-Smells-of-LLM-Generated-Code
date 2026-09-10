@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yRoav8XbQg5r0lSfwZ9l4JNgy1R",
+  "object" : "chat.completion",
+  "created" : 1710257716,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Main {\n    public static void main(String[] args) {\n        int[] numbers = {10, 20, 30, 40, 50, 65, 77, 90};\n        \n        boolean contains65 = false;\n        boolean contains77 = false;\n        \n        for(int num : numbers) {\n            if(num == 65) {\n                contains65 = true;\n            } else if(num == 77) {\n                contains77 = true;\n            }\n        }\n        \n        if(contains65 && contains77) {\n            System.out.println(\"Array contains both 65 and 77\");\n        } else {\n            System.out.println(\"Array does not contain both 65 and 77\");\n        }\n    }\n}\n```\n\nThis program creates an array of integers and then checks if the array contains both specified elements, 65 and 77. It iterates through the array and sets flags if it finds the specified elements. Finally, it prints whether the array contains both elements or not."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 73,
+    "completion_tokens" : 209,
+    "total_tokens" : 282
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

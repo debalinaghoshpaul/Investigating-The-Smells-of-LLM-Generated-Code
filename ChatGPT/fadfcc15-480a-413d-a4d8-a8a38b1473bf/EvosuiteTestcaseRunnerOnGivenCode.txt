@@ -1,0 +1,13 @@
+JUnit version 4.13
+....Permutations of "abc":
+abc
+acb
+bac
+bca
+cab
+cba
+.
+Time: 0.486
+
+OK (5 tests)
+

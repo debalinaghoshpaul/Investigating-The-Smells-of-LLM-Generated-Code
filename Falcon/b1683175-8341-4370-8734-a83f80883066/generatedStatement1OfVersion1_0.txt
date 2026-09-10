@@ -1,0 +1,36 @@
+
+Enter a character: Z
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90
+The ASCII value of Z is: 90

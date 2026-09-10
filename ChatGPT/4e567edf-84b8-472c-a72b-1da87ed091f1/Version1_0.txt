@@ -1,0 +1,58 @@
+```java
+import java.util.regex.*;
+
+public class PhoneNumberValidator {
+
+    public static boolean isValidPhoneNumber(String phoneNumber) {
+        // The regular expression pattern to validate a phone number
+        String regex = "^(\\+\\d{1,2}\\s)?\\(?\\d{3}\\)?[\\s.-]?\\d{3}[\\s.-]?\\d{4}$";
+
+        // Create a Pattern object
+        Pattern pattern = Pattern.compile(regex);
+
+        // Create a Matcher object
+        Matcher matcher = pattern.matcher(phoneNumber);
+
+        // Return true if the number is valid, false otherwise
+        return matcher.matches();
+    }
+
+    public static void main(String[] args) {
+        // Test cases
+        String[] phoneNumbers = {
+                "+1 (123) 456-7890",
+                "(123) 456-7890",
+                "123-456-7890",
+                "123 456 7890",
+                "+44 20 1234 5678",
+                "(02) 1234 5678",
+                "02 1234 5678",
+                "02-1234-5678",
+                "Invalid phone number",
+                "1234567890",
+                "+1 (123) 456-789"
+        };
+
+        // Validate each phone number and print the result
+        for (String phoneNumber : phoneNumbers) {
+            System.out.println(phoneNumber + ": " + isValidPhoneNumber(phoneNumber));
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+* **Valid phone numbers:**
+    * "+1 (123) 456-7890"
+    * "(123) 456-7890"
+    * "123-456-7890"
+    * "123 456 7890"
+    * "+44 20 1234 5678"
+    * "(02) 1234 5678"
+    * "02 1234 5678"
+    * "02-1234-5678"
+* **Invalid phone numbers:**
+    * "Invalid phone number"
+    * "1234567890"
+    * "+1 (123) 456-789"

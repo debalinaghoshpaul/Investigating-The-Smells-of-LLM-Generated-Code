@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xKGOLqIbbTcVZY584aQ03LhekBj",
+  "object" : "chat.completion",
+  "created" : 1710253404,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class ArrayCopy {\n\n    public static void main(String[] args) {\n        int[] originalArray = {1, 2, 3, 4, 5};\n        int[] copiedArray = new int[originalArray.length];\n\n        // Copying the array by iterating\n        for (int i = 0; i < originalArray.length; i++) {\n            copiedArray[i] = originalArray[i];\n        }\n\n        // Printing the original array\n        System.out.print(\"Original Array: \");\n        for (int num : originalArray) {\n            System.out.print(num + \" \");\n        }\n\n        System.out.println();\n\n        // Printing the copied array\n        System.out.print(\"Copied Array: \");\n        for (int num : copiedArray) {\n            System.out.print(num + \" \");\n        }\n\n    }\n}\n```\n\nThis program creates a copy of an array by iterating through each element of the original array and copying it to the new array. The original array is {1, 2, 3, 4, 5} and the copied array will have the same values. Finally, it prints both the original and copied arrays."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 66,
+    "completion_tokens" : 239,
+    "total_tokens" : 305
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

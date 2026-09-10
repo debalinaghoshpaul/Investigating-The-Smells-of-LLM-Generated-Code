@@ -1,0 +1,18 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Empty array
+* Array with a single element
+* Array with a zero element
+
+**Normal Cases:**
+
+* Array with positive elements
+* Array with negative elements
+* Array with both positive and negative elements
+
+**Input:**
+

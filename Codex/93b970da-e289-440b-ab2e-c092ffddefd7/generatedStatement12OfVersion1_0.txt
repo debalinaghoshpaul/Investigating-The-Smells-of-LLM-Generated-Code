@@ -1,0 +1,7 @@
+
+Enter the size of the array:
+100000
+Enter the elements of the array:
+100000 100001 100002 ...
+Even count: 50000
+Odd count: 50000

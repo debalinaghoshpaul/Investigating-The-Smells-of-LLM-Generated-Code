@@ -1,0 +1,43 @@
+**Java Program:**
+
+```java
+import java.util.regex.Pattern;
+
+public class StringContainsPop {
+
+    public static boolean containsPop(String str) {
+        String pattern = ".*pop.*";
+        return Pattern.matches(pattern, str);
+    }
+
+    public static void main(String[] args) {
+        String str1 = "This is a pop song";
+        String str2 = "This is not a pop song";
+        String str3 = "This is a p0p song";
+        System.out.println(containsPop(str1)); // true
+        System.out.println(containsPop(str2)); // false
+        System.out.println(containsPop(str3)); // true
+    }
+}
+```
+
+**Test Cases (including corner cases):**
+
+**Positive Test Cases:**
+
+* "This is a pop song"
+* "The pop music is great"
+* "I like to listen to pop music"
+
+**Negative Test Cases:**
+
+* "This is not a pop song"
+* "I don't like pop music"
+* "" (empty string)
+
+**Corner Cases:**
+
+* "This is a p0p song" (where the middle 'o' contains another character)
+* "Th1s 1s a p0p s0ng" (where multiple characters in the string are modified)
+* "This is a pop song." (where the string ends with a period)
+* "This is a pop song?" (where the string ends with a question mark)

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93PcFDoklFxgGQYAW4IZ6ubUICbRS",
+  "object" : "chat.completion",
+  "created" : 1710600479,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is a sample Java program that demonstrates how to get the nth element from the top of the stack:\n\n```java\nimport java.util.Stack;\n\npublic class Main {\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        \n        stack.push(10);\n        stack.push(20);\n        stack.push(30);\n        stack.push(40);\n        stack.push(50);\n\n        int n = 3; // get the 3rd element from the top of the stack\n\n        if (n <= stack.size()) {\n            int element = stack.get(stack.size() - n);\n            System.out.println(\"The \" + n + \"th element from the top of the stack is: \" + element);\n        } else {\n            System.out.println(\"Invalid value of n.\");\n        }\n    }\n}\n```\n\nThis program creates a stack of integers, pushes some elements onto the stack, and then retrieves the nth element from the top of the stack based on the value of n. The program checks if the value of n is within the bounds of the stack size before retrieving the element to avoid an `IndexOutOfBoundsException`.\n\nYou can run this program to see the output for the 3rd element from the top of the stack. Feel free to modify the value of `n` in the code to get the nth element of your choice."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 69,
+    "completion_tokens" : 276,
+    "total_tokens" : 345
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

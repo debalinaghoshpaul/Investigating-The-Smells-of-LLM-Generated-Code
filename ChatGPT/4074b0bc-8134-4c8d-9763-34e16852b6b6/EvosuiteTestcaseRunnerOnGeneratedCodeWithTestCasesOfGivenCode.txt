@@ -1,0 +1,23 @@
+JUnit version 4.13
+.Flies
+Chirps
+Runs
+Roars
+..E.E
+Time: 0.359
+There were 2 failures:
+1) test1(testing_ChatGPT_on_java.Main_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Cannot instantiate the type Animal
+	The method performAction(Animal) is undefined for the type Main
+
+	at testing_ChatGPT_on_java.Main_ESTest.test1(Main_ESTest.java:37)
+2) test0(testing_ChatGPT_on_java.Main_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method performAction(Animal) is undefined for the type Main
+
+	at testing_ChatGPT_on_java.Main_ESTest.test0(Main_ESTest.java:24)
+
+FAILURES!!!
+Tests run: 4,  Failures: 2
+

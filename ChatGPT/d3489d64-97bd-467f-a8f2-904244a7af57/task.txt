@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find the maximum product of two integers in a given array of integers.\nExample: Input : nums = { 2, 3, 5, 7, -7, 5, 8, -5 } Output: Pair is (7, 8), Maximum Product: 56\n\n\n The programming language you need to use is: java.\n\n Problem Id is : d3489d64-97bd-467f-a8f2-904244a7af57.\n

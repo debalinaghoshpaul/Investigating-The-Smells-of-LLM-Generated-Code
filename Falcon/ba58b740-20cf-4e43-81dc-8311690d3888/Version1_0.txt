@@ -1,0 +1,45 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class AddBinaryNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int firstNumber = scanner.nextInt();
+        int secondNumber = scanner.nextInt();
+        int sum = firstNumber + secondNumber;
+        System.out.println("Sum of two binary numbers: " + sum);
+    }
+}
+
+// Output: Sum of two binary numbers: 101
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, you can test the program for the following cases:
+// 1. Input first binary number is 0
+// 2. Input second binary number is 0
+// 3. Input first binary number is 1
+// 4. Input second binary number is 1
+// 5. Input first binary number is 2
+// 6. Input second binary number is 2
+// 7. Input first binary number is 3
+// 8. Input second binary number is 3
+// 9. Input first binary number is 4
+// 10. Input second binary number is 4
+// 11. Input first binary number is 5
+// 12. Input second binary number is 5
+// 13. Input first binary number is 6
+// 14. Input second binary number is 6
+// 15. Input first binary number is 7
+// 16. Input second binary number is 7
+// 17. Input first binary number is 8
+// 18. Input second binary number is 8
+// 19. Input first binary number is 9
+// 20. Input second binary number is 9
+// 21. Input first binary number is 10
+// 22. Input second binary number is 10
+// 23. Input first binary number is 11
+// 24. Input second binary number is 11
+// 25. Input first binary number is 12
+// 26. Input second binary number is 12
+// 27. Input first binary number is 13
+// 28. Input second binary number is 13

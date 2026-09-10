@@ -1,0 +1,8 @@
+Violations by Category:
+LineLength: Line is longer than 100 characters (found 101). [LineLength]: 1
+OneTopLevelClass: Top-level class Waypoint has to reside in its own source file. [OneTopLevelClass]: 1
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MemberName: Member name 'x' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'. [MemberName]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+Indentation: 'member def type' has incorrect indentation level 4, expected level should be 2. [Indentation]: 35
+AbbreviationAsWordInName: Abbreviation in name 'GPSWaypoints' must contain no more than '1' consecutive capital letters. [AbbreviationAsWordInName]: 1

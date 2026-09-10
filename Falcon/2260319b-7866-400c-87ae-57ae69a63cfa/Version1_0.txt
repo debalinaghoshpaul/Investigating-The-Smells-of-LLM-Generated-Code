@@ -1,0 +1,32 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double num = scanner.nextDouble();
+        if (num == 0) {
+            System.out.println("Zero");
+        } else if (num < 0) {
+            System.out.println("Negative");
+        } else if (num > 0) {
+            System.out.println("Positive");
+        } else {
+            System.out.println("The absolute value of the number is less than 1, or large if it exceeds 1,000,000.");
+        }
+    }
+}
+// Output:
+// Input value: 25
+// Positive number
+// The absolute value of the number is less than 1, or large if it exceeds 1,000,000.
+// Input value: -25
+// Negative number
+// The absolute value of the number is less than 1, or large if it exceeds 1,000,000.
+// Input value: 1000000
+// Positive number
+// The absolute value of the number is less than 1, or large if it exceeds 1,000,000.
+// Input value: -1000000
+// Negative number
+// The absolute value of the number is less than 1, or large if it exceeds 1,000,000.
+// Input value: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

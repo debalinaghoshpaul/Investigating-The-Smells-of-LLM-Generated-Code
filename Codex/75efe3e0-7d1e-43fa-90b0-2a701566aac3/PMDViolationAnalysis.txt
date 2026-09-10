@@ -1,0 +1,4 @@
+Violations by Category:
+LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead: 4
+CommentRequired: Class comments are required: 10
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

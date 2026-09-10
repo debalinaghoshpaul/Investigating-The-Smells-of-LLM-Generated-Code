@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Enter a string: The longest mirror image string is: YJr('(
+.Enter a string: The longest mirror image string is: 
+.Enter a string: The longest mirror image string is: uv
+..Enter a string: The longest mirror image string is: Q
+.Enter a string: 
+Time: 0.505
+
+OK (6 tests)
+

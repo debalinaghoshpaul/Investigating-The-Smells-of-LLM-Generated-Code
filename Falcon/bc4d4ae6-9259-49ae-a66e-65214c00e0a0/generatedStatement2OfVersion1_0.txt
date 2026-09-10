@@ -1,0 +1,15 @@
+
+
+**Test Cases (including corner cases):**
+
+* **Valid input:**
+    * Name: "John Doe"
+    * Age: 30
+    * Height: 72.0
+
+* **Corner cases:**
+    * **Empty name:** ""
+    * **Invalid age (not an integer):** "abc"
+    * **Negative age:** -10
+    * **Invalid height (not a double):** "5 feet"
+    * **Negative height:** -5.0

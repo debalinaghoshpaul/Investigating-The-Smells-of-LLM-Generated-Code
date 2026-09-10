@@ -1,0 +1,23 @@
+
+
+Test cases with corner cases:
+
+* **Regular cases:**
+    * Input: "aaaabbbbccccc"
+    * Output: "ab4c5"
+    * Input: "abcdef"
+    * Output: "abcdef"
+    * Input: "12345"
+    * Output: "12345"
+
+* **Corner cases:**
+    * Input: "" (empty string)
+    * Output: ""
+    * Input: "a" (single character)
+    * Output: "a1"
+    * Input: "11111" (repeating digits)
+    * Output: "15"
+    * Input: "abcdefghijkl" (long string without repetition)
+    * Output: "abcdefghijkl"
+    * Input: "12345678901234567890" (long string with digits)
+    * Output: "12345678901234567890"

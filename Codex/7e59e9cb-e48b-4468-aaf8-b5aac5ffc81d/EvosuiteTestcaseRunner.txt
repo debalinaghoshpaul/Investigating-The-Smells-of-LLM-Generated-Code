@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Largest prime factor of 123456789 is: 3803
+
+Time: 0.55
+
+OK (1 test)
+

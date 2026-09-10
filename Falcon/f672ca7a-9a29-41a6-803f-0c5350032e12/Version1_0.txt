@@ -1,0 +1,50 @@
+```java
+import java.util.Scanner;
+
+public class AverageOfThreeNumbers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the three numbers from the user
+        System.out.println("Input the first number:");
+        int firstNumber = scanner.nextInt();
+
+        System.out.println("Input the second number:");
+        int secondNumber = scanner.nextInt();
+
+        System.out.println("Input the third number:");
+        int thirdNumber = scanner.nextInt();
+
+        // Compute the average of the three numbers
+        double average = (firstNumber + secondNumber + thirdNumber) / 3.0;
+
+        // Print the average value
+        System.out.println("The average value is " + average);
+    }
+}
+```
+
+**Test Cases**
+
+**Normal Cases**
+
+* Input: 25, 45, 65
+* Expected Output: 45.0
+
+* Input: 10, 20, 30
+* Expected Output: 20.0
+
+* Input: 0, 0, 0
+* Expected Output: 0.0
+
+**Corner Cases**
+
+* Input: -10, -20, -30
+* Expected Output: -20.0
+
+* Input: 0, 100, 0
+* Expected Output: 33.33333333333333
+
+* Input: Double.MAX_VALUE, Double.MAX_VALUE, Double.MAX_VALUE
+* Expected Output: Infinity (depending on the implementation of the programming language)

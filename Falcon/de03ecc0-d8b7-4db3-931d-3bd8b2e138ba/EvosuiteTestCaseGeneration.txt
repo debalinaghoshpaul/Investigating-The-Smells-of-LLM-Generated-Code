@@ -1,0 +1,218 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: testing_ChatGPT_on_java.PowerWithoutMultiplication
+* Starting client
+* Connecting to master process on port 16155
+* Analyzing classpath: 
+  - C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\target\classes
+* Finished analyzing classpath
+* Generating tests for class testing_ChatGPT_on_java.PowerWithoutMultiplication
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 12
+  - Branch 6
+  - Exception 0
+  - MutationFactory 79
+  - Output 3
+  - Method 3
+  - MethodNoException 3
+
+[Progress:>                             0%] [Cov:>                                  0%]  - CBranchFitnessFactory 6
+* Using seed 1719561231013
+* Starting evolution
+
+[Progress:>                             0%] [Cov:====>                              12%]
+[Progress:>                             0%] [Cov:========>                          25%]
+[Progress:>                             0%] [Cov:============>                      37%]
+[Progress:>                             0%] [Cov:==================>                54%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:==========================>        77%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:=================================> 95%]
+[Progress:>                             1%] [Cov:====>                              12%]
+[Progress:>                             1%] [Cov:========>                          25%]
+[Progress:>                             1%] [Cov:============>                      37%]
+[Progress:>                             1%] [Cov:===================>               55%]
+[Progress:>                             1%] [Cov:=======================>           66%]
+[Progress:>                             1%] [Cov:==========================>        77%]
+[Progress:>                             1%] [Cov:==============================>    88%]
+[Progress:>                             1%] [Cov:==================================>99%]
+[Progress:=>                            6%] [Cov:====>                              12%]
+[Progress:=>                            6%] [Cov:========>                          25%]
+[Progress:=>                            6%] [Cov:============>                      37%]
+[Progress:=>                            6%] [Cov:===================>               55%]
+[Progress:=>                            6%] [Cov:=====================>             62%]
+[Progress:=>                            6%] [Cov:=========================>         73%]
+[Progress:=>                            6%] [Cov:=============================>     84%]
+[Progress:=>                            6%] [Cov:=================================> 96%]
+[Progress:==>                           8%] [Cov:====>                              12%]
+[Progress:==>                           8%] [Cov:========>                          25%]
+[Progress:==>                           8%] [Cov:============>                      37%]
+[Progress:==>                           8%] [Cov:==================>                54%]
+[Progress:==>                           8%] [Cov:=======================>           66%]
+[Progress:==>                           8%] [Cov:=========================>         73%]
+[Progress:==>                           8%] [Cov:==========================>        77%]
+[Progress:======>                       21%] [Cov:====>                              12%]
+[Progress:======>                       21%] [Cov:========>                          25%]
+[Progress:======>                       21%] [Cov:============>                      37%]
+[Progress:======>                       21%] [Cov:===================>               55%]
+[Progress:======>                       21%] [Cov:=======================>           66%]
+[Progress:======>                       21%] [Cov:==========================>        77%]
+[Progress:======>                       21%] [Cov:==============================>    88%]
+[Progress:=========>                    31%] [Cov:====>                              12%]
+[Progress:=========>                    31%] [Cov:========>                          25%]
+[Progress:=========>                    31%] [Cov:============>                      37%]
+[Progress:=========>                    31%] [Cov:==================>                54%]
+[Progress:=========>                    31%] [Cov:=====================>             62%]
+[Progress:=========>                    31%] [Cov:=========================>         73%]
+[Progress:=========>                    31%] [Cov:=============================>     84%]
+[Progress:=========>                    31%] [Cov:=================================> 95%]
+[Progress:==========>                   36%] [Cov:====>                              12%]
+[Progress:==========>                   36%] [Cov:========>                          25%]
+[Progress:==========>                   36%] [Cov:============>                      37%]
+[Progress:==========>                   36%] [Cov:==================>                54%]
+[Progress:==========>                   36%] [Cov:====================>              58%]
+[Progress:==========>                   36%] [Cov:========================>          69%]
+[Progress:==========>                   36%] [Cov:============================>      80%]
+[Progress:==========>                   36%] [Cov:=============================>     84%]
+[Progress:============>                 43%] [Cov:===>                               11%]
+[Progress:============>                 43%] [Cov:=======>                           21%]
+[Progress:============>                 43%] [Cov:===========>                       34%]
+[Progress:============>                 43%] [Cov:================>                  48%]
+[Progress:============>                 43%] [Cov:=====================>             60%]
+[Progress:============>                 43%] [Cov:=======================>           67%]
+[Progress:============>                 43%] [Cov:========================>          71%]
+[Progress:====================>         68%] [Cov:===>                               11%]
+[Progress:====================>         68%] [Cov:=======>                           21%]
+[Progress:====================>         68%] [Cov:===========>                       34%]
+[Progress:====================>         68%] [Cov:================>                  48%]
+[Progress:====================>         68%] [Cov:===================>               56%]
+[Progress:====================>         68%] [Cov:======================>            63%]
+[Progress:====================>         68%] [Cov:=======================>           67%]
+[Progress:====================>         68%] [Cov:=========================>         74%]
+[Progress:====================>         68%] [Cov:============================>      82%]
+[Progress:========================>     83%] [Cov:===>                               11%]
+[Progress:========================>     83%] [Cov:=======>                           21%]
+[Progress:========================>     83%] [Cov:===========>                       34%]
+[Progress:========================>     83%] [Cov:================>                  48%]
+[Progress:========================>     83%] [Cov:=====================>             60%]
+[Progress:========================>     83%] [Cov:========================>          71%]
+[Progress:========================>     83%] [Cov:============================>      80%]
+[Progress:==========================>   88%] [Cov:====>                              12%]
+[Progress:==========================>   88%] [Cov:========>                          25%]
+[Progress:==========================>   88%] [Cov:============>                      37%]
+[Progress:==========================>   88%] [Cov:===================>               55%]
+[Progress:==========================>   88%] [Cov:=======================>           66%]
+[Progress:==========================>   88%] [Cov:==========================>        77%]
+[Progress:==========================>   88%] [Cov:==============================>    86%]
+[Progress:===========================>  93%] [Cov:===>                               11%]
+[Progress:===========================>  93%] [Cov:=======>                           21%]
+[Progress:===========================>  93%] [Cov:===========>                       34%]
+[Progress:===========================>  93%] [Cov:================>                  48%]
+[Progress:===========================>  93%] [Cov:=====================>             60%]
+[Progress:===========================>  93%] [Cov:========================>          71%]
+[Progress:===========================>  93%] [Cov:============================>      80%]
+[Progress:==============================100%] [Cov:===>                               11%]
+[Progress:==============================100%] [Cov:=======>                           21%]
+[Progress:==============================100%] [Cov:===========>                       34%]
+[Progress:==============================100%] [Cov:================>                  48%]
+[Progress:==============================100%] [Cov:=====================>             60%]
+[Progress:==============================100%] [Cov:========================>          71%]
+[Progress:==============================100%] [Cov:=========================>         74%]
+[Progress:==============================100%] [Cov:==================================>99%]
+* Search finished after 63s and 0 generations, 1171 statements, best individual has fitness: 0.8333333333333333
+* Minimizing test suite
+[MASTER] 08:56:04.657 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 12
+* Number of covered goals: 12
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 99%
+* Total number of goals: 79
+* Number of covered goals: 78
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Generated 6 tests with total length 73
+* Resulting test suite's coverage: 100% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 08:57:19.600 [logback-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 5%
+* Compiling and checking tests
+[MASTER] 08:57:36.915 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ArithmeticException: / by zero
+[MASTER] 08:57:36.915 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ int int0 = (-5944);
+PowerWithoutMultiplication.power(int0, int0);
+int int1 = PowerWithoutMultiplication.power(int0, int0);
+int int2 = (-1893);
+int int3 = PowerWithoutMultiplication.power(int2, int1);
+PowerWithoutMultiplication powerWithoutMultiplication0 = new PowerWithoutMultiplication();
+int int4 = (-39);
+PowerWithoutMultiplication.power(int4, int3);
+String[] stringArray0 = new String[4];
+String string0 = "";
+stringArray0[0] = string0;
+String string1 = "";
+stringArray0[1] = string1;
+String string2 = "vZ*e<<yc@$n zY3*A";
+stringArray0[2] = string2;
+String string3 = "";
+stringArray0[3] = string3;
+PowerWithoutMultiplication.main(stringArray0);
+
+[MASTER] 08:57:41.139 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ArithmeticException: / by zero
+[MASTER] 08:57:41.139 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ PowerWithoutMultiplication powerWithoutMultiplication0 = new PowerWithoutMultiplication();
+String[] stringArray0 = new String[0];
+PowerWithoutMultiplication.main(stringArray0);
+int int0 = 0;
+int int1 = (-2309);
+PowerWithoutMultiplication.power(int0, int1);
+String[] stringArray1 = new String[0];
+PowerWithoutMultiplication.main(stringArray1);
+PowerWithoutMultiplication.main(stringArray1);
+int int2 = 0;
+PowerWithoutMultiplication.power(int2, int2);
+PowerWithoutMultiplication.main(stringArray1);
+PowerWithoutMultiplication.main(stringArray1);
+int int3 = 0;
+int int4 = (-354);
+PowerWithoutMultiplication.power(int3, int4);
+PowerWithoutMultiplication.main(stringArray1);
+PowerWithoutMultiplication.main(stringArray1);
+
+* Writing JUnit test case 'PowerWithoutMultiplication_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

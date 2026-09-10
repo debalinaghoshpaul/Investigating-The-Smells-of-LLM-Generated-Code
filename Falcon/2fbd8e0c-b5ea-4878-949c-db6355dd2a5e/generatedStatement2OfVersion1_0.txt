@@ -1,0 +1,17 @@
+
+
+### Test Cases:
+
+**Normal Cases:**
+
+- Circle with radius 5
+- Rectangle with length 4 and width 6
+- Triangle with base 3 and height 4
+
+**Corner Cases:**
+
+- Circle with radius 0
+- Rectangle with length or width 0
+- Triangle with base or height 0
+- Triangle with base or height negative
+- Triangle with base and height equal to 0 (invalid triangle)

@@ -1,0 +1,17 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:6:34: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:7:34: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:9:32: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:9:44: '12' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:11:27: '7' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:13:27: '11' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:15:27: '8' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:17:27: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:19:27: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\62f333a6-f504-453c-9b28-f157606e1827\generatedProgram1OfVersion1_0.java:25: Line has trailing spaces. [RegexpSingleline]
+Audit done.

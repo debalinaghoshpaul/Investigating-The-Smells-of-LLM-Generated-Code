@@ -1,0 +1,7 @@
+Violations by Category:
+VariableDeclarationUsageDistance: Distance between variable 'item' declaration and its first usage is 4, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value). [VariableDeclarationUsageDistance]: 1
+OneTopLevelClass: Top-level class Producer has to reside in its own source file. [OneTopLevelClass]: 3
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MemberName: Member name 'MAX_SIZE' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'. [MemberName]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+AbbreviationAsWordInName: Abbreviation in name 'MAX_SIZE' must contain no more than '1' consecutive capital letters. [AbbreviationAsWordInName]: 1

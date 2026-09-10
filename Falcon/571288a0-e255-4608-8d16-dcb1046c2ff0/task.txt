@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create an array of its anti-diagonals from a given square matrix.\nExample: Input : 1 2 3 4 Output: [ [1], [2, 3], [4] ]\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 571288a0-e255-4608-8d16-dcb1046c2ff0.\n

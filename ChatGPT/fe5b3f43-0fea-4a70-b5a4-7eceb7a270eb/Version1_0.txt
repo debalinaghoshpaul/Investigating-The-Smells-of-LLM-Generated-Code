@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91y76GKSw0AAs188ZGYWNgOJoVTxC",
+  "object" : "chat.completion",
+  "created" : 1710256432,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class FindCommonElements {\n\n    public static void main(String[] args) {\n        int[] arr1 = {1, 5, 10, 20, 40, 80};\n        int[] arr2 = {6, 7, 20, 80, 100};\n        int[] arr3 = {3, 4, 15, 20, 30, 70, 80, 120};\n\n        List<Integer> commonElements = findCommonElements(arr1, arr2, arr3);\n\n        System.out.println(\"Common elements in the three arrays are: \" + commonElements);\n    }\n\n    public static List<Integer> findCommonElements(int[] arr1, int[] arr2, int[] arr3) {\n        List<Integer> commonElements = new ArrayList<>();\n        int i = 0, j = 0, k = 0;\n\n        while (i < arr1.length && j < arr2.length && k < arr3.length) {\n            if (arr1[i] == arr2[j] && arr2[j] == arr3[k]) {\n                commonElements.add(arr1[i]);\n                i++;\n                j++;\n                k++;\n            } else if (arr1[i] < arr2[j]) {\n                i++;\n            } else if (arr2[j] < arr3[k]) {\n                j++;\n            } else {\n                k++;\n            }\n        }\n\n        return commonElements;\n    }\n}\n```\n\nThis program defines a method `findCommonElements` that takes three sorted arrays as input and finds the common elements in them by iterating through the arrays using three pointers. Finally, the program prints out the common elements found."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 72,
+    "completion_tokens" : 358,
+    "total_tokens" : 430
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

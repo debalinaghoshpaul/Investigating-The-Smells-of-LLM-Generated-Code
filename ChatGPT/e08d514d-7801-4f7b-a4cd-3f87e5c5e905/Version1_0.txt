@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yoY3GwPA5fK1KjNrKrUhU5bKC1s",
+  "object" : "chat.completion",
+  "created" : 1710259126,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\n\npublic class ZeroSumClosest {\n\n    public static void main(String[] args) {\n        int[] arr = {1, 60, -10, 70, -80, 85};\n\n        findClosestToZero(arr);\n    }\n\n    private static void findClosestToZero(int[] arr) {\n        Arrays.sort(arr);\n\n        int left = 0;\n        int right = arr.length - 1;\n\n        int closestSum = Integer.MAX_VALUE;\n        int element1 = 0;\n        int element2 = 0;\n\n        while (left < right) {\n            int sum = arr[left] + arr[right];\n\n            if (Math.abs(sum) < Math.abs(closestSum)) {\n                closestSum = sum;\n                element1 = arr[left];\n                element2 = arr[right];\n            }\n\n            if (sum < 0) {\n                left++;\n            } else {\n                right--;\n            }\n        }\n\n        System.out.println(\"Closest to zero elements: \" + element1 + \" \" + element2);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 80,
+    "completion_tokens" : 220,
+    "total_tokens" : 300
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

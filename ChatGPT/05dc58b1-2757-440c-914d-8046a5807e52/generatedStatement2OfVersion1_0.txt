@@ -1,0 +1,8 @@
+
+
+**Test cases:**
+
+* **Normal case:** The library contains multiple songs, and the `playRandomSong` method plays a random song from the library.
+* **Corner case: empty library:** The library is empty, and the `playRandomSong` method prints a message indicating that there are no songs in the library.
+* **Corner case: removing a song that does not exist:** The library does not contain a song with the specified name, and the `removeSong` method does nothing.
+* **Edge case: adding a song with the same name as an existing song:** The library already contains a song with the specified name, and the `addSong` method does nothing.

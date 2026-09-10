@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class PowerOf4 {
+
+    public static boolean isPowerOf4(int num) {
+        if (num == 0) {
+            return false;
+        }
+
+        while (num % 4 == 0) {
+            num /= 4;
+        }
+
+        return num == 1;
+    }
+
+    public static int addWithoutArithmeticOperators(int x, int y) {
+        while (y != 0) {
+            int carry = x & y;
+            x = x ^ y;
+            y = carry << 1;
+        }
+
+        return x;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Test cases for isPowerOf4()
+        int[] testNumbers = {64, 6, 16, 256, 1024, 0};
+        for (int testNumber : testNumbers) {
+            System.out.println(testNumber + " is a power of 4: " + isPowerOf4(testNumber));
+        }
+
+        // Test cases for addWithoutArithmeticOperators()
+        int[][] testPairs = {{10, 12}, {5, 7}, {0, 0}, {-5, 7}, {100, -20}};
+        for (int[] testPair : testPairs) {
+            System.out.println(testPair[0] + " + " + testPair[1] + " = " + addWithoutArithmeticOperators(testPair[0], testPair[1]));
+        }
+    }
+}

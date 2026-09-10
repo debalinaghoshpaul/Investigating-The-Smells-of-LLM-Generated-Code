@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:1:8: Unused import - java.util.ArrayList. [UnusedImports]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:3:8: Unused import - java.util.List. [UnusedImports]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:7:29: Parameter args should be final. [FinalParameters]
+Audit done.

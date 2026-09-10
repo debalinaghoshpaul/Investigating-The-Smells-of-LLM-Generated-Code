@@ -1,0 +1,16 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+    * Input: `111`
+    * Output: `7`
+* **Zero:**
+    * Input: `0`
+    * Output: `0`
+* **Negative number:**
+    * Input: `-111` (invalid input)
+* **Invalid input:**
+    * Input: `abc` (invalid input)
+* **Empty string:**
+    * Input: `` (invalid input)

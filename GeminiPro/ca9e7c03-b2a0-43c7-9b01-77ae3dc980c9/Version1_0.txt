@@ -1,0 +1,29 @@
+```java
+import java.util.Arrays;
+
+public class KSmallestElements {
+
+    public static void main(String[] args) {
+        int[] originalArray = {1, 4, 17, 7, 25, 3, 100};
+        int k = 3; // Number of smallest elements to find
+
+        // Sort the array in ascending order
+        Arrays.sort(originalArray);
+
+        // Print the k smallest elements
+        System.out.println("Original Array: " + Arrays.toString(originalArray));
+        System.out.println("K smallest elements of the said array are:");
+        for (int i = 0; i < k; i++) {
+            System.out.print(originalArray[i] + " ");
+        }
+        System.out.println();
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:** Find the 3 smallest elements in the array [1, 4, 17, 7, 25, 3, 100]. Expected output: 1, 3, 4.
+* **Corner case 1:** Find the k smallest elements in an empty array. Expected output: An empty array.
+* **Corner case 2:** Find the k smallest elements in an array with k being greater than the size of the array. Expected output: An array of all the elements in the original array, sorted in ascending order.
+* **Corner case 3:** Find the k smallest elements in an array with all the elements being the same. Expected output: An array of the k smallest elements, which are all the same.

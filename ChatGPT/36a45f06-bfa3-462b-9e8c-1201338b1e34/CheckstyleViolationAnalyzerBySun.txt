@@ -1,0 +1,8 @@
+Violations by Category:
+PackageName: Name 'testing_ChatGPT_on_java' must match pattern '^[a-z]+(\.[a-zA-Z_]\w*)*$'. [PackageName]: 1
+MultipleVariableDeclarations: Each variable declaration must be in its own statement. [MultipleVariableDeclarations]: 2
+FinalParameters: Parameter args should be final. [FinalParameters]: 3
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 3
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '10' is a magic number. [MagicNumber]: 4

@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\9aaf2dce-1e3d-459e-885c-19a0c4e26c9e\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\9aaf2dce-1e3d-459e-885c-19a0c4e26c9e\generatedProgram1OfVersion1_0.java:2:8: Unused import - java.time.LocalTime. [UnusedImports]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\9aaf2dce-1e3d-459e-885c-19a0c4e26c9e\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\9aaf2dce-1e3d-459e-885c-19a0c4e26c9e\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\9aaf2dce-1e3d-459e-885c-19a0c4e26c9e\generatedProgram1OfVersion1_0.java:7:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\9aaf2dce-1e3d-459e-885c-19a0c4e26c9e\generatedProgram1OfVersion1_0.java:9:41: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\9aaf2dce-1e3d-459e-885c-19a0c4e26c9e\generatedProgram1OfVersion1_0.java:12: Line is longer than 80 characters (found 114). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\9aaf2dce-1e3d-459e-885c-19a0c4e26c9e\generatedProgram1OfVersion1_0.java:12:61: '30' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\9aaf2dce-1e3d-459e-885c-19a0c4e26c9e\generatedProgram1OfVersion1_0.java:12:77: '15' is a magic number. [MagicNumber]
+Audit done.

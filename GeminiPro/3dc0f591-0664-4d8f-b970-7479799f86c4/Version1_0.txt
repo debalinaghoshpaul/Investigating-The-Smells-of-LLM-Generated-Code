@@ -1,0 +1,108 @@
+**Java Program:**
+
+```java
+import java.util.Arrays;
+
+public class RemoveElementFromArray {
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int elementToRemove = 5;
+
+        // Remove the element from the array
+        int[] newArr = removeElement(arr, elementToRemove);
+
+        // Print the new array
+        System.out.println(Arrays.toString(newArr));
+    }
+
+    public static int[] removeElement(int[] arr, int elementToRemove) {
+        int[] newArr = new int[arr.length - 1];
+        int index = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != elementToRemove) {
+                newArr[index] = arr[i];
+                index++;
+            }
+        }
+
+        return newArr;
+    }
+}
+```
+
+**Test Cases:**
+
+**1. Normal Case:**
+
+Input:
+```
+arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+elementToRemove = 5
+```
+Output:
+```
+[1, 2, 3, 4, 6, 7, 8, 9, 10]
+```
+
+**2. Element to Remove Not Present Case:**
+
+Input:
+```
+arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+elementToRemove = 11
+```
+Output:
+```
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+
+**3. Removing First Element Case:**
+
+Input:
+```
+arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+elementToRemove = 1
+```
+Output:
+```
+[2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+
+**4. Removing Last Element Case:**
+
+Input:
+```
+arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+elementToRemove = 10
+```
+Output:
+```
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+**5. Removing Multiple Elements Case:**
+
+Input:
+```
+arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+elementToRemove = 5
+elementToRemove = 7
+```
+Output:
+```
+[1, 2, 3, 4, 6, 8, 9, 10]
+```
+
+**6. Empty Array Case:**
+
+Input:
+```
+arr = {}
+elementToRemove = 5
+```
+Output:
+```
+[]
+```

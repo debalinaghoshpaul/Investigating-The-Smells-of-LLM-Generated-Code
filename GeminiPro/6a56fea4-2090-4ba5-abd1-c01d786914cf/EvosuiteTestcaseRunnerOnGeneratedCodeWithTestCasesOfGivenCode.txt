@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.441
+There were 5 failures:
+1) test3(testing_ChatGPT_on_java.Example109_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example109 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example109_ESTest.test3(Example109_ESTest.java:67)
+2) test2(testing_ChatGPT_on_java.Example109_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example109 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example109_ESTest.test2(Example109_ESTest.java:59)
+3) test4(testing_ChatGPT_on_java.Example109_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Example109 cannot be resolved to a type
+	Example109 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Example109_ESTest.test4(Example109_ESTest.java:73)
+4) test1(testing_ChatGPT_on_java.Example109_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example109 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example109_ESTest.test1(Example109_ESTest.java:44)
+5) test0(testing_ChatGPT_on_java.Example109_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example109 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example109_ESTest.test0(Example109_ESTest.java:27)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

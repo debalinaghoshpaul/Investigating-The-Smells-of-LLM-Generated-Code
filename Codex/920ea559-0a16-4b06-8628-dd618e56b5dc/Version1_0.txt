@@ -1,0 +1,94 @@
+```java
+import java.util.*;
+
+class FindSubarrayWithLargestSum {
+
+    public static void main(String[] args) {
+        int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        System.out.println("Maximum subarray sum: " + findMaxSubarraySum(arr));
+
+        int[] arr2 = {-2, -1, -3, -4, -1, -2, -1, -5, -4};
+        System.out.println("Maximum subarray sum: " + findMaxSubarraySum(arr2));
+
+        int[] arr3 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        System.out.println("Maximum subarray sum: " + findMaxSubarraySum(arr3));
+
+        int[] arr4 = {-1, -2, -3, -4, -5, -6, -7, -8, -9};
+        System.out.println("Maximum subarray sum: " + findMaxSubarraySum(arr4));
+
+        int[] arr5 = {};
+        System.out.println("Maximum subarray sum: " + findMaxSubarraySum(arr5));
+
+        int[] arr6 = null;
+        System.out.println("Maximum subarray sum: " + findMaxSubarraySum(arr6));
+    }
+
+    public static int findMaxSubarraySum(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            return 0;
+        }
+
+        int maxSum = arr[0];
+        int currentSum = arr[0];
+
+        for (int i = 1; i < arr.length; i++) {
+            currentSum = Math.max(arr[i], currentSum + arr[i]);
+            maxSum = Math.max(maxSum, currentSum);
+        }
+
+        return maxSum;
+    }
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+```
+Input: arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4}
+Expected Output: 6
+```
+
+**Test Case 2:**
+```
+Input: arr = {-2, -1, -3, -4, -1, -2, -1, -5, -4}
+Expected Output: -1
+```
+
+**Test Case 3:**
+```
+Input: arr = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+Expected Output: 45
+```
+
+**Test Case 4:**
+```
+Input: arr = {-1, -2, -3, -4, -5, -6, -7, -8, -9}
+Expected Output: -1
+```
+
+**Test Case 5:**
+```
+Input: arr = {}
+Expected Output: 0
+```
+
+**Test Case 6:**
+```
+Input: arr = null
+Expected Output: 0
+```
+
+**Corner Cases:**
+
+**Corner Case 1:**
+An array with only negative numbers.
+**Expected Output:** The smallest negative number in the array.
+
+**Corner Case 2:**
+An empty array.
+**Expected Output:** 0
+
+**Corner Case 3:**
+A null array.
+**Expected Output:** 0

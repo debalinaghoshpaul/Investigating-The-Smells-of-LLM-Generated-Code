@@ -1,0 +1,5 @@
+
+
+In this implementation, the PizzaOrder class now uses an array to store an arbitrary number of pizzas in the order. The setNumPizzas method is used to create an array of the appropriate size, and the setPizza method allows you to set a pizza at a specific index in the array. The displayOrder method prints out the details of each pizza in the order.
+
+You can test this implementation by creating a PizzaOrder object, setting the number of pizzas, creating Pizza objects, and setting them in the order using the setPizza method. Finally, you can display the order to verify that it is working correctly.

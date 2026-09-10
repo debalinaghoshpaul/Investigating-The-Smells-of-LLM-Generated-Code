@@ -1,0 +1,9 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 83). [LineLength]: 1
+LocalVariableName: Name 'km_per_hour' must match pattern '^([a-z][a-zA-Z0-9]*|_)$'. [LocalVariableName]: 1
+WhitespaceAfter: 'typecast' is not followed by whitespace. [WhitespaceAfter]: 3
+FinalParameters: Parameter args should be final. [FinalParameters]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '24' is a magic number. [MagicNumber]: 3

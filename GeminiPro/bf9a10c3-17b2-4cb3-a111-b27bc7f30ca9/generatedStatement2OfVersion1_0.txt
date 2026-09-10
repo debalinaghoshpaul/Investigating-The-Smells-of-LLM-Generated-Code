@@ -1,0 +1,30 @@
+
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* **Input:** 15
+* **Expected Output:** F
+
+* **Input:** 255
+* **Expected Output:** FF
+
+* **Input:** 1000
+* **Expected Output:** 3E8
+
+**Negative Test Cases:**
+
+* **Input:** -1
+* **Expected Output:** Invalid decimal number
+
+* **Input:** 16
+* **Expected Output:** Invalid decimal number
+
+**Corner Cases:**
+
+* **Input:** 0
+* **Expected Output:** 0
+
+* **Input:** Integer.MAX_VALUE
+* **Expected Output:** 7FFFFFFF

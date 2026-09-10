@@ -1,0 +1,74 @@
+```java
+import java.util.Arrays;
+
+public class AddOneToNumber {
+
+    public static void main(String[] args) {
+        int[] num1 = {9, 9, 9, 9};
+        int[] result1 = addOne(num1);
+        System.out.println(Arrays.toString(result1)); // Output: [1, 0, 0, 0, 0]
+
+        int[] num2 = {1, 2, 3, 4, 5};
+        int[] result2 = addOne(num2);
+        System.out.println(Arrays.toString(result2)); // Output: [1, 2, 3, 4, 6]
+
+        int[] num3 = {0};
+        int[] result3 = addOne(num3);
+        System.out.println(Arrays.toString(result3)); // Output: [1]
+
+        int[] num4 = {9};
+        int[] result4 = addOne(num4);
+        System.out.println(Arrays.toString(result4)); // Output: [1, 0]
+    }
+
+    public static int[] addOne(int[] num) {
+        int[] result = new int[num.length + 1];
+
+        // Add 1 to the least significant digit
+        num[num.length - 1]++;
+
+        // Carry over any digits that need to be carried
+        for (int i = num.length - 1; i >= 0; i--) {
+            if (num[i] == 10) {
+                num[i] = 0;
+                result[i + 1]++;
+            }
+        }
+
+        // If there is a carry-over from the most significant digit, add it to the result
+        if (num[0] == 10) {
+            num[0] = 0;
+            result[0] = 1;
+        }
+
+        // Return the result
+        return result;
+    }
+}
+```
+
+**Test cases:**
+
+**Corner cases:**
+
+* **Input:** `[9, 9, 9, 9]`
+* **Output:** `[1, 0, 0, 0, 0]`
+* **Explanation:** This is the case where all digits are 9. Adding 1 to the least significant digit results in a carry-over to all the other digits, producing the result `[1, 0, 0, 0, 0]`.
+
+* **Input:** `[0]`
+* **Output:** `[1]`
+* **Explanation:** This is the case where the number represented by the array is 0. Adding 1 to 0 results in the result `[1]`.
+
+* **Input:** `[9]`
+* **Output:** `[1, 0]`
+* **Explanation:** This is the case where the number represented by the array is 9. Adding 1 to 9 results in a carry-over to the most significant digit, producing the result `[1, 0]`.
+
+**Normal cases:**
+
+* **Input:** `[1, 2, 3, 4, 5]`
+* **Output:** `[1, 2, 3, 4, 6]`
+* **Explanation:** This is a normal case where the least significant digit is not 9. Adding 1 to the least significant digit results in the result `[1, 2, 3, 4, 6]`.
+
+* **Input:** `[9, 8, 7, 6]`
+* **Output:** `[9, 8, 7, 7]`
+* **Explanation:** This is a normal case where there is a carry-over from the least significant digit to the next digit. The result is `[9, 8, 7, 7]`.

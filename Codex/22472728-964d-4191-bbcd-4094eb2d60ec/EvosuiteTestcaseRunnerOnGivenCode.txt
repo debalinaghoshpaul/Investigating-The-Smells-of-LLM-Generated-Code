@@ -1,0 +1,27 @@
+JUnit version 4.13
+..Reader MockThread-0 reads: null
+Reader MockThread-1 reads: null
+Reader MockThread-2 reads: null
+Reader MockThread-5 reads: null
+Reader MockThread-6 reads: null
+Reader MockThread-7 reads: null
+Reader MockThread-10 reads: null
+Reader MockThread-11 reads: null
+Reader MockThread-12 reads: null
+Reader MockThread-15 reads: null
+Reader MockThread-16 reads: null
+Reader MockThread-17 reads: null
+.Reader MockThread-0 reads: null
+Reader MockThread-1 reads: null
+Reader MockThread-2 reads: null
+.Reader MockThread-0 reads: null
+Reader MockThread-1 reads: null
+Reader MockThread-2 reads: Writer MockThread-3 writes: 0
+..Reader MockThread-0 reads: null
+Reader MockThread-1 reads: null
+Reader MockThread-2 reads: null
+..
+Time: 12.46
+
+OK (8 tests)
+

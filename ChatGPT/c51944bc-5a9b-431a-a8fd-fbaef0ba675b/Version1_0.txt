@@ -1,0 +1,68 @@
+```java
+import java.util.Scanner;
+
+public class SwapTwoVariables {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the two variables from the user.
+        System.out.println("Enter the first variable:");
+        int firstVariable = scanner.nextInt();
+
+        System.out.println("Enter the second variable:");
+        int secondVariable = scanner.nextInt();
+
+        // Swap the two variables using a temporary variable
+        int temp = firstVariable;
+        firstVariable= secondVariable;
+        secondVariable= temp;
+
+        // Print the swapped values.
+        System.out.println("The first variable is now: " + firstVariable);
+        System.out.println("The second variable is now: " + secondVariable);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input:
+    * firstVariable = 10
+    * secondVariable = 20
+* Output:
+    * firstVariable = 20
+    * secondVariable = 10
+
+**Corner Cases:**
+
+* Input:
+    * firstVariable = 0
+    * secondVariable = 0
+* Output:
+    * firstVariable = 0
+    * secondVariable = 0
+
+* Input:
+    * firstVariable = Integer.MAX_VALUE
+    * secondVariable = Integer.MIN_VALUE
+* Output:
+    * firstVariable = Integer.MIN_VALUE
+    * secondVariable = Integer.MAX_VALUE
+
+* Input:
+    * firstVariable = Integer.MIN_VALUE
+    * secondVariable = Integer.MAX_VALUE
+* Output:
+    * firstVariable = Integer.MAX_VALUE
+    * secondVariable = Integer.MIN_VALUE
+
+**Invalid Input Cases:**
+
+* Input:
+    * firstVariable = "abc"
+    * secondVariable = 20
+* Output:
+    * Exception: NumberFormatException

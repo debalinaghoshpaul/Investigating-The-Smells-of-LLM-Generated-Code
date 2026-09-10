@@ -1,0 +1,4 @@
+
+Input: []
+Subarray size: 4
+Output: Invalid array size

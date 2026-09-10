@@ -1,0 +1,2 @@
+
+This program calculates the debt amount after n months by adding 4% interest monthly to the borrowed amount of $100,000 and rounding the result to the nearest thousand.

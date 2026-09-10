@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94t50ejQLFaxxiC7L8TPCHnoyDiGt",
+  "object" : "chat.completion",
+  "created" : 1710952066,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        \n        System.out.print(\"Enter a positive number: \");\n        int num = input.nextInt();\n        \n        boolean found = false;\n        \n        for (int x = 0; x <= Math.sqrt(num); x++) {\n            for (int y = 0; y <= Math.sqrt(num); y++) {\n                if ((x*x + y*y) == num) {\n                    System.out.println(\"The two integers are: \" + x + \" and \" + y);\n                    found = true;\n                    break;\n                }\n            }\n            if (found) {\n                break;\n            }\n        }\n        \n        if (!found) {\n            System.out.println(\"No such integers found.\");\n        }\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 82,
+    "completion_tokens" : 175,
+    "total_tokens" : 257
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

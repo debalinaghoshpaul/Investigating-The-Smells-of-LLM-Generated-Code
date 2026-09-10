@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9457rZybYkedGT5bTQstPUoyJo9RS",
+  "object" : "chat.completion",
+  "created" : 1710760043,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.time.LocalTime;\nimport java.time.ZoneOffset;\n\npublic class CurrentTimeGMT {\n    public static void main(String[] args) {\n        int timeZoneOffset = 256;\n        \n        LocalTime currentTimeGMT = LocalTime.now(ZoneOffset.UTC).plusSeconds(timeZoneOffset);\n        \n        System.out.println(\"Current time is \" + currentTimeGMT);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 85,
+    "completion_tokens" : 75,
+    "total_tokens" : 160
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

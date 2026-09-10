@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97lwXzM2px1NEBNgNMaDYdPK4F1XW",
+  "object" : "chat.completion",
+  "created" : 1711639617,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.concurrent.Callable;\nimport java.util.concurrent.ExecutionException;\nimport java.util.concurrent.ExecutorService;\nimport java.util.concurrent.Executors;\nimport java.util.concurrent.Future;\n\npublic class CallableFutureDemo {\n    public static void main(String[] args) {\n        // Create a new ExecutorService with a fixed thread pool size of 1\n        ExecutorService executor = Executors.newFixedThreadPool(1);\n        \n        // Create a Callable task that returns a result of type String\n        Callable<String> callableTask = new Callable<String>() {\n            @Override\n            public String call() throws Exception {\n                Thread.sleep(2000); // Simulate a time-consuming task\n                return \"Callable task completed\";\n            }\n        };\n        \n        // Submit the Callable task to the ExecutorService\n        Future<String> future = executor.submit(callableTask);\n        \n        // Perform other tasks while waiting for the result\n        System.out.println(\"Main thread is doing something else...\");\n        \n        try {\n            // Get the result of the Callable task once it's completed\n            String result = future.get();\n            System.out.println(result);\n        } catch (InterruptedException | ExecutionException e) {\n            e.printStackTrace();\n        }\n        \n        // Shut down the ExecutorService\n        executor.shutdown();\n    }\n}\n```\n\nThis program demonstrates how to use the `Callable` and `Future` interfaces in Java to execute tasks asynchronously and obtain their results. In this example, a `Callable` task is created that simulates a time-consuming operation and returns a result of type `String`. The task is submitted to an `ExecutorService` for execution, and a `Future` object is used to retrieve the result once the task is completed. While waiting for the task to finish, other tasks can be performed concurrently. Finally, the `ExecutorService` is shut down to clean up resources."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 77,
+    "completion_tokens" : 375,
+    "total_tokens" : 452
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

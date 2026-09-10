@@ -1,0 +1,24 @@
+
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size: 4
+// Sub-array from 0 to 3 and sum is: 10
+// Sub-array size:

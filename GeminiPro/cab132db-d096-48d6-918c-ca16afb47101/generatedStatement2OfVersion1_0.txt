@@ -1,0 +1,22 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Null values:** Test setting the name or breed to null to ensure that the program handles it gracefully.
+* **Empty strings:** Test setting the name or breed to an empty string to ensure that the program handles it correctly.
+* **Invalid input:** Test setting the breed to an invalid value to ensure that the program throws an exception or handles it appropriately.
+
+**Valid Cases:**
+
+* **Different breeds:** Test creating dogs with different breeds to ensure that the program correctly sets and retrieves the breed.
+* **Long names:** Test setting the name to a long string to ensure that the program handles it correctly.
+* **Special characters:** Test setting the name or breed to contain special characters to ensure that the program handles it correctly.
+
+**Example Test Case:**
+
+* Create a dog named "Daisy" with breed "Poodle".
+* Set the name to "Lady".
+* Set the breed to "German Shepherd".
+* Verify that the modified name and breed are printed correctly.

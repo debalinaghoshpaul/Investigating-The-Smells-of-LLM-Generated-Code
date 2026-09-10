@@ -1,0 +1,9 @@
+
+
+**Test cases:**
+
+* **Empty file:** The file is empty, so the program should throw an exception.
+* **Non-empty file:** The file contains some text, so the program should read the file and print the text.
+* **File with spaces:** The file contains some text with spaces, so the program should read the file and print the text with spaces.
+* **File with newlines:** The file contains some text with newlines, so the program should read the file and print the text with newlines.
+* **File with special characters:** The file contains some text with special characters, so the program should read the file and print the text with special characters.

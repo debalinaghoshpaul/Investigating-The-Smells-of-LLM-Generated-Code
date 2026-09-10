@@ -1,0 +1,39 @@
+```java
+import java.util.Arrays;
+
+public class BeadSort {
+
+    public static void main(String[] args) {
+        int[] arr = {3, 1, 4, 2, 5};
+        beadSort(arr);
+        System.out.println(Arrays.toString(arr)); // Output: [1, 2, 3, 4, 5]
+    }
+
+    public static void beadSort(int[] arr) {
+        int maxValue = findMaxValue(arr);
+        int[] beads = new int[maxValue + 1];
+
+        // Place beads into the rods
+        for (int num : arr) {
+            beads[num]++;
+        }
+
+        int sortedIndex = 0;
+        for (int i = 1; i < beads.length; i++) {
+            int count = beads[i];
+            while (count > 0) {
+                arr[sortedIndex++] = i;
+                count--;
+            }
+        }
+    }
+
+    private static int findMaxValue(int[] arr) {
+        int max = arr[0];
+        for (int num : arr) {
+            max = Math.max(max, num);
+        }
+        return max;
+    }
+}
+```

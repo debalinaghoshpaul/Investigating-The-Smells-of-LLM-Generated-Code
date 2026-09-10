@@ -1,0 +1,16 @@
+
+
+**Test cases:**
+
+* **Positive test cases:**
+    * Input: 5, 10, 15
+    * Input: -5, -10, -15
+    * Input: 0, 0, 0
+* **Negative test cases:**
+    * Input: 5, 10, 20
+    * Input: -5, -10, -5
+    * Input: 0, 1, 1
+* **Corner cases:**
+    * Input: 0, 0, 1
+    * Input: 0, 1, 0
+    * Input: 1, 0, 1

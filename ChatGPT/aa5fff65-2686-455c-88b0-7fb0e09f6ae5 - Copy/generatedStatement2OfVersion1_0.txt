@@ -1,0 +1,7 @@
+
+
+In this program, we read the numbers from a file named "numbers.txt" and store the first digit counts in an array. We then calculate the percentage of each digit appearing as the first digit and output the results.
+
+Make sure to create a text file named "numbers.txt" with at least 100 numbers before running the program. The numbers should be space-separated or one number per line in the file.
+
+This program provides a simple implementation of testing Benford's Law using arrays in Java.

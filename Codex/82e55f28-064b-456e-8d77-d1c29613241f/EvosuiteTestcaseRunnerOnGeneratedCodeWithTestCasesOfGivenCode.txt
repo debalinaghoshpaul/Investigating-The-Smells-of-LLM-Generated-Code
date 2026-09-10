@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.426
+There were 5 failures:
+1) test1(testing_ChatGPT_on_java.Exercise_10_11_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise_10_11 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise_10_11_ESTest.test1(Exercise_10_11_ESTest.java:38)
+2) test0(testing_ChatGPT_on_java.Exercise_10_11_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise_10_11 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise_10_11_ESTest.test0(Exercise_10_11_ESTest.java:23)
+3) test3(testing_ChatGPT_on_java.Exercise_10_11_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise_10_11 cannot be resolved to a type
+	Exercise_10_11 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise_10_11_ESTest.test3(Exercise_10_11_ESTest.java:67)
+4) test2(testing_ChatGPT_on_java.Exercise_10_11_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise_10_11 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise_10_11_ESTest.test2(Exercise_10_11_ESTest.java:54)
+5) test4(testing_ChatGPT_on_java.Exercise_10_11_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise_10_11 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise_10_11_ESTest.test4(Exercise_10_11_ESTest.java:86)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

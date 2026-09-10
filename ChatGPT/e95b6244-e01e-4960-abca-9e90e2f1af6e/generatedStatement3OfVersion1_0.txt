@@ -1,0 +1,3 @@
+
+Original Array: [1, 2, 3, 4, 5]
+Array after inserting 10 at position 2: [1, 2, 10, 3, 4, 5]

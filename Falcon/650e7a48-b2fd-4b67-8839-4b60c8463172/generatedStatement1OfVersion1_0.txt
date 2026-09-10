@@ -1,0 +1,67 @@
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: goodbye
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: goodbye
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: goodbye
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: goodbye
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: goodbye
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'

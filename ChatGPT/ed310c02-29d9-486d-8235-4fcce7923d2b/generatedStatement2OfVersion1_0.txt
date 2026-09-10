@@ -1,0 +1,9 @@
+
+
+Test cases:
+
+* **Positive number:** 7
+* **Negative number:** -5
+* **Zero:** 0
+* **Corner case 1:** Maximum positive integer (2^31 - 1)
+* **Corner case 2:** Minimum negative integer (-2^31)

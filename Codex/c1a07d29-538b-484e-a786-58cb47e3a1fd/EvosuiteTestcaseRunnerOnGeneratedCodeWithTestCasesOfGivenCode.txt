@@ -1,0 +1,61 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E..E..E.
+Time: 0.34
+There were 9 failures:
+1) test03(testing_ChatGPT_on_java.Rectangle_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method setHeight(double) is undefined for the type Rectangle
+	The method getHeight() is undefined for the type Rectangle
+
+	at testing_ChatGPT_on_java.Rectangle_ESTest.test03(Rectangle_ESTest.java:47)
+2) test02(testing_ChatGPT_on_java.Rectangle_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method getHeight() is undefined for the type Rectangle
+	The method setHeight(double) is undefined for the type Rectangle
+
+	at testing_ChatGPT_on_java.Rectangle_ESTest.test02(Rectangle_ESTest.java:37)
+3) test05(testing_ChatGPT_on_java.Rectangle_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method setHeight(double) is undefined for the type Rectangle
+	The method getHeight() is undefined for the type Rectangle
+
+	at testing_ChatGPT_on_java.Rectangle_ESTest.test05(Rectangle_ESTest.java:66)
+4) test04(testing_ChatGPT_on_java.Rectangle_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method setHeight(double) is undefined for the type Rectangle
+	The method getHeight() is undefined for the type Rectangle
+
+	at testing_ChatGPT_on_java.Rectangle_ESTest.test04(Rectangle_ESTest.java:58)
+5) test10(testing_ChatGPT_on_java.Rectangle_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method getWidth() is undefined for the type Rectangle
+	The method getHeight() is undefined for the type Rectangle
+
+	at testing_ChatGPT_on_java.Rectangle_ESTest.test10(Rectangle_ESTest.java:105)
+6) test01(testing_ChatGPT_on_java.Rectangle_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method setWidth(double) is undefined for the type Rectangle
+	The method getWidth() is undefined for the type Rectangle
+
+	at testing_ChatGPT_on_java.Rectangle_ESTest.test01(Rectangle_ESTest.java:29)
+7) test00(testing_ChatGPT_on_java.Rectangle_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getWidth() is undefined for the type Rectangle
+
+	at testing_ChatGPT_on_java.Rectangle_ESTest.test00(Rectangle_ESTest.java:21)
+8) test07(testing_ChatGPT_on_java.Rectangle_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method setWidth(double) is undefined for the type Rectangle
+	The method getWidth() is undefined for the type Rectangle
+
+	at testing_ChatGPT_on_java.Rectangle_ESTest.test07(Rectangle_ESTest.java:81)
+9) test09(testing_ChatGPT_on_java.Rectangle_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method getHeight() is undefined for the type Rectangle
+	The method getWidth() is undefined for the type Rectangle
+
+	at testing_ChatGPT_on_java.Rectangle_ESTest.test09(Rectangle_ESTest.java:97)
+
+FAILURES!!!
+Tests run: 12,  Failures: 9
+

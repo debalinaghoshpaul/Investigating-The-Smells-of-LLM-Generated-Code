@@ -1,0 +1,8 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 86). [LineLength]: 4
+DesignForExtension: Class 'WebCrawler' looks like designed for extension (can be subclassed), but the method 'crawl' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'WebCrawler' final or making the method 'crawl' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 1
+FinalParameters: Parameter startURL should be final. [FinalParameters]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+UnusedImports: Unused import - java.util.Collections. [UnusedImports]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2

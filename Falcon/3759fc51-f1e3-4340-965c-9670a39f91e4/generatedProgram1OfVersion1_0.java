@@ -1,0 +1,19 @@
+import java.util.LinkedList;
+
+public class InsertElementAtEnd {
+
+    public static void main(String[] args) {
+        // create a linked list
+        LinkedList<String> ll = new LinkedList<>();
+        ll.add("A");
+        ll.add("B");
+        ll.add("C");
+        ll.add("D");
+
+        // insert the element at the end of the linked list
+        ll.addLast("E");
+
+        // print the linked list
+        System.out.println(ll);
+    }
+}

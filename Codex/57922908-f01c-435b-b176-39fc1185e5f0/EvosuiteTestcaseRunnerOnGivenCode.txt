@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Input a Sentence: .Input a Sentence: Penultimate word: [
+.Input a Sentence: .
+Time: 0.345
+
+OK (4 tests)
+

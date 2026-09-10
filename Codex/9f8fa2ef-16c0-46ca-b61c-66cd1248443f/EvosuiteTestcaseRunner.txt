@@ -1,0 +1,13 @@
+JUnit version 4.13
+...Enter the array of elements (separated by spaces):
+Enter the element to search for:
+Element not found
+.Enter the array of elements (separated by spaces):
+Enter the element to search for:
+.Enter the array of elements (separated by spaces):
+....Enter the array of elements (separated by spaces):
+...
+Time: 0.394
+
+OK (12 tests)
+

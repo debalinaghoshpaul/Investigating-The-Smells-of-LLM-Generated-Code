@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Thread 1 is performing its task
+Thread 3 is performing its task
+..Q is performing its task
+Q has completed its task
+
+Time: 0.314
+
+OK (3 tests)
+

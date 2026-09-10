@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create an abstract class Animal with an abstract method called sound(). Create subclasses Lion and Tiger that extend the Animal class and implement the sound() method to make a specific sound for each animal.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 74c8e815-f2f5-4f0a-af23-8e413e68331b.\n

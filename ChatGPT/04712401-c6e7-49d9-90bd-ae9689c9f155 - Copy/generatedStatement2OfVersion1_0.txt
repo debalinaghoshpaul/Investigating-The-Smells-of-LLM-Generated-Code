@@ -1,0 +1,7 @@
+
+
+In this updated version, the addElement method checks if the current array is full before adding a new element. If the array is full, it creates a new array with twice the size of the current array, copies the elements from the old array to the new array, and then adds the new element to the new array. This allows the array to dynamically expand as needed.
+
+The test program creates a PartiallyFilledArray object with an initial capacity of 5 and adds 10 elements to it. The final array is then displayed using the display method.
+
+You can run this program to see how the dynamically expanding array works.

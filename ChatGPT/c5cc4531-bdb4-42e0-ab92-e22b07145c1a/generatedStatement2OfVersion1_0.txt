@@ -1,0 +1,5 @@
+
+
+Output:
+Next floating-point adjacent to positive infinity from 10.5 : Infinity
+Next floating-point adjacent to negative infinity from 10.5 : -Infinity

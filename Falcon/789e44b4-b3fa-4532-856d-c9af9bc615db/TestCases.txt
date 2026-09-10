@@ -1,0 +1,55 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class PrefixStringChecker {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.print("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Get the prefix character
+        System.out.print("Enter the prefix character: ");
+        char prefixCharacter = scanner.nextLine().charAt(0);
+
+        // Check if the prefix string appears anywhere else in the string
+        boolean prefixFound = false;
+        for (int i = 1; i < inputString.length(); i++) {
+            if (inputString.charAt(i) == prefixCharacter) {
+                prefixFound = true;
+                break;
+            }
+        }
+
+        // Print the result
+        if (prefixFound) {
+            System.out.println("The prefix string appears somewhere else in the string.");
+        } else {
+            System.out.println("The prefix string does not appear anywhere else in the string.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty string:** ""
+* **String with no prefix character:** "abc"
+* **String with prefix character at the end:** "abcd"
+* **String with prefix character at the start and end:** "aabcd"
+
+**Positive Cases:**
+
+* **String with prefix character appearing in the middle:** "abcda"
+* **String with prefix character appearing multiple times:** "abcabc"
+
+**Negative Cases:**
+
+* **String with prefix character not appearing anywhere else:** "abce"
+* **String with multiple prefix characters:** "aabc"

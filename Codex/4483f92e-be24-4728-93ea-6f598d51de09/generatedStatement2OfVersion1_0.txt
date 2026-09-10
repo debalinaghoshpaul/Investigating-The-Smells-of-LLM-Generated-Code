@@ -1,0 +1,7 @@
+
+
+**Test cases including corner cases**
+
+* **Empty arrays:** `array1 = {}, array2 = {}`
+* **Arrays with one element:** `array1 = {50}, array2 = {5}`
+* **Regular arrays:** `array1 = {50, -20, 0}, array2 = {5, -50, 10}`

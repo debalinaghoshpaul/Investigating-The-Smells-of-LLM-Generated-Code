@@ -1,0 +1,160 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: testing_ChatGPT_on_java.Example2
+* Starting client
+* Connecting to master process on port 12968
+* Analyzing classpath: 
+  - C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\target\classes
+* Finished analyzing classpath
+* Generating tests for class testing_ChatGPT_on_java.Example2
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 2
+  - Branch 2
+  - Exception 0
+  - MutationFactory 1
+  - Output 0
+  - Method 2
+
+[Progress:>                             0%] [Cov:>                                  0%]  - MethodNoException 2
+  - CBranchFitnessFactory 2
+* Using seed 1719530728033
+* Starting evolution
+
+[Progress:>                             0%] [Cov:====>                              12%]
+[Progress:>                             0%] [Cov:========>                          25%]
+[Progress:>                             0%] [Cov:============>                      37%]
+[Progress:>                             0%] [Cov:===================>               55%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:==========================>        77%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:=============================>     83%]
+[Progress:==============================100%] [Cov:=============================>     83%]
+[Progress:==============================100%] [Cov:=============================>     83%]
+* Search finished after 23408s and 71 generations, 5892 statements, best individual has fitness: 3.3333333333333335
+[MASTER] 06:55:37.572 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 23348 seconds more than allowed.
+[MASTER] 06:55:37.581 [logback-1] WARN  TimeController - Current phase MINIMIZATION could run up to 60s, but only -22929s are left
+* Skipping minimization because not enough time is left
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+[MASTER] 06:55:37.600 [logback-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 60s, but only -22929s are left
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 50%
+* Total number of goals: 2
+* Number of covered goals: 1
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 50%
+* Total number of goals: 2
+* Number of covered goals: 1
+* Generated 5 tests with total length 28
+* Resulting test suite's coverage: 81% (average coverage for all fitness functions)
+* Generating assertions
+* Skipping assertion generation because not enough time is left
+* Compiling and checking tests
+[MASTER] 06:55:37.624 [logback-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 60s, but only -22929s are left
+[MASTER] 06:55:37.625 [logback-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 60s, but only -22929s are left
+* Writing JUnit test case 'Example2_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93VLHoIp5kyIXCrD3VB8iyygxnuXr",
+  "object" : "chat.completion",
+  "created" : 1710622491,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "public interface Sortable {\n    void sort(int[] array);\n}\n\nclass QuickSort implements Sortable {\n    @Override\n    public void sort(int[] array) {\n        quickSort(array, 0, array.length - 1);\n    }\n\n    private void quickSort(int[] array, int low, int high) {\n        if (low < high) {\n            int pi = partition(array, low, high);\n            quickSort(array, low, pi - 1);\n            quickSort(array, pi + 1, high);\n        }\n    }\n\n    private int partition(int[] array, int low, int high) {\n        int pivot = array[high];\n        int i = low - 1;\n        for (int j = low; j < high; j++) {\n            if (array[j] >= pivot) {\n                i++;\n                int temp = array[i];\n                array[i] = array[j];\n                array[j] = temp;\n            }\n        }\n        int temp = array[i + 1];\n        array[i + 1] = array[high];\n        array[high] = temp;\n        return i + 1;\n    }\n}\n\nclass MergeSort implements Sortable {\n    @Override\n    public void sort(int[] array) {\n        mergeSort(array, 0, array.length - 1);\n    }\n\n    private void mergeSort(int[] array, int left, int right) {\n        if (left < right) {\n            int mid = (left + right) / 2;\n            mergeSort(array, left, mid);\n            mergeSort(array, mid + 1, right);\n            merge(array, left, mid, right);\n        }\n    }\n\n    private void merge(int[] array, int left, int mid, int right) {\n        int n1 = mid - left + 1;\n        int n2 = right - mid;\n\n        int[] L = new int[n1];\n        int[] R = new int[n2];\n\n        for (int i = 0; i < n1; i++) {\n            L[i] = array[left + i];\n        }\n        for (int j = 0; j < n2; j++) {\n            R[j] = array[mid + 1 + j];\n        }\n\n        int i = 0, j = 0, k = left;\n        while (i < n1 && j < n2) {\n            if (L[i] >= R[j]) {\n                array[k] = L[i];\n                i++;\n            } else {\n                array[k] = R[j];\n                j++;\n            }\n            k++;\n        }\n\n        while (i < n1) {\n            array[k] = L[i];\n            i++;\n            k++;\n        }\n\n        while (j < n2) {\n            array[k] = R[j];\n            j++;\n            k++;\n        }\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        int[] array = {5, 3, 8, 2, 1, 7, 4, 6};\n        Sortable quickSort = new QuickSort();\n        quickSort.sort(array);\n        System.out.println(\"QuickSort: \" + Arrays.toString(array));\n\n        int[] array2 = {5, 3, 8, 2, 1, 7, 4, 6};\n        Sortable mergeSort = new MergeSort();\n        mergeSort.sort(array2);\n        System.out.println(\"MergeSort: \" + Arrays.toString(array2));\n    }\n} \n"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 103,
+    "completion_tokens" : 732,
+    "total_tokens" : 835
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

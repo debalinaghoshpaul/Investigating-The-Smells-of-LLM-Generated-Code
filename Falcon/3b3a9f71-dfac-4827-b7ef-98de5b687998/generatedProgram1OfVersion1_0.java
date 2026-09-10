@@ -1,0 +1,16 @@
+import java.util.regex.Pattern;
+
+public class ReplaceSubstringWithRegex {
+
+    public static void main(String[] args) {
+        String sampleString = "The quick brown fox jumps over the lazy dog.";
+        String regex = "the";
+        String replacement = "The";
+
+        // Replace all occurrences of the substring that matches the regex with the replacement
+        String replacedString = Pattern.compile(regex).matcher(sampleString).replaceAll(replacement);
+
+        // Print the replaced string
+        System.out.println(replacedString);
+    }
+}

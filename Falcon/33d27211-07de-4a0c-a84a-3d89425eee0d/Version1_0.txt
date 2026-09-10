@@ -1,0 +1,45 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double num1 = scanner.nextDouble();
+        double num2 = scanner.nextDouble();
+        if (num1 >= 0 && num1 <= 1 && num2 >= 0 && num2 <= 1) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
+}
+// Output: Input first number: 5 Input second number: 1 false
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example:
+// Input first number: 5
+// Input second number: 0.5
+// Output: Input first number: 5 Input second number: 0.5 false
+// Input first number: 5
+// Input second number: 0.25
+// Output: Input first number: 5 Input second number: 0.25 false
+// Input first number: 5
+// Input second number: 0.125
+// Output: Input first number: 5 Input second number: 0.125 false
+// Input first number: 5
+// Input second number: 0.075
+// Output: Input first number: 5 Input second number: 0.075 false
+// Input first number: 5
+// Input second number: 0.05
+// Output: Input first number: 5 Input second number: 0.05 false
+// Input first number: 5
+// Input second number: 0.025
+// Output: Input first number: 5 Input second number: 0.025 false
+// Input first number: 5
+// Input second number: 0.015
+// Output: Input first number: 5 Input second number: 0.015 false
+// Input first number: 5
+// Input second number: 0.005
+// Output: Input first number: 5 Input second number: 0.005 false
+// Input

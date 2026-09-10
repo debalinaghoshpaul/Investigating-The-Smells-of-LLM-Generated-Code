@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Bird flies
+Bird chirps
+Panthera walks
+Panthera roars
+..Animal moves
+Animal makes a sound
+.
+Time: 0.351
+
+OK (4 tests)
+

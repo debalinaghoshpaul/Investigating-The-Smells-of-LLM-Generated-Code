@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97lONjjHBlxHMg6fZatwGxUzNeMfE",
+  "object" : "chat.completion",
+  "created" : 1711637499,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.concurrent.CountDownLatch;\n\npublic class SynchronizedThreads {\n    public static void main(String[] args) {\n        CountDownLatch startSignal = new CountDownLatch(1);\n        CountDownLatch finishSignal = new CountDownLatch(3);\n\n        for (int i = 0; i < 3; i++) {\n            Thread thread = new Thread(new Worker(startSignal, finishSignal));\n            thread.start();\n        }\n\n        System.out.println(\"Starting all threads...\");\n        startSignal.countDown();\n\n        try {\n            finishSignal.await();\n        } catch (InterruptedException e) {\n            e.printStackTrace();\n        }\n\n        System.out.println(\"All threads have finished executing.\");\n    }\n\n    static class Worker implements Runnable {\n        private final CountDownLatch startSignal;\n        private final CountDownLatch finishSignal;\n\n        public Worker(CountDownLatch startSignal, CountDownLatch finishSignal) {\n            this.startSignal = startSignal;\n            this.finishSignal = finishSignal;\n        }\n\n        @Override\n        public void run() {\n            try {\n                startSignal.await();\n                System.out.println(\"Thread started: \" + Thread.currentThread().getName());\n                // Do some work here\n                finishSignal.countDown();\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n            }\n        }\n    }\n}\n```\n\nIn this program, we create a `CountDownLatch` object for both starting and finishing signals. We then create three worker threads and start them. When the `main` method starts, it counts down the start signal, and all threads begin their work. Once all threads have finished their work, they count down the finish signal. The `main` method waits for all threads to finish by calling `await` on the finish signal. Finally, it prints a message indicating that all threads have finished executing.\n\nYou can adjust the number of worker threads by changing the loop limit in the `main` method and also specify the number of threads that must signal they have finished by changing the count in the `finishSignal` `CountDownLatch` object."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 73,
+    "completion_tokens" : 409,
+    "total_tokens" : 482
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

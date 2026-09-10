@@ -1,0 +1,25 @@
+
+
+**Test Cases**
+
+**Normal Cases**
+
+* Input: 25, 45, 65
+* Expected Output: 45.0
+
+* Input: 10, 20, 30
+* Expected Output: 20.0
+
+* Input: 0, 0, 0
+* Expected Output: 0.0
+
+**Corner Cases**
+
+* Input: -10, -20, -30
+* Expected Output: -20.0
+
+* Input: 0, 100, 0
+* Expected Output: 33.33333333333333
+
+* Input: Double.MAX_VALUE, Double.MAX_VALUE, Double.MAX_VALUE
+* Expected Output: Infinity (depending on the implementation of the programming language)

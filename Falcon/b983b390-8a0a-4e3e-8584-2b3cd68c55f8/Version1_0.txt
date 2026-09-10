@@ -1,0 +1,57 @@
+```java
+// Java program to iterate a linked list in reverse order
+
+// Node of a linked list
+class Node {
+    int data;
+    Node next;
+
+    Node(int d) {
+        data = d;
+        next = null;
+    }
+}
+
+// Linked list class
+class LinkedList {
+    Node head;
+
+    // Function to insert a new node at the beginning
+    void push(int new_data) {
+        Node new_node = new Node(new_data);
+        new_node.next = head;
+        head = new_node;
+    }
+
+    // Function to print the linked list in reverse order
+    void printList(Node node) {
+        if (node == null) {
+            return;
+        }
+        printList(node.next);
+        System.out.print(node.data + " ");
+    }
+
+
+    public static void main(String[] args)
+    {
+        /* Start with the empty list */
+        LinkedList llist = new LinkedList();
+
+        // Insert 4 at the beginning
+        llist.push(4);
+
+        // Insert 3 at the beginning
+        llist.push(3);
+
+        // Insert 2 at the beginning
+        llist.push(2);
+
+        // Insert 1 at the beginning
+        llist.push(1);
+
+        System.out.println("Linked list in reverse order: ");
+        llist.printList(llist.head);
+    }
+}
+```

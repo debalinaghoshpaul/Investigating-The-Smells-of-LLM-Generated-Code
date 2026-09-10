@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xvO1AJcypPfcBvzf9JJopVMNikw",
+  "object" : "chat.completion",
+  "created" : 1710255706,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.ArrayList;\n\npublic class ArrayListToArray {\n    public static void main(String[] args) {\n        // Create an ArrayList\n        ArrayList<String> arrayList = new ArrayList<>();\n        arrayList.add(\"Apple\");\n        arrayList.add(\"Banana\");\n        arrayList.add(\"Cherry\");\n        \n        // Convert ArrayList to array\n        String[] array = arrayList.toArray(new String[arrayList.size()]);\n        \n        // Print the elements of the array\n        System.out.println(\"Elements of the array:\");\n        for (String element : array) {\n            System.out.println(element);\n        }\n    }\n}\n```\n\nThis program creates an ArrayList of strings, adds some elements to it, converts the ArrayList to an array using the `toArray()` method, and then prints the elements of the array."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 65,
+    "completion_tokens" : 157,
+    "total_tokens" : 222
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

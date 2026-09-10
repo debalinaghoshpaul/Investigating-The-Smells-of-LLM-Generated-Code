@@ -1,0 +1,11 @@
+
+
+**Test cases including corner cases:**
+
+* **Positive integer:** 25
+* **Negative integer:** -1
+* **Zero:** 0
+* **One:** 1
+* **Perfect square:** 100
+* **Non-perfect square:** 15
+* **Large number:** 1000000000

@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\c581bde8-7384-4f5b-9c5d-262a3ec80bfc\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\c581bde8-7384-4f5b-9c5d-262a3ec80bfc\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\c581bde8-7384-4f5b-9c5d-262a3ec80bfc\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\c581bde8-7384-4f5b-9c5d-262a3ec80bfc\generatedProgram1OfVersion1_0.java:3:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\c581bde8-7384-4f5b-9c5d-262a3ec80bfc\generatedProgram1OfVersion1_0.java:4:38: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\c581bde8-7384-4f5b-9c5d-262a3ec80bfc\generatedProgram1OfVersion1_0.java:4:41: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\c581bde8-7384-4f5b-9c5d-262a3ec80bfc\generatedProgram1OfVersion1_0.java:4:44: '5' is a magic number. [MagicNumber]
+Audit done.

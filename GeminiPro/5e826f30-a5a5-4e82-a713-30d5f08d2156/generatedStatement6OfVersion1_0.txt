@@ -1,0 +1,4 @@
+
+Output: 10
+
+* **Corner case 2: The data is a single column.**

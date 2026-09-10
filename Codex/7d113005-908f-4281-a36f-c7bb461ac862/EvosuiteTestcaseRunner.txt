@@ -1,0 +1,21 @@
+JUnit version 4.13
+.Enter a string: 
+Enter a character to check: 
+The character is not happy.
+.Enter a string: 
+Enter a character to check: 
+The character is not happy.
+.Enter a string: 
+Enter a character to check: 
+The character is happy.
+.Enter a string: 
+Enter a character to check: 
+..Enter a string: 
+.Enter a string: 
+Enter a character to check: 
+The character is not happy.
+
+Time: 0.551
+
+OK (7 tests)
+

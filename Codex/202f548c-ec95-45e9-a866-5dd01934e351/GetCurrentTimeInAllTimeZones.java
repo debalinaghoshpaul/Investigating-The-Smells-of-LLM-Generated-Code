@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class GetCurrentTimeInAllTimeZones {
+    public static void main(String[] args) {
+        // Get a list of all the available time zones.
+        String[] zones = TimeZone.getAvailableIDs();
+
+        // Create a map to store the time in each time zone.
+        Map<String, String> timeZones = new HashMap<>();
+
+        // Get the current time in each time zone and store it in the map.
+        for (String zone : zones) {
+            TimeZone tz = TimeZone.getTimeZone(zone);
+            Calendar cal = Calendar.getInstance(tz);
+            String time = cal.getTime().toString();
+            timeZones.put(zone, time);
+        }
+
+        // Print the time in each time zone.
+        for (Map.Entry<String, String> entry : timeZones.entrySet()) {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
+    }
+}

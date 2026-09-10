@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\fb0ecb3a-454e-4dd4-8922-215bf500d1a5\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\fb0ecb3a-454e-4dd4-8922-215bf500d1a5\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\fb0ecb3a-454e-4dd4-8922-215bf500d1a5\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\fb0ecb3a-454e-4dd4-8922-215bf500d1a5\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\fb0ecb3a-454e-4dd4-8922-215bf500d1a5\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\fb0ecb3a-454e-4dd4-8922-215bf500d1a5\generatedProgram1OfVersion1_0.java:9:33: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\fb0ecb3a-454e-4dd4-8922-215bf500d1a5\generatedProgram1OfVersion1_0.java:11:30: '1000' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\fb0ecb3a-454e-4dd4-8922-215bf500d1a5\generatedProgram1OfVersion1_0.java:20: Line has trailing spaces. [RegexpSingleline]
+Audit done.

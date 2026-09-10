@@ -1,0 +1,11 @@
+JUnit version 4.13
+....Reader thread: MockThread-0, value: 0
+Reader thread: MockThread-1, value: 0
+Reader thread: MockThread-3, value: 0
+Reader thread: MockThread-2, value: 0
+Reader thread: MockThread-4, value: 0
+
+Time: 0.391
+
+OK (4 tests)
+

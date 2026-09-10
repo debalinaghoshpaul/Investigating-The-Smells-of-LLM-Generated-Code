@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-99txcFjEMyELHnXfhrPYSVkTgy3Mt",
+  "object" : "chat.completion",
+  "created" : 1712147092,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is a sample Java program that sorts an array of integers using multiple threads:\n\n```java\nimport java.util.Arrays;\n\npublic class MultithreadedSort {\n\n    public static void main(String[] args) {\n        int[] array = {5, 2, 8, 1, 4, 3, 7, 9, 6};\n        System.out.println(\"Original array: \" + Arrays.toString(array));\n\n        Thread mergeSortThread = new Thread(() -> {\n            mergeSort(array, 0, array.length - 1);\n        });\n        mergeSortThread.start();\n\n        try {\n            mergeSortThread.join();\n        } catch (InterruptedException e) {\n            e.printStackTrace();\n        }\n\n        System.out.println(\"Sorted array: \" + Arrays.toString(array));\n    }\n\n    public static void mergeSort(int[] array, int left, int right) {\n        if (left < right) {\n            int mid = (left + right) / 2;\n\n            Thread leftSort = new Thread(() -> {\n                mergeSort(array, left, mid);\n            });\n            leftSort.start();\n\n            Thread rightSort = new Thread(() -> {\n                mergeSort(array, mid + 1, right);\n            });\n            rightSort.start();\n\n            try {\n                leftSort.join();\n                rightSort.join();\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n            }\n\n            merge(array, left, mid, right);\n        }\n    }\n\n    public static void merge(int[] array, int left, int mid, int right) {\n        int n1 = mid - left + 1;\n        int n2 = right - mid;\n\n        int[] leftArray = new int[n1];\n        int[] rightArray = new int[n2];\n\n        for (int i = 0; i < n1; i++) {\n            leftArray[i] = array[left + i];\n        }\n        for (int j = 0; j < n2; j++) {\n            rightArray[j] = array[mid + 1 + j];\n        }\n\n        int i = 0, j = 0, k = left;\n        while (i < n1 && j < n2) {\n            if (leftArray[i] <= rightArray[j]) {\n                array[k] = leftArray[i];\n                i++;\n            } else {\n                array[k] = rightArray[j];\n                j++;\n            }\n            k++;\n        }\n\n        while (i < n1) {\n            array[k] = leftArray[i];\n            i++;\n            k++;\n        }\n\n        while (j < n2) {\n            array[k] = rightArray[j];\n            j++;\n            k++;\n        }\n    }\n}\n```\n\nThis program defines a `MultithreadedSort` class with a main method that initializes an array of integers, sorts the array using merge sort algorithm, and then outputs the sorted array. The `mergeSort` method splits the array into two halves and recursively sorts each half in separate threads. The `merge` method merges the two sorted halves back together."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 64,
+    "completion_tokens" : 626,
+    "total_tokens" : 690
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

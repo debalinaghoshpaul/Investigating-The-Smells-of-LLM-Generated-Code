@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program that takes a number from the user and generates an integer between 1 and 7. It displays the weekday name.\nTest Data Input number: 3 Expected Output : Wednesday\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 85369bb5-08a6-474c-bb36-fe55656efae8.\n

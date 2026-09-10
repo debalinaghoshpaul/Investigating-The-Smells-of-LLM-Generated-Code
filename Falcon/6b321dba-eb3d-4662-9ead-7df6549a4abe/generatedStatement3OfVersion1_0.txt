@@ -1,0 +1,3 @@
+
+Enter the number of digits (n) and the sum (s): 
+3 6

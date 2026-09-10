@@ -1,0 +1,12 @@
+
+Miles   Kilometers  |   Kilometers  Miles
+1       1.609       |   20          12.430
+2       3.218       |   25          15.538
+...
+9       14.481      |   60          37.290
+10      16.090      |   65          40.398
+Convert from Mile to Kilometer
+Convert from Kilometer to Mile
+The programming language you need to use is: Java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.

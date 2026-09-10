@@ -1,0 +1,9 @@
+Violations by Category:
+WhitespaceAround: '{' is not preceded with whitespace. [WhitespaceAround]: 1
+FinalParameters: Parameter a should be final. [FinalParameters]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '3' is a magic number. [MagicNumber]: 6
+ArrayTypeStyle: Array brackets at illegal position. [ArrayTypeStyle]: 1

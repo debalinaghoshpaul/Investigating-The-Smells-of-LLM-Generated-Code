@@ -1,0 +1,12 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 83). [LineLength]: 5
+DesignForExtension: Class 'Trivia' looks like designed for extension (can be subclassed), but the method 'getQuestion' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Trivia' final or making the method 'getQuestion' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 3
+WhitespaceAround: '+' is not followed by whitespace. [WhitespaceAround]: 2
+FinalParameters: Parameter question should be final. [FinalParameters]: 4
+HiddenField: 'question' hides a field. [HiddenField]: 3
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 5
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '5' is a magic number. [MagicNumber]: 8

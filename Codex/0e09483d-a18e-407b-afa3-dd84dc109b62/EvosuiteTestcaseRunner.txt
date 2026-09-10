@@ -1,0 +1,8 @@
+JUnit version 4.13
+..Next Friday: 1970-01-02
+Previous Friday: 1969-12-26
+
+Time: 0.413
+
+OK (2 tests)
+

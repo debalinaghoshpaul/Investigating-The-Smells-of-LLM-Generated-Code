@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95E3UfH0SgkvUOwkMTc4OI2hwNCBo",
+  "object" : "chat.completion",
+  "created" : 1711032696,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.*;\n\npublic class StudentScores {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\n        System.out.print(\"Enter the number of students: \");\n        int numStudents = scanner.nextInt();\n\n        String[] names = new String[numStudents];\n        String[] ids = new String[numStudents];\n        int[] scores = new int[numStudents];\n\n        for (int i = 0; i < numStudents; i++) {\n            System.out.print(\"Enter student name: \");\n            names[i] = scanner.next();\n\n            System.out.print(\"Enter student ID: \");\n            ids[i] = scanner.next();\n\n            System.out.print(\"Enter student score: \");\n            scores[i] = scanner.nextInt();\n        }\n\n        int maxScore = scores[0];\n        int minScore = scores[0];\n\n        for (int i = 1; i < numStudents; i++) {\n            maxScore = Math.max(maxScore, scores[i]);\n            minScore = Math.min(minScore, scores[i]);\n        }\n\n        System.out.println(\"Highest score: \" + maxScore);\n        System.out.println(\"Lowest score: \" + minScore);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 98,
+    "completion_tokens" : 242,
+    "total_tokens" : 340
+  },
+  "system_fingerprint" : "fp_fa89f7a861"
+}

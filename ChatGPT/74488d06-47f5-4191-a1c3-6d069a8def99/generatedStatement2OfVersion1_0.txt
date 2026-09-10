@@ -1,0 +1,9 @@
+
+
+Test cases including corner cases:
+
+* **Empty array:** An empty array should return false, since it does not contain any elements.
+* **Array with null value:** An array with a null value should return false, since null is not a valid integer.
+* **Array with only negative numbers:** An array with only negative numbers should return false, since 4 and 7 are positive numbers.
+* **Array with only positive numbers except for 0:** An array with only positive numbers except for 0 should return true, since 0 is not a valid integer.
+* **Array with only duplicates:** An array with only duplicate numbers should return true if at least one of the duplicates is 4 or 7, and false otherwise.

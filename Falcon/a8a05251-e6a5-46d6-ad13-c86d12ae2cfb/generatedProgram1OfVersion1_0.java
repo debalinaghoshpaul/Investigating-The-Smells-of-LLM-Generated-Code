@@ -1,0 +1,28 @@
+import java.util.Stack;
+
+public class StackTest {
+    public static void main(String[] args) {
+        Stack<Integer> stack1 = new Stack<>();
+        Stack<Integer> stack2 = new Stack<>();
+
+        stack1.push(1);
+        stack1.push(2);
+        stack1.push(3);
+        stack1.push(4);
+        stack1.push(5);
+
+        stack2.push(1);
+        stack2.push(2);
+        stack2.push(3);
+        stack2.push(4);
+        stack2.push(5);
+
+        if (stack1.equals(stack2)) {
+            System.out.println("Stacks are equal.");
+        } else {
+            System.out.println("Stacks are not equal.");
+        }
+    }
+}
+
+// 

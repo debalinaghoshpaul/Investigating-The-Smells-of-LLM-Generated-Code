@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+**Valid Cases:**
+
+* Create a Lion object and call its eat() and sleep() methods.
+* Create a Tiger object and call its eat() and sleep() methods.
+* Create a Deer object and call its eat() and sleep() methods.
+
+**Corner Cases:**
+
+* Try to create an Animal object without calling its eat() or sleep() methods.
+* Call the eat() or sleep() methods on an Animal object before it has been assigned to a subclass.
+* Create a subclass of Animal that does not implement the eat() or sleep() methods.

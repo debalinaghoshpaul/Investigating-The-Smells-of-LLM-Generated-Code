@@ -1,0 +1,44 @@
+```java
+import java.util.Scanner;
+
+public class AddDigitsUntilSingleDigit {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input number from the user
+        System.out.print("Enter a positive integer: ");
+        int number = scanner.nextInt();
+
+        // Add all the digits of the number until the result has a single digit
+        int sum = 0;
+        while (number > 0) {
+            sum += number % 10;
+            number /= 10;
+        }
+
+        // Print the sum of the digits
+        System.out.println("The sum of the digits is: " + sum);
+    }
+}
+```
+
+Test cases:
+
+* Corner case: number is 0
+```
+Enter a positive integer: 0
+The sum of the digits is: 0
+```
+
+* Number with multiple digits
+```
+Enter a positive integer: 123
+The sum of the digits is: 6
+```
+
+* Number with a single digit
+```
+Enter a positive integer: 5
+The sum of the digits is: 5
+```

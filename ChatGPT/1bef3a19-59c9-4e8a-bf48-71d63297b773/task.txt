@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a Animal interface with a method called bark() that takes no arguments and returns void. Create a Dog class that implements Animal and overrides speak() to print "Dog is barking".\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 1bef3a19-59c9-4e8a-bf48-71d63297b773.\n

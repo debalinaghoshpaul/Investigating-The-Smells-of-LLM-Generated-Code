@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Enter a double number: 
+.Enter a double number: 
+..Enter a double number: 
+The number is an integer.
+.Enter a double number: 
+The number is not an integer.
+
+Time: 0.375
+
+OK (5 tests)
+

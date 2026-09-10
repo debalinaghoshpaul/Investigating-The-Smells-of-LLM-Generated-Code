@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called BankAccount with private instance variables accountNumber and balance. Provide public getter and setter methods to access and modify these variables.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : f5b9b33d-f47f-4557-8852-700bbeba7b10.\n

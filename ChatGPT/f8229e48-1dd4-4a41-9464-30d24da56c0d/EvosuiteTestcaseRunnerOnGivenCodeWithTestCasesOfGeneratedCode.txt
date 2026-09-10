@@ -1,0 +1,49 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E
+Time: 0.36
+There were 8 failures:
+1) test4(testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts.divideString(Main.java:17)
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest.test4(DivideStringIntoEqualParts_ESTest.java:65)
+2) test5(testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts.divideString(Main.java:17)
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest.test5(DivideStringIntoEqualParts_ESTest.java:79)
+3) test2(testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts.divideString(Main.java:17)
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest.test2(DivideStringIntoEqualParts_ESTest.java:36)
+4) test3(testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts.divideString(Main.java:17)
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest.test3(DivideStringIntoEqualParts_ESTest.java:50)
+5) test6(testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type DivideStringIntoEqualParts must be defined in its own file
+
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest.test6(DivideStringIntoEqualParts_ESTest.java:92)
+6) test7(testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts.main(Main.java:6)
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest.test7(DivideStringIntoEqualParts_ESTest.java:100)
+7) test0(testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts.divideString(Main.java:17)
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest.test0(DivideStringIntoEqualParts_ESTest.java:21)
+8) test1(testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts.divideString(Main.java:17)
+	at testing_ChatGPT_on_java.DivideStringIntoEqualParts_ESTest.test1(DivideStringIntoEqualParts_ESTest.java:27)
+
+FAILURES!!!
+Tests run: 8,  Failures: 8
+

@@ -1,0 +1,8 @@
+JUnit version 4.13
+......................Pizza 1: Size: Large, Cheese Toppings: 1, Pepperoni Toppings: 1, Ham Toppings: 2, Cost: $22.0
+Pizza 2: Size: Medium, Cheese Toppings: 2, Pepperoni Toppings: 0, Ham Toppings: 1, Cost: $18.0
+
+Time: 0.518
+
+OK (22 tests)
+

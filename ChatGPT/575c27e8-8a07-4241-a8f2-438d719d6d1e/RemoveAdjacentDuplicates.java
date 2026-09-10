@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class RemoveAdjacentDuplicates {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String str = in.nextLine();
+        System.out.println(removeAdjacentDuplicates(str));
+    }
+
+    public static String removeAdjacentDuplicates(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        if (str.charAt(0) == str.charAt(1)) {
+            return removeAdjacentDuplicates(str.substring(1));
+        }
+        return str.charAt(0) + removeAdjacentDuplicates(str.substring(1));
+    }
+}

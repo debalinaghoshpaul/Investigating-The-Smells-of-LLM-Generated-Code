@@ -1,0 +1,2 @@
+
+Minimum length of a contiguous subarray of which the sum is 8: 2

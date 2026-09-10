@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class AbecedarianWord {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input word
+        System.out.print("Enter the word: ");
+        String word = scanner.nextLine();
+
+        // Check if the word is an abecedarian word
+        boolean isAbecedarian = true;
+        for (int i = 0; i < word.length() - 1; i++) {
+            if (word.charAt(i) > word.charAt(i + 1)) {
+                isAbecedarian = false;
+                break;
+            }
+        }
+
+        // Print the result
+        if (isAbecedarian) {
+            System.out.println("The word is an abecedarian word.");
+        } else {
+            System.out.println("The word is not an abecedarian word.");
+        }
+    }
+}

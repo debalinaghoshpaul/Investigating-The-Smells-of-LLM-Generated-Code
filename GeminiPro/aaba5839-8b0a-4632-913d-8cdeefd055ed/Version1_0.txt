@@ -1,0 +1,76 @@
+```java
+import java.util.Scanner;
+
+public class MaxAndMin {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the size of the array
+        int size = scanner.nextInt();
+
+        // Read the elements of the array
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = scanner.nextInt();
+        }
+
+        // Find the maximum and minimum values of the array
+        int max = arr[0];
+        int min = arr[0];
+        for (int i = 1; i < size; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+
+        // Print the maximum and minimum values of the array
+        System.out.println("Maximum value: " + max);
+        System.out.println("Minimum value: " + min);
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:**
+```
+Input:
+5
+1 2 3 4 5
+Output:
+Maximum value: 5
+Minimum value: 1
+```
+
+* **Corner case 1:** Empty array
+```
+Input:
+0
+Output:
+Maximum value: 0
+Minimum value: 0
+```
+
+* **Corner case 2:** Array with all same elements
+```
+Input:
+5
+5 5 5 5 5
+Output:
+Maximum value: 5
+Minimum value: 5
+```
+
+* **Corner case 3:** Array with negative values
+```
+Input:
+5
+-1 -2 -3 -4 -5
+Output:
+Maximum value: -1
+Minimum value: -5
+```

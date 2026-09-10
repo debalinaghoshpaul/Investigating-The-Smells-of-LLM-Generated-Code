@@ -1,0 +1,46 @@
+```java
+// Java program to implement an enum called Shape
+// with constants representing different geometric shapes
+
+// An enum representing different geometric shapes
+enum Shape {
+    CIRCLE,
+    RECTANGLE,
+    SQUARE,
+    TRIANGLE
+}
+
+// Main class
+public class Main {
+
+    // Main method
+    public static void main(String[] args) {
+        // Create an instance of Shape for each geometric shape
+        Shape circle = Shape.CIRCLE;
+        Shape rectangle = Shape.RECTANGLE;
+        Shape square = Shape.SQUARE;
+        Shape triangle = Shape.TRIANGLE;
+
+        // Print the name of each shape
+        System.out.println("Circle: " + circle);
+        System.out.println("Rectangle: " + rectangle);
+        System.out.println("Square: " + square);
+        System.out.println("Triangle: " + triangle);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases**
+1. Input: Create instances of all shapes and print their names
+2. Input: Check if a shape is a circle
+3. Input: Check if a shape is a rectangle
+4. Input: Check if a shape is a square
+5. Input: Check if a shape is a triangle
+
+**Corner Cases**
+1. Input: Try to create an instance of an invalid shape (e.g., "INVALID_SHAPE")
+2. Input: Try to compare a shape to an invalid shape
+3. Input: Try to convert a shape to an invalid type (e.g., string)
+4. Input: Try to modify the values of an enum constant

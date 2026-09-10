@@ -1,0 +1,88 @@
+**Java program:**
+
+```java
+import java.util.Scanner;
+
+public class FirstAndLastCharacters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Get the number of characters to take from the first and last positions
+        System.out.println("Enter the number of characters to take from the first and last positions: ");
+        int numChars = scanner.nextInt();
+
+        // Create a new string by taking the specified number of characters from the first and last positions
+        String newStr = str.substring(0, numChars) + str.substring(str.length() - numChars);
+
+        // Print the new string
+        System.out.println("The new string is: " + newStr);
+    }
+}
+```
+
+**Test cases:**
+
+**Test case 1**
+
+* Input string: "Hello"
+* Number of characters to take: 2
+* Expected output: "Heo"
+
+**Test case 2**
+
+* Input string: "World"
+* Number of characters to take: 3
+* Expected output: "Worl"
+
+**Test case 3**
+
+* Input string: "Programming"
+* Number of characters to take: 4
+* Expected output: "Progmming"
+
+**Test case 4**
+
+* Input string: "Java"
+* Number of characters to take: 1
+* Expected output: "JJ"
+
+**Test case 5**
+
+* Input string: "C#"
+* Number of characters to take: 0
+* Expected output: ""
+
+**Test case 6**
+
+* Input string: ""
+* Number of characters to take: 0
+* Expected output: ""
+
+**Test case 7**
+
+* Input string: "Hello"
+* Number of characters to take: 3
+* Expected output: "Hel"
+
+**Test case 8**
+
+* Input string: "World"
+* Number of characters to take: 4
+* Expected output: "Worl"
+
+**Test case 9**
+
+* Input string: "Programming"
+* Number of characters to take: 5
+* Expected output: "Progamming"
+
+**Test case 10**
+
+* Input string: "Java"
+* Number of characters to take: 2
+* Expected output: "Ja"

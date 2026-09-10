@@ -1,0 +1,3 @@
+
+Current date without time: 2023-03-08
+Current time without date: 10:15:30.456

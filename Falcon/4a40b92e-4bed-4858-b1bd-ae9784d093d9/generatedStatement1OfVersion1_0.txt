@@ -1,0 +1,37 @@
+
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The second smallest element is 2
+// The smallest element is 1
+// The

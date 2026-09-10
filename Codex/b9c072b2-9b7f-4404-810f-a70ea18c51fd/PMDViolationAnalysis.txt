@@ -1,0 +1,6 @@
+Violations by Category:
+UnnecessaryModifier: Unnecessary modifier 'public' on method 'hasNext': 2
+CommentRequired: Class comments are required: 7
+MissingOverride: The method 'hasNext()' is missing an @Override annotation.: 2
+UnnecessaryImport: Unused import 'java.util.Arrays': 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

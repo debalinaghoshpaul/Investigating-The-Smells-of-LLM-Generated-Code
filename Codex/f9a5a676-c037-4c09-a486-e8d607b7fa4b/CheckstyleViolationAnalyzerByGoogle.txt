@@ -1,0 +1,6 @@
+Violations by Category:
+OneTopLevelClass: Top-level class Person has to reside in its own source file. [OneTopLevelClass]: 4
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+Indentation: 'member def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]: 48
+OperatorWrap: '+' should be on a new line. [OperatorWrap]: 4

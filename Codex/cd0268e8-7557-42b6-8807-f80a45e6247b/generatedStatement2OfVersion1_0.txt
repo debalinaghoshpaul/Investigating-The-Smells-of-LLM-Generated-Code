@@ -1,0 +1,3 @@
+
+
+In this program, we have defined the Bank class that maintains a list of accounts and methods for adding them. The Account interface defines the basic operations that can be performed on an account like deposit, withdraw, calculate interest, and view balance. The SavingsAccount and CurrentAccount classes implement the Account interface with their specific functionalities. The Main class tests the banking system by creating instances of SavingsAccount and CurrentAccount, adding them to the Bank, and performing various operations like deposit, withdrawal, interest calculation, and balance viewing.

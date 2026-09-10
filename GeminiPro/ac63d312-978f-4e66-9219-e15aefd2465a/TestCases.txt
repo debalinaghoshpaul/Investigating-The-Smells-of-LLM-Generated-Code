@@ -1,0 +1,81 @@
+**Test Cases:**
+
+**1. String contains the specified character sequence**
+```
+input: "Hello World"
+character sequence: "o Wor"
+
+output: true
+```
+
+**2. String does not contain the specified character sequence**
+```
+input: "Hello World"
+character sequence: "XYZ"
+
+output: false
+```
+
+**3. String is empty**
+```
+input: ""
+character sequence: "a"
+
+output: false
+```
+
+**4. Character sequence is empty**
+```
+input: "Hello World"
+character sequence: ""
+
+output: true
+```
+
+**5. String and character sequence are the same**
+```
+input: "Hello"
+character sequence: "Hello"
+
+output: true
+```
+
+**6. String contains the character sequence multiple times**
+```
+input: "Mississippi"
+character sequence: "iss"
+
+output: true
+```
+
+**7. String contains the character sequence at the beginning**
+```
+input: "World Hello"
+character sequence: "World"
+
+output: true
+```
+
+**8. String contains the character sequence at the end**
+```
+input: "Hello World"
+character sequence: "World"
+
+output: true
+```
+
+**9. String contains the character sequence in the middle**
+```
+input: "Hello World"
+character sequence: "lo W"
+
+output: true
+```
+
+**10. String contains the character sequence in a different case**
+```
+input: "Hello World"
+character sequence: "worlD"
+
+output: false
+```

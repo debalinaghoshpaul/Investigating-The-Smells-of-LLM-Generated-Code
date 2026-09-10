@@ -1,0 +1,6 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings: 4
+CommentRequired: Class comments are required: 2
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+CloseResource: Ensure that resources like this Scanner object are closed after use: 1

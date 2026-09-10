@@ -1,0 +1,91 @@
+**Reverse a Linked List**
+
+```java
+public class ReverseLinkedList {
+
+    public static void main(String[] args) {
+        // Create a linked list
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add(20);
+        list.add(40);
+        list.add(60);
+        list.add(80);
+
+        // Reverse the linked list
+        LinkedList<Integer> reversedList = reverseLinkedList(list);
+
+        // Print the reversed linked list
+        System.out.println(reversedList);
+    }
+
+    public static <T> LinkedList<T> reverseLinkedList(LinkedList<T> list) {
+        if (list == null || list.size() == 0) {
+            return list;
+        }
+
+        LinkedList<T> reversedList = new LinkedList<>();
+        LinkedList<T> current = list;
+
+        while (current != null) {
+            reversedList.addFirst(current.getValue());
+            current = current.getNext();
+        }
+
+        return reversedList;
+    }
+}
+```
+
+**Test Cases for Reverse Linked List**
+
+* Empty list
+* Single element list
+* Multiple element list
+
+**Find a Contiguous Subarray with the Largest Sum**
+
+```java
+public class MaximumSubarray {
+
+    public static void main(String[] args) {
+        int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int maxSum = maximumSubarray(arr);
+        System.out.println(maxSum); // Output: 6
+
+        // Corner cases
+        int[] allNegativeArr = {-1, -2, -3, -4, -5};
+        maxSum = maximumSubarray(allNegativeArr);
+        System.out.println(maxSum); // Output: -1
+
+        int[] emptyArr = {};
+        maxSum = maximumSubarray(emptyArr);
+        System.out.println(maxSum); // Output: 0
+    }
+
+    public static int maximumSubarray(int[] arr) {
+        int maxSum = Integer.MIN_VALUE;
+        int currentSum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            currentSum += arr[i];
+
+            if (currentSum > maxSum) {
+                maxSum = currentSum;
+            }
+
+            if (currentSum < 0) {
+                currentSum = 0;
+            }
+        }
+
+        return maxSum;
+    }
+}
+```
+
+**Test Cases for Maximum Subarray**
+
+* Positive and negative numbers
+* All negative numbers
+* Empty array
+* Single element array

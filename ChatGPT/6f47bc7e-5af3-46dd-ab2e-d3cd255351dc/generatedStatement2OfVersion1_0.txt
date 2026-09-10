@@ -1,0 +1,17 @@
+
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+1. A file that exists and has a last modified date.
+2. A file that is in a different directory.
+3. A file that is a symbolic link.
+
+**Corner Cases:**
+
+1. A file that does not exist.
+2. A file that is a directory.
+3. A file that is locked.
+4. A file that is in a different file system.
+5. A file that has a last modified date that is in the future.

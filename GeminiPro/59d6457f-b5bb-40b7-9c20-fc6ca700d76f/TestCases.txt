@@ -1,0 +1,60 @@
+**Java Program:**
+
+```java
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class DistinctIdentifier {
+
+    public static String getDistinctIdentifier(String input) {
+        try {
+            MessageDigest md5 = MessageDigest.getInstance("MD5");
+            byte[] digest = md5.digest(StandardCharsets.UTF_8.encode(input).array());
+            return new String(digest).toUpperCase();
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void main(String[] args) {
+        String input = "Hello World";
+        System.out.println("Distinct identifier for \"" + input + "\": " + getDistinctIdentifier(input));
+    }
+}
+```
+
+**Test Cases and Corner Cases:**
+
+**Normal Case:**
+
+* Input: "Hello World"
+* Expected Output: "C4CA4238A0B923820DCC509A6F75849B"
+
+**Empty String:**
+
+* Input: ""
+* Expected Output: "D41D8CD98F00B204E9800998ECF8427E"
+
+**Large String:**
+
+* Input: A string with over 1000 characters
+* Expected Output: A unique identifier for the string
+
+**Corner Cases:**
+
+* **Null String:**
+    * Input: null
+    * Expected Output: NullPointerException
+* **Non-String Input:**
+    * Input: An integer or other non-string object
+    * Expected Output: ClassCastException
+* **Unicode Characters:**
+    * Input: A string containing unicode characters
+    * Expected Output: A unique identifier that considers the unicode representation of the string
+* **Leading and Trailing Whitespace:**
+    * Input: A string with leading and trailing whitespace
+    * Expected Output: A unique identifier that ignores leading and trailing whitespace
+* **Case Insensitive:**
+    * Input: A string with different casing
+    * Expected Output: A unique identifier that is case insensitive

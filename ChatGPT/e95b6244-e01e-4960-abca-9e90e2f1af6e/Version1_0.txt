@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xNAl5OHSghikEAM5kGzGfDZFmfx",
+  "object" : "chat.completion",
+  "created" : 1710253584,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class InsertElementIntoArray {\n\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5};\n        int element = 10;\n        int position = 2;\n\n        System.out.println(\"Original Array: \" + Arrays.toString(arr));\n        arr = insertElement(arr, element, position);\n        System.out.println(\"Array after inserting \" + element + \" at position \" + position + \": \" + Arrays.toString(arr));\n    }\n\n    public static int[] insertElement(int[] arr, int element, int position) {\n        int[] newArr = new int[arr.length + 1];\n        int j = 0;\n        for (int i = 0; i < newArr.length; i++) {\n            if (i == position) {\n                newArr[i] = element;\n            } else {\n                newArr[i] = arr[j];\n                j++;\n            }\n        }\n        return newArr;\n    }\n}\n```\n\nThis program will output:\n```\nOriginal Array: [1, 2, 3, 4, 5]\nArray after inserting 10 at position 2: [1, 2, 10, 3, 4, 5]\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 67,
+    "completion_tokens" : 264,
+    "total_tokens" : 331
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

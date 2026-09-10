@@ -1,0 +1,76 @@
+JUnit version 4.13
+.E.E.E.E.E.E.[5, 3, 1, 2, 4]
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[]
+.E.E
+Time: 3.507
+There were 8 failures:
+1) test7(testing_ChatGPT_on_java.PermutationSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method pSort(int[]) is undefined for the type PermutationSort
+
+	at testing_ChatGPT_on_java.PermutationSort_ESTest.test7(PermutationSort_ESTest.java:134)
+2) test6(testing_ChatGPT_on_java.PermutationSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method pSort(int[]) is undefined for the type PermutationSort
+
+	at testing_ChatGPT_on_java.PermutationSort_ESTest.test6(PermutationSort_ESTest.java:127)
+3) test8(testing_ChatGPT_on_java.PermutationSort_ESTest)
+java.util.concurrent.ExecutionException: java.lang.Error: Unresolved compilation problem: 
+	The method pSort(int[]) is undefined for the type PermutationSort
+
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at testing_ChatGPT_on_java.PermutationSort_ESTest.test8(PermutationSort_ESTest.java:167)
+	... 11 trimmed
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method pSort(int[]) is undefined for the type PermutationSort
+
+	at testing_ChatGPT_on_java.PermutationSort_ESTest$3.run(PermutationSort_ESTest.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+4) test3(testing_ChatGPT_on_java.PermutationSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method pSort(int[]) is undefined for the type PermutationSort
+
+	at testing_ChatGPT_on_java.PermutationSort_ESTest.test3(PermutationSort_ESTest.java:80)
+5) test2(testing_ChatGPT_on_java.PermutationSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method pSort(int[]) is undefined for the type PermutationSort
+
+	at testing_ChatGPT_on_java.PermutationSort_ESTest.test2(PermutationSort_ESTest.java:56)
+6) test5(testing_ChatGPT_on_java.PermutationSort_ESTest)
+java.util.concurrent.ExecutionException: java.lang.Error: Unresolved compilation problem: 
+	The method pSort(int[]) is undefined for the type PermutationSort
+
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at testing_ChatGPT_on_java.PermutationSort_ESTest.test5(PermutationSort_ESTest.java:117)
+	... 11 trimmed
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method pSort(int[]) is undefined for the type PermutationSort
+
+	at testing_ChatGPT_on_java.PermutationSort_ESTest$2.run(PermutationSort_ESTest.java:109)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+7) test1(testing_ChatGPT_on_java.PermutationSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method pSort(int[]) is undefined for the type PermutationSort
+
+	at testing_ChatGPT_on_java.PermutationSort_ESTest.test1(PermutationSort_ESTest.java:43)
+8) test0(testing_ChatGPT_on_java.PermutationSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method pSort(int[]) is undefined for the type PermutationSort
+
+	at testing_ChatGPT_on_java.PermutationSort_ESTest.test0(PermutationSort_ESTest.java:26)
+
+FAILURES!!!
+Tests run: 9,  Failures: 8
+

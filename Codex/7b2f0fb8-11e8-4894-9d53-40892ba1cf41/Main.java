@@ -1,0 +1,41 @@
+import java.util.*;
+import java.lang.*;
+
+class Main {
+  public static void main(String[] args) {
+    // Create a list to store the Hamming numbers
+    List<Integer> hammingNumbers = new ArrayList<>();
+
+    // Initialize the three indices for 2, 3, and 5
+    int i2 = 0, i3 = 0, i5 = 0;
+
+    // Initialize the next Hamming number to 1
+    int nextHamming = 1;
+
+    // Loop until we have found the first 20 Hamming numbers
+    for (int i = 0; i < 20; i++) {
+      // Add the next Hamming number to the list
+      hammingNumbers.add(nextHamming);
+
+      // Calculate the next Hamming number
+      nextHamming = Math.min(2 * hammingNumbers.get(i2), Math.min(3 * hammingNumbers.get(i3), 5 * hammingNumbers.get(i5)));
+
+      // Increment the indices for 2, 3, and 5
+      if (nextHamming == 2 * hammingNumbers.get(i2)) {
+        i2++;
+      }
+      if (nextHamming == 3 * hammingNumbers.get(i3)) {
+        i3++;
+      }
+      if (nextHamming == 5 * hammingNumbers.get(i5)) {
+        i5++;
+      }
+    }
+
+    // Print the first 20 Hamming numbers
+    System.out.println(" The first 20 hamming numbers are :");
+    for (int hammingNumber : hammingNumbers) {
+      System.out.print(hammingNumber + " ");
+    }
+  }
+}

@@ -1,0 +1,27 @@
+
+The programming language you need to use is: java.
+The current date and time in the specified format is: 2020-05-11 11:00:00.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test Case 1: Check if the program prints the current date and time in the specified format.
+
+Test Case 2: Check if the program prints the current date and time in the specified format when the date and time is in the future.
+
+Test Case 3: Check if the program prints the current date and time in the specified format when the date and time is in the past.
+
+Test Case 4: Check if the program prints the current date and time in the specified format when the date and time is in the same day.
+
+Test Case 5: Check if the program prints the current date and time in the specified format when the date and time is in the same hour.
+
+Test Case 6: Check if the program prints the current date and time in the specified format when the date and time is in the same minute.
+
+Test Case 7: Check if the program prints the current date and time in the specified format when the date and time is in the same second.
+
+Test Case 8: Check if the program prints the current date and time in the specified format when the date and time is in the same millisecond.
+
+Test Case 9: Check if the program prints the current date and time in the specified format when the date and time is in the future.
+
+Test Case 10: Check if the program prints the current date and time in the specified format when the date and time is in the past.
+
+Test Case 11: Check if the program prints the current date and time in the specified format when the date and

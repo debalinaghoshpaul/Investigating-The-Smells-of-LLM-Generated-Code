@@ -1,0 +1,49 @@
+```java
+import java.util.Scanner;
+
+public class RightAngleTrianglePattern {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the number of rows from the user
+        System.out.println("Enter the number of rows: ");
+        int numberOfRows = scanner.nextInt();
+
+        // Create a nested loop to print the pattern
+        for (int i = 0; i < numberOfRows; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print((i + 1) + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal case:**
+```
+Enter the number of rows: 5
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
+```
+
+* **Corner case: 0 rows:**
+```
+Enter the number of rows: 0
+```
+
+* **Corner case: 1000 rows:**
+```
+Enter the number of rows: 1000
+1 
+2 2 
+3 3 3 
+...
+1000 1000 1000 1000 1000 
+```

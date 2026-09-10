@@ -1,0 +1,7 @@
+
+Enter the current population: 312,032,486
+Enter the number of births per second: 1
+Enter the number of deaths per second: 0
+Enter the number of new immigrants per second: 0
+Enter the number of days in a year: 365
+Enter the number

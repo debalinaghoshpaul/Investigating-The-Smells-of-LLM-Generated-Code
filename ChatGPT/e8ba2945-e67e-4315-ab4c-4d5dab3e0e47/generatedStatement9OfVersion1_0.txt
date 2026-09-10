@@ -1,0 +1,7 @@
+
+Input:
+Today's date: 2024-02-29
+
+Output:
+10 days before today: 2024-02-19
+10 days after today: 2024-03-10

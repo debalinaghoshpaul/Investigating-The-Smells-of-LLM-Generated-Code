@@ -1,0 +1,5 @@
+2 out of 19 test cases passesd
+pass rate=10%
+
+
+{'codebleu': 0.17463219503366367, 'ngram_match_score': 0.01248011037483972, 'weighted_ngram_match_score': 0.07420756968342083, 'syntax_match_score': 0.46638655462184875, 'dataflow_match_score': 0.14545454545454545}

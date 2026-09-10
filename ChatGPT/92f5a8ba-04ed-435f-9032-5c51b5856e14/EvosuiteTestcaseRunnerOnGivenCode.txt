@@ -1,0 +1,8 @@
+JUnit version 4.13
+..
+Original array: [1, 2, 3, 0, 4, 6]
+Largest number using the said array numbers: 643210...
+Time: 0.472
+
+OK (5 tests)
+

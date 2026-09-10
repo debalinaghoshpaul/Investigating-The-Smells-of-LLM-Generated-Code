@@ -1,0 +1,11 @@
+
+
+Test Cases:
+
+* **Normal case:** An array of integers containing duplicates and a majority element.
+* **Corner cases:**
+    * An array with no majority element.
+    * An array with a single element.
+    * An array with all elements the same.
+* **Edge cases:**
+    * An empty array.

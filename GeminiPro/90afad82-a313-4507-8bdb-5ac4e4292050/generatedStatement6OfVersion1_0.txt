@@ -1,0 +1,4 @@
+
+
+**2. Corner Case 1 (Empty Array):**
+Input:

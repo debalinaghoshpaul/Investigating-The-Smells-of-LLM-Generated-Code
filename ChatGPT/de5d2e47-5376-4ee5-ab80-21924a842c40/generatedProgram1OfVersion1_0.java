@@ -1,0 +1,62 @@
+import java.util.Stack;
+
+class Node {
+    int data;
+    Node left;
+    Node right;
+
+    public Node(int data) {
+        this.data = data;
+    }
+}
+
+class BinaryTree {
+
+    // Root of the Binary Tree
+    Node root;
+
+    // Function to perform preorder traversal of the tree
+    public void preorderTraversal() {
+        // Create an empty stack
+        Stack<Node> stack = new Stack<>();
+
+        // Push the root node to the stack
+        stack.push(root);
+
+        // While the stack is not empty, pop a node from the stack and print its data
+        while (!stack.isEmpty()) {
+            Node node = stack.pop();
+            System.out.print(node.data + " ");
+
+            // Push the right child of the node to the stack
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+
+            // Push the left child of the node to the stack
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+        }
+    }
+
+    // Function to create a sample Binary Tree
+    public void createSampleBinaryTree() {
+        root = new Node(10);
+        root.left = new Node(20);
+        root.right = new Node(30);
+        root.left.left = new Node(40);
+        root.left.right = new Node(50);
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        BinaryTree tree = new BinaryTree();
+
+        // Create a sample Binary Tree
+        tree.createSampleBinaryTree();
+
+        // Perform preorder traversal of the tree
+        tree.preorderTraversal();
+    }
+}

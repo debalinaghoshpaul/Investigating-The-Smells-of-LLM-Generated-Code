@@ -1,0 +1,15 @@
+
+
+**Test cases:**
+
+* **Valid test cases:**
+    * Input: 25, 25, 25, 25
+    * Input: 0, 0, 0, 0
+    * Input: -1, -1, -1, -1
+* **Invalid test cases:**
+    * Input: 25, 25, 25, 0
+    * Input: 0, 0, -1, -1
+    * Input: 25, 25, 0, -1
+* **Corner cases:**
+    * Input: Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE
+    * Input: Integer.MIN_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE

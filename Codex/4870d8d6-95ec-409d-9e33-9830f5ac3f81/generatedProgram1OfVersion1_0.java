@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class SortArrayOfStringsByLength {
+
+    public static void main(String[] args) {
+        String[] arr = {"Hello", "World", "Java", "Programming"};
+
+        // Sort in ascending order by length
+        Arrays.sort(arr, (a, b) -> a.length() - b.length());
+        System.out.println("Sorted in ascending order by length: " + Arrays.toString(arr));
+
+        // Sort in descending order by length
+        Arrays.sort(arr, (a, b) -> b.length() - a.length());
+        System.out.println("Sorted in descending order by length: " + Arrays.toString(arr));
+    }
+}

@@ -1,0 +1,13 @@
+JUnit version 4.13
+..E.
+Time: 0.378
+There was 1 failure:
+1) test0(testing_ChatGPT_on_java.Example9_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method convert(float) is undefined for the type Example9
+
+	at testing_ChatGPT_on_java.Example9_ESTest.test0(Example9_ESTest.java:23)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+

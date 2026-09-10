@@ -1,0 +1,13 @@
+
+
+**Test Cases:**
+
+* **Normal cases:**
+    * Existing file: "existing_file.txt"
+    * Non-existing file: "non_existing_file.txt"
+    * Existing directory: "existing_directory"
+    * Non-existing directory: "non_existing_directory"
+
+* **Corner cases:**
+    * Null path: null
+    * Empty path: ""

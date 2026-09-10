@@ -1,0 +1,9 @@
+
+
+Sample Input/Output:
+Enter the three side lengths of the triangle:
+5
+7
+10
+Output:
+The given side lengths can form a triangle.

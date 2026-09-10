@@ -1,0 +1,12 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 88). [LineLength]: 1
+DesignForExtension: Class 'Library' looks like designed for extension (can be subclassed), but the method 'addBook' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Library' final or making the method 'addBook' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 3
+AvoidStarImport: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]: 1
+FinalParameters: Parameter book should be final. [FinalParameters]: 6
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 1
+HiddenField: 'title' hides a field. [HiddenField]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 5
+NeedBraces: 'if' construct must use '{}'s. [NeedBraces]: 2
+OperatorWrap: '+' should be on a new line. [OperatorWrap]: 3

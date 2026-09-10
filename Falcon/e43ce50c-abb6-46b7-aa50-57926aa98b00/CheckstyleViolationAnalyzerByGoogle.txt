@@ -1,0 +1,8 @@
+Violations by Category:
+CustomImportOrder: Wrong lexicographical order for 'java.util.HashSet' import. Should be before 'java.util.Set'. [CustomImportOrder]: 2
+OuterTypeFilename: The name of the outer type and the file do not match. [OuterTypeFilename]: 1
+WhitespaceAfter: 'typecast' is not followed by whitespace. [WhitespaceAfter]: 4
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+Indentation: '"What is "' has incorrect indentation level 6, expected level should be 8. [Indentation]: 4
+OperatorWrap: '+' should be on a new line. [OperatorWrap]: 2

@@ -1,0 +1,20 @@
+
+
+Test cases:
+
+* **Valid test cases:**
+    * 1.0
+    * 2.5
+    * 3.0
+    * 4.5
+    * 5.0
+* **Invalid test cases:**
+    * 1.1
+    * 2.6
+    * 3.1
+    * 4.6
+    * 5.1
+* **Corner cases:**
+    * 0.0
+    * Double.MIN_VALUE
+    * Double.MAX_VALUE

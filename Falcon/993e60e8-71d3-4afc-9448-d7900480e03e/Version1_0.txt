@@ -1,0 +1,38 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int num3 = scanner.nextInt();
+
+        if (num1 == num2 && num1 == num3) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
+}
+
+// Output: true
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example:
+// num1 = 5, num2 = 10, num3 = 15
+// num1 = 5, num2 = 15, num3 = 10
+// num1 = 10, num2 = 15, num3 = 5
+// num1 = 10, num2 = 5, num3 = 15
+// num1 = 15, num2 = 5, num3 = 10
+// num1 = 15, num2 = 10, num3 = 5
+// num1 = 10, num2 = 10, num3 = 15
+// num1 = 5, num2 = 10, num3 = 15
+// num1 = 5, num2 = 15, num3 = 10
+// num1 = 10, num2 = 15, num3 = 5
+// num1 = 10, num2 = 5, num3 = 15
+// num1 = 15, num2 = 5, num3 = 10
+// num1 = 15, num2 = 10, num3 = 5
+// num1 = 10, num2 = 10, num3 = 15
+// num1 = 5

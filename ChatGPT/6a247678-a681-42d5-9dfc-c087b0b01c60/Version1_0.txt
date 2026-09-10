@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94pBIqGNbQqHvRXd9bnhxasXmuVBS",
+  "object" : "chat.completion",
+  "created" : 1710937080,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class MoveZerosToRight {\n    public static void main(String[] args) {\n        int[] originalArray = {0, 3, 4, 0, 1, 2, 5, 0};\n        moveZerosToRight(originalArray);\n        System.out.println(\"Original array: \" + Arrays.toString(originalArray));\n    }\n\n    public static void moveZerosToRight(int[] nums) {\n        int count = 0;\n        for (int i = 0; i < nums.length; i++) {\n            if (nums[i] != 0) {\n                nums[count++] = nums[i];\n            }\n        }\n        \n        while (count < nums.length) {\n            nums[count++] = 0;\n        }\n    }\n}\n```\n\nThis Java program defines a function `moveZerosToRight` that moves all the zeros to the right side of the given array of integers. The program then demonstrates the function by calling it with an example array and printing the original array after moving zeros to the right side."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 122,
+    "completion_tokens" : 223,
+    "total_tokens" : 345
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

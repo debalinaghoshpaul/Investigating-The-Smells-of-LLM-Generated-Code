@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Create a movie object with a title, director, and list of actors.
+* Add a few reviews to the movie.
+* Print the movie's information, including the reviews.
+
+**Corner Cases:**
+
+* Create a movie object with an empty title or director.
+* Add an empty review to the movie.
+* Print the movie's information, including the empty review.

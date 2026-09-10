@@ -1,0 +1,5 @@
+Violations by Category:
+OneTopLevelClass: Top-level class Months has to reside in its own source file. [OneTopLevelClass]: 1
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 2
+MethodName: Method name 'testCornerCase_GetMonthBeforeJanuary' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'. [MethodName]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1

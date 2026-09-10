@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:1:8: Unused import - java.util.concurrent.CyclicBarrier. [UnusedImports]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:39:26: '1000' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:48:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:50:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:50:26: Parameter count should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:58:23: Parameter timeout should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:58:37: Parameter unit should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\c3838222-626e-4312-975e-15bc47a3fa5b\generatedProgram1OfVersion1_0.java:67: Line has trailing spaces. [RegexpSingleline]
+Audit done.

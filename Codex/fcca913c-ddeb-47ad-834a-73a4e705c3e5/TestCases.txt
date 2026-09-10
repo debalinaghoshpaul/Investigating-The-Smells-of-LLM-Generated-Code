@@ -1,0 +1,77 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class LongestSubstringAtEnds {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a string: ");
+        String string = scanner.nextLine();
+
+        // Find the longest substring that appears at both ends
+        String longestSubstring = "";
+        for (int i = 0; i < string.length() / 2; i++) {
+            String substring = string.substring(i, string.length() - i);
+            if (string.startsWith(substring) && string.endsWith(substring)) {
+                if (substring.length() > longestSubstring.length()) {
+                    longestSubstring = substring;
+                }
+            }
+        }
+
+        // Print the longest substring
+        System.out.println("The longest substring that appears at both ends: " + longestSubstring);
+    }
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+
+* Input: "abcabc"
+* Expected Output: "abcabc"
+
+**Test Case 2:**
+
+* Input: "abcdabcd"
+* Expected Output: "abcd"
+
+**Test Case 3:**
+
+* Input: "abcabcabc"
+* Expected Output: "abc"
+
+**Test Case 4:**
+
+* Input: "abcabcde"
+* Expected Output: "abc"
+
+**Test Case 5:**
+
+* Input: "a"
+* Expected Output: "a"
+
+**Test Case 6:**
+
+* Input: ""
+* Expected Output: ""
+
+**Corner Cases:**
+
+**Test Case 7:**
+
+* Input: null
+* Expected Output: NullPointerException
+
+**Test Case 8:**
+
+* Input: "1234567890123456789012345678901234567890"
+* Expected Output: "1234567890123456789012345678901234567890"
+
+**Test Case 9:**
+
+* Input: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+* Expected Output: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"

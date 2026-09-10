@@ -1,0 +1,40 @@
+```java
+import java.util.Arrays;
+
+public class SwapFirstLastElementArray {
+
+    public static void main(String[] args) {
+        // Test cases
+        int[] arr1 = {20, 30, 40};  // General case
+        int[] arr2 = {10};          // Corner case: Only one element
+        int[] arr3 = {};             // Corner case: Empty array
+
+        // Print original arrays
+        System.out.println("Original arrays:");
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr3));
+
+        // Swap first and last elements
+        swapFirstLastElement(arr1);
+        swapFirstLastElement(arr2);
+        swapFirstLastElement(arr3);
+
+        // Print new arrays
+        System.out.println("\nNew arrays after swapping first and last elements:");
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr3));
+    }
+
+    public static void swapFirstLastElement(int[] arr) {
+        if (arr.length < 1) {
+            System.out.println("Invalid array: Must contain at least one element");
+        } else {
+            int temp = arr[0];
+            arr[0] = arr[arr.length - 1];
+            arr[arr.length - 1] = temp;
+        }
+    }
+}
+```

@@ -1,0 +1,84 @@
+```java
+import java.util.Map;
+import java.util.Set;
+
+public class GenericMapPrinter {
+    public static <K, V> void printMap(Map<K, V> map) {
+        Set<K> keys = map.keySet();
+        for (K key : keys) {
+            V value = map.get(key);
+            System.out.println(key + ": " + value);
+        }
+    }
+
+    public static void main(String[] args) {
+        Map<String, Integer> stringIntegerMap = Map.of("One", 1, "Two", 2, "Three", 3);
+        printMap(stringIntegerMap);
+
+        Map<Integer, String> integerStringMap = Map.of(1, "One", 2, "Two", 3, "Three");
+        printMap(integerStringMap);
+
+        // Corner cases
+        Map<String, Integer> emptyMap = Map.of();
+        printMap(emptyMap);
+
+        Map<Object, Object> objectMap = Map.of(new Object(), new Object(), "key", "value");
+        printMap(objectMap);
+    }
+}
+
+```
+
+Test Cases:
+**Input 1:**
+
+```java
+Map<String, Integer> stringIntegerMap = Map.of("One", 1, "Two", 2, "Three", 3);
+```
+
+**Expected Output:**
+
+```
+One: 1
+Two: 2
+Three: 3
+```
+
+**Input 2:**
+
+```java
+Map<Integer, String> integerStringMap = Map.of(1, "One", 2, "Two", 3, "Three");
+```
+
+**Expected Output:**
+
+```
+1: One
+2: Two
+3: Three
+```
+
+**Input 3 (Corner Case: Empty Map):**
+
+```java
+Map<String, Integer> emptyMap = Map.of();
+```
+
+**Expected Output:**
+
+```
+(empty)
+```
+
+**Input 4 (Corner Case: Map with Objects as Keys and Values):**
+
+```java
+Map<Object, Object> objectMap = Map.of(new Object(), new Object(), "key", "value");
+```
+
+**Expected Output:**
+
+```
+[object Object]: [object Object]
+key: value
+```

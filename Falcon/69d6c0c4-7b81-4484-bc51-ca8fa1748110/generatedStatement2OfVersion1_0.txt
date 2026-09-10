@@ -1,0 +1,16 @@
+
+
+### Test Cases:
+
+**Normal Cases:**
+- Year: 2010, Gender: M, Name: Jacob --> Output: Boy name Jacob is ranked #1 in year 2010
+- Year: 2010, Gender: F, Name: Sophia --> Output: Girl name Sophia is ranked #3 in year 2010
+- Year: 2020, Gender: M, Name: Liam --> Output: Boy name Liam is ranked #2 in year 2020
+- Year: 2020, Gender: F, Name: Olivia --> Output: Girl name Olivia is ranked #1 in year 2020
+
+**Corner Cases:**
+- Year: 1999, Gender: M, Name: Muhammad --> Output: Boy name Muhammad is not found
+- Year: 2030, Gender: F, Name: Aaliyah --> Output: Girl name Aaliyah is not found
+- Year: 2010, Gender: X, Name: Ava --> Output: Gender is invalid
+- Year: 2010, Gender: M, Name: Jacob0 --> Output: Name contains non-alphabetic character
+- Year: 2010, Gender: M, Name:  --> Output: Name cannot be empty

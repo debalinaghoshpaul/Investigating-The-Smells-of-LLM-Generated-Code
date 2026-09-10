@@ -1,0 +1,12 @@
+
+
+**Test Cases:**
+
+* **Positive Test Case:** Original array: `[1, 1, 2, 3, 3, 3, 4, 5, 6, 7, 7, 7, 7]`. Expected output: `Updated length: 10`.
+* **Negative Test Case:** Original array: `[]`. Expected output: `Updated length: 0`.
+* **Corner Case:** Original array: `[1, 2, 3, 4, 5, 6, 7]`. Expected output: `Updated length: 7`.
+
+**Problem 2:**
+
+**Java Program:**
+

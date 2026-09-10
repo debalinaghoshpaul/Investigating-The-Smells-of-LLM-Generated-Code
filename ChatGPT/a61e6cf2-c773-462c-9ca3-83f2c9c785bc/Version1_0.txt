@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94n5XFbCmyhOejwTO8xXykw1uvzCo",
+  "object" : "chat.completion",
+  "created" : 1710929035,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        System.out.print(\"Input first number: \");\n        int num1 = input.nextInt();\n\n        System.out.print(\"Input second number: \");\n        int num2 = input.nextInt();\n\n        System.out.print(\"Input third number: \");\n        int num3 = input.nextInt();\n\n        System.out.print(\"Input fourth number: \");\n        int num4 = input.nextInt();\n\n        if(num1 == num2 && num2 == num3 && num3 == num4) {\n            System.out.println(\"Numbers are equal!\");\n        } else {\n            System.out.println(\"Numbers are not equal!\");\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 108,
+    "completion_tokens" : 149,
+    "total_tokens" : 257
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

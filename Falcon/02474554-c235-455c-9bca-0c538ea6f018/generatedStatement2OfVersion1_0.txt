@@ -1,0 +1,9 @@
+
+
+**Test Cases:**
+
+* **Normal case:** Create a rectangle and a triangle and call the `center` method on both of them.
+* **Corner case:** Create a null figure and call the `center` method on it.
+
+**Expected Output:**
+

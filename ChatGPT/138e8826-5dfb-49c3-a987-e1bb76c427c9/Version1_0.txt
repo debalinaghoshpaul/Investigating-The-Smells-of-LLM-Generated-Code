@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93QYjVdnFZaj1OvUCcjdAF6ifmRtt",
+  "object" : "chat.completion",
+  "created" : 1710604105,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\n\npublic class StackPortion {\n\n    public static void main(String[] args) {\n        Stack<Integer> originalStack = new Stack<>();\n        Stack<Integer> newStack = new Stack<>();\n        \n        // Push elements to original stack\n        originalStack.push(1);\n        originalStack.push(2);\n        originalStack.push(3);\n        originalStack.push(4);\n        originalStack.push(5);\n        \n        // Display original stack\n        System.out.println(\"Original Stack: \" + originalStack);\n        \n        // Create a new stack from a portion of the original stack (top 3 elements)\n        for (int i = 0; i < 3; i++) {\n            newStack.push(originalStack.pop());\n        }\n        \n        // Display new stack\n        System.out.println(\"New Stack: \" + newStack);\n    }\n}\n```\n\nOutput:\n```\nOriginal Stack: [1, 2, 3, 4, 5]\nNew Stack: [3, 2, 1]\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 71,
+    "completion_tokens" : 215,
+    "total_tokens" : 286
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

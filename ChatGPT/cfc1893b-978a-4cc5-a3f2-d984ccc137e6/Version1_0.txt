@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EZbfUJuX8j2pBxRXOHkg2zob6U7a",
+  "object" : "chat.completion",
+  "created" : 1713260491,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class LargeIntegerAddition {\n\n    public static final int MAX_DIGITS = 20;\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        char[] num1 = new char[MAX_DIGITS];\n        char[] num2 = new char[MAX_DIGITS];\n        int[] result = new int[MAX_DIGITS + 1]; // +1 in case of carry over\n\n        boolean continueAdding = true;\n        while (continueAdding) {\n            System.out.print(\"Enter a positive integer (up to 20 digits): \");\n            String num1Str = scanner.next();\n            System.out.print(\"Enter another positive integer (up to 20 digits): \");\n            String num2Str = scanner.next();\n\n            // Validate input\n            if(num1Str.length() > MAX_DIGITS || num2Str.length() > MAX_DIGITS) {\n                System.out.println(\"Input integers exceed maximum number of digits.\");\n                continue;\n            }\n\n            // Store digits in array\n            for (int i = 0; i < num1Str.length(); i++) {\n                num1[MAX_DIGITS - 1 - i] = num1Str.charAt(i);\n            }\n            for (int i = 0; i < num2Str.length(); i++) {\n                num2[MAX_DIGITS - 1 - i] = num2Str.charAt(i);\n            }\n\n            // Perform addition\n            int carry = 0;\n            for (int i = 0; i < MAX_DIGITS; i++) {\n                int sum = Character.getNumericValue(num1[i]) + Character.getNumericValue(num2[i]) + carry;\n                result[i] = sum % 10;\n                carry = sum / 10;\n            }\n\n            // Check for integer overflow\n            if (carry > 0) {\n                System.out.println(\"Integer overflow\");\n            } else {\n                // Print result\n                boolean leadingZeros = true;\n                for (int i = MAX_DIGITS - 1; i >= 0; i--) {\n                    if (result[i] != 0) {\n                        leadingZeros = false;\n                    }\n                    if (!leadingZeros) {\n                        System.out.print(result[i]);\n                    }\n                }\n                System.out.println();\n            }\n\n            System.out.print(\"Do you want to perform another addition? (y/n): \");\n            String choice = scanner.next();\n            if (!choice.equalsIgnoreCase(\"y\")) {\n                continueAdding = false;\n            }\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 453,
+    "completion_tokens" : 518,
+    "total_tokens" : 971
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

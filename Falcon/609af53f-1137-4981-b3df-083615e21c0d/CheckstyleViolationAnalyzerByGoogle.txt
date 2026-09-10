@@ -1,0 +1,4 @@
+Violations by Category:
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 3
+Indentation: 'member def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]: 31

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95AQUCOXYD00el6ty91ztA2fwXq8E",
+  "object" : "chat.completion",
+  "created" : 1711018746,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class CalculateDebt {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.print(\"Enter number of months: \");\n        int months = scanner.nextInt();\n        \n        int debt = 100000;\n        for (int i = 1; i <= months; i++) {\n            debt += debt * 0.04; // add 4% interest\n            debt = roundToNearestThousand(debt);\n        }\n        \n        System.out.println(\"Debt amount after \" + months + \" months: $\" + debt);\n    }\n    \n    public static int roundToNearestThousand(int amount) {\n        return (int) Math.round(amount / 1000) * 1000;\n    }\n}\n```\nThis program calculates the debt amount after n months by adding 4% interest monthly to the borrowed amount of $100,000 and rounding the result to the nearest thousand."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 92,
+    "completion_tokens" : 203,
+    "total_tokens" : 295
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

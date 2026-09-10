@@ -1,0 +1,2 @@
+Violations by Category:
+\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\0c922e69-7c17-4e6b-a69c-44474f97767e\generatedProgram1OfVersion1_0.java' at line 2, column 19: Encountered "int".: 1

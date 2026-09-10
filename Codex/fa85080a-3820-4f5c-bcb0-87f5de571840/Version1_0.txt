@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93UyUPTrMPtNAuwdH7QwcGWxuredO",
+  "object" : "chat.completion",
+  "created" : 1710621078,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Interface Drawable\ninterface Drawable {\n    void draw();\n}\n\n// Circle class implementing the Drawable interface\nclass Circle implements Drawable {\n    @Override\n    public void draw() {\n        System.out.println(\"Drawing a circle\");\n    }\n}\n\n// Rectangle class implementing the Drawable interface\nclass Rectangle implements Drawable {\n    @Override\n    public void draw() {\n        System.out.println(\"Drawing a rectangle\");\n    }\n}\n\n// Triangle class implementing the Drawable interface\nclass Triangle implements Drawable {\n    @Override\n    public void draw() {\n        System.out.println(\"Drawing a triangle\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Circle circle = new Circle();\n        Rectangle rectangle = new Rectangle();\n        Triangle triangle = new Triangle();\n\n        circle.draw();\n        rectangle.draw();\n        triangle.draw();\n    }\n}\n```\n\nOutput:\n```\nDrawing a circle\nDrawing a rectangle\nDrawing a triangle\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 97,
+    "completion_tokens" : 189,
+    "total_tokens" : 286
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

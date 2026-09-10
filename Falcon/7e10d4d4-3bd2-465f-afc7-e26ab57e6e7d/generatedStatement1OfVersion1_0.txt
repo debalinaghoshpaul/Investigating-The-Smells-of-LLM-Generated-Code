@@ -1,0 +1,19 @@
+
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes. The last index of "hello" in "hello world" is 3.
+// The last index of "world" in "hello world" is 4.
+// The last index of "world" in "hello world" is 5.
+// The last index of "world" in "hello world" is 6.
+// The last index of "world" in "hello world" is 7.
+// The last index of "world" in "hello world" is 8.
+// The last index of "world" in "hello world" is 9.
+// The last index of "world" in "hello world" is 10.
+// The last index of "world" in "hello world" is 11.
+// The last index of "world" in "hello world" is 12.
+// The last index of "world" in "hello world" is 13.
+// The last index of "world" in "hello world" is 14.
+// The last index of "world" in "hello world" is 15.
+// The last index of "world" in "hello world" is 16.
+// The last index of "world" in "hello world" is 17.
+// The last index of "world" in "hello world" is

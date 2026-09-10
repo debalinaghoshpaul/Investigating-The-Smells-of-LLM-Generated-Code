@@ -1,0 +1,3 @@
+
+
+This program defines a method `rotateArray` that takes an array as input and rotates it clockwise by one position. The main method initializes an array, prints the original array, rotates it using the `rotateArray` method, and then prints the array after rotation.

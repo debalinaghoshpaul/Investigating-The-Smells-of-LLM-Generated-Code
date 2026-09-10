@@ -1,0 +1,74 @@
+```java
+import java.util.Scanner;
+
+public class SubstringCount {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the string and the two substrings from the user.
+        System.out.println("Enter the string:");
+        String string = scanner.nextLine();
+
+        System.out.println("Enter the first substring:");
+        String substring1 = scanner.nextLine();
+
+        System.out.println("Enter the second substring:");
+        String substring2 = scanner.nextLine();
+
+        // Check the number of times the two substrings appear in the string.
+        int count1 = 0;
+        int count2 = 0;
+        for (int i = 0; i < string.length(); i++) {
+            if (string.substring(i, i + substring1.length()).equals(substring1)) {
+                count1++;
+            }
+            if (string.substring(i, i + substring2.length()).equals(substring2)) {
+                count2++;
+            }
+        }
+
+        // Print the number of times the two substrings appear in the string.
+        System.out.println("The first substring appears " + count1 + " times in the string.");
+        System.out.println("The second substring appears " + count2 + " times in the string.");
+    }
+}
+```
+
+Test cases:
+
+* **Test case 1:**
+    * String: "Hello world"
+    * Substring 1: "He"
+    * Substring 2: "wo"
+    * Expected output:
+        * The first substring appears 1 times in the string.
+        * The second substring appears 1 times in the string.
+* **Test case 2:**
+    * String: "Lorem ipsum dolor sit amet"
+    * Substring 1: "Lorem"
+    * Substring 2: "amet"
+    * Expected output:
+        * The first substring appears 1 times in the string.
+        * The second substring appears 1 times in the string.
+* **Test case 3:**
+    * String: "aabbbcccc"
+    * Substring 1: "aa"
+    * Substring 2: "bb"
+    * Expected output:
+        * The first substring appears 2 times in the string.
+        * The second substring appears 2 times in the string.
+* **Test case 4:**
+    * String: "abcabc"
+    * Substring 1: "abc"
+    * Substring 2: "bca"
+    * Expected output:
+        * The first substring appears 2 times in the string.
+        * The second substring appears 1 times in the string.
+* **Test case 5:**
+    * String: ""
+    * Substring 1: ""
+    * Substring 2: ""
+    * Expected output:
+        * The first substring appears 0 times in the string.
+        * The second substring appears 0 times in the string.

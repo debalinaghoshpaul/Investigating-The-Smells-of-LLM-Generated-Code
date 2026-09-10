@@ -1,0 +1,52 @@
+```java
+import java.util.Scanner;
+
+public class OctalToDecimal {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input any octal number: ");
+        int octal = input.nextInt();
+        int decimal = 0;
+        int n = 0;
+
+        while(octal != 0) {
+            decimal += (octal % 10) * Math.pow(8, n);
+            octal /= 10;
+            ++n;
+        }
+
+        System.out.println("Equivalent decimal number: " + decimal);
+    }
+}
+```
+
+**Test Cases:**
+
+**1. Normal Test Cases:**
+
+* Input: 10
+* Output: 8
+
+* Input: 123
+* Output: 83
+
+* Input: 777
+* Output: 511
+
+**2. Corner Test Cases:**
+
+* Input: 0
+* Output: 0
+
+* Input: 11111
+* Output: 3840
+
+* Input: -1
+* Output: Invalid input
+
+* Input: 12.3
+* Output: Invalid input
+
+* Input: 10A
+* Output: Invalid input

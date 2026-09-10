@@ -1,0 +1,46 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.331
+There were 4 failures:
+1) test2(testing_ChatGPT_on_java.SumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved to a type
+	SumCalculator cannot be resolved to a type
+	SumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.SumCalculator_ESTest.test2(SumCalculator_ESTest.java:42)
+2) test3(testing_ChatGPT_on_java.SumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	SumCalculator cannot be resolved to a type
+	SumCalculator cannot be resolved to a type
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.SumCalculator_ESTest.test3(SumCalculator_ESTest.java:57)
+3) test0(testing_ChatGPT_on_java.SumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved
+	SumCalculator cannot be resolved to a type
+	SumCalculator cannot be resolved to a type
+	SumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.SumCalculator_ESTest.test0(SumCalculator_ESTest.java:25)
+4) test1(testing_ChatGPT_on_java.SumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	SumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.SumCalculator_ESTest.test1(SumCalculator_ESTest.java:35)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

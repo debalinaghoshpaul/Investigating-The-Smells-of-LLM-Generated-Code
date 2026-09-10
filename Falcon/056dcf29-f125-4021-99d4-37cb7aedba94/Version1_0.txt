@@ -1,0 +1,41 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class MonthsLeft {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the year: ");
+        int year = scanner.nextInt();
+        System.out.print("Enter the month: ");
+        int month = scanner.nextInt();
+        System.out.print("Enter the day: ");
+        int day = scanner.nextInt();
+        System.out.print("Enter the year: ");
+        int year2 = scanner.nextInt();
+        System.out.print("Enter the month: ");
+        int month2 = scanner.nextInt();
+        System.out.print("Enter the day: ");
+        int day2 = scanner.nextInt();
+        System.out.println("The number of months left in the year is: " + (year - year2) + ".");
+        System.out.println("The number of months left in the year is: " + (month - month2) + ".");
+        System.out.println("The number of months left in the year is: " + (day - day2) + ".");
+    }
+}
+
+// Output:
+// Enter the year: 2020
+// Enter the month: 12
+// Enter the day: 31
+// The number of months left in the year is: 1.
+// The number of months left in the year is: 0.
+// The number of months left in the year is: 31.
+// The number of months left in the year is: 30.
+// The number of months left in the year is: 29.
+// The number of months left in the year is: 28.
+// The number of months left in the year is: 27.
+// The number of months left in the year is: 26.
+// The number of months left in the year is: 25.
+// The number of months left in the year is: 24.
+// The number of months left in the year is: 23.
+// The number of months left in the year is: 22.
+// The number

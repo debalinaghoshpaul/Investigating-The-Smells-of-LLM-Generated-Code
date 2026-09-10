@@ -1,0 +1,11 @@
+ 11
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, you can test the program with a string like "abcd" and check if the longest palindromic substring is "abcd".
+// You can also test the program with a string like "abcde" and check if the longest palindromic substring is "abcde".
+// You can also test the program with a string like "abcde" and check if the longest palindromic substring is "abcde".
+// You can also test the program with a string like "abcde" and check if the longest palindromic substring is "abcde".
+// You can also test the program with a string like "abcde" and check if the longest palindromic substring is "abcde".
+// You can also test the program with a string like "abcde" and check if the longest palindromic substring is "abcde".
+// You can also test the program with a string like "abcde" and check if the longest palindrom

@@ -1,0 +1,55 @@
+```java
+import java.util.*;
+
+public class AverageValue {
+
+    public static void main(String[] args) {
+        // Create an array of integers
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        // Find the largest and smallest values in the array
+        int max = arr[0];
+        int min = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+
+        // Calculate the average value of the array, excluding the largest and smallest values
+        double average = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != max && arr[i] != min) {
+                average += arr[i];
+            }
+        }
+        average /= (arr.length - 2);
+
+        // Print the average value
+        System.out.println("The average value of the array, excluding the largest and smallest values, is: " + average);
+    }
+}
+```
+
+**Test cases:**
+
+* **Empty array:** []
+* **Array with one element:** [5]
+* **Array with two elements:** [1, 2]
+* **Array with three elements:** [1, 2, 3]
+* **Array with four elements:** [1, 2, 3, 4]
+* **Array with five elements:** [1, 2, 3, 4, 5]
+* **Array with six elements:** [1, 2, 3, 4, 5, 6]
+* **Array with seven elements:** [1, 2, 3, 4, 5, 6, 7]
+* **Array with eight elements:** [1, 2, 3, 4, 5, 6, 7, 8]
+* **Array with nine elements:** [1, 2, 3, 4, 5, 6, 7, 8, 9]
+* **Array with ten elements:** [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+**Corner cases:**
+
+* **Array with all equal elements:** [1, 1, 1, 1, 1]
+* **Array with only two unique elements:** [1, 10]
+* **Array with only one unique element:** [5]

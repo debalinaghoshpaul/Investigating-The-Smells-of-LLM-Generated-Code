@@ -1,0 +1,6 @@
+
+Input:
+list = [10, 20]
+Output:
+20
+10

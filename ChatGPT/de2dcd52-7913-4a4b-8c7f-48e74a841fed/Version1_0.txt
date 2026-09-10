@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-944rEXwHU1Hvt8Z3RVJxRrPY7J5A7",
+  "object" : "chat.completion",
+  "created" : 1710759012,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class Converter {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Fahrenheit to Celsius conversion\n        System.out.print(\"Input a degree in Fahrenheit: \");\n        double fahrenheit = sc.nextDouble();\n        double celsius = (fahrenheit - 32) * 5 / 9;\n        System.out.println(fahrenheit + \" degree Fahrenheit is equal to \" + celsius + \" in Celsius\");\n\n        // Inches to Meters conversion\n        System.out.print(\"Input a value for inch: \");\n        double inch = sc.nextDouble();\n        double meters = inch * 0.0254;\n        System.out.println(inch + \" inch is equal to \" + meters + \" meters\");\n\n        sc.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 147,
+    "completion_tokens" : 161,
+    "total_tokens" : 308
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

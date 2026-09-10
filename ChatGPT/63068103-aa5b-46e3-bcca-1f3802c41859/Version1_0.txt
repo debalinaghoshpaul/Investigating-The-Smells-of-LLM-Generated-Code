@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95CXmLfdsXh86p7r9gmIiFn5fAB4H",
+  "object" : "chat.completion",
+  "created" : 1711026886,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.*;\n\npublic class WordAnalyzer {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.println(\"Enter the text:\");\n        String text = scanner.nextLine();\n        \n        String[] words = text.split(\" \");\n        \n        Map<String, Integer> wordFrequency = new HashMap<>();\n        String mostFrequentWord = \"\";\n        int maxFrequency = 0;\n        \n        String longestWord = \"\";\n        int maxLength = 0;\n        \n        for (String word : words) {\n            // Calculate word frequency\n            wordFrequency.put(word, wordFrequency.getOrDefault(word, 0) + 1);\n            if (wordFrequency.get(word) > maxFrequency) {\n                maxFrequency = wordFrequency.get(word);\n                mostFrequentWord = word;\n            }\n            \n            // Calculate longest word\n            if (word.length() > maxLength) {\n                maxLength = word.length();\n                longestWord = word;\n            }\n        }\n        \n        System.out.println(\"Most frequent word: \" + mostFrequentWord);\n        System.out.println(\"Longest word: \" + longestWord);\n    }\n}\n```\n\nExample Input/Output:\n- Input: \"The programming language you need to use is java is is is java\"\n- Output:\n  Most frequent word: is\n  Longest word: programming"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 112,
+    "completion_tokens" : 276,
+    "total_tokens" : 388
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91zO0SWzrIaeL7FA54e43U14v1HwU",
+  "object" : "chat.completion",
+  "created" : 1710261324,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class SeparateZerosAndOnes {\n    public static void main(String[] args) {\n        int[] arr = {0, 1, 0, 1, 1, 0, 1, 0, 1, 0};\n\n        separateZerosAndOnes(arr);\n\n        System.out.println(\"Array after separating zeros and ones: \" + Arrays.toString(arr));\n    }\n\n    public static void separateZerosAndOnes(int[] arr) {\n        int left = 0;\n        int right = arr.length - 1;\n\n        while (left < right) {\n            while (arr[left] == 0 && left < right) {\n                left++;\n            }\n            while (arr[right] == 1 && left < right) {\n                right--;\n            }\n            if (left < right) {\n                arr[left] = 0;\n                arr[right] = 1;\n                left++;\n                right--;\n            }\n        }\n    }\n}\n```\n\nThis program takes an input array of random 0s and 1s, separates the 0s to the left and the 1s to the right, and then prints out the updated array."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 84,
+    "completion_tokens" : 251,
+    "total_tokens" : 335
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

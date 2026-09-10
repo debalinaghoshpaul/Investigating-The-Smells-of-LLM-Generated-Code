@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93BRQIaAyocWS6MO5KqlQGLPh6D8b",
+  "object" : "chat.completion",
+  "created" : 1710545992,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Solution : \n\n```java\npublic class SumCalculator {\n\n    public static void main(String[] args) {\n        int n = 5;\n        int sum = calculateSum(n);\n        \n        System.out.println(\"Sum of numbers from 1 to \" + n + \" is: \" + sum);\n    }\n\n    public static int calculateSum(int n) {\n        if (n <= 0) {\n            return 0;\n        } else {\n            return n + calculateSum(n - 1);\n        }\n    }\n}\n```\n\nOutput:\n```\nSum of numbers from 1 to 5 is: 15\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 64,
+    "completion_tokens" : 127,
+    "total_tokens" : 191
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

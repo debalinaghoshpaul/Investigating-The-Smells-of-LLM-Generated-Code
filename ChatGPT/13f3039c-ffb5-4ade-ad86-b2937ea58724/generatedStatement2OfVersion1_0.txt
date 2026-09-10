@@ -1,0 +1,31 @@
+
+
+**Test Cases:**
+
+**Empty List:**
+* Input: []
+* Expected Output: Product: 1, Sum: 0
+
+**Single Element List:**
+* Input: [3]
+* Expected Output: Product: 3, Sum: 3
+
+**Positive Integer List:**
+* Input: [1, 2, 3, 4, 5]
+* Expected Output: Product: 120, Sum: 15
+
+**Negative Integer List:**
+* Input: [-1, -2, -3]
+* Expected Output: Product: -6, Sum: -6
+
+**Mixed Integer List:**
+* Input: [-1, 0, 1, 2, 3]
+* Expected Output: Product: 0, Sum: 5
+
+**Edge Case: Multiply Overflow:**
+* Input: [Integer.MAX_VALUE, Integer.MAX_VALUE]
+* Expected Output: Product: ArithmeticException
+
+**Edge Case: Sum Overflow:**
+* Input: [Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE]
+* Expected Output: Sum: ArithmeticException

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program which reads an integer n and finds the number of combinations of a,b,c and d (0 ≤ a,b,c,d ≤ 9) where (a + b + c + d) equals n.\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 720533ae-882c-4e79-87e8-7e44436a1d5b.\n

@@ -1,0 +1,7 @@
+
+
+**Test cases:**
+
+* **Normal case:** n1 = 5, expected factorial = 120
+* **Corner case: zero input:** n2 = 0, expected factorial = 1
+* **Corner case: negative input:** n3 = -3, expected exception: "Factorial is not defined for negative numbers"

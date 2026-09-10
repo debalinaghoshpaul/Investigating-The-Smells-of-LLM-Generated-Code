@@ -1,0 +1,21 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Rectangle with length or width equal to 0
+* Circle with radius equal to 0
+* Triangle with base or height equal to 0
+
+**Positive Cases:**
+
+* Rectangle with positive length and width
+* Circle with positive radius
+* Triangle with positive base and height
+
+**Negative Cases:**
+
+* Rectangle with negative length or width
+* Circle with negative radius
+* Triangle with negative base or height

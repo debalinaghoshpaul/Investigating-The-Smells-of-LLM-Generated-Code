@@ -1,0 +1,6 @@
+Violations by Category:
+LocalVariableNamingConventions: The local variable name 'new_node' doesn't match '[a-z][a-zA-Z0-9]*': 1
+CommentRequired: Class comments are required: 6
+AtLeastOneConstructor: Each class should declare at least one constructor: 1
+FormalParameterNamingConventions: The method parameter name 'new_data' doesn't match '[a-z][a-zA-Z0-9]*': 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-96OnXQuJ29FxvnFIpFp0VvstlTNRX",
+  "object" : "chat.completion",
+  "created" : 1711312319,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\nimport java.util.List;\n\npublic class MaxMinInList {\n\n    public static void main(String[] args) {\n        List<Integer> numbers = Arrays.asList(10, 5, 8, 3, 15, 7);\n\n        // Using streams to find the maximum value\n        int max = numbers.stream()\n                .mapToInt(Integer::intValue)\n                .max()\n                .getAsInt();\n\n        // Using streams to find the minimum value\n        int min = numbers.stream()\n                .mapToInt(Integer::intValue)\n                .min()\n                .getAsInt();\n\n        System.out.println(\"Maximum value: \" + max);\n        System.out.println(\"Minimum value: \" + min);\n    }\n}\n```\n\nOutput:\n```\nMaximum value: 15\nMinimum value: 3\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 67,
+    "completion_tokens" : 170,
+    "total_tokens" : 237
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

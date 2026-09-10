@@ -1,0 +1,9 @@
+Violations by Category:
+DesignForExtension: Class 'BankAccount' looks like designed for extension (can be subclassed), but the method 'getAccountNumber' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BankAccount' final or making the method 'getAccountNumber' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 4
+FinalParameters: Parameter accountNumber should be final. [FinalParameters]: 5
+HiddenField: 'accountNumber' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 6
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '100' is a magic number. [MagicNumber]: 2

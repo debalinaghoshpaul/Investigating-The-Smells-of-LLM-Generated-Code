@@ -1,0 +1,13 @@
+JUnit version 4.13
+.Enter a string: 
+.Enter a string: 
+The swapped string is: testing_ChatGPT_on_java.SwapLastTwoCharactesr
+.Enter a string: 
+The swapped string is: C2
+.Enter a string: 
+The string length must be two or more.
+.
+Time: 0.522
+
+OK (5 tests)
+

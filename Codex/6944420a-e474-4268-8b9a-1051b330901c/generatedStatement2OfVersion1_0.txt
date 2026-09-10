@@ -1,0 +1,16 @@
+
+
+**Test Cases:**
+
+* **Positive numbers:**
+    * 50 / 3 = 16
+    * 100 / 10 = 10
+* **Negative numbers:**
+    * -50 / -3 = 16
+    * -100 / -10 = 10
+* **Zero:**
+    * 0 / 3 = 0
+    * 100 / 0 = ArithmeticException
+* **Corner cases:**
+    * Integer.MAX_VALUE / Integer.MIN_VALUE = -1
+    * Integer.MIN_VALUE / Integer.MAX_VALUE = 0

@@ -1,0 +1,13 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+    * Input: 25.586, 25.589
+    * Expected output: They are different.
+* **Corner case:**
+    * Input: 25.586, 25.586
+    * Expected output: They are the same.
+* **Corner case:**
+    * Input: 25.586, 25.5860001
+    * Expected output: They are different.

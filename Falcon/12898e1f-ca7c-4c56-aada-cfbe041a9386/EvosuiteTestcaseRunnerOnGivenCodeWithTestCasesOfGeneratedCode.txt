@@ -1,0 +1,39 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.376
+There were 6 failures:
+1) test3(testing_ChatGPT_on_java.ArithmeticOperations_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArithmeticOperations.main(Exercise6.java:6)
+	at testing_ChatGPT_on_java.ArithmeticOperations_ESTest.test3(ArithmeticOperations_ESTest.java:62)
+2) test2(testing_ChatGPT_on_java.ArithmeticOperations_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArithmeticOperations.main(Exercise6.java:6)
+	at testing_ChatGPT_on_java.ArithmeticOperations_ESTest.test2(ArithmeticOperations_ESTest.java:44)
+3) test5(testing_ChatGPT_on_java.ArithmeticOperations_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArithmeticOperations.main(Exercise6.java:6)
+	at testing_ChatGPT_on_java.ArithmeticOperations_ESTest.test5(ArithmeticOperations_ESTest.java:83)
+4) test4(testing_ChatGPT_on_java.ArithmeticOperations_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type ArithmeticOperations must be defined in its own file
+
+	at testing_ChatGPT_on_java.ArithmeticOperations.<init>(Exercise6.java:4)
+	at testing_ChatGPT_on_java.ArithmeticOperations_ESTest.test4(ArithmeticOperations_ESTest.java:75)
+5) test1(testing_ChatGPT_on_java.ArithmeticOperations_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArithmeticOperations.main(Exercise6.java:6)
+	at testing_ChatGPT_on_java.ArithmeticOperations_ESTest.test1(ArithmeticOperations_ESTest.java:35)
+6) test0(testing_ChatGPT_on_java.ArithmeticOperations_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArithmeticOperations.main(Exercise6.java:6)
+	at testing_ChatGPT_on_java.ArithmeticOperations_ESTest.test0(ArithmeticOperations_ESTest.java:27)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

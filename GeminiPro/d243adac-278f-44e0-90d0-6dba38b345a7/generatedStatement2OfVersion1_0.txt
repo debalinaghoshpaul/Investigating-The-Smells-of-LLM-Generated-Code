@@ -1,0 +1,20 @@
+
+
+**Test Cases**
+
+**Corner Cases**
+
+* **a = b = c:** The result should be false.
+* **a = c > b:** The result should be false.
+* **b = c > a:** The result should be true.
+* **a > b = c:** The result should be false.
+* **a > c = b:** The result should be false.
+* **a = b > c:** The result should be false.
+* **a > b < c:** The result should be false.
+
+**Normal Cases**
+
+* **a < b < c:** The result should be true.
+* **a < b > c:** The result should be true.
+* **a > b > c:** The result should be false.
+* **a > c > b:** The result should be true.

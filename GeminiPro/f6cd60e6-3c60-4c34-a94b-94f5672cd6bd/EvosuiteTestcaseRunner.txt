@@ -1,0 +1,10 @@
+JUnit version 4.13
+..Letter: 23
+Space: 9
+Number: 10
+Other: 6
+...
+Time: 0.361
+
+OK (5 tests)
+

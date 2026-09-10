@@ -1,0 +1,23 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+    * Input 1: 25
+    * Input 2: 5
+    * Output: 125
+* **Zero case:**
+    * Input 1: 0
+    * Input 2: 5
+    * Output: 0
+* **Negative case:**
+    * Input 1: -25
+    * Input 2: 5
+    * Output: -125
+* **Corner cases:**
+    * Input 1: Integer.MAX_VALUE
+    * Input 2: 1
+    * Output: Integer.MAX_VALUE
+    * Input 1: Integer.MIN_VALUE
+    * Input 2: 1
+    * Output: Integer.MIN_VALUE

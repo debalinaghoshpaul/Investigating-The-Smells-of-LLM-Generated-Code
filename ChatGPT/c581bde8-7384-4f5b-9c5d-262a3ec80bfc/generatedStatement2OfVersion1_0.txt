@@ -1,0 +1,3 @@
+
+
+This program creates a copy of an array by iterating through each element of the original array and copying it to the new array. The original array is {1, 2, 3, 4, 5} and the copied array will have the same values. Finally, it prints both the original and copied arrays.

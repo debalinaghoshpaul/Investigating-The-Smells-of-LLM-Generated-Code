@@ -1,0 +1,30 @@
+
+
+**Test Cases**
+
+**Corner Cases**
+
+* Empty array
+* Target is less than the smallest element in the array
+* Target is greater than the largest element in the array
+
+**Normal Cases**
+
+* Target is equal to an element in the array
+* Target is not equal to any element in the array but would be inserted before an existing element
+* Target is not equal to any element in the array but would be inserted after the last element
+
+**Examples**
+
+* **Empty array, target = 0**
+    * Expected output: 0
+* **[1], target = 0**
+    * Expected output: 0
+* **[1], target = 2**
+    * Expected output: 1
+* **[1, 2, 3], target = 1**
+    * Expected output: 0
+* **[1, 2, 3], target = 2**
+    * Expected output: 1
+* **[1, 2, 3], target = 4**
+    * Expected output: 3

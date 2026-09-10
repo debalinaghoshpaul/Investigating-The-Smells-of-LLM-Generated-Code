@@ -1,0 +1,47 @@
+```java
+import java.util.Scanner;
+
+public class StringContainsSequence {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String string = scanner.nextLine();
+
+        // Get the sequence of characters to search for
+        System.out.println("Enter the sequence of characters to search for: ");
+        String sequence = scanner.nextLine();
+
+        // Test if the string contains the sequence
+        boolean contains = string.contains(sequence);
+
+        // Print the result
+        if (contains) {
+            System.out.println("The string contains the sequence.");
+        } else {
+            System.out.println("The string does not contain the sequence.");
+        }
+    }
+}
+```
+
+**Test Cases**
+
+**Regular Test Cases**
+
+| Input String | Sequence | Expected Output |
+|---|---|---|
+| "Hello world" | "world" | The string contains the sequence. |
+| "This is a test" | "test" | The string contains the sequence. |
+| "Lorem ipsum dolor sit amet" | "amet" | The string contains the sequence. |
+
+**Corner Cases**
+
+| Input String | Sequence | Expected Output |
+|---|---|---|
+| "Hello" | "" | The string contains the sequence. |
+| "" | "world" | The string does not contain the sequence. |
+| "Hello world" | "a" | The string contains the sequence. |
+| "Hello world" | "xyz" | The string does not contain the sequence. |

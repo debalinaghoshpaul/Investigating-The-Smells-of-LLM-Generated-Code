@@ -1,0 +1,3 @@
+
+
+In this program, we create a PriorityQueue `queue` and add some elements to it. Then, we create a new PriorityQueue `maxQueue` and pass `Collections.reverseOrder()` as a parameter during initialization. This reverses the natural order of elements in the queue, effectively converting it to a maximum priority queue. Finally, we add all elements from the original queue to the maximum queue using `addAll()` method.

@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+* **Normal case:**
+    * Input: 15
+    * Output: 17
+* **Corner cases:**
+    * Input: 0
+    * Output: 0
+    * Input: 1000
+    * Output: 1750
+    * Input: -1000
+    * Output: Invalid input (decimal number must be non-negative)
+* **Boundary cases:**
+    * Input: Integer.MAX_VALUE
+    * Output: 17777777777 (maximum octal value for a 32-bit integer)
+    * Input: Integer.MIN_VALUE
+    * Output: Invalid input (decimal number must be non-negative)

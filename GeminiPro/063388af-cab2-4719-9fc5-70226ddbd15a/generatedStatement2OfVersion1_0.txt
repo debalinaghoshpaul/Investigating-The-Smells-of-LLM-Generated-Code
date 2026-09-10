@@ -1,0 +1,12 @@
+
+
+**Test Cases:**
+
+* **Positive Cases:**
+    * "/home/user/Documents/file.txt": File
+    * "/home/user/Documents/directory/": Directory
+    * "/home/user/Documents/empty-file.txt": Empty file
+    * "/home/user/Documents/directory/file.txt": File inside a directory
+    * "/home/user/Documents/directory/": Directory with trailing slash
+* **Negative Cases:**
+    * "/home/user/non-existing-path": Non-existing path

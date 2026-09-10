@@ -1,0 +1,32 @@
+```java
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class ReplaceSubstring {
+
+    public static void main(String[] args) {
+        String str = "The quick brown fox jumps over the lazy dog";
+        String regex = "the";
+        String replacement = "a";
+
+        // Create a Pattern object
+        Pattern pattern = Pattern.compile(regex);
+
+        // Create a Matcher object
+        Matcher matcher = pattern.matcher(str);
+
+        // Iterate over the matches
+        while (matcher.find()) {
+            // Get the start and end indices of the match
+            int start = matcher.start();
+            int end = matcher.end();
+
+            // Replace the substring with the replacement
+            str = str.substring(0, start) + replacement + str.substring(end);
+        }
+
+        // Print the modified string
+        System.out.println(str);
+    }
+}
+```

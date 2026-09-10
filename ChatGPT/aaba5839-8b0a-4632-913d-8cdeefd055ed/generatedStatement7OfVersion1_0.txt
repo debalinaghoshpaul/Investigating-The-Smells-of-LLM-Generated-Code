@@ -1,0 +1,7 @@
+
+Input:
+5
+5 5 5 5 5
+Output:
+Maximum value: 5
+Minimum value: 5

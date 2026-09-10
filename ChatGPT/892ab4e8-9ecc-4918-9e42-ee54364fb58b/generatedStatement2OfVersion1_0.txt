@@ -1,0 +1,2 @@
+
+This Java program defines an abstract class `Shape3D` with abstract methods `calculateVolume()` and `calculateSurfaceArea()`. It then creates two subclasses `Sphere` and `Cube` that extend the `Shape3D` class and implement the respective methods to calculate the volume and surface area of each shape. In the `Main` class, objects of Sphere and Cube are created and their volume and surface area are calculated and printed.

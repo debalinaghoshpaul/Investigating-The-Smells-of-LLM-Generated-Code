@@ -1,0 +1,8 @@
+Violations by Category:
+WhitespaceAfter: 'typecast' is not followed by whitespace. [WhitespaceAfter]: 1
+AvoidStarImport: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]: 1
+FinalParameters: Parameter columnNumber should be final. [FinalParameters]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '26' is a magic number. [MagicNumber]: 8

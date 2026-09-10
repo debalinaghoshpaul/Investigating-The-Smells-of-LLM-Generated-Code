@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95C428UzspQT2wirZ7MX4e2uiadRK",
+  "object" : "chat.completion",
+  "created" : 1711025042,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\nimport java.util.Arrays;\n\npublic class SortNumbers {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int[] numbers = new int[6];\n        \n        System.out.println(\"Enter six numbers: \");\n        for (int i = 0; i < 6; i++) {\n            numbers[i] = sc.nextInt();\n        }\n        \n        Arrays.sort(numbers);\n        \n        System.out.println(\"Numbers in descending order:\");\n        for (int i = numbers.length - 1; i >= 0; i--) {\n            System.out.print(numbers[i] + \" \");\n        }\n    }\n}\n```\n\nThis Java program takes six numbers as input from the user, stores them in an array, and then uses the `Arrays.sort()` method to sort them in ascending order. Finally, it prints the sorted numbers in descending order."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 68,
+    "completion_tokens" : 184,
+    "total_tokens" : 252
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

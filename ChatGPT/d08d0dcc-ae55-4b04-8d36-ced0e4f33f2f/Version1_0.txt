@@ -1,0 +1,67 @@
+```java
+import java.util.Scanner;
+
+public class GetWholeAndFractionalParts {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input double value
+        System.out.println("Enter a double value: ");
+        double number = scanner.nextDouble();
+
+        // Get the whole part
+        int wholePart = (int) number;
+
+        // Get the fractional part
+        double fractionalPart = number - wholePart;
+
+        // Print the whole and fractional parts
+        System.out.println("The whole part is: " + wholePart);
+        System.out.println("The fractional part is: " + fractionalPart);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal Case:**
+    * Input: 123.45
+    * Output:
+```
+The whole part is: 123
+The fractional part is: 0.45
+```
+
+* **Corner Cases:**
+    * **Input with no fractional part:**
+        * Input: 123
+        * Output:
+```
+The whole part is: 123
+The fractional part is: 0.0
+```
+
+    * **Input with only a fractional part:**
+        * Input: .45
+        * Output:
+```
+The whole part is: 0
+The fractional part is: 0.45
+```
+
+    * **Input with a value close to zero:**
+        * Input: 0.000001
+        * Output:
+```
+The whole part is: 0
+The fractional part is: 0.000001
+```
+
+    * **Input with a negative value:**
+        * Input: -123.45
+        * Output:
+```
+The whole part is: -123
+The fractional part is: 0.45
+```

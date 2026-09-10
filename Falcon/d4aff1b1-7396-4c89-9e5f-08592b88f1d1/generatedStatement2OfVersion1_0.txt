@@ -1,0 +1,13 @@
+
+
+**Test cases:**
+
+* **Valid cases:**
+    * Deposit and withdraw within the withdrawal limit for a SavingsAccount.
+    * Deposit and withdraw within the overdraft limit for a CheckingAccount.
+* **Corner cases:**
+    * Withdraw an amount of 0 from both SavingsAccount and CheckingAccount.
+    * Create SavingsAccount and CheckingAccount objects with negative initial balances.
+* **Invalid cases:**
+    * Withdraw an amount greater than the withdrawal limit for a SavingsAccount.
+    * Withdraw an amount greater than the overdraft limit for a CheckingAccount.

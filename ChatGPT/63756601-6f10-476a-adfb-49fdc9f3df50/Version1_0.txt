@@ -1,0 +1,75 @@
+```java
+import java.util.Calendar;
+
+public class MaxDate {
+
+    public static void main(String[] args) {
+        // Get the current date
+        Calendar calendar = Calendar.getInstance();
+
+        // Get the maximum value of the year
+        int maxYear = calendar.getMaximum(Calendar.YEAR);
+
+        // Get the maximum value of the month
+        int maxMonth = calendar.getMaximum(Calendar.MONTH);
+
+        // Get the maximum value of the week
+        int maxWeek = calendar.getMaximum(Calendar.WEEK_OF_YEAR);
+
+        // Get the maximum value of the date
+        int maxDate = calendar.getMaximum(Calendar.DAY_OF_MONTH);
+
+        // Print the maximum values
+        System.out.println("Maximum year: " + maxYear);
+        System.out.println("Maximum month: " + maxMonth);
+        System.out.println("Maximum week: " + maxWeek);
+        System.out.println("Maximum date: " + maxDate);
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Test Case 1:**
+    * Input: The first day of the year (e.g., January 1, 2023)
+    * Expected Output:
+        * Maximum year: 2023
+        * Maximum month: 11 (December)
+        * Maximum week: 53
+        * Maximum date: 31
+
+* **Test Case 2:**
+    * Input: The last day of the month (e.g., January 31, 2023)
+    * Expected Output:
+        * Maximum year: 2023
+        * Maximum month: 11 (December)
+        * Maximum week: 53
+        * Maximum date: 31
+
+* **Test Case 3:**
+    * Input: The last day of the week (e.g., Sunday, January 29, 2023)
+    * Expected Output:
+        * Maximum year: 2023
+        * Maximum month: 11 (December)
+        * Maximum week: 53
+        * Maximum date: 31
+
+**Normal Cases:**
+
+* **Test Case 4:**
+    * Input: A random date (e.g., February 15, 2023)
+    * Expected Output:
+        * Maximum year: 2023
+        * Maximum month: 11 (December)
+        * Maximum week: 53
+        * Maximum date: 31
+
+* **Test Case 5:**
+    * Input: A leap year date (e.g., February 29, 2024)
+    * Expected Output:
+        * Maximum year: 2024
+        * Maximum month: 11 (December)
+        * Maximum week: 53
+        * Maximum date: 29

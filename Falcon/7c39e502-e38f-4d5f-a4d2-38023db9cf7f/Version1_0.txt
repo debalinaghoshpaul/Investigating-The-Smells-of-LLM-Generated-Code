@@ -1,0 +1,16 @@
+No GPU found. Running on CPU.
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class UnixTimestampToDate {
+    public static void main(String[] args) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
+        Date date = new Date(System.currentTimeMillis());
+        System.out.println(sdf.format(date));
+    }
+}
+
+Output: 2019-11-11T00:00:00.000Z
+
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem. For example, you can test the program with different Unix timestamps and different timezones. You can also test the program with different formats of Unix timestamps. You can also test the program with invalid Unix timestamps.

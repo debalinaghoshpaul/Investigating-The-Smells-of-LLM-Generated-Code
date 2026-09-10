@@ -1,0 +1,77 @@
+```java
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.time.temporal.*;
+
+public class DateTimeExtractor {
+
+    public static void main(String[] args) {
+        String dateString = "2023-03-08 12:34:56";
+        // Create a SimpleDateFormat object to parse the date string
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        // Parse the date string into a Date object
+        Date date = null;
+        try {
+            date = sdf.parse(dateString);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        // Create a TemporalAccessor object to extract the date and time components
+        TemporalAccessor ta = date.toInstant().atZone(ZoneId.systemDefault()).toTemporal();
+        // Extract the date and time components
+        int year = ta.get(ChronoField.YEAR);
+        int month = ta.get(ChronoField.MONTH_OF_YEAR);
+        int day = ta.get(ChronoField.DAY_OF_MONTH);
+        int hour = ta.get(ChronoField.HOUR_OF_DAY);
+        int minute = ta.get(ChronoField.MINUTE_OF_HOUR);
+        int second = ta.get(ChronoField.SECOND_OF_MINUTE);
+
+        // Print the date and time components
+        System.out.println("Date components: " + year + "-" + month + "-" + day);
+        System.out.println("Time components: " + hour + ":" + minute + ":" + second);
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* **Test Case 1:**
+    * Input: "2023-03-08 12:34:56"
+    * Expected Output:
+        * Date components: 2023-3-8
+        * Time components: 12:34:56
+* **Test Case 2:**
+    * Input: "2000-01-01 00:00:00"
+    * Expected Output:
+        * Date components: 2000-1-1
+        * Time components: 00:00:00
+* **Test Case 3:**
+    * Input: "2099-12-31 23:59:59"
+    * Expected Output:
+        * Date components: 2099-12-31
+        * Time components: 23:59:59
+
+**Corner Cases:**
+
+* **Test Case 4:**
+    * Input: "1970-01-01 00:00:00"
+    * Expected Output:
+        * Date components: 1970-1-1
+        * Time components: 00:00:00
+* **Test Case 5:**
+    * Input: "9999-12-31 23:59:59"
+    * Expected Output:
+        * Date components: 9999-12-31
+        * Time components: 23:59:59
+* **Test Case 6:**
+    * Input: "2023-03-08 24:00:00"
+    * Expected Output:
+        * Exception: IllegalFieldValueException
+* **Test Case 7:**
+    * Input: "2023-03-08 12:60:00"
+    * Expected Output:
+        * Exception: IllegalFieldValueException

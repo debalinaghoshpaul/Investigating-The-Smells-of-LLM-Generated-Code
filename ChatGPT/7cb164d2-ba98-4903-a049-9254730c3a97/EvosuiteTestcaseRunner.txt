@@ -1,0 +1,9 @@
+JUnit version 4.13
+..Enter a string: 
+.Enter a string: 
+Reversed string: desreveR :gnirts
+
+Time: 0.47
+
+OK (3 tests)
+

@@ -1,0 +1,3 @@
+
+SnakeAlien: Venom | Damage: 15
+BugAlien: Crawler | Damage: 7

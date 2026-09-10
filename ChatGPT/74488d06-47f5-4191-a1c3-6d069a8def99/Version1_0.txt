@@ -1,0 +1,43 @@
+```java
+import java.util.Arrays;
+
+public class ArrayContains4or7 {
+
+    public static boolean contains4or7(int[] arr) {
+        for (int num : arr) {
+            if (num == 4 || num == 7) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        int[] arr1 = {5, 7};
+        System.out.println(contains4or7(arr1)); // true
+
+        int[] arr2 = {1, 2, 3};
+        System.out.println(contains4or7(arr2)); // false
+
+        int[] arr3 = {4};
+        System.out.println(contains4or7(arr3)); // true
+
+        int[] arr4 = {7};
+        System.out.println(contains4or7(arr4)); // true
+
+        int[] arr5 = {};
+        System.out.println(contains4or7(arr5)); // false
+
+        int[] arr6 = null;
+        System.out.println(contains4or7(arr6)); // false
+    }
+}
+```
+
+Test cases including corner cases:
+
+* **Empty array:** An empty array should return false, since it does not contain any elements.
+* **Array with null value:** An array with a null value should return false, since null is not a valid integer.
+* **Array with only negative numbers:** An array with only negative numbers should return false, since 4 and 7 are positive numbers.
+* **Array with only positive numbers except for 0:** An array with only positive numbers except for 0 should return true, since 0 is not a valid integer.
+* **Array with only duplicates:** An array with only duplicate numbers should return true if at least one of the duplicates is 4 or 7, and false otherwise.

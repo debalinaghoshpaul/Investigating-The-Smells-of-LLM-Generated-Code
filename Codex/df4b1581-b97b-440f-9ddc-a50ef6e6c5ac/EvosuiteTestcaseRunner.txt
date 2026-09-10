@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Original Linked List: [Apple, Banana, Orange, Mango]
+Modified Linked List: [Apple, Banana, Grapes, Mango]
+.
+Time: 0.496
+
+OK (2 tests)
+

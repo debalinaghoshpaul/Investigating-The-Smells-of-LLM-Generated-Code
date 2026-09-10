@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94pN7zVlbtd9UXuWPenesdmuY5rZo",
+  "object" : "chat.completion",
+  "created" : 1710937813,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class StringContains {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        // Accept two strings from user\n        System.out.print(\"Input first string: \");\n        String first = scanner.nextLine();\n        \n        System.out.print(\"Input second string: \");\n        String second = scanner.nextLine();\n        \n        // Test if the second string contains the first one\n        boolean contains = second.contains(first);\n        \n        System.out.println(\"If the second string contains the first one? \" + contains);\n        \n        scanner.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 95,
+    "completion_tokens" : 121,
+    "total_tokens" : 216
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

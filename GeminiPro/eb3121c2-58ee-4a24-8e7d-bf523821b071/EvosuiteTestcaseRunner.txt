@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Input the investment amount: 
+.Input the investment amount: 
+..Input the investment amount: 
+Input the rate of interest: 
+Input number of years: 
+The future investment value is: 1.0304159569135067
+...
+Time: 0.41
+
+OK (7 tests)
+

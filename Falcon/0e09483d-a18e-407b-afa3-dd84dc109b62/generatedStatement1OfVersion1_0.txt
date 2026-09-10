@@ -1,0 +1,4 @@
+
+Enter the day of the week: Friday
+Next Friday: Friday
+Previous Friday: Thursday

@@ -1,0 +1,18 @@
+Enter the program name: MainCar
+JUnit version 4.13
+.Company Name: Toyota
+Model Name: Camry
+Year: 2020
+Mileage: 50000
+.E
+Time: 0.48
+There was 1 failure:
+1) test1(testing_ChatGPT_on_java.MainCar_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor MainCar() is undefined
+
+	at testing_ChatGPT_on_java.MainCar_ESTest.test1(MainCar_ESTest.java:27)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+

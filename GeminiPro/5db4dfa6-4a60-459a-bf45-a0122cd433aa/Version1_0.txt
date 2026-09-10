@@ -1,0 +1,22 @@
+```java
+import java.util.Scanner;
+
+public class StringManipulation {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input string
+        String inputString = scanner.nextLine();
+
+        // Check if the substring of length two appears at both its beginning and end
+        if (inputString.length() >= 2 && inputString.substring(0, 2).equals(inputString.substring(inputString.length() - 2))) {
+            // Remove the substring from the beginning of the string
+            inputString = inputString.substring(2);
+        }
+
+        // Print the output string
+        System.out.println(inputString);
+    }
+}
+```

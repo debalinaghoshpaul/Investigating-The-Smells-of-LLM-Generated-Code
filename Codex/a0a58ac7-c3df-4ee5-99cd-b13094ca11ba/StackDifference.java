@@ -1,0 +1,34 @@
+import java.util.Stack;
+import java.util.Arrays;
+
+public class StackDifference {
+
+    public static void main(String[] args) {
+        // Create two stacks
+        Stack<Integer> stack1 = new Stack<>();
+        Stack<Integer> stack2 = new Stack<>();
+
+        // Push elements into the stacks
+        stack1.push(1);
+        stack1.push(2);
+        stack1.push(3);
+        stack1.push(4);
+        stack1.push(5);
+
+        stack2.push(3);
+        stack2.push(4);
+        stack2.push(5);
+
+        // Find elements that are in the first stack but not in the second stack
+        Stack<Integer> difference = new Stack<>();
+        while (!stack1.isEmpty()) {
+            int element = stack1.pop();
+            if (!stack2.contains(element)) {
+                difference.push(element);
+            }
+        }
+
+        // Print the elements that are in the first stack but not in the second stack
+        System.out.println(Arrays.toString(difference.toArray()));
+    }
+}

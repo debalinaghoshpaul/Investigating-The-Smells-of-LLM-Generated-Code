@@ -1,0 +1,33 @@
+```java
+public class BankAccount {
+    // Declare private instance variables
+    private String accountNumber;
+    private double balance;
+
+    // Constructor to initialize the instance variables
+    public BankAccount(String accountNumber, double balance) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
+
+    // Public getter method to get the accountNumber
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    // Public setter method to set the accountNumber
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    // Public getter method to get the balance
+    public double getBalance() {
+        return balance;
+    }
+
+    // Public setter method to set the balance
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+}
+```

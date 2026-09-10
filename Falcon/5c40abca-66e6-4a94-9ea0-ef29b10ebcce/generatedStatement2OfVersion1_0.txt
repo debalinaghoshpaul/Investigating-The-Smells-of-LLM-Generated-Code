@@ -1,0 +1,8 @@
+
+
+**Test Cases:**
+
+* **Valid test case:** Width = 5.5, Height = 8.5
+* **Corner case 1:** Width = 0, Height = 0
+* **Corner case 2:** Width = -5, Height = 10
+* **Corner case 3:** Width = 10, Height = -5

@@ -1,0 +1,140 @@
+import java.util.*;
+import java.lang.*;
+
+class Solution {
+    /**
+     * Sorts a given array of distinct integers where all its numbers are sorted except two numbers.
+     *
+     * @param nums the array to be sorted
+     * @return the sorted array
+     */
+    public int[] sortArrayWithTwoUnsortedNumbers(int[] nums) {
+        // Check if the array is valid
+        if (nums == null || nums.length == 0) {
+            return nums;
+        }
+
+        // Find the two unsorted numbers
+        int[] unsortedNumbers = findUnsortedNumbers(nums);
+
+        // Sort the rest of the array
+        Arrays.sort(nums, unsortedNumbers[0], unsortedNumbers[1] + 1);
+
+        // Insert the two unsorted numbers into the sorted array
+        insertUnsortedNumbers(nums, unsortedNumbers);
+
+        // Return the sorted array
+        return nums;
+    }
+
+    /**
+     * Finds the two unsorted numbers in a given array.
+     *
+     * @param nums the array to search
+     * @return the two unsorted numbers in an array
+     */
+    private int[] findUnsortedNumbers(int[] nums) {
+        int[] unsortedNumbers = new int[2];
+
+        // Find the first unsorted number
+        int firstUnsortedIndex = -1;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] < nums[i - 1]) {
+                firstUnsortedIndex = i - 1;
+                break;
+            }
+        }
+
+        // Find the second unsorted number
+        int secondUnsortedIndex = -1;
+        for (int i = nums.length - 2; i >= 0; i--) {
+            if (nums[i] > nums[i + 1]) {
+                secondUnsortedIndex = i + 1;
+                break;
+            }
+        }
+
+        // Return the two unsorted numbers
+        unsortedNumbers[0] = firstUnsortedIndex;
+        unsortedNumbers[1] = secondUnsortedIndex;
+        return unsortedNumbers;
+    }
+
+    /**
+     * Inserts the two unsorted numbers into the sorted array.
+     *
+     * @param nums the sorted array
+     * @param unsortedNumbers the two unsorted numbers
+     */
+    private void insertUnsortedNumbers(int[] nums, int[] unsortedNumbers) {
+        // Insert the first unsorted number
+        int firstUnsortedNumber = nums[unsortedNumbers[0]];
+        int firstUnsortedIndex = unsortedNumbers[0];
+        for (int i = firstUnsortedIndex; i > 0; i--) {
+            if (firstUnsortedNumber >= nums[i - 1]) {
+                nums[i] = firstUnsortedNumber;
+                break;
+            } else {
+                nums[i] = nums[i - 1];
+            }
+        }
+
+        // Insert the second unsorted number
+        int secondUnsortedNumber = nums[unsortedNumbers[1]];
+        int secondUnsortedIndex = unsortedNumbers[1];
+        for (int i = secondUnsortedIndex; i < nums.length - 1; i++) {
+            if (secondUnsortedNumber <= nums[i + 1]) {
+                nums[i] = secondUnsortedNumber;
+                break;
+            } else {
+                nums[i] = nums[i + 1];
+            }
+        }
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Test case 1: array with two unsorted numbers
+        int[] nums1 = {3, 5, 6, 9, 8, 7};
+        int[] result1 = solution.sortArrayWithTwoUnsortedNumbers(nums1);
+        System.out.println("After sorting new array becomes: " + Arrays.toString(result1));
+
+        // Test case 2: array with two unsorted numbers at the beginning
+        int[] nums2 = {5, 0, 1, 2, 3, 4, -2};
+        int[] result2 = solution.sortArrayWithTwoUnsortedNumbers(nums2);
+        System.out.println("After sorting new array becomes: " + Arrays.toString(result2));
+
+        // Test case 3: array with two unsorted numbers at the end
+        int[] nums3 = {-2, 0, 1, 2, 3, 4, 9};
+        int[] result3 = solution.sortArrayWithTwoUnsortedNumbers(nums3);
+        System.out.println("After sorting new array becomes: " + Arrays.toString(result3));
+
+        // Test case 4: array with only one unsorted number
+        int[] nums4 = {3, 5, 6, 9, 8};
+        int[] result4 = solution.sortArrayWithTwoUnsortedNumbers(nums4);
+        System.out.println("After sorting new array becomes: " + Arrays.toString(result4));
+
+        // Test case 5: array with no unsorted numbers
+        int[] nums5 = {3, 5, 6, 7, 8, 9};
+        int[] result5 = solution.sortArrayWithTwoUnsortedNumbers(nums5);
+        System.out.println("After sorting new array becomes: " + Arrays.toString(result5));
+
+        // Test case 6: array with all numbers equal
+        int[] nums6 = {5, 5, 5, 5, 5};
+        int[] result6 = solution.sortArrayWithTwoUnsortedNumbers(nums6);
+        System.out.println("After sorting new array becomes: " + Arrays.toString(result6));
+
+        // Test case 7: empty array
+        int[] nums7 = {};
+        int[] result7 = solution.sortArrayWithTwoUnsortedNumbers(nums7);
+        System.out.println("After sorting new array becomes: " + Arrays.toString(result7));
+
+        // Test case 8: null array
+        int[] nums8 = null;
+        int[] result8 = solution.sortArrayWithTwoUnsortedNumbers(nums8);
+        System.out.println("After sorting new array becomes: " + Arrays.toString(result8));
+    }
+}

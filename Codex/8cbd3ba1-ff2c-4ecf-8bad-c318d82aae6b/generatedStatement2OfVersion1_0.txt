@@ -1,0 +1,26 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: "leetcode"
+* Expected Output: 0 (The first non-repeating character is 'l')
+
+**Corner Cases:**
+
+* **Empty String:**
+    * Input: ""
+    * Expected Output: -1 (No non-repeating character)
+* **All Characters Repeat:**
+    * Input: "aaaaa"
+    * Expected Output: -1 (No non-repeating character)
+* **Multiple Non-Repeating Characters:**
+    * Input: "abcabcde"
+    * Expected Output: 0 (The first non-repeating character is 'a')
+* **Capital and Small Letters:**
+    * Input: "Leetcode"
+    * Expected Output: 0 (The first non-repeating character is 'l', ignoring case)
+* **Special Characters:**
+    * Input: "leetcode!"
+    * Expected Output: 6 (The first non-repeating character is '!')

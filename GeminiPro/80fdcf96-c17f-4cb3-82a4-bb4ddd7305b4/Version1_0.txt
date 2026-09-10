@@ -1,0 +1,73 @@
+```java
+import java.util.Scanner;
+
+public class PINValidator {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the PIN from the user.
+        System.out.println("Enter your PIN:");
+        String pin = scanner.nextLine();
+
+        // Validate the PIN.
+        boolean valid = validatePIN(pin);
+
+        // Print the result.
+        if (valid) {
+            System.out.println("Your PIN is valid.");
+        } else {
+            System.out.println("Your PIN is invalid.");
+        }
+    }
+
+    public static boolean validatePIN(String pin) {
+        // Check if the PIN is null or empty.
+        if (pin == null || pin.isEmpty()) {
+            return false;
+        }
+
+        // Check if the PIN is the correct length.
+        if (pin.length() != 4 && pin.length() != 6 && pin.length() != 8) {
+            return false;
+        }
+
+        // Check if the PIN contains only digits.
+        for (char c : pin.toCharArray()) {
+            if (!Character.isDigit(c)) {
+                return false;
+            }
+        }
+
+        // The PIN is valid.
+        return true;
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid PINs:**
+
+* 1234
+* 123456
+* 12345678
+
+**Invalid PINs:**
+
+* null
+* ""
+* 123
+* 12345
+* 1234567
+* 123456789
+* abc123
+* 123.45
+
+**Corner Cases:**
+
+* **PIN is null:** The program should handle this case by returning false.
+* **PIN is empty:** The program should handle this case by returning false.
+* **PIN is too short:** The program should handle this case by returning false.
+* **PIN is too long:** The program should handle this case by returning false.
+* **PIN contains non-digits:** The program should handle this case by returning false.

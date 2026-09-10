@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9CsHoE8v4f4QmG42tMm5kZdl7visG",
+  "object" : "chat.completion",
+  "created" : 1712855640,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class ReplaceWord {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.println(\"Enter a line of text:\");\n        String line = scanner.nextLine();\n        \n        int index = line.indexOf(\"hate\");\n        if(index != -1){\n            line = line.substring(0, index) + \"love\" + line.substring(index + 4);\n        }\n        \n        System.out.println(\"I have rephrased that line to read:\");\n        System.out.println(line);\n        \n        scanner.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 159,
+    "completion_tokens" : 121,
+    "total_tokens" : 280
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

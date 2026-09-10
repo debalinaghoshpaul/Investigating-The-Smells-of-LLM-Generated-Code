@@ -1,0 +1,7 @@
+JUnit version 4.13
+.....Enter first integer: ..Enter first integer: Enter second integer: The product of 8 and 8 is: 64
+..Enter first integer: 
+Time: 0.469
+
+OK (9 tests)
+

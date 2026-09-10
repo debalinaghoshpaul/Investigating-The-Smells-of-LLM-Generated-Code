@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\0493153d-ba46-4682-9333-fe17de5a6350\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\0493153d-ba46-4682-9333-fe17de5a6350\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\0493153d-ba46-4682-9333-fe17de5a6350\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\0493153d-ba46-4682-9333-fe17de5a6350\generatedProgram1OfVersion1_0.java:7:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\0493153d-ba46-4682-9333-fe17de5a6350\generatedProgram1OfVersion1_0.java:10:26: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\0493153d-ba46-4682-9333-fe17de5a6350\generatedProgram1OfVersion1_0.java:11:27: '20' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\0493153d-ba46-4682-9333-fe17de5a6350\generatedProgram1OfVersion1_0.java:12:27: '30' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\0493153d-ba46-4682-9333-fe17de5a6350\generatedProgram1OfVersion1_0.java:13:27: '40' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\0493153d-ba46-4682-9333-fe17de5a6350\generatedProgram1OfVersion1_0.java:14:31: '50' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\0493153d-ba46-4682-9333-fe17de5a6350\generatedProgram1OfVersion1_0.java:19: Line is longer than 80 characters (found 87). [LineLength]
+Audit done.

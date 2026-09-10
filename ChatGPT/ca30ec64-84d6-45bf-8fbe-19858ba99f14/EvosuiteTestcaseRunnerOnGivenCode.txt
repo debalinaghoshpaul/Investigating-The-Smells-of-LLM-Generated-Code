@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Input the time zone offset to GMT: Current time is 6:0:1
+.Input the time zone offset to GMT: Current time is 2:21:21
+..Input the time zone offset to GMT: .Input the time zone offset to GMT: 
+Time: 0.337
+
+OK (5 tests)
+

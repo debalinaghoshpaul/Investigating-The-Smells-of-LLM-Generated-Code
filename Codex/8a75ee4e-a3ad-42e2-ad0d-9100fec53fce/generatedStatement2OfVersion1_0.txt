@@ -1,0 +1,15 @@
+
+
+**Test Cases**
+
+**Corner Cases:**
+
+* Input: loanAmount = 0, numMonths = 0
+* Input: loanAmount = 100000, numMonths = 1
+* Input: loanAmount = 100000, numMonths = 12
+
+**Normal Cases:**
+
+* Input: loanAmount = 100000, numMonths = 2
+* Input: loanAmount = 100000, numMonths = 6
+* Input: loanAmount = 100000, numMonths = 12

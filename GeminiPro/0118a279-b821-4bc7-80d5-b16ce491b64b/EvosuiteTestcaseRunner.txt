@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Enter a six-digit non-negative integer: 0 0 0 0 0 0 
+..Enter a six-digit non-negative integer: .Enter a six-digit non-negative integer: Invalid input. Please enter a six-digit non-negative integer.
+.Enter a six-digit non-negative integer: 0 0 0 0 0 2 
+.Enter a six-digit non-negative integer: 
+Time: 0.345
+
+OK (6 tests)
+

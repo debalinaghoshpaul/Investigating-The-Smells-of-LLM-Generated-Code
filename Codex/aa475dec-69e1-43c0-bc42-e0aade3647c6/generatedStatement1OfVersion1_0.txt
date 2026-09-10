@@ -1,0 +1,2 @@
+Here is a sample Java program implementing a producer-consumer scenario using the wait() and notify() methods for thread synchronization:
+

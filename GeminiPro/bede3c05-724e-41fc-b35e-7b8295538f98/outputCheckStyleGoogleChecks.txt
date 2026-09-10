@@ -1,0 +1,10 @@
+Starting audit...
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\bede3c05-724e-41fc-b35e-7b8295538f98\GivenSolution.java:2:1: Top-level class Shape has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\bede3c05-724e-41fc-b35e-7b8295538f98\GivenSolution.java:9:1: Top-level class Circle has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\bede3c05-724e-41fc-b35e-7b8295538f98\GivenSolution.java:31:1: Top-level class Cylinder has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\bede3c05-724e-41fc-b35e-7b8295538f98\GivenSolution.java:31:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\bede3c05-724e-41fc-b35e-7b8295538f98\GivenSolution.java:53:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\bede3c05-724e-41fc-b35e-7b8295538f98\GivenSolution.java:53:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\bede3c05-724e-41fc-b35e-7b8295538f98\GivenSolution.java:54:3: Missing a Javadoc comment. [MissingJavadocMethod]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\bede3c05-724e-41fc-b35e-7b8295538f98\GivenSolution.java:62:3: Missing a Javadoc comment. [MissingJavadocMethod]
+Audit done.

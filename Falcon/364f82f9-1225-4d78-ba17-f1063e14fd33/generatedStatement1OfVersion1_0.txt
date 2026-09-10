@@ -1,0 +1,49 @@
+
+p
+r
+s
+t
+q
+
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test cases:
+arr = ["p", "r", "s", "t"]
+missingLetter = "q"
+index = arr.length - 1
+while index >= 0:
+    if arr[index]!= missingLetter:
+        break
+    index -= 1
+if index < 0:
+    print(missingLetter)
+else:
+    print(arr[index])
+
+arr = ["p", "r", "s", "t"]
+missingLetter = "q"
+index = arr.length - 1
+while index >= 0:
+    if arr[index]!= missingLetter:
+        break
+    index -= 1
+if index < 0:
+    print(missingLetter)
+else:
+    print(arr[index])
+
+arr = ["p", "r", "s", "t"]
+missingLetter = "q"
+index = arr.length - 1
+while index >= 0:
+    if arr[index]!= missingLetter:
+        break
+    index -= 1
+if index < 0:
+    print(missingLetter)
+else:
+    print(arr[index])
+
+arr = ["p", "

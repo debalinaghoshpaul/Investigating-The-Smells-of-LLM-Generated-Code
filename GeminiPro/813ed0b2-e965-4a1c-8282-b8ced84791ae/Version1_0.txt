@@ -1,0 +1,104 @@
+```java
+import java.util.*;
+
+public class MaxSlidingWindow {
+
+    public static int[] maxSlidingWindow(int[] nums, int k) {
+        if (nums == null || nums.length == 0 || k <= 0 || k > nums.length) {
+            return new int[0];
+        }
+
+        // Create a deque to store the indices of the elements in the current window.
+        Deque<Integer> window = new LinkedList<>();
+
+        // Create an array to store the maximum values for each window.
+        int[] maxValues = new int[nums.length - k + 1];
+
+        int maxIndex = 0;
+
+        // Initialize the deque and the maxIndex.
+        for (int i = 0; i < k; i++) {
+            while (!window.isEmpty() && nums[window.peekLast()] <= nums[i]) {
+                window.pollLast();
+            }
+            window.offerLast(i);
+            if (nums[i] > nums[maxIndex]) {
+                maxIndex = i;
+            }
+        }
+
+        // Iterate over the remaining elements in the array.
+        for (int i = k; i < nums.length; i++) {
+            // Remove the index of the element that is no longer in the current window.
+            if (!window.isEmpty() && window.peekFirst() <= i - k) {
+                window.pollFirst();
+            }
+
+            // Add the index of the current element to the deque.
+            while (!window.isEmpty() && nums[window.peekLast()] <= nums[i]) {
+                window.pollLast();
+            }
+            window.offerLast(i);
+
+            // Update the maxIndex if necessary.
+            if (nums[i] > nums[maxIndex]) {
+                maxIndex = i;
+            }
+
+            // Store the maximum value for the current window.
+            maxValues[i - k] = nums[maxIndex];
+        }
+
+        // Return the array of maximum values.
+        return maxValues;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 8};
+        int k = 3;
+        int[] maxValues = maxSlidingWindow(nums, k);
+        System.out.println(Arrays.toString(maxValues));
+
+        nums = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        k = 4;
+        maxValues = maxSlidingWindow(nums, k);
+        System.out.println(Arrays.toString(maxValues));
+
+        nums = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8};
+        k = 1;
+        maxValues = maxSlidingWindow(nums, k);
+        System.out.println(Arrays.toString(maxValues));
+
+        nums = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8};
+        k = 8;
+        maxValues = maxSlidingWindow(nums, k);
+        System.out.println(Arrays.toString(maxValues));
+
+        nums = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8};
+        k = 9;
+        maxValues = maxSlidingWindow(nums, k);
+        System.out.println(Arrays.toString(maxValues));
+
+        nums = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8};
+        k = 10;
+        maxValues = maxSlidingWindow(nums, k);
+        System.out.println(Arrays.toString(maxValues));
+    }
+}
+```
+
+**Test cases:**
+
+* **Corner cases:**
+    * Empty array
+    * Array with only one element
+    * Window size is 1
+    * Window size is equal to the array length
+    * Window size is greater than the array length
+* **Normal cases:**
+    * Array with positive integers
+    * Array with negative integers
+    * Array with duplicate elements
+* **Stress cases:**
+    * Array with a large number of elements
+    * Window size is a large number

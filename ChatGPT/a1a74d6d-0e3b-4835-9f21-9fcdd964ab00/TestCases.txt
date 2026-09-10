@@ -1,0 +1,64 @@
+**Java Program:**
+
+```java
+import java.util.Arrays;
+
+public class AlphabetIndexOf {
+
+    public static void main(String[] args) {
+        char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+
+        for (char c : alphabet) {
+            int index = Arrays.binarySearch(alphabet, c);
+            System.out.println("The index of '" + c + "' is: " + index);
+        }
+    }
+}
+```
+
+**Sample Output:**
+
+```
+The index of 'a' is: 0
+The index of 'b' is: 1
+The index of 'c' is: 2
+The index of 'd' is: 3
+The index of 'e' is: 4
+The index of 'f' is: 5
+The index of 'g' is: 6
+The index of 'h' is: 7
+The index of 'i' is: 8
+The index of 'j' is: 9
+The index of 'k' is: 10
+The index of 'l' is: 11
+The index of 'm' is: 12
+The index of 'n' is: 13
+The index of 'o' is: 14
+The index of 'p' is: 15
+The index of 'q' is: 16
+The index of 'r' is: 17
+The index of 's' is: 18
+The index of 't' is: 19
+The index of 'u' is: 20
+The index of 'v' is: 21
+The index of 'w' is: 22
+The index of 'x' is: 23
+The index of 'y' is: 24
+The index of 'z' is: 25
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty string:** An empty string should return an empty array or an array with a single element with the index of -1.
+* **String with non-alphabetic characters:** A string with non-alphabetic characters should ignore those characters and return the indices of only the alphabetic characters.
+* **String with duplicate characters:** A string with duplicate characters should return the index of the first occurrence of each character.
+
+**Regular Cases:**
+
+* **String with lowercase alphabet:** The program should return the indices of all the lowercase alphabet characters in order.
+* **String with uppercase alphabet:** The program should return the indices of all the uppercase alphabet characters in order.
+* **String with mixed case alphabet:** The program should return the indices of all the alphabet characters in order, regardless of their case.
+* **String with spaces:** The program should ignore spaces and return the indices of only the alphabet characters.
+* **String with punctuation:** The program should ignore punctuation and return the indices of only the alphabet characters.

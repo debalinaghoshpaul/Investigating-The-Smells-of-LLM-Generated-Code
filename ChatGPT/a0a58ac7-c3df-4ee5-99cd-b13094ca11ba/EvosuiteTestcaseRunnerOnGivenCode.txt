@@ -1,0 +1,29 @@
+JUnit version 4.13
+.Stack elements: -1 
+....Stack is empty!
+.....Stack is empty
+..Stack Underflow
+....Stack is full
+..
+Stack-1
+Stack elements: 3 2 1 
+
+Stack-2
+Stack elements: 6 5 3 
+
+Stack-3
+Stack elements: 4 2 1 
+
+Find elements that are in the first stack (stack1) but not in the second stack (stack2):
+Stack elements: 2 1 
+
+Find elements that are in the first stack (stack1) but not in the second stack (stack3):
+Stack elements: 3 
+
+Find elements that are in the first stack (stack3) but not in the second stack (stack2):
+Stack elements: 4 2 1 
+
+Time: 0.447
+
+OK (18 tests)
+

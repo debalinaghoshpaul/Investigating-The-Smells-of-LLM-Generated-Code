@@ -1,0 +1,13 @@
+JUnit version 4.13
+.E..
+Time: 0.361
+There was 1 failure:
+1) test0(testing_ChatGPT_on_java.test_ESTest)
+java.lang.AssertionError: Exception was not thrown in testing_ChatGPT_on_java.test but in testing_ChatGPT_on_java.test_ESTest.test0(test_ESTest.java:23): java.lang.NoSuchMethodError: testing_ChatGPT_on_java.test.validate(Ljava/lang/String;)Ljava/lang/Integer;
+	at org.evosuite.runtime.EvoAssertions.assertThrownBy(EvoAssertions.java:112)
+	at org.evosuite.runtime.EvoAssertions.verifyException(EvoAssertions.java:49)
+	at testing_ChatGPT_on_java.test_ESTest.test0(test_ESTest.java:30)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+

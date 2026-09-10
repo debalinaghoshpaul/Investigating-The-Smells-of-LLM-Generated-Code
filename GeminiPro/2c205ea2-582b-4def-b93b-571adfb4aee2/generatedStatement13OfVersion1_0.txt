@@ -1,0 +1,7 @@
+
+Test Case 5:
+Input:
+radius = Double.MIN_VALUE
+
+Expected Output:
+Exception: Radius is too small.

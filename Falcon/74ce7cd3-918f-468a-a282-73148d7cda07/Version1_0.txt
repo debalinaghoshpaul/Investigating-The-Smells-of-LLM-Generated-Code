@@ -1,0 +1,35 @@
+```java
+public class BubbleSort {
+    public static void sort(int[] a) {
+        for (int i = 0; i < a.length - 1; i++) {
+            for (int j = 0; j < a.length - i - 1; j++) {
+                if (a[j] > a[j + 1]) {
+                    int temp = a[j];
+                    a[j] = a[j + 1];
+                    a[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] a = {1, 2, 3, 4, 5};
+        sort(a);
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+        System.out.println();
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Empty array:** The program should not crash and should return an empty array.
+* **One-element array:** The program should not crash and should return the array as it is.
+* **Array with all elements equal:** The program should not crash and should return the array as it is.
+* **Array with only two elements:** The program should not crash and should sort the array correctly.
+* **Array with a large number of elements:** The program should not crash and should sort the array correctly.
+* **Array with duplicate elements:** The program should not crash and should sort the array correctly.
+* **Array with negative elements:** The program should not crash and should sort the array correctly.
+* **Array with floating-point elements:** The program should not crash and should sort the array correctly.

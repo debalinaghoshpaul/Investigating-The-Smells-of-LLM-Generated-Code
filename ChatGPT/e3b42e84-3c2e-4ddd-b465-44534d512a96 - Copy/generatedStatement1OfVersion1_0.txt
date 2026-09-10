@@ -1,0 +1,2 @@
+To solve this problem, we can create a Trivia class that encapsulates the question, answer, and point value for a particular trivia question. Then, we can create an array of Trivia objects and populate it with the trivia information. Here's a sample implementation in Java:
+

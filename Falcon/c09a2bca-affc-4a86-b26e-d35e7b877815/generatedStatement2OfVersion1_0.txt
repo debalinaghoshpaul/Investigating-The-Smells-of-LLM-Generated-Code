@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **num = 0:** The method should return 0.
+* **num = 1:** The method should return 0.
+* **num < 0:** The method should throw an IllegalArgumentException.
+
+**Normal Cases:**
+
+* **num = 2:** The method should return 0 or 1 with a 50% chance.
+* **num = 3:** The method should return 0, 1, or 2 with a 33.33% chance each.
+* **num = 6:** The method should return 0, 1, 2, 3, 4, or 5 with a 16.67% chance each.
+
+**Expected Output:**
+
+The output of the program will be a list of 100 numbers between 1 and 6. The distribution of the numbers will be skewed towards the largest number possible (i.e., 6).

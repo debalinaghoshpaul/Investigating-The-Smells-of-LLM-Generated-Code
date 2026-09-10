@@ -1,0 +1,28 @@
+import java.util.List;
+import java.util.function.Predicate;
+
+public class CaseChecker {
+
+    public static void main(String[] args) {
+        // Test cases
+        List<String> allUppercase = List.of("A", "B", "C");
+        List<String> allLowercase = List.of("a", "b", "c");
+        List<String> mixedCase = List.of("A", "b", "C");
+        List<String> emptyList = List.of();
+
+        // Define lambda expressions to check case
+        Predicate<String> isUpperCase = str -> str.equals(str.toUpperCase());
+        Predicate<String> isLowerCase = str -> str.equals(str.toLowerCase());
+
+        // Check case of each list
+        System.out.println("All uppercase: " + checkCase(allUppercase, isUpperCase));
+        System.out.println("All lowercase: " + checkCase(allLowercase, isLowerCase));
+        System.out.println("Mixed case: " + checkCase(mixedCase, isUpperCase));
+        System.out.println("Empty list: " + checkCase(emptyList, isUpperCase));
+    }
+
+    private static boolean checkCase(List<String> list, Predicate<String> caseChecker) {
+        // Check if all elements in the list satisfy the case condition
+        return list.stream().allMatch(caseChecker);
+    }
+}

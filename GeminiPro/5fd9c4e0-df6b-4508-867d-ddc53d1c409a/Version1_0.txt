@@ -1,0 +1,33 @@
+```java
+import java.util.*;
+public class Solution {
+    public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.push(5);
+        int n = 2;
+        System.out.println(getNthElementFromTop(stack, n));
+    }
+
+    public static int getNthElementFromTop(Stack<Integer> stack, int n) {
+        if (stack.isEmpty() || n <= 0) {
+            return -1;
+        }
+
+        int count = 0;
+        while (!stack.isEmpty() && count < n) {
+            stack.pop();
+            count++;
+        }
+
+        if (count == n) {
+            return stack.peek();
+        }
+
+        return -1;
+    }
+}
+```

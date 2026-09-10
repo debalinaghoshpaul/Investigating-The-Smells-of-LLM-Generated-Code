@@ -1,0 +1,113 @@
+```java
+import java.util.Arrays;
+
+public class FindCommonElementsInThreeSortedArrays {
+
+    public static void main(String[] args) {
+        // Test case 1: All three arrays have common elements
+        int[] arr1 = {1, 2, 3, 4, 5};
+        int[] arr2 = {2, 3, 4, 5, 6};
+        int[] arr3 = {3, 4, 5, 6, 7};
+        System.out.println(Arrays.toString(findCommonElements(arr1, arr2, arr3))); // Output: [3, 4, 5]
+
+        // Test case 2: Two arrays have common elements, but the third array does not
+        int[] arr4 = {1, 2, 3, 4, 5};
+        int[] arr5 = {2, 3, 4, 5, 6};
+        int[] arr6 = {7, 8, 9, 10, 11};
+        System.out.println(Arrays.toString(findCommonElements(arr4, arr5, arr6))); // Output: []
+
+        // Test case 3: One array is empty
+        int[] arr7 = {};
+        int[] arr8 = {1, 2, 3, 4, 5};
+        int[] arr9 = {3, 4, 5, 6, 7};
+        System.out.println(Arrays.toString(findCommonElements(arr7, arr8, arr9))); // Output: []
+
+        // Test case 4: All three arrays are empty
+        int[] arr10 = {};
+        int[] arr11 = {};
+        int[] arr12 = {};
+        System.out.println(Arrays.toString(findCommonElements(arr10, arr11, arr12))); // Output: []
+    }
+
+    public static int[] findCommonElements(int[] arr1, int[] arr2, int[] arr3) {
+        int i = 0, j = 0, k = 0;
+        int[] result = new int[Math.min(arr1.length, Math.min(arr2.length, arr3.length))];
+        int index = 0;
+
+        while (i < arr1.length && j < arr2.length && k < arr3.length) {
+            if (arr1[i] == arr2[j] && arr2[j] == arr3[k]) {
+                result[index++] = arr1[i];
+                i++;
+                j++;
+                k++;
+            } else if (arr1[i] < arr2[j]) {
+                i++;
+            } else if (arr2[j] < arr3[k]) {
+                j++;
+            } else {
+                k++;
+            }
+        }
+
+        return Arrays.copyOf(result, index);
+    }
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+* Input:
+    * arr1 = [1, 4, 7, 9, 11]
+    * arr2 = [2, 5, 8, 10, 12]
+    * arr3 = [3, 6, 9, 11, 13]
+* Output: [9, 11]
+
+**Test Case 2:**
+* Input:
+    * arr1 = [1, 2, 3, 4, 5]
+    * arr2 = [2, 3, 4, 5, 6]
+    * arr3 = [3, 4, 5, 6, 7]
+* Output: [3, 4, 5]
+
+**Test Case 3:**
+* Input:
+    * arr1 = [1, 3, 5, 7, 9]
+    * arr2 = [3, 5, 7, 9, 11]
+    * arr3 = [2, 4, 6, 8, 10]
+* Output: [3, 5, 7, 9]
+
+**Test Case 4:**
+* Input:
+    * arr1 = [1, 2, 3]
+    * arr2 = [2, 4, 5]
+    * arr3 = [3, 5, 6]
+* Output: [2, 3, 5]
+
+**Test Case 5:**
+* Input:
+    * arr1 = [1]
+    * arr2 = [2]
+    * arr3 = [3]
+* Output: []
+
+**Test Case 6:**
+* Input:
+    * arr1 = [1, 2, 3]
+    * arr2 = [4, 5, 6]
+    * arr3 = [7, 8, 9]
+* Output: []
+
+**Test Case 7:**
+* Input:
+    * arr1 = []
+    * arr2 = [2, 3, 4]
+    * arr3 = [5, 6, 7]
+* Output: []
+
+**Test Case 8:**
+* Input:
+    * arr1 = [1, 2, 3]
+    * arr2 = []
+    * arr3 = [4, 5, 6]
+* Output: []

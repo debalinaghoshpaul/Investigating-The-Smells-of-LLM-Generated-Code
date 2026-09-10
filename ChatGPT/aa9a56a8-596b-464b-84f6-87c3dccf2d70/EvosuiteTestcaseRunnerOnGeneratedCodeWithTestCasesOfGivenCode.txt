@@ -1,0 +1,16 @@
+JUnit version 4.13
+.3467 pushed into the stack.
+-1 pushed into the stack.
+-1 popped from the stack.
+.0 pushed into the stack.
+-2934 pushed into the stack.
+.Stack is empty. Cannot pop.
+.Stack is empty. No top element.
+.4013 pushed into the stack.
+.0 pushed into the stack.
+..4013 pushed into the stack.
+
+Time: 0.453
+
+OK (8 tests)
+

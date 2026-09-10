@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93OYn6DcVWYejCYAosS8scSO4cbrf",
+  "object" : "chat.completion",
+  "created" : 1710596421,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.*;\n\nclass Stack {\n    private List<Integer> stack;\n\n    public Stack() {\n        stack = new ArrayList<>();\n    }\n\n    public void push(int num) {\n        stack.add(num);\n        System.out.println(num + \" pushed into the stack.\");\n    }\n\n    public void pop() {\n        if (isEmpty()) {\n            System.out.println(\"Stack is empty. Cannot pop.\");\n        } else {\n            int popped = stack.remove(stack.size() - 1);\n            System.out.println(popped + \" popped from the stack.\");\n        }\n    }\n\n    public int top() {\n        if (isEmpty()) {\n            System.out.println(\"Stack is empty. No top element.\");\n            return -1;\n        } else {\n            return stack.get(stack.size() - 1);\n        }\n    }\n\n    public boolean isEmpty() {\n        return stack.isEmpty();\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Stack stack = new Stack();\n\n        System.out.println(\"Is stack empty? \" + stack.isEmpty());\n\n        stack.push(5);\n        stack.push(10);\n        stack.push(15);\n\n        System.out.println(\"Top element of the stack: \" + stack.top());\n\n        stack.pop();\n        stack.pop();\n        stack.pop();\n        stack.pop();\n\n        System.out.println(\"Is stack empty? \" + stack.isEmpty());\n    }\n}\n```\n\nOutput:\n```\nIs stack empty? true\n5 pushed into the stack.\n10 pushed into the stack.\n15 pushed into the stack.\nTop element of the stack: 15\n15 popped from the stack.\n10 popped from the stack.\n5 popped from the stack.\nStack is empty. Cannot pop.\nIs stack empty? true\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 81,
+    "completion_tokens" : 351,
+    "total_tokens" : 432
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

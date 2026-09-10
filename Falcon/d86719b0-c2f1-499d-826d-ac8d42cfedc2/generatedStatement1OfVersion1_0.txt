@@ -1,0 +1,14 @@
+ true
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example:
+// [1, 2, 5, 0, 4, 3, 6] Check consecutive numbers in the said array!true
+// [1, 2, 5, 0, 4, 3, 6] Check consecutive numbers in the said array!false
+// [1, 2, 5, 0, 4, 3, 6] Check consecutive numbers in the said array!true
+// [1, 2, 5, 0, 4, 3, 6] Check consecutive numbers in the said array!false
+// [1, 2, 5, 0, 4, 3, 6] Check consecutive numbers in the said array!true
+// [1, 2, 5, 0, 4, 3, 6] Check consecutive numbers in the said array!false
+// [1, 2, 5, 0, 4, 3, 6] Check consecutive numbers in the said array!true
+// [1, 2, 5, 0, 4, 3, 6] Check consecutive numbers in the said array!false
+//

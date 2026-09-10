@@ -1,0 +1,144 @@
+**1. Measuring Code Execution Time in Nanoseconds**
+
+```java
+import java.util.concurrent.TimeUnit;
+
+public class NanoTime {
+
+    public static void main(String[] args) {
+        // Start measuring time
+        long startTime = System.nanoTime();
+
+        // Execute the code you want to measure
+        // ...
+
+        // Stop measuring time
+        long endTime = System.nanoTime();
+
+        // Calculate and print the execution time in nanoseconds
+        long executionTime = endTime - startTime;
+        System.out.println("Execution time: " + executionTime + " ns");
+    }
+}
+```
+
+**2. Counting Even and Odd Elements in an Array**
+
+```java
+import java.util.Scanner;
+
+public class EvenOddCount {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the array size
+        System.out.println("Enter the size of the array: ");
+        int size = input.nextInt();
+
+        // Create the array
+        int[] arr = new int[size];
+
+        // Get the array elements
+        System.out.println("Enter the elements of the array: ");
+        for (int i = 0; i < size; i++) {
+            arr[i] = input.nextInt();
+        }
+
+        // Count the even and odd elements
+        int evenCount = 0;
+        int oddCount = 0;
+        for (int element : arr) {
+            if (element % 2 == 0) {
+                evenCount++;
+            } else {
+                oddCount++;
+            }
+        }
+
+        // Print the counts
+        System.out.println("Even count: " + evenCount);
+        System.out.println("Odd count: " + oddCount);
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Empty array
+* Array with all even elements
+* Array with all odd elements
+
+**Regular Cases:**
+
+* Array with mixed even and odd elements
+* Array with large numbers
+* Array with negative numbers
+
+**Example Input and Output:**
+
+**Corner Case 1: Empty Array**
+
+```
+Enter the size of the array:
+0
+Even count: 0
+Odd count: 0
+```
+
+**Corner Case 2: Array with All Even Elements**
+
+```
+Enter the size of the array:
+5
+Enter the elements of the array:
+2 4 6 8 10
+Even count: 5
+Odd count: 0
+```
+
+**Corner Case 3: Array with All Odd Elements**
+
+```
+Enter the size of the array:
+5
+Enter the elements of the array:
+1 3 5 7 9
+Even count: 0
+Odd count: 5
+```
+
+**Regular Case 1: Array with Mixed Even and Odd Elements**
+
+```
+Enter the size of the array:
+10
+Enter the elements of the array:
+1 2 3 4 5 6 7 8 9 10
+Even count: 5
+Odd count: 5
+```
+
+**Regular Case 2: Array with Large Numbers**
+
+```
+Enter the size of the array:
+100000
+Enter the elements of the array:
+100000 100001 100002 ...
+Even count: 50000
+Odd count: 50000
+```
+
+**Regular Case 3: Array with Negative Numbers**
+
+```
+Enter the size of the array:
+10
+Enter the elements of the array:
+1 -2 3 -4 5 -6 7 -8 9 -10
+Even count: 5
+Odd count: 5
+```

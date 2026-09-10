@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a method that takes an integer as a parameter and throws an exception if the number is odd.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 330ec044-2a22-4356-bed5-a125f0db0c3d.\n

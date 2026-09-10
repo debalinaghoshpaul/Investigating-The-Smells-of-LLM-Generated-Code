@@ -1,0 +1,50 @@
+JUnit version 4.13
+.E.E.E.E.E.E...[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5]
+.E.E
+Time: 0.469
+There were 8 failures:
+1) test04(testing_ChatGPT_on_java.BeadSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from void to int[]
+
+	at testing_ChatGPT_on_java.BeadSort_ESTest.test04(BeadSort_ESTest.java:55)
+2) test05(testing_ChatGPT_on_java.BeadSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method display2D(char[][]) is undefined for the type BeadSort
+
+	at testing_ChatGPT_on_java.BeadSort_ESTest.test05(BeadSort_ESTest.java:64)
+3) test02(testing_ChatGPT_on_java.BeadSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method display1D(char[]) is undefined for the type BeadSort
+
+	at testing_ChatGPT_on_java.BeadSort_ESTest.test02(BeadSort_ESTest.java:39)
+4) test03(testing_ChatGPT_on_java.BeadSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from void to int[]
+
+	at testing_ChatGPT_on_java.BeadSort_ESTest.test03(BeadSort_ESTest.java:47)
+5) test00(testing_ChatGPT_on_java.BeadSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method display2D(char[][]) is undefined for the type BeadSort
+
+	at testing_ChatGPT_on_java.BeadSort_ESTest.test00(BeadSort_ESTest.java:23)
+6) test01(testing_ChatGPT_on_java.BeadSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method display1D(int[]) is undefined for the type BeadSort
+
+	at testing_ChatGPT_on_java.BeadSort_ESTest.test01(BeadSort_ESTest.java:31)
+7) test06(testing_ChatGPT_on_java.BeadSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method display1D(int[]) is undefined for the type BeadSort
+
+	at testing_ChatGPT_on_java.BeadSort_ESTest.test06(BeadSort_ESTest.java:80)
+8) test07(testing_ChatGPT_on_java.BeadSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method display1D(char[]) is undefined for the type BeadSort
+
+	at testing_ChatGPT_on_java.BeadSort_ESTest.test07(BeadSort_ESTest.java:96)
+
+FAILURES!!!
+Tests run: 11,  Failures: 8
+

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yabKyqupsAJYC55ulxFXq7dHYaP",
+  "object" : "chat.completion",
+  "created" : 1710258261,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.*;\n\npublic class ArraySum {\n    \n    public static void findPair(int[] arr, int target) {\n        Set<Integer> set = new HashSet<>();\n        \n        for (int num : arr) {\n            int complement = target - num;\n            \n            if (set.contains(complement)) {\n                System.out.println(\"Pair found: \" + num + \", \" + complement);\n                return;\n            }\n            \n            set.add(num);\n        }\n        \n        System.out.println(\"Pair not found.\");\n    }\n\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 4, 5, 6};\n        int target = 6;\n        \n        findPair(arr, target);\n    }\n}\n```\n\nOutput:\n```\nPair found: 1, 5\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 92,
+    "completion_tokens" : 170,
+    "total_tokens" : 262
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

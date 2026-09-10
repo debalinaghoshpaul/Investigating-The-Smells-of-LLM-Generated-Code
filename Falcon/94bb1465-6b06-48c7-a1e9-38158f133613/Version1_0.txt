@@ -1,0 +1,26 @@
+No GPU found. Running on CPU.
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class PrimeNumbers {
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(new BufferedReader(new FileReader("PrimeNumbers.dat")));
+        List<Long> primeNumbers = new ArrayList<>();
+        while (scanner.hasNextLong()) {
+            primeNumbers.add(scanner.nextLong());
+        }
+        scanner.close();
+        System.out.println(primeNumbers);
+    }
+}
+
+Output:
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37,

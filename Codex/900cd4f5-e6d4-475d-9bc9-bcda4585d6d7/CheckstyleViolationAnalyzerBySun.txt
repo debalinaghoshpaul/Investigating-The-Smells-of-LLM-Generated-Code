@@ -1,0 +1,10 @@
+Violations by Category:
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 1
+FinalParameters: Parameter length should be final. [FinalParameters]: 3
+HiddenField: 'length' hides a field. [HiddenField]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '5' is a magic number. [MagicNumber]: 2

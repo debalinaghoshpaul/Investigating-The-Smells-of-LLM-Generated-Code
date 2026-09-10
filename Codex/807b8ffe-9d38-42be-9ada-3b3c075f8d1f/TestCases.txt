@@ -1,0 +1,79 @@
+**Java program:**
+
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class CountCharsOverTwice {
+
+    public static void main(String[] args) {
+        String input = "Hello123World";
+
+        // Create a map to store the character counts
+        Map<Character, Integer> charCounts = new HashMap<>();
+
+        // Iterate over the input string and update the character counts
+        for (char c : input.toCharArray()) {
+            if (Character.isLetterOrDigit(c)) {
+                int count = charCounts.getOrDefault(c, 0);
+                charCounts.put(c, count + 1);
+            }
+        }
+
+        // Count the number of characters that occur more than twice
+        int count = 0;
+        for (Map.Entry<Character, Integer> entry : charCounts.entrySet()) {
+            if (entry.getValue() > 2) {
+                count++;
+            }
+        }
+
+        // Print the count
+        System.out.println("Number of characters that occur more than twice: " + count);
+    }
+}
+```
+
+**Test cases:**
+
+**Test case 1:**
+
+Input: "Hello123World"
+
+Expected output: 1 (the character 'l' occurs 3 times)
+
+**Test case 2:**
+
+Input: "1234567890"
+
+Expected output: 0 (no characters occur more than twice)
+
+**Test case 3:**
+
+Input: "AAABBBCCC"
+
+Expected output: 3 (the characters 'A', 'B', and 'C' all occur 3 times)
+
+**Test case 4:**
+
+Input: "a@#$%^&*()"
+
+Expected output: 0 (no characters occur more than twice)
+
+**Test case 5:**
+
+Input: null (empty string)
+
+Expected output: 0 (no characters occur)
+
+**Test case 6:**
+
+Input: " " (space character)
+
+Expected output: 0 (space character is not a letter or digit)
+
+**Corner cases:**
+
+* The input string is very long.
+* The input string contains non-alphanumeric characters.
+* The input string is null or empty.

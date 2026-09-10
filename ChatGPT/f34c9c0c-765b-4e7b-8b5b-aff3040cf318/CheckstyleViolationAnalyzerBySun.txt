@@ -1,0 +1,9 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 85). [LineLength]: 1
+WhitespaceAfter: 'for' is not followed by whitespace. [WhitespaceAfter]: 1
+WhitespaceAround: 'for' is not followed by whitespace. [WhitespaceAround]: 1
+FinalParameters: Parameter args should be final. [FinalParameters]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '5' is a magic number. [MagicNumber]: 5

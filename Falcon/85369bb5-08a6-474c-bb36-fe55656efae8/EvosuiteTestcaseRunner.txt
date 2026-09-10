@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Enter a number between 1 and 7: The weekday name is: Monday
+.Enter a number between 1 and 7: The weekday name is: Sunday
+.Enter a number between 1 and 7: The weekday name is: Wednesday
+.Enter a number between 1 and 7: The weekday name is: Tuesday
+.Enter a number between 1 and 7: The weekday name is: Friday
+.Enter a number between 1 and 7: The weekday name is: Thursday
+.Enter a number between 1 and 7: Invalid input. Please enter a number between 1 and 7.
+.Enter a number between 1 and 7: The weekday name is: Saturday
+.Enter a number between 1 and 7: .Enter a number between 1 and 7: .
+Time: 0.438
+
+OK (11 tests)
+

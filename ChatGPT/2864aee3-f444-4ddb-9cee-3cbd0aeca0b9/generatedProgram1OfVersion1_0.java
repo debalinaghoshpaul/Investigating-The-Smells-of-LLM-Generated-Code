@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class GetSubstring {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String str = input.nextLine();
+
+        System.out.print("Enter the starting index of the substring: ");
+        int start = input.nextInt();
+
+        System.out.print("Enter the ending index of the substring: ");
+        int end = input.nextInt();
+
+        String substring = str.substring(start, end);
+
+        System.out.println("The substring is: " + substring);
+    }
+}

@@ -1,0 +1,3 @@
+
+
+This program creates a stack, pushes elements onto the stack, rotates the elements to the left direction, and then prints the stack after rotation. The `rotateLeft` method pops the first element from the stack and adds it back to the top of the stack, effectively rotating the elements to the left.

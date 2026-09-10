@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\ad9be37e-372d-4a26-973c-d396a1ae3395\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\ad9be37e-372d-4a26-973c-d396a1ae3395\generatedProgram1OfVersion1_0.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\ad9be37e-372d-4a26-973c-d396a1ae3395\generatedProgram1OfVersion1_0.java:2:8: Unused import - java.util.HashMap. [UnusedImports]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\ad9be37e-372d-4a26-973c-d396a1ae3395\generatedProgram1OfVersion1_0.java:3:8: Unused import - java.util.Map. [UnusedImports]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\ad9be37e-372d-4a26-973c-d396a1ae3395\generatedProgram1OfVersion1_0.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\ad9be37e-372d-4a26-973c-d396a1ae3395\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\ad9be37e-372d-4a26-973c-d396a1ae3395\generatedProgram1OfVersion1_0.java:7:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\ad9be37e-372d-4a26-973c-d396a1ae3395\generatedProgram1OfVersion1_0.java:9:33: '50' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\ad9be37e-372d-4a26-973c-d396a1ae3395\generatedProgram1OfVersion1_0.java:12: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\ad9be37e-372d-4a26-973c-d396a1ae3395\generatedProgram1OfVersion1_0.java:14:48: '50' is a magic number. [MagicNumber]
+Audit done.

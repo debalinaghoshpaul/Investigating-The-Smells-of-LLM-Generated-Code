@@ -1,0 +1,12 @@
+
+
+**Test cases:**
+
+* **Empty string:** ""
+* **String with only letters:** "abcdefghijklmnopqrstuvwxyz"
+* **String with only spaces:** " "
+* **String with only numbers:** "1234567890"
+* **String with only other characters:** "!@#$%^&*()"
+* **String with mixed characters:** "Aa kiu, I swd skieo 236587. GH kiu: sieo?? 25.33"
+* **String with special characters:** "Aa kiu, I swd skieo 236587. GH kiu: sieo?? 25.33!@#$%^&*()"
+* **String with unicode characters:** "Aa kiu, I swd skieo 236587. GH kiu: sieo?? 25.33!@#$%^&*()���"

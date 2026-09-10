@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:7:36: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:26:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:27:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:29:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:29:21: Parameter phaser should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:29:28: 'phaser' hides a field. [HiddenField]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:29:36: Parameter name should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:29:43: 'name' hides a field. [HiddenField]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\b609bbd7-f377-4389-bec5-1e0986e0197f\generatedProgram1OfVersion1_0.java:36:33: '3' is a magic number. [MagicNumber]
+Audit done.

@@ -1,0 +1,137 @@
+JUnit version 4.13
+.E.E.E.E.Merged Stack without duplicates:
+4
+1
+2
+3
+.E.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.505
+There were 17 failures:
+1) test09(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method isEmpty() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test09(MergeStacksTwo_ESTest.java:114)
+2) test08(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method findUniqueElements(MergeStacksTwo, MergeStacksTwo) is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test08(MergeStacksTwo_ESTest.java:104)
+3) test07(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method display() is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test07(MergeStacksTwo_ESTest.java:97)
+4) test06(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method findUniqueElements(MergeStacksTwo, MergeStacksTwo) is undefined for the type MergeStacksTwo
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method findUniqueElements(MergeStacksTwo, MergeStacksTwo) is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test06(MergeStacksTwo_ESTest.java:87)
+5) test01(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method peek() is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test01(MergeStacksTwo_ESTest.java:31)
+6) test12(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method peek() is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test12(MergeStacksTwo_ESTest.java:137)
+7) test00(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+	The method pop() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test00(MergeStacksTwo_ESTest.java:21)
+8) test11(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method peek() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test11(MergeStacksTwo_ESTest.java:130)
+9) test10(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method isEmpty() is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test10(MergeStacksTwo_ESTest.java:121)
+10) test05(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method display() is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test05(MergeStacksTwo_ESTest.java:79)
+11) test16(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method getSize() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test16(MergeStacksTwo_ESTest.java:170)
+12) test04(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor MergeStacksTwo(int) is undefined
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test04(MergeStacksTwo_ESTest.java:66)
+13) test15(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method isEmpty() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test15(MergeStacksTwo_ESTest.java:163)
+14) test03(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method findUniqueElements(MergeStacksTwo, MergeStacksTwo) is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test03(MergeStacksTwo_ESTest.java:51)
+15) test14(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method isEmpty() is undefined for the type MergeStacksTwo
+	The method pop() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test14(MergeStacksTwo_ESTest.java:153)
+16) test02(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method push(int) is undefined for the type MergeStacksTwo
+	The method getSize() is undefined for the type MergeStacksTwo
+	The method isEmpty() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test02(MergeStacksTwo_ESTest.java:40)
+17) test13(testing_ChatGPT_on_java.MergeStacksTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor MergeStacksTwo(int) is undefined
+	The method pop() is undefined for the type MergeStacksTwo
+
+	at testing_ChatGPT_on_java.MergeStacksTwo_ESTest.test13(MergeStacksTwo_ESTest.java:146)
+
+FAILURES!!!
+Tests run: 18,  Failures: 17
+

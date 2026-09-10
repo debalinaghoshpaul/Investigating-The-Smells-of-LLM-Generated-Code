@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Time-limited test is waiting at the barrier
+Time-limited test has crossed the barrier
+..MockThread-0 is waiting at the barrier
+MockThread-2 is waiting at the barrier
+
+Time: 1.031
+
+OK (3 tests)
+

@@ -1,0 +1,40 @@
+JUnit version 4.13
+.3 raised to the power of 4 is: 81
+.3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+.3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+.3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+.3 raised to the power of 4 is: 81
+.3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+.3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+3 raised to the power of 4 is: 81
+
+Time: 0.519
+
+OK (7 tests)
+

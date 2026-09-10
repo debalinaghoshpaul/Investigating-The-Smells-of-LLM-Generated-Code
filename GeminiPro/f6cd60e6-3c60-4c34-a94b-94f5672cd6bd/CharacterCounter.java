@@ -1,0 +1,44 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class CharacterCounter {
+
+    public static void main(String[] args) {
+        String input = "Aa kiu, I swd skieo 236587. GH kiu: sieo?? 25.33";
+        Map<CharacterType, Integer> characterCount = countCharacters(input);
+
+        System.out.println("Letter: " + characterCount.get(CharacterType.LETTER));
+        System.out.println("Space: " + characterCount.get(CharacterType.SPACE));
+        System.out.println("Number: " + characterCount.get(CharacterType.NUMBER));
+        System.out.println("Other: " + characterCount.get(CharacterType.OTHER));
+    }
+
+    public static Map<CharacterType, Integer> countCharacters(String input) {
+        Map<CharacterType, Integer> characterCount = new HashMap<>();
+        characterCount.put(CharacterType.LETTER, 0);
+        characterCount.put(CharacterType.SPACE, 0);
+        characterCount.put(CharacterType.NUMBER, 0);
+        characterCount.put(CharacterType.OTHER, 0);
+
+        for (char character : input.toCharArray()) {
+            if (Character.isLetter(character)) {
+                characterCount.put(CharacterType.LETTER, characterCount.get(CharacterType.LETTER) + 1);
+            } else if (Character.isSpaceChar(character)) {
+                characterCount.put(CharacterType.SPACE, characterCount.get(CharacterType.SPACE) + 1);
+            } else if (Character.isDigit(character)) {
+                characterCount.put(CharacterType.NUMBER, characterCount.get(CharacterType.NUMBER) + 1);
+            } else {
+                characterCount.put(CharacterType.OTHER, characterCount.get(CharacterType.OTHER) + 1);
+            }
+        }
+
+        return characterCount;
+    }
+
+    public enum CharacterType {
+        LETTER,
+        SPACE,
+        NUMBER,
+        OTHER
+    }
+}

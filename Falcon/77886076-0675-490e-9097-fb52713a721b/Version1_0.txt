@@ -1,0 +1,40 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        int count = Integer.parseInt(scanner.nextLine());
+        for (int i = 0; i < count; i++) {
+            System.out.println(str + str);
+        }
+    }
+}
+
+// Output:
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The programming language you need to use

@@ -1,0 +1,7 @@
+Violations by Category:
+OuterTypeFilename: The name of the outer type and the file do not match. [OuterTypeFilename]: 1
+LocalVariableName: Local variable name 'new_node' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'. [LocalVariableName]: 1
+OneTopLevelClass: Top-level class LinkedList has to reside in its own source file. [OneTopLevelClass]: 1
+ParameterName: Parameter name 'new_data' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'. [ParameterName]: 1
+LeftCurlyEol: '{' at column 5 should be on the previous line. [LeftCurlyEol]: 1
+Indentation: 'member def type' has incorrect indentation level 4, expected level should be 2. [Indentation]: 27

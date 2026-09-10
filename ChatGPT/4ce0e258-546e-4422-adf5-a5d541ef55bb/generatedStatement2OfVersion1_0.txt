@@ -1,0 +1,18 @@
+
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+1. Create a date object for March 8, 2023, at 12:30 PM.
+2. Create a date object for January 1, 2020, at 00:00 AM.
+3. Create a date object for December 31, 2024, at 11:59 PM.
+
+**Corner Cases:**
+
+1. Create a date object for an invalid year (e.g., -1000).
+2. Create a date object for an invalid month (e.g., 13).
+3. Create a date object for an invalid day (e.g., 31 for February in a non-leap year).
+4. Create a date object for an invalid hour (e.g., 25).
+5. Create a date object for an invalid minute (e.g., 61).
+6. Create a date object for an invalid second (e.g., 62).

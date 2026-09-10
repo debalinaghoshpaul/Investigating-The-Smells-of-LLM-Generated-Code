@@ -1,0 +1,6 @@
+JUnit version 4.13
+."0, =1, >2, ?3, @4, A5, B6, C7, D8, E9, F0, G1, H2, I3, J4, K5, L6, M7, N8, O9, P0, Q1, R2, S3, T4, U5, .D5, E6, F7, G8, H9, I0, J1, K2, L3, M4, N5, O6, P7, Q8, R9, S0, T1, U2, V3, W4, X5, Y6, Z7, A8, B9, C0, 
+Time: 0.513
+
+OK (2 tests)
+

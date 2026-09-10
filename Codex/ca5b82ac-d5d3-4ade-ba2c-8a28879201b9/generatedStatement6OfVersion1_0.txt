@@ -1,0 +1,8 @@
+
+
+**Test case 2:**
+
+* **Input:** A text file with an empty line.
+
+* **Expected output:**
+

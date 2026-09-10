@@ -1,0 +1,56 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class PoundsKilograms {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter pounds: ");
+        double pounds = scanner.nextDouble();
+        System.out.print("Enter kilograms: ");
+        double kilograms = scanner.nextDouble();
+
+        double poundsToKilogram = pounds / kilograms;
+        double kilogramsToPound = kilograms / pounds;
+
+        System.out.println("Pounds = " + pounds);
+        System.out.println("Kilograms = " + kilograms);
+        System.out.println("Pounds = " + poundsToKilogram);
+        System.out.println("Kilograms = " + kilogramsToPound);
+    }
+}
+
+// Output: Pounds = 2.2
+// Kilograms = 20
+// Pounds = 6.6
+// Kilograms = 25
+// Pounds = 433.4
+// Kilograms = 510
+// Pounds = 437.8
+// Kilograms = 515
+// Pounds = 2.2
+// Kilograms = 20
+// Pounds = 6.6
+// Kilograms = 25
+// Pounds = 433.4
+// Kilograms = 510
+// Pounds = 437.8
+// Kilograms = 515
+// Pounds = 2.2
+// Kilograms = 20
+// Pounds = 6.6
+// Kilograms = 25
+// Pounds = 433.4
+// Kilograms = 510
+// Pounds = 437.8
+// Kilograms = 515
+// Pounds = 2.2
+// Kilograms = 20
+// Pounds = 6.6
+// Kilograms = 25
+// Pounds = 433.4
+// Kilograms = 510
+// Pounds = 437.8
+// Kilograms = 515
+// Pounds = 2.2
+// Kilograms = 20
+// Pounds = 6.

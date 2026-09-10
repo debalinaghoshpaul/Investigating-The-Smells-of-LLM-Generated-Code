@@ -1,0 +1,16 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+    * Input: Str1 = Python, Str2 = Tutorial
+    * Expected output: PythonTutorialPython
+* **Corner cases:**
+    * Input: Str1 = "", Str2 = Tutorial
+    * Expected output: Tutorial
+    * Input: Str1 = Python, Str2 = ""
+    * Expected output: Python
+    * Input: Str1 = null, Str2 = Tutorial
+    * Expected output: Tutorial (null is treated as an empty string)
+    * Input: Str1 = Python, Str2 = null
+    * Expected output: Python (null is treated as an empty string)

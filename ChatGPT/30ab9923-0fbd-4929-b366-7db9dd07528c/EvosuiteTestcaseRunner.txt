@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Lion eats meat
+Lion sleeps in the den
+Tiger eats meat and sometimes fish
+Tiger sleeps in the grasslands
+Deer eats grass
+Deer sleeps in the woods
+.
+Time: 0.487
+
+OK (2 tests)
+

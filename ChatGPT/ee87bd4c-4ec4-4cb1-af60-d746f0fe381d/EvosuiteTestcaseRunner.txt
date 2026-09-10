@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Input an integer number: 7 is not an ugly number.
+.Input an integer number: 4 is an ugly number.
+...Input an integer number: ...Input an integer number: .
+Time: 0.339
+
+OK (9 tests)
+

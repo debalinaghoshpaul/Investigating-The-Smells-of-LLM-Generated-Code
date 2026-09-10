@@ -1,0 +1,104 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.34
+There were 15 failures:
+1) test06(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test06(Stack_ESTest.java:92)
+2) test07(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test07(Stack_ESTest.java:101)
+3) test08(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test08(Stack_ESTest.java:108)
+4) test09(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test09(Stack_ESTest.java:115)
+5) test10(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test10(Stack_ESTest.java:125)
+6) test00(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test00(Stack_ESTest.java:21)
+7) test11(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test11(Stack_ESTest.java:132)
+8) test01(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test01(Stack_ESTest.java:30)
+9) test12(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test12(Stack_ESTest.java:143)
+10) test02(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+	Stack cannot be resolved
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test02(Stack_ESTest.java:40)
+11) test13(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+	Stack cannot be resolved
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test13(Stack_ESTest.java:150)
+12) test03(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test03(Stack_ESTest.java:56)
+13) test14(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Stack cannot be resolved
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test14(Stack_ESTest.java:160)
+14) test04(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test04(Stack_ESTest.java:71)
+15) test05(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+	Stack cannot be resolved to a type
+	Stack cannot be resolved
+	Stack cannot be resolved
+
+	at testing_ChatGPT_on_java.Stack_ESTest.test05(Stack_ESTest.java:81)
+
+FAILURES!!!
+Tests run: 15,  Failures: 15
+

@@ -1,0 +1,9 @@
+
+
+**Test Cases:**
+
+* **Normal case:** Create instances of the Animal, Bird, and Cat classes and call the sound() method for each instance.
+* **Corner case:** Attempt to create an instance of the Animal class and call the sound() method. This should result in an error, since the Animal class is abstract and cannot be instantiated.
+
+**Expected output:**
+

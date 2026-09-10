@@ -1,0 +1,40 @@
+```java
+import java.util.stream.IntStream;
+
+public class PentagonalNumbers {
+
+    public static void main(String[] args) {
+        // Print the first 50 pentagonal numbers
+        IntStream.range(1, 51).forEach(n -> System.out.printf("%4d", getPentagonalNumber(n)));
+    }
+
+    /**
+     * Calculate the n-th pentagonal number
+     * @param n the index of the pentagonal number to calculate
+     * @return the n-th pentagonal number
+     */
+    public static int getPentagonalNumber(int n) {
+        return (3 * n * n - n) / 2;
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Cases:**
+- Input: 1
+  - Expected Output: 1
+- Input: 5
+  - Expected Output: 5
+- Input: 10
+  - Expected Output: 12
+- Input: 25
+  - Expected Output: 92
+
+**Corner Cases:**
+- Input: 0
+  - Expected Output: 0
+- Input: -1
+  - Expected Output: IllegalArgumentException (or other appropriate exception)
+- Input: Integer.MAX_VALUE
+  - Expected Output: Integer overflow exception (or other appropriate exception)

@@ -1,0 +1,7 @@
+
+
+**Test Cases:**
+
+* **Positive Test Case:** Matrix: `{{1, 2, 3}, {4, 8, 2}, {1, 5, 3}}`. Expected output: `Sum of all numbers along its path: 13`.
+* **Negative Test Case:** Matrix: `{{}}`. Expected output: `Sum of all numbers along its path: 0`.
+* **Corner Case:** Matrix: `{{1}}`. Expected output: `Sum of all numbers along its path: 1`.

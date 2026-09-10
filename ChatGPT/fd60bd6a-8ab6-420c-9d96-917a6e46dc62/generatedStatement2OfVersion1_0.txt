@@ -1,0 +1,16 @@
+
+
+**Test cases:**
+
+* **Valid duck numbers:**
+    * 3210
+    * 7056
+    * 8430709
+* **Invalid duck numbers (zero in the beginning):**
+    * 08237
+    * 04309
+* **Corner cases:**
+    * 0 (not a duck number)
+    * 10 (duck number)
+    * 100 (duck number)
+    * 1000 (not a duck number)

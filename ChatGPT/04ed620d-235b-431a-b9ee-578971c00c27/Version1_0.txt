@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95DKbKmvbW8FeGC4Fz2LzLOAG8WOs",
+  "object" : "chat.completion",
+  "created" : 1711029913,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\nimport java.util.regex.Matcher;\nimport java.util.regex.Pattern;\n\npublic class SumIntegerValues {\n\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        int sum = 0;\n\n        // Read sentences until an empty line is encountered\n        while (input.hasNextLine()) {\n            String line = input.nextLine().trim();\n\n            // Break the loop if an empty line is encountered\n            if (line.isEmpty()) {\n                break;\n            }\n\n            // Use regular expression to find all positive integers in the line\n            Pattern pattern = Pattern.compile(\"\\\\d+\");\n            Matcher matcher = pattern.matcher(line);\n\n            // Calculate the sum of all positive integers in the line\n            while (matcher.find()) {\n                int num = Integer.parseInt(matcher.group());\n                if (num <= 10000) { // Check if the number is less than or equal to 10000\n                    sum += num;\n                }\n            }\n        }\n\n        System.out.println(\"Sum of all positive integers in the sentences: \" + sum);\n    }\n}\n```\n \nExample Input/Output:\n```\nInput:\nHello 123 world\nI have 5 apples\nToday is a sunny day\nSum is: 456\n\nOutput:\nSum of all positive integers in the sentences: 584\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 122,
+    "completion_tokens" : 272,
+    "total_tokens" : 394
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a generic method that takes a list of any type and returns it as a new list with the elements in reverse order.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 346bfff4-ee91-49bd-9bb1-0c45895a638b.\n

@@ -1,0 +1,1 @@
+Usage: python generate_solution.py <instruction>

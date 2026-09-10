@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Enter the hour (0-12): Enter the minute (0-59): The angle between the hour and minute hands is: 114.5 degrees
+.Enter the hour (0-12): Enter the minute (0-59): .Enter the hour (0-12): .
+Time: 0.597
+
+OK (4 tests)
+

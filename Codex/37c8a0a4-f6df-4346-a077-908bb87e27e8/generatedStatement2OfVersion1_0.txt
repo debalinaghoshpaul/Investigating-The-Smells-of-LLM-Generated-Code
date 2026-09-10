@@ -1,0 +1,2 @@
+
+This program defines an Encryptable interface with encrypt and decrypt methods. The AES and RSA classes implement the Encryptable interface and provide their own encryption and decryption algorithms. The Main class creates instances of AES and RSA, encrypts and decrypts a sample data using both algorithms, and prints the results.

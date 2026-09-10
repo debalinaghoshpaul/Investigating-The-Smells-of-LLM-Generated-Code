@@ -1,0 +1,20 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class TreeSet {
+    public static void main(String[] args) {
+        Set<String> colors = new HashSet<>();
+        colors.add("red");
+        colors.add("blue");
+        colors.add("green");
+        colors.add("yellow");
+        colors.add("orange");
+        colors.add("pink");
+        colors.add("purple");
+        colors.add("brown");
+        colors.add("black");
+        colors.add("white");
+        System.out.println(colors);
+    }
+}
+

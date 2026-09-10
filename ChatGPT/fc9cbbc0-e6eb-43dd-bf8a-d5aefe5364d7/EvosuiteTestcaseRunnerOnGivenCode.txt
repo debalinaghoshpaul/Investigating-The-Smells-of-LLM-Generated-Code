@@ -1,0 +1,8 @@
+JUnit version 4.13
+..Original array: [0, 1, 1, 0, 1, 1, 0, 1, 0, 0]
+After sorting: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+...
+Time: 0.345
+
+OK (5 tests)
+

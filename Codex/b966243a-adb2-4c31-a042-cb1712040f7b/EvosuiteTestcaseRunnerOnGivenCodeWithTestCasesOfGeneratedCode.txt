@@ -1,0 +1,39 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.35
+There were 6 failures:
+1) test0(testing_ChatGPT_on_java.Exercise6_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise6.main(CopilotTest.java:6)
+	at testing_ChatGPT_on_java.Exercise6_ESTest.test0(Exercise6_ESTest.java:27)
+2) test1(testing_ChatGPT_on_java.Exercise6_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise6.main(CopilotTest.java:6)
+	at testing_ChatGPT_on_java.Exercise6_ESTest.test1(Exercise6_ESTest.java:36)
+3) test2(testing_ChatGPT_on_java.Exercise6_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise6.main(CopilotTest.java:6)
+	at testing_ChatGPT_on_java.Exercise6_ESTest.test2(Exercise6_ESTest.java:53)
+4) test3(testing_ChatGPT_on_java.Exercise6_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise6.main(CopilotTest.java:6)
+	at testing_ChatGPT_on_java.Exercise6_ESTest.test3(Exercise6_ESTest.java:69)
+5) test4(testing_ChatGPT_on_java.Exercise6_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise6.main(CopilotTest.java:6)
+	at testing_ChatGPT_on_java.Exercise6_ESTest.test4(Exercise6_ESTest.java:78)
+6) test5(testing_ChatGPT_on_java.Exercise6_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise6 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise6.<init>(CopilotTest.java:3)
+	at testing_ChatGPT_on_java.Exercise6_ESTest.test5(Exercise6_ESTest.java:84)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

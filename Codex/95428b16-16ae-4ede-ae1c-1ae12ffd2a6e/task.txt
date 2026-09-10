@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to implement an enum called "Direction" with constants representing the cardinal directions (North, South, East, West).\nSample Solution:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 95428b16-16ae-4ede-ae1c-1ae12ffd2a6e.\n

@@ -1,0 +1,11 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 89). [LineLength]: 3
+AvoidStarImport: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]: 1
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 2
+FinalParameters: Parameter name should be final. [FinalParameters]: 7
+HiddenField: 'name' hides a field. [HiddenField]: 6
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 6
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+MagicNumber: '20' is a magic number. [MagicNumber]: 6
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1

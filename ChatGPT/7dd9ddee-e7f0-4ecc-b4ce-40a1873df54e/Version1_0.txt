@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94pKOxAPuYD7sBeNYELJF1CpZZdtq",
+  "object" : "chat.completion",
+  "created" : 1710937644,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.HashSet;\n\npublic class LongestConsecutiveSequence {\n    \n    public static int longestConsecutiveSequence(int[] nums) {\n        HashSet<Integer> set = new HashSet<>();\n        for(int num : nums) {\n            set.add(num);\n        }\n        \n        int longestSeq = 0;\n        \n        for(int num : nums) {\n            if(!set.contains(num-1)) {\n                int currNum = num;\n                int currSeq = 1;\n                \n                while(set.contains(currNum+1)) {\n                    currNum++;\n                    currSeq++;\n                }\n                \n                longestSeq = Math.max(longestSeq, currSeq);\n            }\n        }\n        \n        return longestSeq;\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {1, 1, 2, 3, 3, 4, 5, 2, 4, 5, 6, 7, 8, 9, 6, -1, -2};\n        System.out.println(\"Longest consecutive sequence length: \" + longestConsecutiveSequence(nums)); // Output should be 7\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 128,
+    "completion_tokens" : 236,
+    "total_tokens" : 364
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

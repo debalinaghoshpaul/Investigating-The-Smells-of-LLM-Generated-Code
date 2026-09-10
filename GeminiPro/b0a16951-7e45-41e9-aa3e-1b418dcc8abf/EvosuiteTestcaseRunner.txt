@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Enter a number: .Enter a number: -8 is not a Disarium number.
+..Enter a number: 98 is not a Disarium number.
+.Enter a number: 8 is a Disarium number.
+.Enter a number: 
+Time: 0.361
+
+OK (6 tests)
+

@@ -1,0 +1,8 @@
+
+Input:
+Manager John Doe with base salary $0.0 and bonus $1000.0
+Programmer Jane Doe with base salary $0.0 and overtime pay $500.0
+
+Expected Output:
+Manager's salary: $1000.0
+Programmer's salary: $500.0

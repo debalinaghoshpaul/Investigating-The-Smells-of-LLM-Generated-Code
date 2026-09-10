@@ -1,0 +1,9 @@
+
+
+**Test cases:**
+
+* **Positive BigInteger value:** `new BigInteger("1234567890")`
+* **Negative BigInteger value:** `new BigInteger("-1234567890")`
+* **Zero BigInteger value:** `new BigInteger("0")`
+* **BigInteger value that is too large to fit in an int:** `new BigInteger("9223372036854775807")`
+* **BigInteger value that is too small to fit in an int:** `new BigInteger("-9223372036854775808")`

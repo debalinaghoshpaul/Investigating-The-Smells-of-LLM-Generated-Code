@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Input floating-point number: Input floating-point another number: They are different
+.Input floating-point number: .Input floating-point number: .Input floating-point number: Input floating-point another number: They are the same up to three decimal places
+.Input floating-point number: Input floating-point another number: They are different
+.
+Time: 0.348
+
+OK (6 tests)
+

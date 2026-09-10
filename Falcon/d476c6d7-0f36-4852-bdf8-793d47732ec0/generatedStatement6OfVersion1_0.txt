@@ -1,0 +1,8 @@
+
+
+**2. Employee with more leaves taken than working days in a month:**
+
+* Employee 1: Name = "John", ID = 1, Salary = 10000, Leaves Taken = 25
+
+**Expected Output:**
+

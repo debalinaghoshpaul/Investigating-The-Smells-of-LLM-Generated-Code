@@ -1,0 +1,25 @@
+
+
+### Test Cases
+
+**Corner Cases:**
+
+* **Input:** 0
+* **Expected Output:** 0
+
+* **Input:** 7
+* **Expected Output:** 0
+
+* **Input:** 1000000000
+* **Expected Output:** 499999997
+
+**Regular Cases:**
+
+* **Input:** 10
+* **Expected Output:** 9
+
+* **Input:** 100
+* **Expected Output:** 89
+
+* **Input:** 1000
+* **Expected Output:** 891

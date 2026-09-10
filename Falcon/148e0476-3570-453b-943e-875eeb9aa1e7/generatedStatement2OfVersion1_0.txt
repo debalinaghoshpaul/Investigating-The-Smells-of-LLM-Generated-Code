@@ -1,0 +1,9 @@
+
+
+**Test cases:**
+
+* **Normal case:** An array with a clear bitonic subarray, e.g., `{1, 2, 3, 4, 5, 4, 3, 2, 1}`.
+* **Edge case:** An array with a single element, e.g., `{1}`.
+* **Edge case:** An array with only increasing elements, e.g., `{1, 2, 3, 4, 5}`.
+* **Edge case:** An array with only decreasing elements, e.g., `{5, 4, 3, 2, 1}`.
+* **Corner case:** An array with all equal elements, e.g., `{1, 1, 1, 1, 1}`.

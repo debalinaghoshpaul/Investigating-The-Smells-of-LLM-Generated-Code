@@ -1,0 +1,29 @@
+
+
+Test cases:
+
+* **Corner cases:**
+    * Input: 0
+    * Expected output: Automorphic Number.
+    * Input: 1
+    * Expected output: Automorphic Number.
+    * Input: 9
+    * Expected output: Automorphic Number.
+* **Positive test cases:**
+    * Input: 5
+    * Expected output: Automorphic Number.
+    * Input: 6
+    * Expected output: Automorphic Number.
+    * Input: 76
+    * Expected output: Automorphic Number.
+    * Input: 890625
+    * Expected output: Automorphic Number.
+* **Negative test cases:**
+    * Input: 2
+    * Expected output: Not an Automorphic Number.
+    * Input: 3
+    * Expected output: Not an Automorphic Number.
+    * Input: 4
+    * Expected output: Not an Automorphic Number.
+    * Input: 8
+    * Expected output: Not an Automorphic Number.

@@ -1,0 +1,6 @@
+Violations by Category:
+VariableDeclarationUsageDistance: Distance between variable 'merger' declaration and its first usage is 5, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value). [VariableDeclarationUsageDistance]: 1
+OneTopLevelClass: Top-level class Node has to reside in its own source file. [OneTopLevelClass]: 1
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 3
+Indentation: 'member def type' has incorrect indentation level 4, expected level should be 2. [Indentation]: 47

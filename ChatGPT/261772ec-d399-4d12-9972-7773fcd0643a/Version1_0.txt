@@ -1,0 +1,105 @@
+```java
+import java.util.Scanner;
+
+public class BinaryToHexadecimal {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the binary number from the user
+        System.out.print("Input a Binary Number: ");
+        String binaryNumber = scanner.nextLine();
+
+        // Convert the binary number to a hexadecimal number
+        String hexadecimalNumber = binaryToHexadecimal(binaryNumber);
+
+        // Print the hexadecimal number
+        System.out.println("HexaDecimal value: " + hexadecimalNumber);
+    }
+
+    private static String binaryToHexadecimal(String binaryNumber) {
+        // Check if the binary number is valid
+        if (!isValidBinaryNumber(binaryNumber)) {
+            throw new IllegalArgumentException("Invalid binary number: " + binaryNumber);
+        }
+
+        // Convert the binary number to a decimal number
+        int decimalNumber = binaryToDecimal(binaryNumber);
+
+        // Convert the decimal number to a hexadecimal number
+        String hexadecimalNumber = decimalToHexadecimal(decimalNumber);
+
+        return hexadecimalNumber;
+    }
+
+    private static boolean isValidBinaryNumber(String binaryNumber) {
+        // Check if the binary number contains only 0s and 1s
+        for (char digit : binaryNumber.toCharArray()) {
+            if (digit != '0' && digit != '1') {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private static int binaryToDecimal(String binaryNumber) {
+        int decimalNumber = 0;
+
+        // Iterate over the binary number from right to left
+        for (int i = binaryNumber.length() - 1; i >= 0; i--) {
+            // Get the digit at the current position
+            char digit = binaryNumber.charAt(i);
+
+            // Convert the digit to an integer
+            int digitValue = Character.getNumericValue(digit);
+
+            // Add the digit value to the decimal number
+            decimalNumber += digitValue * Math.pow(2, i);
+        }
+
+        return decimalNumber;
+    }
+
+    private static String decimalToHexadecimal(int decimalNumber) {
+        String hexadecimalNumber = "";
+
+        // Convert the decimal number to a hexadecimal number
+        while (decimalNumber > 0) {
+            int remainder = decimalNumber % 16;
+
+            // Convert the remainder to a hexadecimal digit
+            char hexadecimalDigit;
+            if (remainder < 10) {
+                hexadecimalDigit = (char) (remainder + 48);
+            } else {
+                hexadecimalDigit = (char) (remainder + 87);
+            }
+
+            // Add the hexadecimal digit to the hexadecimal number
+            hexadecimalNumber = hexadecimalDigit + hexadecimalNumber;
+
+            // Divide the decimal number by 16
+            decimalNumber /= 16;
+        }
+
+        return hexadecimalNumber;
+    }
+}
+```
+
+**Test cases:**
+
+* **Valid binary numbers:**
+    * 1101
+    * 10101011
+    * 1111111111111111
+* **Invalid binary numbers:**
+    * 123
+    * 10101a
+    * 11111111111111112
+* **Corner cases:**
+    * Empty string
+    * String containing only 0s
+    * String containing only 1s
+    * String containing leading or trailing spaces

@@ -1,0 +1,38 @@
+
+
+**Test Cases**
+
+**Normal Case:**
+
+* Input:
+    * LocalDate: 2023-03-08
+    * LocalTime: 14:30:00
+* Expected Output:
+    * LocalDateTime: 2023-03-08T14:30:00
+
+**Corner Cases:**
+
+* **Invalid LocalDate:**
+    * Input:
+        * LocalDate: 2023-02-30
+        * LocalTime: 14:30:00
+    * Expected Output:
+        * IllegalArgumentException: Invalid date
+* **Invalid LocalTime:**
+    * Input:
+        * LocalDate: 2023-03-08
+        * LocalTime: 24:00:00
+    * Expected Output:
+        * IllegalArgumentException: Invalid time
+* **Null LocalDate:**
+    * Input:
+        * LocalDate: null
+        * LocalTime: 14:30:00
+    * Expected Output:
+        * NullPointerException
+* **Null LocalTime:**
+    * Input:
+        * LocalDate: 2023-03-08
+        * LocalTime: null
+    * Expected Output:
+        * NullPointerException

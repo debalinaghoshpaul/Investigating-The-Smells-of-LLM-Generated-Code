@@ -1,0 +1,49 @@
+```java
+import java.util.Scanner;
+import java.util.regex.*;
+
+public class UpperCaseFollowedByLowerCase {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the user input
+        System.out.println("Enter a string: ");
+        String input = scanner.nextLine();
+
+        // Create a regular expression to match the sequence
+        String regex = "[A-Z][a-z]+";
+
+        // Compile the regular expression
+        Pattern pattern = Pattern.compile(regex);
+
+        // Create a Matcher object
+        Matcher matcher = pattern.matcher(input);
+
+        // Find all matches
+        while (matcher.find()) {
+            // Print the match
+            System.out.println(matcher.group());
+        }
+    }
+}
+```
+
+**Test cases:**
+
+* **Valid cases:**
+    * "Abc"
+    * "Def"
+    * "Ghi"
+    * "This is a sentence."
+    * "This is a sentence with a lot of words."
+* **Invalid cases:**
+    * "" (empty string)
+    * "a" (single lowercase letter)
+    * "A" (single uppercase letter)
+    * "123" (only digits)
+    * "!" (special character)
+* **Corner cases:**
+    * "Abc123" (sequence followed by digits)
+    * "Abc!" (sequence followed by a special character)
+    * "Abc abc" (sequence followed by another sequence)

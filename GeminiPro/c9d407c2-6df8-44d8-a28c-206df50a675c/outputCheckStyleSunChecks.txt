@@ -1,0 +1,7 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RegularExpression\c9d407c2-6df8-44d8-a28c-206df50a675c\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RegularExpression\c9d407c2-6df8-44d8-a28c-206df50a675c\generatedProgram1OfVersion1_0.java:1:23: Using the '.*' form of import should be avoided - java.util.regex.*. [AvoidStarImport]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RegularExpression\c9d407c2-6df8-44d8-a28c-206df50a675c\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RegularExpression\c9d407c2-6df8-44d8-a28c-206df50a675c\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RegularExpression\c9d407c2-6df8-44d8-a28c-206df50a675c\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+Audit done.

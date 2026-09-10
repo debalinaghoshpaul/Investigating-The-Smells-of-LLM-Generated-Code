@@ -1,0 +1,30 @@
+
+
+**Test Cases:**
+
+**Valid Inputs:**
+
+| First Integer | Second Integer | Expected Result |
+|---|---|---|
+| "1234" | "5678" | "6912" |
+| "9999" | "9999" | "19998" |
+| "12345678901234567890" | "12345678901234567890" | "24691357802469135780" |
+| "1" | "99999999999999999999" | "100000000000000000000" |
+
+**Invalid Inputs:**
+
+| Input | Reason |
+|---|---|
+| "1234a" | Contains a non-digit character |
+| "-1234" | Negative integer |
+| "1234.5" | Contains a decimal point |
+| "123456789012345678901" | Integer is too large |
+
+**Corner Cases:**
+
+| First Integer | Second Integer | Expected Result |
+|---|---|---|
+| "0" | "0" | "0" |
+| "1" | "0" | "1" |
+| "12345678901234567890" | "0" | "12345678901234567890" |
+| "99999999999999999999" | "99999999999999999999" | "199999999999999999998" |

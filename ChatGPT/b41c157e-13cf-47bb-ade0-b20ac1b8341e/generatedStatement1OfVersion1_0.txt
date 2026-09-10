@@ -1,0 +1,2 @@
+Here is the Java implementation of the Team and Competition classes as described in the problem description:
+

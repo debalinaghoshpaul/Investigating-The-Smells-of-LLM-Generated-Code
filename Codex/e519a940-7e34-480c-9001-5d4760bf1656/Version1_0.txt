@@ -1,0 +1,23 @@
+```java
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class GetTodaysDateAtMidnight {
+
+    public static void main(String[] args) {
+        // Get today's date at midnight
+        LocalDateTime today = LocalDateTime.now();
+        LocalDateTime midnight = today.withHour(0).withMinute(0).withSecond(0).withNano(0);
+
+        // Print the date
+        System.out.println(midnight);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal case:** Run the program on a regular day.
+* **Corner cases:**
+    * **New Year's Eve:** Run the program on December 31st.
+    * **Leap Day:** Run the program on February 29th (in a leap year).

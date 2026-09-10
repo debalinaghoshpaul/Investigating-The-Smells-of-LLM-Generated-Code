@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97lhk5dsZy9xPjBYqol4C2NaBpyQ4",
+  "object" : "chat.completion",
+  "created" : 1711638700,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.concurrent.ConcurrentLinkedQueue;\n\npublic class ThreadSafeQueueExample {\n\n    public static void main(String[] args) {\n        ConcurrentLinkedQueue<String> queue = new ConcurrentLinkedQueue<>();\n\n        // Adding elements to the queue using multiple threads\n        Runnable producer1 = () -> {\n            for (int i = 0; i < 5; i++) {\n                queue.add(\"Element \" + i + \" from Thread 1\");\n            }\n        };\n\n        Runnable producer2 = () -> {\n            for (int i = 0; i < 5; i++) {\n                queue.add(\"Element \" + i + \" from Thread 2\");\n            }\n        };\n\n        Thread thread1 = new Thread(producer1);\n        Thread thread2 = new Thread(producer2);\n\n        thread1.start();\n        thread2.start();\n\n        try {\n            thread1.join();\n            thread2.join();\n        } catch (InterruptedException e) {\n            e.printStackTrace();\n        }\n\n        // Removing and printing elements from the queue\n        Runnable consumer = () -> {\n            String element;\n            while ((element = queue.poll()) != null) {\n                System.out.println(\"Removed: \" + element);\n            }\n        };\n\n        Thread consumerThread = new Thread(consumer);\n        consumerThread.start();\n\n        try {\n            consumerThread.join();\n        } catch (InterruptedException e) {\n            e.printStackTrace();\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 66,
+    "completion_tokens" : 284,
+    "total_tokens" : 350
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

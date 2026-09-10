@@ -1,0 +1,10 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 101). [LineLength]: 6
+DesignForExtension: Class 'Person' looks like designed for extension (can be subclassed), but the method 'getFirstName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Person' final or making the method 'getFirstName' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 4
+FinalParameters: Parameter firstName should be final. [FinalParameters]: 7
+HiddenField: 'firstName' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 6
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '12345' is a magic number. [MagicNumber]: 1

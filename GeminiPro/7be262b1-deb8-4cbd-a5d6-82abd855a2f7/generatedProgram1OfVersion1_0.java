@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class RemoveWord {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter the string: ");
+        String input = scanner.nextLine();
+
+        // Get the word to be removed
+        System.out.println("Enter the word to be removed: ");
+        String wordToRemove = scanner.nextLine();
+
+        // Remove the word from the string
+        String updatedString = input.replace(wordToRemove, "");
+
+        // Print the updated string
+        System.out.println("The updated string is: " + updatedString);
+    }
+}

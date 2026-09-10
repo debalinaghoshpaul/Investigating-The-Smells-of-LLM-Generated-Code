@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program that prints the current time in GMT.\nTest Data Input the time zone offset to GMT: 256 Expected Output: Current time is 23:40:24 \n\n\n The programming language you need to use is: java.\n\n Problem Id is : ca30ec64-84d6-45bf-8fbe-19858ba99f14.\n

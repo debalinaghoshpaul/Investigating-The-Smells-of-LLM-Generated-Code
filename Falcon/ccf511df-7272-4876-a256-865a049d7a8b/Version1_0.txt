@@ -1,0 +1,76 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int seconds = scanner.nextInt();
+        int hours = seconds / 3600;
+        int minutes = (seconds % 3600) / 60;
+        int secondsRemaining = seconds % 60;
+        System.out.println("Hours: " + hours);
+        System.out.println("Minutes: " + minutes);
+        System.out.println("Seconds Remaining: " + secondsRemaining);
+    }
+}
+
+Output:
+Hours: 23
+Minutes: 59
+Seconds Remaining: 0
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:59:59
+23:

@@ -1,0 +1,21 @@
+JUnit version 4.13
+.Stack elements: -1 
+.Stack is empty
+.Stack is empty
+.Initialize a stack using Linked List
+
+Input some elements on the stack:
+Stack elements: 5 4 3 2 1 
+
+Top element: 5
+
+Remove two elements from the stack:
+Stack elements: 3 2 1 
+
+Top element: 3
+.Stack is empty
+......
+Time: 0.626
+
+OK (11 tests)
+

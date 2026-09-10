@@ -1,0 +1,31 @@
+import java.util.*;
+
+public class SumOf10s {
+
+    public static boolean checkSumOf10s(int[] arr) {
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 10) {
+                sum += 10;
+            }
+        }
+        return sum == 30;
+    }
+
+    public static void main(String[] args) {
+        int[] arr1 = {1, 2, 3, 10, 10, 10, 4, 5, 6, 7};
+        System.out.println(checkSumOf10s(arr1)); // true
+
+        int[] arr2 = {1, 2, 3, 10, 5, 10, 4, 5, 6, 7};
+        System.out.println(checkSumOf10s(arr2)); // false
+
+        int[] arr3 = {};
+        System.out.println(checkSumOf10s(arr3)); // false
+
+        int[] arr4 = {10, 10, 10};
+        System.out.println(checkSumOf10s(arr4)); // true
+
+        int[] arr5 = {10, 20, 30};
+        System.out.println(checkSumOf10s(arr5)); // false
+    }
+}

@@ -1,0 +1,34 @@
+```java
+import java.util.*;
+
+public class EquilibriumIndices {
+
+    public static void main(String[] args) {
+        int[] nums = {-7, 1, 5, 2, -4, 3, 0};
+        findEquilibriumIndices(nums);
+    }
+
+    public static void findEquilibriumIndices(int[] nums) {
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+
+        int leftSum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            int rightSum = sum - leftSum - nums[i];
+            if (leftSum == rightSum) {
+                System.out.println("Equilibrium indices found at : " + i);
+            }
+            leftSum += nums[i];
+        }
+    }
+}
+```
+
+Test cases:
+
+* **Normal case:** Input: nums = {-7, 1, 5, 2, -4, 3, 0} Output: Equilibrium indices found at : 3 Equilibrium indices found at : 6
+* **Corner case 1:** Input: nums = {} Output: Equilibrium indices found at : 0
+* **Corner case 2:** Input: nums = null Output: No equilibrium indices found
+* **Corner case 3:** Input: nums = [0, 0, 0, 0, 0] Output: Equilibrium indices found at : 0 Equilibrium indices found at : 1 Equilibrium indices found at : 2 Equilibrium indices found at : 3 Equilibrium indices found at : 4

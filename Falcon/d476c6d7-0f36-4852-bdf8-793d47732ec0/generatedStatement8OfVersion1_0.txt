@@ -1,0 +1,8 @@
+
+
+**3. Employee with negative salary:**
+
+* Employee 1: Name = "John", ID = 1, Salary = -10000, Leaves Taken = 2
+
+**Expected Output:**
+

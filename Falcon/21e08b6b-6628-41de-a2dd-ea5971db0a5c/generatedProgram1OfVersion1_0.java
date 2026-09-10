@@ -1,0 +1,55 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class BinaryTreeSubtree {
+
+    // Node class to represent a binary tree node
+    static class Node {
+        int data;
+        Node left, right;
+
+        Node(int data) {
+            this.data = data;
+        }
+    }
+
+    // Function to check if a binary tree 't' is a subtree of binary tree 's'
+    public static boolean isSubtree(Node s, Node t) {
+        if (t == null) {
+            return true;
+        }
+        if (s == null) {
+            return false;
+        }
+
+        // Check if the root of 't' matches the root of 's'
+        if (s.data == t.data) {
+            // Recursively check if the subtrees of 't' are also subtrees of 's'
+            return isSubtree(s.left, t.left) && isSubtree(s.right, t.right);
+        }
+
+        // Otherwise, recursively check if 't' is a subtree of either the left or right subtree of 's'
+        return isSubtree(s.left, t) || isSubtree(s.right, t);
+    }
+
+    public static void main(String[] args) {
+        // Create two binary trees
+        Node s = new Node(1);
+        s.left = new Node(2);
+        s.right = new Node(3);
+        s.left.left = new Node(4);
+        s.left.right = new Node(5);
+        s.right.left = new Node(6);
+        s.right.right = new Node(7);
+
+        Node t = new Node(2);
+        t.left = new Node(4);
+        t.right = new Node(5);
+
+        // Check if 't' is a subtree of 's'
+        boolean isSubtree = isSubtree(s, t);
+
+        // Print the result
+        System.out.println(isSubtree);
+    }
+}

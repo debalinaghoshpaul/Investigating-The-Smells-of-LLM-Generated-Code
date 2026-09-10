@@ -1,0 +1,9 @@
+Violations by Category:
+DesignForExtension: Class 'Money' looks like designed for extension (can be subclassed), but the method 'getDollars' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Money' final or making the method 'getDollars' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 8
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 17
+FinalParameters: Parameter dollars should be final. [FinalParameters]: 9
+HiddenField: 'dollars' hides a field. [HiddenField]: 5
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 12
+MagicNumber: '100' is a magic number. [MagicNumber]: 10

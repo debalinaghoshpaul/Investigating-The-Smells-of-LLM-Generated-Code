@@ -1,0 +1,13 @@
+JUnit version 4.13
+.Input a decimal number: Hexadecimal number is : 
+.Input a decimal number: .Input a decimal number: .Input a decimal number: Hexadecimal number is : 4E
+.Input a decimal number: Hexadecimal number is : 4D
+.Input a decimal number: Hexadecimal number is : 4C
+.Input a decimal number: Hexadecimal number is : 4B
+.Input a decimal number: Hexadecimal number is : 2A5
+.Input a decimal number: Hexadecimal number is : 29F
+.
+Time: 0.361
+
+OK (10 tests)
+

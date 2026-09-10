@@ -1,0 +1,4 @@
+
+Enter the first integer: 15
+Enter the second integer: 7
+Number of bits required to flip: 2

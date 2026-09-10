@@ -1,0 +1,8 @@
+JUnit version 4.13
+..Input weight in pounds: Input height in inches: .Input weight in pounds: .Input weight in pounds: Input height in inches: Body Mass Index is 175.75
+.Input weight in pounds: Input height in inches: Body Mass Index is Infinity
+
+Time: 0.345
+
+OK (5 tests)
+

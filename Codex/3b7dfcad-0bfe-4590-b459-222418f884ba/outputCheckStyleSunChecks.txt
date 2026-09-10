@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:2:36: Parameter x should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:2:43: Parameter m should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:10:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:10:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:12:17: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:15:27: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:15:48: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\3b7dfcad-0bfe-4590-b459-222418f884ba\generatedProgram1OfVersion1_0.java:19: Line is longer than 80 characters (found 139). [LineLength]
+Audit done.

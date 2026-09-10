@@ -1,0 +1,42 @@
+```java
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+
+public class DateDifference {
+
+    public static void main(String[] args) {
+        // Create two LocalDate objects representing two dates
+        LocalDate startDate = LocalDate.of(2020, 1, 1);
+        LocalDate endDate = LocalDate.of(2021, 12, 31);
+
+        // Calculate the difference between the two dates in years, months, and days
+        long years = ChronoUnit.YEARS.between(startDate, endDate);
+        long months = ChronoUnit.MONTHS.between(startDate, endDate);
+        long days = ChronoUnit.DAYS.between(startDate, endDate);
+
+        // Print the results
+        System.out.println("Difference between the two dates:");
+        System.out.println("Years: " + years);
+        System.out.println("Months: " + months);
+        System.out.println("Days: " + days);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:** startDate = 2020-01-01, endDate = 2021-12-31
+* **Expected Output:** Years: 1, Months: 11, Days: 30
+
+* **Input:** startDate = 2022-05-15, endDate = 2023-02-28
+* **Expected Output:** Years: 0, Months: 9, Days: 13
+
+**Corner Cases:**
+
+* **Input:** startDate = 2023-02-29, endDate = 2024-02-29
+* **Expected Output:** Years: 0, Months: 11, Days: 31 (since 2024 is a leap year)
+
+* **Input:** startDate = 2023-03-01, endDate = 2023-02-28
+* **Expected Output:** IllegalArgumentException (since endDate cannot be before startDate)

@@ -1,0 +1,7 @@
+Violations by Category:
+VariableDeclarationUsageDistance: Distance between variable 'newTree' declaration and its first usage is 4, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value). [VariableDeclarationUsageDistance]: 1
+LineLength: Line is longer than 100 characters (found 101). [LineLength]: 1
+OuterTypeFilename: The name of the outer type and the file do not match. [OuterTypeFilename]: 1
+MultipleVariableDeclarations: Each variable declaration must be in its own statement. [MultipleVariableDeclarations]: 1
+OneTopLevelClass: Top-level class BinaryTree has to reside in its own source file. [OneTopLevelClass]: 1
+Indentation: 'member def type' has incorrect indentation level 4, expected level should be 2. [Indentation]: 34

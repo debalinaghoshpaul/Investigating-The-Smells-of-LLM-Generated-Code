@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class SubarraySum {
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3, 4, 6};
+        int sum = 8;
+        int start = 0;
+        int end = nums.length - 1;
+        int minLength = Integer.MAX_VALUE;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (nums[mid] == sum) {
+                minLength = Math.min(minLength, mid - start + 1);
+            } else if (nums[mid] < sum) {
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+        System.out.println("Minimum length of a contiguous subarray of which the sum is " + sum + ", is " + minLength);
+    }
+}
+

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called "Person" with a name and age attribute. Create two instances of the "Person" class, set their attributes using the constructor, and print their name and age.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 609af53f-1137-4981-b3df-083615e21c0d.\n

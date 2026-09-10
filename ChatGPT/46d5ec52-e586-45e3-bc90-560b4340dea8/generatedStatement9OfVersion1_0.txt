@@ -1,0 +1,8 @@
+
+Input:
+n = 5
+arr = [1, 2, 3, 4, 5]
+target = 1
+
+Output:
+The total number of continuous subarrays whose sum equals 1 is: 5

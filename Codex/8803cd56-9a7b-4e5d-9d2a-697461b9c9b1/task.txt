@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called "Restaurant" with attributes for menu items, prices, and ratings, and methods to add and remove items, and to calculate average rating.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 8803cd56-9a7b-4e5d-9d2a-697461b9c9b1.\n

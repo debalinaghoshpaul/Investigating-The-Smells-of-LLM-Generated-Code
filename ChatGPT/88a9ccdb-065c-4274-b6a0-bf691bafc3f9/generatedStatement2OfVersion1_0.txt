@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Input:** 0
+**Expected Output:** 0 is not a Kaprekar number.
+
+* **Input:** 1
+**Expected Output:** 1 is a Kaprekar number.
+
+**Normal Cases:**
+
+* **Input:** 1000
+**Expected Output:** 1, 9, 45, 55, 99, 297, 703, 999 are Kaprekar numbers.
+
+* **Input:** 10000
+**Expected Output:** 1, 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4950, 5050, 7272, 7777, 9999 are Kaprekar numbers.

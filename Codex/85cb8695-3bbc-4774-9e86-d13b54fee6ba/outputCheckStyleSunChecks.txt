@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:7:17: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:9:17: '8' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:10: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:13:17: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:14:17: '7' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:16: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\85cb8695-3bbc-4774-9e86-d13b54fee6ba\generatedProgram1OfVersion1_0.java:19: Line has trailing spaces. [RegexpSingleline]
+Audit done.

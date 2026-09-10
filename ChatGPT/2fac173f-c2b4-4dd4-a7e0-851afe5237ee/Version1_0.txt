@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94ta0qvC9TWcO93cPoIL3goJ60ljS",
+  "object" : "chat.completion",
+  "created" : 1710953988,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class SpiralArray {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        System.out.print(\"Enter the value of n: \");\n        int n = input.nextInt();\n\n        int[][] spiralArray = generateSpiralArray(n);\n\n        // Print the spiral array\n        for (int i = 0; i < n; i++) {\n            for (int j = 0; j < n; j++) {\n                System.out.print(spiralArray[i][j] + \"\\t\");\n            }\n            System.out.println();\n        }\n    }\n\n    public static int[][] generateSpiralArray(int n) {\n        int[][] spiralArray = new int[n][n];\n        int value = 1;\n        int rowStart = 0, rowEnd = n - 1, colStart = 0, colEnd = n - 1;\n\n        while (value <= n * n) {\n            for (int i = colStart; i <= colEnd; i++) {\n                spiralArray[rowStart][i] = value++;\n            }\n            for (int i = rowStart + 1; i <= rowEnd; i++) {\n                spiralArray[i][colEnd] = value++;\n            }\n            for (int i = colEnd - 1; i >= colStart; i--) {\n                spiralArray[rowEnd][i] = value++;\n            }\n            for (int i = rowEnd - 1; i > rowStart; i--) {\n                spiralArray[i][colStart] = value++;\n            }\n            rowStart++;\n            rowEnd--;\n            colStart++;\n            colEnd--;\n        }\n\n        return spiralArray;\n    }\n}\n```\n\nOutput:\n```\nEnter the value of n: 5\n1\t2\t3\t4\t5\t\n16\t17\t18\t19\t6\t\n15\t24\t25\t20\t7\t\n14\t23\t22\t21\t8\t\n13\t12\t11\t10\t9\t\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 73,
+    "completion_tokens" : 424,
+    "total_tokens" : 497
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

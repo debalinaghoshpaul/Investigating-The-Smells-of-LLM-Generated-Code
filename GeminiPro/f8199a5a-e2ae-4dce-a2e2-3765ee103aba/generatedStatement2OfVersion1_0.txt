@@ -1,0 +1,12 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * The PATH, TEMP, or USERNAME variables are not set.
+    * The PATH, TEMP, or USERNAME variables are set to empty strings.
+* **Normal cases:**
+    * The PATH, TEMP, and USERNAME variables are set to valid values.
+
+**Output:**
+

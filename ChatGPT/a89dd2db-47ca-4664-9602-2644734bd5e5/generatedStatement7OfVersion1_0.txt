@@ -1,0 +1,3 @@
+
+Consonants: 12345
+Vowels: 

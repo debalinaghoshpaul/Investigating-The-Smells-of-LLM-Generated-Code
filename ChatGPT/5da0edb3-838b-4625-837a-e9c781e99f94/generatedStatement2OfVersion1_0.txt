@@ -1,0 +1,24 @@
+
+
+**Test cases:**
+
+* **Valid:**
+    * 8
+    * 27
+    * 125
+    * 216
+    * 343
+
+* **Invalid:**
+    * 9
+    * 10
+    * 11
+    * 12
+    * 13
+
+**Corner cases:**
+
+* **0:** The cube of 0 is 0, so the program should return true for this case.
+* **1:** The cube of 1 is 1, so the program should return true for this case.
+* **-8:** The cube of -8 is -512, so the program should return true for this case.
+* **-27:** The cube of -27 is -19683, so the program should return true for this case.

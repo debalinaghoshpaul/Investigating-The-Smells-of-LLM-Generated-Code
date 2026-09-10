@@ -1,0 +1,5 @@
+
+Expected Output: 3
+
+**Test Case 2:**
+Input Tree:

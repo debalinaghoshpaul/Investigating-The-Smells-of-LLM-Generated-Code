@@ -1,0 +1,49 @@
+JUnit version 4.13
+..E.[2, 24, 45, 66, 75, 90, 170, 802]
+.E.E.E.E.E.E.E
+Time: 0.345
+There were 8 failures:
+1) test6(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(int[]) is undefined for the type RadixSort
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test6(RadixSort_ESTest.java:100)
+2) test8(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(int[], int) is undefined for the type RadixSort
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test8(RadixSort_ESTest.java:112)
+3) test3(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(int[], int) is undefined for the type RadixSort
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test3(RadixSort_ESTest.java:62)
+4) test2(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(int[]) is undefined for the type RadixSort
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test2(RadixSort_ESTest.java:46)
+5) test5(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(int[], int) is undefined for the type RadixSort
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test5(RadixSort_ESTest.java:93)
+6) test4(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(int[], int) is undefined for the type RadixSort
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test4(RadixSort_ESTest.java:79)
+7) test1(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(int[], int) is undefined for the type RadixSort
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test1(RadixSort_ESTest.java:31)
+8) test0(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(int[], int) is undefined for the type RadixSort
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test0(RadixSort_ESTest.java:24)
+
+FAILURES!!!
+Tests run: 10,  Failures: 8
+

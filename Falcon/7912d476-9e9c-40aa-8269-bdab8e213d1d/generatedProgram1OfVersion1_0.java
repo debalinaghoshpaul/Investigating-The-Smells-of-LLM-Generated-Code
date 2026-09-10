@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class SolveEquation {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a, b, c, d, e and f: ");
+        double a = scanner.nextDouble();
+        double b = scanner.nextDouble();
+        double c = scanner.nextDouble();
+        double d = scanner.nextDouble();
+        double e = scanner.nextDouble();
+        double f = scanner.nextDouble();
+        double x = (a * b + c * d + e * f) / (a * a + b * b + c * c + d * d + e * e + f * f);
+        double y = (a * c + b * d + e * f) / (a * a + b * b + c * c + d * d + e * e + f * f);
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+    }
+}
+
+// 

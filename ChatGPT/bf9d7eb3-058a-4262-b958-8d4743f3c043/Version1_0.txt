@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DC3zDkMrszZIbRqWFbdHe5zW7nVH",
+  "object" : "chat.completion",
+  "created" : 1712931663,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is the Java implementation of the Pizza class:\n\n```java\npublic class Pizza {\n    private String size;\n    private int cheeseToppings;\n    private int pepperoniToppings;\n    private int hamToppings;\n\n    public Pizza(String size, int cheeseToppings, int pepperoniToppings, int hamToppings) {\n        this.size = size;\n        this.cheeseToppings = cheeseToppings;\n        this.pepperoniToppings = pepperoniToppings;\n        this.hamToppings = hamToppings;\n    }\n\n    public String getSize() {\n        return size;\n    }\n\n    public void setSize(String size) {\n        this.size = size;\n    }\n\n    public int getCheeseToppings() {\n        return cheeseToppings;\n    }\n\n    public void setCheeseToppings(int cheeseToppings) {\n        this.cheeseToppings = cheeseToppings;\n    }\n\n    public int getPepperoniToppings() {\n        return pepperoniToppings;\n    }\n\n    public void setPepperoniToppings(int pepperoniToppings) {\n        this.pepperoniToppings = pepperoniToppings;\n    }\n\n    public int getHamToppings() {\n        return hamToppings;\n    }\n\n    public void setHamToppings(int hamToppings) {\n        this.hamToppings = hamToppings;\n    }\n\n    public double calcCost() {\n        if (size.equalsIgnoreCase(\"Small\")) {\n            return 10 + 2 * (cheeseToppings + pepperoniToppings + hamToppings);\n        } else if (size.equalsIgnoreCase(\"Medium\")) {\n            return 12 + 2 * (cheeseToppings + pepperoniToppings + hamToppings);\n        } else if (size.equalsIgnoreCase(\"Large\")) {\n            return 14 + 2 * (cheeseToppings + pepperoniToppings + hamToppings);\n        } else {\n            return 0;\n        }\n    }\n\n    public String getDescription() {\n        return \"Size: \" + size + \", Cheese Toppings: \" + cheeseToppings + \", Pepperoni Toppings: \" + pepperoniToppings +\n                \", Ham Toppings: \" + hamToppings + \", Cost: $\" + calcCost();\n    }\n\n    public static void main(String[] args) {\n        Pizza pizza1 = new Pizza(\"Large\", 1, 1, 2);\n        Pizza pizza2 = new Pizza(\"Medium\", 2, 0, 1);\n\n        System.out.println(\"Pizza 1: \" + pizza1.getDescription());\n        System.out.println(\"Pizza 2: \" + pizza2.getDescription());\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 251,
+    "completion_tokens" : 585,
+    "total_tokens" : 836
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

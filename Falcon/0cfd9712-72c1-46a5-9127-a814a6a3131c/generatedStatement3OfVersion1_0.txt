@@ -1,0 +1,28 @@
+
+Input:
+5
+
+Output:
+true true true true true
+true true false true true
+true false false false true
+true true false false true
+true true true true true
+
+Input:
+1
+
+Output:
+true
+
+Input:
+0
+
+Output:
+false
+
+Input:
+-1
+
+Output:
+false

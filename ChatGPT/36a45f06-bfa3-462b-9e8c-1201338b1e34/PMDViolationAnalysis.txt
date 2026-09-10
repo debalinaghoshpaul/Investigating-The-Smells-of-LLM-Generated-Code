@@ -1,0 +1,7 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+UselessParentheses: Useless parentheses.: 2
+CommentRequired: Class comments are required: 4
+OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.: 2
+PackageCase: Package name contains upper case characters: 1
+CloseResource: Ensure that resources like this Scanner object are closed after use: 1

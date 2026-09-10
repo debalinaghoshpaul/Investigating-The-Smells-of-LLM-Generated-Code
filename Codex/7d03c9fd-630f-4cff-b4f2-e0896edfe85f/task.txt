@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create an interface Shape with the getArea() method. Create three classes Rectangle, Circle, and Triangle that implement the Shape interface. Implement the getArea() method for each of the three classes.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 7d03c9fd-630f-4cff-b4f2-e0896edfe85f.\n

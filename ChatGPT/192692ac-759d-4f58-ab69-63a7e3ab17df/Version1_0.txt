@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DWWWSdEnpwtOxc0CmfXKfS3PYDQL",
+  "object" : "chat.completion",
+  "created" : 1713010312,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is the Java implementation of the Rational class as described in the problem statement:\n\n```java\npublic class Rational {\n    private int numerator;\n    private int denominator;\n\n    public Rational(int numerator, int denominator) {\n        this.numerator = numerator;\n        this.denominator = denominator;\n        normalize();\n    }\n\n    public Rational(int wholeNumber) {\n        this.numerator = wholeNumber;\n        this.denominator = 1;\n    }\n\n    public Rational() {\n        this.numerator = 0;\n        this.denominator = 1;\n    }\n\n    public static Rational add(Rational r1, Rational r2) {\n        int newNumerator = (r1.numerator * r2.denominator) + (r2.numerator * r1.denominator);\n        int newDenominator = r1.denominator * r2.denominator;\n        return new Rational(newNumerator, newDenominator);\n    }\n\n    public static Rational subtract(Rational r1, Rational r2) {\n        int newNumerator = (r1.numerator * r2.denominator) - (r2.numerator * r1.denominator);\n        int newDenominator = r1.denominator * r2.denominator;\n        return new Rational(newNumerator, newDenominator);\n    }\n\n    public static Rational multiply(Rational r1, Rational r2) {\n        int newNumerator = r1.numerator * r2.numerator;\n        int newDenominator = r1.denominator * r2.denominator;\n        return new Rational(newNumerator, newDenominator);\n    }\n\n    public static Rational divide(Rational r1, Rational r2) {\n        int newNumerator = r1.numerator * r2.denominator;\n        int newDenominator = r1.denominator * r2.numerator;\n        return new Rational(newNumerator, newDenominator);\n    }\n\n    private void normalize() {\n        if (denominator < 0) {\n            numerator = -numerator;\n            denominator = -denominator;\n        }\n    }\n\n    public boolean equals(Rational other) {\n        return this.numerator == other.numerator && this.denominator == other.denominator;\n    }\n\n    @Override\n    public String toString() {\n        return numerator + \"/\" + denominator;\n    }\n\n    public int getNumerator() {\n        return numerator;\n    }\n\n    public void setNumerator(int numerator) {\n        this.numerator = numerator;\n    }\n\n    public int getDenominator() {\n        return denominator;\n    }\n\n    public void setDenominator(int denominator) {\n        this.denominator = denominator;\n    }\n\n    public static void main(String[] args) {\n        Rational r1 = new Rational(1, 2);\n        Rational r2 = new Rational(3, 4);\n\n        Rational sum = Rational.add(r1, r2);\n        System.out.println(\"Sum: \" + sum.toString());\n\n        Rational difference = Rational.subtract(r1, r2);\n        System.out.println(\"Difference: \" + difference.toString());\n\n        Rational product = Rational.multiply(r1, r2);\n        System.out.println(\"Product: \" + product.toString());\n\n        Rational quotient = Rational.divide(r1, r2);\n        System.out.println(\"Quotient: \" + quotient.toString());\n    }\n}\n```\n\nThis Rational class defines rational numbers and provides methods for addition, subtraction, multiplication, and division of rational numbers. It also includes a test program in the `main` method to demonstrate the functionality of the class.\n\nYou can copy and paste this code into a Java file and run it to see the output."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 386,
+    "completion_tokens" : 730,
+    "total_tokens" : 1116
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

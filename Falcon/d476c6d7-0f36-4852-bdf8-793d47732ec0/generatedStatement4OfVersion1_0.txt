@@ -1,0 +1,10 @@
+
+
+**Corner Cases:**
+
+**1. Employee with no leaves taken:**
+
+* Employee 1: Name = "John", ID = 1, Salary = 10000, Leaves Taken = 0
+
+**Expected Output:**
+

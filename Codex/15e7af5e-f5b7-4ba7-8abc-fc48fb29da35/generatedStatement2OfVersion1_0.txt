@@ -1,0 +1,27 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Test Case 1:**
+    * Input: /home/students/abc.txt
+    * Output: 0 bytes
+
+* **Test Case 2:**
+    * Input: /home/students/test.txt
+    * Output: 10 bytes
+
+**Corner Cases:**
+
+* **Test Case 3:**
+    * Input: /home/students/non-existent.txt
+    * Output: The file does not exist
+
+* **Test Case 4:**
+    * Input: /home/students/empty.txt
+    * Output: 0 bytes
+
+* **Test Case 5:**
+    * Input: /home/students/large.txt (a large file)
+    * Output: The size of the file is: 1000000 bytes

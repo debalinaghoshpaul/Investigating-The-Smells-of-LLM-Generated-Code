@@ -1,0 +1,6 @@
+
+Input:
+0
+Output:
+Maximum value: 0
+Minimum value: 0

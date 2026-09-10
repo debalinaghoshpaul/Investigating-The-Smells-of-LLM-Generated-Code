@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-920P8wmP7eem278vBSgST0dNZlUYa",
+  "object" : "chat.completion",
+  "created" : 1710265238,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "// Java program to find and print one continuous subarray \n// that if you only sort the said subarray in ascending order \n// then the entire array will be sorted in ascending order\n  \nimport java.util.Arrays;\n  \nclass Main {\n  \nstatic void printUnsorted(int [] arr, int n) {\n    int s = 0, e = n-1, i, max, min;\n      \n    // step 1(a) of above algo\n    for (s = 0; s < n-1; s++) {\n        if (arr[s] > arr[s+1])\n        break;\n    }\n    if (s == n-1) {\n        System.out.println(\"The complete array is sorted\");\n        return;\n    }\n      \n    // step 1(b) of above algo\n    for(e = n - 1; e > 0; e--) {\n        if(arr[e] < arr[e-1])\n        break;\n    }\n      \n    // step 2(a) of above algo\n    max = arr[s]; min = arr[s];\n    for(i = s + 1; i <= e; i++) {\n        if(arr[i] > max)\n        max = arr[i];\n        if(arr[i] < min)\n        min = arr[i];\n    }\n      \n    // step 2(b) of above algo\n    for( i = 0; i < s; i++) {\n        if(arr[i] > min) {\n        s = i;\n        break;\n        }\n    }\n      \n    // step 2(c) of above algo\n    for( i = n -1; i >= e+1; i--) {\n        if(arr[i] < max) {\n        e = i;\n        break;\n        }\n    }\n          \n    // step 3 of above algo\n    System.out.println(\"The unsorted subarray which makes the given array sorted lies between the indices \"+s+\" and \"+e);\n    System.out.println(\"The unsorted subarray which makes the given array sorted is:\");\n    for(i = s; i <= e; i++) {\n        System.out.print(arr[i]+\" \");\n    }\n    System.out.println();\n    return;\n}\n  \n// Driver Code\npublic static void main(String args[]) {\n    int arr[] = {10, 12, 20, 30, 25, 40, 32, 31, 35, 50, 60};\n    int arr_size = arr.length;\n    printUnsorted(arr, arr_size);\n}\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 178,
+    "completion_tokens" : 522,
+    "total_tokens" : 700
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

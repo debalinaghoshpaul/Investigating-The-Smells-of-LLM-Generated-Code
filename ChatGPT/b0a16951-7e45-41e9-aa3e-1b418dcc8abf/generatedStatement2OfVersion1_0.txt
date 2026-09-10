@@ -1,0 +1,17 @@
+
+
+**Test cases:**
+
+* **Positive test cases:**
+    * 135
+    * 89
+    * 175
+    * 518
+* **Negative test cases:**
+    * 12
+    * 100
+    * 12345
+* **Corner cases:**
+    * 0
+    * 1
+    * 10

@@ -1,0 +1,8 @@
+
+
+Test cases:
+
+* **Positive test case:** `[1, -2, 5, -4, 3, -6]`
+* **Negative test case:** `[1, 2, 3, 4, 5, 6]`
+* **Corner case:** `[0]`
+* **Corner case:** `[]`

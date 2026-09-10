@@ -1,0 +1,3 @@
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\e5bbdb80-6f57-4d38-8b5e-556d3415005e\generatedprogram1OfVersion1_0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\e5bbdb80-6f57-4d38-8b5e-556d3415005e\generatedprogram1OfVersion1_0.java:3:	UseUtilityClass:	This utility class has a non-private constructor
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\e5bbdb80-6f57-4d38-8b5e-556d3415005e\generatedprogram1OfVersion1_0.java:5:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead

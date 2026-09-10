@@ -1,0 +1,11 @@
+JUnit version 4.13
+..Original array:
+[1, 2, 4, 9, 5, 3, 8, 7, 10, 12, 14]
+
+Array with every second element is greater than its left and right elements:
+[1, 4, 2, 9, 3, 8, 5, 10, 7, 14, 12]
+....
+Time: 0.34
+
+OK (6 tests)
+

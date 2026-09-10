@@ -1,0 +1,17 @@
+Violations by Category:
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+UnusedImports: Unused import - java.util.Arrays. [UnusedImports]: 1
+NeedBraces: 'if' construct must use '{}'s. [NeedBraces]: 4
+ParenPad: '(' is followed by whitespace. [ParenPad]: 2
+LineLength: Line is longer than 80 characters (found 121). [LineLength]: 2
+LocalVariableName: Name 'arr_size' must match pattern '^([a-z][a-zA-Z0-9]*|_)$'. [LocalVariableName]: 1
+MultipleVariableDeclarations: Each variable declaration must be in its own statement. [MultipleVariableDeclarations]: 1
+NoWhitespaceAfter: 'int' is followed by whitespace. [NoWhitespaceAfter]: 1
+WhitespaceAround: '-' is not followed by whitespace. [WhitespaceAround]: 31
+WhitespaceAfter: 'for' is not followed by whitespace. [WhitespaceAfter]: 10
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 12
+FinalParameters: Parameter arr should be final. [FinalParameters]: 3
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '10' is a magic number. [MagicNumber]: 11
+ArrayTypeStyle: Array brackets at illegal position. [ArrayTypeStyle]: 2

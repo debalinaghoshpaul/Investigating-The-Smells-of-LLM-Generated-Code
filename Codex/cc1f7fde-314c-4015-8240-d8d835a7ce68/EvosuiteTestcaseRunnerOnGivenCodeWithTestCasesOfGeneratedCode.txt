@@ -1,0 +1,49 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E
+Time: 0.345
+There were 8 failures:
+1) test6(testing_ChatGPT_on_java.Exercise117_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise117.main(FirstOccurrence.java:5)
+	at testing_ChatGPT_on_java.Exercise117_ESTest.test6(Exercise117_ESTest.java:84)
+2) test7(testing_ChatGPT_on_java.Exercise117_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise117 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise117.<init>(FirstOccurrence.java:4)
+	at testing_ChatGPT_on_java.Exercise117_ESTest.test7(Exercise117_ESTest.java:97)
+3) test2(testing_ChatGPT_on_java.Exercise117_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise117.main(FirstOccurrence.java:5)
+	at testing_ChatGPT_on_java.Exercise117_ESTest.test2(Exercise117_ESTest.java:51)
+4) test3(testing_ChatGPT_on_java.Exercise117_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise117.main(FirstOccurrence.java:5)
+	at testing_ChatGPT_on_java.Exercise117_ESTest.test3(Exercise117_ESTest.java:59)
+5) test4(testing_ChatGPT_on_java.Exercise117_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise117.main(FirstOccurrence.java:5)
+	at testing_ChatGPT_on_java.Exercise117_ESTest.test4(Exercise117_ESTest.java:67)
+6) test5(testing_ChatGPT_on_java.Exercise117_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise117.main(FirstOccurrence.java:5)
+	at testing_ChatGPT_on_java.Exercise117_ESTest.test5(Exercise117_ESTest.java:75)
+7) test0(testing_ChatGPT_on_java.Exercise117_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise117.main(FirstOccurrence.java:5)
+	at testing_ChatGPT_on_java.Exercise117_ESTest.test0(Exercise117_ESTest.java:26)
+8) test1(testing_ChatGPT_on_java.Exercise117_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise117.main(FirstOccurrence.java:5)
+	at testing_ChatGPT_on_java.Exercise117_ESTest.test1(Exercise117_ESTest.java:36)
+
+FAILURES!!!
+Tests run: 8,  Failures: 8
+

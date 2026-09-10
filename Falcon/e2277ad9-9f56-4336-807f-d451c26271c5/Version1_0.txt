@@ -1,0 +1,20 @@
+```java
+import java.util.TreeMap;
+import java.util.Map;
+
+public class TreeMapPut {
+
+    public static void main(String[] args) {
+        TreeMap<String, Integer> treeMap = new TreeMap<>();
+
+        // Put a key-value pair in the TreeMap
+        treeMap.put("Apple", 10);
+
+        // Check if the key-value pair is added
+        System.out.println("Key-value pair added: " + treeMap.containsKey("Apple"));
+
+        // Get the value associated with the key
+        System.out.println("Value associated with the key: " + treeMap.get("Apple"));
+    }
+}
+```

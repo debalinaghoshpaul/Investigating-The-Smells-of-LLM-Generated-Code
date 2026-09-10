@@ -1,0 +1,8 @@
+JUnit version 4.13
+......[w3resource]
+[cat, dog, red]
+
+Time: 0.46
+
+OK (6 tests)
+

@@ -1,0 +1,9 @@
+
+
+**Test cases including corner cases:**
+
+* **Empty list:** The program should handle an empty list and return the appropriate maximum and minimum values (e.g., Integer.MIN_VALUE and Integer.MAX_VALUE).
+* **List with only one element:** The program should return the same value for both the maximum and minimum values.
+* **List with both positive and negative numbers:** The program should correctly identify the maximum and minimum values, regardless of the sign of the numbers.
+* **List with duplicate numbers:** The program should correctly identify the maximum and minimum values, even if there are duplicate numbers in the list.
+* **List with very large or very small numbers:** The program should handle lists with very large or very small numbers without overflowing or underflowing.

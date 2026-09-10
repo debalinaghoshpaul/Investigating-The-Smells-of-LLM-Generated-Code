@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program that accepts students' names, ids, and marks and displays their highest and lowest scores.\nThe student name and id are all strings of no more than 10 characters. The score is an integer between 0 and 100.\n\n\n The programming language you need to use is: java.\n\n Problem Id is : f6dd66da-e764-4682-b68b-429ed1642a4c.\n

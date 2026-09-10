@@ -1,0 +1,27 @@
+JUnit version 4.13
+.Enter first integer: 
+Enter second integer: 
+Sum of two integers: 11
+Difference of two integers: 5
+Product of two integers: 24
+Average of two integers: 5.5
+Distance of two integers: 5
+Max integer: 8
+Min integer: 3
+.Enter first integer: 
+Enter second integer: 
+Sum of two integers: 15
+Difference of two integers: 1
+Product of two integers: 56
+Average of two integers: 7.5
+Distance of two integers: 1
+Max integer: 8
+Min integer: 7
+.Enter first integer: 
+Enter second integer: 
+.Enter first integer: 
+.
+Time: 0.365
+
+OK (5 tests)
+

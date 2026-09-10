@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8ylY1i2jpPCXzwAtsl6QbSqXDitxQ",
+  "object" : "chat.completion",
+  "created" : 1709493145,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Abstract class BankAccount\nabstract class BankAccount {\n    protected double balance;\n    \n    public BankAccount(double balance) {\n        this.balance = balance;\n    }\n    \n    public abstract void deposit(double amount);\n    public abstract void withdraw(double amount);\n}\n\n// SavingsAccount class extending BankAccount\nclass SavingsAccount extends BankAccount {\n\n    public SavingsAccount(double balance) {\n        super(balance);\n    }\n\n    @Override\n    public void deposit(double amount) {\n        balance += amount;\n        System.out.println(\"Amount deposited: $\" + amount);\n    }\n\n    @Override\n    public void withdraw(double amount) {\n        if (balance >= amount) {\n            balance -= amount;\n            System.out.println(\"Amount withdrawn: $\" + amount);\n        } else {\n            System.out.println(\"Insufficient balance\");\n        }\n    }\n}\n\n// CurrentAccount class extending BankAccount\nclass CurrentAccount extends BankAccount {\n\n    public CurrentAccount(double balance) {\n        super(balance);\n    }\n\n    @Override\n    public void deposit(double amount) {\n        balance += amount;\n        System.out.println(\"Amount deposited: $\" + amount);\n    }\n\n    @Override\n    public void withdraw(double amount) {\n        if (balance >= amount) {\n            balance -= amount;\n            System.out.println(\"Amount withdrawn: $\" + amount);\n        } else {\n            System.out.println(\"Insufficient balance\");\n        }\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        // Creating Savings Account\n        SavingsAccount savingsAccount = new SavingsAccount(1000);\n        savingsAccount.deposit(500);\n        savingsAccount.withdraw(2000);\n\n        // Creating Current Account\n        CurrentAccount currentAccount = new CurrentAccount(2000);\n        currentAccount.deposit(1000);\n        currentAccount.withdraw(3000);\n    }\n}\n```\nIn this program, we have an abstract class `BankAccount` with abstract methods `deposit()` and `withdraw()`. We then create two subclasses `SavingsAccount` and `CurrentAccount` which extend `BankAccount` and implement the respective methods to handle deposits and withdrawals for each account type. Finally, in the main method, we create instances of each subclass and perform deposit and withdrawal operations."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 99,
+    "completion_tokens" : 456,
+    "total_tokens" : 555
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

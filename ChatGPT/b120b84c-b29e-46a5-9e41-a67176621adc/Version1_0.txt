@@ -1,0 +1,35 @@
+```java
+import java.util.Scanner;
+
+public class PolynomialEvaluation {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the polynomial coefficients and the value of x
+        System.out.print("Enter the polynomial coefficients (separated by spaces): ");
+        String[] coefficients = input.nextLine().split(" ");
+
+        System.out.print("Enter the value of x: ");
+        int x = input.nextInt();
+
+        // Evaluate the polynomial using Horner's method
+        int result = 0;
+        for (int i = coefficients.length - 1; i >= 0; i--) {
+            result = result * x + Integer.parseInt(coefficients[i]);
+        }
+
+        // Print the result
+        System.out.println("The result is: " + result);
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:** Coefficients = [-19, 7, -4, 6], x = 3, Result = -10
+* **Edge case 1:** Coefficients = [1, 2, 3], x = 0, Result = 1
+* **Edge case 2:** Coefficients = [0, 0, 0], x = 1, Result = 0
+* **Edge case 3:** Coefficients = [1, 1, 1], x = -1, Result = -1
+* **Corner case 1:** Coefficients = [Integer.MAX_VALUE], x = 1, Result = Integer.MAX_VALUE
+* **Corner case 2:** Coefficients = [Integer.MIN_VALUE], x = -1, Result = Integer.MIN_VALUE

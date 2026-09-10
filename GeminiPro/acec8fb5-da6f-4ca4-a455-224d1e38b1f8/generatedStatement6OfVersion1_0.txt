@@ -1,0 +1,7 @@
+
+
+**Corner Cases:**
+
+* **Input number is 0:**
+
+Input:

@@ -1,0 +1,29 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.238
+There were 4 failures:
+1) test3(testing_ChatGPT_on_java.Exercise2_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise2 cannot be resolved to a type
+	Exercise2 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise2_ESTest.test3(Exercise2_ESTest.java:65)
+2) test2(testing_ChatGPT_on_java.Exercise2_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise2 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise2_ESTest.test2(Exercise2_ESTest.java:52)
+3) test1(testing_ChatGPT_on_java.Exercise2_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise2 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise2_ESTest.test1(Exercise2_ESTest.java:36)
+4) test0(testing_ChatGPT_on_java.Exercise2_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise2 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise2_ESTest.test0(Exercise2_ESTest.java:26)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

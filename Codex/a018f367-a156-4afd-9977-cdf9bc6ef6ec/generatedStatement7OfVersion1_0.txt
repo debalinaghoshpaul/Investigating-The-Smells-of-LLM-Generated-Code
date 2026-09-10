@@ -1,0 +1,3 @@
+
+Enter the number of elements in the array: 5
+Enter the elements of the array: 10 20 30 40 50

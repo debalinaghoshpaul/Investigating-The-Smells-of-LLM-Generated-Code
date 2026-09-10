@@ -1,0 +1,18 @@
+
+
+**Test Cases:**
+
+* **Positive Test Cases:**
+    * Create a rectangle with length 5.0 and width 10.0, and verify that its area is 50.0 and perimeter is 30.0.
+    * Create a circle with radius 5.0, and verify that its area is approximately 78.54 and perimeter is approximately 31.42.
+    * Create a triangle with sides 3.0, 4.0, and 5.0, and verify that its area is approximately 6.0 and perimeter is 12.0.
+
+* **Corner Cases:**
+    * Create a rectangle with length 0.0 and width 10.0, and verify that its area and perimeter are both 0.0.
+    * Create a circle with radius 0.0, and verify that its area and perimeter are both 0.0.
+    * Create a triangle with sides 0.0, 4.0, and 5.0 (or any two sides as 0.0), and verify that its area is 0.0 and perimeter is 0.0.
+
+* **Negative Test Cases:**
+    * Try to create a rectangle with negative length or width, and verify that an exception is thrown.
+    * Try to create a circle with negative radius, and verify that an exception is thrown.
+    * Try to create a triangle with all sides negative, or any two sides negative, and verify that an exception is thrown.

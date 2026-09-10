@@ -1,0 +1,48 @@
+```java
+// Java program to calculate the Binomial Coefficient
+
+import java.util.Scanner;
+
+public class BinomialCoefficient {
+
+    // Calculates the binomial coefficient using the recursive formula
+    public static int binomialCoefficient(int n, int k) {
+        if (k == 0 || k == n) {
+            return 1;
+        } else {
+            return binomialCoefficient(n - 1, k - 1) + binomialCoefficient(n - 1, k);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the two positive numbers
+        int n = scanner.nextInt();
+        int k = scanner.nextInt();
+
+        // Calculate the binomial coefficient
+        int result = binomialCoefficient(n, k);
+
+        // Print the result
+        System.out.println(result);
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal cases:**
+    * n = 10, k = 5 -> binomial coefficient: 252
+    * n = 15, k = 7 -> binomial coefficient: 6435
+    * n = 20, k = 10 -> binomial coefficient: 184756
+
+* **Corner cases:**
+    * n = 0, k = 0 -> binomial coefficient: 1
+    * n = 1, k = 1 -> binomial coefficient: 1
+    * n = 10, k = 10 -> binomial coefficient: 1
+
+* **Invalid cases:**
+    * n = -5, k = 2 -> binomial coefficient: 0 (invalid input)
+    * n = 10, k = -1 -> binomial coefficient: 0 (invalid input)
+    * n = 10, k = 11 -> binomial coefficient: 0 (invalid input)

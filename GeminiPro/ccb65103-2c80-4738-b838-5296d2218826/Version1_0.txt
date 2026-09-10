@@ -1,0 +1,41 @@
+```java
+import java.util.Scanner;
+
+public class DecimalToOctal {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input a Decimal Number: ");
+        int decimal = input.nextInt();
+        input.close();
+
+        String octal = "";
+
+        while (decimal > 0) {
+            int remainder = decimal % 8;
+            octal = remainder + octal;
+            decimal /= 8;
+        }
+
+        System.out.println("Octal number is: " + octal);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal case:**
+    * Input: 15
+    * Output: 17
+* **Corner cases:**
+    * Input: 0
+    * Output: 0
+    * Input: 1000
+    * Output: 1750
+    * Input: -1000
+    * Output: Invalid input (decimal number must be non-negative)
+* **Boundary cases:**
+    * Input: Integer.MAX_VALUE
+    * Output: 17777777777 (maximum octal value for a 32-bit integer)
+    * Input: Integer.MIN_VALUE
+    * Output: Invalid input (decimal number must be non-negative)

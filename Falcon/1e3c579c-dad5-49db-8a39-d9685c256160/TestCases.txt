@@ -1,0 +1,58 @@
+**Java program:**
+
+```java
+public class StringWithCharArray {
+
+    public static void main(String[] args) {
+        char[] charArray = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'};
+
+        // Create a String object with the character array
+        String str = new String(charArray);
+
+        // Print the String object
+        System.out.println(str);
+    }
+}
+```
+
+**Sample output:**
+
+```
+Hello World
+```
+
+**Test cases including corner cases:**
+
+**Corner cases:**
+
+* **Empty character array:** This should result in an empty string.
+* **Character array with special characters:** This should result in a string that contains the special characters.
+* **Character array with Unicode characters:** This should result in a string that contains the Unicode characters.
+
+**Other test cases:**
+
+* **Character array with different lengths:** This should result in strings of different lengths.
+* **Character array with different types of characters:** This should result in strings that contain a mix of different types of characters (e.g., letters, numbers, symbols).
+* **Character array with null characters:** This should result in a string that contains the null characters.
+
+**Input for the test cases:**
+
+| Input | Expected output |
+|---|---|
+| `char[] = {}` | "" |
+| `char[] = {'!', '@', '#', '$', '%', '^'}` | "!@#$%^" |
+| `char[] = {'\u0041', '\u0042', '\u0043'}` | "ABC" |
+| `char[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'}` | "Hello World" |
+| `char[] = {'1', '2', '3', '4', '5'}` | "12345" |
+| `char[] = {'a', 'b', 'c', '\0', 'd', 'e'}` | "abc\0de" |
+
+**Expected output for the test cases:**
+
+| Input | Expected output |
+|---|---|
+| `char[] = {}` | "" |
+| `char[] = {'!', '@', '#', '$', '%', '^'}` | "!@#$%^" |
+| `char[] = {'\u0041', '\u0042', '\u0043'}` | "ABC" |
+| `char[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'}` | "Hello World" |
+| `char[] = {'1', '2', '3', '4', '5'}` | "12345" |
+| `char[] = {'a', 'b', 'c', '\0', 'd', 'e'}` | "abc\0de" |

@@ -1,0 +1,4 @@
+ Minimum length of a contiguous subarray of which the sum is 8, 2
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.

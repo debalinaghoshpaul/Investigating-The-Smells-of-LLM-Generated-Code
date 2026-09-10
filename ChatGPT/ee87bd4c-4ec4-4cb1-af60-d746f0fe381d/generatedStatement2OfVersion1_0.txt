@@ -1,0 +1,24 @@
+
+
+Test Cases:
+
+* Input: 235
+* Output: 235 is not an ugly number.
+
+* Input: 1
+* Output: 1 is an ugly number.
+
+* Input: 6
+* Output: 6 is an ugly number.
+
+* Input: 14
+* Output: 14 is an ugly number.
+
+* Input: 15
+* Output: 15 is an ugly number.
+
+* Input: 0
+* Output: 0 is not an ugly number.
+
+* Input: -1
+* Output: -1 is not an ugly number.

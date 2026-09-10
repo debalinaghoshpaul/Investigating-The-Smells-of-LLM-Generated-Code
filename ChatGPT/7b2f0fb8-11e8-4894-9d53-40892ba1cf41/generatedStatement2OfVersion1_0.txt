@@ -1,0 +1,14 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+   * Input: 20
+   * Output: 1 2 3 4 5 6 8 9 10 12 15 16 18 20 24 25 27 30 32
+* **Corner cases:**
+   * Input: 0
+   * Output: An error message indicating that the input must be a positive integer
+   * Input: -1
+   * Output: An error message indicating that the input must be a positive integer
+   * Input: 1
+   * Output: 1

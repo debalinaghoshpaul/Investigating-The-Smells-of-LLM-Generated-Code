@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called "School" with attributes for students, teachers, and classes, and methods to add and remove students and teachers, and to create classes.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 508cd763-b2be-4884-8ef2-2100ef653cfa.\n

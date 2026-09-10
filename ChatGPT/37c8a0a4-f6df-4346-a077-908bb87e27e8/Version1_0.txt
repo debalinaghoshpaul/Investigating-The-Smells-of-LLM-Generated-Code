@@ -1,0 +1,83 @@
+```java
+// Encryptable interface
+interface Encryptable {
+    String encrypt(String data);
+    String decrypt(String encryptedData);
+}
+
+// AES implementation
+class AES implements Encryptable {
+    // AES encryption using AES-256 algorithm
+    @Override
+    public String encrypt(String data) {
+        // Implementation of AES encryption
+        return "AES-encrypted data";
+    }
+
+    // AES decryption using AES-256 algorithm
+    @Override
+    public String decrypt(String encryptedData) {
+        // Implementation of AES decryption
+        return "AES-decrypted data";
+    }
+}
+
+// RSA implementation
+class RSA implements Encryptable {
+    // RSA encryption using RSA-2048 algorithm
+    @Override
+    public String encrypt(String data) {
+        // Implementation of RSA encryption
+        return "RSA-encrypted data";
+    }
+
+    // RSA decryption using RSA-2048 algorithm
+    @Override
+    public String decrypt(String encryptedData) {
+        // Implementation of RSA decryption
+        return "RSA-decrypted data";
+    }
+}
+
+// Main class to test the Encryptable interface
+public class EncryptionApp {
+
+    public static void main(String[] args) {
+        // Create instances of AES and RSA
+        Encryptable aes = new AES();
+        Encryptable rsa = new RSA();
+
+        // Test AES encryption and decryption
+        String aesEncryptedData = aes.encrypt("Hello AES");
+        System.out.println("AES Encrypted Data: " + aesEncryptedData);
+        String aesDecryptedData = aes.decrypt(aesEncryptedData);
+        System.out.println("AES Decrypted Data: " + aesDecryptedData);
+
+        // Test RSA encryption and decryption
+        String rsaEncryptedData = rsa.encrypt("Hello RSA");
+        System.out.println("RSA Encrypted Data: " + rsaEncryptedData);
+        String rsaDecryptedData = rsa.decrypt(rsaEncryptedData);
+        System.out.println("RSA Decrypted Data: " + rsaDecryptedData);
+
+        // Corner case: Encrypt and decrypt empty string
+        String emptyEncryptedData = aes.encrypt("");
+        System.out.println("Empty String Encrypted Data: " + emptyEncryptedData);
+        String emptyDecryptedData = aes.decrypt("");
+        System.out.println("Empty String Decrypted Data: " + emptyDecryptedData);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Test Case 1:** Encrypt and decrypt a non-empty string using AES
+* **Test Case 2:** Encrypt and decrypt a non-empty string using RSA
+
+**Corner Cases:**
+
+* **Test Case 3:** Encrypt and decrypt an empty string using AES
+* **Test Case 4:** Encrypt and decrypt an empty string using RSA
+* **Test Case 5:** Encrypt and decrypt a string containing special characters and numbers using AES
+* **Test Case 6:** Encrypt and decrypt a string containing special characters and numbers using RSA

@@ -1,0 +1,55 @@
+```java
+import java.util.Scanner;
+
+public class HexadecimalToDecimal {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the hexadecimal number from the user
+        System.out.println("Input a hexadecimal number: ");
+        String hexNumber = input.nextLine();
+
+        // Convert the hexadecimal number to decimal
+        int decimalNumber = Integer.parseInt(hexNumber, 16);
+
+        // Print the decimal number
+        System.out.println("Equivalent decimal number is: " + decimalNumber);
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Input:**
+
+* Input: 25
+* Expected Output: 37
+
+* Input: 10
+* Expected Output: 16
+
+* Input: FF
+* Expected Output: 255
+
+**Invalid Input:**
+
+* Input: 2g
+* Expected Output: Invalid hexadecimal number
+
+* Input: -10
+* Expected Output: Invalid hexadecimal number
+
+**Corner Cases:**
+
+* Input: 0
+* Expected Output: 0
+
+* Input: FFFFFFFF
+* Expected Output: 4294967295
+
+* Input: 00
+* Expected Output: 0
+
+* Input: ""
+* Expected Output: Invalid hexadecimal number

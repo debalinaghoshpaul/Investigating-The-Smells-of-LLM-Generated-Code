@@ -1,0 +1,10 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 91). [LineLength]: 2
+DesignForExtension: Class 'Pizza' looks like designed for extension (can be subclassed), but the method 'getSize' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Pizza' final or making the method 'getSize' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 10
+FinalParameters: Parameter size should be final. [FinalParameters]: 9
+HiddenField: 'size' hides a field. [HiddenField]: 8
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 12
+MagicNumber: '10' is a magic number. [MagicNumber]: 3
+OperatorWrap: '+' should be on a new line. [OperatorWrap]: 1

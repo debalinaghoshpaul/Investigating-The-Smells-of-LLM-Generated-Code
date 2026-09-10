@@ -1,0 +1,29 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.345
+There were 4 failures:
+1) test2(testing_ChatGPT_on_java.Filter_List_elements_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Filter_List_elements.main(Main.java:23)
+	at testing_ChatGPT_on_java.Filter_List_elements_ESTest.test2(Filter_List_elements_ESTest.java:45)
+2) test3(testing_ChatGPT_on_java.Filter_List_elements_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Filter_List_elements must be defined in its own file
+
+	at testing_ChatGPT_on_java.Filter_List_elements.<init>(Main.java:9)
+	at testing_ChatGPT_on_java.Filter_List_elements_ESTest.test3(Filter_List_elements_ESTest.java:58)
+3) test0(testing_ChatGPT_on_java.Filter_List_elements_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Filter_List_elements.filterList(Main.java:11)
+	at testing_ChatGPT_on_java.Filter_List_elements_ESTest.test0(Filter_List_elements_ESTest.java:27)
+4) test1(testing_ChatGPT_on_java.Filter_List_elements_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Filter_List_elements.filterList(Main.java:11)
+	at testing_ChatGPT_on_java.Filter_List_elements_ESTest.test1(Filter_List_elements_ESTest.java:36)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

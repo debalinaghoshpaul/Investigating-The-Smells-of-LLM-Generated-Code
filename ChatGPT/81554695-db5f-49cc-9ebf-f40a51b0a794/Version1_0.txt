@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DWLwNHoRRy4X3I8l5SIHnMQ2XPe8",
+  "object" : "chat.completion",
+  "created" : 1713009656,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Money {\n    private int dollars;\n    private int cents;\n\n    public Money(int dollars, int cents) {\n        this.dollars = dollars;\n        this.cents = cents;\n    }\n\n    public Money(int dollars) {\n        this(dollars, 0);\n    }\n\n    public Money() {\n        this(0, 0);\n    }\n\n    public Money add(Money money) {\n        int totalCents = this.dollars * 100 + this.cents + money.dollars * 100 + money.cents;\n        int newDollars = totalCents / 100;\n        int newCents = totalCents % 100;\n        return new Money(newDollars, newCents);\n    }\n\n    public Money minus(Money money) {\n        int totalCents = this.dollars * 100 + this.cents - money.dollars * 100 - money.cents;\n        int newDollars = totalCents / 100;\n        int newCents = totalCents % 100;\n        return new Money(newDollars, newCents);\n    }\n\n    public boolean equals(Money money) {\n        return (this.dollars == money.dollars && this.cents == money.cents);\n    }\n\n    public String toString() {\n        return \"$\" + this.dollars + \".\" + String.format(\"%02d\", this.cents);\n    }\n\n    public Money add(Money money1, Money money2) {\n        return money1.add(money2);\n    }\n\n    public Money minus(Money money1, Money money2) {\n        return money1.minus(money2);\n    }\n\n    public static void main(String[] args) {\n        Money money1 = new Money(10, 50);\n        Money money2 = new Money(5, 25);\n\n        Money resultAdd = money1.add(money2);\n        Money resultMinus = money1.minus(money2);\n\n        System.out.println(\"Money 1: \" + money1);\n        System.out.println(\"Money 2: \" + money2);\n        System.out.println(\"Money 1 + Money 2: \" + resultAdd);\n        System.out.println(\"Money 1 - Money 2: \" + resultMinus);\n\n        System.out.println(\"Using static add method: \" + money1.add(money1, money2));\n        System.out.println(\"Using static minus method: \" + money1.minus(money1, money2));\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 293,
+    "completion_tokens" : 526,
+    "total_tokens" : 819
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

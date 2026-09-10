@@ -1,0 +1,55 @@
+```java
+import java.time.LocalDateTime;  
+import java.time.format.DateTimeFormatter;  
+  
+public class DateTime {  
+    public static void main(String[] args) {  
+        // Get the current date and time
+        LocalDateTime now = LocalDateTime.now();  
+  
+        // Format the date and time in a specific format
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+        String formattedDateTime = now.format(formatter);  
+  
+        // Display the current date and time
+        System.out.println("The current date and time is: " + formattedDateTime);  
+    }  
+}  
+```
+
+**Test cases:**
+
+* **Valid case:**
+```
+Input: 
+
+Output:
+The current date and time is: 2023/03/08 15:39:22
+```
+
+* **Corner case 1:**
+Test the program on a date near the end of the year (e.g., December 31st) to ensure that the year rolls over correctly.
+```
+Input: 
+
+Output:
+The current date and time is: 2022/12/31 23:59:59
+```
+
+* **Corner case 2:**
+Test the program on a date near the end of the month (e.g., February 28th) to ensure that the month rolls over correctly.
+```
+Input: 
+
+Output:
+The current date and time is: 2023/02/28 23:59:59
+```
+
+* **Corner case 3:**
+Test the program on a date with a leading zero (e.g., January 1st).
+```
+Input: 
+
+Output:
+The current date and time is: 2023/01/01 00:00:00
+```

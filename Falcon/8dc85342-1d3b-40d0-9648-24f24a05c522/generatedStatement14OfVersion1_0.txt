@@ -1,0 +1,3 @@
+
+
+**Note:** The program doesn't handle syntax errors in the input file, but it still tries to highlight the code as much as possible.

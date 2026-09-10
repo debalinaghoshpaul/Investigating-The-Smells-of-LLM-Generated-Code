@@ -1,0 +1,15 @@
+
+
+Test cases:
+
+* Corner cases:
+    * Empty array
+    * Array with only one element
+    * Array with all the same elements
+* General cases:
+    * Array with a single consecutive subarray
+    * Array with multiple consecutive subarrays
+    * Array with no consecutive subarrays
+* Boundary cases:
+    * Consecutive subarray at the beginning of the array
+    * Consecutive subarray at the end of the array

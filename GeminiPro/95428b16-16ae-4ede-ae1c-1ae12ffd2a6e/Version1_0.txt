@@ -1,0 +1,43 @@
+```java
+// Direction.java
+// Enum representing the cardinal directions (North, South, East, West).
+
+public enum Direction {
+    NORTH,
+    SOUTH,
+    EAST,
+    WEST;
+}
+```
+
+**Test cases:**
+
+```java
+// TestDirection.java
+// Test cases for the Direction enum.
+
+public class TestDirection {
+
+    public static void main(String[] args) {
+        // Test the constants.
+        System.out.println(Direction.NORTH); // NORTH
+        System.out.println(Direction.SOUTH); // SOUTH
+        System.out.println(Direction.EAST);  // EAST
+        System.out.println(Direction.WEST);  // WEST
+
+        // Test the values() and valueOf() methods.
+        Direction[] directions = Direction.values();
+        for (Direction direction : directions) {
+            System.out.println(direction); // NORTH, SOUTH, EAST, WEST
+        }
+        System.out.println(Direction.valueOf("NORTH")); // NORTH
+
+        // Test corner cases.
+        try {
+            Direction.valueOf("UP"); // Throws an IllegalArgumentException
+        } catch (IllegalArgumentException e) {
+            // Handle the exception.
+        }
+    }
+}
+```

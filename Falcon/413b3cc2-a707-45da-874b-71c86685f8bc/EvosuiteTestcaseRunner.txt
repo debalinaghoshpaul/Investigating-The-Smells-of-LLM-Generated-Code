@@ -1,0 +1,18 @@
+JUnit version 4.13
+.Enter the number of rows: 
+.Enter the number of rows: 
+Enter the number of columns: 
+Enter the elements of the first matrix: 
+.Enter the number of rows: 
+Enter the number of columns: 
+Enter the elements of the first matrix: 
+Enter the elements of the second matrix: 
+The sum of the two matrices is: 
+2 
+.Enter the number of rows: 
+Enter the number of columns: 
+.
+Time: 0.345
+
+OK (5 tests)
+

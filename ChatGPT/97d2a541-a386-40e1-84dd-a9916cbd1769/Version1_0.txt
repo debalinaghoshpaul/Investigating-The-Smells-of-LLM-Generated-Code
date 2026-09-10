@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9363G11MtwtoztzfEtZhSAwsFkHwL",
+  "object" : "chat.completion",
+  "created" : 1710525274,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Fibonacci {\n\n    public static void main(String[] args) {\n        int n = 10;\n        System.out.println(\"Fibonacci number at position \" + n + \" is: \" + calculateFibonacci(n));\n    }\n\n    public static int calculateFibonacci(int n) {\n        if (n <= 0) {\n            return 0;\n        } else if (n == 1) {\n            return 1;\n        } else {\n            return calculateFibonacci(n - 1) + calculateFibonacci(n - 2);\n        }\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 60,
+    "completion_tokens" : 125,
+    "total_tokens" : 185
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

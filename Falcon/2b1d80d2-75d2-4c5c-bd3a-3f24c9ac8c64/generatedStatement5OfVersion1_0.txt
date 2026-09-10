@@ -1,0 +1,12 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+1. Create a SnakeAlien object with name "Venom" and damage 15.
+2. Create a BugAlien object with name "Crawler" and damage 7.
+3. Print the details of both aliens using the `toString()` method.
+
+**Expected Output:**
+

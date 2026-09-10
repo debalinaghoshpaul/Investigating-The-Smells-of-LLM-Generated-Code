@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program that takes three numbers from the user and prints the greatest number.\nTest Data Input the 1st number: 25 Input the 2nd number: 78 Input the 3rd number: 87 Expected Output : The greatest: 87 \n\n\n The programming language you need to use is: java.\n\n Problem Id is : e51a5055-54bd-4a1f-8caf-5b9db68b29a9.\n

@@ -1,0 +1,52 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class ConvertToLowerCase {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get input string
+        System.out.println("Enter a string: ");
+        String input = scanner.nextLine();
+
+        // Convert to lowercase
+        String lowercase = input.toLowerCase();
+
+        // Print output
+        System.out.println("Converted string: " + lowercase);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: Hello World
+* Output: hello world
+
+* Input: The Quick Brown Fox Jumps Over The Lazy Dog
+* Output: the quick brown fox jumps over the lazy dog
+
+**Corner Cases:**
+
+* Input: ""
+* Output: ""
+
+* Input: "abcdefghijklmnopqrstuvwxyz"
+* Output: "abcdefghijklmnopqrstuvwxyz"
+
+* Input: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+* Output: "abcdefghijklmnopqrstuvwxyz"
+
+* Input: "1234567890"
+* Output: "1234567890"
+
+* Input: "Hello 123 World"
+* Output: "hello 123 world"
+
+* Input: "HELLO WORLD!"
+* Output: "hello world!"

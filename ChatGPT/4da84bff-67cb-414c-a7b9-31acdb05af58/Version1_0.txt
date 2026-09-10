@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93BvfQqpGeGkNgzyWJNniGxsIehlf",
+  "object" : "chat.completion",
+  "created" : 1710547867,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Exponentiation {\n\n    public static void main(String[] args) {\n        int base = 3;\n        int exponent = 4;\n\n        long result = calculateExponentiation(base, exponent);\n        System.out.println(base + \" raised to the power of \" + exponent + \" is: \" + result);\n    }\n\n    public static long calculateExponentiation(int base, int exponent) {\n        if (exponent == 0) {\n            return 1;\n        } else {\n            return base * calculateExponentiation(base, exponent - 1);\n        }\n    }\n}\n```\nOutput : \n3 raised to the power of 4 is: 81"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 73,
+    "completion_tokens" : 141,
+    "total_tokens" : 214
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

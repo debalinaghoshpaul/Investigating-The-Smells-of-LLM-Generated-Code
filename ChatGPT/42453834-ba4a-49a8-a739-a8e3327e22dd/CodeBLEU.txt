@@ -1,0 +1,1 @@
+{'codebleu': 0.6566010044538205, 'ngram_match_score': 0.6046567584853949, 'weighted_ngram_match_score': 0.615224617036576, 'syntax_match_score': 0.7168674698795181, 'dataflow_match_score': 0.6896551724137931}

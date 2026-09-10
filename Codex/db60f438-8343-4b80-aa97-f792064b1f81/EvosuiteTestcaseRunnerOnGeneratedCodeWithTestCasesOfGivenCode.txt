@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.251
+There were 5 failures:
+1) test0(testing_ChatGPT_on_java.Example112_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example112 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example112_ESTest.test0(Example112_ESTest.java:26)
+2) test1(testing_ChatGPT_on_java.Example112_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example112 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example112_ESTest.test1(Example112_ESTest.java:35)
+3) test4(testing_ChatGPT_on_java.Example112_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Example112 cannot be resolved to a type
+	Example112 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Example112_ESTest.test4(Example112_ESTest.java:73)
+4) test2(testing_ChatGPT_on_java.Example112_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example112 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example112_ESTest.test2(Example112_ESTest.java:52)
+5) test3(testing_ChatGPT_on_java.Example112_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example112 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example112_ESTest.test3(Example112_ESTest.java:67)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

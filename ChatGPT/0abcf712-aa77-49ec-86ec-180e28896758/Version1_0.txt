@@ -1,0 +1,33 @@
+```java
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DisplayCurrentDateAndTime {
+
+    public static void main(String[] args) {
+        // Create a SimpleDateFormat object with the desired date and time format.
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss.SSS");
+
+        // Get the current date and time.
+        Date date = new Date();
+
+        // Format the current date and time using the SimpleDateFormat object.
+        String formattedDate = sdf.format(date);
+
+        // Print the formatted date and time.
+        System.out.println("Now: " + formattedDate);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: None
+* Output: The current date and time in the format "yyyy/MM/dd HH:mm:ss.SSS".
+
+**Corner Cases:**
+
+* **Invalid date format:** If the SimpleDateFormat object is created with an invalid date format, a `IllegalArgumentException` will be thrown.
+* **Null date:** If the `date` object is null, a `NullPointerException` will be thrown.

@@ -1,0 +1,8 @@
+JUnit version 4.13
+..Enter the name of the file to be edited: File not found!
+.Enter the name of the file to be edited: An error occurred: 
+.Enter the name of the file to be edited: 
+Time: 0.402
+
+OK (4 tests)
+

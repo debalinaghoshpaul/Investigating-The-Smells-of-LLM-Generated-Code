@@ -1,0 +1,4 @@
+
+// Create objects of the subclasses
+Animal bird = new Bird();
+Animal panther = new Panthera();

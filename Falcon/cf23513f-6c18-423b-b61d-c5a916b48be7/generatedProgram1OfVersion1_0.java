@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class UppercaseLowercase {
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<>();
+        list.add("hello");
+        list.add("world");
+        list.add("this");
+        list.add("is");
+        list.add("a");
+        list.add("test");
+        list.add("case");
+
+        System.out.println(Arrays.stream(list)
+               .map(String::toUpperCase)
+               .collect(Collectors.joining(" ")));
+
+        System.out.println(Arrays.stream(list)
+               .map(String::toLowerCase)
+               .collect(Collectors.joining(" ")));
+
+        System.out.println(Arrays.stream(list)
+               .map(String::toUpperCase)
+               .collect(Collectors.joining(" ")));
+
+        System.out.println(Arrays.stream(list)
+               .map(String::toLowerCase)
+               .collect(Collectors.joining(" ")));
+    }
+}
+

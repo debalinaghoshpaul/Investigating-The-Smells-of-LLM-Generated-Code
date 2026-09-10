@@ -1,0 +1,10 @@
+public class WordCounter {
+    public static int countWords(String input) {
+        if (input == null || input.isEmpty()) {
+            return 0;
+        }
+        
+        String[] words = input.trim().split("\\s+");
+        return words.length;
+    }
+}

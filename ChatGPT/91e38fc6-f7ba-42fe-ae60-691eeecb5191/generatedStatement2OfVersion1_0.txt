@@ -1,0 +1,8 @@
+
+In this program, we first define a method `findRotationCount` that takes in a rotated sorted array of integers as input and finds the rotation count. The rotation count is the index where the rotation occurs in the array.
+
+We use binary search to find the rotation count by comparing elements at the start, middle, and end indices of the array. If the element at the start index is less than or equal to the element at the end index, then there is no rotation and we return the start index.
+
+If the middle element is less than or equal to its neighboring elements, then we have found the rotation count. If not, we adjust the `start` and `end` indices based on whether the array is sorted in the first half or the second half.
+
+Finally, we call the `findRotationCount` method in the `main` method with a sample input array and print the rotation count.

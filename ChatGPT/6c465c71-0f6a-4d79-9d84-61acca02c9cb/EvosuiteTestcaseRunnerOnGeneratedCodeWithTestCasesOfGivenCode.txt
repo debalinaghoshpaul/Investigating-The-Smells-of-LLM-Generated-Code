@@ -1,0 +1,44 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E
+Time: 0.349
+There were 7 failures:
+1) test6(testing_ChatGPT_on_java.ArrayProductCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ArrayProductCalculator cannot be resolved to a type
+	ArrayProductCalculator cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ArrayProductCalculator_ESTest.test6(ArrayProductCalculator_ESTest.java:91)
+2) test5(testing_ChatGPT_on_java.ArrayProductCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArrayProductCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ArrayProductCalculator_ESTest.test5(ArrayProductCalculator_ESTest.java:86)
+3) test4(testing_ChatGPT_on_java.ArrayProductCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArrayProductCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ArrayProductCalculator_ESTest.test4(ArrayProductCalculator_ESTest.java:73)
+4) test3(testing_ChatGPT_on_java.ArrayProductCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArrayProductCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ArrayProductCalculator_ESTest.test3(ArrayProductCalculator_ESTest.java:57)
+5) test2(testing_ChatGPT_on_java.ArrayProductCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArrayProductCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ArrayProductCalculator_ESTest.test2(ArrayProductCalculator_ESTest.java:49)
+6) test1(testing_ChatGPT_on_java.ArrayProductCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArrayProductCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ArrayProductCalculator_ESTest.test1(ArrayProductCalculator_ESTest.java:37)
+7) test0(testing_ChatGPT_on_java.ArrayProductCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArrayProductCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ArrayProductCalculator_ESTest.test0(ArrayProductCalculator_ESTest.java:22)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+

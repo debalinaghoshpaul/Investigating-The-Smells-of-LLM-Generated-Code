@@ -1,0 +1,12 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Employee 1: Name = "John", ID = 1, Salary = 10000, Leaves Taken = 2
+* Employee 2: Name = "Mary", ID = 2, Salary = 15000, Leaves Taken = 1
+* Employee 3: Name = "Bob", ID = 3, Salary = 20000, Leaves Taken = 3
+
+**Expected Output:**
+

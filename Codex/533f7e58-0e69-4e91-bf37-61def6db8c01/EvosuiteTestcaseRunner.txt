@@ -1,0 +1,32 @@
+JUnit version 4.13
+.Number of palindromes: 0
+.Number of palindromes: 0
+.E.Number of palindromes: 1
+.
+Time: 4.418
+There was 1 failure:
+1) test2(testing_ChatGPT_on_java.PalindromeCounter_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.PrintStream.write(PrintStream.java:482)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:104)
+	at java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
+	at java.io.PrintStream.write(PrintStream.java:527)
+	at java.io.PrintStream.print(PrintStream.java:669)
+	at java.io.PrintStream.println(PrintStream.java:823)
+	at java.lang.Throwable$WrappedPrintStream.println(Throwable.java:748)
+	at java.lang.Throwable.printEnclosedStackTrace(Throwable.java:697)
+	at java.lang.Throwable.printStackTrace(Throwable.java:662)
+	at java.lang.Throwable.printStackTrace(Throwable.java:643)
+	at java.lang.Throwable.printStackTrace(Throwable.java:634)
+	at testing_ChatGPT_on_java.PalindromeCounter.main(PalindromeCounter.java:22)
+	at testing_ChatGPT_on_java.PalindromeCounter_ESTest.test2(PalindromeCounter_ESTest.java:42)
+
+FAILURES!!!
+Tests run: 5,  Failures: 1
+

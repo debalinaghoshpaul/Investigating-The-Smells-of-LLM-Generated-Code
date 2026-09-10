@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93PhS79DYoL42VSpVWbokeeIDLQ5A",
+  "object" : "chat.completion",
+  "created" : 1710600802,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Stack;\n\npublic class StackNthElement {\n\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        \n        // Push elements to the stack\n        stack.push(10);\n        stack.push(20);\n        stack.push(30);\n        stack.push(40);\n        stack.push(50);\n        \n        int n = 3; // Get the 3rd element from the bottom\n        \n        int element = getNthElementFromBottom(stack, n);\n        \n        System.out.println(\"The \" + n + \"th element from the bottom is: \" + element);\n    }\n    \n    public static int getNthElementFromBottom(Stack<Integer> stack, int n) {\n        Stack<Integer> tempStack = new Stack<>();\n        \n        // Pop elements from the original stack and push them to a temporary stack\n        while(!stack.isEmpty()) {\n            tempStack.push(stack.pop());\n        }\n        \n        // Pop the nth element from the temporary stack\n        int count = 1;\n        int element = 0;\n        while(!tempStack.isEmpty() && count <= n) {\n            element = tempStack.pop();\n            count++;\n        }\n        \n        // Push elements back to the original stack\n        while(!tempStack.isEmpty()) {\n            stack.push(tempStack.pop());\n        }\n        \n        return element;\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 64,
+    "completion_tokens" : 278,
+    "total_tokens" : 342
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

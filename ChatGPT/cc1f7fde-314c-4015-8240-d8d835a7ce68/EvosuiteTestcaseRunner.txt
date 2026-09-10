@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Input a string: Input a substring to search for: First occurrence of Input a string:  in Input a string:  is at index: 0
+.Input a string: ..Input a string: Input a substring to search for: Substring not found.
+
+Time: 0.345
+
+OK (4 tests)
+

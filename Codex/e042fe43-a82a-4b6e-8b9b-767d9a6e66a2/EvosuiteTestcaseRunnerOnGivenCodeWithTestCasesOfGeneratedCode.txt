@@ -1,0 +1,29 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.571
+There were 4 failures:
+1) test1(testing_ChatGPT_on_java.Exercise22_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise22.main(PascalTriangle.java:5)
+	at testing_ChatGPT_on_java.Exercise22_ESTest.test1(Exercise22_ESTest.java:44)
+2) test0(testing_ChatGPT_on_java.Exercise22_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise22.main(PascalTriangle.java:5)
+	at testing_ChatGPT_on_java.Exercise22_ESTest.test0(Exercise22_ESTest.java:27)
+3) test3(testing_ChatGPT_on_java.Exercise22_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise22 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise22.<init>(PascalTriangle.java:3)
+	at testing_ChatGPT_on_java.Exercise22_ESTest.test3(Exercise22_ESTest.java:65)
+4) test2(testing_ChatGPT_on_java.Exercise22_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise22.main(PascalTriangle.java:5)
+	at testing_ChatGPT_on_java.Exercise22_ESTest.test2(Exercise22_ESTest.java:59)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

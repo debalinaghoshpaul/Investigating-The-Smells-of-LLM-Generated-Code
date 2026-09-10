@@ -1,0 +1,6 @@
+
+Input:
+nums4 = [1, 2, -2]
+
+Output:
+Sub-arrays with 0 sum: [1, 2, -2]

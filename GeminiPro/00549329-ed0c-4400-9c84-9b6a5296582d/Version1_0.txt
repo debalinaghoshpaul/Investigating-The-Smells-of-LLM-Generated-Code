@@ -1,0 +1,28 @@
+```java
+import java.util.Scanner;
+
+public class CheckStringStartsWithWord {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String string1 = scanner.nextLine();
+
+        // Get the word to check for
+        System.out.println("Enter the word to check for: ");
+        String word = scanner.nextLine();
+
+        // Check if the string starts with the word
+        boolean startsWithWord = string1.startsWith(word);
+
+        // Print the result
+        if (startsWithWord) {
+            System.out.println("The string starts with the word " + word);
+        } else {
+            System.out.println("The string does not start with the word " + word);
+        }
+    }
+}
+```

@@ -1,0 +1,4 @@
+
+Input number of rows/columns (0 to exit)
+1
+10

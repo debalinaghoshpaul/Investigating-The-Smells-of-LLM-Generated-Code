@@ -1,0 +1,12 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * The code that is being measured is very short.
+    * The code that is being measured is very long.
+* **Normal cases:**
+    * The code that is being measured is of a moderate length.
+
+**Output:**
+

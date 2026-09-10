@@ -1,0 +1,29 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Negative number:** `float number = -123.456789f;`
+* **Number with trailing zeroes:** `float number = 123.000000f;`
+* **Number less than 1:** `float number = 0.0001f;`
+
+**Regular Cases:**
+
+* **Number with no decimals:** `float number = 123f;`
+* **Number with one decimal:** `float number = 123.4f;`
+* **Number with more than the specified decimals:** `float number = 123.456789f;`
+
+**Expected Output:**
+
+**Corner Cases:**
+
+* **Negative number:** `Rounded number: -123.46`
+* **Number with trailing zeroes:** `Rounded number: 123`
+* **Number less than 1:** `Rounded number: 0.00`
+
+**Regular Cases:**
+
+* **Number with no decimals:** `Rounded number: 123`
+* **Number with one decimal:** `Rounded number: 123.4`
+* **Number with more than the specified decimals:** `Rounded number: 123.46`

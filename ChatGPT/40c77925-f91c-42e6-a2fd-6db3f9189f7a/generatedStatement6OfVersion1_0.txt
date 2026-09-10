@@ -1,0 +1,6 @@
+
+
+* **Corner case:**
+    * Input: 0
+    * Output:
+        

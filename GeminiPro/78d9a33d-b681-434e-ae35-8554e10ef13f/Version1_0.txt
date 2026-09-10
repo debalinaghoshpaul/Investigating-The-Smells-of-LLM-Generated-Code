@@ -1,0 +1,32 @@
+```java
+import java.util.Scanner;
+
+public class SubstringAppearsInMiddle {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the two strings from the user.
+        System.out.println("Enter the first string: ");
+        String str1 = scanner.nextLine();
+
+        System.out.println("Enter the second string: ");
+        String str2 = scanner.nextLine();
+
+        // Check if the second string appears in the middle of the first string.
+        int mid = str1.length() / 2;
+        boolean appearsInMiddle = false;
+
+        if (str1.substring(mid - str2.length() / 2, mid + str2.length() / 2).equals(str2)) {
+            appearsInMiddle = true;
+        }
+
+        // Print the result.
+        if (appearsInMiddle) {
+            System.out.println("The second string appears in the middle of the first string.");
+        } else {
+            System.out.println("The second string does not appear in the middle of the first string.");
+        }
+    }
+}
+```

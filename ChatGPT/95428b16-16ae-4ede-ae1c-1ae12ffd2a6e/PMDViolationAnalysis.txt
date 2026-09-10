@@ -1,0 +1,3 @@
+Violations by Category:
+CommentRequired: Enum comments are required: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

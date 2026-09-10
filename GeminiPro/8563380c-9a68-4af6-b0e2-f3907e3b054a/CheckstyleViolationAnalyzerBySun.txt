@@ -1,0 +1,9 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 121). [LineLength]: 1
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 18
+AvoidStarImport: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]: 1
+FinalParameters: Parameter arg should be final. [FinalParameters]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+LeftCurly: '{' at column 5 should be on the previous line. [LeftCurly]: 2
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '10' is a magic number. [MagicNumber]: 1

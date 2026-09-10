@@ -1,0 +1,24 @@
+
+
+**Test cases:**
+
+**Normal cases:**
+
+* 125463
+* 987654321
+* 1
+
+**Corner cases:**
+
+* **0:** This is a corner case because the number of digits in 0 is 1.
+* **-1:** This is an invalid input because the number is negative.
+* **10000000000:** This is an invalid input because the number is greater than or equal to ten billion.
+
+**Expected outputs:**
+
+* **For 125463:** Number of digits in the number: 6
+* **For 987654321:** Number of digits in the number: 9
+* **For 1:** Number of digits in the number: 1
+* **For 0:** Number of digits in the number: 1
+* **For -1:** Invalid input. Please enter a positive integer less than ten billion.
+* **For 10000000000:** Invalid input. Please enter a positive integer less than ten billion.

@@ -1,0 +1,94 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: testing_ChatGPT_on_java.ProducerConsumer
+* Starting client
+* Connecting to master process on port 18675
+* Analyzing classpath: 
+  - C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\target\classes
+* Finished analyzing classpath
+* Generating tests for class testing_ChatGPT_on_java.ProducerConsumer
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 31
+  - Branch 10
+  - Exception 0
+  - MutationFactory 38
+  - Output 0
+  - Method 6
+  - MethodNoException 6
+  - CBranchFitnessFactory 10
+
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 1719073953822
+* Starting evolution
+
+[Progress:==========>                   35%] [Cov:>                                  0%]
+[Progress:==========>                   35%] [Cov:=>                                 3%]
+[Progress:==========>                   35%] [Cov:=====>                             15%]
+[Progress:==========>                   35%] [Cov:=====>                             16%]
+[Progress:==========>                   35%] [Cov:=========>                         27%]
+[Progress:==========>                   35%] [Cov:==========>                        31%]
+[Progress:==========>                   35%] [Cov:===========>                       34%]
+[Progress:==========>                   35%] [Cov:============>                      37%]
+[Progress:=========================>    85%] [Cov:>                                  0%]
+[Progress:=========================>    85%] [Cov:====>                              12%]
+[Progress:=========================>    85%] [Cov:=======>                           22%]
+[Progress:==============================100%] [Cov:=>                                 3%]
+[Progress:==============================100%] [Cov:==>                                8%]
+[Progress:==============================100%] [Cov:=======>                           20%]
+[Progress:==============================100%] [Cov:========>                          23%]
+[Progress:==============================100%] [Cov:===========>                       34%]
+[Progress:==============================100%] [Cov:=============>                     38%]
+[Progress:==============================100%] [Cov:==============>                    41%]
+[Progress:==============================100%] [Cov:================>                  46%]
+[Progress:==============================100%] [Cov:================>                  46%]
+[Progress:==============================100%] [Cov:===================>               55%]
+* Search finished after 95s and 0 generations, 48 statements, best individual has fitness: 77.95833333333333
+[MASTER] 17:34:09.882 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 35 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 17:35:12.974 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 26%
+* Total number of goals: 31
+* Number of covered goals: 8
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 40%
+* Total number of goals: 10
+* Number of covered goals: 4
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 5%
+* Total number of goals: 38
+* Number of covered goals: 2
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 67%
+* Total number of goals: 6
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 67%
+* Total number of goals: 6
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 40%
+* Total number of goals: 10
+* Number of covered goals: 4
+* Generated 2 tests with total length 30
+* Resulting test suite's coverage: 56% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Compiling and checking tests
+* Writing JUnit test case 'ProducerConsumer_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

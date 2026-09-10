@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to implement a lambda expression to check if a list of strings contains a specific word.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 08379a98-5955-4604-8450-3ccb83c7936a.\n

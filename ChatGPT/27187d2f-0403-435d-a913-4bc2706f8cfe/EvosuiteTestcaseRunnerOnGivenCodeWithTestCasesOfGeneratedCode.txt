@@ -1,0 +1,37 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.362
+There were 4 failures:
+1) test3(testing_ChatGPT_on_java.Library_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type Library
+
+	at testing_ChatGPT_on_java.Library_ESTest.test3(Library_ESTest.java:46)
+2) test2(testing_ChatGPT_on_java.Library_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	Syntax error on token(s), misplaced construct(s)
+	The public type Book must be defined in its own file
+	The public type Main must be defined in its own file
+
+	at testing_ChatGPT_on_java.Library.<init>(Library.java:3)
+	at testing_ChatGPT_on_java.Library_ESTest.test2(Library_ESTest.java:38)
+3) test1(testing_ChatGPT_on_java.Library_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	Syntax error on token(s), misplaced construct(s)
+	The public type Book must be defined in its own file
+	The public type Main must be defined in its own file
+
+	at testing_ChatGPT_on_java.Library.<init>(Library.java:3)
+	at testing_ChatGPT_on_java.Library_ESTest.test1(Library_ESTest.java:30)
+4) test0(testing_ChatGPT_on_java.Library_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	Syntax error on token(s), misplaced construct(s)
+	The public type Book must be defined in its own file
+	The public type Main must be defined in its own file
+
+	at testing_ChatGPT_on_java.Library.<init>(Library.java:3)
+	at testing_ChatGPT_on_java.Library_ESTest.test0(Library_ESTest.java:22)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

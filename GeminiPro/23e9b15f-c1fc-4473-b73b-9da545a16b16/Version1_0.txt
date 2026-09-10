@@ -1,0 +1,28 @@
+```java
+import java.util.TreeMap;
+
+public class CopyTreeMap {
+
+    public static void main(String[] args) {
+        // create a TreeMap
+        TreeMap<Integer, String> treeMap1 = new TreeMap<>();
+
+        // add some key-value pairs to the TreeMap
+        treeMap1.put(1, "one");
+        treeMap1.put(2, "two");
+        treeMap1.put(3, "three");
+        treeMap1.put(4, "four");
+
+        // create a new TreeMap
+        TreeMap<Integer, String> treeMap2 = new TreeMap<>();
+
+        // copy the contents of treeMap1 to treeMap2
+        treeMap2.putAll(treeMap1);
+
+        // print the contents of treeMap2
+        for (Integer key : treeMap2.keySet()) {
+            System.out.println(key + " : " + treeMap2.get(key));
+        }
+    }
+}
+```

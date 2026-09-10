@@ -1,0 +1,52 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Hello {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Hello " + scanner.nextLine());
+        System.out.println("My name is " + scanner.nextLine());
+    }
+}
+
+Output:
+Hello Alexandra Abramov
+My name is Alexandra Abramov
+
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test Case 1:
+Scanner scanner = new Scanner(System.in);
+System.out.println("Hello " + scanner.nextLine());
+System.out.println("My name is " + scanner.nextLine());
+
+Test Case 2:
+Scanner scanner = new Scanner(System.in);
+System.out.println("Hello " + scanner.nextLine());
+System.out.println("My name is " + scanner.nextLine());
+
+Test Case 3:
+Scanner scanner = new Scanner(System.in);
+System.out.println("Hello " + scanner.nextLine());
+System.out.println("My name is " + scanner.nextLine());
+
+Test Case 4:
+Scanner scanner = new Scanner(System.in);
+System.out.println("Hello " + scanner.nextLine());
+System.out.println("My name is " + scanner.nextLine());
+
+Test Case 5:
+Scanner scanner = new Scanner(System.in);
+System.out.println("Hello " + scanner.nextLine());
+System.out.println("My name is " + scanner.nextLine());
+
+Test Case 6:
+Scanner scanner = new Scanner(System.in);
+System.out.println("Hello " + scanner.nextLine());
+System.out.println("My name is " + scanner.nextLine());
+
+Test Case 7:
+Scanner scanner = new Scanner(System.

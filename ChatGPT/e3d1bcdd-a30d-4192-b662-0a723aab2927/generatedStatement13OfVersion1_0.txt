@@ -1,0 +1,6 @@
+
+Input:
+matrix = {}
+target = 10
+Expected Output:
+Target not found

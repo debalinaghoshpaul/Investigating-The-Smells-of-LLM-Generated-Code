@@ -1,0 +1,22 @@
+
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* Input: number = 19
+* Expected Output: true
+
+* Input: number = 82
+* Expected Output: false
+
+**Corner Cases:**
+
+* Input: number = 0
+* Expected Output: false
+
+* Input: number = -1
+* Expected Output: false
+
+* Input: number = Integer.MAX_VALUE
+* Expected Output: false

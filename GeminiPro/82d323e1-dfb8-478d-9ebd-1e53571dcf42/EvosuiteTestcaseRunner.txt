@@ -1,0 +1,15 @@
+JUnit version 4.13
+.Enter a string: 
+The string has pq-balance.
+.Enter a string: 
+..Enter a string: 
+The string does not have pq-balance.
+.Enter a string: 
+The string has pq-balance.
+.Enter a string: 
+The string does not have pq-balance.
+
+Time: 0.473
+
+OK (6 tests)
+

@@ -1,0 +1,8 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops: 1
+CommentRequired: Class comments are required: 2
+InefficientEmptyStringCheck: String.trim().length() == 0 / String.trim().isEmpty() is an inefficient way to validate a blank String.: 1
+AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+CloseResource: Ensure that resources like this Scanner object are closed after use: 3

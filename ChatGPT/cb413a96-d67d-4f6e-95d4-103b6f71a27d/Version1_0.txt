@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94sq2fMZp5fFxiI7fdf9sEOFYFuMJ",
+  "object" : "chat.completion",
+  "created" : 1710951138,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "public class AnagramIndices {\n\n    public static void main(String[] args) {\n        String s = \"cbaebabacd\";\n        String p = \"abc\";\n\n        System.out.println(findAnagramIndices(s, p));  // Output: [0, 6]\n    }\n\n    public static List<Integer> findAnagramIndices(String s, String p) {\n        List<Integer> result = new ArrayList<>();\n        if(s == null || s.length() == 0 || p == null || p.length() == 0) {\n            return result;\n        }\n\n        int[] target = new int[26];\n        for(char c : p.toCharArray()) {\n            target[c - 'a']++;\n        }\n\n        char[] arr = s.toCharArray();\n        int left = 0, right = 0, count = p.length();\n\n        while(right < s.length()) {\n            if(target[arr[right] - 'a'] > 0) {\n                count--;\n            }\n            target[arr[right] - 'a']--;\n            right++;\n\n            if(count == 0) {\n                result.add(left);\n            }\n\n            if(right - left == p.length()) {\n                if(target[arr[left] - 'a'] >= 0) {\n                    count++;\n                }\n                target[arr[left] - 'a']++;\n                left++;\n            }\n        }\n\n        return result;\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 77,
+    "completion_tokens" : 278,
+    "total_tokens" : 355
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

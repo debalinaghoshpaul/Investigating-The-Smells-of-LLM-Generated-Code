@@ -1,0 +1,28 @@
+
+
+Here are some test cases, including corner cases, to test the program:
+
+**Test Case 1:**
+
+* Input: 1 2 3 4 5
+* Expected Output: 2 1 4 3 5
+
+**Test Case 2:**
+
+* Input: 1
+* Expected Output: 1
+
+**Test Case 3:**
+
+* Input: 1 2
+* Expected Output: 2 1
+
+**Test Case 4:**
+
+* Input: 1 2 3 4 5 6 7
+* Expected Output: 2 1 4 3 6 5 7
+
+**Test Case 5:**
+
+* Input: Empty list
+* Expected Output: Empty list

@@ -1,0 +1,9 @@
+JUnit version 4.13
+.......Element 18 found at index 4
+Element 30 not found
+Element 10 found at index 0
+.
+Time: 0.487
+
+OK (8 tests)
+

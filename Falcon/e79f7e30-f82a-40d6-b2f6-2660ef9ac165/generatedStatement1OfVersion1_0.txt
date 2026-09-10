@@ -1,0 +1,14 @@
+
+List<String> availableCharsets = new ArrayList<>();
+availableCharsets.add("Big5");
+availableCharsets.add("Big5-HKSCS");
+availableCharsets.add("CESU-8");
+availableCharsets.add("EUC-JP");
+availableCharsets.add("EUC-KR");
+availableCharsets.add("GB18030");
+availableCharsets.add("GB2312");
+availableCharsets.add("GBK");
+availableCharsets.add("x-SJIS_0213");
+availableCharsets.add("x-UTF-16LE-BOM");
+availableCharsets.add("x-UTF-32BE-BOM");
+availableCharsets.add("x-UTF-32LE-BOM");

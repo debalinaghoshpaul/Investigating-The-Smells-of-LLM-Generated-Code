@@ -1,0 +1,32 @@
+
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc
+The next smallest palindrome is: cba
+Enter a string: abc

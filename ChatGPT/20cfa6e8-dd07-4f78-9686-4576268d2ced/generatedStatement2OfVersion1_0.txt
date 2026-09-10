@@ -1,0 +1,13 @@
+
+
+Test cases including corner cases:
+
+* **PATH**
+    * **Normal case:** PATH variable is set to a valid path, e.g. "/usr/local/bin:/usr/bin:/bin"
+    * **Corner case:** PATH variable is set to an invalid path, e.g. "/invalid/path"
+* **TEMP**
+    * **Normal case:** TEMP variable is set to a valid temporary directory, e.g. "/tmp"
+    * **Corner case:** TEMP variable is not set or set to an invalid directory
+* **USERNAME**
+    * **Normal case:** USERNAME variable is set to the current user's name, e.g. "username"
+    * **Corner case:** USERNAME variable is not set or set to an invalid name

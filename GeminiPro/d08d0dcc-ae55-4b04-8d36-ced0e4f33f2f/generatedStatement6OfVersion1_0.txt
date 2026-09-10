@@ -1,0 +1,5 @@
+
+
+    * **Input with only a fractional part:**
+        * Input: .45
+        * Output:

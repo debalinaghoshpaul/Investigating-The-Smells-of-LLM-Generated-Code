@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to implement a lambda expression to check if a given string is empty.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 8f21961e-dd54-451e-93e3-610b2068789f.\n

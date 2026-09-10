@@ -1,0 +1,37 @@
+ lazy
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test Case 1:
+String sentence = "The quick brown fox jumps over the lazy dog.";
+String[] words = sentence.split(" ");
+String penultimateWord = words[words.length - 1];
+System.out.println(penultimateWord);
+
+Test Case 2:
+String sentence = "The quick brown fox jumps over the lazy dog.";
+String[] words = sentence.split(" ");
+String penultimateWord = words[words.length - 2];
+System.out.println(penultimateWord);
+
+Test Case 3:
+String sentence = "The quick brown fox jumps over the lazy dog.";
+String[] words = sentence.split(" ");
+String penultimateWord = words[words.length - 3];
+System.out.println(penultimateWord);
+
+Test Case 4:
+String sentence = "The quick brown fox jumps over the lazy dog.";
+String[] words = sentence.split(" ");
+String penultimateWord = words[words.length - 4];
+System.out.println(penultimateWord);
+
+Test Case 5:
+String sentence = "The quick brown fox jumps over the lazy dog.";
+String[] words = sentence.split(" ");
+String penultimateWord = words[words.length - 5];
+System.out.println(penultimateWord);
+
+Test Case 6:
+String sentence =

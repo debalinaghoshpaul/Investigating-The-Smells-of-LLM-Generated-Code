@@ -1,0 +1,7 @@
+Violations by Category:
+CloneMethodReturnTypeMustMatchClassName: The return type of the clone() method must be the class name when implements Cloneable: 1
+UseUtilityClass: This utility class has a non-private constructor: 1
+OverrideBothEqualsAndHashcode: Ensure you override both equals() and hashCode(): 1
+CommentRequired: Class comments are required: 17
+MissingOverride: The method 'clone()' is missing an @Override annotation.: 5
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

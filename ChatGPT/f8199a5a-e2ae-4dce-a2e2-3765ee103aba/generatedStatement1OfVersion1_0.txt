@@ -1,0 +1,2 @@
+**Program to get the value of environment variables PATH, TEMP, USERNAME:**
+

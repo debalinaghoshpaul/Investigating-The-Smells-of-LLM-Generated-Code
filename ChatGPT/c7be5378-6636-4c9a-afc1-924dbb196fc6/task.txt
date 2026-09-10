@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to check if a point (x, y) is in a triangle or not. A triangle is formed by three points.\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : c7be5378-6636-4c9a-afc1-924dbb196fc6.\n

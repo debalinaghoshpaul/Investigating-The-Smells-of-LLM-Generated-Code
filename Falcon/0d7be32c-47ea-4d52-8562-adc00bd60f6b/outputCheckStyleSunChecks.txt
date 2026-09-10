@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_OOP\0d7be32c-47ea-4d52-8562-adc00bd60f6b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_OOP\0d7be32c-47ea-4d52-8562-adc00bd60f6b\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_OOP\0d7be32c-47ea-4d52-8562-adc00bd60f6b\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_OOP\0d7be32c-47ea-4d52-8562-adc00bd60f6b\generatedProgram1OfVersion1_0.java:5:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_OOP\0d7be32c-47ea-4d52-8562-adc00bd60f6b\generatedProgram1OfVersion1_0.java:5:25: Parameter color should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_OOP\0d7be32c-47ea-4d52-8562-adc00bd60f6b\generatedProgram1OfVersion1_0.java:5:32: 'color' hides a field. [HiddenField]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_OOP\0d7be32c-47ea-4d52-8562-adc00bd60f6b\generatedProgram1OfVersion1_0.java:5:39: Parameter duration should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_OOP\0d7be32c-47ea-4d52-8562-adc00bd60f6b\generatedProgram1OfVersion1_0.java:5:43: 'duration' hides a field. [HiddenField]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_OOP\0d7be32c-47ea-4d52-8562-adc00bd60f6b\generatedProgram1OfVersion1_0.java:10:29: Parameter color should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_OOP\0d7be32c-47ea-4d52-8562-adc00bd60f6b\generatedProgram1OfVersion1_0.java:10:36: 'color' hides a field. [HiddenField]
+Audit done.

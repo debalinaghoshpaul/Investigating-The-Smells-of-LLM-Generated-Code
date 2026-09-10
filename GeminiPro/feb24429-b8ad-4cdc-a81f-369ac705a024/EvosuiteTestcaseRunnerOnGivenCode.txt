@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Factorial of 7 is: 5040
+
+Factorial of 12 is: 479001600
+.
+Time: 0.33
+
+OK (2 tests)
+

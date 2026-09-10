@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Absolute_Java_ConsoleInputAndOutput\dc027687-4df0-4bc9-83ec-ea0bc59ae4f2\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Absolute_Java_ConsoleInputAndOutput\dc027687-4df0-4bc9-83ec-ea0bc59ae4f2\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Absolute_Java_ConsoleInputAndOutput\dc027687-4df0-4bc9-83ec-ea0bc59ae4f2\generatedProgram1OfVersion1_0.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Absolute_Java_ConsoleInputAndOutput\dc027687-4df0-4bc9-83ec-ea0bc59ae4f2\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Absolute_Java_ConsoleInputAndOutput\dc027687-4df0-4bc9-83ec-ea0bc59ae4f2\generatedProgram1OfVersion1_0.java:3:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Absolute_Java_ConsoleInputAndOutput\dc027687-4df0-4bc9-83ec-ea0bc59ae4f2\generatedProgram1OfVersion1_0.java:5: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Absolute_Java_ConsoleInputAndOutput\dc027687-4df0-4bc9-83ec-ea0bc59ae4f2\generatedProgram1OfVersion1_0.java:8: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Absolute_Java_ConsoleInputAndOutput\dc027687-4df0-4bc9-83ec-ea0bc59ae4f2\generatedProgram1OfVersion1_0.java:11: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Absolute_Java_ConsoleInputAndOutput\dc027687-4df0-4bc9-83ec-ea0bc59ae4f2\generatedProgram1OfVersion1_0.java:14: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Absolute_Java_ConsoleInputAndOutput\dc027687-4df0-4bc9-83ec-ea0bc59ae4f2\generatedProgram1OfVersion1_0.java:19: Line has trailing spaces. [RegexpSingleline]
+Audit done.

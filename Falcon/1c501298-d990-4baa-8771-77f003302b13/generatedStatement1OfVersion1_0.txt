@@ -1,0 +1,11 @@
+
+Enter three points on the plane surface: 
+x1 = 0.0
+y1 = 0.0
+x2 = 1.0
+y2 = 0.0
+x3 = 1.0
+y3 = 1.0
+Radius: 1.0
+Center X: 0.5
+Center Y: 0.5

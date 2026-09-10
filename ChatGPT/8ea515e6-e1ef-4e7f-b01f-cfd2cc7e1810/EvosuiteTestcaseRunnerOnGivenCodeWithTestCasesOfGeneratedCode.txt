@@ -1,0 +1,39 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.394
+There were 6 failures:
+1) test1(testing_ChatGPT_on_java.TripletSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.TripletSum.findTriplets(solution.java:12)
+	at testing_ChatGPT_on_java.TripletSum_ESTest.test1(TripletSum_ESTest.java:30)
+2) test0(testing_ChatGPT_on_java.TripletSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.TripletSum.findTriplets(solution.java:12)
+	at testing_ChatGPT_on_java.TripletSum_ESTest.test0(TripletSum_ESTest.java:22)
+3) test3(testing_ChatGPT_on_java.TripletSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.TripletSum.findTriplets(solution.java:12)
+	at testing_ChatGPT_on_java.TripletSum_ESTest.test3(TripletSum_ESTest.java:52)
+4) test2(testing_ChatGPT_on_java.TripletSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.TripletSum.findTriplets(solution.java:12)
+	at testing_ChatGPT_on_java.TripletSum_ESTest.test2(TripletSum_ESTest.java:45)
+5) test5(testing_ChatGPT_on_java.TripletSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type TripletSum must be defined in its own file
+
+	at testing_ChatGPT_on_java.TripletSum.<init>(solution.java:4)
+	at testing_ChatGPT_on_java.TripletSum_ESTest.test5(TripletSum_ESTest.java:65)
+6) test4(testing_ChatGPT_on_java.TripletSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.TripletSum.main(solution.java:6)
+	at testing_ChatGPT_on_java.TripletSum_ESTest.test4(TripletSum_ESTest.java:59)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

@@ -1,0 +1,32 @@
+
+
+**Test cases:**
+
+* **Valid inputs:**
+    * 35, 45
+    * 25, 75
+    * 55, 65
+* **Invalid inputs:**
+    * 20, 30
+    * 80, 90
+    * 100, 200
+* **Corner cases:**
+    * 25, 25
+    * 75, 75
+    * 25, 75
+* **Negative inputs:**
+    * -35, -45
+    * -25, -75
+    * -55, -65
+* **Decimal inputs:**
+    * 35.5, 45.5
+    * 25.25, 75.75
+    * 55.55, 65.65
+* **Empty inputs:**
+    * "", ""
+    * null, null
+    * " ", " "
+* **Special characters:**
+    * "a", "b"
+    * "$", "%"
+    * "&", "*"

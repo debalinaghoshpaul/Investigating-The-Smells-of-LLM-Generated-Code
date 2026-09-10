@@ -1,0 +1,5 @@
+Violations by Category:
+CommentRequired: Class comments are required: 7
+LiteralsFirstInComparisons: Position literals first in String comparisons: 2
+UnusedPrivateField: Avoid unused private fields such as 'duration'.: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

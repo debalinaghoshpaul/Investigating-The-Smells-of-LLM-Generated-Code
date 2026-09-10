@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+* **Normal Case:**
+    * Input: str = "Hello World", substring = "World"
+    * Output: "First occurrence of World in Hello World is at index: 6"
+
+* **Case-Sensitive:**
+    * Input: str = "Hello World", substring = "world"
+    * Output: "Substring not found."
+
+* **Empty String:**
+    * Input: str = "", substring = "abc"
+    * Output: "Substring not found."
+
+* **Substring Not Found:**
+    * Input: str = "This is a test", substring = "apple"
+    * Output: "Substring not found."

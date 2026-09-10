@@ -1,0 +1,17 @@
+
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+| Animal | Expected Output |
+|---|---|
+| Lion | Lion roars. |
+| Tiger | Tiger roars. |
+
+**Corner Cases:**
+
+| Animal | Expected Output |
+|---|---|
+| Null Animal Object | Throws NullPointerException. |
+| Custom Animal Class (not extending Animal) | Throws ClassCastException. |

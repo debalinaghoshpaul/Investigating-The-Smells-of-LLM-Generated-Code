@@ -1,0 +1,13 @@
+JUnit version 4.13
+.E..
+Time: 0.35
+There was 1 failure:
+1) test2(testing_ChatGPT_on_java.Exercise36_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method distance_Between_LatLong(double, double, double, double) is undefined for the type Exercise36
+
+	at testing_ChatGPT_on_java.Exercise36_ESTest.test2(Exercise36_ESTest.java:55)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+

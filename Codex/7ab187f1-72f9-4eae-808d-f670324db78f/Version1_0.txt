@@ -1,0 +1,102 @@
+```java
+import java.util.Scanner;
+
+public class PrimeFactors {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int number = scanner.nextInt();
+
+        System.out.println("The prime factors of " + number + " are: ");
+        for (int i = 2; i <= number / 2; i++) {
+            while (number % i == 0) {
+                System.out.println(i);
+                number /= i;
+            }
+        }
+
+        if (number > 1) {
+            System.out.println(number);
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Input:**
+
+```
+10
+```
+
+**Output:**
+
+```
+2
+5
+```
+
+**Input:**
+
+```
+13
+```
+
+**Output:**
+
+```
+13
+```
+
+**Input:**
+
+```
+21
+```
+
+**Output:**
+
+```
+3
+7
+```
+
+**Input:**
+
+```
+1
+```
+
+**Output:**
+
+```
+No prime factors
+```
+
+**Corner Cases:**
+
+**Input:**
+
+```
+-1
+```
+
+**Expected Output:**
+
+```
+Invalid input
+```
+
+**Input:**
+
+```
+0
+```
+
+**Expected Output:**
+
+```
+Invalid input
+```

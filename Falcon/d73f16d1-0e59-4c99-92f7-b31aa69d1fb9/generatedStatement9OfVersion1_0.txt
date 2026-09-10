@@ -1,0 +1,9 @@
+
+Input: "Hello, world! It's a beautiful day."
+Output:
+a: 1
+beautiful: 1
+day: 1
+hello: 1
+it's: 1
+world: 1

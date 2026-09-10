@@ -1,0 +1,4 @@
+
+Restaurant restaurant = new Restaurant();
+double averageRating = restaurant.calculateAverageRating();
+System.out.println(averageRating); // Expected output: 0.0

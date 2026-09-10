@@ -1,0 +1,9 @@
+JUnit version 4.13
+..Enter a string: 
+The updated string is: S2H_7HAs9
+.Enter a string: 
+
+Time: 0.473
+
+OK (3 tests)
+

@@ -1,0 +1,11 @@
+JUnit version 4.13
+.The largest sub-array is [5, 6]
+Elements of the sub-array: 0 -1 .......The largest sub-array is [0, 1]
+Elements of the sub-array: 0 1 .Original array: [2, 5, 0, 2, 1, 4, 3, 6, 1, 0]
+The largest sub-array is [1, 7]
+Elements of the sub-array: 5 0 2 1 4 3 6 ..The largest sub-array is [0, 0]
+Elements of the sub-array: 
+Time: 0.351
+
+OK (11 tests)
+

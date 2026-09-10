@@ -1,0 +1,14 @@
+
+interface Flyable {
+    void fly_obj();
+}
+
+class SomeClass implements Flyable {
+    @Override
+    public void fly_obj() {
+        // Empty implementation
+    }
+}
+
+SomeClass someClass = new SomeClass();
+someClass.fly_obj(); // No visible output

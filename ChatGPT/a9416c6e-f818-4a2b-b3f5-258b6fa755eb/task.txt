@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called Vehicle with a method called drive(). Create a subclass called Car that overrides the drive() method to print "Repairing a car".\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : a9416c6e-f818-4a2b-b3f5-258b6fa755eb.\n

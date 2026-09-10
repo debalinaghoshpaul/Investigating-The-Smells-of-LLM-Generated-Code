@@ -1,0 +1,58 @@
+```java
+import java.util.Scanner;
+
+public class ReturnUpdatedString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Create a new string to store the updated string
+        String updatedString = "";
+
+        // Iterate over the input string and add every character at an even position to the updated string
+        for (int i = 0; i < inputString.length(); i++) {
+            if (i % 2 == 0) {
+                updatedString += inputString.charAt(i);
+            }
+        }
+
+        // Print the updated string
+        System.out.println("The updated string is: " + updatedString);
+    }
+}
+```
+
+**Test Cases:**
+
+**Input:** "Hello World"
+**Output:** "HloWrd"
+
+**Input:** "1234567890"
+**Output:** "13579"
+
+**Input:** "abcdefghij"
+**Output:** "acegij"
+
+**Input:** ""
+**Output:** ""
+
+**Input:** "a"
+**Output:** "a"
+
+**Input:** "123"
+**Output:** "13"
+
+**Corner Cases:**
+
+**Input:** null
+**Output:** NullPointerException
+
+**Input:** " "
+**Output:** ""
+
+**Input:** "\n"
+**Output:** ""

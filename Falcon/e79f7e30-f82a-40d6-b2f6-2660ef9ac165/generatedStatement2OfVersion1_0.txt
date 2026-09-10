@@ -1,0 +1,7 @@
+
+
+**Test cases:**
+
+* **Normal case:** The program should list all available character sets.
+* **Empty case:** The program should not list any character sets if none are available.
+* **Special character case:** The program should list character sets with special characters in their names, such as "Big5-HKSCS".

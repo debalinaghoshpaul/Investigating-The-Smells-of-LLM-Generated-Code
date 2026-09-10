@@ -1,0 +1,16 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty string:** ""
+* **String with no vowels:** "bcdfghjklmnpqrstvwxyz"
+
+**Normal Cases:**
+
+* **String with enough vowels:** "hello world"
+* **String with fewer vowels than the requested number:** "bcdfghjklmnpqrstvwxyz"
+* **String with vowels at the beginning and end:** "aeioubcdfghjklmnpqrstvwxyz"
+* **String with vowels in the middle:** "bcdfghjklmnpqrstvwxyzaeio"
+* **String with uppercase vowels:** "HELLO WORLD"

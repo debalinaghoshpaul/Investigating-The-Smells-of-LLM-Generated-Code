@@ -1,0 +1,73 @@
+```java
+import java.util.Scanner;
+
+public class MultiplicationTable {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the number from the user
+        System.out.print("Input a number: ");
+        int number = scanner.nextInt();
+
+        // Print the multiplication table
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(number + " x " + i + " = " + (number * i));
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+```
+Input: 8
+Expected Output:
+8 x 1 = 8
+8 x 2 = 16
+8 x 3 = 24
+8 x 4 = 32
+8 x 5 = 40
+8 x 6 = 48
+8 x 7 = 56
+8 x 8 = 64
+8 x 9 = 72
+8 x 10 = 80
+```
+
+**Corner Cases:**
+
+* **Zero:**
+```
+Input: 0
+Expected Output:
+0 x 1 = 0
+0 x 2 = 0
+0 x 3 = 0
+...
+0 x 10 = 0
+```
+
+* **Negative Number:**
+```
+Input: -5
+Expected Output:
+-5 x 1 = -5
+-5 x 2 = -10
+-5 x 3 = -15
+...
+-5 x 10 = -50
+```
+
+* **Large Number:**
+```
+Input: 100
+Expected Output:
+100 x 1 = 100
+100 x 2 = 200
+100 x 3 = 300
+...
+100 x 10 = 1000
+```

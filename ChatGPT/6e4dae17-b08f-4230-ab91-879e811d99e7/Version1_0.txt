@@ -1,0 +1,66 @@
+**Java Program:**
+
+```java
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.IntStream;
+
+public class SumOfSquares {
+
+    public static void main(String[] args) {
+        // Sample list of numbers
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+
+        // Sum of squares of all odd numbers
+        int sumOfOddSquares = IntStream.of(numbers)
+                .filter(num -> num % 2 != 0)
+                .map(num -> num * num)
+                .sum();
+
+        // Sum of squares of all even numbers
+        int sumOfEvenSquares = IntStream.of(numbers)
+                .filter(num -> num % 2 == 0)
+                .map(num -> num * num)
+                .sum();
+
+        System.out.println("Sum of squares of odd numbers: " + sumOfOddSquares);
+        System.out.println("Sum of squares of even numbers: " + sumOfEvenSquares);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: `[1, 2, 3, 4, 5]`
+* Expected Output:
+    * Sum of squares of odd numbers: 25
+    * Sum of squares of even numbers: 30
+
+* Input: `[2, 4, 6, 8, 10]`
+* Expected Output:
+    * Sum of squares of odd numbers: 0
+    * Sum of squares of even numbers: 200
+
+**Corner Cases:**
+
+* Input: `[]` (empty list)
+* Expected Output:
+    * Sum of squares of odd numbers: 0
+    * Sum of squares of even numbers: 0
+
+* Input: `[0]`
+* Expected Output:
+    * Sum of squares of odd numbers: 0
+    * Sum of squares of even numbers: 0
+
+* Input: `[1, 3, 5, 7]` (only odd numbers)
+* Expected Output:
+    * Sum of squares of odd numbers: 25
+    * Sum of squares of even numbers: 0
+
+* Input: `[2, 4, 6, 8]` (only even numbers)
+* Expected Output:
+    * Sum of squares of odd numbers: 0
+    * Sum of squares of even numbers: 100

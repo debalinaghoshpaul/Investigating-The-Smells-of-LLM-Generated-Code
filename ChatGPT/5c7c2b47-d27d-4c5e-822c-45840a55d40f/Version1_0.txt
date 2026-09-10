@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8robfMzyjRlfgKEL8MirS1xWcpOey",
+  "object" : "chat.completion",
+  "created" : 1707836607,
+  "model" : "gpt-3.5-turbo-0613",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Sure! Here's a Java program that implements a stack using a linked list:\n\n```java\nclass Node {\n    int data;\n    Node next;\n    \n    public Node(int data) {\n        this.data = data;\n        this.next = null;\n    }\n}\n\nclass Stack {\n    private Node top;\n\n    public Stack() {\n        this.top = null;\n    }\n\n    public void push(int data) {\n        Node newNode = new Node(data);\n        if (top == null) {\n            top = newNode;\n        } else {\n            newNode.next = top;\n            top = newNode;\n        }\n        System.out.println(data + \" pushed to stack\");\n    }\n\n    public int pop() {\n        if (top == null) {\n            System.out.println(\"Stack is empty\");\n            return -1;\n        }\n        int popped = top.data;\n        top = top.next;\n        return popped;\n    }\n\n    public boolean isEmpty() {\n        return top == null;\n    }\n\n    public void printStack() {\n        if (top == null) {\n            System.out.println(\"Stack is empty\");\n            return;\n        }\n        Node temp = top;\n        System.out.print(\"Stack: \");\n        while (temp != null) {\n            System.out.print(temp.data + \" \");\n            temp = temp.next;\n        }\n        System.out.println();\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Stack stack = new Stack();\n        \n        stack.push(10);\n        stack.push(20);\n        stack.push(30);\n        \n        stack.printStack();\n        \n        System.out.println(\"Popped element: \" + stack.pop());\n        \n        stack.printStack();\n        \n        System.out.println(\"Is stack empty? \" + stack.isEmpty());\n    }\n}\n```\n\nOutput:\n```\n10 pushed to stack\n20 pushed to stack\n30 pushed to stack\nStack: 30 20 10 \nPopped element: 30\nStack: 20 10 \nIs stack empty? false\n```\n\nIn this implementation, the `Stack` class maintains a reference to the top node of the linked list. The `push` method adds a new node to the top and updates the top reference accordingly. The `pop` method removes the top node and returns its value. The `isEmpty` method checks if the stack is empty. The `printStack` method is used to display the elements of the stack.\n\nHope this helps!"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 58,
+    "completion_tokens" : 495,
+    "total_tokens" : 553
+  },
+  "system_fingerprint" : null
+}

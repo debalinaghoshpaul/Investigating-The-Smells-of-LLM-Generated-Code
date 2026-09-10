@@ -1,0 +1,48 @@
+**Java program:**
+
+```java
+import java.util.regex.*;
+
+public class SubstringBeforePeriod {
+
+    public static void main(String[] args) {
+        String text = "The quick brown fox jumps over the lazy dog.";
+
+        // Check if "fox" appears before a period
+        boolean result = Pattern.matches(".*fox.*\\..*", text);
+
+        // Print the result
+        System.out.println(result); // Output: true
+
+        // Check if "cat" appears before a period
+        result = Pattern.matches(".*cat.*\\..*", text);
+
+        // Print the result
+        System.out.println(result); // Output: false
+    }
+}
+```
+
+**Test cases:**
+
+**Normal cases:**
+
+* Input: "The quick brown fox jumps over the lazy dog."
+* Output: true
+
+* Input: "The cat jumps over the lazy dog."
+* Output: false
+
+**Corner cases:**
+
+* Input: "" (empty string)
+* Output: false
+
+* Input: "." (a single period)
+* Output: false
+
+* Input: "fox." (a substring with a period at the end)
+* Output: true
+
+* Input: ".fox" (a substring with a period at the beginning)
+* Output: false

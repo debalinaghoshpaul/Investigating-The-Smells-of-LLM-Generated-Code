@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8a48630f-0a16-4819-8dd4-dd4d25315c7b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8a48630f-0a16-4819-8dd4-dd4d25315c7b\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8a48630f-0a16-4819-8dd4-dd4d25315c7b\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8a48630f-0a16-4819-8dd4-dd4d25315c7b\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8a48630f-0a16-4819-8dd4-dd4d25315c7b\generatedProgram1OfVersion1_0.java:7: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8a48630f-0a16-4819-8dd4-dd4d25315c7b\generatedProgram1OfVersion1_0.java:12:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8a48630f-0a16-4819-8dd4-dd4d25315c7b\generatedProgram1OfVersion1_0.java:12:44: Parameter array should be final. [FinalParameters]
+Audit done.

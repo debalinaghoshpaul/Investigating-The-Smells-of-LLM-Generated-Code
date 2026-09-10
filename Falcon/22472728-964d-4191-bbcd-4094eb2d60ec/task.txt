@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to illustrate the usage of the ReadWriteLock interface for concurrent read-write access to a shared resource.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 22472728-964d-4191-bbcd-4094eb2d60ec.\n

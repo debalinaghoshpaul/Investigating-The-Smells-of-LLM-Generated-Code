@@ -1,0 +1,7 @@
+JUnit version 4.13
+.....GCD of 24 and 36 is: 12
+
+Time: 0.497
+
+OK (5 tests)
+

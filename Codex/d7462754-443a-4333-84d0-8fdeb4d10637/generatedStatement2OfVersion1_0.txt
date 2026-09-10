@@ -1,0 +1,13 @@
+
+
+**Test Cases:**
+
+* **Valid input:**
+    * "Hello"
+    * "aeiou"
+* **Invalid input:**
+    * "bcdfghjklmnpqrstvwxyz"
+    * "" (empty string)
+* **Corner cases:**
+    * "Aeiou" (all vowels, but in uppercase)
+    * "12345" (no vowels)

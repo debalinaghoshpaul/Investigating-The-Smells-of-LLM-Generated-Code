@@ -1,0 +1,60 @@
+```java
+import java.util.*;
+
+public class FindPairsWithGivenSum {
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int sum = 15;
+
+        findPairsWithGivenSum(arr, sum);
+    }
+
+    public static void findPairsWithGivenSum(int[] arr, int sum) {
+        Set<Integer> set = new HashSet<>();
+
+        for (int i = 0; i < arr.length; i++) {
+            int complement = sum - arr[i];
+
+            if (set.contains(complement)) {
+                System.out.println("Pair found: " + arr[i] + " + " + complement + " = " + sum);
+            }
+
+            set.add(arr[i]);
+        }
+    }
+}
+```
+
+Test cases:
+
+1. **Positive test case:**
+```
+Input:
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sum = 15
+Expected output:
+Pair found: 1 + 14 = 15
+Pair found: 2 + 13 = 15
+Pair found: 3 + 12 = 15
+Pair found: 4 + 11 = 15
+Pair found: 5 + 10 = 15
+```
+
+2. **Negative test case:**
+```
+Input:
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sum = 20
+Expected output:
+No pairs found with sum 20
+```
+
+3. **Corner case:**
+```
+Input:
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9]
+sum = 18
+Expected output:
+Pair found: 9 + 9 = 18
+```

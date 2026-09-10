@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to get the majority element from an array of integers containing duplicates.\nMajority element: A majority element is an element that appears more than n/2 times where n is the array size.\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 01b65187-e7c2-44d7-b362-631e2190cef3.\n

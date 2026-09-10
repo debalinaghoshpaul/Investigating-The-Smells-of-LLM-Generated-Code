@@ -1,0 +1,7 @@
+
+Enter the size of the array:
+5
+Enter the elements of the array:
+1 3 5 7 9
+Even count: 0
+Odd count: 5

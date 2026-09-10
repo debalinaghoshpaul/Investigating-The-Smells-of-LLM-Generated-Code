@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yA7dtzOmwUBBlPOia73QCbWsqo7",
+  "object" : "chat.completion",
+  "created" : 1710256619,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\n\npublic class MoveZerosToEnd {\n\n    public static void main(String[] args) {\n        int[] arr = {0, 5, 0, 3, 0, 8, 9};\n        \n        moveZerosToEnd(arr);\n        \n        System.out.println(\"Array after moving zeros to the end: \" + Arrays.toString(arr));\n    }\n    \n    public static void moveZerosToEnd(int[] arr) {\n        int index = 0;\n        \n        for(int i = 0; i < arr.length; i++) {\n            if(arr[i] != 0) {\n                arr[index] = arr[i];\n                if(index != i) {\n                    arr[i] = 0;\n                }\n                index++;\n            }\n        }\n    }\n\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 79,
+    "completion_tokens" : 161,
+    "total_tokens" : 240
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

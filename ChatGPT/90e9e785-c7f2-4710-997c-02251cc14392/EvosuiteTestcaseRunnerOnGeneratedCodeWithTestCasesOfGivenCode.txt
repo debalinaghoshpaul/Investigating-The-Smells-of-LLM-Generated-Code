@@ -1,0 +1,39 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.362
+There were 6 failures:
+1) test0(testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	OddNumberSumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest.test0(OddNumberSumCalculator_ESTest.java:22)
+2) test1(testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	OddNumberSumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest.test1(OddNumberSumCalculator_ESTest.java:30)
+3) test4(testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	OddNumberSumCalculator cannot be resolved to a type
+	OddNumberSumCalculator cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest.test4(OddNumberSumCalculator_ESTest.java:59)
+4) test5(testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	OddNumberSumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest.test5(OddNumberSumCalculator_ESTest.java:64)
+5) test2(testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	OddNumberSumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest.test2(OddNumberSumCalculator_ESTest.java:38)
+6) test3(testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	OddNumberSumCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.OddNumberSumCalculator_ESTest.test3(OddNumberSumCalculator_ESTest.java:46)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class RemoveFirstLastChars {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Check if the first and last characters are the same
+        if (str.charAt(0) == str.charAt(str.length() - 1)) {
+            // If they are the same, remove them
+            str = str.substring(1, str.length() - 1);
+        }
+
+        // Print the resulting string
+        System.out.println("The string without the first or last characters is: " + str);
+    }
+}

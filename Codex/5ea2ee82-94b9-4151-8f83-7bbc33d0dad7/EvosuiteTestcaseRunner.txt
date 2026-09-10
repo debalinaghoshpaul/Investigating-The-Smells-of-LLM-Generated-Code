@@ -1,0 +1,17 @@
+JUnit version 4.13
+...Original arrays:
+[20, 30, 40]
+[10]
+[]
+Invalid array: Must contain at least one element
+
+New arrays after swapping first and last elements:
+[40, 30, 20]
+[10]
+[]
+.Invalid array: Must contain at least one element
+.
+Time: 0.361
+
+OK (5 tests)
+

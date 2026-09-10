@@ -1,0 +1,12 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 84). [LineLength]: 2
+LocalVariableName: Name 'employee_id' must match pattern '^([a-z][a-zA-Z0-9]*|_)$'. [LocalVariableName]: 3
+DesignForExtension: Class 'Employee' looks like designed for extension (can be subclassed), but the method 'getEmployeeId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Employee' final or making the method 'getEmployeeId' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 6
+FinalParameters: Parameter employee_id should be final. [FinalParameters]: 7
+HiddenField: 'employee_id' hides a field. [HiddenField]: 6
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+ParameterName: Name 'employee_id' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]: 6
+MemberName: Name 'employee_id' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]: 3
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 8
+MagicNumber: '1000.00' is a magic number. [MagicNumber]: 1

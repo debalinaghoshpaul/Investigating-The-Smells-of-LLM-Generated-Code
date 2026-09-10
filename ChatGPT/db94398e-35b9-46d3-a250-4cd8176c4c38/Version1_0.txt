@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9D9k13Zynv048H9ku4LOhp4WBcuoZ",
+  "object" : "chat.completion",
+  "created" : 1712922737,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is the implementation of the Vehicle class in Java:\n\n```java\npublic class Vehicle {\n    private double tankSize;\n    private double efficiency;\n    private double fuelInTank;\n\n    // Constructor\n    public Vehicle(double tankSize, double efficiency, double fuelInTank) {\n        this.tankSize = tankSize;\n        this.efficiency = efficiency;\n        this.fuelInTank = fuelInTank;\n    }\n\n    // Accessor method to return initial tank size, efficiency and fuel in tank\n    public String getInitialValues() {\n        return \"Initial tank size: \" + tankSize + \", Initial efficiency: \" + efficiency + \", Initial fuel in tank: \" + fuelInTank;\n    }\n\n    // Mutator method to calculate and add petrol to the tank\n    public void addPetrol(double petrolToAdd) {\n        double maxPetrol = tankSize - fuelInTank;\n        if (petrolToAdd <= maxPetrol) {\n            fuelInTank += petrolToAdd;\n            System.out.println(\"Petrol added successfully. Current fuel in tank: \" + fuelInTank);\n        } else {\n            System.out.println(\"Cannot add more petrol than the tank capacity. Maximum petrol that can be added: \" + maxPetrol);\n        }\n    }\n\n    // Method to calculate the distance that can be traveled with the available fuel and efficiency\n    public double driveTo(double distance) {\n        double maxDistance = fuelInTank * efficiency;\n        if (distance <= maxDistance) {\n            fuelInTank -= distance / efficiency;\n            return distance;\n        } else {\n            fuelInTank = 0;\n            return maxDistance;\n        }\n    }\n\n    public static void main(String[] args) {\n        Vehicle car = new Vehicle(50, 10, 25);\n        System.out.println(car.getInitialValues());\n\n        car.addPetrol(30);\n        System.out.println(\"Distance traveled: \" + car.driveTo(200));\n        System.out.println(\"Remaining fuel in tank: \" + car.fuelInTank);\n    }\n}\n```\n\nIn this implementation, we have defined the Vehicle class with instance variables tankSize, efficiency, and fuelInTank. We have created an accessor method `getInitialValues()` to return the initial values of these variables, a mutator method `addPetrol()` to add petrol to the tank, and a method `driveTo()` to calculate the distance that can be traveled with the available fuel and efficiency.\n\nIn the `main` method, we create an instance of the Vehicle class, set initial values, add petrol, and calculate the distance traveled using the `driveTo()` method.\n\nYou can run this code to test the functionality of the Vehicle class."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 226,
+    "completion_tokens" : 552,
+    "total_tokens" : 778
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

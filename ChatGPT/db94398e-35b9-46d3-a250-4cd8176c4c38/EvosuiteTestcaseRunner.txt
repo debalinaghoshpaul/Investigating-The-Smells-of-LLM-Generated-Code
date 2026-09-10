@@ -1,0 +1,13 @@
+JUnit version 4.13
+.Initial tank size: 50.0, Initial efficiency: 10.0, Initial fuel in tank: 25.0
+Cannot add more petrol than the tank capacity. Maximum petrol that can be added: 25.0
+Distance traveled: 200.0
+Remaining fuel in tank: 5.0
+.Cannot add more petrol than the tank capacity. Maximum petrol that can be added: -638.5766315997928
+..Petrol added successfully. Current fuel in tank: -4944.844723839098
+.Petrol added successfully. Current fuel in tank: -9889.689447678196
+..
+Time: 0.486
+
+OK (7 tests)
+

@@ -1,0 +1,3 @@
+
+
+In this program, we first create an originalTreeMap and add some elements to it. Then, we create another TreeMap called copiedTreeMap and use the `putAll` method to copy all the elements from the originalTreeMap to the copiedTreeMap. Finally, we print both the original and copied TreeMaps to verify the copy operation.

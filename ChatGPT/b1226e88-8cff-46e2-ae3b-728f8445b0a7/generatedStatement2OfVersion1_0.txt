@@ -1,0 +1,58 @@
+
+
+Here are some test cases, including corner cases, to test the program:
+
+**Test Case 1:**
+
+* Input:
+    * Array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    * Element to find: 5
+* Expected output:
+    * Element found at index: 4
+
+**Test Case 2:**
+
+* Input:
+    * Array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    * Element to find: 12
+* Expected output:
+    * Element not found
+
+**Test Case 3:**
+
+* Input:
+    * Matrix:
+        * [
+        *   [1, 2, 3],
+        *   [4, 5, 6],
+        *   [7, 8, 9]
+        * ]
+    * Element to find: 5
+* Expected output:
+    * Element found in matrix: true
+
+**Test Case 4:**
+
+* Input:
+    * Matrix:
+        * [
+        *   [1, 2, 3],
+        *   [4, 5, 6],
+        *   [7, 8, 9]
+        * ]
+    * Element to find: 12
+* Expected output:
+    * Element not found in matrix
+
+**Test Case 5:**
+
+* Input:
+    * Matrix:
+        * [
+        *   [1, 2, 3],
+        *   [4, 5, 6],
+        *   [7, 8, 9]
+        * ]
+    * Element to find: 1
+* Expected output:
+    * Element found in matrix: true

@@ -1,0 +1,35 @@
+
+Enter an octal number: 10
+The decimal equivalent of 10 is 8
+The decimal equivalent of 11 is 9
+The decimal equivalent of 12 is 10
+The decimal equivalent of 13 is 11
+The decimal equivalent of 14 is 12
+The decimal equivalent of 15 is 13
+The decimal equivalent of 16 is 14
+The decimal equivalent of 17 is 15
+The decimal equivalent of 18 is 16
+The decimal equivalent of 19 is 17
+The decimal equivalent of 20 is 18
+The decimal equivalent of 21 is 19
+The decimal equivalent of 22 is 20
+The decimal equivalent of 23 is 21
+The decimal equivalent of 24 is 22
+The decimal equivalent of 25 is 23
+The decimal equivalent of 26 is 24
+The decimal equivalent of 27 is 25
+The decimal equivalent of 28 is 26
+The decimal equivalent of 29 is 27
+The decimal equivalent of 30 is 28
+The decimal equivalent of 31 is 29
+The decimal equivalent of 32 is 30
+The decimal equivalent of 33 is 31
+The decimal equivalent of 34 is 32
+The decimal equivalent of 35 is 33
+The decimal equivalent of 36 is 34
+The decimal equivalent of 37 is 35
+The decimal equivalent of 38 is 36
+The decimal equivalent of 39 is 37
+The decimal equivalent of 40 is 38
+The decimal equivalent of 41 is 39
+The decimal equivalent

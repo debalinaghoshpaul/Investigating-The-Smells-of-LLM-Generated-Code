@@ -1,0 +1,5 @@
+
+
+This program defines a `Node` class and a `LinkedList` class, where the `swapNodes` method swaps adjacent nodes in the linked list. The `printList` method is used to print the elements of the linked list.
+
+In the `main` method, a sample linked list is created and the initial list is printed. Then, the `swapNodes` method is called to swap adjacent nodes, and the updated list is printed again.

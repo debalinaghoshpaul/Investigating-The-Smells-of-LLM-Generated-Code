@@ -1,0 +1,62 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class HammingWeight {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        int hammingWeight = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (arr[i]!= arr[j]) {
+                    hammingWeight++;
+                }
+            }
+        }
+        System.out.println("Hamming Weight: " + hammingWeight);
+    }
+}
+
+// Output:
+// Hamming Weight: 4
+// Hamming Weight: 5
+// Hamming Weight: 6
+// Hamming Weight: 7
+// Hamming Weight: 8
+// Hamming Weight: 9
+// Hamming Weight: 10
+// Hamming Weight: 11
+// Hamming Weight: 12
+// Hamming Weight: 13
+// Hamming Weight: 14
+// Hamming Weight: 15
+// Hamming Weight: 16
+// Hamming Weight: 17
+// Hamming Weight: 18
+// Hamming Weight: 19
+// Hamming Weight: 20
+// Hamming Weight: 21
+// Hamming Weight: 22
+// Hamming Weight: 23
+// Hamming Weight: 24
+// Hamming Weight: 25
+// Hamming Weight: 26
+// Hamming Weight: 27
+// Hamming Weight: 28
+// Hamming Weight: 29
+// Hamming Weight: 30
+// Hamming Weight: 31
+// Hamming Weight: 32
+// Hamming Weight: 33
+// Hamming Weight: 34
+// Hamming Weight: 35
+// Hamming Weight: 36
+// Hamming Weight: 37
+// Hamming Weight: 38
+// Hamming Weight: 39
+// Hamming Weight: 40
+// Hamming

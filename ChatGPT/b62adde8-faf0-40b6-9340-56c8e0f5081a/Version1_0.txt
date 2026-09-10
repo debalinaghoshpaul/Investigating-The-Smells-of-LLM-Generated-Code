@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95Dtc3wTJBwoEfJZJIoT8cU1XlwYd",
+  "object" : "chat.completion",
+  "created" : 1711032084,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.*;\n\npublic class WordPageNumbers {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        Map<String, List<Integer>> wordPageMap = new HashMap<>();\n        \n        System.out.println(\"Enter pairs of word and page number (separated by space). Enter 'exit' to stop:\");\n        \n        while (true) {\n            String input = scanner.nextLine();\n            \n            if (input.equals(\"exit\")) {\n                break;\n            }\n            \n            String[] pair = input.split(\" \");\n            String word = pair[0];\n            int pageNumber = Integer.parseInt(pair[1]);\n            \n            List<Integer> pageNumbers = wordPageMap.getOrDefault(word, new ArrayList<>());\n            pageNumbers.add(pageNumber);\n            wordPageMap.put(word, pageNumbers);\n        }\n        \n        System.out.println(\"Word : Page Numbers\");\n        for (Map.Entry<String, List<Integer>> entry : wordPageMap.entrySet()) {\n            System.out.print(entry.getKey() + \" : \");\n            for (int pageNumber : entry.getValue()) {\n                System.out.print(pageNumber + \" \");\n            }\n            System.out.println();\n        }\n        \n        scanner.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 83,
+    "completion_tokens" : 241,
+    "total_tokens" : 324
+  },
+  "system_fingerprint" : "fp_fa89f7a861"
+}

@@ -1,0 +1,22 @@
+```java
+import java.util.ArrayList;
+
+public class ListOfCharacters {
+
+    public static void main(String[] args) {
+        // Create a word
+        String word = "Hello";
+
+        // Create an ArrayList to store the characters
+        ArrayList<Character> characters = new ArrayList<>();
+
+        // Iterate over the word and add each character to the ArrayList
+        for (char c : word.toCharArray()) {
+            characters.add(c);
+        }
+
+        // Print the ArrayList
+        System.out.println(characters);
+    }
+}
+```

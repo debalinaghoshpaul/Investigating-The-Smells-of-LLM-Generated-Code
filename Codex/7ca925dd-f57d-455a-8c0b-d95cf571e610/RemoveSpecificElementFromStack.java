@@ -1,0 +1,26 @@
+import java.util.Stack;
+
+public class RemoveSpecificElementFromStack {
+
+    public static void main(String[] args) {
+        Stack<String> stack = new Stack<>();
+        stack.push("Java");
+        stack.push("C++");
+        stack.push("Python");
+        stack.push("C#");
+
+        // Remove a specific element from the stack
+        String elementToRemove = "Python";
+        if (stack.removeElement(elementToRemove)) {
+            System.out.println("Element " + elementToRemove + " removed from the stack.");
+        } else {
+            System.out.println("Element " + elementToRemove + " not found in the stack.");
+        }
+
+        // Print the updated stack
+        System.out.println("Updated stack:");
+        for (String s : stack) {
+            System.out.println(s);
+        }
+    }
+}

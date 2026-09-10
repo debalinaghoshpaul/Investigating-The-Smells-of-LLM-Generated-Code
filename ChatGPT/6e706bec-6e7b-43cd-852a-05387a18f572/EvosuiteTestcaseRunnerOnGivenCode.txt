@@ -1,0 +1,7 @@
+JUnit version 4.13
+.....The GCD of 16 and 18 is: 2
+
+Time: 0.485
+
+OK (5 tests)
+

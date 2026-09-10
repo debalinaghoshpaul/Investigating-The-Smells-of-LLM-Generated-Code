@@ -1,0 +1,12 @@
+
+
+**Test Cases:**
+
+| Input Array | Missing Letter |
+|---|---|
+| {'p', 'r', 's', 't'} | 'q' |
+| {'a', 'b', 'c', 'd', 'e', 'g', 'h', 'i'} | 'f' |
+| {'A', 'B', 'C', 'D', 'F', 'G', 'H', 'I'} | 'E' |
+| {'z', 'y', 'x', 'w', 'v', 'u'} | 't' |
+| {'a'} | ' ' | // No missing letter
+| {} | ' ' | // Empty array

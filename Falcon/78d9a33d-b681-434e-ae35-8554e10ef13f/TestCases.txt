@@ -1,0 +1,99 @@
+**Java code:**
+
+```java
+import java.util.Scanner;
+
+public class SubstringInMiddleOfString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input strings
+        System.out.println("Enter the original string: ");
+        String originalString = scanner.nextLine();
+        System.out.println("Enter the substring to check: ");
+        String substring = scanner.nextLine();
+
+        // Check if the substring appears in the middle of the original string
+        boolean isSubstringInMiddle = isSubstringInMiddle(originalString, substring);
+
+        // Print the result
+        if (isSubstringInMiddle) {
+            System.out.println("The substring appears in the middle of the original string.");
+        } else {
+            System.out.println("The substring does not appear in the middle of the original string.");
+        }
+    }
+
+    private static boolean isSubstringInMiddle(String originalString, String substring) {
+        int substringLength = substring.length();
+        int originalStringLength = originalString.length();
+
+        // Check if the substring is longer than the original string
+        if (substringLength > originalStringLength) {
+            return false;
+        }
+
+        // Check if the substring appears in the middle of the original string
+        int leftIndex = originalString.indexOf(substring);
+        int rightIndex = leftIndex + substringLength - 1;
+        int leftDifference = leftIndex - 0;
+        int rightDifference = originalStringLength - 1 - rightIndex;
+
+        // Return true if the difference between the number of characters to the left and right of the substring is not more than 1
+        return Math.abs(leftDifference - rightDifference) <= 1;
+    }
+}
+```
+
+**Test cases:**
+
+**Test case 1:**
+* Original string: "Hello world"
+* Substring to check: "world"
+* Expected output: true
+
+**Test case 2:**
+* Original string: "Hello world"
+* Substring to check: "hello"
+* Expected output: false
+
+**Test case 3:**
+* Original string: "Hello world"
+* Substring to check: "ld"
+* Expected output: true
+
+**Test case 4:**
+* Original string: "Hello world"
+* Substring to check: "worl"
+* Expected output: false
+
+**Test case 5:**
+* Original string: "Hello world"
+* Substring to check: "Hello world"
+* Expected output: true
+
+**Test case 6:**
+* Original string: "Hello world"
+* Substring to check: "Hello world!"
+* Expected output: false
+
+**Test case 7:**
+* Original string: ""
+* Substring to check: ""
+* Expected output: true
+
+**Test case 8:**
+* Original string: "Hello world"
+* Substring to check: "Hello world!!!"
+* Expected output: false
+
+**Test case 9:**
+* Original string: "Hello world"
+* Substring to check: "worldHello"
+* Expected output: false
+
+**Test case 10:**
+* Original string: "Hello world"
+* Substring to check: "worldHello!!!"
+* Expected output: false

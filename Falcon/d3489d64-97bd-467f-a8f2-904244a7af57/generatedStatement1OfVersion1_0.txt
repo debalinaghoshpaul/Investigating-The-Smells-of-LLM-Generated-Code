@@ -1,0 +1,3 @@
+ Pair is (7, 8), Maximum Product: 56
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.

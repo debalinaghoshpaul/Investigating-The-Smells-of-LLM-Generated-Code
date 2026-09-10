@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-99w0PjQQTNxtdxAdWxNF9GqP2epjA",
+  "object" : "chat.completion",
+  "created" : 1712154953,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.concurrent.locks.Lock;\nimport java.util.concurrent.locks.ReentrantLock;\n\nclass BankAccount {\n    private int balance;\n    private Lock lock;\n\n    public BankAccount(int initialBalance) {\n        this.balance = initialBalance;\n        this.lock = new ReentrantLock();\n    }\n\n    public void deposit(int amount) {\n        lock.lock();\n        try {\n            balance += amount;\n            System.out.println(\"Deposit: \" + amount + \", Current Balance: \" + balance);\n        } finally {\n            lock.unlock();\n        }\n    }\n\n    public void withdraw(int amount) {\n        lock.lock();\n        try {\n            if (balance >= amount) {\n                balance -= amount;\n                System.out.println(\"Withdrawal: \" + amount + \", Current Balance: \" + balance);\n            } else {\n                System.out.println(\"Insufficient funds for withdrawal: \" + amount);\n            }\n        } finally {\n            lock.unlock();\n        }\n    }\n}\n\npublic class BankAccountThreads {\n    public static void main(String[] args) {\n        BankAccount account = new BankAccount(1000);\n\n        Thread depositThread = new Thread(() -> {\n            for (int i = 0; i < 5; i++) {\n                account.deposit(100);\n            }\n        });\n\n        Thread withdrawThread = new Thread(() -> {\n            for (int i = 0; i < 3; i++) {\n                account.withdraw(200);\n            }\n        });\n\n        depositThread.start();\n        withdrawThread.start();\n    }\n}\n```\n\nIn this program, we have a `BankAccount` class that has methods for depositing and withdrawing money from the account. We use a `ReentrantLock` to ensure that the operations are thread-safe.\n\nIn the `BankAccountThreads` class, we create an instance of `BankAccount` with an initial balance of 1000. We then create two threads, `depositThread` and `withdrawThread`, that will deposit and withdraw money from the account concurrently. The `depositThread` makes 5 deposits of 100 each, while the `withdrawThread` makes 3 withdrawals of 200 each.\n\nWhen you run the program, you will see the deposits and withdrawals being processed concurrently, with the account balance being updated accordingly."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 70,
+    "completion_tokens" : 463,
+    "total_tokens" : 533
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

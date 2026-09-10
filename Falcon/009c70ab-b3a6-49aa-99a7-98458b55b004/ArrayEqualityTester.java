@@ -1,0 +1,31 @@
+import java.util.Arrays;
+
+public class ArrayEqualityTester {
+
+    public static void main(String[] args) {
+        // Test case 1: Two equal arrays
+        int[] arr1 = {1, 2, 3, 4, 5};
+        int[] arr2 = {1, 2, 3, 4, 5};
+        System.out.println(Arrays.equals(arr1, arr2)); // Output: true
+
+        // Test case 2: Two unequal arrays
+        int[] arr3 = {1, 2, 3, 4};
+        int[] arr4 = {1, 2, 3, 4, 5};
+        System.out.println(Arrays.equals(arr3, arr4)); // Output: false
+
+        // Test case 3: Two arrays with different lengths
+        int[] arr5 = {1, 2, 3};
+        int[] arr6 = {1, 2, 3, 4, 5};
+        System.out.println(Arrays.equals(arr5, arr6)); // Output: false
+
+        // Test case 4: Two arrays with null elements
+        int[] arr7 = {1, 2, null, 4, 5};
+        int[] arr8 = {1, 2, null, 4, 5};
+        System.out.println(Arrays.equals(arr7, arr8)); // Output: true
+
+        // Test case 5: Two arrays with different types of elements
+        int[] arr9 = {1, 2, 3, 4, 5};
+        String[] arr10 = {"1", "2", "3", "4", "5"};
+        System.out.println(Arrays.equals(arr9, arr10)); // Output: false
+    }
+}

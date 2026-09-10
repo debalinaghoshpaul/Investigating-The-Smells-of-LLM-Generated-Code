@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+* **Normal case:**
+    * Input: 123
+    * Expected output: 123
+* **Negative case:**
+    * Input: -456
+    * Expected output: -456
+* **Zero case:**
+    * Input: 0
+    * Expected output: 0
+* **Corner case (very large integer):**
+    * Input: 9223372036854775807
+    * Expected output: 9223372036854775807
+* **Corner case (very small integer):**
+    * Input: -9223372036854775808
+    * Expected output: -9223372036854775808

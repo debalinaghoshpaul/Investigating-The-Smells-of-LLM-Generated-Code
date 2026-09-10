@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DCLtep5cowh6SRdcX3V4utlBkhDs",
+  "object" : "chat.completion",
+  "created" : 1712932773,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.io.BufferedReader;\nimport java.io.FileReader;\nimport java.io.IOException;\nimport java.util.StringTokenizer;\n\npublic class RatingAnalyzer {\n\n    public static void main(String[] args) {\n        String file = \"ratings.txt\";\n        int[] ratings = new int[5];\n        int[] counts = new int[5];\n\n        try {\n            BufferedReader reader = new BufferedReader(new FileReader(file));\n            String line = reader.readLine(); // Read and ignore the header line\n            line = reader.readLine();\n\n            while (line != null) {\n                StringTokenizer tokenizer = new StringTokenizer(line, \",\");\n                int index = 0;\n\n                while (tokenizer.hasMoreTokens()) {\n                    int rating = Integer.parseInt(tokenizer.nextToken());\n                    if (rating != 0) {\n                        ratings[index] += rating;\n                        counts[index]++;\n                    }\n                    index++;\n                }\n\n                line = reader.readLine();\n            }\n\n            reader.close();\n\n            System.out.println(\"Average Ratings:\");\n            for (int i = 0; i < ratings.length; i++) {\n                if (counts[i] != 0) {\n                    double average = (double) ratings[i] / counts[i];\n                    System.out.println(\"Product \" + (char) ('A' + i) + \": \" + average);\n                }\n            }\n\n        } catch (IOException e) {\n            System.out.println(\"Error reading file: \" + e.getMessage());\n        }\n    }\n}\n```\n\nYou can create a text file named `ratings.txt` with sample ratings and run this program to calculate the average rating for each product. The program reads in the file, extracts each rating using the `StringTokenizer` class, and outputs the average rating for each product. Customers that did not rate a product are not considered when computing the average rating."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 392,
+    "completion_tokens" : 358,
+    "total_tokens" : 750
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

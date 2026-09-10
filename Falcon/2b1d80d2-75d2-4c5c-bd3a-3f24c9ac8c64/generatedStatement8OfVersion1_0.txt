@@ -1,0 +1,4 @@
+
+Exception: Alien name cannot be empty.
+Exception: Alien damage cannot be negative.
+Exception: Alien name cannot be null.

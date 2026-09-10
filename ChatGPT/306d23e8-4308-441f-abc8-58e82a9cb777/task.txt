@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to check if an array of integers is without 0 and -1.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 306d23e8-4308-441f-abc8-58e82a9cb777.\n

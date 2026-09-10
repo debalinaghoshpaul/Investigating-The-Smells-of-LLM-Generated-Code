@@ -1,0 +1,17 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * 1 (deficient)
+    * 10000 (abundant)
+* **Regular cases:**
+    * 6 (perfect)
+    * 12 (abundant)
+    * 21 (deficient)
+    * 100 (deficient)
+    * 1000 (abundant)
+* **Invalid cases:**
+    * 0 (invalid)
+    * -1 (invalid)
+    * 10001 (invalid)

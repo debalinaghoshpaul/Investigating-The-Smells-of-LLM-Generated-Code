@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-920JqT8BDtJRfg0Bs3aRgVnTkkjmn",
+  "object" : "chat.completion",
+  "created" : 1710264910,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "public class SmallestSubarrayLength {\n\n    public static int findSmallestSubarrayLength(int[] nums, int target) {\n        int minLength = Integer.MAX_VALUE;\n        int sum = 0;\n        int leftPointer = 0;\n\n        for (int i = 0; i < nums.length; i++) {\n            sum += nums[i];\n\n            while (sum >= target) {\n                minLength = Math.min(minLength, i - leftPointer + 1);\n                sum -= nums[leftPointer];\n                leftPointer++;\n            }\n        }\n\n        return minLength == Integer.MAX_VALUE ? 0 : minLength;\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {1, 2, 3, 4, 6};\n        int target = 8;\n        int result = findSmallestSubarrayLength(nums, target);\n        System.out.println(\"Minimum length of a contiguous subarray of which the sum is \" + target + \": \" + result);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 126,
+    "completion_tokens" : 206,
+    "total_tokens" : 332
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

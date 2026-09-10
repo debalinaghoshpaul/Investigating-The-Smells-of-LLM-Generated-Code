@@ -1,0 +1,44 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E
+Time: 0.375
+There were 7 failures:
+1) test1(testing_ChatGPT_on_java.InterleavingStrings_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.InterleavingStrings.interleave(Main.java:15)
+	at testing_ChatGPT_on_java.InterleavingStrings_ESTest.test1(InterleavingStrings_ESTest.java:31)
+2) test0(testing_ChatGPT_on_java.InterleavingStrings_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.InterleavingStrings.interleave(Main.java:15)
+	at testing_ChatGPT_on_java.InterleavingStrings_ESTest.test0(InterleavingStrings_ESTest.java:23)
+3) test3(testing_ChatGPT_on_java.InterleavingStrings_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.InterleavingStrings.interleave(Main.java:15)
+	at testing_ChatGPT_on_java.InterleavingStrings_ESTest.test3(InterleavingStrings_ESTest.java:51)
+4) test2(testing_ChatGPT_on_java.InterleavingStrings_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.InterleavingStrings.interleave(Main.java:15)
+	at testing_ChatGPT_on_java.InterleavingStrings_ESTest.test2(InterleavingStrings_ESTest.java:44)
+5) test5(testing_ChatGPT_on_java.InterleavingStrings_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.InterleavingStrings.main(Main.java:7)
+	at testing_ChatGPT_on_java.InterleavingStrings_ESTest.test5(InterleavingStrings_ESTest.java:65)
+6) test4(testing_ChatGPT_on_java.InterleavingStrings_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.InterleavingStrings.interleave(Main.java:15)
+	at testing_ChatGPT_on_java.InterleavingStrings_ESTest.test4(InterleavingStrings_ESTest.java:58)
+7) test6(testing_ChatGPT_on_java.InterleavingStrings_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type InterleavingStrings must be defined in its own file
+
+	at testing_ChatGPT_on_java.InterleavingStrings.<init>(Main.java:5)
+	at testing_ChatGPT_on_java.InterleavingStrings_ESTest.test6(InterleavingStrings_ESTest.java:71)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+

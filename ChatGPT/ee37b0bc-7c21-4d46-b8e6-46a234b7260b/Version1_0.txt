@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95XWsKFOXVvndKVwDpqAFzj7bViC3",
+  "object" : "chat.completion",
+  "created" : 1711107554,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class NumberTrianglePattern {\n    public static void main(String[] args) {\n        int n = 5; // number of rows in the pattern\n        \n        for (int i = 1; i <= n; i++) {\n            for (int j = 1; j <= i; j++) {\n                System.out.print(i + \" \");\n            }\n            System.out.println();\n        }\n    }\n}\n```\n\nOutput:\n```\n1 \n2 2 \n3 3 3 \n4 4 4 4 \n5 5 5 5 5 \n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 85,
+    "completion_tokens" : 123,
+    "total_tokens" : 208
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,5 @@
+
+Triangle Area: 12.0
+Triangle Perimeter: 12.0
+Square Area: 25.0
+Square Perimeter: 20.0

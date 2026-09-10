@@ -1,0 +1,7 @@
+JUnit version 4.13
+.....The sum of the digits of 123456 is: 21
+.
+Time: 0.469
+
+OK (6 tests)
+

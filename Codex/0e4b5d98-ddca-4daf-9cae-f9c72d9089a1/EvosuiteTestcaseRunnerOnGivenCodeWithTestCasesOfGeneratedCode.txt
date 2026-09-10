@@ -1,0 +1,36 @@
+JUnit version 4.13
+.E.E.Amount withdrawn successfully. New balance: 0.0
+..E..E.E.E.E.Amount withdrawn successfully. New balance: 0.0
+...Amount deposited successfully. New balance: 4301.992010309777
+
+Time: 0.33
+There were 7 failures:
+1) test01(testing_ChatGPT_on_java.Account_ESTest)
+java.lang.NoSuchMethodError: testing_ChatGPT_on_java.Account.getName()Ljava/lang/String;
+	at testing_ChatGPT_on_java.Account_ESTest.test01(Account_ESTest.java:28)
+2) test12(testing_ChatGPT_on_java.Account_ESTest)
+java.lang.NoSuchMethodError: testing_ChatGPT_on_java.Account.setName(Ljava/lang/String;)V
+	at testing_ChatGPT_on_java.Account_ESTest.test12(Account_ESTest.java:114)
+3) test10(testing_ChatGPT_on_java.Account_ESTest)
+java.lang.NoSuchMethodError: testing_ChatGPT_on_java.Account.getAccountInfo()Ljava/lang/String;
+	at testing_ChatGPT_on_java.Account_ESTest.test10(Account_ESTest.java:100)
+4) test04(testing_ChatGPT_on_java.Account_ESTest)
+org.junit.ComparisonFailure: expected:<[]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at testing_ChatGPT_on_java.Account_ESTest.test04(Account_ESTest.java:53)
+5) test03(testing_ChatGPT_on_java.Account_ESTest)
+org.junit.ComparisonFailure: expected:<[@"]> but was:<[m'Z4tc)+qzWLy;]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at testing_ChatGPT_on_java.Account_ESTest.test03(Account_ESTest.java:45)
+6) test02(testing_ChatGPT_on_java.Account_ESTest)
+java.lang.NoSuchMethodError: testing_ChatGPT_on_java.Account.getName()Ljava/lang/String;
+	at testing_ChatGPT_on_java.Account_ESTest.test02(Account_ESTest.java:35)
+7) test13(testing_ChatGPT_on_java.Account_ESTest)
+java.lang.NoSuchMethodError: testing_ChatGPT_on_java.Account.getName()Ljava/lang/String;
+	at testing_ChatGPT_on_java.Account_ESTest.test13(Account_ESTest.java:121)
+
+FAILURES!!!
+Tests run: 14,  Failures: 7
+

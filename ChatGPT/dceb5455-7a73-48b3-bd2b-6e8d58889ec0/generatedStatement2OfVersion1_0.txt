@@ -1,0 +1,5 @@
+
+
+In this code, the `calculateCRC` method takes a byte array of data as input, calculates the CRC value using the `CRC32` class, and returns the hexadecimal representation of the CRC value. The `main` method demonstrates how to use this method with a sample data block.
+
+You can modify this code according to your specific requirements and use it to calculate CRC values for data blocks in your Java program.

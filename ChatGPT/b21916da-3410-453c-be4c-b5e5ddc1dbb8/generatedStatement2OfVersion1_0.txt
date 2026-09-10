@@ -1,0 +1,12 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty Rhombus:** Input: 0, Expected Output: No Rhombus
+* **Single-Row Rhombus:** Input: 1, Expected Output: A
+
+**Valid Test Cases:**
+
+* **Input:** 3, **Expected Output:**

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94qHQQfqoa94xF8CBcBluWdqEFpwN",
+  "object" : "chat.completion",
+  "created" : 1710941304,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.HashMap;\n\npublic class IsomorphicStrings {\n\n    public static boolean areIsomorphic(String str1, String str2) {\n        if (str1.length() != str2.length())\n            return false;\n\n        HashMap<Character, Character> map = new HashMap<>();\n\n        for (int i = 0; i < str1.length(); i++) {\n            char c1 = str1.charAt(i);\n            char c2 = str2.charAt(i);\n\n            if (map.containsKey(c1)) {\n                if (map.get(c1) != c2)\n                    return false;\n            } else {\n                if (map.containsValue(c2))\n                    return false;\n                map.put(c1, c2);\n            }\n        }\n\n        return true;\n    }\n\n    public static void main(String[] args) {\n        String str1 = \"add\";\n        String str2 = \"egg\";\n\n        if (areIsomorphic(str1, str2)) {\n            System.out.println(\"The strings are isomorphic.\");\n        } else {\n            System.out.println(\"The strings are not isomorphic.\");\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 71,
+    "completion_tokens" : 224,
+    "total_tokens" : 295
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

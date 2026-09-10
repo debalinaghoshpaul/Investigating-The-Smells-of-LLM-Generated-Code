@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to check whether three given lengths (integers) of three sides form a right triangle. Print "Yes" if the given sides form a right triangle otherwise print "No".\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 88599bd9-63f2-40a7-9705-9ad31f184bb1.\n

@@ -1,0 +1,17 @@
+JUnit version 4.13
+.Input a month number: .Input a month number: Input a year: January 1 has 31 days
+.Input a month number: .Input a month number: Input a year: Unknown 0 has 0 days
+.Input a month number: Input a year: February 2 has 28 days
+.Input a month number: Input a year: July 7 has 31 days
+.Input a month number: Input a year: August 8 has 31 days
+.Input a month number: Input a year: September 9 has 30 days
+.Input a month number: Input a year: February 4 has 29 days
+..Input a month number: Input a year: March 3 has 31 days
+.Input a month number: Input a year: April 4 has 30 days
+.Input a month number: Input a year: May 5 has 31 days
+.Input a month number: Input a year: June 6 has 30 days
+
+Time: 0.368
+
+OK (14 tests)
+

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xmX89RZNIJBxc0k79b2uWBPf6Un",
+  "object" : "chat.completion",
+  "created" : 1710255157,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class SecondSmallestElement {\n    public static void main(String[] args) {\n        int[] arr = {10, 5, 20, 8, 15, 4, 12};\n\n        int firstSmallest = Integer.MAX_VALUE;\n        int secondSmallest = Integer.MAX_VALUE;\n\n        for(int i=0; i<arr.length; i++) {\n            if(arr[i] < firstSmallest) {\n                secondSmallest = firstSmallest;\n                firstSmallest = arr[i];\n            } else if (arr[i] < secondSmallest && arr[i] != firstSmallest) {\n                secondSmallest = arr[i];\n            }\n        }\n\n        if(secondSmallest != Integer.MAX_VALUE) {\n            System.out.println(\"The second smallest element in the array is: \" + secondSmallest);\n        } else {\n            System.out.println(\"No second smallest element found in the array.\");\n        }\n    }\n}\n```\n\nThis program initializes two variables `firstSmallest` and `secondSmallest` with the maximum integer value. It then iterates through the array and updates these variables accordingly. Finally, it prints the second smallest element in the array."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 65,
+    "completion_tokens" : 246,
+    "total_tokens" : 311
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

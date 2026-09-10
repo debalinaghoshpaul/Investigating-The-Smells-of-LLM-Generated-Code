@@ -1,0 +1,8 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CommentRequired: Class comments are required: 6
+AtLeastOneConstructor: Each class should declare at least one constructor: 1
+CommentSize: Comment is too large: 1
+UnnecessaryImport: Unused import 'java.util.*': 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+UncommentedEmptyConstructor: Document empty constructor: 1

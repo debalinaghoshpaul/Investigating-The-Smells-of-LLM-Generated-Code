@@ -1,0 +1,65 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.389
+There were 11 failures:
+1) test08(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	QuickSort cannot be resolved
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test08(QuickSort_ESTest.java:118)
+2) test09(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	QuickSort cannot be resolved to a type
+	QuickSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test09(QuickSort_ESTest.java:124)
+3) test06(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	QuickSort cannot be resolved
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test06(QuickSort_ESTest.java:95)
+4) test07(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	QuickSort cannot be resolved
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test07(QuickSort_ESTest.java:104)
+5) test04(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	QuickSort cannot be resolved
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test04(QuickSort_ESTest.java:71)
+6) test05(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	QuickSort cannot be resolved
+	QuickSort cannot be resolved
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test05(QuickSort_ESTest.java:86)
+7) test02(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	QuickSort cannot be resolved
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test02(QuickSort_ESTest.java:40)
+8) test03(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	QuickSort cannot be resolved
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test03(QuickSort_ESTest.java:55)
+9) test00(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	QuickSort cannot be resolved
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test00(QuickSort_ESTest.java:22)
+10) test01(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	QuickSort cannot be resolved
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test01(QuickSort_ESTest.java:30)
+11) test10(testing_ChatGPT_on_java.QuickSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	QuickSort cannot be resolved
+
+	at testing_ChatGPT_on_java.QuickSort_ESTest.test10(QuickSort_ESTest.java:130)
+
+FAILURES!!!
+Tests run: 11,  Failures: 11
+

@@ -1,0 +1,18 @@
+
+
+### Test Cases:
+
+**Positive Test Cases:**
+
+* `""` (Empty string)
+* `"Hello"` (Non-empty string)
+
+**Negative Test Cases:**
+
+* `null` (Null string)
+
+**Corner Cases:**
+
+* `" "` (String with only a space character)
+* `"\t"` (String with only a tab character)
+* `"\n"` (String with only a newline character)

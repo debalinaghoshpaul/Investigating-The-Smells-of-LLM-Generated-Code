@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to sort a numeric array and a string array.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 34c0a159-9c7e-4c61-9ba5-cd84adf28066.\n

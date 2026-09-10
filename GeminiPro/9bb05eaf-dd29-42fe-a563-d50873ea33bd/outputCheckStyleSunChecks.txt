@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:3:36: Parameter n should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:11:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:11:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:12:35: '5' is a magic number. [MagicNumber]
+Audit done.

@@ -1,0 +1,87 @@
+**Test Cases:**
+
+**Positive Cases:**
+
+1. **Input:**
+```
+String str1 = "Hello, world!";
+String str2 = "Hello, world!";
+```
+**Expected Output:**
+```
+True
+```
+
+2. **Input:**
+```
+String str1 = "This is a test.";
+String str2 = "This is a test";
+```
+**Expected Output:**
+```
+True
+```
+
+**Negative Cases:**
+
+1. **Input:**
+```
+String str1 = "Hello, world!";
+String str2 = "Goodbye, world!";
+```
+**Expected Output:**
+```
+False
+```
+
+2. **Input:**
+```
+String str1 = "This is a test.";
+String str2 = "This is not a test";
+```
+**Expected Output:**
+```
+False
+```
+
+**Corner Cases:**
+
+1. **Input:**
+```
+String str1 = null;
+String str2 = "Hello, world!";
+```
+**Expected Output:**
+```
+False
+```
+
+2. **Input:**
+```
+String str1 = "Hello, world!";
+String str2 = null;
+```
+**Expected Output:**
+```
+False
+```
+
+3. **Input:**
+```
+String str1 = "";
+String str2 = "";
+```
+**Expected Output:**
+```
+True
+```
+
+4. **Input:**
+```
+String str1 = "Hello";
+String str2 = "Hello!";
+```
+**Expected Output:**
+```
+False
+```

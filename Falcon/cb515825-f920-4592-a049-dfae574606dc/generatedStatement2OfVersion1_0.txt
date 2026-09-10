@@ -1,0 +1,17 @@
+
+
+**Test Cases:**
+
+* **Positive integers:**
+    * 12345 -> 1
+    * 67890 -> 6
+    * 98765 -> 9
+* **Negative integers:**
+    * -12345 -> 1
+    * -67890 -> 6
+    * -98765 -> 9
+* **Zero:**
+    * 0 -> 0
+* **Corner cases:**
+    * Integer.MAX_VALUE -> 2 (the first digit of the maximum integer value)
+    * Integer.MIN_VALUE -> -2 (the first digit of the minimum integer value)

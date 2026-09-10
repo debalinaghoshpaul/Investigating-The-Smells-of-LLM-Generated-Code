@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91znhoVhtdOXVk5spZXvNMG3DQKVO",
+  "object" : "chat.completion",
+  "created" : 1710262917,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class MaxProductOfTwoIntegers {\n\n    public static void main(String[] args) {\n        int[] nums = { 2, 3, 5, 7, -7, 5, 8, -5 };\n        findMaxProduct(nums);\n    }\n\n    public static void findMaxProduct(int[] nums) {\n        if(nums.length < 2) {\n            System.out.println(\"At least two integers are required in the array.\");\n            return;\n        }\n        \n        int maxProduct = Integer.MIN_VALUE;\n        int num1 = 0, num2 = 0;\n\n        for(int i = 0; i < nums.length; i++) {\n            for(int j = i+1; j < nums.length; j++) {\n                int product = nums[i] * nums[j];\n                if(product > maxProduct) {\n                    maxProduct = product;\n                    num1 = nums[i];\n                    num2 = nums[j];\n                }\n            }\n        }\n\n        System.out.println(\"Pair is (\" + num1 + \", \" + num2 + \"), Maximum Product: \" + maxProduct);\n    }\n}\n\n```\nOutput: Pair is (7, 8), Maximum Product: 56"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 115,
+    "completion_tokens" : 250,
+    "total_tokens" : 365
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

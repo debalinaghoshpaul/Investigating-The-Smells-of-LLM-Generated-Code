@@ -1,0 +1,19 @@
+JUnit version 4.13
+.E.E
+Time: 0.361
+There were 2 failures:
+1) test1(testing_ChatGPT_on_java.NameCollection_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type NameCollection
+
+	at testing_ChatGPT_on_java.NameCollection_ESTest.test1(NameCollection_ESTest.java:30)
+2) test0(testing_ChatGPT_on_java.NameCollection_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Enumeration cannot be resolved to a type
+	The method getEnumeration() from the type NameCollection refers to the missing type Enumeration
+
+	at testing_ChatGPT_on_java.NameCollection_ESTest.test0(NameCollection_ESTest.java:23)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

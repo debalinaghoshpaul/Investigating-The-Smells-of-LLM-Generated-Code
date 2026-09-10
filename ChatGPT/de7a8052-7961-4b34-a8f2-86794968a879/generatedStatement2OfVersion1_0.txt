@@ -1,0 +1,20 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: 10, -20, 0, 30, 40, 60, 10
+* Output: true
+
+**Corner Cases:**
+
+* **Size of the array is less than 2:**
+    * Input: 10
+    * Output: false
+* **10 appears only in the middle of the array:**
+    * Input: 1, 2, 10, 4, 5
+    * Output: false
+* **10 appears neither in the first nor last element:**
+    * Input: 1, 2, 3, 4, 5
+    * Output: false

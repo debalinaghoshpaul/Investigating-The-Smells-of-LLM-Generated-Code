@@ -1,0 +1,27 @@
+
+
+Test cases:
+
+**Corner cases:**
+
+* dividend = 0, divisor = 0
+* dividend = 0, divisor = non-zero
+* dividend = non-zero, divisor = 0
+
+**Normal cases:**
+
+* dividend = 19, divisor = 7
+* dividend = -19, divisor = 7
+* dividend = 19, divisor = -7
+* dividend = -19, divisor = -7
+
+**Expected outputs:**
+
+* 0
+* 0
+* 19
+* -19
+* 5
+* -5
+* -5
+* -19

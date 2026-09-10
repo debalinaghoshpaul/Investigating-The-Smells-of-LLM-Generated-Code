@@ -1,0 +1,54 @@
+**Java Program:**
+
+```java
+import java.util.*;
+
+public class PermutationsWithRepetition {
+
+    public static void main(String[] args) {
+        String str = "abc";
+        List<String> permutations = getPermutations(str);
+        System.out.println(permutations);
+    }
+
+    public static List<String> getPermutations(String str) {
+        List<String> permutations = new ArrayList<>();
+        getPermutations(str, "", permutations);
+        return permutations;
+    }
+
+    private static void getPermutations(String str, String prefix, List<String> permutations) {
+        if (str.isEmpty()) {
+            permutations.add(prefix);
+        } else {
+            for (int i = 0; i < str.length(); i++) {
+                String newPrefix = prefix + str.charAt(i);
+                String newStr = str.substring(0, i) + str.substring(i + 1);
+                getPermutations(newStr, newPrefix, permutations);
+            }
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**1. General Test Case:**
+* Input: "abc"
+* Expected Output: ["aaa", "aab", "aac", "aba", "abb", "abc", "aca", "acb", "acc", "baa", "bab", "bac", "bba", "bbb", "bbc", "bca", "bcb", "bcc", "caa", "cab", "cac", "cba", "cbb", "cbc", "cca", "ccb", "ccc"]
+
+**2. Empty String:**
+* Input: ""
+* Expected Output: [""]
+
+**3. Single Character:**
+* Input: "a"
+* Expected Output: ["a"]
+
+**4. String with Duplicate Characters:**
+* Input: "aabb"
+* Expected Output: ["aaab", "aaba", "aabb", "abaa", "baba", "baab", "bbaa"]
+
+**5. Empty List:**
+* Input: null
+* Expected Output: []

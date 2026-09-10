@@ -1,0 +1,17 @@
+JUnit version 4.13
+.Radius of the Circle4.0
+Area of the Circle: 50.26548245743669
+Perimeter of the Circle: 25.132741228718345
+
+Sides of the rectangle are: 4.0,6.0
+Area of the Rectangle: 24.0
+Perimeter of the Rectangle: 20.0
+
+Sides of the Traiangel are: 3.0,4.0,5.0
+Area of the Triangle: 6.0
+Perimeter of the Triangle: 12.0
+.
+Time: 0.424
+
+OK (2 tests)
+

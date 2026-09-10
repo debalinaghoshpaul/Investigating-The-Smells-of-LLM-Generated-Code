@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Athlete eats a balanced diet with high protein and carbohydrates.
+Athlete exercises regularly with a focus on strength and endurance training.
+Lazy person eats junk food and unhealthy snacks.
+Lazy person avoids exercising and prefers lounging around.
+.
+Time: 0.489
+
+OK (2 tests)
+

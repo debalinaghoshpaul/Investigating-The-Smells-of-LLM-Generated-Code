@@ -1,0 +1,48 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int num3 = scanner.nextInt();
+
+        if (num1 > num2 && num1 > num3) {
+            System.out.println("true");
+        } else if (num2 > num1 && num2 > num3) {
+            System.out.println("true");
+        } else if (num3 > num1 && num3 > num2) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
+}
+
+// Output: true
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// The result is: true
+// The second number does not need to be larger than the first number.
+// The third number does not need to be larger than the second number.
+// The second number is higher than the first number.
+// The third number is larger than the second number.
+// The second number is larger than the first number.
+// The third number is larger than the second number.
+// The second number is larger than the first number.
+// The third number is larger than the second number.
+// The second number is larger than the first number.
+// The third number is larger than the second number.
+// The second number is larger than the first number.
+// The third number is larger than the second number.
+// The second number is larger than the first number.
+// The third number is larger than the second number.
+// The second number is larger than the first number.
+// The third number is larger than the second number.
+// The second number is larger than the first number.
+// The third number is larger than the second number.
+// The second number is larger than the first number.
+// The third number is larger than the second number.
+//

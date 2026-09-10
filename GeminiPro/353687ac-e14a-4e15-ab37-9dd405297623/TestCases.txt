@@ -1,0 +1,70 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class StringOccurrenceCounter {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the source string:");
+        String sourceString = scanner.nextLine();
+
+        System.out.println("Enter the string to search for:");
+        String searchString = scanner.nextLine();
+
+        int occurrenceCount = 0;
+        int index = 0;
+
+        while (index < sourceString.length()) {
+            int nextIndex = sourceString.indexOf(searchString, index);
+            if (nextIndex != -1) {
+                occurrenceCount++;
+                index = nextIndex + searchString.length();
+            } else {
+                break;
+            }
+        }
+
+        System.out.println("The number of occurrences of '" + searchString + "' in '" + sourceString + "' is: " + occurrenceCount);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Source String:** "Hello, world! This is a test string."
+* **Search String:** "world"
+
+**Expected Output:** 1
+
+* **Source String:** "Java is a programming language."
+* **Search String:** "a"
+
+**Expected Output:** 2
+
+
+**Corner Cases:**
+
+* **Source String:** "Empty"
+* **Search String:** "Java"
+
+**Expected Output:** 0 (search string not found)
+
+* **Source String:** "Java"
+* **Search String:** ""
+
+**Expected Output:** 0 (empty search string)
+
+* **Source String:** null
+* **Search String:** "test"
+
+**Expected Output:** 0 (null source string)
+
+* **Source String:** "Java"
+* **Search String:** null
+
+**Expected Output:** 0 (null search string)

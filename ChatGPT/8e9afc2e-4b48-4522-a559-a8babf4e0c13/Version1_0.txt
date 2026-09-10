@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9D9ebNRMMs8RHD5U3DEa95Wk0Frgc",
+  "object" : "chat.completion",
+  "created" : 1712922401,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.time.LocalDate;\nimport java.time.Period;\nimport java.util.Scanner;\n\nclass CalAge {\n    private LocalDate dob;\n    private LocalDate currentDate;\n\n    public void setDOB(int year, int month, int day) {\n        this.dob = LocalDate.of(year, month, day);\n    }\n\n    public void setCurrentDate(int year, int month, int day) {\n        this.currentDate = LocalDate.of(year, month, day);\n    }\n\n    public double calculateAge() {\n        Period period = Period.between(this.dob, this.currentDate);\n        int years = period.getYears();\n        int months = period.getMonths();\n        return years + (double) months / 12;\n    }\n\n    public boolean isValidDOB(int year, int month, int day) {\n        try {\n            LocalDate.of(year, month, day);\n            return true;\n        } catch (Exception e) {\n            return false;\n        }\n    }\n}\n\npublic class TestCalAge {\n    public static void main(String[] args) {\n        CalAge calAge = new CalAge();\n        Scanner scanner = new Scanner(System.in);\n\n        System.out.println(\"Enter your date of birth (yyyy mm dd):\");\n        int year = scanner.nextInt();\n        int month = scanner.nextInt();\n        int day = scanner.nextInt();\n\n        if (!calAge.isValidDOB(year, month, day)) {\n            System.out.println(\"Invalid date of birth entered.\");\n            return;\n        }\n\n        calAge.setDOB(year, month, day);\n\n        System.out.println(\"Enter the current date (yyyy mm dd):\");\n        int currentYear = scanner.nextInt();\n        int currentMonth = scanner.nextInt();\n        int currentDay = scanner.nextInt();\n\n        calAge.setCurrentDate(currentYear, currentMonth, currentDay);\n\n        System.out.println(\"Your age is: \" + calAge.calculateAge() + \" years.\");\n    }\n}\n```\nYou can copy and paste the above code into a Java IDE to run and test the `CalAge` class."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 175,
+    "completion_tokens" : 406,
+    "total_tokens" : 581
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

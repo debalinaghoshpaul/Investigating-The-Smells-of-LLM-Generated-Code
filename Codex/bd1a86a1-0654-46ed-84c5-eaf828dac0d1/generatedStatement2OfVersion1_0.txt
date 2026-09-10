@@ -1,0 +1,19 @@
+
+
+**Test cases:**
+
+* **Test Case 1:**
+    * Input: arr = [1, 2, 4, 5, 6], target = 7
+    * Output: The sum of the two elements in the array equal to the target value is: 1 and 6
+* **Test Case 2:**
+    * Input: arr = [1, 2, 4, 5, 6], target = 3
+    * Output: No two elements in the array sum up to the target value.
+* **Test Case 3:**
+    * Input: arr = [1, 2, 4, 5, 6], target = 10
+    * Output: The sum of the two elements in the array equal to the target value is: 4 and 6
+
+**Corner cases:**
+
+* **Empty array:** The program should return `null` if the input array is empty.
+* **Negative target value:** The program should return `null` if the target value is negative.
+* **Target value greater than the sum of all elements in the array:** The program should return `null` if the target value is greater than the sum of all elements in the array.

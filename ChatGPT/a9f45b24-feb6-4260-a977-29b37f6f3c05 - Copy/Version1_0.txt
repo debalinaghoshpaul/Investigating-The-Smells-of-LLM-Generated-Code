@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EOwBeEUrFwlS8LvWe1cABov5huh0",
+  "object" : "chat.completion",
+  "created" : 1713219479,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class LargeIntegerSum {\n\n    private static final int MAX_DIGITS = 20;\n\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        char[] num1 = new char[MAX_DIGITS];\n        char[] num2 = new char[MAX_DIGITS];\n        int[] result = new int[MAX_DIGITS + 1];\n\n        System.out.println(\"Enter the first positive integer (up to 20 digits): \");\n        String num1Str = input.next();\n        int len1 = num1Str.length();\n        for (int i = 0; i < len1; i++) {\n            num1[i] = num1Str.charAt(i);\n        }\n\n        System.out.println(\"Enter the second positive integer (up to 20 digits): \");\n        String num2Str = input.next();\n        int len2 = num2Str.length();\n        for (int i = 0; i < len2; i++) {\n            num2[i] = num2Str.charAt(i);\n        }\n\n        int carry = 0;\n        int i = 0;\n        while (i < len1 || i < len2) {\n            int n1 = (i < len1) ? Character.getNumericValue(num1[i]) : 0;\n            int n2 = (i < len2) ? Character.getNumericValue(num2[i]) : 0;\n            int sum = n1 + n2 + carry;\n            result[i] = sum % 10;\n            carry = sum / 10;\n            i++;\n        }\n\n        if (carry > 0) {\n            result[i] = carry;\n        }\n\n        if (i > MAX_DIGITS) {\n            System.out.println(\"Integer overflow. The result has more than 20 digits.\");\n        } else {\n            System.out.print(\"The sum of the two numbers is: \");\n            for (int j = i - 1; j >= 0; j--) {\n                System.out.print(result[j]);\n            }\n        }\n\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 514,
+    "completion_tokens" : 423,
+    "total_tokens" : 937
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

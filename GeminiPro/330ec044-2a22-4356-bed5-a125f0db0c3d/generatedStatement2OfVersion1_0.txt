@@ -1,0 +1,10 @@
+
+
+Test cases:
+
+* **Corner cases:**
+    * **Zero:** 0 is considered even, so it should not throw an exception.
+    * **One:** 1 is odd, so it should throw an exception.
+* **Normal cases:**
+    * **Even number:** 2, 4, 6, 8, 10, ...
+    * **Odd number:** 1, 3, 5, 7, 9, ...

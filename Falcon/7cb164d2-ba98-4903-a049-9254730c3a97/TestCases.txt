@@ -1,0 +1,57 @@
+```java
+import java.util.Arrays;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class ReverseWords {
+
+  public static void main(String[] args) {
+    String str = "Hello World";
+    System.out.println(reverseWords(str));  // Output: "dlroW olleH"
+  }
+
+  public static String reverseWords(String str) {
+    // Check for null or empty string
+    if (str == null || str.isEmpty()) {
+      return str;
+    }
+
+    // Split the string into words
+    String[] words = str.split(" ");
+
+    // Reverse each word in the array
+    for (int i = 0; i < words.length; i++) {
+      words[i] = new StringBuilder(words[i]).reverse().toString();
+    }
+
+    // Join the reversed words back into a string
+    return Stream.of(words).collect(Collectors.joining(" "));
+  }
+}
+```
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* **Test Case 1:** Input: "Hello World"
+* **Expected Output:** "dlroW olleH"
+* **Test Case 2:** Input: "A man, a plan, a canal, Panama!"
+* **Expected Output:** "!amanap ,lanac a ,nalp a ,nam A"
+* **Test Case 3:** Input: "12345"
+* **Expected Output:** "54321"
+
+**Corner Cases:**
+
+* **Test Case 4:** Input: " " (Single whitespace)
+* **Expected Output:** " "
+* **Test Case 5:** Input: "" (Empty string)
+* **Expected Output:** ""
+* **Test Case 6:** Input: null
+* **Expected Output:** null
+
+**Additional Considerations:**
+
+* **Punctuation:** The program should preserve any punctuation marks within the words.
+* **Case:** The program should preserve the case of the original string.
+* **Multiple whitespaces:** The program should handle multiple consecutive whitespace characters as a single space.

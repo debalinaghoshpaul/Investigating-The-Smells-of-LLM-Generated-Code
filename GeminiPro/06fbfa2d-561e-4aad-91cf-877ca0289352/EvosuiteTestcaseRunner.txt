@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Enter a non-empty string: Enter a non-empty substring: ..Enter a non-empty string: Enter a non-empty substring: The resulting string is: Enter a non-empty string: 
+.Enter a non-empty string: 
+Time: 0.581
+
+OK (4 tests)
+

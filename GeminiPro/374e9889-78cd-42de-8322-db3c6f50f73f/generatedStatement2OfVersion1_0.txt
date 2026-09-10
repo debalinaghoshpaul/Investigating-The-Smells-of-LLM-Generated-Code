@@ -1,0 +1,9 @@
+
+
+Test cases:
+
+* **Normal case:** "Hello World" -> "hellowORLD"
+* **Case with only lowercase letters:** "helloworld" -> "helloworld"
+* **Case with only uppercase letters:** "HELLO WORLD" -> "HELLOWORLD"
+* **Case with empty string:** "" -> ""
+* **Case with special characters:** "Hello! World" -> "hellow!ORLD"

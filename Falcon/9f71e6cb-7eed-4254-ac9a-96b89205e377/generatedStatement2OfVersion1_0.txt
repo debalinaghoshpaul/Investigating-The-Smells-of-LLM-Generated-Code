@@ -1,0 +1,14 @@
+
+
+**Test cases:**
+
+* **Test case 1:** A single text file with the names of the students who attended the course on a single day.
+* **Test case 2:** Multiple text files with the names of the students who attended the course on different days.
+* **Test case 3:** A text file with no names.
+* **Test case 4:** A text file with duplicate names.
+* **Test case 5:** A text file with names that contain spaces.
+* **Test case 6:** A text file with names that contain special characters.
+* **Test case 7:** A text file with names that are not in alphabetical order.
+* **Test case 8:** A text file with names that are in different cases.
+* **Test case 9:** A text file with names that are very long.
+* **Test case 10:** A text file with names that are very short.

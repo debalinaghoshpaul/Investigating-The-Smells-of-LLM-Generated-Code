@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93On4PI1KW45IbHLbi3XlDiHZ4K6g",
+  "object" : "chat.completion",
+  "created" : 1710597306,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Stack;\n\npublic class ReverseStack {\n\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        \n        stack.push(1);\n        stack.push(2);\n        stack.push(3);\n        stack.push(4);\n        stack.push(5);\n        \n        System.out.println(\"Original Stack: \" + stack);\n        \n        reverseStack(stack);\n        \n        System.out.println(\"Reversed Stack: \" + stack);\n    }\n    \n    public static void reverseStack(Stack<Integer> stack) {\n        if (stack.isEmpty()) {\n            return;\n        }\n        \n        int temp = stack.pop();\n        reverseStack(stack);\n        insertAtBottom(stack, temp);\n    }\n    \n    public static void insertAtBottom(Stack<Integer> stack, int value) {\n        if (stack.isEmpty()) {\n            stack.push(value);\n            return;\n        }\n        \n        int temp = stack.pop();\n        insertAtBottom(stack, value);\n        stack.push(temp);\n    }\n} \n\nOutput:\nOriginal Stack: [1, 2, 3, 4, 5]\nReversed Stack: [5, 4, 3, 2, 1]"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 67,
+    "completion_tokens" : 241,
+    "total_tokens" : 308
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

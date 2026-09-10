@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class CountCharacters {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        int letter = 0;
+        int space = 0;
+        int number = 0;
+        int other = 0;
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (Character.isLetter(c)) {
+                letter++;
+            }
+            if (Character.isSpaceChar(c)) {
+                space++;
+            }
+            if (Character.isDigit(c)) {
+                number++;
+            }
+            if (Character.isWhitespace(c)) {
+                other++;
+            }
+        }
+        System.out.println("Letter: " + letter);
+        System.out.println("Space: " + space);
+        System.out.println("Number: " + number);
+        System.out.println("Other: " + other);
+    }
+}
+

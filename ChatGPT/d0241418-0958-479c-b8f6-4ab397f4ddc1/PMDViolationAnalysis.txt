@@ -1,0 +1,6 @@
+Violations by Category:
+UselessParentheses: Useless parentheses.: 1
+CommentRequired: Class comments are required: 10
+SuspiciousEqualsMethodName: The method name and parameter number are suspiciously close to equals(Object): 1
+MissingOverride: The method 'toString()' is missing an @Override annotation.: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

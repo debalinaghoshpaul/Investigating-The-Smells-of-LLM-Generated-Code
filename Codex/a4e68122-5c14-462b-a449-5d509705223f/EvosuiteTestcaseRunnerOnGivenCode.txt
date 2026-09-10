@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Input a Decimal Number : .Input a Decimal Number : Binary number is: 110100
+Length of the longest sequence: 1
+.Input a Decimal Number : Binary number is: .Input a Decimal Number : ..Input a Decimal Number : Binary number is: -1000
+Length of the longest sequence: 1
+
+Time: 0.486
+
+OK (6 tests)
+

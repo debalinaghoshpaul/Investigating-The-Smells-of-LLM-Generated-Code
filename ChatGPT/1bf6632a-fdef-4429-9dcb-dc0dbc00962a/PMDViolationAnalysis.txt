@@ -1,0 +1,8 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CognitiveComplexity: The method 'isIsland(int[][], int, int)' has a cognitive complexity of 24, current threshold is 15: 1
+CyclomaticComplexity: The method 'isIsland(int[][], int, int)' has a cyclomatic complexity of 19.: 1
+CommentRequired: Class comments are required: 2
+NPathComplexity: The method 'isIsland(int[][], int, int)' has an NPath complexity of 5120, current threshold is 200: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+CloseResource: Ensure that resources like this Scanner object are closed after use: 1

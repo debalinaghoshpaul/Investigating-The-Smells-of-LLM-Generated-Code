@@ -1,0 +1,8 @@
+Starting audit...
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\c276ab8f-33cc-4fd8-8f73-0a6df2a34a1d\generatedProgram1OfVersion1_0.java:2:1: Top-level class Months has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\c276ab8f-33cc-4fd8-8f73-0a6df2a34a1d\generatedProgram1OfVersion1_0.java:18:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\c276ab8f-33cc-4fd8-8f73-0a6df2a34a1d\generatedProgram1OfVersion1_0.java:19:3: Missing a Javadoc comment. [MissingJavadocMethod]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\c276ab8f-33cc-4fd8-8f73-0a6df2a34a1d\generatedProgram1OfVersion1_0.java:29:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\c276ab8f-33cc-4fd8-8f73-0a6df2a34a1d\generatedProgram1OfVersion1_0.java:41:15: Method name 'testCornerCase_GetMonthBeforeJanuary' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'. [MethodName]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\c276ab8f-33cc-4fd8-8f73-0a6df2a34a1d\generatedProgram1OfVersion1_0.java:50:15: Method name 'testCornerCase_GetMonthAfterDecember' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'. [MethodName]
+Audit done.

@@ -1,0 +1,51 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class PrimeNumberMethod {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int count = 0;
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i)) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+
+    public static boolean isPrime(int n) {
+        if (n <= 1) {
+            return false;
+        }
+        if (n == 2) {
+            return true;
+        }
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+// Output
+// 6.10 (Use the isPrime Method)
+// Listing 6.7, PrimeNumberMethod.java, provides the
+// isPrime(int number) method for testing whether a number is prime.
+// Use this method to find the number of prime numbers less than 10000.
+// The programming language you need to use is: Java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// 6.10 (Use the isPrime Method)
+// Listing 6.7, PrimeNumberMethod.java, provides the
+// isPrime(int number) method for testing whether a number is prime.
+// Use this method to find the number of prime numbers less than 10000.
+// The programming language you need to use is: Java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// 6.10 (Use the isPrime Method)
+// Listing 6.7, PrimeNumberMethod.java, provides the
+// isPrime(int number) method for testing whether a number is prime.
+// Use this method to find the number of prime numbers less than 10000.
+// The programming language you need to use is: Java.
+// Can you also add test cases including corner cases to test the

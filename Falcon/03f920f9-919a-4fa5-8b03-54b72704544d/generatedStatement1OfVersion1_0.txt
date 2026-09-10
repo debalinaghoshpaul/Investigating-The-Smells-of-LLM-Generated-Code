@@ -1,0 +1,45 @@
+
+Number of digits in the number: 6
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test Data Input an integer number less than ten billion: 125463
+Expected Output :
+Number of digits in the number: 6
+
+Test Data Input an integer number greater than ten billion: 1234567890
+Expected Output :
+Number of digits in the number: 9
+
+Test Data Input an integer number equal to ten billion: 1234567890
+Expected Output :
+Number of digits in the number: 9
+
+Test Data Input an integer number greater than ten billion: 1234567890
+Expected Output :
+Number of digits in the number: 9
+
+Test Data Input an integer number greater than ten billion: 1234567890
+Expected Output :
+Number of digits in the number: 9
+
+Test Data Input an integer number greater than ten billion: 1234567890
+Expected Output :
+Number of digits in the number: 9
+
+Test Data Input an integer number greater than ten billion: 1234567890
+Expected Output :
+Number of digits in the number: 9
+
+Test Data Input an integer number greater than ten billion: 1234567890
+Expected Output :
+Number of digits in the number: 9
+
+Test Data Input an integer number greater than ten billion: 1234567890
+Expected Output :
+Number of digits in the number: 9
+
+Test Data Input an integer number greater than ten billion: 1234567890
+Expected Output :
+Number of digits in the number: 9

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find the difference between the largest integer and the smallest integer. These integers are created by 8 numbers from 0 to 9. The number that can be rearranged starts with 0 as in 00135668.\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : d85a1539-0d1c-47ef-8524-3a34fb2d209d.\n

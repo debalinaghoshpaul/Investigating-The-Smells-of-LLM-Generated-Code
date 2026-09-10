@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program that accepts three integers and checks whether the sum of the first two integers is greater than the third integer. Three integers are in the interval [-2, 2 ].\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : dbed9338-b251-41f2-a3bb-14d478eb3eb6.\n

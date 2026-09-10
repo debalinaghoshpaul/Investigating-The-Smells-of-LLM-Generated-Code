@@ -1,0 +1,9 @@
+JUnit version 4.13
+..
+Original array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Sub-array size: 4
+Sub-array from 0 to 3 and sum is: 10...
+Time: 0.487
+
+OK (5 tests)
+

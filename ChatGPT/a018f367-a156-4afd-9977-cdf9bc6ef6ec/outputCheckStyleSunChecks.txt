@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\a018f367-a156-4afd-9977-cdf9bc6ef6ec\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\a018f367-a156-4afd-9977-cdf9bc6ef6ec\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\a018f367-a156-4afd-9977-cdf9bc6ef6ec\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\a018f367-a156-4afd-9977-cdf9bc6ef6ec\generatedProgram1OfVersion1_0.java:5:42: Parameter arr should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\a018f367-a156-4afd-9977-cdf9bc6ef6ec\generatedProgram1OfVersion1_0.java:7:27: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\a018f367-a156-4afd-9977-cdf9bc6ef6ec\generatedProgram1OfVersion1_0.java:7:43: '30' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\a018f367-a156-4afd-9977-cdf9bc6ef6ec\generatedProgram1OfVersion1_0.java:14:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\a018f367-a156-4afd-9977-cdf9bc6ef6ec\generatedProgram1OfVersion1_0.java:14:29: Parameter args should be final. [FinalParameters]
+Audit done.

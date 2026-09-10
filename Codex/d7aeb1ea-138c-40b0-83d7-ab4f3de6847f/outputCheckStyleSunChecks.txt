@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\d7aeb1ea-138c-40b0-83d7-ab4f3de6847f\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\d7aeb1ea-138c-40b0-83d7-ab4f3de6847f\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\d7aeb1ea-138c-40b0-83d7-ab4f3de6847f\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\d7aeb1ea-138c-40b0-83d7-ab4f3de6847f\generatedProgram1OfVersion1_0.java:6: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\d7aeb1ea-138c-40b0-83d7-ab4f3de6847f\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\d7aeb1ea-138c-40b0-83d7-ab4f3de6847f\generatedProgram1OfVersion1_0.java:6:50: Parameter directory should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\d7aeb1ea-138c-40b0-83d7-ab4f3de6847f\generatedProgram1OfVersion1_0.java:6:68: Parameter fileName should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\d7aeb1ea-138c-40b0-83d7-ab4f3de6847f\generatedProgram1OfVersion1_0.java:14: Line is longer than 80 characters (found 94). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\d7aeb1ea-138c-40b0-83d7-ab4f3de6847f\generatedProgram1OfVersion1_0.java:24:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\d7aeb1ea-138c-40b0-83d7-ab4f3de6847f\generatedProgram1OfVersion1_0.java:24:29: Parameter args should be final. [FinalParameters]
+Audit done.

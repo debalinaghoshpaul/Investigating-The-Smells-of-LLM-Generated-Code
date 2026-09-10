@@ -1,0 +1,15 @@
+JUnit version 4.13
+.Enter a string: 
+Enter the number of characters to repeat: 
+.Enter a string: 
+Enter the number of characters to repeat: 
+Enter the number of times to repeat the characters: 
+..Enter a string: 
+.Enter a string: 
+Enter the number of characters to repeat: 
+Enter the number of times to repeat the characters: 
+
+Time: 0.457
+
+OK (5 tests)
+

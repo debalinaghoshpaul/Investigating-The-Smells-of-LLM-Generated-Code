@@ -1,0 +1,7 @@
+
+Input:
+hoursToSubtract = 0
+minutesToSubtract = 0
+
+Output:
+The date and time 0 hours and 0 minutes ago was: 2023-03-08 19:00:00

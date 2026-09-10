@@ -1,0 +1,3 @@
+
+
+In this program, we create a `CyclicBarrier` with a count of 3 and a runnable action that will be run when all threads reach the barrier. We then create 3 worker threads that will wait at the barrier and cross it once all threads have arrived. The output will show that all threads have reached the barrier and crossed it successfully.

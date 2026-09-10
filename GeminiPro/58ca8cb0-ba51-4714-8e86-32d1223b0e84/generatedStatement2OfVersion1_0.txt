@@ -1,0 +1,17 @@
+
+
+**Test cases:**
+
+* **Valid finite values:**
+    * 123.45
+    * -123.45
+    * 0.0
+* **Invalid finite values:**
+    * Infinity
+    * -Infinity
+    * NaN (Not a Number)
+* **Corner cases:**
+    * Double.MIN_VALUE
+    * Double.MAX_VALUE
+    * Float.MIN_VALUE
+    * Float.MAX_VALUE

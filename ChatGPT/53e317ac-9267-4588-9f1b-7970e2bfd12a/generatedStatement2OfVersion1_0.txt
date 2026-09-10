@@ -1,0 +1,21 @@
+
+
+**Test Cases:**
+
+**Positive Integers:**
+
+* 123 -> 321
+* 4567 -> 7654
+* 987654321 -> 123456789
+
+**Negative Integers:**
+
+* -123 -> -321
+* -4567 -> -7654
+* -987654321 -> -123456789
+
+**Corner Cases:**
+
+* 0 -> 0
+* 1000000000 (maximum integer value) -> 0 (overflow)
+* -1000000000 (minimum integer value) -> 0 (overflow)

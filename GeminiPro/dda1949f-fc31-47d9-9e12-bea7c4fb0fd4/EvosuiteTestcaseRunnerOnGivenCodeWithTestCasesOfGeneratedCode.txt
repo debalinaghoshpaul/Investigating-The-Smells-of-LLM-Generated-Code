@@ -1,0 +1,25 @@
+JUnit version 4.13
+.E.E.E
+Time: 0.314
+There were 3 failures:
+1) test1(testing_ChatGPT_on_java.SemaphoreExercise_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type SemaphoreExercise must be defined in its own file
+
+	at testing_ChatGPT_on_java.SemaphoreExercise.<init>(SemaphoreExample.java:5)
+	at testing_ChatGPT_on_java.SemaphoreExercise_ESTest.test1(SemaphoreExercise_ESTest.java:28)
+2) test0(testing_ChatGPT_on_java.SemaphoreExercise_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.SemaphoreExercise.main(SemaphoreExample.java:9)
+	at testing_ChatGPT_on_java.SemaphoreExercise_ESTest.test0(SemaphoreExercise_ESTest.java:22)
+3) test2(testing_ChatGPT_on_java.SemaphoreExercise_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type SemaphoreExercise must be defined in its own file
+
+	at testing_ChatGPT_on_java.SemaphoreExercise$Worker.<init>(SemaphoreExample.java:5)
+	at testing_ChatGPT_on_java.SemaphoreExercise_ESTest.test2(SemaphoreExercise_ESTest.java:34)
+
+FAILURES!!!
+Tests run: 3,  Failures: 3
+

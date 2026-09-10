@@ -1,0 +1,16 @@
+
+
+**Test cases including corner cases:**
+
+* **Test case 1:** An array with positive integers
+* **Test case 2:** An array with consecutive integers
+* **Test case 3:** An array with large integers
+* **Test case 4:** An array with a single element
+* **Test case 5:** An empty array
+
+**Corner cases:**
+
+* **Empty array:** The program should throw an exception when given an empty array.
+* **Single element array:** The difference between the largest and smallest values in a single element array is 0.
+* **Array with duplicate elements:** The program should still find the correct difference between the largest and smallest values, even if there are duplicate elements.
+* **Array with negative integers:** The program should work correctly even if the array contains negative integers.

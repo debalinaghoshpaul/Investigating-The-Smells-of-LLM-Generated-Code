@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EZhQKoIZBto2cs5u36xHMSNFe7zF",
+  "object" : "chat.completion",
+  "created" : 1713260848,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is an updated version of the PartiallyFilledArray class with the enhanced functionality as described in the problem description:\n\n```java\npublic class PartiallyFilledArray {\n    private int[] a;\n    private int numberOfElements;\n\n    public PartiallyFilledArray(int maxNumberOfElements) {\n        a = new int[maxNumberOfElements];\n        numberOfElements = 0;\n    }\n\n    public void addElement(int element) {\n        if (numberOfElements == a.length) {\n            int[] newArray = new int[a.length * 2];\n            System.arraycopy(a, 0, newArray, 0, a.length);\n            a = newArray;\n        }\n        \n        a[numberOfElements] = element;\n        numberOfElements++;\n    }\n\n    public void display() {\n        for (int i = 0; i < numberOfElements; i++) {\n            System.out.print(a[i] + \" \");\n        }\n        System.out.println();\n    }\n\n    public static void main(String[] args) {\n        PartiallyFilledArray array = new PartiallyFilledArray(5);\n\n        for (int i = 1; i <= 10; i++) {\n            array.addElement(i);\n        }\n\n        System.out.println(\"Array elements:\");\n        array.display();\n    }\n}\n```\n\nIn this updated version, the addElement method checks if the current array is full before adding a new element. If the array is full, it creates a new array with twice the size of the current array, copies the elements from the old array to the new array, and then adds the new element to the new array. This allows the array to dynamically expand as needed.\n\nThe test program creates a PartiallyFilledArray object with an initial capacity of 5 and adds 10 elements to it. The final array is then displayed using the display method.\n\nYou can run this program to see how the dynamically expanding array works."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 226,
+    "completion_tokens" : 379,
+    "total_tokens" : 605
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

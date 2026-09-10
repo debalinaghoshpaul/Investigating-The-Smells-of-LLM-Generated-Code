@@ -1,0 +1,19 @@
+JUnit version 4.13
+...Title: Movie 1
+Minutes: 0
+Year: 2021
+Price: 9.99
+
+Title: Movie 2
+Minutes: 0
+Year: 2022
+Price: 14.99
+.Title: 
+Minutes: 0
+Year: 0
+Price: 0.0
+.
+Time: 0.368
+
+OK (5 tests)
+

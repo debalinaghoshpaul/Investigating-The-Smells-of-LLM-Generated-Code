@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+
+public class SwapElementsArrayList {
+
+    public static void main(String[] args) {
+        // Create an ArrayList of strings
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        colors.add("Yellow");
+
+        // Print the original ArrayList
+        System.out.println("Original ArrayList: " + colors);
+
+        // Swap the elements at indices 1 and 3
+        int index1 = 1;
+        int index2 = 3;
+        String temp = colors.get(index1);
+        colors.set(index1, colors.get(index2));
+        colors.set(index2, temp);
+
+        // Print the modified ArrayList
+        System.out.println("Modified ArrayList: " + colors);
+    }
+}

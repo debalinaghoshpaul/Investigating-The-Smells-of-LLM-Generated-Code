@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        if (str.length() == 0) {
+            System.out.println(str);
+        } else if (str.length() == 1) {
+            if (str.charAt(0) == str.charAt(str.length() - 1)) {
+                System.out.println(str.substring(1, str.length() - 1));
+            } else {
+                System.out.println(str);
+            }
+        } else if (str.length() == 2) {
+            if (str.charAt(0) == str.charAt(str.length() - 1)) {
+                System.out.println(str.substring(1, str.length() - 1));
+            } else {
+                System.out.println(str);
+            }
+        } else {
+            System.out.println(str);
+        }
+    }
+}
+

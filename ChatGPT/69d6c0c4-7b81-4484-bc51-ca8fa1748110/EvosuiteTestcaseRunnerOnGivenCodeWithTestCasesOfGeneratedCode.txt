@@ -1,0 +1,44 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E
+Time: 0.47
+There were 7 failures:
+1) test6(testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type BabyNamePopularityRanking must be defined in its own file
+
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking.<init>(.java:4)
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest.test6(BabyNamePopularityRanking_ESTest.java:135)
+2) test3(testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking.main(.java:5)
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest.test3(BabyNamePopularityRanking_ESTest.java:85)
+3) test2(testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking.main(.java:5)
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest.test2(BabyNamePopularityRanking_ESTest.java:66)
+4) test5(testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking.main(.java:5)
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest.test5(BabyNamePopularityRanking_ESTest.java:122)
+5) test4(testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking.main(.java:5)
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest.test4(BabyNamePopularityRanking_ESTest.java:103)
+6) test1(testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking.main(.java:5)
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest.test1(BabyNamePopularityRanking_ESTest.java:48)
+7) test0(testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking.main(.java:5)
+	at testing_ChatGPT_on_java.BabyNamePopularityRanking_ESTest.test0(BabyNamePopularityRanking_ESTest.java:28)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+

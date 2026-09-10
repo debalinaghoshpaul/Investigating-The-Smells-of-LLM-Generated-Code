@@ -1,0 +1,5 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CommentRequired: Class comments are required: 5
+UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

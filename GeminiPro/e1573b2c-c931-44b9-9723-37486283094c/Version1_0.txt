@@ -1,0 +1,130 @@
+**Unique Paths in a Grid with Obstacles**
+
+```java
+import java.util.Arrays;
+
+public class UniquePaths {
+
+    public static int uniquePathsWithObstacles(int[][] obstacleGrid) {
+        int m = obstacleGrid.length;
+        int n = obstacleGrid[0].length;
+
+        // Initialize a 2D array to store the number of unique paths from each cell to the bottom-right corner
+        int[][] dp = new int[m][n];
+
+        // If the top-left cell is an obstacle, then there are no unique paths from that cell
+        if (obstacleGrid[0][0] == 1) {
+            return 0;
+        }
+
+        // Initialize the first row and first column of the dp array
+        for (int i = 0; i < m; i++) {
+            if (obstacleGrid[i][0] == 0) {
+                dp[i][0] = 1;
+            } else {
+                break;
+            }
+        }
+
+        for (int j = 0; j < n; j++) {
+            if (obstacleGrid[0][j] == 0) {
+                dp[0][j] = 1;
+            } else {
+                break;
+            }
+        }
+
+        // Fill in the remaining cells of the dp array
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                if (obstacleGrid[i][j] == 0) {
+                    dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+                }
+            }
+        }
+
+        // Return the number of unique paths from the top-left cell to the bottom-right corner
+        return dp[m - 1][n - 1];
+    }
+
+    public static void main(String[] args) {
+        int[][] obstacleGrid = {
+            {0, 0, 0},
+            {0, 1, 0},
+            {0, 0, 0}
+        };
+
+        System.out.println(uniquePathsWithObstacles(obstacleGrid)); // Output: 2
+
+        int[][] obstacleGrid2 = {
+            {0, 0, 0},
+            {0, 1, 0},
+            {1, 1, 0}
+        };
+
+        System.out.println(uniquePathsWithObstacles(obstacleGrid2)); // Output: 0
+    }
+}
+```
+
+**Test Cases**
+
+**Corner Cases:**
+
+* An obstacle at the top-left corner (e.g., `{{1, 0, 0}}`)
+* An obstacle at the bottom-right corner (e.g., `{{0, 0, 1}}`)
+* A grid with all obstacles (e.g., `{{1, 1, 1}}`)
+* An empty grid (e.g., `{}`)
+
+**Normal Cases:**
+
+* A grid with no obstacles (e.g., `{{0, 0, 0}}`)
+* A grid with a single obstacle (e.g., `{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}`)
+* A grid with multiple obstacles (e.g., `{{0, 1, 0}, {0, 1, 0}, {0, 0, 0}}`)
+
+**Longest Words in a Dictionary**
+
+```java
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class LongestWords {
+
+    public static List<String> findLongestWords(List<String> words) {
+        // Find the maximum length of any word in the list
+        int maxLength = words.stream()
+            .mapToInt(String::length)
+            .max()
+            .orElse(0);
+
+        // Filter the list to include only words with the maximum length
+        return words.stream()
+            .filter(word -> word.length() == maxLength)
+            .collect(Collectors.toList());
+    }
+
+    public static void main(String[] args) {
+        List<String> words = Arrays.asList("cat", "flag", "green", "country", "w3resource");
+
+        System.out.println(findLongestWords(words)); // Output: [w3resource]
+
+        List<String> words2 = Arrays.asList("cat", "dog", "red", "is", "am");
+
+        System.out.println(findLongestWords(words2)); // Output: [cat, dog, red]
+    }
+}
+```
+
+**Test Cases**
+
+**Corner Cases:**
+
+* An empty list of words
+* A list of words with only one character
+
+**Normal Cases:**
+
+* A list of words with multiple words of the same length
+* A list of words with only one word of the maximum length
+* A list of words with no words of the maximum length

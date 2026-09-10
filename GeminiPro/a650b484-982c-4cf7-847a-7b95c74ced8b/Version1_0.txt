@@ -1,0 +1,63 @@
+```java
+import java.util.Arrays;
+
+public class DifferenceBetweenLargestAndSmallestValues {
+
+    public static void main(String[] args) {
+        // Test case 1:
+        int[] arr1 = {10, 15, 20, 25, 30};
+        System.out.println("Difference between largest and smallest values in arr1: " + findDifference(arr1)); // Output: 20
+
+        // Test case 2:
+        int[] arr2 = {1, 2, 3, 4, 5};
+        System.out.println("Difference between largest and smallest values in arr2: " + findDifference(arr2)); // Output: 4
+
+        // Test case 3:
+        int[] arr3 = {100, 200, 300, 400, 500};
+        System.out.println("Difference between largest and smallest values in arr3: " + findDifference(arr3)); // Output: 400
+
+        // Test case 4:
+        int[] arr4 = {1};
+        System.out.println("Difference between largest and smallest values in arr4: " + findDifference(arr4)); // Output: 0
+
+        // Test case 5:
+        int[] arr5 = {};
+        System.out.println("Difference between largest and smallest values in arr5: " + findDifference(arr5)); // Output: Exception: Array must have a length of at least 1
+    }
+
+    public static int findDifference(int[] arr) {
+        if (arr.length < 1) {
+            throw new IllegalArgumentException("Array must have a length of at least 1");
+        }
+
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+
+        for (int num : arr) {
+            if (num > max) {
+                max = num;
+            }
+            if (num < min) {
+                min = num;
+            }
+        }
+
+        return max - min;
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Test case 1:** An array with positive integers
+* **Test case 2:** An array with consecutive integers
+* **Test case 3:** An array with large integers
+* **Test case 4:** An array with a single element
+* **Test case 5:** An empty array
+
+**Corner cases:**
+
+* **Empty array:** The program should throw an exception when given an empty array.
+* **Single element array:** The difference between the largest and smallest values in a single element array is 0.
+* **Array with duplicate elements:** The program should still find the correct difference between the largest and smallest values, even if there are duplicate elements.
+* **Array with negative integers:** The program should work correctly even if the array contains negative integers.

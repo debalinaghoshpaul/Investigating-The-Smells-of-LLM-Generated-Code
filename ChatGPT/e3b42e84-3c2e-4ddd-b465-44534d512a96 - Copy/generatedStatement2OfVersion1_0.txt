@@ -1,0 +1,5 @@
+
+
+In this implementation, we create a Trivia class to encapsulate the question, answer, and point value of a trivia question. We then create an array of Trivia objects and populate it with the trivia information. Finally, we iterate through the Trivia array to display the questions.
+
+This implementation allows for scalability as we can easily add more properties to the Trivia class without the need to create additional arrays. The execution of the program remains the same as before, but the internal representation has been improved.

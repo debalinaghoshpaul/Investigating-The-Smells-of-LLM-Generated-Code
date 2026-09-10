@@ -1,0 +1,16 @@
+JUnit version 4.13
+.Enter the number to be categorized:
+Invalid input. The number must be between 1 and 10,000.
+.Enter the number to be categorized:
+Perfect number
+.Enter the number to be categorized:
+Abundant number
+.Enter the number to be categorized:
+Deficient number
+..Enter the number to be categorized:
+.Enter the number to be categorized:
+
+Time: 0.345
+
+OK (7 tests)
+

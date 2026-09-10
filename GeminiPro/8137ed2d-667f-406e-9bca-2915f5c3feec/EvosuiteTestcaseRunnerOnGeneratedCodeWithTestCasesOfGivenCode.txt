@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Enter a string: 
+Enter the character to be counted: 
+The character 'G' occurs 1 times in the string 'G!y@FN?s[xk*"$'.
+.Enter a string: 
+.
+Time: 0.503
+
+OK (3 tests)
+

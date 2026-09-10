@@ -1,0 +1,10 @@
+
+Original trees:
+s:  1
+   /
+  2
+
+t:  2
+
+Expected Output:
+true

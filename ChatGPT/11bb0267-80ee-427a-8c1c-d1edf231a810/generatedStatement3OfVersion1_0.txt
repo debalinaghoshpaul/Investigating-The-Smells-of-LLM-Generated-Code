@@ -1,0 +1,2 @@
+
+The maximum element in the array is: 30

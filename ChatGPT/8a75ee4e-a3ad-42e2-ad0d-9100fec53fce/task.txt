@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to compute the debt amount in n months. Monthly, the loan adds 4% interest to the $100,000 borrowed and rounds it to the nearest 1,000.\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 8a75ee4e-a3ad-42e2-ad0d-9100fec53fce.\n

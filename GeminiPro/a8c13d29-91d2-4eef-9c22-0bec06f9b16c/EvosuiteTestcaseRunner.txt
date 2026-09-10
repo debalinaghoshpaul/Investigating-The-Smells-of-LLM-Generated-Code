@@ -1,0 +1,15 @@
+JUnit version 4.13
+.Enter a string: 
+Enter the number of vowels to get: 
+The last 0 vowels of the given string are: eoeooeueeE
+.Enter a string: 
+..Enter a string: 
+Enter the number of vowels to get: 
+.Enter a string: 
+Enter the number of vowels to get: 
+The last 5 vowels of the given string are: eoeoo
+
+Time: 0.394
+
+OK (5 tests)
+

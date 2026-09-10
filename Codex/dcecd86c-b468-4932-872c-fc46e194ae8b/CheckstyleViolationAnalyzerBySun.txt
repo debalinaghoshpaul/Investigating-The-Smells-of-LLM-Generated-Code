@@ -1,0 +1,10 @@
+Violations by Category:
+DesignForExtension: Class 'WebCrawler' looks like designed for extension (can be subclassed), but the method 'startCrawling' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'WebCrawler' final or making the method 'startCrawling' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 2
+FinalParameters: Parameter args should be final. [FinalParameters]: 5
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 3
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+MagicNumber: '10' is a magic number. [MagicNumber]: 2
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1

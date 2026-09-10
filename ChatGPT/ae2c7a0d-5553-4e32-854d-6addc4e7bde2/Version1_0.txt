@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93Q4UGEoTVerQKwJe0MUkUkJjSbvt",
+  "object" : "chat.completion",
+  "created" : 1710602230,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\nimport java.util.HashSet;\n\npublic class CommonElementsInStacks {\n\n    public static void main(String[] args) {\n        Stack<Integer> stack1 = new Stack<>();\n        stack1.push(1);\n        stack1.push(2);\n        stack1.push(3);\n        stack1.push(4);\n        stack1.push(5);\n\n        Stack<Integer> stack2 = new Stack<>();\n        stack2.push(3);\n        stack2.push(4);\n        stack2.push(5);\n        stack2.push(6);\n        stack2.push(7);\n\n        findCommonElements(stack1, stack2);\n    }\n\n    public static void findCommonElements(Stack<Integer> stack1, Stack<Integer> stack2) {\n        HashSet<Integer> set = new HashSet<>();\n        for (Integer num : stack1) {\n            set.add(num);\n        }\n        \n        Stack<Integer> tempStack = new Stack<>();\n        while (!stack2.isEmpty()) {\n            int num = stack2.pop();\n            if (set.contains(num)) {\n                tempStack.push(num);\n            }\n        }\n\n        System.out.println(\"Common elements in the two stacks are:\");\n        while (!tempStack.isEmpty()) {\n            System.out.println(tempStack.pop());\n        }\n    }\n}\n```\n\nThis program creates two stacks, populates them with some elements, and then finds the common elements between the two stacks using a HashSet to store elements from the first stack and a temporary stack to store common elements from the second stack. Finally, it prints out the common elements found."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 70,
+    "completion_tokens" : 316,
+    "total_tokens" : 386
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

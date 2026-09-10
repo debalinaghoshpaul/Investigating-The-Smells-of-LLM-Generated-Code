@@ -1,0 +1,13 @@
+JUnit version 4.13
+.....E....
+Time: 0.363
+There was 1 failure:
+1) test7(testing_ChatGPT_on_java.Dog_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type Dog
+
+	at testing_ChatGPT_on_java.Dog_ESTest.test7(Dog_ESTest.java:70)
+
+FAILURES!!!
+Tests run: 9,  Failures: 1
+

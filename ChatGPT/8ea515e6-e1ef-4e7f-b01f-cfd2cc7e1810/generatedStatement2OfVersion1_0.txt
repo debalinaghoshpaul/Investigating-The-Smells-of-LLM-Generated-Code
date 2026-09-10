@@ -1,0 +1,5 @@
+
+
+The above program defines a `FindTriplets` class with a static method `findTriplets` to find triplets equal to a given sum in an unsorted array of integers. The main method demonstrates how to use this method with the example input `{1, 6, 3, 0, 8, 4, 1, 7}` and target sum `7`. 
+
+Output:

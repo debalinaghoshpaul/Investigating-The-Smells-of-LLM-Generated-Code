@@ -1,0 +1,42 @@
+JUnit version 4.13
+.madam is a palindrome: true
+level is a palindrome: true
+java is a palindrome: false
+..madam is a palindrome: true
+level is a palindrome: true
+java is a palindrome: false
+...madam is a palindrome: true
+level is a palindrome: true
+java is a palindrome: false
+.madam is a palindrome: true
+level is a palindrome: true
+java is a palindrome: false
+.madam is a palindrome: true
+level is a palindrome: true
+java is a palindrome: false
+madam is a palindrome: true
+level is a palindrome: true
+java is a palindrome: false
+madam is a palindrome: true
+level is a palindrome: true
+java is a palindrome: false
+madam is a palindrome: true
+level is a palindrome: true
+java is a palindrome: false
+madam is a palindrome: true
+level is a palindrome: true
+java is a palindrome: false
+madam is a palindrome: true
+level is a palindrome: true
+java is a palindrome: false
+E
+Time: 0.298
+There was 1 failure:
+1) test7(testing_ChatGPT_on_java.PalindromeChecker_ESTest)
+java.lang.NullPointerException
+	at testing_ChatGPT_on_java.PalindromeChecker.isPalindrome(PalindromeChecker.java:6)
+	at testing_ChatGPT_on_java.PalindromeChecker_ESTest.test7(PalindromeChecker_ESTest.java:100)
+
+FAILURES!!!
+Tests run: 8,  Failures: 1
+

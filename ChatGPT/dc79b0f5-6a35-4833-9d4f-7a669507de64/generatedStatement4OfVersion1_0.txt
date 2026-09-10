@@ -1,0 +1,5 @@
+
+
+In this program, we create a `mergeStacks` method that takes two stacks `stack1` and `stack2` as input. We use a temporary stack `tempStack` to preserve the elements while transferring them between stacks. We iterate over `stack1` and `stack2`, pop each element from the top, check if it already exists in the `mergedStack`, and push it to `mergedStack` if it doesn't. Finally, we return the merged stack without duplicates.
+
+In the `main` method, we create two stacks `stack1` and `stack2` with some elements and call the `mergeStacks` method passing these stacks. We then print the merged stack without duplicates by popping elements from the stack.

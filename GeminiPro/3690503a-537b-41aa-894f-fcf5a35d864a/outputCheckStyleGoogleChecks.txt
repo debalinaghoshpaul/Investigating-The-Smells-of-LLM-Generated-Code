@@ -1,0 +1,11 @@
+Starting audit...
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:2:1: Top-level class Vehicle has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:8:1: Top-level class Car has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:8:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:20:1: Top-level class Motorcycle has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:20:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:32:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:32:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:33:3: Missing a Javadoc comment. [MissingJavadocMethod]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:41:3: Missing a Javadoc comment. [MissingJavadocMethod]
+Audit done.

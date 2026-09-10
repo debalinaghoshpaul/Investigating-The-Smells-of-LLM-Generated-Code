@@ -1,0 +1,110 @@
+```java
+// Alien.java
+// Parent class Alien
+
+// Implementing an abstract class
+public abstract class Alien {
+    private String name;
+    private int damage;
+
+    // Constructor
+    public Alien(String name, int damage) {
+        this.name = name;
+        this.damage = damage;
+    }
+
+    // Accessor methods
+    public String getName() {
+        return name;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    // Abstract method
+    public abstract String toString();
+}
+```
+
+```java
+// SnakeAlien.java
+// Child class SnakeAlien
+
+public class SnakeAlien extends Alien {
+    // Constructor
+    public SnakeAlien(String name, int damage) {
+        super(name, damage);
+    }
+
+    // Override toString method
+    @Override
+    public String toString() {
+        return "SnakeAlien: " + super.toString();
+    }
+}
+```
+
+```java
+// BugAlien.java
+// Child class BugAlien
+
+public class BugAlien extends Alien {
+    // Constructor
+    public BugAlien(String name, int damage) {
+        super(name, damage);
+    }
+
+    // Override toString method
+    @Override
+    public String toString() {
+        return "BugAlien: " + super.toString();
+    }
+}
+```
+
+```java
+// Main.java
+// Main class
+
+public class Main {
+    public static void main(String[] args) {
+        // Create instances of SnakeAlien and BugAlien
+        Alien snakeAlien = new SnakeAlien("Slither", 10);
+        Alien bugAlien = new BugAlien("Buzz", 5);
+
+        // Print the details of each alien
+        System.out.println(snakeAlien.toString());
+        System.out.println(bugAlien.toString());
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+1. Create a SnakeAlien object with name "Venom" and damage 15.
+2. Create a BugAlien object with name "Crawler" and damage 7.
+3. Print the details of both aliens using the `toString()` method.
+
+**Expected Output:**
+
+```
+SnakeAlien: Venom | Damage: 15
+BugAlien: Crawler | Damage: 7
+```
+
+**Corner Cases:**
+
+1. **Empty Name:** Create an alien object with an empty name and non-zero damage.
+2. **Negative Damage:** Create an alien object with a negative damage value.
+3. **Null Name:** Create an alien object with a null name and non-zero damage.
+
+**Expected Output:**
+
+```
+Exception: Alien name cannot be empty.
+Exception: Alien damage cannot be negative.
+Exception: Alien name cannot be null.
+```

@@ -1,0 +1,2 @@
+Here is a Java program that solves the given problems:
+

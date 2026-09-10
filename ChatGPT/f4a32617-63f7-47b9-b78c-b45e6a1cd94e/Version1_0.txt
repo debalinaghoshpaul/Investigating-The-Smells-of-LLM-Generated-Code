@@ -1,0 +1,36 @@
+**Java Program:**
+
+```java
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class CurrentLocalTime {
+
+    public static void main(String[] args) {
+        // Get the current local time
+        LocalDateTime currentTime = LocalDateTime.now();
+
+        // Format the time in a human-readable format
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+        String formattedTime = currentTime.format(formatter);
+
+        // Print the formatted time
+        System.out.println("Current local time: " + formattedTime);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Valid Case:**
+* Input: None
+* Expected output: Current local time in the format "dd-MM-yyyy HH:mm:ss"
+
+* **Corner Cases:**
+* **Case 1:**
+* Input: None
+* Expected output: Current local time in the format "dd-MM-yyyy HH:mm:ss", even if the time is close to midnight or noon.
+
+* **Case 2:**
+* Input: None
+* Expected output: Current local time in the format "dd-MM-yyyy HH:mm:ss", even if the system time is set to an unexpected value.

@@ -1,0 +1,12 @@
+
+
+Test cases:
+
+* **Positive integer:** 5
+* **Negative integer:** -5
+* **Zero:** 0
+
+Corner cases:
+
+* **Integer.MIN_VALUE:** -2147483648
+* **Integer.MAX_VALUE:** 2147483647

@@ -1,0 +1,4 @@
+To solve this problem, we can write a Java program that takes two arrays as input and checks if they are equal or not. We can compare the length of the arrays first, and then compare each element one by one to determine if they are the same.
+
+Here is the Java program to test two arrays' equality:
+

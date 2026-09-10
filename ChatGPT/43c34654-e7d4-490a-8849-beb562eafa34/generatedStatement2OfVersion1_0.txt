@@ -1,0 +1,3 @@
+
+
+In this code, the `sumOfDigits` method takes an integer as input and recursively calculates the sum of its digits. If the number is less than 10, it simply returns the number. Otherwise, it calculates the last digit of the number by taking the modulus by 10 and adds it to the sum of the remaining digits calculated recursively by dividing the number by 10.

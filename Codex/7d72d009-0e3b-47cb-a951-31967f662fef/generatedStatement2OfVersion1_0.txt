@@ -1,0 +1,21 @@
+
+
+**Test cases**
+
+**Corner cases**
+
+* **Input:** -0.0
+* **Expected output:** 0.0
+* **Input:** Float.MIN_VALUE
+* **Expected output:** Float.MIN_VALUE
+* **Input:** Float.MAX_VALUE
+* **Expected output:** Float.MAX_VALUE
+
+**Normal cases**
+
+* **Input:** 3.14
+* **Expected output:** 3.14
+* **Input:** -5.67
+* **Expected output:** 5.67
+* **Input:** 0.0
+* **Expected output:** 0.0

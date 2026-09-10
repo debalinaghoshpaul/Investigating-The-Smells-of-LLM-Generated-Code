@@ -1,0 +1,11 @@
+JUnit version 4.13
+.Enter the number of rows: 1
+22
+333
+4444
+55555
+..Enter the number of rows: .Enter the number of rows: 
+Time: 0.423
+
+OK (4 tests)
+

@@ -1,0 +1,8 @@
+
+
+**Test Cases for Maximum Subarray**
+
+* Positive and negative numbers
+* All negative numbers
+* Empty array
+* Single element array

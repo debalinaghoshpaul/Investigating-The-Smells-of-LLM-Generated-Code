@@ -1,0 +1,36 @@
+No GPU found. Running on CPU.
+import java.util.Arrays;
+
+public class InterpolationSearch {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int key = 7;
+        int start = 0;
+        int end = arr.length - 1;
+
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (arr[mid] == key) {
+                System.out.println(mid);
+                break;
+            } else if (arr[mid] < key) {
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+    }
+}
+
+// Output: 5
+// Time Complexity: O(log n)
+// Space Complexity: O(1)
+
+// Test Cases:
+// arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, key = 7
+// arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, key = 8
+// arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, key = 9
+// arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, key = 10
+// arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, key = 11
+// arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, key = 12
+// arr = {1, 2, 3, 4, 5,

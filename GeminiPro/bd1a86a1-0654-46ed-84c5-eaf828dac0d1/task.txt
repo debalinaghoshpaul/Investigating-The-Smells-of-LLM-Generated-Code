@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find the sum of the two elements of a given array equal to a given integer. Sample array: [1,2,4,5,6] Target value: 6.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : bd1a86a1-0654-46ed-84c5-eaf828dac0d1.\n

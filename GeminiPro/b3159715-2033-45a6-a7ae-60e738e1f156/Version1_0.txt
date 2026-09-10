@@ -1,0 +1,58 @@
+```java
+import java.util.Arrays;
+
+public class ArrayIndexFinder {
+
+    public static void main(String[] args) {
+        // Test cases
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int target = 5;
+        System.out.println("Index of " + target + " in the array: " + findIndex(arr, target));
+
+        target = 10;
+        System.out.println("Index of " + target + " in the array: " + findIndex(arr, target));
+
+        target = 0;
+        System.out.println("Index of " + target + " in the array: " + findIndex(arr, target));
+
+        target = 11;
+        System.out.println("Index of " + target + " in the array: " + findIndex(arr, target));
+
+        arr = new int[]{};
+        target = 5;
+        System.out.println("Index of " + target + " in the array: " + findIndex(arr, target));
+    }
+
+    public static int findIndex(int[] arr, int target) {
+        // Check if the array is null or empty
+        if (arr == null || arr.length == 0) {
+            return -1;
+        }
+
+        // Iterate over the array to find the target element
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                return i;
+            }
+        }
+
+        // If the target element is not found, return -1
+        return -1;
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:** An array with multiple elements and a target element that exists in the array.
+* **Corner case 1:** An array with a single element and a target element that matches the element.
+* **Corner case 2:** An array with a single element and a target element that does not match the element.
+* **Corner case 3:** An empty array and a target element.
+
+**Expected output:**
+
+* Index of 5 in the array: 4
+* Index of 10 in the array: 9
+* Index of 0 in the array: -1
+* Index of 11 in the array: -1
+* Index of 5 in the array: -1

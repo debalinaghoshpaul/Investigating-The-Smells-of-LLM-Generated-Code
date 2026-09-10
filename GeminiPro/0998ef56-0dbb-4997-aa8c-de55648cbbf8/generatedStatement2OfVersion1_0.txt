@@ -1,0 +1,23 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * Empty array
+    * Array with all negative numbers
+    * Array with a single positive number
+* **Regular cases:**
+    * Array with both positive and negative numbers
+    * Array with a large range of values
+    * Array with a long contiguous subarray with a large sum
+
+**Expected results:**
+
+* **Corner cases:**
+    * Empty array: `[]`
+    * Array with all negative numbers: `[-1]`
+    * Array with a single positive number: `[1]`
+* **Regular cases:**
+    * Array with both positive and negative numbers: `[4, -10]`
+    * Array with a large range of values: `[7, -8]`
+    * Array with a long contiguous subarray with a large sum: `[12, 3]`

@@ -1,0 +1,2 @@
+Here is a Java program to create a spiral array of n * n sizes from a given integer n:
+

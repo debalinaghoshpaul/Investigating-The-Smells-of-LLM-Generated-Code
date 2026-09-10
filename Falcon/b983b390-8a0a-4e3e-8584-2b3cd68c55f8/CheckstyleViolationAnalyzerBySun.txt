@@ -1,0 +1,9 @@
+Violations by Category:
+LocalVariableName: Name 'new_node' must match pattern '^([a-z][a-zA-Z0-9]*|_)$'. [LocalVariableName]: 1
+VisibilityModifier: Variable 'data' must be private and have accessor methods. [VisibilityModifier]: 3
+FinalParameters: Parameter d should be final. [FinalParameters]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+ParameterName: Name 'new_data' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]: 1
+LeftCurly: '{' at column 5 should be on the previous line. [LeftCurly]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MagicNumber: '4' is a magic number. [MagicNumber]: 2

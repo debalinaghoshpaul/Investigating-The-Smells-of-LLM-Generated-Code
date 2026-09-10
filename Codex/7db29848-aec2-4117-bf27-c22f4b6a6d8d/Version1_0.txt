@@ -1,0 +1,27 @@
+```java
+import java.util.Scanner;
+
+public class CompareStrings {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get two strings from the user.
+        System.out.print("Enter the first string: ");
+        String firstString = input.nextLine();
+
+        System.out.print("Enter the second string: ");
+        String secondString = input.nextLine();
+
+        // Compare the two strings using the equals() method.
+        boolean areEqual = firstString.equals(secondString);
+
+        // Print the result.
+        if (areEqual) {
+            System.out.println("The two strings are equal.");
+        } else {
+            System.out.println("The two strings are not equal.");
+        }
+    }
+}
+```

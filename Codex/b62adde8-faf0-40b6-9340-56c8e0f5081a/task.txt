@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program that reads a list of pairs of a word and a page number. It prints the words and a list of page numbers.\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : b62adde8-faf0-40b6-9340-56c8e0f5081a.\n

@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\920ea559-0a16-4b06-8628-dd618e56b5dc\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\920ea559-0a16-4b06-8628-dd618e56b5dc\generatedProgram1OfVersion1_0.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\920ea559-0a16-4b06-8628-dd618e56b5dc\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\920ea559-0a16-4b06-8628-dd618e56b5dc\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\920ea559-0a16-4b06-8628-dd618e56b5dc\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\920ea559-0a16-4b06-8628-dd618e56b5dc\generatedProgram1OfVersion1_0.java:7:22: '-2' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\920ea559-0a16-4b06-8628-dd618e56b5dc\generatedProgram1OfVersion1_0.java:7:29: '-3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\920ea559-0a16-4b06-8628-dd618e56b5dc\generatedProgram1OfVersion1_0.java:7:33: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\920ea559-0a16-4b06-8628-dd618e56b5dc\generatedProgram1OfVersion1_0.java:7:46: '-5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_BasicExercise\920ea559-0a16-4b06-8628-dd618e56b5dc\generatedProgram1OfVersion1_0.java:7:50: '4' is a magic number. [MagicNumber]
+Audit done.

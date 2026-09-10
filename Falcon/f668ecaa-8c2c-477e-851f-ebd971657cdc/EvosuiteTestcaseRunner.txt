@@ -1,0 +1,10 @@
+JUnit version 4.13
+..Date 1: Fri Feb 14 20:21:21 GMT 2014
+Date 2: Fri Feb 14 20:21:21 GMT 2014
+Formatted Date 1: 2014-02-14
+Formatted Date 2: 02/14/2014 20:21:21
+
+Time: 0.357
+
+OK (2 tests)
+

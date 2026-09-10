@@ -1,0 +1,93 @@
+```java
+import java.util.*;
+
+public class AntiDiagonals {
+
+    public static void main(String[] args) {
+        int[][] matrix = {
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}
+        };
+
+        List<List<Integer>> antiDiagonals = getAntiDiagonals(matrix);
+
+        for (List<Integer> antiDiagonal : antiDiagonals) {
+            System.out.println(antiDiagonal);
+        }
+    }
+
+    public static List<List<Integer>> getAntiDiagonals(int[][] matrix) {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        List<List<Integer>> antiDiagonals = new ArrayList<>();
+
+        // Iterate over each row
+        for (int i = 0; i < rows; i++) {
+            List<Integer> antiDiagonal = new ArrayList<>();
+
+            // Iterate over each column in the same row
+            for (int j = 0; j < cols; j++) {
+                // Check if the current cell is on the anti-diagonal
+                if (i + j == rows - 1) {
+                    antiDiagonal.add(matrix[i][j]);
+                }
+            }
+
+            antiDiagonals.add(antiDiagonal);
+        }
+
+        return antiDiagonals;
+    }
+
+    public static void printMatrix(int[][] matrix) {
+        for (int[] row : matrix) {
+            for (int element : row) {
+                System.out.print(element + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void printAntiDiagonals(List<List<Integer>> antiDiagonals) {
+        for (List<Integer> antiDiagonal : antiDiagonals) {
+            System.out.println(antiDiagonal);
+        }
+    }
+
+    public static void testCornerCases() {
+        // Test case 1: Empty matrix
+        int[][] matrix1 = {};
+        List<List<Integer>> antiDiagonals1 = getAntiDiagonals(matrix1);
+        printAntiDiagonals(antiDiagonals1);
+
+        // Test case 2: Single-row matrix
+        int[][] matrix2 = {{1}};
+        List<List<Integer>> antiDiagonals2 = getAntiDiagonals(matrix2);
+        printAntiDiagonals(antiDiagonals2);
+
+        // Test case 3: Single-column matrix
+        int[][] matrix3 = {{1}, {2}, {3}};
+        List<List<Integer>> antiDiagonals3 = getAntiDiagonals(matrix3);
+        printAntiDiagonals(antiDiagonals3);
+    }
+}
+```
+
+**Test cases:**
+
+* **Test case 1:** Empty matrix
+* **Test case 2:** Single-row matrix
+* **Test case 3:** Single-column matrix
+* **Test case 4:** Square matrix with even number of rows and columns
+* **Test case 5:** Square matrix with odd number of rows and columns
+
+**Expected output:**
+
+* **Test case 1:** []
+* **Test case 2:** [[1]]
+* **Test case 3:** [[1], [2], [3]]
+* **Test case 4:** [[1], [2, 3], [4, 5], [6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+* **Test case 5:** [[1], [2, 3], [4, 5, 6], [7, 8, 9, 10], [11, 12, 13, 14, 15], [16, 17, 18, 19, 20, 21]]

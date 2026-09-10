@@ -1,0 +1,2 @@
+
+* **Corner case 4:** The array contains only negative elements.

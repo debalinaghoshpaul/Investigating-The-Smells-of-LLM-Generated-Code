@@ -1,0 +1,4 @@
+
+Enter the base: 2
+Enter the exponent: 3
+e^3 = 8.0

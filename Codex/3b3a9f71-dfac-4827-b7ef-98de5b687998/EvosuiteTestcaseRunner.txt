@@ -1,0 +1,7 @@
+JUnit version 4.13
+.The quick brown fox jumps over The lazy dog.
+.
+Time: 0.329
+
+OK (2 tests)
+

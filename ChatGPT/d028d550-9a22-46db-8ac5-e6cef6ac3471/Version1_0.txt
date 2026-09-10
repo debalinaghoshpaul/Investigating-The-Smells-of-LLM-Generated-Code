@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-920D9R3ITVFPbX3VX4lj7zfiiiIwV",
+  "object" : "chat.completion",
+  "created" : 1710264495,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.ArrayList;\nimport java.util.List;\n\npublic class Permutations {\n\n    public static void main(String[] args) {\n        int[] nums1 = {1, 2, 3, 4};\n        int[] nums2 = {1, 2, 3};\n\n        List<List<Integer>> permutations1 = permute(nums1);\n        System.out.println(\"Possible permutations of nums1:\");\n        for (List<Integer> perm : permutations1) {\n            System.out.println(perm);\n        }\n\n        List<List<Integer>> permutations2 = permute(nums2);\n        System.out.println(\"\\nPossible permutations of nums2:\");\n        for (List<Integer> perm : permutations2) {\n            System.out.println(perm);\n        }\n    }\n\n    public static List<List<Integer>> permute(int[] nums) {\n        List<List<Integer>> result = new ArrayList<>();\n        backtrack(result, new ArrayList<>(), nums);\n        return result;\n    }\n\n    private static void backtrack(List<List<Integer>> result, List<Integer> tempList, int[] nums){\n        if(tempList.size() == nums.length){\n            result.add(new ArrayList<>(tempList));\n        } else{\n            for(int i = 0; i < nums.length; i++){\n                if(tempList.contains(nums[i])) continue;\n                tempList.add(nums[i]);\n                backtrack(result, tempList, nums);\n                tempList.remove(tempList.size() - 1);\n            }\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 199,
+    "completion_tokens" : 291,
+    "total_tokens" : 490
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

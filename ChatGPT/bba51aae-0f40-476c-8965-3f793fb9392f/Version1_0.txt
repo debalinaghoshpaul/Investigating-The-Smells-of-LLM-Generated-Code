@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8ymNN2J6sMUOqBtuvNxmbm8bLrK19",
+  "object" : "chat.completion",
+  "created" : 1709496329,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Abstract class GeometricShape\nabstract class GeometricShape {\n    // Abstract method to calculate area\n    public abstract double area();\n    \n    // Abstract method to calculate perimeter\n    public abstract double perimeter();\n}\n\n// Subclass Triangle\nclass Triangle extends GeometricShape {\n    private double base;\n    private double height;\n    private double side1;\n    private double side2;\n    private double side3;\n    \n    public Triangle(double base, double height, double side1, double side2, double side3) {\n        this.base = base;\n        this.height = height;\n        this.side1 = side1;\n        this.side2 = side2;\n        this.side3 = side3;\n    }\n    \n    // Calculate area of triangle\n    @Override\n    public double area() {\n        return 0.5 * base * height;\n    }\n    \n    // Calculate perimeter of triangle\n    @Override\n    public double perimeter() {\n        return side1 + side2 + side3;\n    }\n}\n\n// Subclass Square\nclass Square extends GeometricShape {\n    private double side;\n    \n    public Square(double side) {\n        this.side = side;\n    }\n    \n    // Calculate area of square\n    @Override\n    public double area() {\n        return side * side;\n    }\n    \n    // Calculate perimeter of square\n    @Override\n    public double perimeter() {\n        return 4 * side;\n    }\n}\n\n// Main class with test cases\npublic class Main {\n    public static void main(String[] args) {\n        Triangle triangle = new Triangle(6, 4, 5, 3, 4);\n        System.out.println(\"Triangle Area: \" + triangle.area());\n        System.out.println(\"Triangle Perimeter: \" + triangle.perimeter());\n        \n        Square square = new Square(5);\n        System.out.println(\"Square Area: \" + square.area());\n        System.out.println(\"Square Perimeter: \" + square.perimeter());\n    }\n}\n```\nOutput:\n```\nTriangle Area: 12.0\nTriangle Perimeter: 12.0\nSquare Area: 25.0\nSquare Perimeter: 20.0\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 97,
+    "completion_tokens" : 449,
+    "total_tokens" : 546
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

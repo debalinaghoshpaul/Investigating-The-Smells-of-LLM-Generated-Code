@@ -1,0 +1,11 @@
+JUnit version 4.13
+.The file does not exist.
+..The file has read permission.
+The file does not have write permission.
+.The file has read permission.
+The file has write permission.
+
+Time: 0.408
+
+OK (4 tests)
+

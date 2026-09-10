@@ -1,0 +1,110 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class AppendStringsOmittingDoubleCharacters {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the two strings from the user
+        System.out.print("Enter the first string: ");
+        String s1 = input.nextLine();
+
+        System.out.print("Enter the second string: ");
+        String s2 = input.nextLine();
+
+        // Append the two strings, omitting one character if the concatenation creates double characters
+        String result = appendStrings(s1, s2);
+
+        // Print the result
+        System.out.println("The appended string is: " + result);
+    }
+
+    public static String appendStrings(String s1, String s2) {
+        // Create a new string to store the result
+        StringBuilder result = new StringBuilder();
+
+        // Iterate over the first string
+        for (int i = 0; i < s1.length(); i++) {
+            // Check if the last character of the result string is the same as the current character of the first string
+            if (result.length() > 0 && result.charAt(result.length() - 1) == s1.charAt(i)) {
+                // If the characters are the same, continue to the next character
+                continue;
+            }
+            // Otherwise, append the current character of the first string to the result string
+            else {
+                result.append(s1.charAt(i));
+            }
+        }
+
+        // Iterate over the second string
+        for (int i = 0; i < s2.length(); i++) {
+            // Check if the last character of the result string is the same as the current character of the second string
+            if (result.length() > 0 && result.charAt(result.length() - 1) == s2.charAt(i)) {
+                // If the characters are the same, continue to the next character
+                continue;
+            }
+            // Otherwise, append the current character of the second string to the result string
+            else {
+                result.append(s2.charAt(i));
+            }
+        }
+
+        // Return the result string
+        return result.toString();
+    }
+}
+```
+
+**Test Cases (including corner cases):**
+
+**Test Case 1:**
+
+* Input:
+    * String s1: "hello"
+    * String s2: "world"
+* Expected Output: "helloworld"
+
+**Test Case 2:**
+
+* Input:
+    * String s1: "aaabb"
+    * String s2: "bbbaa"
+* Expected Output: "ab"
+
+**Test Case 3:**
+
+* Input:
+    * String s1: "123456"
+    * String s2: "654321"
+* Expected Output: "12345"
+
+**Test Case 4:**
+
+* Input:
+    * String s1: "empty"
+    * String s2: ""
+* Expected Output: "empty"
+
+**Test Case 5:**
+
+* Input:
+    * String s1: ""
+    * String s2: "filled"
+* Expected Output: "filled"
+
+**Test Case 6 (Corner Case):**
+
+* Input:
+    * String s1: "aaaaaaaa"
+    * String s2: "bbbbbbbb"
+* Expected Output: "ab"
+
+**Test Case 7 (Corner Case):**
+
+* Input:
+    * String s1: ""
+    * String s2: "aaaaaaaa"
+* Expected Output: "a"

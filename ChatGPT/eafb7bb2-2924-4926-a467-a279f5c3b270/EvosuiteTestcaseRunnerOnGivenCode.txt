@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Pairs of elements and their sum : 
+.Pairs of elements and their sum : 
+..Pairs of elements and their sum : 
+4 + 11 = 15
+-5 + 20 = 15
+Pairs of elements and their sum : 
+14 + 16 = 30
+-15 + 45 = 30
+
+Time: 0.34
+
+OK (4 tests)
+

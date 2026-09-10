@@ -1,0 +1,18 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class ChanceOfWinningAtCraps {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random rand = new Random();
+        int count = 0;
+        for (int i = 0; i < 15000; i++) {
+            int result = rand.nextInt(6);
+            if (result == 1 || result == 2 || result == 3 || result == 4 || result == 5 || result == 6) {
+                count++;
+            }
+        }
+        System.out.println("Number of winning games: " + count);
+    }
+}
+

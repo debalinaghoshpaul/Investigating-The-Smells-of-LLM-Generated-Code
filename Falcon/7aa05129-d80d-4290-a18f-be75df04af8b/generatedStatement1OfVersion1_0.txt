@@ -1,0 +1,31 @@
+
+// Enter an integer: 123
+// The sum of the digits of 123 is: 3
+// Enter an integer: 456
+// The sum of the digits of 456 is: 6
+// Enter an integer: 789
+// The sum of the digits of 789 is: 7
+// Enter an integer: 987
+// The sum of the digits of 987 is: 9
+// Enter an integer: 1234
+// The sum of the digits of 1234 is: 4
+// Enter an integer: 5678
+// The sum of the digits of 5678 is: 8
+// Enter an integer: 9876
+// The sum of the digits of 9876 is: 9
+// Enter an integer: 12345
+// The sum of the digits of 12345 is: 4
+// Enter an integer: 56789
+// The sum of the digits of 56789 is: 8
+// Enter an integer: 987654
+// The sum of the digits of 987654 is: 9
+// Enter an integer: 1234567
+// The sum of the digits of 1234567 is: 4
+// Enter an integer: 567890
+// The sum of the digits of 567890 is: 8
+// Enter an integer: 9876543
+// The sum of the digits of 9876543 is: 9
+// Enter an integer: 1234567
+// The sum of the digits of 1234567 is: 4
+// Enter an integer: 567890
+// The sum of the digits

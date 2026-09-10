@@ -1,0 +1,15 @@
+JUnit version 4.13
+.Input an alphabet: Input letter is Vowel
+.Input an alphabet: Input letter is Vowel
+.Input an alphabet: Input letter is Vowel
+.Input an alphabet: Input letter is Vowel
+..Input an alphabet: .Input an alphabet: Error. Not a single character.
+.Input an alphabet: Error. Not a single character.
+.Input an alphabet: Input letter is Vowel
+.Input an alphabet: Error. Not a letter. Enter uppercase or lowercase letter.
+.Input an alphabet: Input letter is Consonant
+
+Time: 0.347
+
+OK (11 tests)
+

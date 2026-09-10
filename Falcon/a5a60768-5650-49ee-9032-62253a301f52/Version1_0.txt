@@ -1,0 +1,162 @@
+**Java program to check if a specified number appears in every pair of adjacent integers of a given array of integers:**
+
+```java
+import java.util.Scanner;
+
+public class CheckAdjacentNumbers {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the size of the array: ");
+        int size = input.nextInt();
+
+        int[] arr = new int[size];
+
+        System.out.println("Enter the elements of the array: ");
+        for (int i = 0; i < size; i++) {
+            arr[i] = input.nextInt();
+        }
+
+        System.out.print("Enter the specified number: ");
+        int num = input.nextInt();
+
+        boolean found = false;
+        for (int i = 0; i < size - 1; i++) {
+            if (arr[i] == num && arr[i + 1] == num) {
+                found = true;
+                break;
+            }
+        }
+
+        if (found) {
+            System.out.println("The specified number appears in every pair of adjacent integers of the given array.");
+        } else {
+            System.out.println("The specified number does not appear in every pair of adjacent integers of the given array.");
+        }
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:**
+```
+Input:
+Enter the size of the array: 5
+Enter the elements of the array: 1 2 2 2 3
+Enter the specified number: 2
+Output:
+The specified number appears in every pair of adjacent integers of the given array.
+```
+
+* **Corner case (empty array):**
+```
+Input:
+Enter the size of the array: 0
+Enter the elements of the array: 
+Enter the specified number: 1
+Output:
+The specified number does not appear in every pair of adjacent integers of the given array.
+```
+
+* **Corner case (single element array):**
+```
+Input:
+Enter the size of the array: 1
+Enter the elements of the array: 1
+Enter the specified number: 1
+Output:
+The specified number appears in every pair of adjacent integers of the given array.
+```
+
+* **Corner case (no specified number):**
+```
+Input:
+Enter the size of the array: 5
+Enter the elements of the array: 1 2 3 4 5
+Enter the specified number: 6
+Output:
+The specified number does not appear in every pair of adjacent integers of the given array.
+```
+
+
+**Java program to count the elements that differ by 1 or less between two given arrays of integers with the same length:**
+
+```java
+import java.util.Scanner;
+
+public class CountElementsDifferingByOne {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the size of the arrays: ");
+        int size = input.nextInt();
+
+        int[] arr1 = new int[size];
+        int[] arr2 = new int[size];
+
+        System.out.println("Enter the elements of the first array: ");
+        for (int i = 0; i < size; i++) {
+            arr1[i] = input.nextInt();
+        }
+
+        System.out.println("Enter the elements of the second array: ");
+        for (int i = 0; i < size; i++) {
+            arr2[i] = input.nextInt();
+        }
+
+        int count = 0;
+        for (int i = 0; i < size; i++) {
+            if (Math.abs(arr1[i] - arr2[i]) <= 1) {
+                count++;
+            }
+        }
+
+        System.out.println("The number of elements that differ by 1 or less between the two arrays is: " + count);
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:**
+```
+Input:
+Enter the size of the arrays: 5
+Enter the elements of the first array: 1 2 3 4 5
+Enter the elements of the second array: 2 3 4 5 6
+Output:
+The number of elements that differ by 1 or less between the two arrays is: 4
+```
+
+* **Corner case (empty arrays):**
+```
+Input:
+Enter the size of the arrays: 0
+Enter the elements of the first array: 
+Enter the elements of the second array: 
+Output:
+The number of elements that differ by 1 or less between the two arrays is: 0
+```
+
+* **Corner case (single element arrays):**
+```
+Input:
+Enter the size of the arrays: 1
+Enter the elements of the first array: 1
+Enter the elements of the second array: 2
+Output:
+The number of elements that differ by 1 or less between the two arrays is: 0
+```
+
+* **Corner case (arrays with all elements equal):**
+```
+Input:
+Enter the size of the arrays: 5
+Enter the elements of the first array: 1 1 1 1 1
+Enter the elements of the second array: 1 1 1 1 1
+Output:
+The number of elements that differ by 1 or less between the two arrays is: 5
+```

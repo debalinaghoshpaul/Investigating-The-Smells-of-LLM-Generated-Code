@@ -1,0 +1,25 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: start = 2, end = 100
+* Output: The sum of all prime numbers in the range [2, 100] is: 1060
+
+**Corner Cases:**
+
+* Input: start = 0, end = 100
+* Output: The sum of all prime numbers in the range [0, 100] is: 0
+
+* Input: start = -100, end = 100
+* Output: The sum of all prime numbers in the range [-100, 100] is: 1060
+
+* Input: start = 100, end = 2
+* Output: The sum of all prime numbers in the range [100, 2] is: 0
+
+* Input: start = 2, end = 2
+* Output: The sum of all prime numbers in the range [2, 2] is: 2
+
+* Input: start = 1, end = 100
+* Output: The sum of all prime numbers in the range [1, 100] is: 1060

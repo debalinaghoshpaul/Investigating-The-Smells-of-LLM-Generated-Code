@@ -1,0 +1,40 @@
+JUnit version 4.13
+...E..E......Original array: [5, 2, 8, 1, 4, 3, 7, 9, 6]
+Sorted array: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+Original array: [5, 2, 8, 1, 4, 3, 7, 9, 6]
+Sorted array: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+Original array: [5, 2, 8, 1, 4, 3, 7, 9, 6]
+Sorted array: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+Original array: [5, 2, 8, 1, 4, 3, 7, 9, 6]
+Sorted array: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+Original array: [5, 2, 8, 1, 4, 3, 7, 9, 6]
+Sorted array: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+Original array: [5, 2, 8, 1, 4, 3, 7, 9, 6]
+E..
+Time: 12.667
+There were 3 failures:
+1) test09(testing_ChatGPT_on_java.MultithreadedSort_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1252)
+	at java.lang.Thread.join(Thread.java:1326)
+	at testing_ChatGPT_on_java.MultithreadedSort.mergeSort(MultithreadedSort.java:39)
+	at testing_ChatGPT_on_java.MultithreadedSort_ESTest.test09(MultithreadedSort_ESTest.java:124)
+2) test03(testing_ChatGPT_on_java.MultithreadedSort_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1252)
+	at java.lang.Thread.join(Thread.java:1326)
+	at testing_ChatGPT_on_java.MultithreadedSort.mergeSort(MultithreadedSort.java:39)
+	at testing_ChatGPT_on_java.MultithreadedSort_ESTest.test03(MultithreadedSort_ESTest.java:47)
+3) test12(testing_ChatGPT_on_java.MultithreadedSort_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1252)
+	at java.lang.Thread.join(Thread.java:1326)
+	at testing_ChatGPT_on_java.MultithreadedSort.main(MultithreadedSort.java:16)
+	at testing_ChatGPT_on_java.MultithreadedSort_ESTest.test12(MultithreadedSort_ESTest.java:155)
+
+FAILURES!!!
+Tests run: 13,  Failures: 3
+

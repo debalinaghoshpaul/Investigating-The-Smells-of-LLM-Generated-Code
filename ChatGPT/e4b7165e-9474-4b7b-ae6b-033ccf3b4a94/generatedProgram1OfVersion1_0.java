@@ -1,0 +1,34 @@
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+public class CallableFutureExample {
+
+    public static void main(String[] args) {
+        // Create an executor service with a fixed thread pool of 2 threads
+        ExecutorService executorService = Executors.newFixedThreadPool(2);
+
+        // Create a Callable task that returns the sum of two numbers
+        Callable<Integer> task = () -> {
+            int a = 10;
+            int b = 20;
+            return a + b;
+        };
+
+        // Submit the Callable task to the executor service and get a Future object
+        Future<Integer> future = executorService.submit(task);
+
+        // Wait for the task to complete and get the result
+        try {
+            Integer result = future.get();
+            System.out.println("The result of the task is: " + result);
+        } catch (InterruptedException | ExecutionException e) {
+            e.printStackTrace();
+        }
+
+        // Shutdown the executor service
+        executorService.shutdown();
+    }
+}

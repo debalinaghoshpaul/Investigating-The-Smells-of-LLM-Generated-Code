@@ -1,0 +1,5 @@
+
+
+This code uses a LinkedListCount class with a main method to execute the execution code. The countValue() method counts the occurrences of an item in a linked list by iterating through each node and comparing the item's value with the data in each node. The toString() method is used to convert the linked list into a string for printing.
+
+In the main method, 20 random numbers in the range 0-4 are generated using a Random object. Each random number is inserted at the front of the linked list. The list is then outputted using the toString() method. The countValue() method is called in a loop for each value from 0 to 4 to count the occurrences of each value in the list, and the results are displayed.

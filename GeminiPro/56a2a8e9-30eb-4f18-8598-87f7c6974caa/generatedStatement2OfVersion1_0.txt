@@ -1,0 +1,34 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: str1 = "egg", str2 = "add"
+* Expected Output: true
+
+* Input: str1 = "foo", str2 = "bar"
+* Expected Output: false
+
+* Input: str1 = "paper", str2 = "title"
+* Expected Output: true
+
+**Corner Cases:**
+
+* Input: str1 = null, str2 = "title"
+* Expected Output: false
+
+* Input: str1 = "egg", str2 = null
+* Expected Output: false
+
+* Input: str1 = "", str2 = ""
+* Expected Output: true
+
+* Input: str1 = "ab", str2 = "ca"
+* Expected Output: true
+
+* Input: str1 = "ab", str2 = "aa"
+* Expected Output: false
+
+* Input: str1 = "ab", str2 = "abc"
+* Expected Output: false

@@ -1,0 +1,29 @@
+import java.util.Arrays;
+
+public class ArrayContainsValue {
+
+    public static void main(String[] args) {
+        // Test cases
+        int[] arr1 = {1, 2, 3, 4, 5};
+        int[] arr2 = {6, 7, 8, 9, 10};
+        int[] arr3 = {};
+
+        // Test values
+        int value1 = 3;
+        int value2 = 11;
+
+        // Check if the arrays contain the values
+        System.out.println(Arrays.toString(arr1) + " contains " + value1 + ": " + containsValue(arr1, value1));
+        System.out.println(Arrays.toString(arr2) + " contains " + value2 + ": " + containsValue(arr2, value2));
+        System.out.println(Arrays.toString(arr3) + " contains " + value1 + ": " + containsValue(arr3, value1));
+    }
+
+    public static boolean containsValue(int[] arr, int value) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == value) {
+                return true;
+            }
+        }
+        return false;
+    }
+}

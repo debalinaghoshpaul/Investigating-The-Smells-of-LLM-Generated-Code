@@ -1,0 +1,20 @@
+ 13
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, if the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12 and 13, the program should return 12.
+// If the two values are 12

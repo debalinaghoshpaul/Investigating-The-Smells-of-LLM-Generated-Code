@@ -1,0 +1,44 @@
+```java
+import java.util.HashSet;
+import java.util.Set;
+
+public class UniqueThreeDigitNumber {
+
+    public static void main(String[] args) {
+        Set<Integer> uniqueThreeDigitNumbers = new HashSet<>();
+        int count = 0;
+
+        for (int i = 1; i <= 4; i++) {
+            for (int j = 1; j <= 4; j++) {
+                for (int k = 1; k <= 4; k++) {
+                    if (i != j && j != k && k != i) {
+                        int threeDigitNumber = i * 100 + j * 10 + k;
+                        uniqueThreeDigitNumbers.add(threeDigitNumber);
+                        count++;
+                    }
+                }
+            }
+        }
+
+        for (int threeDigitNumber : uniqueThreeDigitNumbers) {
+            System.out.println(threeDigitNumber);
+        }
+
+        System.out.println("Total number of the three-digit-number is " + count);
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Corner case 1:** All digits are the same (e.g., 111, 222, 333, 444)
+* **Corner case 2:** Only two digits are different (e.g., 121, 131, 232, 343)
+* **Corner case 3:** Only one digit is different (e.g., 123, 132, 231, 321)
+* **Normal case:** All digits are different (e.g., 123, 134, 234, 341)
+
+**Expected output for the test cases:**
+
+* **Corner case 1:** No three-digit numbers should be generated.
+* **Corner case 2:** 12 unique three-digit numbers should be generated.
+* **Corner case 3:** 24 unique three-digit numbers should be generated.
+* **Normal case:** 24 unique three-digit numbers should be generated.

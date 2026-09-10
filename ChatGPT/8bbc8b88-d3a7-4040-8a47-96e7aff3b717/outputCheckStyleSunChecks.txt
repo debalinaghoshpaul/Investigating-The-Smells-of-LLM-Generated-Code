@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:4: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:10: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:11:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:11:45: Parameter input should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:16: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:17:9: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:17:9: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:18:13: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:18:13: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\8bbc8b88-d3a7-4040-8a47-96e7aff3b717\generatedProgram1OfVersion1_0.java:24: Line has trailing spaces. [RegexpSingleline]
+Audit done.

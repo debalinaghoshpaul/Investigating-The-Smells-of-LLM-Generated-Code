@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8yk62EbygFZbciJMNtaJmRuXpAUaf",
+  "object" : "chat.completion",
+  "created" : 1709487566,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Abstract class Animal\nabstract class Animal {\n    // Abstract method sound\n    public abstract void sound();\n}\n\n// Subclass Lion extending Animal\nclass Lion extends Animal {\n    // Implementing sound method for Lion\n    public void sound() {\n        System.out.println(\"Lion Roars\");\n    }\n}\n\n// Subclass Tiger extending Animal\nclass Tiger extends Animal {\n    // Implementing sound method for Tiger\n    public void sound() {\n        System.out.println(\"Tiger Growls\");\n    }\n}\n\n// Main class to test the Animal subclasses\npublic class Main {\n    public static void main(String[] args) {\n        // Creating objects of Lion and Tiger classes\n        Lion lion = new Lion();\n        Tiger tiger = new Tiger();\n\n        // Calling the sound method for Lion and Tiger\n        lion.sound();\n        tiger.sound();\n    }\n}\n```\n\nOutput:\n```\nLion Roars\nTiger Growls\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 95,
+    "completion_tokens" : 191,
+    "total_tokens" : 286
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

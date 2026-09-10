@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EMtZRHvuEuanksdW0NQryXl1XKKk",
+  "object" : "chat.completion",
+  "created" : 1713211629,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\nclass Parcel {\n    private float weight;\n    private String location;\n\n    public void setWeight(float weight) {\n        this.weight = weight;\n    }\n\n    public void setLocation(String location) {\n        this.location = location;\n    }\n\n    public float calculateCost() {\n        float cost = weight * 2;\n        if(location.equalsIgnoreCase(\"within city\")) {\n            cost += 20;\n        } else {\n            cost += 40;\n        }\n        return cost;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\n        Parcel[] parcels = new Parcel[5];\n\n        for(int i = 0; i < 5; i++) {\n            parcels[i] = new Parcel();\n            System.out.print(\"Enter the weight of parcel \" + (i+1) + \" in kg: \");\n            float weight = scanner.nextFloat();\n            parcels[i].setWeight(weight);\n            System.out.print(\"Enter the location of delivery (within city or outside country): \");\n            scanner.nextLine(); // consume newline\n            String location = scanner.nextLine();\n            parcels[i].setLocation(location);\n        }\n\n        System.out.println(\"\\n--- Parcel Costs ---\");\n        for(int i = 0; i < 5; i++) {\n            System.out.println(\"Parcel \" + (i+1) + \" Cost: $\" + parcels[i].calculateCost());\n        }\n    }\n}\n```\nIn this program, we have a `Parcel` class that represents each parcel with attributes `weight` and `location`. We calculate the cost of each parcel based on the weight and the delivery location. The main function takes input for 5 parcels and calculates the cost for each parcel."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 171,
+    "completion_tokens" : 359,
+    "total_tokens" : 530
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

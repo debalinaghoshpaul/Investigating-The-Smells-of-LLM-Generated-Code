@@ -1,0 +1,39 @@
+No GPU found. Running on CPU.
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class FindContinuousSubarrays {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int sum = 10;
+        int n = arr.length;
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
+            List<Integer> list = new ArrayList<>();
+            for (int j = i + 1; j < n; j++) {
+                if (arr[i] + arr[j] == sum) {
+                    list.add(arr[i]);
+                    list.add(arr[j]);
+                }
+            }
+            result.add(list);
+        }
+
+        for (List<Integer> list : result) {
+            System.out.println(list);
+        }
+    }
+}
+
+Output:
+[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]
+[[1, 2, 3

@@ -1,0 +1,31 @@
+
+
+**Test Cases**
+
+**Corner Cases**
+
+* Pet with weight 0
+* Pet with negative weight
+* Pet with null name, weight, or gender
+
+**Normal Cases**
+
+* Pet with weight 10
+* Pet with weight 20
+* Pet with weight 50
+* Pet with weight 100
+
+**Expected Output**
+
+**Corner Cases**
+
+* Pet with weight 0: 0 mg of carprofen and 0 mg of acepromazine
+* Pet with negative weight: Invalid weight
+* Pet with null name, weight, or gender: Invalid pet
+
+**Normal Cases**
+
+* Pet with weight 10: 22 mg of carprofen and 3 mg of acepromazine
+* Pet with weight 20: 44 mg of carprofen and 6 mg of acepromazine
+* Pet with weight 50: 110 mg of carprofen and 15 mg of acepromazine
+* Pet with weight 100: 220 mg of carprofen and 30 mg of acepromazine

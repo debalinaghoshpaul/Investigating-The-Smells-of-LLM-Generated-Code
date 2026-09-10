@@ -1,0 +1,3 @@
+
+
+**Test Case 4: Array with Specified Number 20 Appearing More than Three Times**

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93RLUXIpMXWzLz83TjjJByHCcHjVW",
+  "object" : "chat.completion",
+  "created" : 1710607128,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Below is the Java program to implement a stack using a linked list:\n\n```java\nclass Node {\n    int data;\n    Node next;\n    \n    public Node(int data) {\n        this.data = data;\n        this.next = null;\n    }\n}\n\nclass MyStack {\n    private Node top;\n    \n    public MyStack() {\n        this.top = null;\n    }\n    \n    public void push(int data) {\n        Node newNode = new Node(data);\n        if (top == null) {\n            top = newNode;\n        } else {\n            newNode.next = top;\n            top = newNode;\n        }\n        System.out.println(data + \" pushed to stack\");\n    }\n    \n    public void pop() {\n        if (top == null) {\n            System.out.println(\"Stack is empty\");\n        } else {\n            int data = top.data;\n            top = top.next;\n            System.out.println(data + \" popped from stack\");\n        }\n    }\n    \n    public void peek() {\n        if (top == null) {\n            System.out.println(\"Stack is empty\");\n        } else {\n            System.out.println(\"Top element is: \" + top.data);\n        }\n    }\n    \n    public void display() {\n        if (top == null) {\n            System.out.println(\"Stack is empty\");\n        } else {\n            Node temp = top;\n            System.out.println(\"Stack elements are:\");\n            while (temp != null) {\n                System.out.print(temp.data + \" \");\n                temp = temp.next;\n            }\n            System.out.println();\n        }\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        MyStack stack = new MyStack();\n        \n        stack.push(1);\n        stack.push(2);\n        stack.push(3);\n        stack.display();\n        \n        stack.pop();\n        stack.display();\n        \n        stack.peek();\n    }\n}\n```\n\nThis program demonstrates the implementation of a stack using a linked list in Java. The stack supports operations like push, pop, peek, and display. Feel free to modify the program as needed."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 65,
+    "completion_tokens" : 418,
+    "total_tokens" : 483
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

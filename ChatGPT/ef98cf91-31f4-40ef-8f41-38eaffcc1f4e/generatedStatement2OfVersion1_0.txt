@@ -1,0 +1,5 @@
+
+
+Test cases:
+
+* **Normal case:** Search for an element that exists in the array.

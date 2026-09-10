@@ -1,0 +1,5 @@
+
+Enter the first number: 13
+Enter the second number: 5.5
+Enter the third number: 8.5
+Average of 13, 5.5 and 8.5 is:

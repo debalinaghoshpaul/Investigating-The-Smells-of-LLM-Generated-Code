@@ -1,0 +1,7 @@
+Violations by Category:
+DesignForExtension: Class 'Date' looks like designed for extension (can be subclassed), but the method 'getYear' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Date' final or making the method 'getYear' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 7
+FinalParameters: Parameter year should be final. [FinalParameters]: 6
+HiddenField: 'year' hides a field. [HiddenField]: 6
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 8

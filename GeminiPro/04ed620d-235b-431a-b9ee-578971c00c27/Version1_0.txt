@@ -1,0 +1,124 @@
+```java
+import java.util.Scanner;
+
+public class SumNumericalValuesInSentence {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int sum = 0;
+        String line;
+        while (!(line = scanner.nextLine()).isEmpty()) {
+            // Split the line into words
+            String[] words = line.split(" ");
+
+            // Iterate over the words
+            for (String word : words) {
+                // Check if the word is a positive integer
+                try {
+                    int number = Integer.parseInt(word);
+                    if (number > 0) {
+                        sum += number;
+                    }
+                } catch (NumberFormatException e) {
+                    // Ignore non-numerical words
+                }
+            }
+        }
+
+        // Print the sum
+        System.out.println(sum);
+    }
+}
+```
+
+**Test cases:**
+
+* **Empty input:**
+
+```
+```
+
+* **Single-digit numbers:**
+
+```
+123
+456
+789
+```
+
+* **Multiple-digit numbers:**
+
+```
+12345
+67890
+```
+
+* **Numbers with leading zeros:**
+
+```
+01234
+05678
+```
+
+* **Numbers with spaces:**
+
+```
+1 2 3
+4 5 6
+7 8 9
+```
+
+* **Numbers with symbols:**
+
+```
+1.23
+4-56
+7_89
+```
+
+* **Numbers with letters:**
+
+```
+a1b2c3
+d4e5f6
+g7h8i9
+```
+
+* **Negative numbers:**
+
+```
+-123
+-456
+-789
+```
+
+* **Non-numerical input:**
+
+```
+abc
+def
+ghi
+```
+
+* **Corner cases:**
+
+* **Sum is greater than 10,000:**
+
+```
+1234567890
+```
+
+* **Sum is less than 0:**
+
+```
+-1234567890
+```
+
+* **Input contains invalid characters:**
+
+```
+123abc
+456def
+789ghi
+```

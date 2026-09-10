@@ -1,0 +1,3 @@
+
+
+This Java program takes six numbers as input from the user, stores them in an array, and then uses the `Arrays.sort()` method to sort them in ascending order. Finally, it prints the sorted numbers in descending order.

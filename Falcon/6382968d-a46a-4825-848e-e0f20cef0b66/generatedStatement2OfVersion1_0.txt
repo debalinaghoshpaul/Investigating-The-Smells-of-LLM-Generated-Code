@@ -1,0 +1,12 @@
+
+
+**Test Cases:**
+
+* **Normal Cases:**
+    * Input: 3456789 minutes
+    * Expected Output: 6 years and 210 days
+* **Corner Cases:**
+    * Input: 0 minutes
+    * Expected Output: 0 years and 0 days
+    * Input: -3456789 minutes
+    * Expected Output: Invalid input. Minutes cannot be negative.

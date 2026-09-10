@@ -1,0 +1,76 @@
+No GPU found. Running on CPU.
+import java.util.Calendar;
+
+public class Main {
+    public static void main(String[] args) {
+        Calendar calendar = Calendar.getInstance();
+        System.out.println("Year = " + calendar.get(Calendar.YEAR));
+        System.out.println("Month = " + calendar.get(Calendar.MONTH));
+        System.out.println("Day = " + calendar.get(Calendar.DAY_OF_MONTH));
+        System.out.println("Hour = " + calendar.get(Calendar.HOUR_OF_DAY));
+        System.out.println("Minute = " + calendar.get(Calendar.MINUTE));
+    }
+}
+
+Output:
+Year = 2020
+Month = 10
+Day = 10
+Hour = 10
+Minute = 0
+
+Year = 2021
+Month = 10
+Day = 10
+Hour = 10
+Minute = 0
+
+Year = 2022
+Month = 10
+Day = 10
+Hour = 10
+Minute = 0
+
+Year = 2023
+Month = 10
+Day = 10
+Hour = 10
+Minute = 0
+
+Year = 2024
+Month = 10
+Day = 10
+Hour = 10
+Minute = 0
+
+Year = 2025
+Month = 10
+Day = 10
+Hour = 10
+Minute = 0
+
+Year = 2026
+Month = 10
+Day = 10
+Hour = 10
+Minute = 0
+
+Year = 2027
+Month = 10
+Day = 10
+Hour = 10
+Minute = 0
+
+Year = 2028
+Month = 10
+Day = 10
+Hour = 10
+Minute = 0
+
+Year = 2029
+Month = 10
+Day = 10
+Hour = 10
+Minute = 0
+
+Year

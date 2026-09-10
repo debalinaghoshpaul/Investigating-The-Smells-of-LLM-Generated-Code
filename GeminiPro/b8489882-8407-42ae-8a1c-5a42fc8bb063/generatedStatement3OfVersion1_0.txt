@@ -1,0 +1,9 @@
+
+Input: "Hello"
+Output: "-H-e-l-l-o-"
+
+Input: "computer"
+Output: "-c-o-m-p-u-t-e-r-"
+
+Input: "12345"
+Output: "12345"

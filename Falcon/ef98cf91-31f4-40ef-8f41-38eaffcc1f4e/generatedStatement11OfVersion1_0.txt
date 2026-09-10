@@ -1,0 +1,7 @@
+
+Input:
+arr = []
+target = 1
+
+Output:
+Target not found

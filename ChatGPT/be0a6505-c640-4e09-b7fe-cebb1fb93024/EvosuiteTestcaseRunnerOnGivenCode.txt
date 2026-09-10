@@ -1,0 +1,8 @@
+JUnit version 4.13
+...Original Array: [1, 2, 3, 4, 5, 6]
+Shuffled Array: [2, 3, 4, 5, 6, 1]
+.
+Time: 0.373
+
+OK (4 tests)
+

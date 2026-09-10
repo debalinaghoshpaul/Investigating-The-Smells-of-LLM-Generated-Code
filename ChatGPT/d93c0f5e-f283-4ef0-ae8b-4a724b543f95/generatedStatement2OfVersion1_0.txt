@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:** startDate = 2020-01-01, endDate = 2021-12-31
+* **Expected Output:** Years: 1, Months: 11, Days: 30
+
+* **Input:** startDate = 2022-05-15, endDate = 2023-02-28
+* **Expected Output:** Years: 0, Months: 9, Days: 13
+
+**Corner Cases:**
+
+* **Input:** startDate = 2023-02-29, endDate = 2024-02-29
+* **Expected Output:** Years: 0, Months: 11, Days: 31 (since 2024 is a leap year)
+
+* **Input:** startDate = 2023-03-01, endDate = 2023-02-28
+* **Expected Output:** IllegalArgumentException (since endDate cannot be before startDate)

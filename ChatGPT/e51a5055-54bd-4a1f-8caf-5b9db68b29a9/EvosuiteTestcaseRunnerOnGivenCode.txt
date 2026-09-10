@@ -1,0 +1,10 @@
+JUnit version 4.13
+..Input the 1st number: Input the 2nd number: Input the 3rd number: .Input the 1st number: Input the 2nd number: Input the 3rd number: The greatest: 4
+.Input the 1st number: Input the 2nd number: Input the 3rd number: .Input the 1st number: Input the 2nd number: Input the 3rd number: The greatest: 9
+.Input the 1st number: Input the 2nd number: Input the 3rd number: The greatest: 8
+.Input the 1st number: .Input the 1st number: .Input the 1st number: Input the 2nd number: Input the 3rd number: The greatest: 9
+
+Time: 0.445
+
+OK (9 tests)
+

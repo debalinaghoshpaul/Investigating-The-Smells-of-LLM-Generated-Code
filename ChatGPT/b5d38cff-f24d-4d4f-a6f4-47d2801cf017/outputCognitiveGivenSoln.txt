@@ -1,0 +1,1 @@
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\b5d38cff-f24d-4d4f-a6f4-47d2801cf017\givenSolution.java:3:	CognitiveComplexity:	The method 'main(String[])' has a cognitive complexity of 1, current threshold is 1

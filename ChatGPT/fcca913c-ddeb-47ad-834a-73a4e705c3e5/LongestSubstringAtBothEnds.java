@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class LongestSubstringAtBothEnds {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter the input string: ");
+        String inputString = scanner.nextLine();
+
+        // Find the longest substring that appears at both ends of the input string
+        String longestSubstring = "";
+        for (int i = 0; i < inputString.length(); i++) {
+            for (int j = inputString.length() - 1; j >= 0; j--) {
+                if (inputString.substring(i, j + 1).equals(inputString.substring(0, j - i + 1))) {
+                    if (longestSubstring.length() < inputString.substring(i, j + 1).length()) {
+                        longestSubstring = inputString.substring(i, j + 1);
+                    }
+                }
+            }
+        }
+
+        // Print the longest substring
+        System.out.println("The longest substring that appears at both ends of the input string is: " + longestSubstring);
+    }
+}

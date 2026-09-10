@@ -1,0 +1,82 @@
+```java
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        String str = "this is a test string";
+        String target = "tist";
+        System.out.println(findSmallestWindow(str, target));
+    }
+
+    public static String findSmallestWindow(String str, String target) {
+        if (str.length() < target.length()) {
+            return "";
+        }
+
+        Map<Character, Integer> targetCharMap = new HashMap<>();
+        for (char ch : target.toCharArray()) {
+            targetCharMap.put(ch, targetCharMap.getOrDefault(ch, 0) + 1);
+        }
+
+        int start = 0;
+        int end = 0;
+        int minLength = Integer.MAX_VALUE;
+        String minWindow = "";
+
+        int count = 0;
+
+        while (end < str.length()) {
+            char ch = str.charAt(end);
+            if (targetCharMap.containsKey(ch)) {
+                targetCharMap.put(ch, targetCharMap.get(ch) - 1);
+                if (targetCharMap.get(ch) >= 0) {
+                    count++;
+                }
+            }
+
+            while (count == target.length()) {
+                if (end - start + 1 < minLength) {
+                    minLength = end - start + 1;
+                    minWindow = str.substring(start, end + 1);
+                }
+
+                char startChar = str.charAt(start);
+                if (targetCharMap.containsKey(startChar)) {
+                    targetCharMap.put(startChar, targetCharMap.get(startChar) + 1);
+                    if (targetCharMap.get(startChar) > 0) {
+                        count--;
+                    }
+                }
+
+                start++;
+            }
+
+            end++;
+        }
+
+        return minWindow;
+    }
+}
+```
+
+### Test Cases
+
+**Corner Cases**
+
+* **Empty input strings:**
+    * `findSmallestWindow("", "")`
+    * `findSmallestWindow("abc", "")`
+    * `findSmallestWindow("", "abc")`
+* **Target string longer than input string:**
+    * `findSmallestWindow("abc", "abcd")`
+* **Target string not found in input string:**
+    * `findSmallestWindow("abc", "xyz")`
+
+**General Test Cases**
+
+* `findSmallestWindow("this is a test string", "tist")`
+* `findSmallestWindow("this is a test string", "testing")`
+* `findSmallestWindow("this is a test string", "test")`
+* `findSmallestWindow("this is a test string", "is")`
+* `findSmallestWindow("this is a test string", "a")`

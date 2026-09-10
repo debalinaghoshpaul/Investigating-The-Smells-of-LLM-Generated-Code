@@ -1,0 +1,32 @@
+JUnit version 4.13
+.Average: 2.0349165139403852E236
+Standard Deviation: NaN
+.Average: NaN
+Standard Deviation: NaN
+....E
+Time: 4.431
+There was 1 failure:
+1) test2(testing_ChatGPT_on_java.BinaryFileStats_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.PrintStream.write(PrintStream.java:482)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:104)
+	at java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
+	at java.io.PrintStream.write(PrintStream.java:527)
+	at java.io.PrintStream.print(PrintStream.java:669)
+	at java.io.PrintStream.println(PrintStream.java:823)
+	at java.lang.Throwable$WrappedPrintStream.println(Throwable.java:748)
+	at java.lang.Throwable.printStackTrace(Throwable.java:658)
+	at java.lang.Throwable.printStackTrace(Throwable.java:643)
+	at java.lang.Throwable.printStackTrace(Throwable.java:634)
+	at testing_ChatGPT_on_java.BinaryFileStats.main(BinaryFileStats.java:29)
+	at testing_ChatGPT_on_java.BinaryFileStats_ESTest.test2(BinaryFileStats_ESTest.java:44)
+
+FAILURES!!!
+Tests run: 6,  Failures: 1
+

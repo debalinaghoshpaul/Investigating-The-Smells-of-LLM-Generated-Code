@@ -1,0 +1,11 @@
+JUnit version 4.13
+.Enter the size of the first array: Enter the size of the second array: Enter the elements of the first array: 
+.Enter the size of the first array: .Enter the size of the first array: Enter the size of the second array: .Enter the size of the first array: Enter the size of the second array: Enter the elements of the first array: 
+Enter the elements of the second array: 
+Result: 
+49 49 49 49 49 49 49 
+.
+Time: 0.361
+
+OK (5 tests)
+

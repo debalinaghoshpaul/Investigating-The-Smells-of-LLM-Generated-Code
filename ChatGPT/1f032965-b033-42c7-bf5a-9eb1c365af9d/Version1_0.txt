@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9203JYOwXoNfgsoQlH5fACxRFv4bZ",
+  "object" : "chat.completion",
+  "created" : 1710263885,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class MaxDifference {\n    public static int findMaxDifference(int[] nums) {\n        int maxDiff = nums[1] - nums[0];\n        int minElement = nums[0];\n        \n        for (int i = 1; i < nums.length; i++) {\n            if (nums[i] - minElement > maxDiff) {\n                maxDiff = nums[i] - minElement;\n            }\n            if (nums[i] < minElement) {\n                minElement = nums[i];\n            }\n        }\n        \n        return maxDiff;\n    }\n\n    public static void main(String[] args) {\n        int[] nums = { 2, 3, 1, 7, 9, 5, 11, 3, 5 };\n        int maxDiff = findMaxDifference(nums);\n        \n        System.out.println(\"The maximum difference between two elements of the given array is: \" + maxDiff);\n    }\n}\n```\n\nOutput:\n```\nThe maximum difference between two elements of the given array is: 10\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 130,
+    "completion_tokens" : 219,
+    "total_tokens" : 349
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

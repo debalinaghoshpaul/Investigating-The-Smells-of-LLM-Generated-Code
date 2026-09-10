@@ -1,0 +1,11 @@
+JUnit version 4.13
+....The sum of subarray with the largest sum is 9
+The sum of subarray with the largest sum is 21
+The sum of subarray with the largest sum is -1
+The sum of subarray with the largest sum is 10
+The sum of subarray with the largest sum is -1
+..
+Time: 0.346
+
+OK (6 tests)
+

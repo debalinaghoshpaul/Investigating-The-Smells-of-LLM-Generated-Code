@@ -1,0 +1,47 @@
+```java
+import java.util.Scanner;
+
+public class ExtractFirstHalfEvenString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Check if the input string is even or odd
+        if (inputString.length() % 2 == 0) {
+            // If the input string is even, extract the first half of the string
+            String firstHalf = inputString.substring(0, inputString.length() / 2);
+
+            // Print the first half of the string
+            System.out.println("The first half of the string is: " + firstHalf);
+        } else {
+            // If the input string is odd, print an error message
+            System.out.println("The input string is odd. Please enter an even string.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:** Python
+* **Output:** Pyt
+
+* **Input:** Java
+* **Output:** Ja
+
+**Corner Cases:**
+
+* **Input:** "" (empty string)
+* **Output:** "" (empty string)
+
+* **Input:** "a" (odd string)
+* **Output:** "The input string is odd. Please enter an even string."
+
+* **Input:** null
+* **Output:** "The input string is odd. Please enter an even string."

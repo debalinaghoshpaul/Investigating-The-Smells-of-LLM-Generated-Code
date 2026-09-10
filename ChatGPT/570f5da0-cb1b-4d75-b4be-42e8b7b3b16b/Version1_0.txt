@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95FNCn42Uirmv50fUoKXfvj1WM4MN",
+  "object" : "chat.completion",
+  "created" : 1711037762,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class HammingWeight {\n    \n    public static int hammingWeight(int n) {\n        int count = 0;\n        while (n != 0) {\n            count += n & 1;\n            n = n >>> 1;\n        }\n        return count;\n    }\n    \n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int num = scanner.nextInt();\n        \n        int weight = hammingWeight(num);\n        System.out.println(\"Hamming weight of the number is: \" + weight);\n        \n        scanner.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 172,
+    "completion_tokens" : 135,
+    "total_tokens" : 307
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,43 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.345
+There were 6 failures:
+1) test1(testing_ChatGPT_on_java.Merge_two_lists_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Merge_two_lists cannot be resolved
+	Merge_two_lists cannot be resolved
+	Merge_two_lists cannot be resolved
+
+	at testing_ChatGPT_on_java.Merge_two_lists_ESTest.test1(Merge_two_lists_ESTest.java:37)
+2) test0(testing_ChatGPT_on_java.Merge_two_lists_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Merge_two_lists cannot be resolved
+	Merge_two_lists cannot be resolved
+	Merge_two_lists cannot be resolved
+
+	at testing_ChatGPT_on_java.Merge_two_lists_ESTest.test0(Merge_two_lists_ESTest.java:26)
+3) test5(testing_ChatGPT_on_java.Merge_two_lists_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Merge_two_lists cannot be resolved
+
+	at testing_ChatGPT_on_java.Merge_two_lists_ESTest.test5(Merge_two_lists_ESTest.java:76)
+4) test4(testing_ChatGPT_on_java.Merge_two_lists_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Merge_two_lists cannot be resolved to a type
+	Merge_two_lists cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Merge_two_lists_ESTest.test4(Merge_two_lists_ESTest.java:68)
+5) test3(testing_ChatGPT_on_java.Merge_two_lists_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Merge_two_lists cannot be resolved
+
+	at testing_ChatGPT_on_java.Merge_two_lists_ESTest.test3(Merge_two_lists_ESTest.java:55)
+6) test2(testing_ChatGPT_on_java.Merge_two_lists_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Merge_two_lists cannot be resolved
+
+	at testing_ChatGPT_on_java.Merge_two_lists_ESTest.test2(Merge_two_lists_ESTest.java:47)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

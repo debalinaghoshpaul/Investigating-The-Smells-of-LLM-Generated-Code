@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Enter a number: Square root of 2.0 is 1.4142156862745097
+..Enter a number: .Enter a number: 
+Time: 0.504
+
+OK (4 tests)
+

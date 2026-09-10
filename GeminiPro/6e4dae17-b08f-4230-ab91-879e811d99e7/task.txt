@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to implement a lambda expression to calculate the sum of squares of all odd and even numbers in a list.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 6e4dae17-b08f-4230-ab91-879e811d99e7.\n

@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:5:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:5:22: Parameter width should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:5:29: 'width' hides a field. [HiddenField]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:5:36: Parameter height should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:5:43: 'height' hides a field. [HiddenField]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:19:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:20:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:20:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:21:45: '5.0' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\c1a07d29-538b-484e-a786-58cb47e3a1fd\generatedProgram1OfVersion1_0.java:21:50: '3.0' is a magic number. [MagicNumber]
+Audit done.

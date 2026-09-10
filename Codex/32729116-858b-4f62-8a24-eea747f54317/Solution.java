@@ -1,0 +1,16 @@
+import java.util.*;
+
+class Solution {
+    /**
+     * Given a sorted map and a key, return the least key greater than or equal to the given key.
+     * Returns null if there is no such key.
+     *
+     * @param map The sorted map.
+     * @param key The key to search for.
+     * @return The least key greater than or equal to the given key.
+     */
+    public static <K, V> K getLeastKeyGreaterThanOrEqualTo(SortedMap<K, V> map, K key) {
+        K leastKey = map.ceilingKey(key);
+        return leastKey;
+    }
+}

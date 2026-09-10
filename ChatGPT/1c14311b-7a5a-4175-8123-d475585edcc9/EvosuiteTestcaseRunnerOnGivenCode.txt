@@ -1,0 +1,7 @@
+JUnit version 4.13
+..Input a word: .Input a word: Is Abecadrian word? false
+....
+Time: 0.33
+
+OK (7 tests)
+

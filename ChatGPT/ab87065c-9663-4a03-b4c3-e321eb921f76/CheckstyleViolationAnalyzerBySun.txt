@@ -1,0 +1,7 @@
+Violations by Category:
+DesignForExtension: Class 'Container' looks like designed for extension (can be subclassed), but the method 'quantity' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Container' final or making the method 'quantity' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 6
+FinalParameters: Parameter maxCapacity should be final. [FinalParameters]: 3
+HiddenField: 'maxCapacity' hides a field. [HiddenField]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 7

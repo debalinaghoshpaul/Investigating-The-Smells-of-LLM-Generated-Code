@@ -1,0 +1,7 @@
+
+Input:
+rectangle = new Rectangle(-10, 5)
+rectangle.draw()
+
+Output:
+Exception: Invalid rectangle dimensions: -10, 5

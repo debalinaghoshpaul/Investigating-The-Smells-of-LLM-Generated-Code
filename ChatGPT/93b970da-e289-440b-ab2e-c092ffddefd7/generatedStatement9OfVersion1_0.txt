@@ -1,0 +1,4 @@
+
+
+**Regular Case 1: Array with Mixed Even and Odd Elements**
+

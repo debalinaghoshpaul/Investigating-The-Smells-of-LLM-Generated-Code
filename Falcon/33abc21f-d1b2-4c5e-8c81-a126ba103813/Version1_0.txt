@@ -1,0 +1,65 @@
+No GPU found. Running on CPU.
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class BuildingHeights {
+    public static void main(String[] args) {
+        List<Building> buildings = new ArrayList<>();
+        buildings.add(new Building("Building 1", 100));
+        buildings.add(new Building("Building 2", 200));
+        buildings.add(new Building("Building 3", 300));
+        buildings.add(new Building("Building 4", 400));
+        buildings.add(new Building("Building 5", 500));
+        buildings.add(new Building("Building 6", 600));
+        buildings.add(new Building("Building 7", 700));
+        buildings.add(new Building("Building 8", 800));
+
+        Collections.sort(buildings, new Comparator<Building>() {
+            @Override
+            public int compare(Building o1, Building o2) {
+                return o1.getHeight() - o2.getHeight();
+            }
+        });
+
+        for (Building building : buildings) {
+            System.out.println(building.getName() + ": " + building.getHeight());
+        }
+    }
+}
+
+class Building {
+    private String name;
+    private int height;
+
+    public Building(String name, int height) {
+        this.name = name;
+        this.height = height;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+}
+
+class Comparator implements Comparator<Building> {
+    @Override
+    public int compare(Building o1, Building o2) {
+        return o1.getHeight() - o2.getHeight();
+    }
+}
+
+Output:
+Building 1: Building 1: 100
+Building 2: Building 2: 200
+Building 3: Building 3: 300
+Building 4: Building 4: 400
+Building 5: Building 5: 500
+Building 6: Building 6: 600
+Building 7: Building 7: 700
+Building 8: Building 8: 800

@@ -1,0 +1,11 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 98). [LineLength]: 2
+VisibilityModifier: Variable 'semaphore' must be private and have accessor methods. [VisibilityModifier]: 2
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 2
+FinalParameters: Parameter sharedResource should be final. [FinalParameters]: 2
+HiddenField: 'sharedResource' hides a field. [HiddenField]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+MagicNumber: '2000' is a magic number. [MagicNumber]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1

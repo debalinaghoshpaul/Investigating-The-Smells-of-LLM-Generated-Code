@@ -1,0 +1,7 @@
+
+// Attempt to create an instance of the abstract Person class
+Person person = new Person(); // Compilation error: Cannot instantiate the type Person
+
+// Attempt to call abstract methods directly from the Person class
+person.eat(); // Compilation error: The method eat() is undefined for the type Person
+person.exercise(); // Compilation error: The method exercise() is undefined for the type Person

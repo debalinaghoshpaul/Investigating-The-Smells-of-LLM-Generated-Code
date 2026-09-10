@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93PzDlfnZ6JPFeYFYsh5jV3YGN7jx",
+  "object" : "chat.completion",
+  "created" : 1710601903,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is a Java program that implements a stack and checks if two stacks are equal:\n\n```java\nimport java.util.Stack;\n\npublic class StackEquality {\n    \n    public static void main(String[] args) {\n        Stack<Integer> stack1 = new Stack<>();\n        Stack<Integer> stack2 = new Stack<>();\n        \n        stack1.push(1);\n        stack1.push(2);\n        stack1.push(3);\n        \n        stack2.push(1);\n        stack2.push(2);\n        stack2.push(3);\n        \n        System.out.println(\"Stack 1: \" + stack1);\n        System.out.println(\"Stack 2: \" + stack2);\n        \n        if (areStacksEqual(stack1, stack2)) {\n            System.out.println(\"The stacks are equal.\");\n        } else {\n            System.out.println(\"The stacks are not equal.\");\n        }\n    }\n    \n    public static boolean areStacksEqual(Stack<Integer> stack1, Stack<Integer> stack2) {\n        if (stack1.size() != stack2.size()) {\n            return false;\n        }\n        \n        for (int i = 0; i < stack1.size(); i++) {\n            if (!stack1.get(i).equals(stack2.get(i))) {\n                return false;\n            }\n        }\n        \n        return true;\n    }\n}\n```\n\nThis program creates two stacks, pushes some elements to each stack, and then checks if the two stacks are equal using the `areStacksEqual` method. The method compares the size of the two stacks and then iterates through each element to check for equality. \n\nYou can run this program to see if the two stacks provided are equal or not."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 66,
+    "completion_tokens" : 342,
+    "total_tokens" : 408
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

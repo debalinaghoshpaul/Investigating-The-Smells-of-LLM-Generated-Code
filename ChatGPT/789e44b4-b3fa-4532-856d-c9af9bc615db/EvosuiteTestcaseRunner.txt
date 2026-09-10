@@ -1,0 +1,13 @@
+JUnit version 4.13
+.Enter a string: 
+The prefix does not appear somewhere else in the string.
+.Enter a string: 
+.Enter a string: 
+The prefix does not appear somewhere else in the string.
+.Enter a string: 
+The prefix appears somewhere else in the string.
+.
+Time: 0.55
+
+OK (5 tests)
+

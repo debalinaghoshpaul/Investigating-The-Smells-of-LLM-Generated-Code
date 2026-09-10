@@ -1,0 +1,7 @@
+JUnit version 4.13
+.........Input a month number: ............Input a month number: Input a year: April 4 has 30 days
+.............Input a month number: 
+Time: 0.359
+
+OK (34 tests)
+

@@ -1,0 +1,13 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty array:** `int[] arr = {};`
+* **Element to remove does not exist in the array:** `int[] arr = {1, 2, 3}; int elementToRemove = 4;`
+
+**Regular Test Cases:**
+
+* **Remove 6 from the array:** `int[] arr = {1, 4, 6, 7, 6, 2}; int elementToRemove = 6;`
+* **Remove 2 from the end of the linked list:** `Node head = new Node(1); head.next = new Node(2); head.next.next = new Node(3); head.next.next.next = new Node(4); head.next.next.next.next = new Node(5); int n = 2;`

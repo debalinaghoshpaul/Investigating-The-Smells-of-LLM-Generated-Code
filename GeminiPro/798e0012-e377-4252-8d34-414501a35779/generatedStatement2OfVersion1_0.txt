@@ -1,0 +1,47 @@
+
+
+**Test Cases**
+
+**Standard Test Cases**
+
+1. Input: str1 = "abc", str2 = "bcd"
+   Output: "c"
+   Explanation: The missing string is "c" because "abc" comes before "bcd" in the alphabetical order and "c" is the only character that is present in "bcd" but not in "abc".
+
+2. Input: str1 = "ab", str2 = "cd"
+   Output: "bc"
+   Explanation: The missing string is "bc" because "ab" comes before "cd" in the alphabetical order and "bc" is the only string that is present in "cd" but not in "ab".
+
+3. Input: str1 = "a", str2 = "z"
+   Output: "bcdefghijklmnopqrstuvwxyz"
+   Explanation: The missing string is "bcdefghijklmnopqrstuvwxyz" because "a" comes before "z" in the alphabetical order and "bcdefghijklmnopqrstuvwxyz" is the only string that is present in "z" but not in "a".
+
+4. Input: str1 = "1", str2 = "3"
+   Output: "2"
+   Explanation: The missing string is "2" because "1" comes before "3" in the numerical order and "2" is the only character that is present in "3" but not in "1".
+
+5. Input: str1 = "a", str2 = "a"
+   Output: null
+   Explanation: There is no missing string because both strings are the same.
+
+**Corner Test Cases**
+
+1. Input: str1 = null, str2 = "bcd"
+   Output: null
+   Explanation: The first string is null, which is not a valid input.
+
+2. Input: str1 = "", str2 = "bcd"
+   Output: null
+   Explanation: The first string is empty, which is not a valid input.
+
+3. Input: str1 = "abc", str2 = null
+   Output: null
+   Explanation: The second string is null, which is not a valid input.
+
+4. Input: str1 = "abc", str2 = ""
+   Output: null
+   Explanation: The second string is empty, which is not a valid input.
+
+5. Input: str1 = "bcd", str2 = "abc"
+   Output: null
+   Explanation: The second string comes before the first string in the alphabetical order, so there is no missing string.

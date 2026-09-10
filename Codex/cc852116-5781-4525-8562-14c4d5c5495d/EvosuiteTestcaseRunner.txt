@@ -1,0 +1,7 @@
+JUnit version 4.13
+...The number of absolute distinct values in the array is: 6
+..
+Time: 0.496
+
+OK (5 tests)
+

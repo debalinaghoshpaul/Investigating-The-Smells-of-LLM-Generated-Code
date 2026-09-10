@@ -1,0 +1,39 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.313
+There were 6 failures:
+1) test0(testing_ChatGPT_on_java.StringReverser_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.StringReverser.reverseString(ReverseString.java:4)
+	at testing_ChatGPT_on_java.StringReverser_ESTest.test0(StringReverser_ESTest.java:23)
+2) test1(testing_ChatGPT_on_java.StringReverser_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.StringReverser.reverseString(ReverseString.java:4)
+	at testing_ChatGPT_on_java.StringReverser_ESTest.test1(StringReverser_ESTest.java:32)
+3) test2(testing_ChatGPT_on_java.StringReverser_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.StringReverser.reverseString(ReverseString.java:4)
+	at testing_ChatGPT_on_java.StringReverser_ESTest.test2(StringReverser_ESTest.java:38)
+4) test3(testing_ChatGPT_on_java.StringReverser_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.StringReverser.reverseString(ReverseString.java:4)
+	at testing_ChatGPT_on_java.StringReverser_ESTest.test3(StringReverser_ESTest.java:44)
+5) test4(testing_ChatGPT_on_java.StringReverser_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.StringReverser.main(ReverseString.java:14)
+	at testing_ChatGPT_on_java.StringReverser_ESTest.test4(StringReverser_ESTest.java:50)
+6) test5(testing_ChatGPT_on_java.StringReverser_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type StringReverser must be defined in its own file
+
+	at testing_ChatGPT_on_java.StringReverser.<init>(ReverseString.java:2)
+	at testing_ChatGPT_on_java.StringReverser_ESTest.test5(StringReverser_ESTest.java:55)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

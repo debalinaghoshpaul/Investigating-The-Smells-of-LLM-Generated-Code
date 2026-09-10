@@ -1,0 +1,21 @@
+
+
+**Test cases:**
+
+* **Normal case:** A list of integers with duplicates.
+* **Corner cases:**
+    * An empty list.
+    * A list with only one element.
+    * A list with all duplicate elements.
+    * A list with a large number of elements.
+    * A list with elements of different data types (e.g., integers and strings).
+
+**Expected output:**
+
+* **Normal case:** The distinct list should be printed.
+* **Corner cases:**
+    * An empty list should print an empty list.
+    * A list with only one element should print that element.
+    * A list with all duplicate elements should print an empty list.
+    * A list with a large number of elements should print the distinct elements.
+    * A list with elements of different data types should throw an exception.

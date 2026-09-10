@@ -1,0 +1,2 @@
+Sure! Here's a Java program to change a PriorityQueue to a maximum priority queue:
+

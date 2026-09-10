@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find the two elements in a given array of positive and negative numbers such that their sum is close to zero.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : e08d514d-7801-4f7b-a4cd-3f87e5c5e905.\n

@@ -1,0 +1,38 @@
+
+Name: John
+Age: 30
+Name: Jane
+Age: 25
+### Explanation:
+This program creates a class called Person with a name and age attribute. Two instances of the Person class are created, set their attributes using the constructor, and print their name and age. This program is written in Java, and the programming language you need to use is Java. You can also add test cases including corner cases to test the program of the problem.
+
+The output of the program is:
+Name: John
+Age: 30
+Name: Jane
+Age: 25
+Name: John
+Age: 30
+Name: Jane
+Age: 25
+Name: John
+Age: 30
+Name: Jane
+Age: 25
+Name: John
+Age: 30
+Name: Jane
+Age: 25
+Name: John
+Age: 30
+Name: Jane
+Age: 25
+Name: John
+Age: 30
+Name: Jane
+Age: 25
+Name: John
+Age: 30
+Name: Jane
+Age: 25
+Name: John

@@ -1,0 +1,23 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class StringCompression {
+    public static void main(String[] args) {
+        String str = "aaaabbbbcccccddddeeee";
+        Map<Character, Integer> countMap = new HashMap<>();
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (countMap.containsKey(c)) {
+                countMap.put(c, countMap.get(c) + 1);
+            } else {
+                countMap.put(c, 1);
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        for (Map.Entry<Character, Integer> entry : countMap.entrySet()) {
+            sb.append(entry.getValue()).append(entry.getKey());
+        }
+        System.out.println(sb.toString());
+    }
+}
+

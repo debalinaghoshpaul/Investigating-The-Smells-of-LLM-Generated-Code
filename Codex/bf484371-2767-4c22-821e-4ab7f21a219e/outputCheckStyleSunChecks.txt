@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\bf484371-2767-4c22-821e-4ab7f21a219e\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\bf484371-2767-4c22-821e-4ab7f21a219e\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\bf484371-2767-4c22-821e-4ab7f21a219e\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\bf484371-2767-4c22-821e-4ab7f21a219e\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\bf484371-2767-4c22-821e-4ab7f21a219e\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\bf484371-2767-4c22-821e-4ab7f21a219e\generatedProgram1OfVersion1_0.java:6:47: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\bf484371-2767-4c22-821e-4ab7f21a219e\generatedProgram1OfVersion1_0.java:6:53: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\bf484371-2767-4c22-821e-4ab7f21a219e\generatedProgram1OfVersion1_0.java:6:59: '7' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\bf484371-2767-4c22-821e-4ab7f21a219e\generatedProgram1OfVersion1_0.java:6:62: '3' is a magic number. [MagicNumber]
+Audit done.

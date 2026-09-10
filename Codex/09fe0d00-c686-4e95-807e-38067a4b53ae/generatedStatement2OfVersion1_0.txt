@@ -1,0 +1,13 @@
+
+
+**Test cases:**
+
+* **Normal case:** 1 2 3 4 5
+* **Duplicate numbers:** 1 2 3 4 1
+* **Empty list:**
+* **Invalid input:** 1 2 3 4 a
+* **Corner cases:**
+    * List with only one element: 1
+    * List with all duplicate elements: 1 1 1 1
+    * List with negative numbers: -1 -2 -3 -4 -5
+    * List with large numbers: 1000000000 2000000000 3000000000 4000000000 5000000000

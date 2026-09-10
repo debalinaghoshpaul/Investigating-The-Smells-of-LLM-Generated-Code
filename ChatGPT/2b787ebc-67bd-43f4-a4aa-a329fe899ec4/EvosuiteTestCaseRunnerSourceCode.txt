@@ -1,0 +1,128 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.The 4th element from the bottom is: 2
+
+Time: 0.482
+There were 16 failures:
+1) test07(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method push(int) is undefined for the type StackExampleTwo
+	The method getNthElementFromBottom(int) is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test07(StackExampleTwo_ESTest.java:95)
+2) test06(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method isEmpty() is undefined for the type StackExampleTwo
+	The method push(int) is undefined for the type StackExampleTwo
+	The method display() is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test06(StackExampleTwo_ESTest.java:85)
+3) test09(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method getNthElementFromBottom(int) is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test09(StackExampleTwo_ESTest.java:111)
+4) test08(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method display() is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test08(StackExampleTwo_ESTest.java:104)
+5) test10(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method getNthElementFromBottom(int) is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test10(StackExampleTwo_ESTest.java:118)
+6) test01(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method push(int) is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+	The method pop() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test01(StackExampleTwo_ESTest.java:30)
+7) test12(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method isEmpty() is undefined for the type StackExampleTwo
+	The method push(int) is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test12(StackExampleTwo_ESTest.java:133)
+8) test00(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method push(int) is undefined for the type StackExampleTwo
+	The method pop() is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test00(StackExampleTwo_ESTest.java:21)
+9) test11(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test11(StackExampleTwo_ESTest.java:126)
+10) test03(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method push(int) is undefined for the type StackExampleTwo
+	The method peek() is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test03(StackExampleTwo_ESTest.java:51)
+11) test14(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method pop() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test14(StackExampleTwo_ESTest.java:150)
+12) test02(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method isEmpty() is undefined for the type StackExampleTwo
+	The method push(int) is undefined for the type StackExampleTwo
+	The method peek() is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test02(StackExampleTwo_ESTest.java:40)
+13) test13(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method peek() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test13(StackExampleTwo_ESTest.java:143)
+14) test05(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor StackExampleTwo(int) is undefined
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test05(StackExampleTwo_ESTest.java:72)
+15) test16(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method isEmpty() is undefined for the type StackExampleTwo
+	The method push(int) is undefined for the type StackExampleTwo
+	The method push(int) is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test16(StackExampleTwo_ESTest.java:164)
+16) test04(testing_ChatGPT_on_java.StackExampleTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackExampleTwo(int) is undefined
+	The method push(int) is undefined for the type StackExampleTwo
+	The method push(int) is undefined for the type StackExampleTwo
+	The method getNthElementFromBottom(int) is undefined for the type StackExampleTwo
+	The method isEmpty() is undefined for the type StackExampleTwo
+
+	at testing_ChatGPT_on_java.StackExampleTwo_ESTest.test04(StackExampleTwo_ESTest.java:60)
+
+FAILURES!!!
+Tests run: 17,  Failures: 16
+

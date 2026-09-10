@@ -1,0 +1,80 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E
+Time: 0.378
+There were 8 failures:
+1) test1(testing_ChatGPT_on_java.ExponentiationCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ExponentiationCalculator_ESTest.test1(ExponentiationCalculator_ESTest.java:37)
+2) test0(testing_ChatGPT_on_java.ExponentiationCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ExponentiationCalculator_ESTest.test0(ExponentiationCalculator_ESTest.java:21)
+3) test7(testing_ChatGPT_on_java.ExponentiationCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ExponentiationCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ExponentiationCalculator_ESTest.test7(ExponentiationCalculator_ESTest.java:148)
+4) test6(testing_ChatGPT_on_java.ExponentiationCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ExponentiationCalculator_ESTest.test6(ExponentiationCalculator_ESTest.java:124)
+5) test5(testing_ChatGPT_on_java.ExponentiationCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ExponentiationCalculator_ESTest.test5(ExponentiationCalculator_ESTest.java:101)
+6) test4(testing_ChatGPT_on_java.ExponentiationCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ExponentiationCalculator_ESTest.test4(ExponentiationCalculator_ESTest.java:83)
+7) test3(testing_ChatGPT_on_java.ExponentiationCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved to a type
+	ExponentiationCalculator cannot be resolved
+	ExponentiationCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ExponentiationCalculator_ESTest.test3(ExponentiationCalculator_ESTest.java:69)
+8) test2(testing_ChatGPT_on_java.ExponentiationCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ExponentiationCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.ExponentiationCalculator_ESTest.test2(ExponentiationCalculator_ESTest.java:63)
+
+FAILURES!!!
+Tests run: 8,  Failures: 8
+

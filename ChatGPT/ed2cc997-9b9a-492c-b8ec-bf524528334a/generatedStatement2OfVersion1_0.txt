@@ -1,0 +1,23 @@
+
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* 1111 (All digits are odd)
+* 3579 (All digits are odd)
+* 13579 (All digits are odd)
+* 99999 (All digits are odd)
+
+**Negative Test Cases:**
+
+* 2468 (Not all digits are odd)
+* 12345 (Not all digits are odd)
+* 98765 (Not all digits are odd)
+* 0 (Not all digits are odd)
+
+**Corner Cases:**
+
+* **Empty string:** The method should return false if the input string is empty.
+* **Negative number:** The method should return false if the input number is negative.
+* **Zero:** The method should return false if the input number is zero.

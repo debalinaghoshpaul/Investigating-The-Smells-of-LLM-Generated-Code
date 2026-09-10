@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class FactorsOf3 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter an integer: ");
+        int number = scanner.nextInt();
+
+        // Iterate over the numbers from 1 to number
+        for (int i = 1; i <= number; i++) {
+            // Check if the number is a factor of 3
+            if (i % 3 == 0) {
+                // Print the factor
+                System.out.println(i);
+            }
+        }
+    }
+}

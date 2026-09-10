@@ -1,0 +1,47 @@
+import java.util.concurrent.BrokenBarrierException;
+import java.util.concurrent.CyclicBarrier;
+
+public class CyclicBarrierExample {
+
+    public static void main(String[] args) {
+        // Create a CyclicBarrier with 3 parties
+        CyclicBarrier barrier = new CyclicBarrier(3);
+
+        // Create 3 threads
+        Thread t1 = new Thread(new Task(barrier, "Thread 1"));
+        Thread t2 = new Thread(new Task(barrier, "Thread 2"));
+        Thread t3 = new Thread(new Task(barrier, "Thread 3"));
+
+        // Start all threads
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+
+    static class Task implements Runnable {
+
+        private CyclicBarrier barrier;
+        private String name;
+
+        public Task(CyclicBarrier barrier, String name) {
+            this.barrier = barrier;
+            this.name = name;
+        }
+
+        @Override
+        public void run() {
+            try {
+                // Each thread performs its task
+                System.out.println(name + " is performing its task");
+
+                // Each thread waits for others to reach the barrier
+                barrier.await();
+
+                // After all threads reach the barrier, each thread performs its final task
+                System.out.println(name + " has completed its task");
+            } catch (InterruptedException | BrokenBarrierException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}

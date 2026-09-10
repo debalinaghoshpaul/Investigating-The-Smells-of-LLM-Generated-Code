@@ -1,0 +1,13 @@
+
+
+Test cases:
+
+* **Normal case:**
+    * Input: [23, -2, 45, 38, 12, 4, 6]
+    * Output: 15
+* **Edge case:**
+    * Input: [23, 23, 23, 23, 23]
+    * Output: 0
+* **Empty array:**
+    * Input: []
+    * Output: 0

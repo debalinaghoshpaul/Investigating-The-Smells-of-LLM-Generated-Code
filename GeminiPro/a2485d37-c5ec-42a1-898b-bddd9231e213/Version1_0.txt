@@ -1,0 +1,37 @@
+```java
+import java.util.Scanner;
+
+public class ReverseSentence {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read input string
+        System.out.print("Input a string: ");
+        String input = scanner.nextLine();
+
+        // Reverse the sentence
+        String[] words = input.split(" ");
+        String reversedSentence = "";
+        for (int i = words.length - 1; i >= 0; i--) {
+            reversedSentence += words[i] + " ";
+        }
+
+        // Remove trailing space
+        reversedSentence = reversedSentence.substring(0, reversedSentence.length() - 1);
+
+        // Print the reversed sentence
+        System.out.println("Result: " + reversedSentence);
+    }
+}
+```
+
+Test cases:
+
+* **Normal case:** "The quick brown fox jumps over the lazy dog"
+* **Empty string:** ""
+* **Single word:** "Hello"
+* **Sentence with punctuation:** "Hello, world!"
+* **Sentence with numbers:** "123 Main Street"
+* **Sentence with special characters:** "<>[]{}"
+* **Sentence with leading and trailing spaces:** "   Hello, world!   "

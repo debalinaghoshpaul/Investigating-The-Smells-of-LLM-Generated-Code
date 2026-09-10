@@ -1,0 +1,18 @@
+ 1 6 8 10 15 20
+// Original String : xyyz
+// String has all unique characters: false
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Original String : xyyz
+// String has all unique characters: true
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Original String : xyyz
+// String has all unique characters: false
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Original String : xyyz
+// String has all unique characters: true

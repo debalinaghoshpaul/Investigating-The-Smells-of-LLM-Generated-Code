@@ -1,0 +1,53 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class ExtractCharactersAtSpecificPositions {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Initialize the result string
+        String resultString = "";
+
+        // Loop through the input string and extract characters at specific positions
+        for (int i = 0; i < inputString.length(); i += 3) {
+            resultString += inputString.charAt(i);
+        }
+
+        // Print the result string
+        System.out.println("Result string: " + resultString);
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty string:** `""`
+* **String with only one character:** `"a"`
+* **String with only two characters:** `"ab"`
+
+**Normal Cases:**
+
+* **String with even number of characters:** `"Hello World"`
+* **String with odd number of characters:** `"Programming Language"`
+
+**Expected Outputs:**
+
+**Corner Cases:**
+
+* **Empty string:** `""`
+* **String with only one character:** `"a"`
+* **String with only two characters:** `"ab"`
+
+**Normal Cases:**
+
+* **String with even number of characters:** `"HleoWrd"`
+* **String with odd number of characters:** `"ProgmingLang"`

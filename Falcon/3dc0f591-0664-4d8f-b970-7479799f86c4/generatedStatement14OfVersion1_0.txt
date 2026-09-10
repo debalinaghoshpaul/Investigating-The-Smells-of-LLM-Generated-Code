@@ -1,0 +1,5 @@
+
+
+**4. Removing Last Element Case:**
+
+Input:

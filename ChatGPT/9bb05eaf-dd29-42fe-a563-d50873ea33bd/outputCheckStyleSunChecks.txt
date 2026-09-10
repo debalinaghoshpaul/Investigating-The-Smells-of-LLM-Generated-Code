@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:3:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:4:17: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:6: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:10:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\9bb05eaf-dd29-42fe-a563-d50873ea33bd\generatedProgram1OfVersion1_0.java:10:36: Parameter n should be final. [FinalParameters]
+Audit done.

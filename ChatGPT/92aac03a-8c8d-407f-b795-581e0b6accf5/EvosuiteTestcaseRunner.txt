@@ -1,0 +1,12 @@
+JUnit version 4.13
+..Result (a) : 33.666666666666664
+Result (b) : 30.0000003
+Result (c) : true
+Result (d) : false
+Result (e) : true
+Result (f) : false
+
+Time: 0.344
+
+OK (2 tests)
+

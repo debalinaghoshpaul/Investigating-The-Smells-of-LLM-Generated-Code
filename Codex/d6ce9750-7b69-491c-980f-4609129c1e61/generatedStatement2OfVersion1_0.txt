@@ -1,0 +1,16 @@
+
+
+**Test cases:**
+
+* **Valid input:** Enter an integer: 10
+* **Invalid input (non-integer):** Enter an integer: abc
+* **Division by 0:** Enter an integer: 10
+                   Enter a divisor: 0
+
+**Corner cases:**
+
+* **Empty input:** Enter an integer: 
+* **Negative input:** Enter an integer: -10
+* **Very large input:** Enter an integer: 1000000000
+* **Division by 1:** Enter an integer: 10
+                   Enter a divisor: 1

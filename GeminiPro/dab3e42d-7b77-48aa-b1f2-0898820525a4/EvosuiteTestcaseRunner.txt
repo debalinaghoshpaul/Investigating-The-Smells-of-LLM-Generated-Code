@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Enter a string: 
+The character array is: 
+' # .Enter a string: 
+.
+Time: 0.344
+
+OK (3 tests)
+

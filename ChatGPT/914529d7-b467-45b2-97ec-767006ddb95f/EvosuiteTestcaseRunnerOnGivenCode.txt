@@ -1,0 +1,24 @@
+JUnit version 4.13
+..Initialize a stack:
+
+Stack-A
+Stack elements: 3 2 1 
+
+Stack-B
+Stack elements: 1 2 3 4 5 
+
+Check Stack A is subset of Stack B!
+true
+
+Check Stack B is subset of Stack A!
+false
+........Stack is empty
+..Stack is empty
+....Stack Underflow
+.Stack elements: 1516 
+.Stack is full
+
+Time: 0.416
+
+OK (18 tests)
+

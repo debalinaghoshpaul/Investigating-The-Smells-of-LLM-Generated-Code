@@ -1,0 +1,21 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * All three numbers are equal
+    * Two numbers are equal and the third is different
+* **Regular cases:**
+    * All three numbers are different
+    * Two numbers are different and the third is the greatest
+    * Two numbers are different and the third is the smallest
+
+**Expected outputs:**
+
+* **Corner cases:**
+    * All three numbers are equal: "The greatest: {number}"
+    * Two numbers are equal and the third is different: "The greatest: {greater number}"
+* **Regular cases:**
+    * All three numbers are different: "The greatest: {greatest number}"
+    * Two numbers are different and the third is the greatest: "The greatest: {greatest number}"
+    * Two numbers are different and the third is the smallest: "The greatest: {greater number}"

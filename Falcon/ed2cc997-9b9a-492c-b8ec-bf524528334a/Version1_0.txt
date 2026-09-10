@@ -1,0 +1,64 @@
+```java
+import java.util.Scanner;
+
+public class CheckOddDigits {
+
+    public static boolean checkOddDigits(int num) {
+        // Convert the number to a string
+        String numStr = Integer.toString(num);
+
+        // Iterate over each character in the string
+        for (char c : numStr.toCharArray()) {
+            // Convert the character to an integer
+            int digit = Character.getNumericValue(c);
+
+            // Check if the digit is odd
+            if (digit % 2 != 1) {
+                return false;
+            }
+        }
+
+        // If all the digits are odd, return true
+        return true;
+    }
+
+    public static void main(String[] args) {
+        // Get the input from the user
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter an integer: ");
+        int num = scanner.nextInt();
+
+        // Check if the number is odd
+        boolean isOdd = checkOddDigits(num);
+
+        // Print the result
+        if (isOdd) {
+            System.out.println("Every digit of the number is odd.");
+        } else {
+            System.out.println("Not every digit of the number is odd.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* 1111 (All digits are odd)
+* 3579 (All digits are odd)
+* 13579 (All digits are odd)
+* 99999 (All digits are odd)
+
+**Negative Test Cases:**
+
+* 2468 (Not all digits are odd)
+* 12345 (Not all digits are odd)
+* 98765 (Not all digits are odd)
+* 0 (Not all digits are odd)
+
+**Corner Cases:**
+
+* **Empty string:** The method should return false if the input string is empty.
+* **Negative number:** The method should return false if the input number is negative.
+* **Zero:** The method should return false if the input number is zero.

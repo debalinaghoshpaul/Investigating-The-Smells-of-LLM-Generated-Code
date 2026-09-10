@@ -1,0 +1,17 @@
+JUnit version 4.13
+.Enter your name:
+Enter your age:
+..Enter your name:
+Enter your age:
+Enter your height in inches:
+Your name is: &He7
+Your age is: 1
+Your height is: 1.0
+.Enter your name:
+Enter your age:
+Enter your height in inches:
+
+Time: 0.41
+
+OK (4 tests)
+

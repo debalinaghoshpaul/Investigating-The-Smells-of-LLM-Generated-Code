@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9Cs9oOhKLi2rPOkkJwtDhImvg409b",
+  "object" : "chat.completion",
+  "created" : 1712855144,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class VendingMachineChange {\n    \n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        \n        System.out.print(\"Enter price of item (from 25 cents to a dollar, in 5-cent increments): \");\n        int price = input.nextInt();\n        \n        if (price < 25 || price > 100 || price % 5 != 0) {\n            System.out.println(\"Invalid price. Please enter a valid price between 25 and 100 cents in 5-cent increments.\");\n            return;\n        }\n        \n        int change = 100 - price;\n        int quarters = change / 25;\n        change = change % 25;\n        int dimes = change / 10;\n        change = change % 10;\n        int nickels = change / 5;\n        \n        System.out.println(\"You bought an item for \" + price + \" cents and gave me a dollar,\");\n        System.out.println(\"so your change is\");\n        System.out.println(quarters + \" quarters,\");\n        System.out.println(dimes + \" dimes, and\");\n        System.out.println(nickels + \" nickel.\");\n        \n        input.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 183,
+    "completion_tokens" : 249,
+    "total_tokens" : 432
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

@@ -1,0 +1,1 @@
+Problem Description : \n1.9 (Area and perimeter of a rectangle) Write a program that displays the area and\nperimeter of a rectangle with a width of 5.3 and height of 8.6 using the following formula:\narea = width * height\nperimeter = 2 * (width + height)\n\n The programming language you need to use is: Java.\n\n Problem Id is : cf2744de-d1e3-4edf-a509-fddb44774eb2.

@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Input a string:
+The middle character in the string: f
+.Input a string:
+..Input a string:
+.Input a string:
+The middle characters in the string: QK
+
+Time: 0.407
+
+OK (5 tests)
+

@@ -1,0 +1,62 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E
+Time: 0.745
+There were 10 failures:
+1) test9(testing_ChatGPT_on_java.BinomialCoefficient_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BinomialCoefficient.binomialCoefficient(solution.java:9)
+	at testing_ChatGPT_on_java.BinomialCoefficient_ESTest.test9(BinomialCoefficient_ESTest.java:241)
+2) test8(testing_ChatGPT_on_java.BinomialCoefficient_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BinomialCoefficient.binomialCoefficient(solution.java:9)
+	at testing_ChatGPT_on_java.BinomialCoefficient_ESTest.test8(BinomialCoefficient_ESTest.java:199)
+3) test7(testing_ChatGPT_on_java.BinomialCoefficient_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type BinomialCoefficient must be defined in its own file
+
+	at testing_ChatGPT_on_java.BinomialCoefficient.<init>(solution.java:6)
+	at testing_ChatGPT_on_java.BinomialCoefficient_ESTest.test7(BinomialCoefficient_ESTest.java:175)
+4) test6(testing_ChatGPT_on_java.BinomialCoefficient_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type BinomialCoefficient must be defined in its own file
+
+	at testing_ChatGPT_on_java.BinomialCoefficient.<init>(solution.java:6)
+	at testing_ChatGPT_on_java.BinomialCoefficient_ESTest.test6(BinomialCoefficient_ESTest.java:150)
+5) test5(testing_ChatGPT_on_java.BinomialCoefficient_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BinomialCoefficient.main(solution.java:17)
+	at testing_ChatGPT_on_java.BinomialCoefficient_ESTest.test5(BinomialCoefficient_ESTest.java:137)
+6) test4(testing_ChatGPT_on_java.BinomialCoefficient_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BinomialCoefficient.binomialCoefficient(solution.java:9)
+	at testing_ChatGPT_on_java.BinomialCoefficient_ESTest.test4(BinomialCoefficient_ESTest.java:109)
+7) test3(testing_ChatGPT_on_java.BinomialCoefficient_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BinomialCoefficient.binomialCoefficient(solution.java:9)
+	at testing_ChatGPT_on_java.BinomialCoefficient_ESTest.test3(BinomialCoefficient_ESTest.java:89)
+8) test2(testing_ChatGPT_on_java.BinomialCoefficient_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type BinomialCoefficient must be defined in its own file
+
+	at testing_ChatGPT_on_java.BinomialCoefficient.<init>(solution.java:6)
+	at testing_ChatGPT_on_java.BinomialCoefficient_ESTest.test2(BinomialCoefficient_ESTest.java:69)
+9) test1(testing_ChatGPT_on_java.BinomialCoefficient_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.BinomialCoefficient.binomialCoefficient(solution.java:9)
+	at testing_ChatGPT_on_java.BinomialCoefficient_ESTest.test1(BinomialCoefficient_ESTest.java:47)
+10) test0(testing_ChatGPT_on_java.BinomialCoefficient_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type BinomialCoefficient must be defined in its own file
+
+	at testing_ChatGPT_on_java.BinomialCoefficient.<init>(solution.java:6)
+	at testing_ChatGPT_on_java.BinomialCoefficient_ESTest.test0(BinomialCoefficient_ESTest.java:22)
+
+FAILURES!!!
+Tests run: 10,  Failures: 10
+

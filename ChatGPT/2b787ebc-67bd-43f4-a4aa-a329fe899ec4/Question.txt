@@ -1,0 +1,1 @@
+  Write a Java program to get the nth element from the bottom of the stack. The programming language is java.. Problem Id is : 2b787ebc-67bd-43f4-a4aa-a329fe899ec4.

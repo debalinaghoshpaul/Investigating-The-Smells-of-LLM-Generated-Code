@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95WuNBioQhWi4RfXBzWa5QRMkdhj5",
+  "object" : "chat.completion",
+  "created" : 1711105167,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class CompareNumbers {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        // Read the two floating-point numbers from the user\n        System.out.print(\"Input a floating-point number: \");\n        double number1 = input.nextDouble();\n\n        System.out.print(\"Input another floating-point number: \");\n        double number2 = input.nextDouble();\n\n        // Round the numbers to three decimal places\n        double roundedNumber1 = Math.round(number1 * 1000.0) / 1000.0;\n        double roundedNumber2 = Math.round(number2 * 1000.0) / 1000.0;\n\n        // Compare the rounded numbers\n        if (roundedNumber1 == roundedNumber2) {\n            System.out.println(\"They are the same up to three decimal places\");\n        } else {\n            System.out.println(\"They are different\");\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 99,
+    "completion_tokens" : 191,
+    "total_tokens" : 290
+  },
+  "system_fingerprint" : "fp_fa89f7a861"
+}

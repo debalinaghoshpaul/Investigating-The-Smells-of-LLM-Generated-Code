@@ -1,0 +1,17 @@
+
+
+Test cases:
+
+**Corner cases:**
+
+* Empty array
+* Null array
+* Array with all numbers equal
+
+**Other test cases:**
+
+* Array with two unsorted numbers
+* Array with two unsorted numbers at the beginning
+* Array with two unsorted numbers at the end
+* Array with only one unsorted number
+* Array with no unsorted numbers

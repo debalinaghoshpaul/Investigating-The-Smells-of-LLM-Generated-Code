@@ -1,0 +1,18 @@
+JUnit version 4.13
+.Input the first number:
+Input the second number:
+Input the third number:
+The average value is 3.3333333333333335
+.Input the first number:
+Input the second number:
+Input the third number:
+The average value is 4.666666666666667
+..Input the first number:
+.Input the first number:
+Input the second number:
+Input the third number:
+
+Time: 0.392
+
+OK (5 tests)
+

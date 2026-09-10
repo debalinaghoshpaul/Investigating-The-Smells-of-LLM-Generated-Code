@@ -1,0 +1,54 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E
+Time: 0.258
+There were 7 failures:
+1) test6(testing_ChatGPT_on_java.Exercise36_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise36 cannot be resolved to a type
+	Exercise36 cannot be resolved to a type
+	Exercise36 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise36_ESTest.test6(Exercise36_ESTest.java:93)
+2) test5(testing_ChatGPT_on_java.Exercise36_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise36 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise36_ESTest.test5(Exercise36_ESTest.java:87)
+3) test4(testing_ChatGPT_on_java.Exercise36_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise36 cannot be resolved to a type
+	Exercise36 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise36_ESTest.test4(Exercise36_ESTest.java:70)
+4) test3(testing_ChatGPT_on_java.Exercise36_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise36 cannot be resolved to a type
+	Exercise36 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise36_ESTest.test3(Exercise36_ESTest.java:62)
+5) test2(testing_ChatGPT_on_java.Exercise36_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise36 cannot be resolved to a type
+	Exercise36 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise36_ESTest.test2(Exercise36_ESTest.java:53)
+6) test1(testing_ChatGPT_on_java.Exercise36_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise36 cannot be resolved to a type
+	Exercise36 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise36_ESTest.test1(Exercise36_ESTest.java:41)
+7) test0(testing_ChatGPT_on_java.Exercise36_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise36 cannot be resolved
+	Exercise36 cannot be resolved to a type
+	Exercise36 cannot be resolved to a type
+	Exercise36 cannot be resolved
+	Exercise36 cannot be resolved
+	Exercise36 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise36_ESTest.test0(Exercise36_ESTest.java:23)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+

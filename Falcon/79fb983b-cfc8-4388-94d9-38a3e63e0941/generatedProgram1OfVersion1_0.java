@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class CheckSubstring {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        String pattern = scanner.nextLine();
+
+        if (str.contains(pattern)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+// 

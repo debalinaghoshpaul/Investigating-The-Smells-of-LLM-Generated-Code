@@ -1,0 +1,16 @@
+JUnit version 4.13
+.Input the first number: 
+Input the second number: 
+.Input the first number: 
+.Input the first number: 
+..Input the first number: 
+Input the second number: 
+The module of the two numbers is: 0
+.Input the first number: 
+Input the second number: 
+The module of the two numbers is: 0
+
+Time: 0.345
+
+OK (6 tests)
+

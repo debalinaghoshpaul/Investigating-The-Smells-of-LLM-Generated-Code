@@ -1,0 +1,4 @@
+pass rate = 100%
+
+
+{'codebleu': 0.22909757365788364, 'ngram_match_score': 0.09578972775486727, 'weighted_ngram_match_score': 0.11569550358552806, 'syntax_match_score': 0.3924050632911392, 'dataflow_match_score': 0.3125}

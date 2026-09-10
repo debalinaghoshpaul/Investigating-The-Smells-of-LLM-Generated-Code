@@ -1,0 +1,5 @@
+
+
+In this program, we first create a `PriorityQueue` object named `priorityQueue`. Then, we add some elements to the priority queue. To convert the elements of the priority queue to string representations, we use the `toString()` method. Finally, we print the string representation of the priority queue using the `System.out.println()` statement.
+
+The output of the above program will be:

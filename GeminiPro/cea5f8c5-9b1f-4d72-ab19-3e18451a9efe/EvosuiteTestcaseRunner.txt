@@ -1,0 +1,7 @@
+JUnit version 4.13
+....All test cases passed
+...
+Time: 0.344
+
+OK (7 tests)
+

@@ -1,0 +1,45 @@
+import java.util.*;
+
+public class PointInTriangle {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the coordinates of the triangle vertices
+        System.out.println("Enter the coordinates of the triangle vertices (x1, y1), (x2, y2), (x3, y3):");
+        double x1 = scanner.nextDouble();
+        double y1 = scanner.nextDouble();
+        double x2 = scanner.nextDouble();
+        double y2 = scanner.nextDouble();
+        double x3 = scanner.nextDouble();
+        double y3 = scanner.nextDouble();
+
+        // Get the coordinates of the point
+        System.out.println("Enter the coordinates of the point (x, y):");
+        double x = scanner.nextDouble();
+        double y = scanner.nextDouble();
+
+        // Check if the point is in the triangle
+        boolean inTriangle = isPointInTriangle(x1, y1, x2, y2, x3, y3, x, y);
+
+        // Print the result
+        if (inTriangle) {
+            System.out.println("The point is in the triangle.");
+        } else {
+            System.out.println("The point is not in the triangle.");
+        }
+    }
+
+    public static boolean isPointInTriangle(double x1, double y1, double x2, double y2, double x3, double y3, double x, double y) {
+        // Calculate the area of the triangle
+        double area = Math.abs((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2.0);
+
+        // Calculate the area of the sub-triangles formed by the point (x, y)
+        double area1 = Math.abs((x * (y2 - y3) + x2 * (y3 - y) + x3 * (y - y2)) / 2.0);
+        double area2 = Math.abs((x1 * (y - y3) + x * (y3 - y1) + x3 * (y1 - y)) / 2.0);
+        double area3 = Math.abs((x1 * (y2 - y) + x2 * (y - y1) + x * (y1 - y2)) / 2.0);
+
+        // Check if the sum of the areas of the sub-triangles is equal to the area of the triangle
+        return (Math.abs(area - (area1 + area2 + area3)) < 0.00001);
+    }
+}

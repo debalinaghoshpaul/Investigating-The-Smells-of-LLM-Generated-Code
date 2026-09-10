@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Before sorting: [12, 34, 15, 8, 2, 20, 3]
+After sorting: [2, 3, 8, 12, 15, 20, 34]
+...
+Time: 0.489
+
+OK (4 tests)
+

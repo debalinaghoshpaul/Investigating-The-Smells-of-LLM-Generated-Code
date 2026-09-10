@@ -1,0 +1,26 @@
+```java
+import java.util.TreeMap;
+
+public class SearchKeyInTreeMap {
+
+    public static void main(String[] args) {
+        // Create a tree map
+        TreeMap<Integer, String> treeMap = new TreeMap<>();
+
+        // Add key-value pairs to the tree map
+        treeMap.put(1, "One");
+        treeMap.put(2, "Two");
+        treeMap.put(3, "Three");
+        treeMap.put(4, "Four");
+        treeMap.put(5, "Five");
+
+        // Search for a key in the tree map
+        int key = 3;
+        if (treeMap.containsKey(key)) {
+            System.out.println("The key " + key + " is present in the tree map.");
+        } else {
+            System.out.println("The key " + key + " is not present in the tree map.");
+        }
+    }
+}
+```

@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Original list: [1, 2, 3, 4, 5]
+Reversed list: [5, 4, 3, 2, 1]
+Original list: [a, b, c, d, e]
+Reversed list: [e, d, c, b, a]
+Original list: []
+Reversed list: []
+Original list: [1, 2, null, 4, 5]
+Reversed list: [5, 4, null, 2, 1]
+....
+Time: 0.345
+
+OK (5 tests)
+

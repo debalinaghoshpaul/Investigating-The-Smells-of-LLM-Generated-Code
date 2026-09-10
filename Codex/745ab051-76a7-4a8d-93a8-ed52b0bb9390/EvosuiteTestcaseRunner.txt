@@ -1,0 +1,7 @@
+JUnit version 4.13
+..Updated Linked List: [Element 1, Element 2, Element 3, New Element]
+
+Time: 0.329
+
+OK (2 tests)
+

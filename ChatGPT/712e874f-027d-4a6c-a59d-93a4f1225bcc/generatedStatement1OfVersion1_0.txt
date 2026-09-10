@@ -1,0 +1,2 @@
+Below is a Java program that swaps the top two elements of a given stack:
+

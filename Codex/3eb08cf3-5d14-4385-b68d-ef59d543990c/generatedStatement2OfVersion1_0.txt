@@ -1,0 +1,36 @@
+
+
+**Test Cases:**
+
+**Valid Input:**
+
+* Input: 25
+* Expected Output: 37
+
+* Input: 10
+* Expected Output: 16
+
+* Input: FF
+* Expected Output: 255
+
+**Invalid Input:**
+
+* Input: 2g
+* Expected Output: Invalid hexadecimal number
+
+* Input: -10
+* Expected Output: Invalid hexadecimal number
+
+**Corner Cases:**
+
+* Input: 0
+* Expected Output: 0
+
+* Input: FFFFFFFF
+* Expected Output: 4294967295
+
+* Input: 00
+* Expected Output: 0
+
+* Input: ""
+* Expected Output: Invalid hexadecimal number

@@ -1,0 +1,12 @@
+
+
+**Corner Cases:**
+
+* **Input:** None
+* **Output:** An empty string (no pattern is printed)
+
+* **Input:** None
+* **Output:** A single character (e.g., "J")
+
+* **Input:** None
+* **Output:** A sequence of repeated characters (e.g., "JJJJJJJJ")

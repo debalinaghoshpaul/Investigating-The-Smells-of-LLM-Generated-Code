@@ -1,0 +1,12 @@
+
+
+**Test Cases**
+
+* **Positive even number:** 20
+* **Negative even number:** -2
+* **Positive odd number:** 11
+* **Negative odd number:** -3
+* **Zero:** 0
+* **Corner cases:**
+    * **Integer.MIN_VALUE:** -2147483648
+    * **Integer.MAX_VALUE:** 2147483647

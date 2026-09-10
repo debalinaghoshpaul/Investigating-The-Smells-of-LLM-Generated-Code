@@ -1,0 +1,31 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.253
+There were 4 failures:
+1) test1(testing_ChatGPT_on_java.BubbleSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BubbleSort cannot be resolved to a type
+	BubbleSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.BubbleSort_ESTest.test1(BubbleSort_ESTest.java:29)
+2) test0(testing_ChatGPT_on_java.BubbleSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BubbleSort cannot be resolved to a type
+	BubbleSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.BubbleSort_ESTest.test0(BubbleSort_ESTest.java:21)
+3) test3(testing_ChatGPT_on_java.BubbleSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BubbleSort cannot be resolved to a type
+	BubbleSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.BubbleSort_ESTest.test3(BubbleSort_ESTest.java:44)
+4) test2(testing_ChatGPT_on_java.BubbleSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	BubbleSort cannot be resolved
+
+	at testing_ChatGPT_on_java.BubbleSort_ESTest.test2(BubbleSort_ESTest.java:38)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

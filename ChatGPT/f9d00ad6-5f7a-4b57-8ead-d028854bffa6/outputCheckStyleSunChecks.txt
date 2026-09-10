@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\f9d00ad6-5f7a-4b57-8ead-d028854bffa6\GivenSolution.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\f9d00ad6-5f7a-4b57-8ead-d028854bffa6\GivenSolution.java:5:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\f9d00ad6-5f7a-4b57-8ead-d028854bffa6\GivenSolution.java:8:18: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\f9d00ad6-5f7a-4b57-8ead-d028854bffa6\GivenSolution.java:25: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\f9d00ad6-5f7a-4b57-8ead-d028854bffa6\GivenSolution.java:39:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\f9d00ad6-5f7a-4b57-8ead-d028854bffa6\GivenSolution.java:40:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\f9d00ad6-5f7a-4b57-8ead-d028854bffa6\GivenSolution.java:40:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\f9d00ad6-5f7a-4b57-8ead-d028854bffa6\GivenSolution.java:44: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\f9d00ad6-5f7a-4b57-8ead-d028854bffa6\GivenSolution.java:48: Line is longer than 80 characters (found 91). [LineLength]
+Audit done.

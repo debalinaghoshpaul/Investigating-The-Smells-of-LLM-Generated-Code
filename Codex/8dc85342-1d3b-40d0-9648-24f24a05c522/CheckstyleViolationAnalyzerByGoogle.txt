@@ -1,0 +1,8 @@
+Violations by Category:
+VariableDeclarationUsageDistance: Distance between variable 'input' declaration and its first usage is 21, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value). [VariableDeclarationUsageDistance]: 1
+OuterTypeFilename: The name of the outer type and the file do not match. [OuterTypeFilename]: 1
+TypeName: Type name 'Exercise21_05' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]: 1
+LineLength: Line is longer than 100 characters (found 207). [LineLength]: 1
+AvoidStarImport: Using the '.*' form of import should be avoided - java.io.*. [AvoidStarImport]: 1
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1

@@ -1,0 +1,6 @@
+
+
+Output:
+Spacecraft is flying in space.
+Airplane is flying in the sky.
+Helicopter is flying in the air.

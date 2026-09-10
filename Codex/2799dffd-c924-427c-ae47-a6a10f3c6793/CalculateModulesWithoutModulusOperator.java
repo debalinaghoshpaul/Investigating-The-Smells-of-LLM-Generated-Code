@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class CalculateModulesWithoutModulusOperator {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input numbers
+        System.out.println("Input the first number: ");
+        int dividend = scanner.nextInt();
+        System.out.println("Input the second number: ");
+        int divisor = scanner.nextInt();
+
+        // Calculate the quotient
+        int quotient = dividend / divisor;
+
+        // Calculate the remainder
+        int remainder = dividend - (quotient * divisor);
+
+        // Print the remainder
+        System.out.println("The module of the two numbers is: " + remainder);
+    }
+}

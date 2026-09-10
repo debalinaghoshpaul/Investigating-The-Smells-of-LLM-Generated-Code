@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93Cl9eWWydiLvgryFM16fwGgnoryl",
+  "object" : "chat.completion",
+  "created" : 1710551059,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class ProductOfArray {\n\n    public static void main(String[] args) {\n        int[] arr = {2, 3, 4, 5};\n        System.out.println(productOfArray(arr));\n    }\n\n    public static int productOfArray(int[] arr) {\n        return productOfArray(arr, 0);\n    }\n\n    public static int productOfArray(int[] arr, int index) {\n        if (index >= arr.length) {\n            return 1;\n        }\n\n        return arr[index] * productOfArray(arr, index + 1);\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 70,
+    "completion_tokens" : 122,
+    "total_tokens" : 192
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

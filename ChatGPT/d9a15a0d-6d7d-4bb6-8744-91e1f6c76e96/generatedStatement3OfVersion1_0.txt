@@ -1,0 +1,3 @@
+
+madam is a palindrome.
+hello is not a palindrome.

@@ -1,0 +1,68 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class ReplaceCharacter {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        System.out.println("Enter the character to be replaced: ");
+        char find = scanner.next().charAt(0);
+
+        System.out.println("Enter the character to replace with: ");
+        char replace = scanner.next().charAt(0);
+
+        String newStr = str.replace(find, replace);
+        System.out.println("Replaced string: " + newStr);
+    }
+}
+```
+
+**Test Cases:**
+
+**1. Normal Case:**
+
+* Input string: "Hello World"
+* Character to be replaced: 'o'
+* Character to replace with: 'a'
+* Expected output: "Hella Warld"
+
+**2. Case with Multiple Occurrences of the Character:**
+
+* Input string: "Mississippi"
+* Character to be replaced: 's'
+* Character to replace with: 't'
+* Expected output: "Mittissippi"
+
+**3. Case with the Replacement Character Being the Same as the Original Character:**
+
+* Input string: "Java"
+* Character to be replaced: 'a'
+* Character to replace with: 'a'
+* Expected output: "Java"
+
+**4. Case with Character Not Present in the Original String:**
+
+* Input string: "Apple"
+* Character to be replaced: 'z'
+* Character to replace with: 'y'
+* Expected output: "Apple"
+
+**5. Corner Case with Empty String:**
+
+* Input string: "" (empty string)
+* Character to be replaced: 'a'
+* Character to replace with: 'b'
+* Expected output: "" (empty string)
+
+**6. Corner Case with Null String:**
+
+* Input string: null
+* Character to be replaced: 'a'
+* Character to replace with: 'b'
+* Expected output: null (same as input)

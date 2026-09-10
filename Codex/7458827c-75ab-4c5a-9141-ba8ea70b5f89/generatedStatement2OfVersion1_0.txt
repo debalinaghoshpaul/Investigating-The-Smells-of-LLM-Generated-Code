@@ -1,0 +1,3 @@
+
+
+This program performs matrix multiplication using multiple threads. It creates a separate thread for each row in the first matrix, and calculates the corresponding row in the result matrix concurrently. Finally, it prints out the result matrix.

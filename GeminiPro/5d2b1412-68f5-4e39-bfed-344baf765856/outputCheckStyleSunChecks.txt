@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\5d2b1412-68f5-4e39-bfed-344baf765856\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\5d2b1412-68f5-4e39-bfed-344baf765856\generatedProgram1OfVersion1_0.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\5d2b1412-68f5-4e39-bfed-344baf765856\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\5d2b1412-68f5-4e39-bfed-344baf765856\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\5d2b1412-68f5-4e39-bfed-344baf765856\generatedProgram1OfVersion1_0.java:6:17: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\5d2b1412-68f5-4e39-bfed-344baf765856\generatedProgram1OfVersion1_0.java:7:17: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\5d2b1412-68f5-4e39-bfed-344baf765856\generatedProgram1OfVersion1_0.java:8:14: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\5d2b1412-68f5-4e39-bfed-344baf765856\generatedProgram1OfVersion1_0.java:13:34: Parameter grid should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\5d2b1412-68f5-4e39-bfed-344baf765856\generatedProgram1OfVersion1_0.java:26: Line is longer than 80 characters (found 81). [LineLength]
+Audit done.

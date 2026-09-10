@@ -1,0 +1,94 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class StringConcatenation {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the original string
+        System.out.print("Enter the original string: ");
+        String originalString = input.nextLine();
+
+        // Get the number of times to concatenate
+        System.out.print("Enter the number of times to concatenate: ");
+        int numConcatenations = input.nextInt();
+
+        // Validate the input
+        if (numConcatenations < 1) {
+            System.out.println("Invalid number of concatenations. Must be a positive integer.");
+            return;
+        }
+
+        // Concatenate the string with itself
+        String concatenatedString = "";
+        for (int i = 0; i < numConcatenations; i++) {
+            concatenatedString += originalString;
+        }
+
+        // Print the concatenated string
+        System.out.println("The concatenated string is: " + concatenatedString);
+    }
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+
+* Original String: "Hello"
+* Number of Concatenations: 3
+
+**Expected Output:**
+
+```
+The concatenated string is: HelloHelloHello
+```
+
+**Test Case 2:**
+
+* Original String: "World"
+* Number of Concatenations: 5
+
+**Expected Output:**
+
+```
+The concatenated string is: WorldWorldWorldWorldWorld
+```
+
+**Test Case 3:**
+
+* Original String: "123"
+* Number of Concatenations: 2
+
+**Expected Output:**
+
+```
+The concatenated string is: 123123
+```
+
+**Corner Cases:**
+
+**Corner Case 1:**
+
+* Original String: Empty string ("")
+* Number of Concatenations: 10
+
+**Expected Output:**
+
+```
+The concatenated string is: 
+```
+
+**Corner Case 2:**
+
+* Original String: "Lorem ipsum"
+* Number of Concatenations: 0
+
+**Expected Output:**
+
+```
+Invalid number of concatenations. Must be a positive integer.
+```

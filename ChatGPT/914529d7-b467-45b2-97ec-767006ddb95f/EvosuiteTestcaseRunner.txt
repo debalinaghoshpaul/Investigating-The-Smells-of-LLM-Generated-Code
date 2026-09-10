@@ -1,0 +1,7 @@
+JUnit version 4.13
+......Is Stack 2 a subset of Stack 1? true
+..
+Time: 0.525
+
+OK (8 tests)
+

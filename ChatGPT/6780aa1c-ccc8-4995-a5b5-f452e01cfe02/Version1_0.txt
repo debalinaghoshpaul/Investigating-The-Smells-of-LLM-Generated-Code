@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DWbvwhycY2ZsGK3pqyURWDv4qNYv",
+  "object" : "chat.completion",
+  "created" : 1713010647,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "// Rational class\nclass Rational {\n    private int numerator;\n    private int denominator;\n\n    // Constructors\n    public Rational(int numerator, int denominator) {\n        this.numerator = numerator;\n        this.denominator = denominator;\n        normalize();\n    }\n\n    public Rational(int wholeNumber) {\n        this.numerator = wholeNumber;\n        this.denominator = 1;\n    }\n\n    public Rational() {\n        this.numerator = 0;\n        this.denominator = 1;\n    }\n\n    // Static methods for arithmetic operations\n    public static Rational add(Rational r1, Rational r2) {\n        int newNumerator = r1.numerator * r2.denominator + r2.numerator * r1.denominator;\n        int newDenominator = r1.denominator * r2.denominator;\n        return new Rational(newNumerator, newDenominator);\n    }\n\n    public static Rational subtract(Rational r1, Rational r2) {\n        int newNumerator = r1.numerator * r2.denominator - r2.numerator * r1.denominator;\n        int newDenominator = r1.denominator * r2.denominator;\n        return new Rational(newNumerator, newDenominator);\n    }\n\n    public static Rational multiply(Rational r1, Rational r2) {\n        int newNumerator = r1.numerator * r2.numerator;\n        int newDenominator = r1.denominator * r2.denominator;\n        return new Rational(newNumerator, newDenominator);\n    }\n\n    public static Rational divide(Rational r1, Rational r2) {\n        int newNumerator = r1.numerator * r2.denominator;\n        int newDenominator = r1.denominator * r2.numerator;\n        return new Rational(newNumerator, newDenominator);\n    }\n\n    // Instance methods for arithmetic operations\n    public Rational add(Rational r) {\n        return add(this, r);\n    }\n\n    public Rational subtract(Rational r) {\n        return subtract(this, r);\n    }\n\n    public Rational multiply(Rational r) {\n        return multiply(this, r);\n    }\n\n    public Rational divide(Rational r) {\n        return divide(this, r);\n    }\n\n    // Getter and setter methods\n    public int getNumerator() {\n        return numerator;\n    }\n\n    public void setNumerator(int numerator) {\n        this.numerator = numerator;\n        normalize();\n    }\n\n    public int getDenominator() {\n        return denominator;\n    }\n\n    public void setDenominator(int denominator) {\n        this.denominator = denominator;\n        normalize();\n    }\n\n    // Normalize the sign of the rational number\n    private void normalize() {\n        if (denominator < 0) {\n            numerator *= -1;\n            denominator *= -1;\n        }\n    }\n\n    // Equals method\n    public boolean equals(Rational r) {\n        return this.numerator == r.numerator && this.denominator == r.denominator;\n    }\n\n    // toString method\n    public String toString() {\n        return numerator + \"/\" + denominator;\n    }\n} \n\n// Test program\npublic class TestRational {\n    public static void main(String[] args) {\n        Rational r1 = new Rational(1, 2);\n        Rational r2 = new Rational(3, 4);\n\n        System.out.println(\"r1: \" + r1.toString());\n        System.out.println(\"r2: \" + r2.toString());\n\n        Rational sum = Rational.add(r1, r2);\n        System.out.println(\"Sum: \" + sum.toString());\n\n        Rational difference = Rational.subtract(r2, r1);\n        System.out.println(\"Difference: \" + difference.toString());\n\n        Rational product = Rational.multiply(r1, r2);\n        System.out.println(\"Product: \" + product.toString());\n\n        Rational quotient = Rational.divide(r1, r2);\n        System.out.println(\"Quotient: \" + quotient.toString());\n\n        System.out.println(\"r1 equals r2: \" + r1.equals(r2));\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 492,
+    "completion_tokens" : 823,
+    "total_tokens" : 1315
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

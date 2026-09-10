@@ -1,0 +1,27 @@
+
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* **Input:** Array: 1, 2, 3, 4, 5, Element: 4
+* **Expected Output:** Element found at index: 3
+
+* **Input:** Array: 10, 20, 30, 40, 50, Element: 30
+* **Expected Output:** Element found at index: 2
+
+**Negative Test Cases:**
+
+* **Input:** Array: 1, 2, 3, 4, 5, Element: 6
+* **Expected Output:** Element not found
+
+* **Input:** Array: -1, -2, -3, -4, -5, Element: 6
+* **Expected Output:** Element not found
+
+**Corner Cases:**
+
+* **Input:** Array: Empty, Element: 4
+* **Expected Output:** Element not found
+
+* **Input:** Array: 1, 2, 3, 4, 5, Element: 5
+* **Expected Output:** Element found at index: 4

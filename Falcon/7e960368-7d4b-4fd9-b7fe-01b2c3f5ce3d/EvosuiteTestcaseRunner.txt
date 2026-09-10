@@ -1,0 +1,8 @@
+JUnit version 4.13
+......Original Stack: [3, 5, 1, 7, 2]
+Sorted Stack in Descending Order: [1, 2, 3, 5, 7]
+..
+Time: 0.33
+
+OK (8 tests)
+

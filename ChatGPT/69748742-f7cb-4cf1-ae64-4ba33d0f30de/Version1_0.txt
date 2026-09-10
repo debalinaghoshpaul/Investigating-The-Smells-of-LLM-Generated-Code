@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94unVe7uNufC2Cuh0NSpvUsaCiap7",
+  "object" : "chat.completion",
+  "created" : 1710958669,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is a sample Java program to merge two sorted linked lists in ascending order:\n\n```java\nclass Node {\n    int data;\n    Node next;\n    \n    public Node(int data) {\n        this.data = data;\n        this.next = null;\n    }\n}\n\npublic class MergeSortedLinkedLists {\n    \n    public Node mergeLists(Node head1, Node head2) {\n        Node dummy = new Node(0);\n        Node curr = dummy;\n        \n        while (head1 != null && head2 != null) {\n            if (head1.data < head2.data) {\n                curr.next = head1;\n                head1 = head1.next;\n            } else {\n                curr.next = head2;\n                head2 = head2.next;\n            }\n            curr = curr.next;\n        }\n        \n        if (head1 != null) {\n            curr.next = head1;\n        }\n        if (head2 != null) {\n            curr.next = head2;\n        }\n        \n        return dummy.next;\n    }\n\n    public void printList(Node head) {\n        Node current = head;\n        while (current != null) {\n            System.out.print(current.data + \" \");\n            current = current.next;\n        }\n        System.out.println();\n    }\n    \n    public static void main(String[] args) {\n        MergeSortedLinkedLists merger = new MergeSortedLinkedLists();\n        \n        Node head1 = new Node(1);\n        head1.next = new Node(3);\n        head1.next.next = new Node(5);\n        \n        Node head2 = new Node(2);\n        head2.next = new Node(4);\n        head2.next.next = new Node(6);\n        \n        Node mergedHead = merger.mergeLists(head1, head2);\n        \n        System.out.println(\"Merged List:\");\n        merger.printList(mergedHead);\n    }\n}\n```\n\nThis program creates two sorted linked lists, merges them in ascending order, and then prints out the merged list. You can modify the input lists in the `main` method to test with different values."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 70,
+    "completion_tokens" : 419,
+    "total_tokens" : 489
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

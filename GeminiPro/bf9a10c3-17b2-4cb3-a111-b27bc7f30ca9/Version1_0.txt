@@ -1,0 +1,73 @@
+```java
+import java.util.Scanner;
+
+public class DecimalToHexadecimal {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input a decimal number: ");
+        int decimal = input.nextInt();
+
+        String hexadecimal = ""; // Initialize the hexadecimal string
+
+        // Convert the decimal number to hexadecimal
+        while (decimal > 0) {
+            int remainder = decimal % 16; // Get the remainder of the division by 16
+            hexadecimal = toHexString(remainder) + hexadecimal; // Convert the remainder to hexadecimal and prepend it to the hexadecimal string
+            decimal /= 16; // Divide the decimal number by 16
+        }
+
+        // Print the hexadecimal number
+        System.out.println("Hexadecimal number is : " + hexadecimal);
+    }
+
+    // Converts a decimal digit to its hexadecimal representation
+    private static String toHexString(int decimal) {
+        switch (decimal) {
+            case 10:
+                return "A";
+            case 11:
+                return "B";
+            case 12:
+                return "C";
+            case 13:
+                return "D";
+            case 14:
+                return "E";
+            case 15:
+                return "F";
+            default:
+                return String.valueOf(decimal);
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* **Input:** 15
+* **Expected Output:** F
+
+* **Input:** 255
+* **Expected Output:** FF
+
+* **Input:** 1000
+* **Expected Output:** 3E8
+
+**Negative Test Cases:**
+
+* **Input:** -1
+* **Expected Output:** Invalid decimal number
+
+* **Input:** 16
+* **Expected Output:** Invalid decimal number
+
+**Corner Cases:**
+
+* **Input:** 0
+* **Expected Output:** 0
+
+* **Input:** Integer.MAX_VALUE
+* **Expected Output:** 7FFFFFFF

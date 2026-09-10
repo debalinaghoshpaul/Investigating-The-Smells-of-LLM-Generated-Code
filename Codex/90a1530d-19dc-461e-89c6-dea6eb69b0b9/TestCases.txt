@@ -1,0 +1,79 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class StringToNumbers {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String str = input.nextLine();
+
+        // Convert the string to an int
+        int numInt;
+        try {
+            numInt = Integer.parseInt(str);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid number format for int: " + str);
+            return;
+        }
+
+        // Convert the string to a long
+        long numLong;
+        try {
+            numLong = Long.parseLong(str);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid number format for long: " + str);
+            return;
+        }
+
+        // Convert the string to a float
+        float numFloat;
+        try {
+            numFloat = Float.parseFloat(str);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid number format for float: " + str);
+            return;
+        }
+
+        // Convert the string to a double
+        double numDouble;
+        try {
+            numDouble = Double.parseDouble(str);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid number format for double: " + str);
+            return;
+        }
+
+        // Print the converted numbers
+        System.out.println("Int: " + numInt);
+        System.out.println("Long: " + numLong);
+        System.out.println("Float: " + numFloat);
+        System.out.println("Double: " + numDouble);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Valid test cases:**
+    * "123" (int)
+    * "1234567890123456789" (long)
+    * "123.45" (float)
+    * "123.4567890123456789" (double)
+* **Edge test cases:**
+    * "0" (int, long, float, double)
+    * "1" (int, long, float, double)
+    * "9999999999999999999" (long)
+    * "1.0" (float, double)
+    * "0.0" (float, double)
+* **Invalid test cases:**
+    * "abc" (int, long, float, double)
+    * "123abc" (int, long, float, double)
+    * "123.45abc" (float, double)
+    * "-" (int, long, float, double)
+    * "+" (int, long, float, double)
+    * " " (int, long, float, double)

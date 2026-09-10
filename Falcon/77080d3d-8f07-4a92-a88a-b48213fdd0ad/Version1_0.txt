@@ -1,0 +1,88 @@
+No GPU found. Running on CPU.
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintCharacters {
+    public static void main(String[] args) {
+        String word = "java";
+        List<Character> characters = new ArrayList<>();
+        for (int i = 0; i < word.length(); i++) {
+            characters.add(word.charAt(i));
+        }
+        for (int i = 0; i < characters.size(); i++) {
+            System.out.print(characters.get(i) + " ");
+        }
+        System.out.println();
+    }
+}
+
+Output:
+The programming language you need to use is: java.
+Java
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming language you need to use is: java.
+Java
+The programming

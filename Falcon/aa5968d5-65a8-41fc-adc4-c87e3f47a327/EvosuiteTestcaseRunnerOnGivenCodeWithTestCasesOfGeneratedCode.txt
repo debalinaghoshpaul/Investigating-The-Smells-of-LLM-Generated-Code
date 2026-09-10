@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.377
+There were 5 failures:
+1) test3(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	RadixSort cannot be resolved
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test3(RadixSort_ESTest.java:71)
+2) test2(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	RadixSort cannot be resolved
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test2(RadixSort_ESTest.java:55)
+3) test4(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	RadixSort cannot be resolved
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test4(RadixSort_ESTest.java:86)
+4) test1(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	RadixSort cannot be resolved
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test1(RadixSort_ESTest.java:40)
+5) test0(testing_ChatGPT_on_java.RadixSort_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	RadixSort cannot be resolved to a type
+	RadixSort cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.RadixSort_ESTest.test0(RadixSort_ESTest.java:21)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

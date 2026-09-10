@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.328
+There were 5 failures:
+1) test0(testing_ChatGPT_on_java.ArrayElementCounter_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArrayElementCounter cannot be resolved
+
+	at testing_ChatGPT_on_java.ArrayElementCounter_ESTest.test0(ArrayElementCounter_ESTest.java:22)
+2) test1(testing_ChatGPT_on_java.ArrayElementCounter_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArrayElementCounter cannot be resolved
+
+	at testing_ChatGPT_on_java.ArrayElementCounter_ESTest.test1(ArrayElementCounter_ESTest.java:35)
+3) test4(testing_ChatGPT_on_java.ArrayElementCounter_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArrayElementCounter cannot be resolved
+
+	at testing_ChatGPT_on_java.ArrayElementCounter_ESTest.test4(ArrayElementCounter_ESTest.java:63)
+4) test2(testing_ChatGPT_on_java.ArrayElementCounter_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArrayElementCounter cannot be resolved
+
+	at testing_ChatGPT_on_java.ArrayElementCounter_ESTest.test2(ArrayElementCounter_ESTest.java:44)
+5) test3(testing_ChatGPT_on_java.ArrayElementCounter_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ArrayElementCounter cannot be resolved to a type
+	ArrayElementCounter cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ArrayElementCounter_ESTest.test3(ArrayElementCounter_ESTest.java:57)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

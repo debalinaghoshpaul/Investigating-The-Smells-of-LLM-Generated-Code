@@ -1,0 +1,64 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class CountLifeSubstring {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Count the number of occurrences of "life" and "li?e"
+        int lifeCount = 0;
+        int lifeAnyCount = 0;
+
+        for (int i = 0; i < inputString.length(); i++) {
+            String substring = inputString.substring(i, Math.min(i + 3, inputString.length()));
+            if (substring.equals("life")) {
+                lifeCount++;
+            } else if (substring.matches("li.*e")) {
+                lifeAnyCount++;
+            }
+        }
+
+        // Print the results
+        System.out.println("The number of occurrences of \"life\" is: " + lifeCount);
+        System.out.println("The number of occurrences of \"li?e\" is: " + lifeAnyCount);
+    }
+}
+```
+
+**Test Cases:**
+
+**Regular Cases:**
+
+* **Input:** "Life is a beautiful thing"
+* **Output:**
+    * The number of occurrences of "life" is: 1
+    * The number of occurrences of "li?e" is: 2
+
+* **Input:** "The life cycle of a butterfly is fascinating"
+* **Output:**
+    * The number of occurrences of "life" is: 2
+    * The number of occurrences of "li?e" is: 4
+
+**Corner Cases:**
+
+* **Input:** "" (empty string)
+* **Output:**
+    * The number of occurrences of "life" is: 0
+    * The number of occurrences of "li?e" is: 0
+
+* **Input:** "life"
+* **Output:**
+    * The number of occurrences of "life" is: 1
+    * The number of occurrences of "li?e" is: 1
+
+* **Input:** "lifile"
+* **Output:**
+    * The number of occurrences of "life" is: 0
+    * The number of occurrences of "li?e" is: 1

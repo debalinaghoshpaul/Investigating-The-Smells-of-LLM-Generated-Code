@@ -1,0 +1,5 @@
+
+
+This program defines a method `findMissingElements` that takes two stacks as input and finds the elements that are in the first stack but not in the second stack. It uses a HashSet to store the elements of the second stack for efficient lookup. Then, it iterates through the elements of the first stack and checks if they are present in the HashSet. If not, it adds them to the `missingElements` stack.
+
+In the `main` method, two sample stacks are created and the `findMissingElements` method is called to find the missing elements. Finally, the missing elements are printed out.

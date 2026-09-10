@@ -1,0 +1,134 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: testing_ChatGPT_on_java.ReadWriteLockExercise
+* Starting client
+* Connecting to master process on port 9890
+* Analyzing classpath: 
+  - C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\target\classes
+* Finished analyzing classpath
+* Generating tests for class testing_ChatGPT_on_java.ReadWriteLockExercise
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 37
+  - Branch 12
+  - Exception 0
+  - MutationFactory 46
+  - Output 0
+  - Method 9
+  - MethodNoException 9
+  - CBranchFitnessFactory 12
+
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 1711637966361
+* Starting evolution
+
+[Progress:=>                            5%] [Cov:>                                  2%]
+[Progress:=>                            5%] [Cov:=>                                 4%]
+[Progress:=>                            5%] [Cov:=====>                             16%]
+[Progress:=>                            5%] [Cov:=========>                         27%]
+[Progress:=>                            5%] [Cov:==========>                        30%]
+[Progress:=>                            5%] [Cov:===========>                       32%]
+[Progress:=>                            5%] [Cov:===========>                       34%]
+[Progress:==========>                   35%] [Cov:==>                                6%]
+[Progress:==========>                   35%] [Cov:====>                              13%]
+[Progress:==========>                   35%] [Cov:=========>                         26%]
+[Progress:==========>                   35%] [Cov:============>                      35%]
+[Progress:==========>                   35%] [Cov:================>                  46%]
+[Progress:==========>                   35%] [Cov:================>                  47%]
+[Progress:==========>                   35%] [Cov:================>                  48%]
+[Progress:==========>                   35%] [Cov:==================>                53%]
+[Progress:===============>              50%] [Cov:==>                                7%]
+[Progress:===============>              50%] [Cov:======>                            18%]
+[Progress:===============>              50%] [Cov:==========>                        30%]
+[Progress:===============>              50%] [Cov:==============>                    41%]
+[Progress:===============>              50%] [Cov:==================>                52%]
+[Progress:===============>              50%] [Cov:=====================>             60%]
+[Progress:===============>              50%] [Cov:=======================>           67%]
+[Progress:===============>              50%] [Cov:==========================>        76%]
+[Progress:================>             55%] [Cov:=>                                 3%]
+[Progress:================>             55%] [Cov:==>                                7%]
+[Progress:================>             55%] [Cov:======>                            19%]
+[Progress:================>             55%] [Cov:=======>                           21%]
+[Progress:================>             55%] [Cov:===========>                       32%]
+[Progress:================>             55%] [Cov:============>                      37%]
+[Progress:================>             55%] [Cov:==============>                    42%]
+[Progress:================>             55%] [Cov:================>                  46%]
+[Progress:==================>           61%] [Cov:>                                  0%]
+[Progress:==================>           61%] [Cov:====>                              12%]
+[Progress:==================>           61%] [Cov:=======>                           22%]
+[Progress:========================>     81%] [Cov:==>                                7%]
+[Progress:========================>     81%] [Cov:======>                            18%]
+[Progress:========================>     81%] [Cov:==========>                        30%]
+[Progress:========================>     81%] [Cov:==============>                    41%]
+[Progress:========================>     81%] [Cov:==================>                52%]
+[Progress:========================>     81%] [Cov:=====================>             61%]
+[Progress:========================>     81%] [Cov:========================>          70%]
+[Progress:========================>     81%] [Cov:===========================>       79%]
+[Progress:===========================>  91%] [Cov:==>                                8%]
+[Progress:===========================>  91%] [Cov:======>                            19%]
+[Progress:===========================>  91%] [Cov:===========>                       32%]
+[Progress:===========================>  91%] [Cov:===============>                   44%]
+[Progress:===========================>  91%] [Cov:===================>               55%]
+[Progress:===========================>  91%] [Cov:======================>            64%]
+[Progress:===========================>  91%] [Cov:=========================>         73%]
+[Progress:===========================>  91%] [Cov:=============================>     83%]
+[Progress:==============================100%] [Cov:==>                                8%]
+[Progress:==============================100%] [Cov:======>                            18%]
+[Progress:==============================100%] [Cov:==========>                        31%]
+[Progress:==============================100%] [Cov:===============>                   44%]
+[Progress:==============================100%] [Cov:===================>               55%]
+[Progress:==============================100%] [Cov:======================>            64%]
+[Progress:==============================100%] [Cov:========================>          71%]
+[Progress:==============================100%] [Cov:============================>      80%]
+[Progress:==============================100%] [Cov:============================>      80%]
+[Progress:==============================100%] [Cov:===============================>   89%]
+* Search finished after 74s and 0 generations, 245 statements, best individual has fitness: 16.916666666666664
+[MASTER] 15:00:42.099 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 13 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 15:01:54.560 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 70%
+* Total number of goals: 37
+* Number of covered goals: 26
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 12
+* Number of covered goals: 12
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 70%
+* Total number of goals: 46
+* Number of covered goals: 32
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 78%
+* Total number of goals: 9
+* Number of covered goals: 7
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 12
+* Number of covered goals: 12
+* Generated 8 tests with total length 104
+* Resulting test suite's coverage: 90% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 15:02:55.095 [logback-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 9%
+* Compiling and checking tests
+* Writing JUnit test case 'ReadWriteLockExercise_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

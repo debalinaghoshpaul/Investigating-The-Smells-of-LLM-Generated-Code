@@ -1,0 +1,56 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+import java.util.Set;
+import java.util.HashSet;
+
+public class RemoveDuplicateCharacters {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the first string:");
+        String str1 = sc.nextLine();
+
+        System.out.println("Enter the second string:");
+        String str2 = sc.nextLine();
+
+        // Convert the second string to a set to remove duplicates
+        Set<Character> set = new HashSet<>();
+        for (char ch : str2.toCharArray()) {
+            set.add(ch);
+        }
+
+        // Remove duplicate characters from the first string
+        StringBuilder sb = new StringBuilder();
+        for (char ch : str1.toCharArray()) {
+            if (!set.contains(ch)) {
+                sb.append(ch);
+            }
+        }
+
+        // Print the result
+        System.out.println("The resulting string is: " + sb.toString());
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Test Cases:**
+
+| Input 1      | Input 2      | Output             |
+| ------------- | ------------- | ------------------- |
+| "programming" | "language"     | "programin"         |
+| "hello world"  | "world peace"   | "hello"             |
+| "java subject" | "object java"   | "sub"               |
+
+**Corner Cases:**
+
+| Input 1      | Input 2      | Output             |
+| ------------- | ------------- | ------------------- |
+| ""             | "hello world"  | ""                   |
+| "hello"        | ""             | "hello"             |
+| "12345"         | "54321"        | ""                   |
+| "a"             | "a"            | ""                   |

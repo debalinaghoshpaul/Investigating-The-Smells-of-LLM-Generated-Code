@@ -1,0 +1,7 @@
+
+
+**Explanation:** The numbers at the start and end of the array are not the same.
+
+**Corner Cases:**
+
+**Input:**

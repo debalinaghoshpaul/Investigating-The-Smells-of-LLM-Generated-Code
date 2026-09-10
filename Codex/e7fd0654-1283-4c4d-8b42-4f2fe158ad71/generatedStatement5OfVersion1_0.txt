@@ -1,0 +1,4 @@
+
+Enter the base: 2
+Enter the exponent: 10
+e^10 = 1024.0

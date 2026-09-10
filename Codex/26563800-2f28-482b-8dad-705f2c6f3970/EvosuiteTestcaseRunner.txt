@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Input a Decimal Number: .Input a Decimal Number: Binary number is: 10
+..Input a Decimal Number: Binary number is: 
+.Input a Decimal Number: 
+Time: 0.344
+
+OK (5 tests)
+

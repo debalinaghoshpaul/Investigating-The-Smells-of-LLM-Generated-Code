@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to test whether two lines PQ and RS are parallel. The four points are P(x1, y1), Q(x2, y2), R(x3, y3), and S(x4, y4).\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : ff857a22-06ad-47d9-8e4d-658a8e20b73c.\n

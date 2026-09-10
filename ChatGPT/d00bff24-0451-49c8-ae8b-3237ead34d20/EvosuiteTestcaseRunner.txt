@@ -1,0 +1,19 @@
+JUnit version 4.13
+.Invalid input
+.Invalid input
+.Sub-array size: 4
+Sub-array from 0 to 3 and sum is: 10
+..Sub-array size: 7
+Sub-array from 0 to 6 and sum is: 0
+.Sub-array size: 1
+Sub-array from 0 to 0 and sum is: 0
+.Invalid input
+.Invalid input
+.Invalid input
+.Sub-array size: 1
+Sub-array from 1 to 1 and sum is: 0
+
+Time: 0.542
+
+OK (10 tests)
+

@@ -1,0 +1,13 @@
+JUnit version 4.13
+.E..
+Time: 0.363
+There was 1 failure:
+1) test0(testing_ChatGPT_on_java.test_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method validate(int) in the type test is not applicable for the arguments (String)
+
+	at testing_ChatGPT_on_java.test_ESTest.test0(test_ESTest.java:23)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93OwJAOmOTRKPETBaIKw6e3loe2yI",
+  "object" : "chat.completion",
+  "created" : 1710597879,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\n\npublic class RemoveAllElementsFromStack {\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        \n        // Push elements into the stack\n        stack.push(1);\n        stack.push(2);\n        stack.push(3);\n        stack.push(4);\n        \n        System.out.println(\"Original Stack: \" + stack);\n        \n        removeAllElements(stack);\n        \n        System.out.println(\"Stack after removing all elements: \" + stack);\n    }\n    \n    public static void removeAllElements(Stack<Integer> stack) {\n        stack.clear();\n    }\n}\n``` \n\nOutput:\n```\nOriginal Stack: [1, 2, 3, 4]\nStack after removing all elements: []\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 60,
+    "completion_tokens" : 154,
+    "total_tokens" : 214
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

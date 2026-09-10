@@ -1,0 +1,16 @@
+
+
+## Test cases
+
+### Positive test cases
+- n = 5
+- n = 10
+- n = 15
+
+### Negative test cases
+- n = 0
+- n = -5
+
+### Corner cases
+- n = 1
+- n = 2

@@ -1,0 +1,3 @@
+
+
+This Java program allows the user to input values for x, n, and y, and then computes xn % y using modular exponentiation. The `calculateModulo` method performs the calculation efficiently by using the binary exponentiation method.

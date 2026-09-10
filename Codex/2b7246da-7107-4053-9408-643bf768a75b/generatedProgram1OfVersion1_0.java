@@ -1,0 +1,25 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class SortNumbersDescending {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input numbers from the user.
+        System.out.println("Enter six numbers:");
+        int[] numbers = new int[6];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = scanner.nextInt();
+        }
+
+        // Sort the numbers in descending order.
+        Arrays.sort(numbers);
+
+        // Print the sorted numbers.
+        System.out.println("The numbers in descending order are:");
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+    }
+}

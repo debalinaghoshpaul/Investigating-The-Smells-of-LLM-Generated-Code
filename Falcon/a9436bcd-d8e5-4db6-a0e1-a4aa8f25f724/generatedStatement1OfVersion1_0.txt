@@ -1,0 +1,24 @@
+ Reverse string: xof nworb kciuq ehT
+
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, you can test the program with a string of length 0.
+// You can also test the program with a string of length 1.
+// You can also test the program with a string of length 2.
+// You can also test the program with a string of length 3.
+// You can also test the program with a string of length 4.
+// You can also test the program with a string of length 5.
+// You can also test the program with a string of length 6.
+// You can also test the program with a string of length 7.
+// You can also test the program with a string of length 8.
+// You can also test the program with a string of length 9.
+// You can also test the program with a string of length 10.
+// You can also test the program with a string of length 11.
+// You can also test the program with a string of length 12.
+// You can also test the program with a string of length 13.
+// You can also test the program with a string of length 14.
+// You can also test the program with a string of length 15.
+// You can also test the program with a string of length 16.
+// You can also test the program with a string of length 17.
+// You can also test the program with a string of length 18.
+// You can also test the program with a string of length 19.

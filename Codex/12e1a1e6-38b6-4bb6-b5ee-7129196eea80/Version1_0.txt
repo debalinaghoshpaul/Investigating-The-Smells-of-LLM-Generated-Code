@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97lBtorbj0t31wwL0uLN3uGurzRIV",
+  "object" : "chat.completion",
+  "created" : 1711636725,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.concurrent.locks.ReentrantLock;\n\npublic class SharedResource {\n    private ReentrantLock lock = new ReentrantLock();\n    private int count = 0;\n\n    public void increment() {\n        lock.lock();\n        try {\n            count++;\n            System.out.println(\"Incremented to: \" + count);\n        } finally {\n            lock.unlock();\n        }\n    }\n\n    public void decrement() {\n        lock.lock();\n        try {\n            count--;\n            System.out.println(\"Decremented to: \" + count);\n        } finally {\n            lock.unlock();\n        }\n    }\n\n    public static void main(String[] args) {\n        SharedResource sharedResource = new SharedResource();\n\n        Thread thread1 = new Thread(() -> {\n            for (int i = 0; i < 5; i++) {\n                sharedResource.increment();\n            }\n        });\n\n        Thread thread2 = new Thread(() -> {\n            for (int i = 0; i < 5; i++) {\n                sharedResource.decrement();\n            }\n        });\n\n        thread1.start();\n        thread2.start();\n    }\n}\n```\n\nIn the above code, we create a `SharedResource` class with methods `increment()` and `decrement()` that access a shared resource (count) using a `ReentrantLock` for synchronization. We then create two threads that increment and decrement the count respectively, demonstrating how the `ReentrantLock` ensures mutual exclusion and prevents race conditions when accessing the shared resource."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 74,
+    "completion_tokens" : 303,
+    "total_tokens" : 377
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

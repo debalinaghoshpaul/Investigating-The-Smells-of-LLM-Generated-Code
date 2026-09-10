@@ -1,0 +1,41 @@
+```java
+import java.util.Scanner;
+
+public class TrianglePattern {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input the number: ");
+        int number = input.nextInt();
+
+        for (int i = number; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+* **Valid Input:**
+    * Input: 6
+    * Expected Output:
+        ******
+        *****
+        ****
+        ***
+        **
+        *
+
+* **Corner Cases:**
+    * Input: 0
+    * Expected Output: An empty line
+
+    * Input: -5
+    * Expected Output: An error message indicating that the input must be a positive integer
+
+    * Input: Double value (e.g., 3.5)
+    * Expected Output: An error message indicating that the input must be an integer

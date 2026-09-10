@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91zv7dPQVEC3A2h8U3oUg1ag1X5yC",
+  "object" : "chat.completion",
+  "created" : 1710263377,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.ArrayList;\nimport java.util.List;\n\npublic class EquilibriumIndices {\n    \n    public static List<Integer> findEquilibriumIndices(int[] nums) {\n        List<Integer> equilibriumIndices = new ArrayList<>();\n        \n        int totalSum = 0;\n        for (int num : nums) {\n            totalSum += num;\n        }\n        \n        int leftSum = 0;\n        for (int i = 0; i < nums.length; i++) {\n            totalSum -= nums[i];\n            \n            if (leftSum == totalSum) {\n                equilibriumIndices.add(i);\n            }\n            \n            leftSum += nums[i];\n        }\n        \n        return equilibriumIndices;\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {-7, 1, 5, 2, -4, 3, 0};\n        List<Integer> equilibriumIndices = findEquilibriumIndices(nums);\n        \n        for (int index : equilibriumIndices) {\n            System.out.println(\"Equilibrium indices found at : \" + index);\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 111,
+    "completion_tokens" : 218,
+    "total_tokens" : 329
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

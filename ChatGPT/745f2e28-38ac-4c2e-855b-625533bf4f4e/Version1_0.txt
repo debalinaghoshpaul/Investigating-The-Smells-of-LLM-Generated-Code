@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94uPAXgaimrtzeQFbxvzlLduTi7sw",
+  "object" : "chat.completion",
+  "created" : 1710957160,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\n\npublic class MaximumAverageSubarray {\n    \n    public static double findMaxAverage(int[] nums, int k) {\n        int sum = 0;\n        for (int i = 0; i < k; i++) {\n            sum += nums[i];\n        }\n        \n        int maxSum = sum;\n        for (int i = k; i < nums.length; i++) {\n            sum += nums[i] - nums[i - k];\n            maxSum = Math.max(maxSum, sum);\n        }\n        \n        return (double) maxSum / k;\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {1, 12, -5, -6, 50, 3};\n        int k = 4;\n        \n        double result = findMaxAverage(nums, k);\n        \n        System.out.println(\"Maximum average value of subarray of length \" + k + \" is: \" + result);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 88,
+    "completion_tokens" : 201,
+    "total_tokens" : 289
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

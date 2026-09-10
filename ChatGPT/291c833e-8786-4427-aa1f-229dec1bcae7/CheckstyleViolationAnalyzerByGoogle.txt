@@ -1,0 +1,3 @@
+Violations by Category:
+OuterTypeFilename: The name of the outer type and the file do not match. [OuterTypeFilename]: 1
+OneTopLevelClass: Top-level class BinaryTreeInorderTraversal has to reside in its own source file. [OneTopLevelClass]: 1

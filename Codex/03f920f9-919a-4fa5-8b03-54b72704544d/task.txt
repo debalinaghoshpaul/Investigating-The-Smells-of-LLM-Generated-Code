@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program that reads an positive integer and count the number of digits the number (less than ten billion) has.\nTest Data Input an integer number less than ten billion: 125463 Expected Output :\nNumber of digits in the number: 6\n\n The programming language you need to use is: java.\n\n Problem Id is : 03f920f9-919a-4fa5-8b03-54b72704544d.\n

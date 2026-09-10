@@ -1,0 +1,63 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class ReverseOddLengthWords {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Split the input string into an array of words
+        String[] words = inputString.split(" ");
+
+        // Iterate over each word in the array
+        for (int i = 0; i < words.length; i++) {
+            String word = words[i];
+
+            // Check if the length of the word is odd
+            if (word.length() % 2 == 1) {
+                // Reverse the word
+                String reversedWord = "";
+                for (int j = word.length() - 1; j >= 0; j--) {
+                    reversedWord += word.charAt(j);
+                }
+
+                // Replace the original word with the reversed word
+                words[i] = reversedWord;
+            }
+        }
+
+        // Join the array of words into a string
+        String outputString = String.join(" ", words);
+
+        // Print the output string
+        System.out.println("The output string is: " + outputString);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: "Hello World"
+* Expected Output: "olleH dlroW"
+
+**Corner Cases:**
+
+* Input: "a"
+* Expected Output: "a" (The word has an odd length but is already reversed, so it remains the same)
+
+* Input: "123"
+* Expected Output: "123" (The word is not a valid English word, so it is not reversed)
+
+* Input: "Empty string"
+* Expected Output: "Empty string" (The input string is empty, so the output string is also empty)
+
+* Input: "null"
+* Expected Output: "null" (The input string is null, so the output string is also null)

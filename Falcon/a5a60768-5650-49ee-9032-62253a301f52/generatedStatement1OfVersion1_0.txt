@@ -1,0 +1,2 @@
+**Java program to check if a specified number appears in every pair of adjacent integers of a given array of integers:**
+

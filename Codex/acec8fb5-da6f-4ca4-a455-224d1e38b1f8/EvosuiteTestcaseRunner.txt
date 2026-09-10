@@ -1,0 +1,16 @@
+JUnit version 4.13
+.Input the number (Table to be calculated): .Input the number (Table to be calculated): Input number of terms: 1 X 0 = 0
+1 X 1 = 1
+1 X 2 = 2
+1 X 3 = 3
+1 X 4 = 4
+1 X 5 = 5
+1 X 6 = 6
+1 X 7 = 7
+1 X 8 = 8
+1 X 9 = 9
+..Input the number (Table to be calculated): 
+Time: 0.388
+
+OK (4 tests)
+

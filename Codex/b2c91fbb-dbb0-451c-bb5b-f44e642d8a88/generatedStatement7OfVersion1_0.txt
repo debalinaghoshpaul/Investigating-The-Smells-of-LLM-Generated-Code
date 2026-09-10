@@ -1,0 +1,7 @@
+
+class NonFlyable {
+
+}
+
+NonFlyable nonFlyable = new NonFlyable();
+nonFlyable.fly_obj(); // ClassCastException

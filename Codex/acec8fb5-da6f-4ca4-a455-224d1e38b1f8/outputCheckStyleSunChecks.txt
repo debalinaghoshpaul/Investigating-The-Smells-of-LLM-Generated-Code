@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesConditionalStatements\acec8fb5-da6f-4ca4-a455-224d1e38b1f8\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesConditionalStatements\acec8fb5-da6f-4ca4-a455-224d1e38b1f8\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesConditionalStatements\acec8fb5-da6f-4ca4-a455-224d1e38b1f8\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesConditionalStatements\acec8fb5-da6f-4ca4-a455-224d1e38b1f8\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesConditionalStatements\acec8fb5-da6f-4ca4-a455-224d1e38b1f8\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesConditionalStatements\acec8fb5-da6f-4ca4-a455-224d1e38b1f8\generatedProgram1OfVersion1_0.java:6: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesConditionalStatements\acec8fb5-da6f-4ca4-a455-224d1e38b1f8\generatedProgram1OfVersion1_0.java:9: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesConditionalStatements\acec8fb5-da6f-4ca4-a455-224d1e38b1f8\generatedProgram1OfVersion1_0.java:12: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesConditionalStatements\acec8fb5-da6f-4ca4-a455-224d1e38b1f8\generatedProgram1OfVersion1_0.java:16: Line has trailing spaces. [RegexpSingleline]
+Audit done.

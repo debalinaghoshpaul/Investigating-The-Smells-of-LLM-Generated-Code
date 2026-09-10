@@ -1,0 +1,3 @@
+
+
+When you run the DateTest class, it should output the initial date (10/15/2021) and then the updated date (11/20/2022) based on the changes made using the setter methods. This demonstrates that the Date class with the month variable as type int works correctly.

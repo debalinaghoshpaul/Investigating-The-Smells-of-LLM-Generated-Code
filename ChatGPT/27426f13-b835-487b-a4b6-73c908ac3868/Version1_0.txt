@@ -1,0 +1,34 @@
+```java
+import java.util.Scanner;
+
+public class PasswordInputDisplay {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input password
+        System.out.println("Input your Password:");
+        String password = scanner.nextLine();
+
+        // Display password
+        System.out.println("Your password was: " + password);
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Inputs:**
+
+* "abc@123"
+* "password123"
+* "123456"
+* "ThisIsMyPassword"
+
+**Invalid Inputs (Corner Cases):**
+
+* **Empty password:** ""
+* **Null password:** null
+* **Password with special characters:** "abc@123$"
+* **Password with spaces:** "abc 123"
+* **Password with non-printable characters:** "abc\u0000123"

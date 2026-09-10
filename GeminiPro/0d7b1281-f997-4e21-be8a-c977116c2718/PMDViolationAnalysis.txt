@@ -1,0 +1,5 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+AvoidCalendarDateCreation: A Calendar is used to get the current time, this is expensive.: 1
+CommentRequired: Class comments are required: 2
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

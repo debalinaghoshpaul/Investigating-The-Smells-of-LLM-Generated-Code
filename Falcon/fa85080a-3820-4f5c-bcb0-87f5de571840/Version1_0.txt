@@ -1,0 +1,159 @@
+No GPU found. Running on CPU.
+public interface Drawable {
+    void draw();
+}
+
+public class Circle implements Drawable {
+    public void draw() {
+        System.out.println("Circle");
+    }
+}
+
+public class Rectangle implements Drawable {
+    public void draw() {
+        System.out.println("Rectangle");
+    }
+}
+
+public class Triangle implements Drawable {
+    public void draw() {
+        System.out.println("Triangle");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Circle circle = new Circle();
+        Rectangle rectangle = new Rectangle();
+        Triangle triangle = new Triangle();
+
+        circle.draw();
+        rectangle.draw();
+        triangle.draw();
+    }
+}
+
+Output:
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Triangle
+Circle
+Rectangle
+Tri

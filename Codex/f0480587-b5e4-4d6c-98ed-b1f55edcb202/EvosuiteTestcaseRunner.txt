@@ -1,0 +1,29 @@
+JUnit version 4.13
+.Sum of all prime numbers up to 1000 is: 76127
+Sum of all prime numbers up to 1000 is: 76127
+Sum of all prime numbers up to 1000 is: 68545
+Sum of all prime numbers up to 1000 is: 76127
+Sum of all prime numbers up to 1000 is: 76127
+Sum of all prime numbers up to 1000 is: 64981
+Sum of all prime numbers up to 1000 is: 76127
+Sum of all prime numbers up to 1000 is: 76127
+Sum of all prime numbers up to 1000 is: 76127
+Sum of all prime numbers up to 1000 is: 70798
+Sum of all prime numbers up to 1000 is: 76127
+Sum of all prime numbers up to 1000 is: 31422
+Sum of all prime numbers up to 1000 is: 76127
+Sum of all prime numbers up to 1000 is: 76127
+E...
+Time: 4.371
+There was 1 failure:
+1) test1(testing_ChatGPT_on_java.SumOfPrimes_ESTest)
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1252)
+	at java.lang.Thread.join(Thread.java:1326)
+	at testing_ChatGPT_on_java.SumOfPrimes.main(SumOfPrimes.java:24)
+	at testing_ChatGPT_on_java.SumOfPrimes_ESTest.test1(SumOfPrimes_ESTest.java:44)
+
+FAILURES!!!
+Tests run: 4,  Failures: 1
+

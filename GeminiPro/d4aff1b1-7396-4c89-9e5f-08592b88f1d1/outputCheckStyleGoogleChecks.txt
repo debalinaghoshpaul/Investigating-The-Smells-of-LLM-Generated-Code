@@ -1,0 +1,10 @@
+Starting audit...
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\d4aff1b1-7396-4c89-9e5f-08592b88f1d1\GivenSolution.java:2:1: Top-level class BankAccount has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\d4aff1b1-7396-4c89-9e5f-08592b88f1d1\GivenSolution.java:27:1: Top-level class SavingsAccount has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\d4aff1b1-7396-4c89-9e5f-08592b88f1d1\GivenSolution.java:45:1: Top-level class CheckingAccount has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\d4aff1b1-7396-4c89-9e5f-08592b88f1d1\GivenSolution.java:45:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\d4aff1b1-7396-4c89-9e5f-08592b88f1d1\GivenSolution.java:64:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\d4aff1b1-7396-4c89-9e5f-08592b88f1d1\GivenSolution.java:64:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\d4aff1b1-7396-4c89-9e5f-08592b88f1d1\GivenSolution.java:65:3: Missing a Javadoc comment. [MissingJavadocMethod]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\d4aff1b1-7396-4c89-9e5f-08592b88f1d1\GivenSolution.java:76:3: Missing a Javadoc comment. [MissingJavadocMethod]
+Audit done.

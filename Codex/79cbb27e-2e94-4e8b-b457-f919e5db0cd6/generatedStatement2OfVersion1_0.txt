@@ -1,0 +1,30 @@
+
+
+Test Cases:
+
+### Positive Test Cases:
+
+| Input | Expected Output |
+|---|---|
+| 1 | "1 is a happy number." |
+| 7 | "7 is a happy number." |
+| 10 | "10 is a happy number." |
+| 28 | "28 is a happy number." |
+| 496 | "496 is a happy number." |
+
+### Negative Test Cases:
+
+| Input | Expected Output |
+|---|---|
+| 2 | "2 is not a happy number." |
+| 3 | "3 is not a happy number." |
+| 4 | "4 is not a happy number." |
+| 5 | "5 is not a happy number." |
+| 11 | "11 is not a happy number." |
+
+### Corner Cases:
+
+| Input | Expected Output |
+|---|---|
+| 0 | "0 is not a happy number." |
+| -1 | "Invalid input. The number must be a positive integer." |

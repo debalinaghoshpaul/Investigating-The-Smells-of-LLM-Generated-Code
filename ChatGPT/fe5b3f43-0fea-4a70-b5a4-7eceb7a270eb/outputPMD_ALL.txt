@@ -1,0 +1,6 @@
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\fe5b3f43-0fea-4a70-b5a4-7eceb7a270eb\generatedProgram1OfVersion1_0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\fe5b3f43-0fea-4a70-b5a4-7eceb7a270eb\generatedProgram1OfVersion1_0.java:4:	CommentRequired:	Class comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\fe5b3f43-0fea-4a70-b5a4-7eceb7a270eb\generatedProgram1OfVersion1_0.java:4:	UseUtilityClass:	This utility class has a non-private constructor
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\fe5b3f43-0fea-4a70-b5a4-7eceb7a270eb\generatedProgram1OfVersion1_0.java:6:	CommentRequired:	Public method and constructor comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\fe5b3f43-0fea-4a70-b5a4-7eceb7a270eb\generatedProgram1OfVersion1_0.java:16:	CommentRequired:	Public method and constructor comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\fe5b3f43-0fea-4a70-b5a4-7eceb7a270eb\generatedProgram1OfVersion1_0.java:18:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

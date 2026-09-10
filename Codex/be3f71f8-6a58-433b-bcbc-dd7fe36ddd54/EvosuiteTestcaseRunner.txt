@@ -1,0 +1,31 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.253
+There were 4 failures:
+1) test2(testing_ChatGPT_on_java.ConcurrentHashMapExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ConcurrentHashMapExercise cannot be resolved to a type
+	ConcurrentHashMapExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ConcurrentHashMapExercise_ESTest.test2(ConcurrentHashMapExercise_ESTest.java:36)
+2) test3(testing_ChatGPT_on_java.ConcurrentHashMapExercise_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ConcurrentHashMapExercise cannot be resolved
+
+	at testing_ChatGPT_on_java.ConcurrentHashMapExercise_ESTest.test3(ConcurrentHashMapExercise_ESTest.java:42)
+3) test0(testing_ChatGPT_on_java.ConcurrentHashMapExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ConcurrentHashMapExercise cannot be resolved to a type
+	ConcurrentHashMapExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ConcurrentHashMapExercise_ESTest.test0(ConcurrentHashMapExercise_ESTest.java:22)
+4) test1(testing_ChatGPT_on_java.ConcurrentHashMapExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ConcurrentHashMapExercise cannot be resolved to a type
+	ConcurrentHashMapExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ConcurrentHashMapExercise_ESTest.test1(ConcurrentHashMapExercise_ESTest.java:29)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

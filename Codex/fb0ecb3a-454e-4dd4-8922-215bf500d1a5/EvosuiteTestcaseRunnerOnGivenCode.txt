@@ -1,0 +1,84 @@
+JUnit version 4.13
+.Sum: 55
+.Sum: 55
+Sum: 55
+Sum: 55
+Sum: 55
+.E.Sum: 55
+.Sum: 55
+
+Time: 12.274
+There was 1 failure:
+1) test4(testing_ChatGPT_on_java.ForkJoinPoolExercise_ESTest)
+java.lang.ArrayIndexOutOfBoundsException: 8
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:44)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:53)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:53)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:53)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:53)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:53)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:53)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:53)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:53)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:53)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:53)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise$SumTask.compute(ForkJoinPoolExercise.java:1)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invokeAll(ForkJoinTask.java:759)
+	at testing_ChatGPT_on_java.ForkJoinPoolExercise_ESTest.test4(ForkJoinPoolExercise_ESTest.java:134)
+
+FAILURES!!!
+Tests run: 5,  Failures: 1
+

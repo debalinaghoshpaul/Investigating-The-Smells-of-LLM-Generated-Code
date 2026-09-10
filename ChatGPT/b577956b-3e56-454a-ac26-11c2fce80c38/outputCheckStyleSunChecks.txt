@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:7:32: '15' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:8:32: '15' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:13:29: '15' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:18:29: '15' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:30: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:30:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:30:53: Parameter array1 should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\b577956b-3e56-454a-ac26-11c2fce80c38\generatedProgram1OfVersion1_0.java:30:67: Parameter array2 should be final. [FinalParameters]
+Audit done.

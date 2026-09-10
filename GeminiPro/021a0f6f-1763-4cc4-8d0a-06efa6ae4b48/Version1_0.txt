@@ -1,0 +1,86 @@
+```java
+import java.util.Arrays;
+
+public class PermutationSort {
+
+    public static void main(String[] args) {
+        int[] arr = {5, 3, 1, 2, 4};
+        sort(arr);
+        System.out.println(Arrays.toString(arr)); // Output: [1, 2, 3, 4, 5]
+
+        int[] arr2 = {1, 2, 3, 4, 5};
+        sort(arr2);
+        System.out.println(Arrays.toString(arr2)); // Output: [1, 2, 3, 4, 5]
+
+        int[] arr3 = {5, 4, 3, 2, 1};
+        sort(arr3);
+        System.out.println(Arrays.toString(arr3)); // Output: [1, 2, 3, 4, 5]
+
+        int[] arr4 = {};
+        sort(arr4);
+        System.out.println(Arrays.toString(arr4)); // Output: []
+    }
+
+    public static void sort(int[] arr) {
+        int n = arr.length;
+        int[] permutation = new int[n];
+        for (int i = 0; i < n; i++) {
+            permutation[i] = i;
+        }
+
+        while (!isSorted(arr, permutation)) {
+            nextPermutation(permutation);
+        }
+    }
+
+    public static boolean isSorted(int[] arr, int[] permutation) {
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[permutation[i - 1]] > arr[permutation[i]]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static void nextPermutation(int[] permutation) {
+        int n = permutation.length;
+        int i = n - 2;
+        while (i >= 0 && permutation[i] >= permutation[i + 1]) {
+            i--;
+        }
+
+        if (i >= 0) {
+            int j = n - 1;
+            while (permutation[j] <= permutation[i]) {
+                j--;
+            }
+            swap(permutation, i, j);
+        }
+
+        reverse(permutation, i + 1, n - 1);
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    public static void reverse(int[] arr, int i, int j) {
+        while (i < j) {
+            swap(arr, i, j);
+            i++;
+            j--;
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+| Input Array | Expected Output | Corner Case |
+|---|---|---|
+| [5, 3, 1, 2, 4] | [1, 2, 3, 4, 5] | Random unsorted array |
+| [1, 2, 3, 4, 5] | [1, 2, 3, 4, 5] | Already sorted array |
+| [5, 4, 3, 2, 1] | [1, 2, 3, 4, 5] | Reverse sorted array |
+| [] | [] | Empty array |

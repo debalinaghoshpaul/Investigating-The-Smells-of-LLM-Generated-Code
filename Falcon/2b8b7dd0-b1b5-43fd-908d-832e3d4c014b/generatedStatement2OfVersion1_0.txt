@@ -1,0 +1,14 @@
+
+
+Test Cases:
+
+1. **Input:** 565
+   **Output:** 16
+2. **Input:** 12345
+   **Output:** 15
+3. **Input:** 98765
+   **Output:** 45
+4. **Corner case:** **Input:** 0
+   **Output:** 0
+5. **Corner case:** **Input:** 1000
+   **Output:** 1

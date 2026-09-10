@@ -1,0 +1,91 @@
+```java
+import java.util.Arrays;
+
+public class ArrayManipulation {
+
+    public static void main(String[] args) {
+        // Test cases
+        int[] arr1 = {1, 2, 3, 4, 5, 10, 6, 7, 8, 9};
+        int[] arr2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] arr3 = {1, 2, 3, 4, 5, 10};
+
+        // Expected results
+        int[] expected1 = {1, 2, 3, 4, 5};
+        int[] expected2 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] expected3 = {1, 2, 3, 4, 5};
+
+        // Call the methods to create new arrays
+        int[] result1 = createArrayAfter10(arr1);
+        int[] result2 = createArrayBefore10(arr2);
+        int[] result3 = createArrayAfter10(arr3);
+
+        // Assert that the results match the expected values
+        assert Arrays.equals(result1, expected1);
+        assert Arrays.equals(result2, expected2);
+        assert Arrays.equals(result3, expected3);
+
+        // Print the results
+        System.out.println("Array after 10: " + Arrays.toString(result1));
+        System.out.println("Array before 10: " + Arrays.toString(result2));
+        System.out.println("Array after 10 (corner case): " + Arrays.toString(result3));
+    }
+
+    // Method to create an array from a given array of integers. The newly created array will contain elements from the given array after the last element value is 10.
+    public static int[] createArrayAfter10(int[] arr) {
+        int lastTenIndex = -1;
+
+        // Find the index of the last occurrence of 10 in the array
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] == 10) {
+                lastTenIndex = i;
+                break;
+            }
+        }
+
+        // If 10 is not found in the array, return the original array
+        if (lastTenIndex == -1) {
+            return arr;
+        }
+
+        // Create a new array to store the elements after 10
+        int[] newArr = new int[arr.length - lastTenIndex - 1];
+
+        // Copy the elements from the original array to the new array
+        for (int i = lastTenIndex + 1; i < arr.length; i++) {
+            newArr[i - lastTenIndex - 1] = arr[i];
+        }
+
+        // Return the new array
+        return newArr;
+    }
+
+    // Method to create an array from a given array of integers. The newly created array will contain the elements from the given array before the last element value of 10.
+    public static int[] createArrayBefore10(int[] arr) {
+        int lastTenIndex = -1;
+
+        // Find the index of the last occurrence of 10 in the array
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] == 10) {
+                lastTenIndex = i;
+                break;
+            }
+        }
+
+        // If 10 is not found in the array, return the original array
+        if (lastTenIndex == -1) {
+            return arr;
+        }
+
+        // Create a new array to store the elements before 10
+        int[] newArr = new int[lastTenIndex];
+
+        // Copy the elements from the original array to the new array
+        for (int i = 0; i < lastTenIndex; i++) {
+            newArr[i] = arr[i];
+        }
+
+        // Return the new array
+        return newArr;
+    }
+}
+```

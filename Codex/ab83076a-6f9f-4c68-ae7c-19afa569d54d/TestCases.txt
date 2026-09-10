@@ -1,0 +1,57 @@
+**Problem:**
+
+**Description:** Write a Java program to check if a given string contains another string. Returns true or false.
+
+**Sample Output:**
+
+```
+true
+false
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: "Hello", "ell"
+* Output: true
+
+* Input: "The quick brown fox", "fox"
+* Output: true
+
+**Edge Cases:**
+
+* Input: "Hello", "world"
+* Output: false
+
+* Input: "", "a"
+* Output: false
+
+* Input: null, null
+* Output: false
+
+* Input: "Hello", ""
+* Output: true
+
+* Input: "Hello", "Hello"
+* Output: true
+
+* Input: "Hello", "hello"
+* Output: false
+
+**Corner Cases:**
+
+* Input: null, "a"
+* Output: false
+
+* Input: "", null
+* Output: false
+
+* Input: null, ""
+* Output: false
+
+* Input: "a", null
+* Output: false
+
+* Input: null, "a"
+* Output: false

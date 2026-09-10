@@ -1,0 +1,86 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.345
+There were 13 failures:
+1) test06(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method set_Author(String) is undefined for the type Book
+	The method get_ISBN() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test06(Book_ESTest.java:69)
+2) test07(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method remove_Book(Book) is undefined for the type Book
+	The method get_Author() is undefined for the type Book
+	The method get_ISBN() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test07(Book_ESTest.java:76)
+3) test08(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method add_Book(Book) is undefined for the type Book
+	The method get_Author() is undefined for the type Book
+	The method get_ISBN() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test08(Book_ESTest.java:84)
+4) test09(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method get_Author() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test09(Book_ESTest.java:92)
+5) test02(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method set_ISBN(String) is undefined for the type Book
+	The method get_ISBN() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test02(Book_ESTest.java:38)
+6) test03(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method get_ISBN() is undefined for the type Book
+	The method get_Title() is undefined for the type Book
+	The method get_Author() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test03(Book_ESTest.java:46)
+7) test04(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method get_Author() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test04(Book_ESTest.java:55)
+8) test05(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method get_Author() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test05(Book_ESTest.java:62)
+9) test10(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method get_BookCollection() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test10(Book_ESTest.java:98)
+10) test00(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method set_Title(String) is undefined for the type Book
+	The method get_Title() is undefined for the type Book
+	The method get_Author() is undefined for the type Book
+	The method get_ISBN() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test00(Book_ESTest.java:22)
+11) test11(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method get_ISBN() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test11(Book_ESTest.java:105)
+12) test01(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method get_Title() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test01(Book_ESTest.java:31)
+13) test12(testing_ChatGPT_on_java.Book_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method get_Title() is undefined for the type Book
+	The method get_ISBN() is undefined for the type Book
+	The method get_Author() is undefined for the type Book
+
+	at testing_ChatGPT_on_java.Book_ESTest.test12(Book_ESTest.java:112)
+
+FAILURES!!!
+Tests run: 13,  Failures: 13
+

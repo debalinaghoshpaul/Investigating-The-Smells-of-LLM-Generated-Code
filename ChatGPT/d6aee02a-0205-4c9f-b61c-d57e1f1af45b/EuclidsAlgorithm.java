@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class EuclidsAlgorithm {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read two integers from the user
+        System.out.println("Enter two integers:");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        // Compute the greatest common divisor using Euclid's algorithm
+        int gcd = gcd(a, b);
+
+        // Print the result
+        System.out.println("The greatest common divisor of " + a + " and " + b + " is " + gcd);
+    }
+
+    public static int gcd(int a, int b) {
+        if (b == 0) {
+            return a;
+        } else {
+            return gcd(b, a % b);
+        }
+    }
+}

@@ -1,0 +1,2 @@
+
+Second smallest element in the array is: 10

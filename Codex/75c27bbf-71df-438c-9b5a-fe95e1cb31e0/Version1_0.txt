@@ -1,0 +1,29 @@
+```java
+import java.io.FileInputStream;
+import java.io.IOException;
+public class ReadFileToByteArray {
+
+    public static void main(String[] args) throws IOException {
+        // Read the contents of a file into a byte array
+        String filePath = "./input.txt";
+        FileInputStream fis = new FileInputStream(filePath);
+        byte[] bytes = new byte[fis.available()];
+        fis.read(bytes);
+        fis.close();
+
+        // Print the byte array
+        for (byte b : bytes) {
+            System.out.println(b);
+        }
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:** A file with valid contents is provided to the program.
+* **Empty file:** An empty file is provided to the program.
+* **Non-existent file:** A file that does not exist is provided to the program.
+* **Invalid file:** A file that cannot be read is provided to the program.
+* **Large file:** A file with a large number of bytes is provided to the program.
+* **Special characters:** A file with special characters is provided to the program.

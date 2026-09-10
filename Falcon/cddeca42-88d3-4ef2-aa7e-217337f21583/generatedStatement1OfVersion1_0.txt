@@ -1,0 +1,50 @@
+
+Input a hexadecimal number: 40
+Equivalent of octal number is: 100
+
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test cases:
+Input a hexadecimal number: 0
+Equivalent of octal number is: 0
+
+Input a hexadecimal number: 9
+Equivalent of octal number is: 9
+
+Input a hexadecimal number: 10
+Equivalent of octal number is: 10
+
+Input a hexadecimal number: 11
+Equivalent of octal number is: 11
+
+Input a hexadecimal number: 12
+Equivalent of octal number is: 12
+
+Input a hexadecimal number: 13
+Equivalent of octal number is: 13
+
+Input a hexadecimal number: 14
+Equivalent of octal number is: 14
+
+Input a hexadecimal number: 15
+Equivalent of octal number is: 15
+
+Input a hexadecimal number: 16
+Equivalent of octal number is: 16
+
+Input a hexadecimal number: 17
+Equivalent of octal number is: 17
+
+Input a hexadecimal number: 18
+Equivalent of octal number is: 18
+
+Input a hexadecimal number: 19
+Equivalent of octal number is: 19
+
+Input a hexadecimal number: 20
+Equivalent of octal number is: 20
+
+Input a hexadecimal number: 21
+Equivalent of octal

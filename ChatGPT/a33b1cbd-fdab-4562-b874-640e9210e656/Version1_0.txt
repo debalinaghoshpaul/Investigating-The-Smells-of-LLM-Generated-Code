@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93QPWQtIlyjDHU76lGtDTJ8eZ5Ruf",
+  "object" : "chat.completion",
+  "created" : 1710603534,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Below is the Java program that implements a stack and creates a new stack that contains all elements from two stacks without duplicates:\n\n```java\nimport java.util.Stack;\nimport java.util.HashSet;\n\npublic class MergeStacksWithoutDuplicates {\n\n    public static Stack<Integer> mergeStacks(Stack<Integer> stack1, Stack<Integer> stack2) {\n        Stack<Integer> resultStack = new Stack<>();\n        HashSet<Integer> set = new HashSet<>();\n        \n        while (!stack1.isEmpty()) {\n            int element = stack1.pop();\n            if (!set.contains(element)) {\n                set.add(element);\n                resultStack.push(element);\n            }\n        }\n        \n        while (!stack2.isEmpty()) {\n            int element = stack2.pop();\n            if (!set.contains(element)) {\n                set.add(element);\n                resultStack.push(element);\n            }\n        }\n        \n        return resultStack;\n    }\n\n    public static void main(String[] args) {\n        Stack<Integer> stack1 = new Stack<>();\n        stack1.push(1);\n        stack1.push(2);\n        stack1.push(3);\n        \n        Stack<Integer> stack2 = new Stack<>();\n        stack2.push(3);\n        stack2.push(4);\n        stack2.push(5);\n        \n        Stack<Integer> mergedStack = mergeStacks(stack1, stack2);\n        \n        System.out.println(\"Merged Stack without duplicates: \" + mergedStack);\n    }\n}\n```\n\nThis program defines a `mergeStacks` method that takes two input stacks and creates a new stack with elements from both input stacks without duplicates using a HashSet to keep track of seen elements. The main method demonstrates the usage of this method by merging two example stacks and printing the result."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 70,
+    "completion_tokens" : 343,
+    "total_tokens" : 413
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

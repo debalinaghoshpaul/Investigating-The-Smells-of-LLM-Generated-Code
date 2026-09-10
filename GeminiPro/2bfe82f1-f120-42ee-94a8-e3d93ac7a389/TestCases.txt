@@ -1,0 +1,52 @@
+**Java Program:**
+
+```java
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class RemoveDuplicates {
+
+    public static void main(String[] args) {
+        String str = "Hello World and Hello Programming";
+
+        // Create a set to store the unique characters
+        Set<Character> uniqueChars = new LinkedHashSet<>();
+
+        // Add each character of the string to the set
+        for (char c : str.toCharArray()) {
+            uniqueChars.add(c);
+        }
+
+        // Convert the set back to a string and print the result
+        String result = "";
+        for (char c : uniqueChars) {
+            result += c;
+        }
+
+        System.out.println(result);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: "Hello World and Hello Programming"
+* Output: "HeloWrd ndProgam"
+
+**Corner Cases:**
+
+* **Empty String:**
+    * Input: ""
+    * Output: ""
+* **String with All Unique Characters:**
+    * Input: "abcdef"
+    * Output: "abcdef"
+* **String with Only Duplicates:**
+    * Input: "aaaaaa"
+    * Output: "a"
+* **String with Special Characters:**
+    * Input: "Hello! World!?!?"
+    * Output: "Helo!Wrd!?"
+

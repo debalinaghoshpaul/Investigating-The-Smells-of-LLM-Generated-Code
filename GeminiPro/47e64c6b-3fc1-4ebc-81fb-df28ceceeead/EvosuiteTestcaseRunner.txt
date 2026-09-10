@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Input distance in meters: Input hours: Input minutes: .Input distance in meters: Input hours: Input minutes: Input seconds: Your speed in meters/second is 4.899559039686428E-4
+Your speed in km/h is 0.001763841254287114
+Your speed in miles/h is 0.001096031357177854
+..Input distance in meters: 
+Time: 0.345
+
+OK (4 tests)
+

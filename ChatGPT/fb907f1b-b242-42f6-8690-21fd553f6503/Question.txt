@@ -1,0 +1,1 @@
+  Write a Java program that implements a stack and create a new stack by removing elements that do not satisfy a condition. The programming language is java.. Problem Id is : fb907f1b-b242-42f6-8690-21fd553f6503.

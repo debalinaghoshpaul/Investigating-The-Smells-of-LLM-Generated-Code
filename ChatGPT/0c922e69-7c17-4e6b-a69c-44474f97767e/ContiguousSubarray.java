@@ -1,0 +1,26 @@
+public class ContiguousSubarray {
+
+    public static int findMinSubarrayLength(int[] nums, int target) {
+        int minLen = Integer.MAX_VALUE;
+        int sum = 0;
+        int start = 0;
+
+        for (int end = 0; end < nums.length; end++) {
+            sum += nums[end];
+
+            while (sum >= target) {
+                minLen = Math.min(minLen, end - start + 1);
+                sum -= nums[start];
+                start++;
+            }
+        }
+
+        return minLen == Integer.MAX_VALUE ? 0 : minLen;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3, 4, 6};
+        int target = 8;
+        System.out.println("Minimum length of a contiguous subarray of which the sum is " + target + ": " + findMinSubarrayLength(nums, target));
+    }
+}

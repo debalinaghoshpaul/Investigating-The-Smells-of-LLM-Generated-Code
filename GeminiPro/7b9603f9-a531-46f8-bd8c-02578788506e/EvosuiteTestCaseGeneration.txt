@@ -1,0 +1,351 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: testing_ChatGPT_on_java.StoogeSort
+* Starting client
+* Connecting to master process on port 10466
+* Analyzing classpath: 
+  - C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\target\classes
+* Finished analyzing classpath
+* Generating tests for class testing_ChatGPT_on_java.StoogeSort
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 37
+  - Branch 7
+  - Exception 0
+  - MutationFactory 209
+  - Output 0
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 7
+
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 1719959098412
+* Starting evolution
+
+[Progress:>                             1%] [Cov:==>                                7%]
+[Progress:>                             1%] [Cov:======>                            19%]
+[Progress:>                             1%] [Cov:===========>                       32%]
+[Progress:>                             1%] [Cov:================>                  48%]
+[Progress:>                             1%] [Cov:====================>              59%]
+[Progress:>                             1%] [Cov:========================>          71%]
+[Progress:>                             1%] [Cov:=========================>         74%]
+[Progress:>                             1%] [Cov:===========================>       79%]
+[Progress:>                             1%] [Cov:=============================>     83%]
+[Progress:>                             3%] [Cov:==>                                7%]
+[Progress:>                             3%] [Cov:======>                            19%]
+[Progress:>                             3%] [Cov:===========>                       32%]
+[Progress:>                             3%] [Cov:================>                  48%]
+[Progress:>                             3%] [Cov:====================>              59%]
+[Progress:>                             3%] [Cov:========================>          71%]
+[Progress:>                             3%] [Cov:===========================>       78%]
+[Progress:>                             3%] [Cov:=============================>     84%]
+[Progress:===>                          11%] [Cov:==>                                7%]
+[Progress:===>                          11%] [Cov:======>                            19%]
+[Progress:===>                          11%] [Cov:===========>                       32%]
+[Progress:===>                          11%] [Cov:================>                  48%]
+[Progress:===>                          11%] [Cov:====================>              59%]
+[Progress:===>                          11%] [Cov:========================>          71%]
+[Progress:===>                          11%] [Cov:===========================>       78%]
+[Progress:===>                          11%] [Cov:=============================>     84%]
+[Progress:===>                          13%] [Cov:==>                                7%]
+[Progress:===>                          13%] [Cov:======>                            19%]
+[Progress:===>                          13%] [Cov:===========>                       32%]
+[Progress:===>                          13%] [Cov:================>                  48%]
+[Progress:===>                          13%] [Cov:====================>              59%]
+[Progress:===>                          13%] [Cov:========================>          71%]
+[Progress:===>                          13%] [Cov:===========================>       78%]
+[Progress:===>                          13%] [Cov:==============================>    86%]
+[Progress:====>                         16%] [Cov:==>                                7%]
+[Progress:====>                         16%] [Cov:======>                            19%]
+[Progress:====>                         16%] [Cov:===========>                       32%]
+[Progress:====>                         16%] [Cov:================>                  48%]
+[Progress:====>                         16%] [Cov:====================>              59%]
+[Progress:====>                         16%] [Cov:========================>          71%]
+[Progress:====>                         16%] [Cov:===========================>       78%]
+[Progress:====>                         16%] [Cov:=============================>     84%]
+[Progress:=====>                        18%] [Cov:==>                                7%]
+[Progress:=====>                        18%] [Cov:=====>                             17%]
+[Progress:=====>                        18%] [Cov:==========>                        30%]
+[Progress:=====>                        18%] [Cov:===============>                   45%]
+[Progress:=====>                        18%] [Cov:===================>               56%]
+[Progress:=====>                        18%] [Cov:======================>            63%]
+[Progress:=====>                        18%] [Cov:=======================>           67%]
+[Progress:=====>                        18%] [Cov:========================>          70%]
+[Progress:======>                       20%] [Cov:==>                                7%]
+[Progress:======>                       20%] [Cov:======>                            19%]
+[Progress:======>                       20%] [Cov:===========>                       32%]
+[Progress:======>                       20%] [Cov:================>                  48%]
+[Progress:======>                       20%] [Cov:====================>              59%]
+[Progress:======>                       20%] [Cov:========================>          71%]
+[Progress:======>                       20%] [Cov:===========================>       78%]
+[Progress:======>                       20%] [Cov:=============================>     83%]
+[Progress:==========>                   36%] [Cov:==>                                7%]
+[Progress:==========>                   36%] [Cov:======>                            19%]
+[Progress:==========>                   36%] [Cov:===========>                       32%]
+[Progress:==========>                   36%] [Cov:================>                  48%]
+[Progress:==========>                   36%] [Cov:====================>              59%]
+[Progress:==========>                   36%] [Cov:========================>          71%]
+[Progress:==========>                   36%] [Cov:===========================>       78%]
+[Progress:==========>                   36%] [Cov:==============================>    86%]
+[Progress:============>                 41%] [Cov:>                                  0%]
+[Progress:============>                 41%] [Cov:====>                              12%]
+[Progress:============>                 41%] [Cov:=======>                           22%]
+[Progress:===================>          66%] [Cov:>                                  0%]
+[Progress:===================>          66%] [Cov:====>                              12%]
+[Progress:===================>          66%] [Cov:=======>                           22%]
+[Progress:============================> 96%] [Cov:>                                  1%]
+[Progress:============================> 96%] [Cov:==>                                6%]
+[Progress:============================> 96%] [Cov:======>                            19%]
+[Progress:============================> 96%] [Cov:=======>                           22%]
+[Progress:============================> 96%] [Cov:===========>                       33%]
+[Progress:============================> 96%] [Cov:==============>                    41%]
+[Progress:============================> 96%] [Cov:================>                  48%]
+[Progress:============================> 96%] [Cov:=================>                 50%]
+[Progress:==============================100%] [Cov:>                                  0%]
+[Progress:==============================100%] [Cov:>                                  2%]
+[Progress:==============================100%] [Cov:====>                              14%]
+[Progress:==============================100%] [Cov:=====>                             15%]
+[Progress:==============================100%] [Cov:=========>                         26%]
+[Progress:==============================100%] [Cov:==========>                        30%]
+[Progress:==============================100%] [Cov:==============================>    86%]
+* Search finished after 62s and 0 generations, 854 statements, best individual has fitness: 44.270833333333336
+* Minimizing test suite
+[MASTER] 23:26:51.198 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Branch testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: root-Branch in context: testing_ChatGPT_on_java.StoogeSort:main([Ljava/lang/String;)V
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Branch testing_ChatGPT_on_java.StoogeSort.swap([III)V: root-Branch in context: 
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 8
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 9
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 10
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 11
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 14
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 15
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 16
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 17
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 20
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 21
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V: Line 22
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V: Line 43
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V: Line 44
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V: Line 47
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V: Line 48
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V: Line 51
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V: Line 52
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.swap([III)V: Line 58
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.swap([III)V: Line 59
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.swap([III)V: Line 60
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was testing_ChatGPT_on_java.StoogeSort.swap([III)V: Line 61
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHOD] testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 0: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:8 - ReplaceConstant - 0 -> 1
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 1: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:9 - ReplaceConstant - Original array (test case 1):  -> 
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 2: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:10 - ReplaceConstant - 0 -> 1
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 3: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:10 - ReplaceConstant - 1 -> 0
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 4: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:10 - ReplaceArithmeticOperator - -> +
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 5: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:10 - ReplaceArithmeticOperator - -> %
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 6: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:10 - ReplaceArithmeticOperator - -> *
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 7: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:10 - ReplaceArithmeticOperator - -> /
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 8: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:11 - ReplaceConstant - Sorted array (test case 1):  -> 
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 9: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:14 - ReplaceConstant - 1 -> 0
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 10: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:14 - ReplaceConstant - 0 -> 1
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 11: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:14 - ReplaceConstant - 5 -> 0
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 12: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:14 - ReplaceConstant - 5 -> 1
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 13: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:14 - ReplaceConstant - 5 -> -1
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 14: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:14 - ReplaceConstant - 5 -> 4
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 15: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:14 - ReplaceConstant - 5 -> 6
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 16: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:15 - ReplaceConstant - Original array (test case 2):  -> 
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 17: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:15 - ReplaceVariable arr2 -> arr1
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 18: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:16 - ReplaceVariable arr2 -> arr1
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 19: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:16 - ReplaceConstant - 0 -> 1
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 20: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:16 - ReplaceVariable arr2 -> arr1
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 21: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:16 - ReplaceConstant - 1 -> 0
+[MASTER] 23:27:00.267 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 22: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:16 - ReplaceArithmeticOperator - -> +
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 24: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:16 - ReplaceArithmeticOperator - -> *
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 25: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:16 - ReplaceArithmeticOperator - -> /
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 26: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:17 - ReplaceConstant - Sorted array (test case 2):  -> 
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 27: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:17 - ReplaceVariable arr2 -> arr1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 28: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 5 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 29: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 5 -> 1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 30: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 5 -> -1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 31: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 5 -> 4
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 32: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 5 -> 6
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 33: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 0 -> 1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 34: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 3 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 35: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 3 -> 1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 36: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 3 -> -1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 37: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 3 -> 2
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 38: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 3 -> 4
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 39: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 1 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 40: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 1 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 41: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 2 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 42: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 2 -> 1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 43: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 2 -> -1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 44: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 2 -> 3
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 45: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 2 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 46: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 2 -> 1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 47: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 2 -> -1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 48: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 2 -> 3
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 49: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 3 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 50: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 3 -> 1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 51: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 3 -> -1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 52: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 3 -> 2
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 53: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 3 -> 4
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 54: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 4 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 55: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 4 -> 1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 56: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 4 -> -1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 57: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 4 -> 3
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 58: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 4 -> 5
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 59: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 4 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 60: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 4 -> 1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 61: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 4 -> -1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 62: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 4 -> 3
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 63: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 4 -> 5
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 64: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 5 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 65: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 5 -> 1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 66: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 5 -> -1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 67: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 5 -> 4
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 68: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:20 - ReplaceConstant - 5 -> 6
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 69: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:21 - ReplaceConstant - Original array (test case 3):  -> 
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 70: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:21 - ReplaceVariable arr3 -> arr2
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 71: testing_ChatGPT_on_java.StoogeSort.main([Ljava/lang/String;)V:21 - ReplaceVariable arr3 -> arr1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 72: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - ReplaceVariable start -> end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 73: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - InsertUnaryOp Negation of start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 74: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - InsertUnaryOp IINC 1 start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 75: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - InsertUnaryOp IINC -1 start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 76: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - ReplaceVariable end -> start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 77: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - InsertUnaryOp Negation of end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 78: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - InsertUnaryOp IINC 1 end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 79: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - InsertUnaryOp IINC -1 end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 80: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - ReplaceComparisonOperator < -> !=
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 81: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - ReplaceComparisonOperator < -> -2
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 82: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:43 - ReplaceComparisonOperator < -> <=
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 83: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:47 - ReplaceVariable start -> end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 84: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:47 - InsertUnaryOp Negation of start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 85: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:47 - InsertUnaryOp IINC 1 start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 86: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:47 - InsertUnaryOp IINC -1 start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 87: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:47 - ReplaceVariable end -> start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 88: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:47 - InsertUnaryOp Negation of end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 89: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:47 - InsertUnaryOp IINC 1 end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 90: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:47 - InsertUnaryOp IINC -1 end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 91: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:47 - ReplaceComparisonOperator <= -> -1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 93: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:47 - ReplaceComparisonOperator <= -> ==
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 94: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:48 - ReplaceVariable start -> end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 95: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:48 - InsertUnaryOp Negation of start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 96: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:48 - InsertUnaryOp IINC 1 start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 97: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:48 - InsertUnaryOp IINC -1 start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 98: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:48 - ReplaceVariable end -> start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 99: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:48 - InsertUnaryOp Negation of end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 100: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:48 - InsertUnaryOp IINC 1 end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 101: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:48 - InsertUnaryOp IINC -1 end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 102: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceVariable end -> start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 103: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - InsertUnaryOp Negation of end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 104: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - InsertUnaryOp IINC 1 end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 105: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - InsertUnaryOp IINC -1 end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 106: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceVariable start -> end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 107: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - InsertUnaryOp Negation of start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 108: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - InsertUnaryOp IINC 1 start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 109: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - InsertUnaryOp IINC -1 start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 111: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceArithmeticOperator - -> %
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 113: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceArithmeticOperator - -> /
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 114: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceConstant - 1 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 115: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceArithmeticOperator + -> %
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 116: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceArithmeticOperator + -> -
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 117: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceArithmeticOperator + -> *
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 118: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceArithmeticOperator + -> /
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 119: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceConstant - 3 -> 0
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 120: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceConstant - 3 -> 1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 121: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceConstant - 3 -> -1
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 122: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceConstant - 3 -> 2
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 123: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceConstant - 3 -> 4
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 124: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceArithmeticOperator / -> +
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 125: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceArithmeticOperator / -> %
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 126: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceArithmeticOperator / -> -
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 127: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:51 - ReplaceArithmeticOperator / -> *
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 128: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - ReplaceVariable start -> range
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 129: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - ReplaceVariable start -> end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 130: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - InsertUnaryOp Negation of start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 131: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - InsertUnaryOp IINC 1 start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 132: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - InsertUnaryOp IINC -1 start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 133: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - ReplaceVariable end -> start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 134: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - ReplaceVariable end -> range
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 135: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - InsertUnaryOp Negation of end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 136: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - InsertUnaryOp IINC 1 end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 137: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - InsertUnaryOp IINC -1 end
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 138: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - ReplaceVariable range -> start
+[MASTER] 23:27:00.282 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 139: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - ReplaceVariable range -> end
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 140: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - InsertUnaryOp Negation of range
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 141: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - InsertUnaryOp IINC 1 range
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 142: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - InsertUnaryOp IINC -1 range
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 143: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - ReplaceArithmeticOperator - -> +
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 144: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - ReplaceArithmeticOperator - -> %
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 145: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - ReplaceArithmeticOperator - -> *
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 146: testing_ChatGPT_on_java.StoogeSort.stoogeSort([III)V:52 - ReplaceArithmeticOperator - -> /
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 185: testing_ChatGPT_on_java.StoogeSort.swap([III)V:58 - ReplaceVariable i -> j
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 186: testing_ChatGPT_on_java.StoogeSort.swap([III)V:58 - InsertUnaryOp Negation of i
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 187: testing_ChatGPT_on_java.StoogeSort.swap([III)V:58 - InsertUnaryOp IINC 1 i
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 188: testing_ChatGPT_on_java.StoogeSort.swap([III)V:58 - InsertUnaryOp IINC -1 i
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 189: testing_ChatGPT_on_java.StoogeSort.swap([III)V:59 - ReplaceVariable i -> temp
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 190: testing_ChatGPT_on_java.StoogeSort.swap([III)V:59 - ReplaceVariable i -> j
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 191: testing_ChatGPT_on_java.StoogeSort.swap([III)V:59 - InsertUnaryOp Negation of i
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 192: testing_ChatGPT_on_java.StoogeSort.swap([III)V:59 - InsertUnaryOp IINC 1 i
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 193: testing_ChatGPT_on_java.StoogeSort.swap([III)V:59 - InsertUnaryOp IINC -1 i
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 194: testing_ChatGPT_on_java.StoogeSort.swap([III)V:59 - ReplaceVariable j -> i
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 195: testing_ChatGPT_on_java.StoogeSort.swap([III)V:59 - ReplaceVariable j -> temp
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 196: testing_ChatGPT_on_java.StoogeSort.swap([III)V:59 - InsertUnaryOp Negation of j
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 197: testing_ChatGPT_on_java.StoogeSort.swap([III)V:59 - InsertUnaryOp IINC 1 j
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 198: testing_ChatGPT_on_java.StoogeSort.swap([III)V:59 - InsertUnaryOp IINC -1 j
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 199: testing_ChatGPT_on_java.StoogeSort.swap([III)V:60 - ReplaceVariable j -> i
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 200: testing_ChatGPT_on_java.StoogeSort.swap([III)V:60 - ReplaceVariable j -> temp
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 201: testing_ChatGPT_on_java.StoogeSort.swap([III)V:60 - InsertUnaryOp Negation of j
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 202: testing_ChatGPT_on_java.StoogeSort.swap([III)V:60 - InsertUnaryOp IINC 1 j
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 203: testing_ChatGPT_on_java.StoogeSort.swap([III)V:60 - InsertUnaryOp IINC -1 j
+[MASTER] 23:27:00.298 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 204: testing_ChatGPT_on_java.StoogeSort.swap([III)V:60 - ReplaceVariable temp -> i
+[MASTER] 23:27:00.314 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 205: testing_ChatGPT_on_java.StoogeSort.swap([III)V:60 - ReplaceVariable temp -> j
+[MASTER] 23:27:00.314 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 206: testing_ChatGPT_on_java.StoogeSort.swap([III)V:60 - InsertUnaryOp Negation of temp
+[MASTER] 23:27:00.314 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 207: testing_ChatGPT_on_java.StoogeSort.swap([III)V:60 - InsertUnaryOp IINC 1 temp
+[MASTER] 23:27:00.314 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 208: testing_ChatGPT_on_java.StoogeSort.swap([III)V:60 - InsertUnaryOp IINC -1 temp
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 59%
+* Total number of goals: 37
+* Number of covered goals: 22
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 43%
+* Total number of goals: 7
+* Number of covered goals: 3
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 50%
+* Total number of goals: 2
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 80%
+* Total number of goals: 209
+* Number of covered goals: 167
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 71%
+* Total number of goals: 7
+* Number of covered goals: 5
+* Generated 4 tests with total length 7
+* Resulting test suite's coverage: 85% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Compiling and checking tests
+* Writing JUnit test case 'StoogeSort_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

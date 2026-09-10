@@ -1,0 +1,8 @@
+JUnit version 4.13
+.ArrayList before insertion: [John, Mary, Bob]
+ArrayList after insertion: [Alice, John, Mary, Bob]
+.
+Time: 0.458
+
+OK (2 tests)
+

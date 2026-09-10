@@ -1,0 +1,9 @@
+
+
+**Test cases:**
+
+* **Normal case:** 123452 has 2 digits with the value 2.
+* **Corner case:** 0 has no digits with the value 2.
+* **Large number:** 12345678901234567892 has 3 digits with the value 2.
+* **Negative number:** -123452 has no digits with the value 2 (since negative numbers are not allowed).
+* **Double:** 12.34 has no digits with the value 2 (since the method only accepts integers).

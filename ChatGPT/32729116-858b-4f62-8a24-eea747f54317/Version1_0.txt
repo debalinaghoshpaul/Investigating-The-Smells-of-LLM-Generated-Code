@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8rQjEBlNkYcmR3if0S2S2MsoVkLbO",
+  "object" : "chat.completion",
+  "created" : 1707744820,
+  "model" : "gpt-3.5-turbo-0613",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is a Java program that finds the least key greater than or equal to a given key in a map:\n\n```java\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        // Create a TreeMap\n        TreeMap<Integer, String> map = new TreeMap<>();\n\n        // Add some key-value pairs to the map\n        map.put(1, \"Apple\");\n        map.put(3, \"Banana\");\n        map.put(5, \"Grape\");\n        map.put(7, \"Orange\");\n        map.put(9, \"Pineapple\");\n\n        // Call the method to get the least key\n        Integer leastKey = getLeastKey(map, 4);\n\n        // Print the result\n        System.out.println(\"Least key greater than or equal to 4: \" + leastKey);\n    }\n\n    public static Integer getLeastKey(TreeMap<Integer, String> map, int target) {\n        // Use the ceilingKey() method to get the least key greater than or equal to the target\n        Integer leastKey = map.ceilingKey(target);\n\n        // Return null if there is no such key\n        if (leastKey == null) {\n            return null;\n        }\n\n        // Otherwise, return the least key\n        return leastKey;\n    }\n}\n```\n\nThis program creates a TreeMap, adds some key-value pairs to it, and then calls the `getLeastKey()` method to find the least key greater than or equal to the target value. The method uses the `ceilingKey()` method of the TreeMap to get the desired key. It returns null if there is no such key. In the example above, the output will be:\n\n```\nLeast key greater than or equal to 4: 5\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 79,
+    "completion_tokens" : 361,
+    "total_tokens" : 440
+  },
+  "system_fingerprint" : null
+}

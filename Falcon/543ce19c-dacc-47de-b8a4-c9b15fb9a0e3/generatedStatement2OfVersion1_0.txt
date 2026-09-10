@@ -1,0 +1,33 @@
+
+
+**Test Cases:**
+
+**Test Case 1:**
+
+* Input String: "Hello World"
+* Replacement Character: '*'
+* Expected Output: "H*ll* W*rld"
+
+**Test Case 2:**
+
+* Input String: "The quick brown fox jumps over the lazy dog"
+* Replacement Character: '#'
+* Expected Output: "Th# qu#ck br#wn f#x j#mps #v#r th# l#zy d#g"
+
+**Test Case 3:**
+
+* Input String: "12345"
+* Replacement Character: 'a'
+* Expected Output: "12345" (no vowels to replace)
+
+**Test Case 4:**
+
+* Input String: "" (empty string)
+* Replacement Character: 'x'
+* Expected Output: "" (empty string)
+
+**Test Case 5:**
+
+* Input String: "aeiouAEIOU"
+* Replacement Character: 'z'
+* Expected Output: "zzzzzzzzzzzz"

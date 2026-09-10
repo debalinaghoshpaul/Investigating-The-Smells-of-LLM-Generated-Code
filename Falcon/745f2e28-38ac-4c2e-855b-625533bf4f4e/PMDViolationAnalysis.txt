@@ -1,0 +1,7 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CyclomaticComplexity: The method 'main(String[])' has a cyclomatic complexity of 10.: 1
+CommentRequired: Class comments are required: 2
+UnnecessaryImport: Unused import 'java.util.ArrayList': 3
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+UnusedLocalVariable: Avoid unused local variables such as 'k'.: 1

@@ -1,0 +1,21 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty `Sports` object:** `Sports sports = new Sports();`
+* **Empty subclass objects:** 
+    * `Football football = new Football();`
+    * `Basketball basketball = new Basketball();`
+    * `Rugby rugby = new Rugby();`
+
+**Regular Cases:**
+
+* **Playing sports in general:** `sports.play();`
+* **Playing football:** `football.play();`
+* **Playing basketball:** `basketball.play();`
+* **Playing rugby:** `rugby.play();`
+
+**Expected Output:**
+

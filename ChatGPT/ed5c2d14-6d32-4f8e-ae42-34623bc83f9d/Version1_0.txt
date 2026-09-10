@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-945HLMi7odZxTM1ZEClTJtumm5lSR",
+  "object" : "chat.completion",
+  "created" : 1710760631,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class Powers {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        System.out.print(\"Enter a number: \");\n        int number = input.nextInt();\n\n        int square = number * number;\n        int cube = number * number * number;\n        int fourthPower = number * number * number * number;\n\n        System.out.println(\"Square of the number: \" + square);\n        System.out.println(\"Cube of the number: \" + cube);\n        System.out.println(\"Fourth power of the number: \" + fourthPower);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 75,
+    "completion_tokens" : 123,
+    "total_tokens" : 198
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

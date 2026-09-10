@@ -1,0 +1,19 @@
+JUnit version 4.13
+.E.E
+Time: 0.363
+There were 2 failures:
+1) test1(testing_ChatGPT_on_java.Exercise50_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise50 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise50.<init>(DivisibleBy3And5.java:2)
+	at testing_ChatGPT_on_java.Exercise50_ESTest.test1(Exercise50_ESTest.java:27)
+2) test0(testing_ChatGPT_on_java.Exercise50_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise50.main(DivisibleBy3And5.java:3)
+	at testing_ChatGPT_on_java.Exercise50_ESTest.test0(Exercise50_ESTest.java:21)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

@@ -1,0 +1,12 @@
+
+
+**Test cases**
+
+* **Corner cases:**
+    * Date with a year of 0001 or 9999
+    * Date with a month of 01 or 12
+    * Date with a day of 01 or 31
+* **Normal cases:**
+    * Date with a year between 1900 and 2023
+    * Date with a month between 02 and 11
+    * Date with a day between 02 and 30

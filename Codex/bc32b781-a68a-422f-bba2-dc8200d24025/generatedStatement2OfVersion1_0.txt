@@ -1,0 +1,13 @@
+
+
+**Test Cases:**
+
+* **Normal case:**
+    * Input: 15
+    * Output: [0, 1, 2, 5, 12, 29, 70, 169, 408, 985, 2378, 5741, 13860, 33216, 79921]
+
+* **Corner cases:**
+    * **Input:** 0
+    * **Expected Output:** IllegalArgumentException: The number of terms must be positive
+    * **Input:** -5
+    * **Expected Output:** IllegalArgumentException: The number of terms must be positive

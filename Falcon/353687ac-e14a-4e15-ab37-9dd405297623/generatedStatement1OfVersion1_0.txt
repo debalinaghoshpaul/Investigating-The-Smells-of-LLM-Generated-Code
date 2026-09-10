@@ -1,0 +1,17 @@
+
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string "hello" has 1 occurrence of the string "o" in it.
+// The string

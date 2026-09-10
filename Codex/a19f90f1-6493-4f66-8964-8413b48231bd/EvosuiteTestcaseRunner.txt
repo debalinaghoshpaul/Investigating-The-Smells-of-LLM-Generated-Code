@@ -1,0 +1,11 @@
+JUnit version 4.13
+.Input a: Input b: Input c: The root is NaN
+.Input a: Input b: Input c: The roots are NaN and -Infinity
+.Input a: .Input a: ..Input a: Input b: Input c: The equation has no real roots
+.Input a: Input b: Input c: The roots are -0.3819660112501051 and -2.618033988749895
+.Input a: Input b: Input c: The root is -0.0
+
+Time: 0.354
+
+OK (8 tests)
+

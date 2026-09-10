@@ -1,0 +1,102 @@
+```java
+import java.util.Scanner;
+
+public class RemoveSpecifiedCharacters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input string
+        System.out.println("Enter the input string: ");
+        String inputString = scanner.nextLine();
+
+        // Read the characters to be removed
+        System.out.println("Enter the characters to be removed: ");
+        String charactersToRemove = scanner.nextLine();
+
+        // Remove the specified characters and their immediate left and right adjacent characters from the input string
+        String outputString = removeSpecifiedCharacters(inputString, charactersToRemove);
+
+        // Print the output string
+        System.out.println("The output string is: " + outputString);
+    }
+
+    public static String removeSpecifiedCharacters(String inputString, String charactersToRemove) {
+        // Convert the input string to a character array
+        char[] inputCharArray = inputString.toCharArray();
+
+        // Create a new character array to store the output string
+        char[] outputCharArray = new char[inputCharArray.length];
+
+        // Iterate over the input character array
+        int outputIndex = 0;
+        for (int i = 0; i < inputCharArray.length; i++) {
+            // Check if the current character is one of the characters to be removed
+            if (charactersToRemove.indexOf(inputCharArray[i]) != -1) {
+                // Skip the current character and its immediate left and right adjacent characters
+                i += 2;
+            } else {
+                // Copy the current character to the output character array
+                outputCharArray[outputIndex++] = inputCharArray[i];
+            }
+        }
+
+        // Convert the output character array to a string
+        String outputString = new String(outputCharArray);
+
+        // Return the output string
+        return outputString;
+    }
+}
+```
+
+
+Test Cases:
+
+**Test Case 1:**
+
+* Input String: "Hello World"
+* Characters to Remove: "l"
+* Expected Output: "HeoWrd"
+
+**Test Case 2:**
+
+* Input String: "Mississippi"
+* Characters to Remove: "i"
+* Expected Output: "Msssspp"
+
+**Test Case 3:**
+
+* Input String: "Racecar"
+* Characters to Remove: "a"
+* Expected Output: "Rccr"
+
+**Test Case 4:**
+
+* Input String: "1234567890"
+* Characters to Remove: "5"
+* Expected Output: "123467890"
+
+**Test Case 5:**
+
+* Input String: "!!!!!Hello World!!!!!"
+* Characters to Remove: "!"
+* Expected Output: "Hello World"
+
+**Test Case 6:**
+
+* Input String: ""
+* Characters to Remove: "a"
+* Expected Output: ""
+
+**Test Case 7:**
+
+* Input String: "a"
+* Characters to Remove: "a"
+* Expected Output: ""
+
+**Test Case 8:**
+
+* Input String: "aaaaaaaaa"
+* Characters to Remove: "a"
+* Expected Output: ""

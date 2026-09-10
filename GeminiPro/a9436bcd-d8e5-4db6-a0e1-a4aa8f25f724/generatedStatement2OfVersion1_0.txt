@@ -1,0 +1,26 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: "The quick brown fox"
+* Output: "xof nworb kciuq ehT"
+
+**Corner Cases:**
+
+* **Empty String:**
+    * Input: ""
+    * Output: ""
+* **Single Character String:**
+    * Input: "a"
+    * Output: "a"
+* **Palindrome String:**
+    * Input: "racecar"
+    * Output: "racecar"
+* **String with Spaces:**
+    * Input: "Hello World"
+    * Output: "dlroW olleH"
+* **String with Special Characters:**
+    * Input: "#$%^&*()_+}{|"
+    * Output: "|}{_+*()&^%$#"

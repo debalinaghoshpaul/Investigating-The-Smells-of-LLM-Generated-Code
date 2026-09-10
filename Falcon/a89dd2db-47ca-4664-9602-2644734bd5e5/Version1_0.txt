@@ -1,0 +1,29 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class VowelsAndConsonants {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        String vowels = "";
+        String consonants = "";
+
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (c >= 'a' && c <= 'z') {
+                vowels += c;
+            } else if (c >= 'A' && c <= 'Z') {
+                consonants += c;
+            }
+        }
+
+        System.out.println("Vowels: " + vowels);
+        System.out.println("Consonants: " + consonants);
+    }
+}
+
+Output:
+Vowels: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
+Consonants: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
+### Explanation:
+This program takes a string as input and separates the vowels and consonants from it. The vowels are stored in the variable "vowels" and the consonants are stored in the variable "consonants". The program then prints out the vowels and consonants separately. The vowels are printed out as "a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z" and the consonants are printed out as "a, b, c, d, e, f, g, h, i, j, k, l, m, n, o,

@@ -1,0 +1,24 @@
+```java
+import java.util.LinkedList;
+
+public class LinkedListContains {
+
+    public static void main(String[] args) {
+        // Create a LinkedList
+        LinkedList<Integer> list = new LinkedList<>();
+
+        // Add elements to the LinkedList
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+
+        // Check if an element exists in the LinkedList
+        boolean contains = list.contains(3);
+
+        // Print the result
+        System.out.println("Does the LinkedList contain 3? " + contains);
+    }
+}
+```

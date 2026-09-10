@@ -1,0 +1,5 @@
+Violations by Category:
+MethodNamingConventions: The instance method name 'getCompany_name' doesn't match '[a-z][a-zA-Z0-9]*': 4
+CommentRequired: Class comments are required: 7
+FormalParameterNamingConventions: The method parameter name 'company_name' doesn't match '[a-z][a-zA-Z0-9]*': 4
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

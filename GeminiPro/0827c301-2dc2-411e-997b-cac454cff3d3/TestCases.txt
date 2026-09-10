@@ -1,0 +1,57 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class LexicographicComparison {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read two strings from the user
+        System.out.println("Enter the first string:");
+        String str1 = scanner.nextLine();
+
+        System.out.println("Enter the second string:");
+        String str2 = scanner.nextLine();
+
+        // Compare the two strings lexicographically
+        int result = str1.compareTo(str2);
+
+        // Print the result
+        if (result == 0) {
+            System.out.println("The two strings are lexicographically equal.");
+        } else if (result < 0) {
+            System.out.println("The first string is lexicographically less than the second string.");
+        } else {
+            System.out.println("The first string is lexicographically greater than the second string.");
+        }
+    }
+}
+```
+
+**Test Cases (Including Corner Cases):**
+
+**Test Case 1:**
+* Input: str1 = "apple", str2 = "apple"
+* Expected Output: The two strings are lexicographically equal.
+
+**Test Case 2:**
+* Input: str1 = "apple", str2 = "banana"
+* Expected Output: The first string is lexicographically less than the second string.
+
+**Test Case 3:**
+* Input: str1 = "banana", str2 = "apple"
+* Expected Output: The first string is lexicographically greater than the second string.
+
+**Corner Case 1:**
+* Input: str1 = "", str2 = ""
+* Expected Output: The two strings are lexicographically equal.
+
+**Corner Case 2:**
+* Input: str1 = "a", str2 = "aa"
+* Expected Output: The first string is lexicographically less than the second string.
+
+**Corner Case 3:**
+* Input: str1 = "aaa", str2 = "aa"
+* Expected Output: The first string is lexicographically greater than the second string.

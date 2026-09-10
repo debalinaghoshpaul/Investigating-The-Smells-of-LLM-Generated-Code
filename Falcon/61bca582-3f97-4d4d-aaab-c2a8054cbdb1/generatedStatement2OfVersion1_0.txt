@@ -1,0 +1,14 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * Empty array
+    * Array with only one element
+    * Array with all negative elements
+* **Normal cases:**
+    * Array with both positive and negative elements
+    * Array with subarrays of different sizes
+* **Stress cases:**
+    * Array with a large number of elements
+    * Array with elements that are very large or very small

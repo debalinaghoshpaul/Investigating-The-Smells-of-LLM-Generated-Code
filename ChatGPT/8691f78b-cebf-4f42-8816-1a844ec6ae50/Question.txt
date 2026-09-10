@@ -1,0 +1,1 @@
+  Write a Java program that implements a stack and creates a new stack that contains only elements that are in either the first or the second stack, but not in both. The programming language is java.. Problem Id is : 8691f78b-cebf-4f42-8816-1a844ec6ae50.

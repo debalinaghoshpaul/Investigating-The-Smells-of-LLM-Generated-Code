@@ -1,0 +1,12 @@
+Violations by Category:
+DesignForExtension: Class 'Car' looks like designed for extension (can be subclassed), but the method 'getCompany_name' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Car' final or making the method 'getCompany_name' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 7
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 10
+FinalParameters: Parameter company_name should be final. [FinalParameters]: 8
+HiddenField: 'company_name' hides a field. [HiddenField]: 7
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+ParameterName: Name 'company_name' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]: 4
+MemberName: Name 'company_name' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]: 2
+MethodName: Name 'getCompany_name' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]: 4
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 9
+MagicNumber: '2020' is a magic number. [MagicNumber]: 2

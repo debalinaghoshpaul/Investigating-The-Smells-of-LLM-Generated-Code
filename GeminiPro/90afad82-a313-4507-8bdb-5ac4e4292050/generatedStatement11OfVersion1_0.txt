@@ -1,0 +1,3 @@
+
+Enter the size of the array: 5
+Enter the values for the array: -1 -2 -3 -4 -5

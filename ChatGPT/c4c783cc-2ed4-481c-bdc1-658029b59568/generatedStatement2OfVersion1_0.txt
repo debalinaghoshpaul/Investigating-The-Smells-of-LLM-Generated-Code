@@ -1,0 +1,23 @@
+
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * x = 0, y = 0 (expected output: 0)
+    * x = 0, y = 1 (expected output: 1)
+    * x = 1, y = 0 (expected output: 1)
+    * x = -1, y = 1 (expected output: 0)
+    * x = 1, y = -1 (expected output: 0)
+
+* **Positive Test Cases:**
+    * x = 10, y = 12 (expected output: 22)
+    * x = 25, y = 35 (expected output: 60)
+    * x = 123, y = 456 (expected output: 579)
+
+* **Negative Test Cases:**
+    * x = -10, y = -12 (expected output: -22)
+    * x = -25, y = -35 (expected output: -60)
+    * x = -123, y = -456 (expected output: -579)
+
+### **Compute the Number of Trailing Zeros in a Factorial**
+

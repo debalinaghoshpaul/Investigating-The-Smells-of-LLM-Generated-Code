@@ -1,0 +1,82 @@
+**Square Root Calculation**
+
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class SquareRoot {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Input a positive integer: ");
+        int number = scanner.nextInt();
+
+        double squareRoot = Math.sqrt(number);
+
+        System.out.println("Square root of " + number + " is: " + squareRoot);
+    }
+}
+```
+
+**Test Cases:**
+
+* Input: 25
+* Output: 5.0
+
+* Input: 100
+* Output: 10.0
+
+* Input: 0
+* Output: 0.0
+
+* Input: -1 (invalid input)
+* Output: Error message or throw an exception
+
+**First Occurrence of a String**
+
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class FirstOccurrence {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Input a string: ");
+        String str = scanner.nextLine();
+
+        System.out.print("Input a substring to search for: ");
+        String substring = scanner.nextLine();
+
+        int index = str.indexOf(substring);
+
+        if (index != -1) {
+            System.out.println("First occurrence of " + substring + " in " + str + " is at index: " + index);
+        } else {
+            System.out.println("Substring not found.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal Case:**
+    * Input: str = "Hello World", substring = "World"
+    * Output: "First occurrence of World in Hello World is at index: 6"
+
+* **Case-Sensitive:**
+    * Input: str = "Hello World", substring = "world"
+    * Output: "Substring not found."
+
+* **Empty String:**
+    * Input: str = "", substring = "abc"
+    * Output: "Substring not found."
+
+* **Substring Not Found:**
+    * Input: str = "This is a test", substring = "apple"
+    * Output: "Substring not found."

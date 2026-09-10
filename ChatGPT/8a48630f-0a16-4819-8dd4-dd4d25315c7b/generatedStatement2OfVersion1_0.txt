@@ -1,0 +1,3 @@
+
+
+This program creates a HashMap to store the count of each string in the array. It then iterates through the array, updating the count of each string in the HashMap. Finally, it prints out the strings that have a count greater than 1, indicating that they are duplicates.

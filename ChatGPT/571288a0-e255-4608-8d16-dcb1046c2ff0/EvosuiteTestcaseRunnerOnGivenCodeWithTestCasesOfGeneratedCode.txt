@@ -1,0 +1,44 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E
+Time: 0.359
+There were 7 failures:
+1) test6(testing_ChatGPT_on_java.Exercise37_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise37 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise37.<init>(AntiDiagonals.java:7)
+	at testing_ChatGPT_on_java.Exercise37_ESTest.test6(Exercise37_ESTest.java:102)
+2) test5(testing_ChatGPT_on_java.Exercise37_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise37.main(AntiDiagonals.java:59)
+	at testing_ChatGPT_on_java.Exercise37_ESTest.test5(Exercise37_ESTest.java:96)
+3) test4(testing_ChatGPT_on_java.Exercise37_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise37.diagonalEfficient(AntiDiagonals.java:9)
+	at testing_ChatGPT_on_java.Exercise37_ESTest.test4(Exercise37_ESTest.java:88)
+4) test3(testing_ChatGPT_on_java.Exercise37_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise37.diagonalEfficient(AntiDiagonals.java:9)
+	at testing_ChatGPT_on_java.Exercise37_ESTest.test3(Exercise37_ESTest.java:76)
+5) test2(testing_ChatGPT_on_java.Exercise37_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise37.diagonalEfficient(AntiDiagonals.java:9)
+	at testing_ChatGPT_on_java.Exercise37_ESTest.test2(Exercise37_ESTest.java:63)
+6) test1(testing_ChatGPT_on_java.Exercise37_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise37.diagonalEfficient(AntiDiagonals.java:9)
+	at testing_ChatGPT_on_java.Exercise37_ESTest.test1(Exercise37_ESTest.java:42)
+7) test0(testing_ChatGPT_on_java.Exercise37_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise37.diagonalEfficient(AntiDiagonals.java:9)
+	at testing_ChatGPT_on_java.Exercise37_ESTest.test0(Exercise37_ESTest.java:26)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+

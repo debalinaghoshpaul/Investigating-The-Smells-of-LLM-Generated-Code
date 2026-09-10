@@ -1,0 +1,94 @@
+**Java Program:**
+
+```java
+import java.util.HashSet;
+import java.util.Set;
+
+public class StringInterleaving {
+
+    public static boolean isInterleaving(String s1, String s2, String s3) {
+        // Check if the lengths of the given strings are valid
+        if (s1.length() + s2.length() != s3.length()) {
+            return false;
+        }
+
+        // Create a set to store the unique characters in s1 and s2
+        Set<Character> uniqueChars = new HashSet<>();
+        for (char c : s1.toCharArray()) {
+            uniqueChars.add(c);
+        }
+        for (char c : s2.toCharArray()) {
+            uniqueChars.add(c);
+        }
+
+        // Iterate over the characters in s3
+        int i1 = 0, i2 = 0;
+        for (int i = 0; i < s3.length(); i++) {
+            char c = s3.charAt(i);
+
+            // Check if c is present in s1
+            if (i1 < s1.length() && s1.charAt(i1) == c) {
+                i1++;
+            } 
+            // Check if c is present in s2
+            else if (i2 < s2.length() && s2.charAt(i2) == c) {
+                i2++;
+            } 
+            // c is not present in either s1 or s2, so the strings are not interleaving
+            else {
+                return false;
+            }
+        }
+
+        // All characters in s3 have been accounted for, so the strings are interleaving
+        return true;
+    }
+
+    public static void main(String[] args) {
+        String s1 = "abc";
+        String s2 = "bcd";
+        String s3 = "abcd";
+        System.out.println(isInterleaving(s1, s2, s3)); // true
+
+        s1 = "aabcc";
+        s2 = "dbbca";
+        s3 = "aadbbcbcac";
+        System.out.println(isInterleaving(s1, s2, s3)); // true
+
+        s1 = "aabcc";
+        s2 = "dbbca";
+        s3 = "aadbbbaccc";
+        System.out.println(isInterleaving(s1, s2, s3)); // false
+
+        s1 = "abc";
+        s2 = "bcd";
+        s3 = "abccbd";
+        System.out.println(isInterleaving(s1, s2, s3)); // false
+
+        s1 = "abc";
+        s2 = "bcd";
+        s3 = "abcde";
+        System.out.println(isInterleaving(s1, s2, s3)); // false
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Interleaving Cases:**
+
+* s1 = "abc", s2 = "bcd", s3 = "abcd"
+* s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac"
+
+**Invalid Interleaving Cases:**
+
+* s1 = "aabcc", s2 = "dbbca", s3 = "aadbbbaccc" (extra 'c' in s3)
+* s1 = "abc", s2 = "bcd", s3 = "abccbd" (incorrect order of characters)
+* s1 = "abc", s2 = "bcd", s3 = "abcde" (additional character 'e' in s3)
+
+**Corner Cases:**
+
+* s1 = "", s2 = "bcd", s3 = "bcd" (empty s1)
+* s1 = "abc", s2 = "", s3 = "abc" (empty s2)
+* s1 = "", s2 = "", s3 = "" (all empty strings)
+* s1 = "abc", s2 = "bcd", s3 = "bdac" (incorrect interleaving order)

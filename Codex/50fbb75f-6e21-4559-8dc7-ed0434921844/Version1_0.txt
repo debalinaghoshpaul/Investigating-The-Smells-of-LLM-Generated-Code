@@ -1,0 +1,131 @@
+```java
+import java.util.*;
+
+public class MedianInSlidingWindow {
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 8};
+        int k = 3;
+        List<Integer> result = medianSlidingWindow(arr, k);
+        System.out.println("Result array: " + result);
+    }
+
+    public static List<Integer> medianSlidingWindow(int[] arr, int k) {
+        List<Integer> result = new ArrayList<>();
+        if (arr == null || arr.length == 0 || k <= 0) {
+            return result;
+        }
+
+        // Initialize the window
+        int[] window = new int[k];
+        for (int i = 0; i < k; i++) {
+            window[i] = arr[i];
+        }
+        Arrays.sort(window);
+        result.add(getMedian(window));
+
+        // Slide the window
+        for (int i = k; i < arr.length; i++) {
+            // Remove the leftmost element from the window
+            int left = 0;
+            int right = k - 1;
+            while (left <= right) {
+                int mid = (left + right) / 2;
+                if (window[mid] == arr[i - k]) {
+                    System.arraycopy(window, mid + 1, window, mid, right - mid);
+                    break;
+                } else if (window[mid] < arr[i - k]) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
+            }
+
+            // Insert the new element into the window
+            left = 0;
+            right = k - 1;
+            while (left <= right) {
+                int mid = (left + right) / 2;
+                if (window[mid] == arr[i]) {
+                    System.arraycopy(window, mid, window, mid + 1, right - mid);
+                    break;
+                } else if (window[mid] < arr[i]) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
+            }
+
+            result.add(getMedian(window));
+        }
+
+        return result;
+    }
+
+    private static int getMedian(int[] arr) {
+        int n = arr.length;
+        if (n % 2 == 0) {
+            return (arr[n / 2 - 1] + arr[n / 2]) / 2;
+        } else {
+            return arr[n / 2];
+        }
+    }
+
+    // Test cases
+
+    @Test
+    public void testEmptyArray() {
+        List<Integer> result = medianSlidingWindow(new int[]{}, 3);
+        assertEquals(0, result.size());
+    }
+
+    @Test
+    public void testNullArray() {
+        List<Integer> result = medianSlidingWindow(null, 3);
+        assertEquals(0, result.size());
+    }
+
+    @Test
+    public void testNegativeWindowSize() {
+        List<Integer> result = medianSlidingWindow(new int[]{1, 2, 3}, -1);
+        assertEquals(0, result.size());
+    }
+
+    @Test
+    public void testWindowSizeGreaterThanArraySize() {
+        List<Integer> result = medianSlidingWindow(new int[]{1, 2, 3}, 4);
+        assertEquals(0, result.size());
+    }
+
+    @Test
+    public void testExample1() {
+        List<Integer> result = medianSlidingWindow(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8}, 3);
+        assertEquals(Arrays.asList(2, 3, 4, 5, 6, 7, 8), result);
+    }
+
+    @Test
+    public void testExample2() {
+        List<Integer> result = medianSlidingWindow(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8, 9}, 3);
+        assertEquals(Arrays.asList(2, 3, 4, 5, 6, 7, 8), result);
+    }
+
+    @Test
+    public void testExample3() {
+        List<Integer> result = medianSlidingWindow(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8, 9}, 4);
+        assertEquals(Arrays.asList(2, 3, 4, 5, 6, 7, 8), result);
+    }
+
+    @Test
+    public void testExample4() {
+        List<Integer> result = medianSlidingWindow(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8, 9}, 5);
+        assertEquals(Arrays.asList(3, 4, 5, 6, 7, 8), result);
+    }
+
+    @Test
+    public void testExample5() {
+        List<Integer> result = medianSlidingWindow(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8, 9}, 6);
+        assertEquals(Arrays.asList(4, 5, 6, 7, 8), result);
+    }
+
+}
+```

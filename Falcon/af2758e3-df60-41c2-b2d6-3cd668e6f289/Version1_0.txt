@@ -1,0 +1,43 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class CheckNumberAtEnd {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        int num = Integer.parseInt(str.substring(str.length() - 1));
+        if (num == str.charAt(str.length() - 1)) {
+            System.out.println("The number is at the end of the string.");
+        } else {
+            System.out.println("The number is not at the end of the string.");
+        }
+    }
+}
+// Output: The number is at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number is not at the end of the string.
+// The number

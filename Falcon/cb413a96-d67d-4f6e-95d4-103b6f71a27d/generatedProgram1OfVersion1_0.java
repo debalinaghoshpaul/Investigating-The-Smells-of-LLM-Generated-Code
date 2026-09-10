@@ -1,0 +1,40 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Anagrams {
+    public static void main(String[] args) {
+        String str1 = "abc";
+        String str2 = "bac";
+        System.out.println(findAnagrams(str1, str2));
+    }
+
+    public static List<String> findAnagrams(String str1, String str2) {
+        List<String> result = new ArrayList<>();
+        Map<String, Integer> map = new HashMap<>();
+        for (int i = 0; i < str1.length(); i++) {
+            char c1 = str1.charAt(i);
+            char c2 = str2.charAt(i);
+            if (map.containsKey(String.valueOf(c1))) {
+                map.put(String.valueOf(c1), map.get(String.valueOf(c1)) + 1);
+            } else {
+                map.put(String.valueOf(c1), 1);
+            }
+            if (map.containsKey(String.valueOf(c2))) {
+                map.put(String.valueOf(c2), map.get(String.valueOf(c2)) + 1);
+            } else {
+                map.put(String.valueOf(c2), 1);
+            }
+        }
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            String key = entry.getKey();
+            int count = entry.getValue();
+            if (count == 1) {
+                result.add(key);
+            }
+        }
+        return result;
+    }
+}
+

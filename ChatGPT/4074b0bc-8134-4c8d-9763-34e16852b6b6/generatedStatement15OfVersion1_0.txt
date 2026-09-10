@@ -1,0 +1,3 @@
+
+// Create a null object
+Animal nullAnimal = null;

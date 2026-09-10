@@ -1,0 +1,59 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E
+Time: 0.392
+There were 10 failures:
+1) test5(testing_ChatGPT_on_java.OrthogonalLines_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.OrthogonalLines.main(Main.java:6)
+	at testing_ChatGPT_on_java.OrthogonalLines_ESTest.test5(OrthogonalLines_ESTest.java:97)
+2) test4(testing_ChatGPT_on_java.OrthogonalLines_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.OrthogonalLines.main(Main.java:6)
+	at testing_ChatGPT_on_java.OrthogonalLines_ESTest.test4(OrthogonalLines_ESTest.java:84)
+3) test3(testing_ChatGPT_on_java.OrthogonalLines_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.OrthogonalLines.main(Main.java:6)
+	at testing_ChatGPT_on_java.OrthogonalLines_ESTest.test3(OrthogonalLines_ESTest.java:71)
+4) test2(testing_ChatGPT_on_java.OrthogonalLines_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.OrthogonalLines.main(Main.java:6)
+	at testing_ChatGPT_on_java.OrthogonalLines_ESTest.test2(OrthogonalLines_ESTest.java:58)
+5) test9(testing_ChatGPT_on_java.OrthogonalLines_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type OrthogonalLines must be defined in its own file
+
+	at testing_ChatGPT_on_java.OrthogonalLines.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.OrthogonalLines_ESTest.test9(OrthogonalLines_ESTest.java:147)
+6) test8(testing_ChatGPT_on_java.OrthogonalLines_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.OrthogonalLines.main(Main.java:6)
+	at testing_ChatGPT_on_java.OrthogonalLines_ESTest.test8(OrthogonalLines_ESTest.java:134)
+7) test7(testing_ChatGPT_on_java.OrthogonalLines_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.OrthogonalLines.main(Main.java:6)
+	at testing_ChatGPT_on_java.OrthogonalLines_ESTest.test7(OrthogonalLines_ESTest.java:117)
+8) test6(testing_ChatGPT_on_java.OrthogonalLines_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.OrthogonalLines.main(Main.java:6)
+	at testing_ChatGPT_on_java.OrthogonalLines_ESTest.test6(OrthogonalLines_ESTest.java:110)
+9) test1(testing_ChatGPT_on_java.OrthogonalLines_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.OrthogonalLines.main(Main.java:6)
+	at testing_ChatGPT_on_java.OrthogonalLines_ESTest.test1(OrthogonalLines_ESTest.java:45)
+10) test0(testing_ChatGPT_on_java.OrthogonalLines_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.OrthogonalLines.main(Main.java:6)
+	at testing_ChatGPT_on_java.OrthogonalLines_ESTest.test0(OrthogonalLines_ESTest.java:32)
+
+FAILURES!!!
+Tests run: 10,  Failures: 10
+

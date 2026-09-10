@@ -1,0 +1,6 @@
+ The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, we can add test cases including corner cases to test the program of the problem.
+
+public class ReplaceString {
+    public static void main(

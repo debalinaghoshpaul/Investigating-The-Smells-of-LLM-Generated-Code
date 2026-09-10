@@ -1,0 +1,126 @@
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Get the number of coins
+        int n = sc.nextInt();
+
+        // Get the number of coins in each row
+        int k = sc.nextInt();
+
+        // Create a 2D array to store the coins
+        int[][] coins = new int[n][k];
+
+        // Fill the array with coins
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < k; j++) {
+                coins[i][j] = 1;
+            }
+        }
+
+        // Print the array
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < k; j++) {
+                System.out.print(coins[i][j]);
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
+**Test Cases**
+
+**Test Case 1:**
+```
+Input:
+n = 5
+k = 3
+
+Output:
+111
+111
+111
+111
+111
+```
+
+**Test Case 2:**
+```
+Input:
+n = 7
+k = 4
+
+Output:
+1111
+1111
+1111
+1111
+1111
+1111
+1111
+```
+
+**Test Case 3:**
+```
+Input:
+n = 10
+k = 5
+
+Output:
+11111
+11111
+11111
+11111
+11111
+11111
+11111
+11111
+11111
+11111
+```
+
+**Test Case 4:**
+```
+Input:
+n = 1
+k = 1
+
+Output:
+1
+```
+
+**Test Case 5:**
+```
+Input:
+n = 1
+k = 2
+
+Output:
+Error: The number of coins in each row must be greater than or equal to 1.
+```
+
+**Test Case 6:**
+```
+Input:
+n = 2
+k = 1
+
+Output:
+1
+1
+```
+
+**Test Case 7:**
+```
+Input:
+n = 2
+k = 2
+
+Output:
+11
+11
+```

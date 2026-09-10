@@ -1,0 +1,4 @@
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Interfaces\9f6c213d-2923-44df-a085-1ff0c28c16f0\generatedProgram1OfVersion1_0.java	-	ParseException: Parse exception in file 'C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Interfaces\9f6c213d-2923-44df-a085-1ff0c28c16f0\generatedProgram1OfVersion1_0.java' at line 11, column 1: Encountered "import".
+Was expecting one of:
+    <EOF> 
+    ";" ...

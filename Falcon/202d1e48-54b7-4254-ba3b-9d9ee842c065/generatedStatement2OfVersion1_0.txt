@@ -1,0 +1,8 @@
+
+
+**Test Cases:**
+
+* **Normal Case:** Create an order with 3 pizzas and print the total cost.
+* **Empty Order Case:** Create an order with 0 pizzas and print the total cost.
+* **Negative Pizza Index Case:** Attempt to set a pizza at a negative index and catch the IndexOutOfBoundsException.
+* **Pizza Index Out of Bounds Case:** Attempt to set a pizza at an index that is greater than the number of pizzas in the order and catch the IndexOutOfBoundsException.

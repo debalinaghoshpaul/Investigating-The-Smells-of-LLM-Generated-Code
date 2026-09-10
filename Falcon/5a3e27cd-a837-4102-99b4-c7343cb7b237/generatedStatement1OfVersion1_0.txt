@@ -1,0 +1,4 @@
+
+Employee ID: 1
+Employee Name: John
+Employee Salary: 1000.00

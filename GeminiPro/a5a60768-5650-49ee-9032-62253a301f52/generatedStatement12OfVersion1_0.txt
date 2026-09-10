@@ -1,0 +1,7 @@
+
+Input:
+Enter the size of the arrays: 5
+Enter the elements of the first array: 1 2 3 4 5
+Enter the elements of the second array: 2 3 4 5 6
+Output:
+The number of elements that differ by 1 or less between the two arrays is: 4

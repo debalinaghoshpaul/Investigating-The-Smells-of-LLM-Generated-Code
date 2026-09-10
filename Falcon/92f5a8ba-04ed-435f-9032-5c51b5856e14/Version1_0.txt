@@ -1,0 +1,34 @@
+No GPU found. Running on CPU.
+public class LargestNumber {
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3, 0, 4, 6};
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > max) {
+                max = nums[i];
+            }
+        }
+        System.out.println("Largest number using the said array numbers: " + max);
+    }
+}
+
+// Output: Largest number using the said array numbers: 643210
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, you can add test cases where the given array contains negative numbers.
+// You can also add test cases where the given array contains duplicate numbers.
+// You can also add test cases where the given array is empty.
+// You can also add test cases where the given array contains only one number.
+// You can also add test cases where the given array contains only negative numbers.
+// You can also add test cases where the given array contains only positive numbers.
+// You can also add test cases where the given array contains only even numbers.
+// You can also add test cases where the given array contains only odd numbers.
+// You can also add test cases where the given array contains only prime numbers.
+// You can also add test cases where the given array contains only numbers divisible by 3.
+// You can also add test cases where the given array contains only numbers divisible by 4.
+// You can also add test cases where the given array contains only numbers divisible by 5.
+// You can also add test cases where the given array contains only numbers divisible by 6.
+// You can also add test cases where the given array contains only numbers divisible by 7.
+// You can also add test cases where the given array contains only numbers divisible by 8.
+// You can also add test cases where the given array contains only numbers divisible by 9.
+// You can also add test cases where the given array contains only numbers

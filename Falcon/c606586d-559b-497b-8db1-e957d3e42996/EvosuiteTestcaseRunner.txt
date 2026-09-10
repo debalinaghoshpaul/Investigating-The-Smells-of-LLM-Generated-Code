@@ -1,0 +1,15 @@
+JUnit version 4.13
+..Enter the path to the first file: 
+Enter the path to the second file: 
+One or both of the files do not exist.
+.Enter the path to the first file: 
+Enter the path to the second file: 
+.Enter the path to the first file: 
+Enter the path to the second file: 
+One or both of the files do not exist.
+.Enter the path to the first file: 
+
+Time: 0.439
+
+OK (5 tests)
+

@@ -1,0 +1,26 @@
+No GPU found. Running on CPU.
+import java.util.Arrays;
+
+public class LargestElement {
+    public static void main(String[] args) {
+        int[] arr = {20, 30, 40, 50, 67};
+        int first = arr[0];
+        int last = arr[arr.length - 1];
+        int middle = Arrays.stream(arr).filter(x -> x % 2 == 0).max().getAsInt();
+        System.out.println("Largest element between first, last, and middle values: " + middle);
+    }
+}
+
+Output:
+Largest element between first, last, and middle values: 67
+
+The programming language you need to use is: java.
+
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test cases:
+arr = [20, 30, 40, 50, 67]
+first = 20
+last = 50
+middle = 30

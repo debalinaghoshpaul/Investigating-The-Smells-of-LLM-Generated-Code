@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+* **Positive integer:** 5
+* **Negative integer:** -3
+* **Zero:** 0
+* **Large integer:** 1000000
+* **Small integer:** 1
+* **Decimal number:** 3.14
+* **Non-numeric input:** "abc"
+
+**Expected Output:**
+
+* **Positive integer:**

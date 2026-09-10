@@ -1,0 +1,75 @@
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class SecondMostFrequentCharacter {
+
+    public static void main(String[] args) {
+        String str = "abbabbcccdeed";
+        System.out.println(getSecondMostFrequentCharacter(str)); // Output: 'b'
+    }
+
+    private static char getSecondMostFrequentCharacter(String str) {
+        // Create a HashMap to store the character frequencies
+        Map<Character, Integer> charFreq = new HashMap<>();
+
+        // Iterate through the string and update the character frequencies
+        for (char c : str.toCharArray()) {
+            charFreq.put(c, charFreq.getOrDefault(c, 0) + 1);
+        }
+
+        // Find the first and second most frequent characters
+        char firstMostFreq = ' ';
+        int maxFreq = 0;
+        char secondMostFreq = ' ';
+        int secondMaxFreq = 0;
+        for (Map.Entry<Character, Integer> entry : charFreq.entrySet()) {
+            int freq = entry.getValue();
+            char c = entry.getKey();
+            if (freq > maxFreq) {
+                secondMostFreq = firstMostFreq;
+                secondMaxFreq = maxFreq;
+                firstMostFreq = c;
+                maxFreq = freq;
+            } else if (freq > secondMaxFreq && freq != maxFreq) {
+                secondMostFreq = c;
+                secondMaxFreq = freq;
+            }
+        }
+
+        // Return the second most frequent character
+        return secondMostFreq;
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: "abbabbcccdeed"
+* Output: 'b'
+
+* Input: "hellojava"
+* Output: 'l'
+
+* Input: "abcdefghijklmnopqrstuvwxyz"
+* Output: 'b'
+
+**Corner Cases:**
+
+* **Empty String:**
+    * Input: ""
+    * Output: N/A (No second most frequent character)
+
+* **String with Only One Unique Character:**
+    * Input: "aaa"
+    * Output: N/A (No second most frequent character)
+
+* **String with Two Most Frequent Characters:**
+    * Input: "aabbc"
+    * Output: 'b' (Assuming 'a' and 'b' are equally frequent)
+
+* **String with Equal Frequency for Multiple Characters:**
+    * Input: "abcabcabc"
+    * Output: 'b' or 'c' (Any of the two characters can be returned as the second most frequent)

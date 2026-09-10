@@ -1,0 +1,30 @@
+```java
+import java.util.*;
+
+public class SwapLastTwoCharacters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Check if the string length is less than 2
+        if (inputString.length() < 2) {
+            System.out.println("The string length must be two or more.");
+            return;
+        }
+
+        // Get the last two characters from the string
+        char lastChar = inputString.charAt(inputString.length() - 1);
+        char secondLastChar = inputString.charAt(inputString.length() - 2);
+
+        // Swap the last two characters
+        inputString = inputString.substring(0, inputString.length() - 2) + lastChar + secondLastChar;
+
+        // Print the swapped string
+        System.out.println("The swapped string is: " + inputString);
+    }
+}
+```

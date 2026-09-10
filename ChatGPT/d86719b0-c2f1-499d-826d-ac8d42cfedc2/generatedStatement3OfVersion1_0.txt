@@ -1,0 +1,2 @@
+
+Check consecutive numbers in the said array: true

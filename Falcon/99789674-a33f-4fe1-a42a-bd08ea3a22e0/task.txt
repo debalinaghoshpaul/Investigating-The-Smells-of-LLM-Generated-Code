@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to get a number from the user and print whether it is positive or negative.\nTest Data Input number: 35 Expected Output : Number is positive \n\n\n The programming language you need to use is: java.\n\n Problem Id is : 99789674-a33f-4fe1-a42a-bd08ea3a22e0.\n

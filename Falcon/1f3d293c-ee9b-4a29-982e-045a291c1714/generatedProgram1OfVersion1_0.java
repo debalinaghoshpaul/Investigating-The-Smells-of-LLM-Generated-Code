@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        String chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        for (int i = 0; i < str.length(); i++) {
+            if (!chars.contains(str.charAt(i))) {
+                System.out.println(str.charAt(i));
+            }
+        }
+    }
+}
+
+// 

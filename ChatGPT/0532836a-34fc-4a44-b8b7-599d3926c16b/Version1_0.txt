@@ -1,0 +1,89 @@
+```java
+import java.util.Arrays;
+
+public class BucketSort {
+
+    // Sort the array using bucket sort
+    public static void sort(int[] arr) {
+        // Find the maximum value in the array
+        int max = Arrays.stream(arr).max().getAsInt();
+
+        // Create a bucket for each possible value in the array
+        int[] buckets = new int[max + 1];
+
+        // Distribute the elements of the array into the buckets
+        for (int i = 0; i < arr.length; i++) {
+            buckets[arr[i]]++;
+        }
+
+        // Sort each bucket individually
+        for (int i = 0; i < buckets.length; i++) {
+            Arrays.sort(arr, i, i + buckets[i]);
+        }
+    }
+
+    // Test the bucket sort algorithm
+    public static void main(String[] args) {
+        // Create an array of integers to sort
+        int[] arr = {5, 3, 1, 7, 4, 1, 2, 8, 6};
+
+        // Sort the array using bucket sort
+        sort(arr);
+
+        // Print the sorted array
+        System.out.println(Arrays.toString(arr));
+    }
+
+}
+```
+
+**Test cases:**
+
+**Test case 1:**
+
+```
+Input: arr = [5, 3, 1, 7, 4, 1, 2, 8, 6]
+Output: [1, 1, 2, 3, 4, 5, 6, 7, 8]
+```
+
+**Test case 2:**
+
+```
+Input: arr = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+
+**Test case 3:**
+
+```
+Input: arr = [0, 0, 0, 0, 0]
+Output: [0, 0, 0, 0, 0]
+```
+
+**Test case 4:**
+
+```
+Input: arr = [1, 1, 1, 1, 1]
+Output: [1, 1, 1, 1, 1]
+```
+
+**Test case 5:**
+
+```
+Input: arr = [100, 99, 98, 97, 96, 95, 94, 93, 92, 91]
+Output: [91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+```
+
+**Test case 6:**
+
+```
+Input: arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+
+**Test case 7:**
+
+```
+Input: arr = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```

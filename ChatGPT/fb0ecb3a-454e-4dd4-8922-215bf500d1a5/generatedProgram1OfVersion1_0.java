@@ -1,0 +1,45 @@
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.RecursiveTask;
+
+public class ForkJoinPoolDemo {
+
+    public static void main(String[] args) {
+        // Create a ForkJoinPool with 4 threads
+        ForkJoinPool pool = new ForkJoinPool(4);
+
+        // Create a recursive task that computes the sum of numbers from 1 to n
+        FibonacciTask task = new FibonacciTask(40);
+
+        // Submit the task to the pool and get the result
+        long result = pool.invoke(task);
+
+        // Print the result
+        System.out.println("The sum is: " + result);
+    }
+
+    private static class FibonacciTask extends RecursiveTask<Long> {
+
+        private final int n;
+
+        public FibonacciTask(int n) {
+            this.n = n;
+        }
+
+        @Override
+        protected Long compute() {
+            if (n <= 1) {
+                return (long) n;
+            } else {
+                FibonacciTask left = new FibonacciTask(n - 1);
+                FibonacciTask right = new FibonacciTask(n - 2);
+
+                // Fork the left and right tasks to be executed in parallel
+                left.fork();
+                right.fork();
+
+                // Join the results of the left and right tasks
+                return left.join() + right.join();
+            }
+        }
+    }
+}

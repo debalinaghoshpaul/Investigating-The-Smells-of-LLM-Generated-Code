@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95DFccZrcqe8jr2X1yJiQsBxQeChP",
+  "object" : "chat.completion",
+  "created" : 1711029604,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class OrthogonalLines {\n    \n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.println(\"Enter the coordinates of point P (xp, yp): \");\n        double xp = scanner.nextDouble();\n        double yp = scanner.nextDouble();\n        \n        System.out.println(\"Enter the coordinates of point Q (xq, yq): \");\n        double xq = scanner.nextDouble();\n        double yq = scanner.nextDouble();\n        \n        System.out.println(\"Enter the coordinates of point R (xr, yr): \");\n        double xr = scanner.nextDouble();\n        double yr = scanner.nextDouble();\n        \n        System.out.println(\"Enter the coordinates of point S (xs, ys): \");\n        double xs = scanner.nextDouble();\n        double ys = scanner.nextDouble();\n        \n        // calculate the slope of AB and CD\n        double slopeAB = (yq - yp) / (xq - xp);\n        double slopeCD = (ys - yr) / (xs - xr);\n        \n        // lines are orthogonal if the product of their slopes is -1\n        if (slopeAB * slopeCD == -1) {\n            System.out.println(\"AB and CD are orthogonal.\");\n        } else {\n            System.out.println(\"AB and CD are not orthogonal.\");\n        }\n        \n        scanner.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 99,
+    "completion_tokens" : 274,
+    "total_tokens" : 373
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

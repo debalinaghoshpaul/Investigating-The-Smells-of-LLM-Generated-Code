@@ -1,0 +1,8 @@
+JUnit version 4.13
+.First key: Apple
+Last key: Banana
+.
+Time: 0.346
+
+OK (2 tests)
+

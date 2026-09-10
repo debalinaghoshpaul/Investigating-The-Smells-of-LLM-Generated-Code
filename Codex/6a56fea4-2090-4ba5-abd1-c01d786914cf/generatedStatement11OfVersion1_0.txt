@@ -1,0 +1,7 @@
+
+Input:
+n = 1
+k = 2
+
+Output:
+Error: The number of coins in each row must be greater than or equal to 1.

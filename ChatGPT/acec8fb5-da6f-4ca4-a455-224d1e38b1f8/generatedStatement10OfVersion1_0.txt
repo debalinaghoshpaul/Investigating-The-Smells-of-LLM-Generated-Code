@@ -1,0 +1,5 @@
+
+
+* **Input number is negative:**
+
+Input:

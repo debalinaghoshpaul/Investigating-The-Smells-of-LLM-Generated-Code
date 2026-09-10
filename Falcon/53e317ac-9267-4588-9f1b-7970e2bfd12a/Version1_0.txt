@@ -1,0 +1,58 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class ReverseNumber {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter an integer number: ");
+        int number = scanner.nextInt();
+        int reversedNumber = 0;
+        while (number > 0) {
+            reversedNumber = reversedNumber * 10 + number % 10;
+            number /= 10;
+        }
+        System.out.println("The reversed number is: " + reversedNumber);
+    }
+}
+
+// Output:
+// Enter an integer number: 123
+// The reversed number is: 321
+// Enter an integer number: 432
+// The reversed number is: 324
+// Enter an integer number: 543
+// The reversed number is: 435
+// Enter an integer number: 123
+// The reversed number is: 321
+// Enter an integer number: 432
+// The reversed number is: 324
+// Enter an integer number: 543
+// The reversed number is: 435
+// Enter an integer number: 123
+// The reversed number is: 321
+// Enter an integer number: 432
+// The reversed number is: 324
+// Enter an integer number: 543
+// The reversed number is: 435
+// Enter an integer number: 123
+// The reversed number is: 321
+// Enter an integer number: 432
+// The reversed number is: 324
+// Enter an integer number: 543
+// The reversed number is: 435
+// Enter an integer number: 123
+// The reversed number is: 321
+// Enter an integer number: 432
+// The reversed number is: 324
+// Enter an integer number: 543
+// The reversed number is: 435
+// Enter an integer number: 123
+// The reversed number is: 321
+// Enter an integer number: 432
+// The reversed number is: 324
+// Enter an integer number: 543
+// The reversed number is: 435
+// Enter an integer number: 123
+// The reversed number is: 321
+// Enter an integer number: 432
+// The reversed number is:

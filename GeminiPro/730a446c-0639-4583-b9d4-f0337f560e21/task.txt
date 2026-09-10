@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a generic method that takes two arrays of the same type and checks if they have the same elements in the same order.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 730a446c-0639-4583-b9d4-f0337f560e21.\n

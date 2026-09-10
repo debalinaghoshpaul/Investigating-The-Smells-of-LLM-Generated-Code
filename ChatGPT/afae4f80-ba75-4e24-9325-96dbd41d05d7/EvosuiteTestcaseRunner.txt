@@ -1,0 +1,7 @@
+JUnit version 4.13
+.The most frequent character in 'hello world' is 'l'
+.....
+Time: 0.361
+
+OK (6 tests)
+

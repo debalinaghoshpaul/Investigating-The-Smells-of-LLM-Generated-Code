@@ -1,0 +1,3 @@
+
+
+In the above code, we create a `SharedResource` class with methods `increment()` and `decrement()` that access a shared resource (count) using a `ReentrantLock` for synchronization. We then create two threads that increment and decrement the count respectively, demonstrating how the `ReentrantLock` ensures mutual exclusion and prevents race conditions when accessing the shared resource.

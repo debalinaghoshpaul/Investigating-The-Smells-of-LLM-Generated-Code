@@ -1,0 +1,121 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: testing_ChatGPT_on_java.ScheduledExecutorServiceExample
+* Starting client
+* Connecting to master process on port 4933
+* Analyzing classpath: 
+  - C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\target\classes
+* Finished analyzing classpath
+* Generating tests for class testing_ChatGPT_on_java.ScheduledExecutorServiceExample
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 9
+  - Branch 2
+  - Exception 0
+  - MutationFactory 20
+  - Output 0
+  - Method 2
+
+[Progress:>                             0%] [Cov:>                                  0%]  - MethodNoException 2
+  - CBranchFitnessFactory 2
+* Using seed 1719079755693
+* Starting evolution
+
+[Progress:======>                       20%] [Cov:===>                               11%]
+[Progress:======>                       20%] [Cov:========>                          23%]
+[Progress:======>                       20%] [Cov:============>                      36%]
+[Progress:======>                       20%] [Cov:==================>                54%]
+[Progress:======>                       20%] [Cov:======================>            65%]
+[Progress:======>                       20%] [Cov:==========================>        76%]
+[Progress:======>                       20%] [Cov:==============================>    87%]
+[Progress:======>                       20%] [Cov:==================================>98%]
+[Progress:============>                 40%] [Cov:===>                               11%]
+[Progress:============>                 40%] [Cov:========>                          23%]
+[Progress:============>                 40%] [Cov:============>                      36%]
+[Progress:============>                 40%] [Cov:==================>                54%]
+[Progress:============>                 40%] [Cov:======================>            65%]
+[Progress:============>                 40%] [Cov:==========================>        76%]
+[Progress:============>                 40%] [Cov:==============================>    87%]
+[Progress:============>                 40%] [Cov:==================================>98%]
+[Progress:================>             55%] [Cov:===>                               11%]
+[Progress:================>             55%] [Cov:========>                          23%]
+[Progress:================>             55%] [Cov:============>                      36%]
+[Progress:================>             55%] [Cov:==================>                54%]
+[Progress:================>             55%] [Cov:======================>            65%]
+[Progress:================>             55%] [Cov:==========================>        76%]
+[Progress:================>             55%] [Cov:==============================>    87%]
+[Progress:================>             55%] [Cov:==================================>98%]
+[Progress:===========================>  90%] [Cov:===>                               11%]
+[Progress:===========================>  90%] [Cov:========>                          23%]
+[Progress:===========================>  90%] [Cov:============>                      36%]
+[Progress:===========================>  90%] [Cov:==================>                54%]
+[Progress:===========================>  90%] [Cov:======================>            65%]
+[Progress:===========================>  90%] [Cov:==========================>        76%]
+[Progress:===========================>  90%] [Cov:==============================>    87%]
+[Progress:===========================>  90%] [Cov:==================================>98%]
+[Progress:============================> 95%] [Cov:===>                               11%]
+[Progress:============================> 95%] [Cov:========>                          23%]
+[Progress:============================> 95%] [Cov:============>                      36%]
+[Progress:============================> 95%] [Cov:==================>                54%]
+[Progress:============================> 95%] [Cov:======================>            65%]
+[Progress:============================> 95%] [Cov:==========================>        76%]
+[Progress:============================> 95%] [Cov:==============================>    87%]
+[Progress:============================> 95%] [Cov:==================================>98%]
+[Progress:==============================100%] [Cov:===>                               11%]
+[Progress:==============================100%] [Cov:========>                          23%]
+[Progress:==============================100%] [Cov:============>                      36%]
+[Progress:==============================100%] [Cov:==================>                54%]
+[Progress:==============================100%] [Cov:======================>            65%]
+[Progress:==============================100%] [Cov:==========================>        76%]
+[Progress:==============================100%] [Cov:==============================>    87%]
+[Progress:==============================100%] [Cov:==================================>98%]
+[Progress:==============================100%] [Cov:==================================>98%]
+* Search finished after 64s and 0 generations, 530 statements, best individual has fitness: 1.5
+* Minimizing test suite
+[MASTER] 19:11:23.203 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 89%
+* Total number of goals: 9
+* Number of covered goals: 8
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 20
+* Number of covered goals: 20
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Generated 1 tests with total length 30
+* Resulting test suite's coverage: 99% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Compiling and checking tests
+* Writing JUnit test case 'ScheduledExecutorServiceExample_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

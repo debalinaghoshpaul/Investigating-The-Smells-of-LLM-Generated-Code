@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94pcO2BP31Nl5lV5tfB9QJmRotUka",
+  "object" : "chat.completion",
+  "created" : 1710938760,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Collections;\nimport java.util.PriorityQueue;\n\npublic class MedianOfWindow {\n\n    public static void findMedian(int[] arr, int k) {\n        PriorityQueue<Integer> lowerHalf = new PriorityQueue<>(Collections.reverseOrder());\n        PriorityQueue<Integer> upperHalf = new PriorityQueue<>();\n\n        for (int i = 0; i < k; i++) {\n            lowerHalf.add(arr[i]);\n        }\n\n        for (int i = 0; i <= arr.length - k; i++) {\n            for (int j = 0; j < k; j++) {\n                upperHalf.add(lowerHalf.poll());\n                lowerHalf.add(arr[i + j]);\n            }\n\n            System.out.println(\"Median: \" + lowerHalf.peek());\n\n            for (int j = 0; j < k; j++) {\n                lowerHalf.add(upperHalf.poll());\n            }\n        }\n    }\n\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 8};\n        int k = 3;\n        findMedian(arr, k);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 345,
+    "completion_tokens" : 237,
+    "total_tokens" : 582
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

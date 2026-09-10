@@ -1,0 +1,6 @@
+
+
+Test cases:
+
+* Corner case: Create a sphere with a negative radius or a cube with a negative side length. The program should handle these cases gracefully and print an error message.
+* Normal cases: Create spheres and cubes with various radii and side lengths and verify that the calculated volume and surface area values are correct.

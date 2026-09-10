@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create an enum called "DaysOfWeek" representing the days of the week.\nSample Solution:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 6bb51e1f-e475-411a-9a4d-955628d773b7.\n

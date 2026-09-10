@@ -1,0 +1,10 @@
+
+
+**Test cases:**
+
+* **Corner case 1:** Two empty files.
+* **Corner case 2:** Two files with the same contents.
+* **Corner case 3:** Two files with different contents, but the first file has a shorter line than the second file.
+* **Corner case 4:** Two files with different contents, but the second file has a shorter line than the first file.
+* **General case:** Two files with different contents, and the first file has a longer line than the second file.
+* **General case:** Two files with different contents, and the second file has a longer line than the first file.

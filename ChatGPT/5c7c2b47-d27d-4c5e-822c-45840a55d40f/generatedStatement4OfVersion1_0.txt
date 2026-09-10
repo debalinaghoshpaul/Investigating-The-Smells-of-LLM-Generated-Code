@@ -1,0 +1,5 @@
+
+
+In this implementation, the `Stack` class maintains a reference to the top node of the linked list. The `push` method adds a new node to the top and updates the top reference accordingly. The `pop` method removes the top node and returns its value. The `isEmpty` method checks if the stack is empty. The `printStack` method is used to display the elements of the stack.
+
+Hope this helps!

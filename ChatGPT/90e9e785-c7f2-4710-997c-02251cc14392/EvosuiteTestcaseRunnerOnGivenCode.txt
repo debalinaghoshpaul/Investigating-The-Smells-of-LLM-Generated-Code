@@ -1,0 +1,7 @@
+JUnit version 4.13
+....The sum of all odd numbers in the array is: 25
+..
+Time: 0.457
+
+OK (6 tests)
+

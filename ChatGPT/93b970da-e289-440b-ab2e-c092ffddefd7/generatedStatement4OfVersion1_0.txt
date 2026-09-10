@@ -1,0 +1,5 @@
+
+Enter the size of the array:
+0
+Even count: 0
+Odd count: 0

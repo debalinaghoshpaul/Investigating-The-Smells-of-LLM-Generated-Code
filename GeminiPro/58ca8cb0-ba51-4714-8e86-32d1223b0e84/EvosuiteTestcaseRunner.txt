@@ -1,0 +1,10 @@
+JUnit version 4.13
+..Enter a double/float value: 
+The value is finite.
+.Enter a double/float value: 
+.Enter a double/float value: 
+
+Time: 0.361
+
+OK (4 tests)
+

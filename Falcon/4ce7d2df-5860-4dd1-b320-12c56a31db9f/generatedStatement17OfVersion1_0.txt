@@ -1,0 +1,5 @@
+
+Inorder traversal of the original tree:
+4 2 6 7 5 3 1
+Inorder traversal of the new tree:
+4 2 6 7 5 3 1

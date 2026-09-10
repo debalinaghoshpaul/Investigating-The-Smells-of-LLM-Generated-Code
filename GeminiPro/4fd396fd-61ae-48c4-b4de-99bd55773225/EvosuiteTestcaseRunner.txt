@@ -1,0 +1,21 @@
+JUnit version 4.13
+....Input: [1, 2, 3, 4, 5]
+Output: [4, 2]
+
+Input: [1, 2, 3, 3, 5]
+Output: [3, 2]
+
+Input: [5, 4, 3, 2, 1]
+Output: [4, 2]
+
+Input: [5, 4, 3, 2, 2]
+Output: [4, 2]
+
+Input: [1]
+Output: [null, null]
+
+.
+Time: 0.395
+
+OK (5 tests)
+

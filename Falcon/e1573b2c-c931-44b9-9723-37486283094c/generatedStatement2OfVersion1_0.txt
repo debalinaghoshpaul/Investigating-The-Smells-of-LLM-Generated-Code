@@ -1,0 +1,19 @@
+
+
+**Test Cases**
+
+**Corner Cases:**
+
+* An obstacle at the top-left corner (e.g., `{{1, 0, 0}}`)
+* An obstacle at the bottom-right corner (e.g., `{{0, 0, 1}}`)
+* A grid with all obstacles (e.g., `{{1, 1, 1}}`)
+* An empty grid (e.g., `{}`)
+
+**Normal Cases:**
+
+* A grid with no obstacles (e.g., `{{0, 0, 0}}`)
+* A grid with a single obstacle (e.g., `{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}`)
+* A grid with multiple obstacles (e.g., `{{0, 1, 0}, {0, 1, 0}, {0, 0, 0}}`)
+
+**Longest Words in a Dictionary**
+

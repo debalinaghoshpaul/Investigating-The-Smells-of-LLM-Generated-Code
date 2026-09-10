@@ -1,0 +1,5 @@
+
+Original array of elements: prst
+Missing letter in the said array: q
+Original array of elements: ACDE
+Missing letter in the said array: B

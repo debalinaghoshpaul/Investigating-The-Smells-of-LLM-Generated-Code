@@ -1,0 +1,5 @@
+
+
+**Test cases including corner cases:**
+
+* **Corner case 1:** All elements in the array are negative.

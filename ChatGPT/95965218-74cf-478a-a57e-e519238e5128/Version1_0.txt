@@ -1,0 +1,42 @@
+```java
+import java.util.Calendar;
+
+public class FirstAndLastDayOfMonth {
+
+    public static void main(String[] args) {
+        // Get the current month
+        Calendar calendar = Calendar.getInstance();
+        int month = calendar.get(Calendar.MONTH);
+
+        // Get the first day of the month
+        calendar.set(Calendar.DAY_OF_MONTH, 1);
+        System.out.println("First day of the month: " + calendar.getTime());
+
+        // Get the last day of the month
+        calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+        System.out.println("Last day of the month: " + calendar.getTime());
+    }
+}
+```
+
+Test cases:
+
+* **Normal case:**
+    * Input: Month = January
+    * Output: First day of the month: Sun Jan 01 00:00:00 PST 2023
+             Last day of the month: Tue Jan 31 00:00:00 PST 2023
+
+* **Corner case: February in a leap year:**
+    * Input: Month = February (in a leap year)
+    * Output: First day of the month: Sat Feb 01 00:00:00 PST 2024
+             Last day of the month: Sat Feb 29 00:00:00 PST 2024
+
+* **Corner case: February in a non-leap year:**
+    * Input: Month = February (in a non-leap year)
+    * Output: First day of the month: Sat Feb 01 00:00:00 PST 2023
+             Last day of the month: Wed Feb 28 00:00:00 PST 2023
+
+* **Corner case: December:**
+    * Input: Month = December
+    * Output: First day of the month: Thu Dec 01 00:00:00 PST 2022
+             Last day of the month: Sat Dec 31 00:00:00 PST 2022

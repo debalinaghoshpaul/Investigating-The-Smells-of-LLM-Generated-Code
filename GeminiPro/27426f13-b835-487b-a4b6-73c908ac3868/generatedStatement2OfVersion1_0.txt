@@ -1,0 +1,18 @@
+
+
+**Test Cases:**
+
+**Valid Inputs:**
+
+* "abc@123"
+* "password123"
+* "123456"
+* "ThisIsMyPassword"
+
+**Invalid Inputs (Corner Cases):**
+
+* **Empty password:** ""
+* **Null password:** null
+* **Password with special characters:** "abc@123$"
+* **Password with spaces:** "abc 123"
+* **Password with non-printable characters:** "abc\u0000123"

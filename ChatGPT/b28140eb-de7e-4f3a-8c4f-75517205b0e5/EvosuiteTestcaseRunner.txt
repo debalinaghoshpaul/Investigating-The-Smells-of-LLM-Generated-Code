@@ -1,0 +1,7 @@
+JUnit version 4.13
+.The ceiling element of "cherry" in the tree set is: cherry
+.
+Time: 0.461
+
+OK (2 tests)
+

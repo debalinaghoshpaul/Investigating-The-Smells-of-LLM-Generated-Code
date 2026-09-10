@@ -1,0 +1,20 @@
+
+
+**Test cases:**
+
+* **123:** CXX123
+* **234:** CCSSS1234
+* **345:** CCCS1234
+* **456:** CD1234
+* **567:** DLX1234
+* **678:** DCLXXX1234
+* **789:** DCCCXC1234
+* **890:** DCCCXC1234
+* **901:** CM1234
+* **0:** ""
+
+**Corner cases:**
+
+* **0:** The program should output an empty string.
+* **100:** The program should output "C".
+* **999:** The program should output "CMXCIX".

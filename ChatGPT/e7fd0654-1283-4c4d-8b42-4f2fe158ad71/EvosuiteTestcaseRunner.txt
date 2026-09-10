@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Enter the base: Enter the exponent: e^4 = 34.33333333333333
+..Enter the base: .Enter the base: ....
+Time: 0.489
+
+OK (8 tests)
+

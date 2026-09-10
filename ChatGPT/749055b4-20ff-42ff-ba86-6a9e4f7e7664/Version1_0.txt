@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xazwXajooOtQaeJdtYSPMAnNNxk",
+  "object" : "chat.completion",
+  "created" : 1710254441,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.HashSet;\n\npublic class CommonElementsInArrays {\n    \n    public static void main(String[] args) {\n        \n        String[] array1 = {\"apple\", \"banana\", \"orange\", \"kiwi\"};\n        String[] array2 = {\"kiwi\", \"pear\", \"orange\", \"grape\"};\n        \n        HashSet<String> set = new HashSet<>();\n        \n        for(String value : array1) {\n            set.add(value);\n        }\n        \n        for(String value : array2) {\n            if(set.contains(value)) {\n                System.out.println(\"Common Element: \" + value);\n            }\n        }\n    }\n}\n```\n\nThis Java program finds the common elements between two arrays of string values by using a HashSet to store the elements of the first array and then checking for common elements in the second array. It prints out the common elements found."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 67,
+    "completion_tokens" : 175,
+    "total_tokens" : 242
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

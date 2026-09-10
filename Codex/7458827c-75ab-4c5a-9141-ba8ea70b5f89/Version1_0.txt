@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-99u5PcGgVucWMEQ0yIhyqPyuHml7e",
+  "object" : "chat.completion",
+  "created" : 1712147575,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class MatrixMultiplication {\n\n    public static void main(String[] args) {\n        int[][] matrix1 = {\n            {1, 2, 3},\n            {4, 5, 6},\n            {7, 8, 9}\n        };\n\n        int[][] matrix2 = {\n            {9, 8, 7},\n            {6, 5, 4},\n            {3, 2, 1}\n        };\n\n        int[][] result = new int[matrix1.length][matrix2[0].length];\n\n        Thread[] threads = new Thread[matrix1.length];\n\n        for (int i = 0; i < matrix1.length; i++) {\n            final int row = i;\n            threads[i] = new Thread(() -> {\n                for (int j = 0; j < matrix2[0].length; j++) {\n                    for (int k = 0; k < matrix2.length; k++) {\n                        result[row][j] += matrix1[row][k] * matrix2[k][j];\n                    }\n                }\n            });\n            threads[i].start();\n        }\n\n        for (Thread thread : threads) {\n            try {\n                thread.join();\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n            }\n        }\n\n        for (int i = 0; i < result.length; i++) {\n            for (int j = 0; j < result[0].length; j++) {\n                System.out.print(result[i][j] + \" \");\n            }\n            System.out.println();\n        }\n    }\n}\n```\n\nThis program performs matrix multiplication using multiple threads. It creates a separate thread for each row in the first matrix, and calculates the corresponding row in the result matrix concurrently. Finally, it prints out the result matrix."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 64,
+    "completion_tokens" : 373,
+    "total_tokens" : 437
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

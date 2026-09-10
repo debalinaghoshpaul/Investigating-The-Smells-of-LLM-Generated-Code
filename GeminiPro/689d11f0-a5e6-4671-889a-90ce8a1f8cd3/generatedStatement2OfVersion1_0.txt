@@ -1,0 +1,14 @@
+
+
+**Test cases:**
+
+* Corner cases:
+    * primeNumber = 0
+    * primeNumber = 1
+    * primeNumber = 2
+* Normal cases:
+    * primeNumber = 5
+    * primeNumber = 10
+    * primeNumber = 100
+* Extreme cases:
+    * primeNumber = Integer.MAX_VALUE

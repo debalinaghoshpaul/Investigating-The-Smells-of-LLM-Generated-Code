@@ -1,0 +1,37 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.522
+There were 5 failures:
+1) test1(testing_ChatGPT_on_java.BubbleSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(double[]) in the type BubbleSort is not applicable for the arguments (int[])
+
+	at testing_ChatGPT_on_java.BubbleSort_ESTest.test1(BubbleSort_ESTest.java:30)
+2) test0(testing_ChatGPT_on_java.BubbleSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(double[]) in the type BubbleSort is not applicable for the arguments (int[])
+
+	at testing_ChatGPT_on_java.BubbleSort_ESTest.test0(BubbleSort_ESTest.java:22)
+3) test4(testing_ChatGPT_on_java.BubbleSort_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	Syntax error on token(s), misplaced construct(s)
+	Syntax error on token "package", import expected
+	The declared package "chapter_six" does not match the expected package "testing_ChatGPT_on_java"
+	The public type Exercise_06_08 must be defined in its own file
+
+	at testing_ChatGPT_on_java.BubbleSort.<init>(BubbleSort.java:1)
+	at testing_ChatGPT_on_java.BubbleSort_ESTest.test4(BubbleSort_ESTest.java:58)
+4) test3(testing_ChatGPT_on_java.BubbleSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method sort(double[]) in the type BubbleSort is not applicable for the arguments (int[])
+
+	at testing_ChatGPT_on_java.BubbleSort_ESTest.test3(BubbleSort_ESTest.java:52)
+5) test2(testing_ChatGPT_on_java.BubbleSort_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type BubbleSort
+
+	at testing_ChatGPT_on_java.BubbleSort_ESTest.test2(BubbleSort_ESTest.java:44)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

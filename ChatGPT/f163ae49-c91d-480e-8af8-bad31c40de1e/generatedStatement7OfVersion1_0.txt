@@ -1,0 +1,10 @@
+
+Input:
+nums3 = [1, 2, -2, 3, 4, 5, 6]
+
+Output:
+Sub-arrays with 0 sum: [1, 2, -2]
+Sub-arrays with 0 sum: [3, -3]
+Sub-arrays with 0 sum: [4, -4]
+Sub-arrays with 0 sum: [5, -5]
+Sub-arrays with 0 sum: [6, -6]

@@ -1,0 +1,8 @@
+JUnit version 4.13
+..
+Original array: [1, 2, 3, 4, 6]
+Minimum length of a contiguous subarray of which the sum is 8: 2......
+Time: 0.488
+
+OK (8 tests)
+

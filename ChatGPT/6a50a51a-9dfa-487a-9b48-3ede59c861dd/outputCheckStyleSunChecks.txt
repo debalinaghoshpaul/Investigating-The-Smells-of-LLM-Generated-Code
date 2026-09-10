@@ -1,0 +1,18 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:7:32: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:7:35: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:7:38: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:8:22: '7' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:19: Line is longer than 80 characters (found 135). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:19:42: Parameter result should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:19:70: Parameter tempList should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:19:94: Parameter candidates should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:19:112: Parameter remain should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:19:124: Parameter start should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\6a50a51a-9dfa-487a-9b48-3ede59c861dd\generatedProgram1OfVersion1_0.java:27: Line is longer than 80 characters (found 90). [LineLength]
+Audit done.

@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:33:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:34:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:36:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:36:19: Parameter question should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:36:26: 'question' hides a field. [HiddenField]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:36:36: Parameter answer should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaGenerics\1d662fc8-d96d-46be-9b2e-cc31ca6bf4e7\generatedProgram1OfVersion1_0.java:36:43: 'answer' hides a field. [HiddenField]
+Audit done.

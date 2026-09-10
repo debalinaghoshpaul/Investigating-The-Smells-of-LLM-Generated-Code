@@ -1,0 +1,57 @@
+**Java Program:**
+
+```java
+import java.util.Arrays;
+import java.util.Comparator;
+
+class SortByStringLength {
+
+    public static void main(String[] args) {
+        String[] arr = {"Java", "Python", "C++", "C", "Go", "JavaScript"};
+
+        // Sort in ascending order by string length
+        Arrays.sort(arr, Comparator.comparing(String::length));
+        System.out.println("Ascending order:");
+        for (String s : arr) {
+            System.out.println(s);
+        }
+
+        // Sort in descending order by string length
+        Arrays.sort(arr, Comparator.comparing(String::length).reversed());
+        System.out.println("Descending order:");
+        for (String s : arr) {
+            System.out.println(s);
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Case 1: General Case**
+
+* Input: arr = {"Java", "Python", "C++", "C", "Go", "JavaScript"}
+* Expected Output:
+    * Ascending order: C, Go, C++, Java, Python, JavaScript
+    * Descending order: JavaScript, Python, Java, C++, Go, C
+
+**Case 2: Corner Case - Empty Array**
+
+* Input: arr = {}
+* Expected Output:
+    * Ascending order: (Empty list)
+    * Descending order: (Empty list)
+
+**Case 3: Corner Case - Array with Strings of Equal Length**
+
+* Input: arr = {"aaa", "bbb", "ccc", "ddd"}
+* Expected Output:
+    * Ascending order: aaa, bbb, ccc, ddd
+    * Descending order: ddd, ccc, bbb, aaa
+
+**Case 4: Corner Case - Array with Null Values**
+
+* Input: arr = {"Java", null, "C++", "Go", null, "JavaScript"}
+* Expected Output:
+    * Ascending order: C++, Go, Java, JavaScript, (null), (null)
+    * Descending order: (null), (null), JavaScript, Java, Go, C++

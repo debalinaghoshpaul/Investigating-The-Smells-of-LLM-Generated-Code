@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93Uluu5CuUfV02ukxSAZq5at95bT9",
+  "object" : "chat.completion",
+  "created" : 1710620298,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n//Flyable interface\ninterface Flyable {\n    void fly_obj();\n}\n\n//Spacecraft class implementing Flyable interface\nclass Spacecraft implements Flyable {\n    @Override\n    public void fly_obj() {\n        System.out.println(\"Spacecraft is flying in space.\");\n    }\n}\n\n//Airplane class implementing Flyable interface\nclass Airplane implements Flyable {\n    @Override\n    public void fly_obj() {\n        System.out.println(\"Airplane is flying in the sky.\");\n    }\n}\n\n//Helicopter class implementing Flyable interface\nclass Helicopter implements Flyable {\n    @Override\n    public void fly_obj() {\n        System.out.println(\"Helicopter is flying in the air.\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Spacecraft spacecraft = new Spacecraft();\n        Airplane airplane = new Airplane();\n        Helicopter helicopter = new Helicopter();\n        \n        spacecraft.fly_obj();\n        airplane.fly_obj();\n        helicopter.fly_obj();\n    }\n}\n```\n\nOutput:\nSpacecraft is flying in space.\nAirplane is flying in the sky.\nHelicopter is flying in the air."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 100,
+    "completion_tokens" : 236,
+    "total_tokens" : 336
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

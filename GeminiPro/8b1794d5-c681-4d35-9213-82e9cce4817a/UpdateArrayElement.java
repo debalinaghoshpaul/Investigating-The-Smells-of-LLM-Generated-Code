@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class UpdateArrayElement {
+  public static void main(String[] args) {
+    int[] arr = {1, 2, 3, 4, 5};
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the index of the element to be updated: ");
+    int index = sc.nextInt();
+    System.out.println("Enter the new value for the element: ");
+    int newValue = sc.nextInt();
+    arr[index] = newValue;
+    System.out.println("The updated array is: ");
+    for (int i = 0; i < arr.length; i++) {
+      System.out.print(arr[i] + " ");
+    }
+  }
+}

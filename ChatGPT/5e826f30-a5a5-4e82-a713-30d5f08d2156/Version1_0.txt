@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95DeeQEVnSB7SU7wd3rBp0dMP5w0F",
+  "object" : "chat.completion",
+  "created" : 1711031156,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class MaxSumOfIntegers {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        \n        // Read input data\n        String[] lines = new String[100];\n        int numLines = 0;\n        while (sc.hasNext()) {\n            lines[numLines++] = sc.next();\n        }\n        \n        // Create a 2D array to store the integers\n        int[][] nums = new int[numLines][];\n        for (int i = 0; i < numLines; i++) {\n            String[] numsStr = lines[i].split(\",\");\n            nums[i] = new int[numsStr.length];\n            for (int j = 0; j < numsStr.length; j++) {\n                nums[i][j] = Integer.parseInt(numsStr[j]);\n            }\n        }\n        \n        // Calculate the maximum sum of integers passing according to the rule\n        for (int i = 1; i < numLines; i++) {\n            for (int j = 0; j < nums[i].length; j++) {\n                if (j == 0) {\n                    nums[i][j] += nums[i-1][j];\n                } else if (j == nums[i].length - 1) {\n                    nums[i][j] += nums[i-1][j-1];\n                } else {\n                    nums[i][j] += Math.max(nums[i-1][j-1], nums[i-1][j]);\n                }\n            }\n        }\n        \n        // Find the maximum sum in the last line\n        int maxSum = 0;\n        for (int num : nums[numLines-1]) {\n            if (num > maxSum) {\n                maxSum = num;\n            }\n        }\n        \n        System.out.println(maxSum);\n    }\n\n}\n``` \n\nYou can run the above code by providing the input data in the required format and it will output the maximum value of the sum of integers passing according to the rule."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 173,
+    "completion_tokens" : 417,
+    "total_tokens" : 590
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

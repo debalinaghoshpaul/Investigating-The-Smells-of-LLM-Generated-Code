@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8rnA7ubu9rQYQo7c1AtEMmsxvl8u5",
+  "object" : "chat.completion",
+  "created" : 1707831055,
+  "model" : "gpt-3.5-turbo-0613",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here's the Java program to search for a key in a TreeMap:\n\n```java\nimport java.util.*;\n\npublic class TreeMapSearch {\n    public static void main(String[] args) {\n        TreeMap<Integer, String> treeMap = new TreeMap<>();\n        \n        // Adding key-value pairs to the TreeMap\n        treeMap.put(1, \"John\");\n        treeMap.put(2, \"Alex\");\n        treeMap.put(3, \"Emily\");\n        treeMap.put(4, \"Simon\");\n        treeMap.put(5, \"Olivia\");\n        \n        // Searching for a key in the TreeMap\n        int keyToSearch = 3;\n        if (treeMap.containsKey(keyToSearch)) {\n            System.out.println(\"Key \" + keyToSearch + \" found with value: \" + treeMap.get(keyToSearch));\n        } else {\n            System.out.println(\"Key \" + keyToSearch + \" not found in the TreeMap\");\n        }\n    }\n}\n```\n\nIn this program, we create a TreeMap called `treeMap` and add some key-value pairs to it. We then specify a key to search using the `keyToSearch` variable. We use the `containsKey(key)` method to check if the key exists in the TreeMap. If it exists, we retrieve the corresponding value using the `get(key)` method. Finally, we print the result whether the key was found or not."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 57,
+    "completion_tokens" : 285,
+    "total_tokens" : 342
+  },
+  "system_fingerprint" : null
+}

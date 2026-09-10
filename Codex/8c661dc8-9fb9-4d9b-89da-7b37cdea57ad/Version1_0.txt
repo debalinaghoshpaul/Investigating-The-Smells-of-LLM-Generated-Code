@@ -1,0 +1,21 @@
+```java
+import java.util.Scanner;
+
+public class InchesToMeters {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input a value for inch: ");
+        double inches = input.nextDouble();
+        double meters = inches * 0.0254;
+        System.out.println(inches + " inch is " + meters + " meters");
+    }
+}
+```
+
+Test cases:
+
+* **Normal case:** Input: 1000, Output: 1000.0 inch is 25.4 meters
+* **Zero input:** Input: 0, Output: 0.0 inch is 0.0 meters
+* **Negative input:** Input: -1000, Output: -1000.0 inch is -25.4 meters
+* **Decimal input:** Input: 12.5, Output: 12.5 inch is 0.3175 meters

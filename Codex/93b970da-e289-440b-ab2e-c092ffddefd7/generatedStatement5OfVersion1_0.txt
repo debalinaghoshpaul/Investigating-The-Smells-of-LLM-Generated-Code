@@ -1,0 +1,4 @@
+
+
+**Corner Case 2: Array with All Even Elements**
+

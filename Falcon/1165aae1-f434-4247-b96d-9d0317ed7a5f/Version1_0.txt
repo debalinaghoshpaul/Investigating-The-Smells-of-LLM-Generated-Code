@@ -1,0 +1,29 @@
+No GPU found. Running on CPU.
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrimeNumbers {
+    public static void main(String[] args) throws Exception {
+        FileReader fr = new FileReader("PrimeNumbers.dat");
+        BufferedReader br = new BufferedReader(fr);
+        String line;
+        List<Integer> primeNumbers = new ArrayList<>();
+        while ((line = br.readLine())!= null) {
+            int num = Integer.parseInt(line);
+            if (primeNumbers.contains(num)) {
+                System.out.println(num);
+            } else {
+                primeNumbers.add(num);
+            }
+        }
+        br.close();
+        fr.close();
+    }
+}
+
+// Output: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 213, 227, 229, 233, 239, 241, 243, 247, 251, 257, 263, 273, 279, 283, 297, 301, 307, 313, 317, 331, 341, 347, 353, 361, 383, 389, 397, 401, 409, 411, 433, 439, 441, 449, 451, 463, 471, 477, 491, 497, 503, 509, 513, 523, 541, 547, 557, 563,

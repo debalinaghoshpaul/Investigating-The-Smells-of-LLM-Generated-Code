@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Error getting file attributes: C:\Users\user\Desktop\test.txt
+.
+Time: 0.424
+
+OK (2 tests)
+

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93P4UTrFibaiNDji1aQQeH3UJHHXE",
+  "object" : "chat.completion",
+  "created" : 1710598386,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\n\npublic class ElementPresentInStack {\n    \n    public static boolean isElementPresent(Stack<Integer> stack, int element) {\n        return stack.contains(element);\n    }\n\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        stack.push(10);\n        stack.push(20);\n        stack.push(30);\n        \n        int searchElement = 20;\n        \n        if(isElementPresent(stack, searchElement)) {\n            System.out.println(\"Element \" + searchElement + \" is present in the stack\");\n        } else {\n            System.out.println(\"Element \" + searchElement + \" is not present in the stack\");\n        }\n    }\n}\n```\n\nThis program creates a stack of integers, pushes some elements onto the stack, and then checks if a given element is present in the stack using the `isElementPresent` method. The `isElementPresent` method utilizes the `contains` method provided by the Stack class to check for the presence of the element. Finally, the program prints whether the element is present in the stack or not."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 74,
+    "completion_tokens" : 225,
+    "total_tokens" : 299
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

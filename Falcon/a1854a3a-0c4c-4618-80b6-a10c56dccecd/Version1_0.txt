@@ -1,0 +1,31 @@
+No GPU found. Running on CPU.
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class MergeArrays {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] array1 = new int[scanner.nextInt()];
+        int[] array2 = new int[scanner.nextInt()];
+        int[] result = new int[scanner.nextInt()];
+
+        for (int i = 0; i < array1.length; i++) {
+            array1[i] = scanner.nextInt();
+        }
+
+        for (int i = 0; i < array2.length; i++) {
+            array2[i] = scanner.nextInt();
+        }
+
+        for (int i = 0; i < result.length; i++) {
+            result[i] = array1[i] + array2[i];
+        }
+
+        System.out.println("Merged array: ");
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
+        }
+    }
+}
+
+// Output: Merged array: 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3 4 5 7 8 1 2 2 3

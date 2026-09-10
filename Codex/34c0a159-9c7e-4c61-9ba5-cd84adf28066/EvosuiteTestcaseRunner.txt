@@ -1,0 +1,22 @@
+JUnit version 4.13
+.Enter the size of the numeric array: 
+Enter the elements of the numeric array: 
+The sorted numeric array is: 
+1 4 4 4 
+Enter the size of the string array: 
+.Enter the size of the numeric array: 
+.Enter the size of the numeric array: 
+Enter the elements of the numeric array: 
+.Enter the size of the numeric array: 
+Enter the elements of the numeric array: 
+The sorted numeric array is: 
+1 
+Enter the size of the string array: 
+Enter the elements of the string array: 
+The sorted string array is: 
+1 
+.
+Time: 0.329
+
+OK (5 tests)
+

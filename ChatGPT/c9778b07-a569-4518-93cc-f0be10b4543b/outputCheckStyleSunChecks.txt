@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:4:34: Parameter stack should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:21:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:21:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:23:20: '30' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:24:20: '-5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:25:20: '18' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:26:20: '14' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\c9778b07-a569-4518-93cc-f0be10b4543b\generatedProgram1OfVersion1_0.java:27:20: '-3' is a magic number. [MagicNumber]
+Audit done.

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9ENsTk03W5vqegLCnNRdOR7mBYbOE",
+  "object" : "chat.completion",
+  "created" : 1713215405,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class EmployeeSalaryCalculator {\n\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        int[] monthSalary = new int[12];\n        int[] overtimeHours = new int[12];\n\n        for (int i = 0; i < 12; i++) {\n            System.out.println(\"Enter the monthly salary for month \" + (i + 1) + \":\");\n            monthSalary[i] = input.nextInt();\n\n            System.out.println(\"Enter the overtime hours for month \" + (i + 1) + \":\");\n            overtimeHours[i] = input.nextInt();\n        }\n\n        System.out.println(\"\\nMonthly Salary Details:\");\n        System.out.println(\"--------------------------------------------------------------------\");\n        System.out.println(\"Month\\t\\tSalary\\t\\tOvertime Pay\\tTotal Salary\\tDifference from Average\");\n        System.out.println(\"--------------------------------------------------------------------\");\n\n        int totalSalary = 0;\n\n        for (int i = 0; i < 12; i++) {\n            int overtimePay;\n            if (monthSalary[i] > 10000) {\n                overtimePay = overtimeHours[i] * 25;\n            } else if (monthSalary[i] > 5000) {\n                overtimePay = overtimeHours[i] * 20;\n            } else if (monthSalary[i] > 2000) {\n                overtimePay = overtimeHours[i] * 15;\n            } else {\n                overtimePay = overtimeHours[i] * 10;\n            }\n\n            int total = monthSalary[i] + overtimePay;\n            totalSalary += total;\n            int average = totalSalary / (i + 1);\n\n            System.out.println(getMonthName(i) + \"\\t\\t$\" + monthSalary[i] + \"\\t\\t$\" + overtimePay + \"\\t\\t$\" + total + \"\\t\\t$\" + (total - average));\n        }\n\n        System.out.println(\"--------------------------------------------------------------------\");\n    }\n\n    public static String getMonthName(int month) {\n        String[] monthNames = {\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n                \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"};\n\n        return monthNames[month];\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 317,
+    "completion_tokens" : 460,
+    "total_tokens" : 777
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

@@ -1,0 +1,25 @@
+
+
+**Test Cases:**
+
+* **Positive Test Cases:**
+    * Input: "aeiou"
+    * Expected Output: true
+    * Input: "AEIOU"
+    * Expected Output: true
+    * Input: "aAeeIIOoUu"
+    * Expected Output: true
+
+* **Negative Test Cases:**
+    * Input: "abc"
+    * Expected Output: false
+    * Input: "123"
+    * Expected Output: false
+    * Input: "aeiou1"
+    * Expected Output: false
+
+* **Corner Cases:**
+    * Input: "" (empty string)
+    * Expected Output: false
+    * Input: null
+    * Expected Output: false

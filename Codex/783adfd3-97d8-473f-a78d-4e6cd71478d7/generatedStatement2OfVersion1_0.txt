@@ -1,0 +1,14 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Java version is empty
+* Java version is not valid
+* Java is not installed on the computer
+
+**Regular Cases:**
+
+* Java version is valid and Java is installed on the computer
+* Java version is valid but Java is not installed on the computer

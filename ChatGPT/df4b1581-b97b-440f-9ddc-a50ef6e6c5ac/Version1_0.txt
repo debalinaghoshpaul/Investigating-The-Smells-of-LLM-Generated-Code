@@ -1,0 +1,22 @@
+```java
+import java.util.LinkedList;
+
+public class ReplaceElementLinkedList {
+
+    public static void main(String[] args) {
+        // Create a linked list
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.add(1);
+        linkedList.add(2);
+        linkedList.add(3);
+        linkedList.add(4);
+        linkedList.add(5);
+
+        // Replace the first element with 10
+        linkedList.set(0, 10);
+
+        // Print the updated linked list
+        System.out.println(linkedList);
+    }
+}
+```

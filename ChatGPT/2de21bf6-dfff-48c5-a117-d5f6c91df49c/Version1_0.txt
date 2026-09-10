@@ -1,0 +1,55 @@
+```java
+import java.util.Scanner;
+
+public class SumAndAverageOf5Numbers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input from the user
+        System.out.println("Input the 5 numbers :");
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int num3 = scanner.nextInt();
+        int num4 = scanner.nextInt();
+        int num5 = scanner.nextInt();
+
+        // Calculate the sum and average of the 5 numbers
+        int sum = num1 + num2 + num3 + num4 + num5;
+        double average = (double) sum / 5;
+
+        // Print the output
+        System.out.println("The sum of 5 no is : " + sum);
+        System.out.println("The Average is : " + average);
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* Input: 1, 2, 3, 4, 5
+* Expected Output: Sum: 15, Average: 3.0
+
+* Input: 10, 20, 30, 40, 50
+* Expected Output: Sum: 150, Average: 30.0
+
+**Negative Test Cases:**
+
+* Input: -1, -2, -3, -4, -5
+* Expected Output: Sum: -15, Average: -3.0
+
+* Input: 0, 0, 0, 0, 0
+* Expected Output: Sum: 0, Average: 0.0
+
+**Corner Cases:**
+
+* Input: 0, 1, 2, 3, 4
+* Expected Output: Sum: 10, Average: 2.0
+
+* Input: 1, 0, 3, 4, 5
+* Expected Output: Sum: 13, Average: 2.6
+
+* Input: 1, 2, 3, 4, 0
+* Expected Output: Sum: 10, Average: 2.0

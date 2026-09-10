@@ -1,0 +1,173 @@
+```java
+import java.util.Scanner;
+
+public class PlayerHighScores {
+
+    private static final int MAX_PLAYERS = 10;
+
+    private static String[] playerNames = new String[MAX_PLAYERS];
+    private static int[] playerScores = new int[MAX_PLAYERS];
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int choice;
+        do {
+            // Display the menu
+            System.out.println("Player High Scores Menu");
+            System.out.println("1. Add a new player and score");
+            System.out.println("2. Print all the players' names and their scores");
+            System.out.println("3. Get a player's score");
+            System.out.println("4. Remove a player from the list");
+            System.out.println("5. Exit");
+            System.out.print("Enter your choice: ");
+
+            // Get the user's choice
+            choice = scanner.nextInt();
+
+            // Process the user's choice
+            switch (choice) {
+                case 1:
+                    addPlayer();
+                    break;
+                case 2:
+                    printPlayers();
+                    break;
+                case 3:
+                    getPlayerScore();
+                    break;
+                case 4:
+                    removePlayer();
+                    break;
+                case 5:
+                    System.out.println("Goodbye!");
+                    break;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        } while (choice != 5);
+
+        scanner.close();
+    }
+
+    private static void addPlayer() {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the player's name
+        System.out.print("Enter the player's name: ");
+        String name = scanner.nextLine();
+
+        // Get the player's score
+        System.out.print("Enter the player's score: ");
+        int score = scanner.nextInt();
+
+        // Find an empty slot in the arrays
+        int index = -1;
+        for (int i = 0; i < playerNames.length; i++) {
+            if (playerNames[i] == null) {
+                index = i;
+                break;
+            }
+        }
+
+        // If there is no empty slot, display an error message
+        if (index == -1) {
+            System.out.println("Error: The player list is full");
+        } else {
+            // Add the player to the arrays
+            playerNames[index] = name;
+            playerScores[index] = score;
+
+            // Display a success message
+            System.out.println("Player added successfully");
+        }
+
+        scanner.close();
+    }
+
+    private static void printPlayers() {
+        // Print the players' names and scores
+        System.out.println("Players:");
+        for (int i = 0; i < playerNames.length; i++) {
+            if (playerNames[i] != null) {
+                System.out.println(playerNames[i] + ": " + playerScores[i]);
+            }
+        }
+    }
+
+    private static void getPlayerScore() {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the player's name
+        System.out.print("Enter the player's name: ");
+        String name = scanner.nextLine();
+
+        // Find the player's index in the arrays
+        int index = -1;
+        for (int i = 0; i < playerNames.length; i++) {
+            if (playerNames[i] != null && playerNames[i].equals(name)) {
+                index = i;
+                break;
+            }
+        }
+
+        // If the player is not found, display an error message
+        if (index == -1) {
+            System.out.println("Error: The player does not exist");
+        } else {
+            // Display the player's score
+            System.out.println("Player's score: " + playerScores[index]);
+        }
+
+        scanner.close();
+    }
+
+    private static void removePlayer() {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the player's name
+        System.out.print("Enter the player's name: ");
+        String name = scanner.nextLine();
+
+        // Find the player's index in the arrays
+        int index = -1;
+        for (int i = 0; i < playerNames.length; i++) {
+            if (playerNames[i] != null && playerNames[i].equals(name)) {
+                index = i;
+                break;
+            }
+        }
+
+        // If the player is not found, display an error message
+        if (index == -1) {
+            System.out.println("Error: The player does not exist");
+        } else {
+            // Remove the player from the arrays
+            playerNames[index] = null;
+            playerScores[index] = 0;
+
+            // Display a success message
+            System.out.println("Player removed successfully");
+        }
+
+        scanner.close();
+    }
+
+    // Test cases
+    public static void main(String[] args) {
+        // Normal operation
+        addPlayer("John", 100);
+        addPlayer("Mary", 90);
+        addPlayer("Bob", 80);
+        printPlayers();
+        getPlayerScore("John");
+        removePlayer("Bob");
+        printPlayers();
+
+        // Corner cases
+        addPlayer("John", 100); // Should display an error message
+        getPlayerScore("Alice"); // Should display an error message
+        removePlayer("Alice"); // Should display an error message
+    }
+}
+```

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9Crch3B93gAIEoRNCJeBJ0mmLAD3t",
+  "object" : "chat.completion",
+  "created" : 1712853091,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "// Importing the necessary packages\nimport java.util.Scanner;\n\npublic class BabylonianAlgorithm {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        \n        // Taking input from the user\n        System.out.print(\"Enter a positive number: \");\n        double n = input.nextDouble();\n        \n        // Initializing guess\n        double guess = n / 2.0;\n        \n        // Iterating through the Babylonian algorithm five times\n        for (int i = 0; i < 5; i++) {\n            double r = n / guess;\n            guess = (guess + r) / 2.0;\n        }\n        \n        // Printing the square root of the number to two decimal places\n        System.out.printf(\"Square root of %.2f is %.2f\\n\", n, guess);\n        \n        input.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 186,
+    "completion_tokens" : 179,
+    "total_tokens" : 365
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

@@ -1,0 +1,2 @@
+Below is the Java program to implement a stack using a linked list:
+

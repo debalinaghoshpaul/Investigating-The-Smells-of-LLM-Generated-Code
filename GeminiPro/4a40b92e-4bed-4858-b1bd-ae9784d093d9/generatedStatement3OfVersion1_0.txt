@@ -1,0 +1,4 @@
+
+    Input: [12, 13, 1, 10, 34, 1]
+    Output: First Smallest Element: 1, Second Smallest Element: 10
+    

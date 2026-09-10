@@ -1,0 +1,27 @@
+import java.util.Arrays;
+
+public class CheckArrayStartEndSame {
+
+    public static void main(String[] args) {
+        // Test cases
+        int[] arr1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] arr2 = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5};
+        int[] arr3 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+
+        // Function calls and printing results
+        System.out.println(Arrays.toString(arr1) + " -> " + checkStartEndSame(arr1));
+        System.out.println(Arrays.toString(arr2) + " -> " + checkStartEndSame(arr2));
+        System.out.println(Arrays.toString(arr3) + " -> " + checkStartEndSame(arr3));
+    }
+
+    public static boolean checkStartEndSame(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            return false;
+        }
+
+        int start = arr[0];
+        int end = arr[arr.length - 1];
+
+        return start == end;
+    }
+}

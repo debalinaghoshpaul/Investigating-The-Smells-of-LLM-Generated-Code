@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\39ded62f-36fe-4ba6-b7a3-64c498850a23\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\39ded62f-36fe-4ba6-b7a3-64c498850a23\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\39ded62f-36fe-4ba6-b7a3-64c498850a23\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\39ded62f-36fe-4ba6-b7a3-64c498850a23\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\39ded62f-36fe-4ba6-b7a3-64c498850a23\generatedProgram1OfVersion1_0.java:2:46: Parameter num should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\39ded62f-36fe-4ba6-b7a3-64c498850a23\generatedProgram1OfVersion1_0.java:5:21: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\39ded62f-36fe-4ba6-b7a3-64c498850a23\generatedProgram1OfVersion1_0.java:12:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\39ded62f-36fe-4ba6-b7a3-64c498850a23\generatedProgram1OfVersion1_0.java:12:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\39ded62f-36fe-4ba6-b7a3-64c498850a23\generatedProgram1OfVersion1_0.java:13:22: '27' is a magic number. [MagicNumber]
+Audit done.

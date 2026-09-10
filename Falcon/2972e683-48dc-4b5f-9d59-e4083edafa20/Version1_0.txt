@@ -1,0 +1,17 @@
+```java
+public class Solution {
+    /**
+     * @param nums: an array of integers
+     * @return: return true if the array is sorted in ascending order or false otherwise
+     */
+    public boolean isSorted(int[] nums) {
+        // base case
+        if (nums == null || nums.length <= 1) {
+            return true;
+        }
+
+        // recursive case
+        return nums[0] <= nums[1] && isSorted(Arrays.copyOfRange(nums, 1, nums.length));
+    }
+}
+```

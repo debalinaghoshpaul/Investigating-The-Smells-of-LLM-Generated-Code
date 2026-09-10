@@ -1,0 +1,95 @@
+```java
+import java.util.Scanner;
+
+public class IntegerOperations {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the two integers from the user
+        System.out.println("Enter first integer: ");
+        int firstInteger = scanner.nextInt();
+        System.out.println("Enter second integer: ");
+        int secondInteger = scanner.nextInt();
+
+        // Calculate the sum, difference, product, average, distance, maximum, and minimum
+        int sum = firstInteger + secondInteger;
+        int difference = Math.abs(firstInteger - secondInteger);
+        int product = firstInteger * secondInteger;
+        double average = (double) (firstInteger + secondInteger) / 2;
+        int distance = Math.abs(firstInteger - secondInteger);
+        int max = Math.max(firstInteger, secondInteger);
+        int min = Math.min(firstInteger, secondInteger);
+
+        // Print the results
+        System.out.println("Sum of two integers: " + sum);
+        System.out.println("Difference of two integers: " + difference);
+        System.out.println("Product of two integers: " + product);
+        System.out.println("Average of two integers: " + average);
+        System.out.println("Distance of two integers: " + distance);
+        System.out.println("Max integer: " + max);
+        System.out.println("Min integer: " + min);
+    }
+}
+```
+
+**Test cases:**
+
+**Normal cases:**
+
+* Input 1st integer: 25
+* Input 2nd integer: 5
+* Expected Output : 
+* Sum of two integers: 30
+* Difference of two integers: 20
+* Product of two integers: 125
+* Average of two integers: 15.00
+* Distance of two integers: 20
+* Max integer: 25
+* Min integer: 5
+
+* Input 1st integer: -10
+* Input 2nd integer: 15
+* Expected Output : 
+* Sum of two integers: 5
+* Difference of two integers: 25
+* Product of two integers: -150
+* Average of two integers: 2.50
+* Distance of two integers: 25
+* Max integer: 15
+* Min integer: -10
+
+**Corner cases:**
+
+* Input 1st integer: 0
+* Input 2nd integer: 0
+* Expected Output : 
+* Sum of two integers: 0
+* Difference of two integers: 0
+* Product of two integers: 0
+* Average of two integers: 0.00
+* Distance of two integers: 0
+* Max integer: 0
+* Min integer: 0
+
+* Input 1st integer: Integer.MAX_VALUE
+* Input 2nd integer: Integer.MIN_VALUE
+* Expected Output : 
+* Sum of two integers: -1
+* Difference of two integers: 2147483647
+* Product of two integers: -2147483648
+* Average of two integers: -0.50
+* Distance of two integers: 2147483647
+* Max integer: Integer.MAX_VALUE
+* Min integer: Integer.MIN_VALUE
+
+* Input 1st integer: Integer.MIN_VALUE
+* Input 2nd integer: Integer.MAX_VALUE
+* Expected Output : 
+* Sum of two integers: -1
+* Difference of two integers: 2147483647
+* Product of two integers: -2147483648
+* Average of two integers: -0.50
+* Distance of two integers: 2147483647
+* Max integer: Integer.MAX_VALUE
+* Min integer: Integer.MIN_VALUE

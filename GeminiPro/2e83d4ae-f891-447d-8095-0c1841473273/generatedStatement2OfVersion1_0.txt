@@ -1,0 +1,18 @@
+
+
+### Test cases:
+
+**Corner cases:**
+
+* Test with a locale that does not have a translation for the day-of-week names.
+* Test with a day-of-week that is not valid.
+
+**Normal cases:**
+
+* Test with different locales.
+* Test with different day-of-week values.
+
+### Example output:
+
+**Default locale:**
+

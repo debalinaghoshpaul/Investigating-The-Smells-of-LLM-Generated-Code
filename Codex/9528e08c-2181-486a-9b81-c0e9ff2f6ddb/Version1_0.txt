@@ -1,0 +1,107 @@
+```java
+// Animal.java
+// Parent class Animal
+
+abstract class Animal {
+    // Eat method (abstract)
+    public abstract void eat();
+
+    // Sound method (abstract)
+    public abstract void sound();
+}
+
+// Lion.java
+// Child class Lion
+
+class Lion extends Animal {
+    // Eat method (overridden)
+    @Override
+    public void eat() {
+        System.out.println("The lion eats meat.");
+    }
+
+    // Sound method (overridden)
+    @Override
+    public void sound() {
+        System.out.println("The lion roars.");
+    }
+}
+
+// Tiger.java
+// Child class Tiger
+
+class Tiger extends Animal {
+    // Eat method (overridden)
+    @Override
+    public void eat() {
+        System.out.println("The tiger eats meat.");
+    }
+
+    // Sound method (overridden)
+    @Override
+    public void sound() {
+        System.out.println("The tiger growls.");
+    }
+}
+
+// Panther.java
+// Child class Panther
+
+class Panther extends Animal {
+    // Eat method (overridden)
+    @Override
+    public void eat() {
+        System.out.println("The panther eats meat.");
+    }
+
+    // Sound method (overridden)
+    @Override
+    public void sound() {
+        System.out.println("The panther purrs.");
+    }
+}
+
+// Main.java
+// Main class
+
+public class Main {
+    public static void main(String[] args) {
+        // Create an array of animals
+        Animal[] animals = {new Lion(), new Tiger(), new Panther()};
+
+        // Loop through the animals and make them eat and sound
+        for (Animal animal : animals) {
+            animal.eat();
+            animal.sound();
+            System.out.println();
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:** Create a Lion object and call its eat() and sound() methods.
+* **Expected Output:** The lion eats meat.
+                     The lion roars.
+
+* **Input:** Create a Tiger object and call its eat() and sound() methods.
+* **Expected Output:** The tiger eats meat.
+                     The tiger growls.
+
+* **Input:** Create a Panther object and call its eat() and sound() methods.
+* **Expected Output:** The panther eats meat.
+                     The panther purrs.
+
+**Corner Cases:**
+
+* **Input:** Create an Animal object (without specifying any subclass) and try to call its eat() and sound() methods.
+* **Expected Output:** Error: Cannot instantiate the abstract class Animal
+
+* **Input:** Create an object of a non-existent subclass of Animal (e.g., Dog).
+* **Expected Output:** Error: Class Dog does not exist
+
+* **Input:** Create an object of a subclass of Animal and try to cast it to a different subclass (e.g., cast a Lion object to a Tiger object).
+* **Expected Output:** Error: ClassCastException

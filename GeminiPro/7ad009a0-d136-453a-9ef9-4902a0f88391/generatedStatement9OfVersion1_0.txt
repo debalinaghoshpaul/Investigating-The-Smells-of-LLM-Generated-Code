@@ -1,0 +1,7 @@
+
+Input:
+arr = []
+k = 3
+Output:
+Original Array: []
+3 largest elements of the said array are: []

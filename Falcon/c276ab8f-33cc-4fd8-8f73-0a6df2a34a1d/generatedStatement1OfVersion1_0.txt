@@ -1,0 +1,16 @@
+
+JANUARY
+FEBRUARY
+MARCH
+APRIL
+MAY
+JUNE
+JULY
+AUGUST
+SEPTEMBER
+OCTOBER
+NOVEMBER
+DECEMBER
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem. For example, you can add test cases to check if the month names are in the correct order. You can also add test cases to check if the month names are unique. You can also add test cases to check if the month names are properly capitalized. You can also add test cases to check if the month names are properly spelled. You can also add test cases to check if the month names are properly formatted. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases to check if the month names are properly localized. You can also add test cases

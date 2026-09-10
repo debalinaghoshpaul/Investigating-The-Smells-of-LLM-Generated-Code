@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called "Shape" with abstract methods for calculating area and perimeter, and subclasses for "Rectangle", "Circle", and "Triangle".\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 409f679d-fdfe-4dd3-8d10-63f2c46bee8d.\n

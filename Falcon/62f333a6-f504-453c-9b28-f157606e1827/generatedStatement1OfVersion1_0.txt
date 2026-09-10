@@ -1,0 +1,25 @@
+
+// You rolled 5 + 6 = 11
+// You win
+// You rolled 1 + 2 = 3
+// You lose
+// You rolled 4 + 4 = 8
+// point is 8
+// You rolled 6 + 2 = 8
+// You win
+// You rolled 3 + 5 = 8
+// point is 8
+// You rolled 2 + 5 = 7
+// You lose
+// The programming language you need to use is: Java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// You rolled 5 + 6 = 11
+// You win
+// You rolled 1 + 2 = 3
+// You lose
+// You rolled 4 + 4 = 8
+// point is 8
+// You rolled 6 + 2 = 8
+// You win
+// You

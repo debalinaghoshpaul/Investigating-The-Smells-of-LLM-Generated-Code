@@ -1,0 +1,14 @@
+Violations by Category:
+DesignForExtension: Class 'Person' looks like designed for extension (can be subclassed), but the method 'setDeathYear' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Person' final or making the method 'setDeathYear' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 5
+HiddenField: 'year' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+UnusedImports: Unused import - java.util.Date. [UnusedImports]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 7
+NeedBraces: 'if' construct must use '{}'s. [NeedBraces]: 13
+LineLength: Line is longer than 80 characters (found 83). [LineLength]: 4
+SimplifyBooleanReturn: Conditional logic can be removed. [SimplifyBooleanReturn]: 1
+FinalParameters: Parameter initialName should be final. [FinalParameters]: 15
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 2
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 6
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+MagicNumber: '1990' is a magic number. [MagicNumber]: 4

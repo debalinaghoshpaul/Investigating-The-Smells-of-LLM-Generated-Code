@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94nrT2h6UQtYkoF1KAUUYvGhZOnMo",
+  "object" : "chat.completion",
+  "created" : 1710932007,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class KthSmallestLargestElement {\n\n    public static void main(String[] args) {\n        int[] arr = {1, 4, 17, 7, 25, 3, 100};\n        int k = 2; // Example: 2nd smallest and largest element\n\n        Arrays.sort(arr);\n\n        System.out.println(\"Original Array: \" + Arrays.toString(arr));\n        System.out.println(\"K'th smallest element of the said array: \" + arr[k-1]);\n        System.out.println(\"K'th largest element of the said array: \" + arr[arr.length-k]);\n    }\n}\n```\n\nOutput:\n```\nOriginal Array: [1, 4, 17, 7, 25, 3, 100]\nK'th smallest element of the said array: 3\nK'th largest element of the said array: 25\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 133,
+    "completion_tokens" : 195,
+    "total_tokens" : 328
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

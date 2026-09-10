@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class BinaryToHexadecimal {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a Binary Number: ");
+        int binaryNumber = scanner.nextInt();
+        System.out.print("HexaDecimal value: ");
+        int hexadecimalNumber = Integer.parseInt(scanner.nextLine(), 16);
+        System.out.println("HexaDecimal value: " + hexadecimalNumber);
+    }
+}
+

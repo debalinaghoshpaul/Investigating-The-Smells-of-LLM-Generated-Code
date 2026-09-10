@@ -1,0 +1,10 @@
+JUnit version 4.13
+......Difference between largest and smallest values in arr1: 20
+Difference between largest and smallest values in arr2: 4
+Difference between largest and smallest values in arr3: 400
+Difference between largest and smallest values in arr4: 0
+.
+Time: 0.361
+
+OK (7 tests)
+

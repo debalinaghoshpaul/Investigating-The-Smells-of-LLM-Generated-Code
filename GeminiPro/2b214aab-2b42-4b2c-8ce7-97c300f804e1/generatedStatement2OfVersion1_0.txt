@@ -1,0 +1,35 @@
+
+
+**Test cases:**
+
+* **Test case 1:**
+    * Input: 153
+    * Output: Is Armstrong number? true
+
+* **Test case 2:**
+    * Input: 371
+    * Output: Is Armstrong number? true
+
+* **Test case 3:**
+    * Input: 123
+    * Output: Is Armstrong number? false
+
+* **Test case 4:**
+    * Input: 9474
+    * Output: Is Armstrong number? true
+
+* **Test case 5:**
+    * Input: 0
+    * Output: Is Armstrong number? true
+
+**Corner cases:**
+
+* **Negative number:**
+    * Input: -123
+    * Output: Is Armstrong number? false
+* **Zero:**
+    * Input: 0
+    * Output: Is Armstrong number? true
+* **Large number:**
+    * Input: 123456789
+    * Output: Is Armstrong number? false

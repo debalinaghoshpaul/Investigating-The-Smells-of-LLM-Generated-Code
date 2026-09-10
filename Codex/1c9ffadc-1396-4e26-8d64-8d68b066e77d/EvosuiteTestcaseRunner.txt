@@ -1,0 +1,7 @@
+JUnit version 4.13
+.....Sum of all numbers along its path: 11
+..
+Time: 0.454
+
+OK (7 tests)
+

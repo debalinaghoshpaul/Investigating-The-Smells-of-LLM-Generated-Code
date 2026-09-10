@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94tUhLBdlCo8rHOCEamXIPSX87uEL",
+  "object" : "chat.completion",
+  "created" : 1710953659,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class TriangleChecker {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        System.out.println(\"Enter the three side lengths of the triangle:\");\n        int side1 = sc.nextInt();\n        int side2 = sc.nextInt();\n        int side3 = sc.nextInt();\n\n        if (isTriangle(side1, side2, side3)) {\n            System.out.println(\"The given side lengths can form a triangle.\");\n        } else {\n            System.out.println(\"The given side lengths cannot form a triangle.\");\n        }\n    }\n\n    public static boolean isTriangle(int side1, int side2, int side3) {\n        if (side1 + side2 > side3 && side2 + side3 > side1 && side1 + side3 > side2) {\n            return true;\n        } else {\n            return false;\n        }\n    }\n}\n```\n\nSample Input/Output:\nEnter the three side lengths of the triangle:\n5\n7\n10\nOutput:\nThe given side lengths can form a triangle."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 77,
+    "completion_tokens" : 221,
+    "total_tokens" : 298
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

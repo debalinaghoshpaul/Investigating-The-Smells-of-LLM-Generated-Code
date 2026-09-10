@@ -1,0 +1,16 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+    * Input: [20, 30, 40]
+    * Output: [30, 40, 20]
+* **Empty array:**
+    * Input: []
+    * Output: []
+* **Array with one element:**
+    * Input: [20]
+    * Output: [20]
+* **Array with two elements:**
+    * Input: [20, 30]
+    * Output: [30, 20]

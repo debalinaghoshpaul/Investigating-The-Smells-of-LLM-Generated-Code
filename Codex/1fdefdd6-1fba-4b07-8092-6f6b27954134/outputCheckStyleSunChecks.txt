@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\1fdefdd6-1fba-4b07-8092-6f6b27954134\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\1fdefdd6-1fba-4b07-8092-6f6b27954134\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\1fdefdd6-1fba-4b07-8092-6f6b27954134\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\1fdefdd6-1fba-4b07-8092-6f6b27954134\generatedProgram1OfVersion1_0.java:7:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\1fdefdd6-1fba-4b07-8092-6f6b27954134\generatedProgram1OfVersion1_0.java:8: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\1fdefdd6-1fba-4b07-8092-6f6b27954134\generatedProgram1OfVersion1_0.java:12: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\1fdefdd6-1fba-4b07-8092-6f6b27954134\generatedProgram1OfVersion1_0.java:16:33: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\1fdefdd6-1fba-4b07-8092-6f6b27954134\generatedProgram1OfVersion1_0.java:18: Line is longer than 80 characters (found 103). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\1fdefdd6-1fba-4b07-8092-6f6b27954134\generatedProgram1OfVersion1_0.java:19:47: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_MultithreadingScenarios\1fdefdd6-1fba-4b07-8092-6f6b27954134\generatedProgram1OfVersion1_0.java:22:54: '20' is a magic number. [MagicNumber]
+Audit done.

@@ -1,0 +1,5 @@
+
+
+In this program, we first check if the stack has at least 2 elements. If it does, we pop the top two elements, swap them, and then push them back onto the stack. Finally, we demonstrate the swapping by printing the stack before and after the operation.
+
+You can run this program in any Java IDE or online compiler to see the swapping in action.

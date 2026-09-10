@@ -1,0 +1,16 @@
+
+
+**Test Cases:**
+
+**Normal Cases**
+1. Input: Create instances of all shapes and print their names
+2. Input: Check if a shape is a circle
+3. Input: Check if a shape is a rectangle
+4. Input: Check if a shape is a square
+5. Input: Check if a shape is a triangle
+
+**Corner Cases**
+1. Input: Try to create an instance of an invalid shape (e.g., "INVALID_SHAPE")
+2. Input: Try to compare a shape to an invalid shape
+3. Input: Try to convert a shape to an invalid type (e.g., string)
+4. Input: Try to modify the values of an enum constant

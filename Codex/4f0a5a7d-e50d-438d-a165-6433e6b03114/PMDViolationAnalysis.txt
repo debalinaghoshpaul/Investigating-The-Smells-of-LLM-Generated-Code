@@ -1,0 +1,6 @@
+Violations by Category:
+LooseCoupling: Avoid using implementation types like 'LinkedList'; use the interface instead: 1
+CyclomaticComplexity: The method 'main(String[])' has a cyclomatic complexity of 10.: 1
+CommentRequired: Class comments are required: 10
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+CloseResource: Ensure that resources like this Scanner object are closed after use: 1

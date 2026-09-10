@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-920SZ9iTnMqnwQL3HGHU4Xof9akgW",
+  "object" : "chat.completion",
+  "created" : 1710265451,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "// Java program to sort a given array of distinct integers where all its numbers are sorted except two numbers\n\nimport java.util.Arrays;\n\npublic class Main {\n    \n    // Function to sort array with two unsorted numbers\n    public static void sortArray(int[] nums) {\n        int n = nums.length;\n        int firstUnsorted = -1, lastUnsorted = -1;\n        \n        // Find the first unsorted number\n        for(int i=0; i<n-1; i++) {\n            if(nums[i] > nums[i+1]) {\n                firstUnsorted = i;\n                break;\n            }\n        }\n        \n        // Find the last unsorted number\n        for(int i=n-1; i>0; i--) {\n            if(nums[i] < nums[i-1]) {\n                lastUnsorted = i;\n                break;\n            }\n        }\n        \n        if(firstUnsorted == -1) {\n            System.out.println(\"Array is already sorted\");\n            return;\n        }\n        \n        int[] tempArray = Arrays.copyOfRange(nums, firstUnsorted, lastUnsorted+1);\n        Arrays.sort(tempArray);\n        \n        int index = 0;\n        for(int i=firstUnsorted; i<=lastUnsorted; i++) {\n            nums[i] = tempArray[index++];\n        }\n        \n        System.out.println(\"After sorting new array becomes: \" + Arrays.toString(nums));\n    }\n    \n    public static void main(String[] args) {\n        int[] nums1 = { 3, 5, 6, 9, 8, 7 };\n        int[] nums2 = { 5, 0, 1, 2, 3, 4, -2 };\n        \n        sortArray(nums1);\n        sortArray(nums2);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 176,
+    "completion_tokens" : 370,
+    "total_tokens" : 546
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

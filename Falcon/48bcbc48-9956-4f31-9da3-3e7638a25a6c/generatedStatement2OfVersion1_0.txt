@@ -1,0 +1,8 @@
+
+
+Test cases:
+
+* **Positive test case:** [1, 2, 3, 4, 5]
+* **Negative test case:** [1, 2, 3, 2, 1]
+* **Corner case:** [1]
+* **Corner case:** []

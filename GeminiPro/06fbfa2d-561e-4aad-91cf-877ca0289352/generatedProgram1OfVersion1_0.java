@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class BeforeAndAfterSubstring {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a non-empty string: ");
+        String str = input.nextLine();
+        System.out.print("Enter a non-empty substring: ");
+        String subStr = input.nextLine();
+
+        String result = "";
+        int index = str.indexOf(subStr);
+
+        while (index != -1) {
+            if (index > 0) {
+                result += str.charAt(index - 1);
+            }
+            result += subStr;
+            if (index + subStr.length() < str.length()) {
+                result += str.charAt(index + subStr.length());
+            }
+            index = str.indexOf(subStr, index + 1);
+        }
+
+        System.out.println("The resulting string is: " + result);
+    }
+}

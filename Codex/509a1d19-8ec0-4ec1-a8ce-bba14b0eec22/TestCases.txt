@@ -1,0 +1,51 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class SwapLastTwoCharacters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.print("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Check if the string length is valid
+        if (str.length() < 2) {
+            System.out.println("The string length must be two or more.");
+            return;
+        }
+
+        // Swap the last two characters of the string
+        char lastChar = str.charAt(str.length() - 1);
+        char secondLastChar = str.charAt(str.length() - 2);
+        str = str.substring(0, str.length() - 2) + secondLastChar + lastChar;
+
+        // Print the resulting string
+        System.out.println("The string after swapping the last two characters is: " + str);
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* Input: "Hello"
+* Expected Output: "Hell"
+* Input: "Programming"
+* Expected Output: "Programmin"
+
+**Corner Cases:**
+
+* **Empty String:**
+    * Input: ""
+    * Expected Output: "The string length must be two or more."
+* **Single-Character String:**
+    * Input: "a"
+    * Expected Output: "The string length must be two or more."
+* **String with Only Two Characters:**
+    * Input: "ab"
+    * Expected Output: "ba"

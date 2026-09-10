@@ -1,0 +1,68 @@
+**Improved WebCrawler.java**
+
+```java
+import java.net.URL;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class WebCrawler {
+
+    private Queue<URL> listOfPendingURLs;
+    private HashSet<URL> listOfTraversedURLs;
+
+    public WebCrawler() {
+        listOfPendingURLs = new LinkedList<>();
+        listOfTraversedURLs = new HashSet<>();
+    }
+
+    public void crawl(URL startURL, int maxURLs) {
+
+        listOfPendingURLs.add(startURL);
+
+        while (!listOfPendingURLs.isEmpty() && listOfTraversedURLs.size() < maxURLs) {
+            URL url = listOfPendingURLs.remove(); // Use a queue to efficiently manage pending URLs
+            if (!listOfTraversedURLs.contains(url)) { // Use a set to efficiently check for traversed URLs
+                listOfTraversedURLs.add(url); // Add the current URL to the list of traversed URLs
+                // ... Crawl the URL here ...
+                // ... Add new URLs to the list of pending URLs ...
+            }
+        }
+    }
+
+}
+```
+
+**Test Cases**
+
+**Normal Case**
+
+* Start URL: https://www.google.com/
+* Max URLs to crawl: 10
+
+**Edge Case: Empty Start URL**
+
+* Start URL: null
+* Max URLs to crawl: 10
+
+**Edge Case: Empty List of Pending URLs**
+
+* Start URL: https://www.google.com/
+* Max URLs to crawl: 0
+
+**Edge Case: Invalid Start URL (404 Error)**
+
+* Start URL: https://www.example.com/non-existent-page
+* Max URLs to crawl: 10
+
+**Edge Case: Cyclic URL Structure**
+
+* Start URL: https://www.example.com/page1
+* Max URLs to crawl: 10
+* page1 contains a link to itself
+
+**Edge Case: Large Number of URLs**
+
+* Start URL: https://www.wikipedia.org/
+* Max URLs to crawl: 10000

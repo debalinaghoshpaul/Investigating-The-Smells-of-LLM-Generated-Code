@@ -1,0 +1,25 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: `The quick brown fox jumps over the lazy dog.`
+* Expected Output: 9
+
+* Input: `This is a sentence with multiple words.`
+* Expected Output: 7
+
+**Corner Cases:**
+
+* Input: `   ` (empty string)
+* Expected Output: 0
+
+* Input: `null`
+* Expected Output: 0
+
+* Input: `a` (single character)
+* Expected Output: 1
+
+* Input: `a b c d e f g h i j` (multiple words separated by spaces)
+* Expected Output: 10

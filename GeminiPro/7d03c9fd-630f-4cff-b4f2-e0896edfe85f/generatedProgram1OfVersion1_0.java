@@ -1,0 +1,69 @@
+// Shape.java
+// Interface Shape with method getArea()
+interface Shape {
+    double getArea();
+}
+
+// Rectangle.java
+// Class Rectangle that implements Shape
+class Rectangle implements Shape {
+    private double length;
+    private double width;
+
+    public Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+
+    @Override
+    public double getArea() {
+        return length * width;
+    }
+}
+
+// Circle.java
+// Class Circle that implements Shape
+class Circle implements Shape {
+    private double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+}
+
+// Triangle.java
+// Class Triangle that implements Shape
+class Triangle implements Shape {
+    private double base;
+    private double height;
+
+    public Triangle(double base, double height) {
+        this.base = base;
+        this.height = height;
+    }
+
+    @Override
+    public double getArea() {
+        return 0.5 * base * height;
+    }
+}
+
+// Main.java
+// Main class to test the Shape interface and its implementations
+public class Main {
+    public static void main(String[] args) {
+        Shape rectangle = new Rectangle(4, 5);
+        System.out.println("Area of rectangle: " + rectangle.getArea());
+
+        Shape circle = new Circle(3);
+        System.out.println("Area of circle: " + circle.getArea());
+
+        Shape triangle = new Triangle(6, 8);
+        System.out.println("Area of triangle: " + triangle.getArea());
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xsZk8mf20tQRGqS1li0WFHPEBlU",
+  "object" : "chat.completion",
+  "created" : 1710255531,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.ArrayList;\nimport java.util.Arrays;\nimport java.util.List;\n\npublic class ArrayToArrayList {\n\n    public static void main(String[] args) {\n        String[] array = {\"apple\", \"banana\", \"orange\", \"grape\", \"kiwi\"};\n\n        List<String> arrayList = new ArrayList<>(Arrays.asList(array));\n\n        System.out.println(\"Array converted to ArrayList: \" + arrayList);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 65,
+    "completion_tokens" : 83,
+    "total_tokens" : 148
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,15 @@
+
+
+Test cases:
+
+* **Valid inputs:**
+    * 123456
+    * 987654
+    * 000000
+* **Invalid inputs:**
+    * -123456 (negative number)
+    * 1234567 (more than six digits)
+    * 1234.56 (decimal number)
+* **Corner cases:**
+    * 0 (single-digit number)
+    * 999999 (six-digit number)

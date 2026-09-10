@@ -1,0 +1,56 @@
+**Java program to find the lexicographic rank of a given string:**
+
+```java
+import java.util.*;
+
+public class LexicographicRank {
+
+    public static void main(String[] args) {
+        String str = "STRING";
+        int rank = findRank(str);
+        System.out.println("The lexicographic rank of the string '" + str + "' is: " + rank);
+    }
+
+    public static int findRank(String str) {
+        int n = str.length();
+        int[] fact = new int[n + 1];
+        fact[0] = 1;
+        for (int i = 1; i <= n; i++) {
+            fact[i] = i * fact[i - 1];
+        }
+        int rank = 1;
+        for (int i = 0; i < n; i++) {
+            int count = 0;
+            for (int j = i + 1; j < n; j++) {
+                if (str.charAt(j) < str.charAt(i)) {
+                    count++;
+                }
+            }
+            rank += count * fact[n - i - 1];
+        }
+        return rank;
+    }
+}
+```
+
+**Test cases:**
+
+**Input:** str = "STRING"
+**Output:** 494
+
+**Input:** str = "ABACABA"
+**Output:** 10
+
+**Input:** str = "ZAXBYDQ"
+**Output:** 1407
+
+**Corner Cases:**
+
+**Input:** str = ""
+**Output:** 1
+
+**Input:** str = "a"
+**Output:** 1
+
+**Input:** str = "zzzzzz"
+**Output:** 26

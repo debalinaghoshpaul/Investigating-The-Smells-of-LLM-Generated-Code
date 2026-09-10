@@ -1,0 +1,5 @@
+
+
+This program creates an original stack with some duplicate elements, and then calls the `removeDuplicates` method to create a new stack without any duplicates. The original stack and the stack with duplicates removed are then printed out.
+
+You can run this program and see the output to verify that duplicates are indeed removed from the stack.

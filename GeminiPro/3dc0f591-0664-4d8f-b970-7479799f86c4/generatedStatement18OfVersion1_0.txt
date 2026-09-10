@@ -1,0 +1,5 @@
+
+
+**5. Removing Multiple Elements Case:**
+
+Input:

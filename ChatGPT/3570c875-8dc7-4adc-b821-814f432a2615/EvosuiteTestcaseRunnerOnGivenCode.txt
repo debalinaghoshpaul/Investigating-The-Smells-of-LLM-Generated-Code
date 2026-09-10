@@ -1,0 +1,8 @@
+JUnit version 4.13
+..Input first floating�point number: Input second floating�point number: These numbers are different.
+.Input first floating�point number: Input second floating�point number: These numbers are the same.
+.Input first floating�point number: .Input first floating�point number: 
+Time: 0.33
+
+OK (5 tests)
+

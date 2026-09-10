@@ -1,0 +1,52 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class SortArray {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the size of the numeric array
+        System.out.println("Enter the size of the numeric array: ");
+        int size = scanner.nextInt();
+
+        // Get the numeric array
+        System.out.println("Enter the elements of the numeric array: ");
+        int[] numericArray = new int[size];
+        for (int i = 0; i < size; i++) {
+            numericArray[i] = scanner.nextInt();
+        }
+
+        // Sort the numeric array
+        Arrays.sort(numericArray);
+
+        // Print the sorted numeric array
+        System.out.println("The sorted numeric array is: ");
+        for (int element : numericArray) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
+
+        // Get the size of the string array
+        System.out.println("Enter the size of the string array: ");
+        size = scanner.nextInt();
+
+        // Get the string array
+        System.out.println("Enter the elements of the string array: ");
+        String[] stringArray = new String[size];
+        for (int i = 0; i < size; i++) {
+            stringArray[i] = scanner.next();
+        }
+
+        // Sort the string array
+        Arrays.sort(stringArray);
+
+        // Print the sorted string array
+        System.out.println("The sorted string array is: ");
+        for (String element : stringArray) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
+    }
+}
+

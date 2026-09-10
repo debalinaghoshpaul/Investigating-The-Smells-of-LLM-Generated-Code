@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Input an integer: 
+.Input an integer: 
+Is Armstrong number? false
+.Input an integer: 
+Is Armstrong number? true
+..Input an integer: 
+Is Armstrong number? false
+.Input an integer: 
+
+Time: 0.52
+
+OK (6 tests)
+

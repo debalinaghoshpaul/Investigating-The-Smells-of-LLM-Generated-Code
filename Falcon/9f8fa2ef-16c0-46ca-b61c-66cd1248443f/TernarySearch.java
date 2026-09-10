@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class TernarySearch {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the array of elements
+        System.out.println("Enter the array of elements (separated by spaces):");
+        int[] array = new int[scanner.nextInt()];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = scanner.nextInt();
+        }
+
+        // Get the element to search for
+        System.out.println("Enter the element to search for:");
+        int elementToSearchFor = scanner.nextInt();
+
+        // Perform ternary search
+        int result = ternarySearch(array, elementToSearchFor);
+
+        // Print the result
+        if (result == -1) {
+            System.out.println("Element not found");
+        } else {
+            System.out.println("Element found at index " + result);
+        }
+    }
+
+    public static int ternarySearch(int[] array, int elementToSearchFor) {
+        int left = 0;
+        int right = array.length - 1;
+
+        while (left <= right) {
+            int mid1 = left + (right - left) / 3;
+            int mid2 = right - (right - left) / 3;
+
+            if (array[mid1] == elementToSearchFor) {
+                return mid1;
+            } else if (array[mid2] == elementToSearchFor) {
+                return mid2;
+            } else if (elementToSearchFor < array[mid1]) {
+                right = mid1 - 1;
+            } else if (elementToSearchFor > array[mid2]) {
+                left = mid2 + 1;
+            } else {
+                return -1;
+            }
+        }
+
+        return -1;
+    }
+}

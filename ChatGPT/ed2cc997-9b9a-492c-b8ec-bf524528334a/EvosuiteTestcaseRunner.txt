@@ -1,0 +1,12 @@
+JUnit version 4.13
+....Enter an integer: 
+Every digit of the number is odd.
+.Enter an integer: 
+.Enter an integer: 
+Not every digit of the number is odd.
+Enter an integer: 
+
+Time: 0.425
+
+OK (6 tests)
+

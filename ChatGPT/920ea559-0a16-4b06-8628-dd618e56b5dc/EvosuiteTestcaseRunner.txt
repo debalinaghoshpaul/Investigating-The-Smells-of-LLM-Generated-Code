@@ -1,0 +1,12 @@
+JUnit version 4.13
+...Maximum subarray sum: 6
+Maximum subarray sum: -1
+Maximum subarray sum: 45
+Maximum subarray sum: -1
+Maximum subarray sum: 0
+Maximum subarray sum: 0
+...
+Time: 0.347
+
+OK (6 tests)
+

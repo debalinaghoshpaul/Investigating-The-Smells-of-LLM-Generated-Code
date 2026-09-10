@@ -1,0 +1,5 @@
+
+        The first 1 natural numbers are :
+        1
+        The Sum of Natural Number upto 1 terms : 1
+        

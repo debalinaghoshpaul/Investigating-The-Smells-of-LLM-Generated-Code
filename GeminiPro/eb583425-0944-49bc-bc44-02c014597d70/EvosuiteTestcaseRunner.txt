@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter a string: Enter another string: The string does not end with the suffix.
+..Enter a string: .Enter a string: Enter another string: The string ends with the suffix.
+
+Time: 0.33
+
+OK (4 tests)
+

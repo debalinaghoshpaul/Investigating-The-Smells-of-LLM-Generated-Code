@@ -1,0 +1,5 @@
+
+Original Linked List:
+10 20 30 40 50 
+After deleting node at position 3:
+10 20 30 50 

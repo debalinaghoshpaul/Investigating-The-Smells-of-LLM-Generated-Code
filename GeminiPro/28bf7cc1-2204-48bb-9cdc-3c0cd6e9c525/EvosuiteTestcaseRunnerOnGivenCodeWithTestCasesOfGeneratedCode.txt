@@ -1,0 +1,69 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.393
+There were 12 failures:
+1) test08(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.main(Main.java:5)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test08(GoldbachConjecture_ESTest.java:99)
+2) test09(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.main(Main.java:5)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test09(GoldbachConjecture_ESTest.java:107)
+3) test06(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.isPrime(Main.java:31)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test06(GoldbachConjecture_ESTest.java:85)
+4) test07(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.isPrime(Main.java:31)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test07(GoldbachConjecture_ESTest.java:91)
+5) test04(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.isPrime(Main.java:31)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test04(GoldbachConjecture_ESTest.java:74)
+6) test05(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.isPrime(Main.java:31)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test05(GoldbachConjecture_ESTest.java:79)
+7) test02(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.main(Main.java:5)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test02(GoldbachConjecture_ESTest.java:43)
+8) test03(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.main(Main.java:5)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test03(GoldbachConjecture_ESTest.java:60)
+9) test00(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.main(Main.java:5)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test00(GoldbachConjecture_ESTest.java:26)
+10) test11(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type GoldbachConjecture must be defined in its own file
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test11(GoldbachConjecture_ESTest.java:121)
+11) test01(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.main(Main.java:5)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test01(GoldbachConjecture_ESTest.java:35)
+12) test10(testing_ChatGPT_on_java.GoldbachConjecture_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.GoldbachConjecture.main(Main.java:5)
+	at testing_ChatGPT_on_java.GoldbachConjecture_ESTest.test10(GoldbachConjecture_ESTest.java:115)
+
+FAILURES!!!
+Tests run: 12,  Failures: 12
+

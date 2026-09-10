@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93CutteW47tI6wJ8MhMrDkRRGE0Pm",
+  "object" : "chat.completion",
+  "created" : 1710551663,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Main {\n    public static void main(String[] args) {\n        int number = 12345;\n        int sum = sumOfDigits(number);\n        System.out.println(\"Sum of digits of \" + number + \" is: \" + sum);\n    }\n    \n    public static int sumOfDigits(int number) {\n        if(number < 10) {\n            return number;\n        } else {\n            return number % 10 + sumOfDigits(number / 10);\n        }\n    }\n}\n```\n\nIn this code, the `sumOfDigits` method takes an integer as input and recursively calculates the sum of its digits. If the number is less than 10, it simply returns the number. Otherwise, it calculates the last digit of the number by taking the modulus by 10 and adds it to the sum of the remaining digits calculated recursively by dividing the number by 10."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 65,
+    "completion_tokens" : 183,
+    "total_tokens" : 248
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

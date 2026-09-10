@@ -1,0 +1,4 @@
+12 failed in 14 test cases
+pass rate = 17 %
+
+{'codebleu': 0.4276680618189565, 'ngram_match_score': 0.2812688767615604, 'weighted_ngram_match_score': 0.3238478149587099, 'syntax_match_score': 0.8055555555555556, 'dataflow_match_score': 0.3}

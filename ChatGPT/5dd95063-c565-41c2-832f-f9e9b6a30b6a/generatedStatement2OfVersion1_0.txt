@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+* **Normal Case:**
+    * Input: "350"
+    * Output: "5"
+* **Odd Length String:**
+    * Input: "abccba"
+    * Output: "cc"
+* **Empty String:**
+    * Input: ""
+    * Output: "The string is empty."
+* **Single Character String:**
+    * Input: "a"
+    * Output: "a"
+* **Non-String Input:**
+    * Input: "123" (integer)
+    * Output: "Invalid input: Please enter a string."

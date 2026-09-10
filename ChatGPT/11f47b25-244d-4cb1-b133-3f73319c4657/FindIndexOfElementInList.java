@@ -1,0 +1,45 @@
+import java.util.List;
+
+public class FindIndexOfElementInList {
+
+    public static <T> int findIndexOfElement(List<T> list, T targetElement) {
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).equals(targetElement)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        // Test case 1: Target element is present in the list
+        List<Integer> integerList = List.of(1, 2, 3, 4, 5);
+        int targetElement = 3;
+        int indexOfElement = findIndexOfElement(integerList, targetElement);
+        System.out.println("Index of " + targetElement + " in integerList: " + indexOfElement); // Expected output: 2
+
+        // Test case 2: Target element is not present in the list
+        List<String> stringList = List.of("apple", "banana", "cherry");
+        String targetElement2 = "grape";
+        int indexOfElement2 = findIndexOfElement(stringList, targetElement2);
+        System.out.println("Index of " + targetElement2 + " in stringList: " + indexOfElement2); // Expected output: -1
+
+        // Test case 3: Empty list
+        List<Double> emptyList = List.of();
+        Double targetElement3 = 3.14;
+        int indexOfElement3 = findIndexOfElement(emptyList, targetElement3);
+        System.out.println("Index of " + targetElement3 + " in emptyList: " + indexOfElement3); // Expected output: -1
+
+        // Test case 4: Target element is the first element in the list
+        List<Boolean> booleanList = List.of(true, false, true);
+        boolean targetElement4 = true;
+        int indexOfElement4 = findIndexOfElement(booleanList, targetElement4);
+        System.out.println("Index of " + targetElement4 + " in booleanList: " + indexOfElement4); // Expected output: 0
+
+        // Test case 5: Target element is the last element in the list
+        List<Character> characterList = List.of('a', 'b', 'c');
+        char targetElement5 = 'c';
+        int indexOfElement5 = findIndexOfElement(characterList, targetElement5);
+        System.out.println("Index of " + targetElement5 + " in characterList: " + indexOfElement5); // Expected output: 2
+    }
+}

@@ -1,0 +1,28 @@
+JUnit version 4.13
+.Enter the length of the first adjoining side: 
+Enter the length of the second adjoining side: 
+Enter the length of the diagonal: 
+The parallelogram is a rhombus.
+.Enter the length of the first adjoining side: 
+Enter the length of the second adjoining side: 
+Enter the length of the diagonal: 
+The parallelogram is neither a rectangle nor a rhombus.
+.Enter the length of the first adjoining side: 
+.Enter the length of the first adjoining side: 
+.Enter the length of the first adjoining side: 
+Enter the length of the second adjoining side: 
+Enter the length of the diagonal: 
+The parallelogram is a rectangle.
+.Enter the length of the first adjoining side: 
+Enter the length of the second adjoining side: 
+Enter the length of the diagonal: 
+The parallelogram is a rhombus.
+..Enter the length of the first adjoining side: 
+Enter the length of the second adjoining side: 
+Enter the length of the diagonal: 
+The parallelogram is neither a rectangle nor a rhombus.
+
+Time: 0.47
+
+OK (8 tests)
+

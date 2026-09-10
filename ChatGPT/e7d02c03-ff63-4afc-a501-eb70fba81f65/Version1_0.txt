@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8rnVkvvbKl6olZJqjVmGH7X3VAKHi",
+  "object" : "chat.completion",
+  "created" : 1707832396,
+  "model" : "gpt-3.5-turbo-0613",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Sure! Here's a Java program to change a PriorityQueue to a maximum priority queue:\n\n```java\nimport java.util.Collections;\nimport java.util.PriorityQueue;\n\npublic class MaximumPriorityQueue {\n    public static void main(String[] args) {\n        // Create a PriorityQueue\n        PriorityQueue<Integer> queue = new PriorityQueue<>();\n\n        // Add elements to the queue\n        queue.add(5);\n        queue.add(10);\n        queue.add(20);\n        queue.add(15);\n        queue.add(2);\n\n        System.out.println(\"Original PriorityQueue: \" + queue);\n\n        // Create a maximum priority queue by using reverseOrder() method from the Collections class\n        PriorityQueue<Integer> maxQueue = new PriorityQueue<>(Collections.reverseOrder());\n        maxQueue.addAll(queue);\n\n        System.out.println(\"Maximum PriorityQueue: \" + maxQueue);\n    }\n}\n```\n\nOutput:\n```\nOriginal PriorityQueue: [2, 5, 20, 15, 10]\nMaximum PriorityQueue: [20, 15, 10, 2, 5]\n```\n\nIn this program, we create a PriorityQueue `queue` and add some elements to it. Then, we create a new PriorityQueue `maxQueue` and pass `Collections.reverseOrder()` as a parameter during initialization. This reverses the natural order of elements in the queue, effectively converting it to a maximum priority queue. Finally, we add all elements from the original queue to the maximum queue using `addAll()` method."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 53,
+    "completion_tokens" : 293,
+    "total_tokens" : 346
+  },
+  "system_fingerprint" : null
+}

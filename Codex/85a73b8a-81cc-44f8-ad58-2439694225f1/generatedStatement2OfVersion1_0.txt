@@ -1,0 +1,19 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+    * Input: 123
+    * Output: 131
+* **Corner case:**
+    * Input: 999
+    * Output: 1001
+* **Negative number:**
+    * Input: -123
+    * Output: Error message: "Invalid input. Please enter a non-negative number."
+* **Zero:**
+    * Input: 0
+    * Output: 1
+* **Single digit number:**
+    * Input: 9
+    * Output: 11

@@ -1,0 +1,5 @@
+
+Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Expected output:
+Even count: 5
+Odd count: 5

@@ -1,0 +1,48 @@
+```java
+import java.util.Scanner;
+import java.util.regex.Pattern;
+
+public class HexCodeValidation {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a string to check if it is a valid hex code:");
+        String input = scanner.nextLine();
+
+        boolean isValid = Pattern.matches("^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$", input);
+
+        if (isValid) {
+            System.out.println("The string is a valid hex code.");
+        } else {
+            System.out.println("The string is not a valid hex code.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Hex Codes:**
+
+* `#FFFFFF`
+* `#000000`
+* `#123456`
+* `#ABCDEF`
+* `#abcdeF`
+
+**Invalid Hex Codes:**
+
+* `##FFFFFF` (extra hash symbol)
+* `#FFFFFFG` (invalid character)
+* `#12345` (too short)
+* `#1234567` (too long)
+* `123456` (no hash symbol)
+
+**Corner Cases:**
+
+* **Empty string:** `""` (invalid)
+* **Whitespace-only string:** `"\s"` (invalid)
+* **Invalid characters:** `"#$%^&*()"` (invalid)
+* **Hex code with leading or trailing whitespace:** `"\n#FFFFFF"` (valid)
+* **Hex code with mixed case:** `"#AbCdEf"` (valid)

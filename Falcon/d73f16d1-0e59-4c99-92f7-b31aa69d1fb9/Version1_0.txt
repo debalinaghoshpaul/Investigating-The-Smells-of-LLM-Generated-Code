@@ -1,0 +1,109 @@
+```java
+import java.util.*;
+
+public class CountOccurrenceOfWords {
+  public static void main(String[] args) {
+    // Set text in a string
+    String text = "Good morning. Have a good class. " +
+      "Have a good visit. Have fun!";
+
+    // Create a TreeMap to store words and their counts
+    Map<String, Integer> map = new TreeMap<>();
+
+    // Split the words in the text
+    String[] words = text.split("[\\s+\\p{P}]");
+
+    // Count the occurrences of each word
+    for (String word : words) {
+      String key = word.toLowerCase();
+
+      if (key.length() > 0) {
+        if (!map.containsKey(key)) {
+          map.put(key, 1);
+        }
+        else {
+          int count = map.get(key);
+          map.put(key, count + 1);
+        }
+      }
+    }
+
+    // Get all entries from the map
+    List<Map.Entry<String, Integer>> entries = new ArrayList<>(map.entrySet());
+
+    // Sort the entries by values
+    Collections.sort(entries, (entry1, entry2) -> {
+      return entry1.getValue() - entry2.getValue();
+    });
+
+    // Print the words and their occurrences
+    for (Map.Entry<String, Integer> entry : entries) {
+      System.out.println(entry.getKey() + ": " + entry.getValue());
+    }
+  }
+}
+```
+
+**Test Cases:**
+
+**1. Normal Case:**
+
+```
+Input: "Good morning. Have a good class. Have a good visit. Have fun!"
+Output:
+a: 1
+class: 1
+fun: 1
+good: 3
+have: 3
+morning: 1
+visit: 1
+```
+
+**2. Empty String:**
+
+```
+Input: ""
+Output: {}
+```
+
+**3. Single Word:**
+
+```
+Input: "Hello"
+Output:
+hello: 1
+```
+
+**4. Punctuation and Symbols:**
+
+```
+Input: "Hello, world! It's a beautiful day."
+Output:
+a: 1
+beautiful: 1
+day: 1
+hello: 1
+it's: 1
+world: 1
+```
+
+**5. Case-Insensitive:**
+
+```
+Input: "Hello hello HELLO"
+Output:
+hello: 3
+```
+
+**6. Special Characters:**
+
+```
+Input: "This #is a **test** string."
+Output:
+a: 1
+is: 1
+string: 1
+test: 1
+this: 1
+```

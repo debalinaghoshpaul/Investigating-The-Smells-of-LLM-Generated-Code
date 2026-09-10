@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_IntroductionToComputers\c95fd94e-82ac-42c9-af18-b46690f3777e\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_IntroductionToComputers\c95fd94e-82ac-42c9-af18-b46690f3777e\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_IntroductionToComputers\c95fd94e-82ac-42c9-af18-b46690f3777e\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_IntroductionToComputers\c95fd94e-82ac-42c9-af18-b46690f3777e\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_IntroductionToComputers\c95fd94e-82ac-42c9-af18-b46690f3777e\generatedProgram1OfVersion1_0.java:7:23: '3.14' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_IntroductionToComputers\c95fd94e-82ac-42c9-af18-b46690f3777e\generatedProgram1OfVersion1_0.java:8:50: '3.14' is a magic number. [MagicNumber]
+Audit done.

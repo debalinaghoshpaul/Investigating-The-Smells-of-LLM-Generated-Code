@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94uVJa2exEZeuPeS9u9rBRtf3tVAV",
+  "object" : "chat.completion",
+  "created" : 1710957541,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class ModuloCalculation {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.print(\"Enter x: \");\n        int x = scanner.nextInt();\n        \n        System.out.print(\"Enter n: \");\n        int n = scanner.nextInt();\n        \n        System.out.print(\"Enter y: \");\n        int y = scanner.nextInt();\n        \n        long result = calculateModulo(x, n, y);\n        \n        System.out.println(\"Result: \" + result);\n    }\n    \n    public static long calculateModulo(int x, int n, int y) {\n        long result = 1;\n        long base = x % y;\n        \n        while (n > 0) {\n            if (n % 2 == 1) {\n                result = (result * base) % y;\n            }\n            base = (base * base) % y;\n            n = n / 2;\n        }\n        \n        return result;\n    }\n}\n```\n\nThis Java program allows the user to input values for x, n, and y, and then computes xn % y using modular exponentiation. The `calculateModulo` method performs the calculation efficiently by using the binary exponentiation method."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 77,
+    "completion_tokens" : 259,
+    "total_tokens" : 336
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

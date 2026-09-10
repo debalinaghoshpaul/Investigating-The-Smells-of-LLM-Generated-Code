@@ -1,0 +1,8 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CognitiveComplexity: The method 'main(String[])' has a cognitive complexity of 23, current threshold is 15: 1
+SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches): 1
+CyclomaticComplexity: The method 'main(String[])' has a cyclomatic complexity of 14.: 1
+CommentRequired: Class comments are required: 2
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+CloseResource: Ensure that resources like this Scanner object are closed after use: 1

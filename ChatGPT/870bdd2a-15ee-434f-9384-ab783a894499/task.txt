@@ -1,0 +1,1 @@
+Problem Description : \nWrite a lambda expression to implement a lambda expression to calculate the factorial of a given number.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 870bdd2a-15ee-434f-9384-ab783a894499.\n

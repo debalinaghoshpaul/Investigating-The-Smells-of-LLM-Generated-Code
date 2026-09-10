@@ -1,0 +1,52 @@
+```java
+import java.util.Scanner;
+
+public class AutomorphicNumber {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input a number: ");
+        int number = input.nextInt();
+
+        // Calculate the square of the number
+        int square = number * number;
+
+        // Check if the square ends in the same digits as the number itself
+        String numberString = Integer.toString(number);
+        String squareString = Integer.toString(square);
+        if (numberString.endsWith(squareString)) {
+            System.out.println("Automorphic Number.");
+        } else {
+            System.out.println("Not an Automorphic Number.");
+        }
+    }
+}
+```
+
+Test cases:
+
+* **Corner cases:**
+    * Input: 0
+    * Expected output: Automorphic Number.
+    * Input: 1
+    * Expected output: Automorphic Number.
+    * Input: 9
+    * Expected output: Automorphic Number.
+* **Positive test cases:**
+    * Input: 5
+    * Expected output: Automorphic Number.
+    * Input: 6
+    * Expected output: Automorphic Number.
+    * Input: 76
+    * Expected output: Automorphic Number.
+    * Input: 890625
+    * Expected output: Automorphic Number.
+* **Negative test cases:**
+    * Input: 2
+    * Expected output: Not an Automorphic Number.
+    * Input: 3
+    * Expected output: Not an Automorphic Number.
+    * Input: 4
+    * Expected output: Not an Automorphic Number.
+    * Input: 8
+    * Expected output: Not an Automorphic Number.

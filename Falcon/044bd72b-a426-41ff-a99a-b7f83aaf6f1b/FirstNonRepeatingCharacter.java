@@ -1,0 +1,42 @@
+import java.util.*;
+
+public class FirstNonRepeatingCharacter {
+
+    public static void main(String[] args) {
+        // Create a queue to store the characters in the stream
+        Queue<Character> queue = new LinkedList<>();
+
+        // Create a set to store the characters that have been repeated
+        Set<Character> repeatedCharacters = new HashSet<>();
+
+        // Create a map to store the count of each character in the stream
+        Map<Character, Integer> characterCounts = new HashMap<>();
+
+        // Read the characters from the stream
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            char character = scanner.next().charAt(0);
+
+            // If the character is not in the set of repeated characters, add it to the queue
+            if (!repeatedCharacters.contains(character)) {
+                queue.add(character);
+            }
+
+            // Increment the count of the character in the map
+            characterCounts.put(character, characterCounts.getOrDefault(character, 0) + 1);
+
+            // If the count of the character is greater than 1, add it to the set of repeated characters
+            if (characterCounts.get(character) > 1) {
+                repeatedCharacters.add(character);
+            }
+
+            // If the queue is not empty, print the first character in the queue
+            if (!queue.isEmpty()) {
+                System.out.println(queue.peek());
+            }
+        }
+
+        // Close the scanner
+        scanner.close();
+    }
+}

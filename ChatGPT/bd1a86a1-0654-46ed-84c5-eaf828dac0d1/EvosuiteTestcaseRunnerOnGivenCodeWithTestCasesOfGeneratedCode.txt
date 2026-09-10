@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.376
+There were 5 failures:
+1) test1(testing_ChatGPT_on_java.Exercise35_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise35.two_sum_array_target(SumOfTwoElementsInArray.java:8)
+	at testing_ChatGPT_on_java.Exercise35_ESTest.test1(Exercise35_ESTest.java:45)
+2) test0(testing_ChatGPT_on_java.Exercise35_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise35.two_sum_array_target(SumOfTwoElementsInArray.java:8)
+	at testing_ChatGPT_on_java.Exercise35_ESTest.test0(Exercise35_ESTest.java:30)
+3) test4(testing_ChatGPT_on_java.Exercise35_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise35 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise35.<init>(SumOfTwoElementsInArray.java:6)
+	at testing_ChatGPT_on_java.Exercise35_ESTest.test4(Exercise35_ESTest.java:75)
+4) test3(testing_ChatGPT_on_java.Exercise35_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise35.main(SumOfTwoElementsInArray.java:36)
+	at testing_ChatGPT_on_java.Exercise35_ESTest.test3(Exercise35_ESTest.java:69)
+5) test2(testing_ChatGPT_on_java.Exercise35_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise35.two_sum_array_target(SumOfTwoElementsInArray.java:8)
+	at testing_ChatGPT_on_java.Exercise35_ESTest.test2(Exercise35_ESTest.java:59)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

@@ -1,0 +1,29 @@
+
+
+**Test cases:**
+
+**Normal case:**
+
+* Input: `[1, 2, 3, 4, 5]`
+* Output: `5`
+
+**Case with duplicates:**
+
+* Input: `[1, 1, 2, 3, 3, 4, 5]`
+* Output: `4`
+
+**Case with negative numbers:**
+
+* Input: `[-1, -2, 0, 1, 2, 3]`
+* Output: `4`
+
+**Corner cases:**
+
+* Input: `[]`
+* Output: `0`
+
+* Input: `[1]`
+* Output: `1`
+
+* Input: `[1, 2, 3, ..., n]`
+* Output: `n`

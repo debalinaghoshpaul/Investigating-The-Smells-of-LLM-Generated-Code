@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94pf8TKlIYgBYNOErqcM6LurJD71o",
+  "object" : "chat.completion",
+  "created" : 1710938930,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.ArrayDeque;\nimport java.util.Deque;\n\npublic class MaximumNumberInWindow {\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 8};\n        int k = 3;\n        int[] result = findMaxInWindow(arr, k);\n        \n        for (int num : result) {\n            System.out.print(num + \" \");\n        }\n    }\n    \n    public static int[] findMaxInWindow(int[] arr, int k) {\n        if (arr == null || arr.length == 0) {\n            return new int[0];\n        }\n        \n        int[] result = new int[arr.length - k + 1];\n        Deque<Integer> deque = new ArrayDeque<>();\n        \n        int index = 0;\n        for (int i = 0; i < arr.length; i++) {\n            // Remove elements outside of the window\n            while (!deque.isEmpty() && deque.peek() < i - k + 1) {\n                deque.poll();\n            }\n            \n            // Remove elements smaller than the current element from the back of the deque\n            while (!deque.isEmpty() && arr[deque.peekLast()] < arr[i]) {\n                deque.pollLast();\n            }\n            \n            deque.offer(i);\n            \n            if (i >= k - 1) {\n                result[index++] = arr[deque.peek()];\n            }\n        }\n        \n        return result;\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 348,
+    "completion_tokens" : 316,
+    "total_tokens" : 664
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

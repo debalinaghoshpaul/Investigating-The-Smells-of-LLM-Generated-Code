@@ -1,0 +1,53 @@
+**Java Program:**
+
+```java
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class MatchStringWithLettersNumbersAndUnderscores {
+
+    public static void main(String[] args) {
+        // Define the regular expression pattern
+        String pattern = "^[a-zA-Z0-9_]+$";
+
+        // Create a Pattern object
+        Pattern compiledPattern = Pattern.compile(pattern);
+
+        // Test various input strings against the pattern
+        String[] inputStrings = {
+                "Hello123_", // Valid
+                "hello123", // Invalid
+                "123_abc", // Valid
+                "abc123!", // Invalid
+                "", // Invalid
+                null // Invalid
+        };
+
+        for (String input : inputStrings) {
+            // Create a Matcher object
+            Matcher matcher = compiledPattern.matcher(input);
+
+            // Check if the input matches the pattern
+            boolean matches = matcher.matches();
+
+            // Print the result
+            System.out.println(String.format("Input: %s, Matches: %s", input, matches));
+        }
+    }
+}
+```
+
+**Test Cases (including corner cases):**
+
+* **Valid Cases:**
+    * "Hello123_"
+    * "123_abc"
+    * "a_b_c_1_2_3"
+
+* **Invalid Cases:**
+    * "hello123" (contains lowercase letters)
+    * "abc123!" (contains a special character)
+    * "" (empty string)
+    * null (null input)
+    * "123" (contains only numbers)
+    * "abc-" (contains a hyphen)

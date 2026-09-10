@@ -1,0 +1,84 @@
+No GPU found. Running on CPU.
+public class Animal {
+    public void move() {
+        System.out.println("Animal is moving");
+    }
+    public void makeSound() {
+        System.out.println("Animal is making sound");
+    }
+}
+
+public class Bird extends Animal {
+    public void move() {
+        System.out.println("Bird is flying");
+    }
+    public void makeSound() {
+        System.out.println("Bird is chirping");
+    }
+}
+
+public class Panthera extends Animal {
+    public void move() {
+        System.out.println("Panthera is walking");
+    }
+    public void makeSound() {
+        System.out.println("Panthera is roaring");
+    }
+}
+
+public class AnimalTest {
+    public static void main(String[] args) {
+        Bird bird = new Bird();
+        Panthera panthera = new Panthera();
+        bird.move();
+        panthera.move();
+        bird.makeSound();
+        panthera.makeSound();
+    }
+}
+
+Output:
+Bird is flying
+Panthera is walking
+Bird is making sound
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying
+Panthera is walking
+Panthera is roaring
+Bird is flying

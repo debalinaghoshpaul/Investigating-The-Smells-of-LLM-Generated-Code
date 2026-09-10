@@ -1,0 +1,18 @@
+import java.text.CharacterIterator;
+import java.text.StringCharacterIterator;
+
+public class UnicodeCodePointCount {
+
+    public static void main(String[] args) {
+        String str = "Hello World!";
+        CharacterIterator it = new StringCharacterIterator(str);
+        int codePointCount = 0;
+
+        while (it.current() != CharacterIterator.DONE) {
+            codePointCount++;
+            it.next();
+        }
+
+        System.out.println("The number of Unicode code points in the string is: " + codePointCount);
+    }
+}

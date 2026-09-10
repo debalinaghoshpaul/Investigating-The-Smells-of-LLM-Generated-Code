@@ -1,0 +1,28 @@
+import java.util.regex.*;
+
+public class StringRegionMatch {
+
+    public static void main(String[] args) {
+        String text = "This is the text to be searched";
+        String pattern = "is";
+
+        // Create a Pattern object
+        Pattern p = Pattern.compile(pattern);
+
+        // Create a Matcher object
+        Matcher m = p.matcher(text);
+
+        // Find the first occurrence of the pattern
+        if (m.find()) {
+            // Get the start and end indexes of the match
+            int start = m.start();
+            int end = m.end();
+
+            // Print the matching region
+            System.out.println("Matching region: " + text.substring(start, end));
+        } else {
+            // No match found
+            System.out.println("No match found");
+        }
+    }
+}

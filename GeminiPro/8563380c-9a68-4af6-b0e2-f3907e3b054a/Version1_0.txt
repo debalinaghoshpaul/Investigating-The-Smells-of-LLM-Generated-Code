@@ -1,0 +1,20 @@
+```java
+import java.util.*; 
+class ConvertToArr { 
+    public static void main(String[] arg) 
+    { 
+        PriorityQueue<Integer> pq 
+            = new PriorityQueue<>(); 
+  
+        for (int i = 10; i > 0; i--) 
+        { 
+            pq.add(i); 
+        } 
+  
+        System.out.print("\nOriginal Priority Queue: " + pq); 
+  
+        Integer[] arr = pq.toArray(new Integer[pq.size()]); 
+        System.out.print("\n" + "Array containing all the elements of the said PriorityQueue: " + Arrays.toString(arr)); 
+    } 
+} 
+```

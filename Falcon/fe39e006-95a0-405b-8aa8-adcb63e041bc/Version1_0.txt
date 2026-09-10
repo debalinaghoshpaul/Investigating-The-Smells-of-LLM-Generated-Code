@@ -1,0 +1,145 @@
+```java
+import java.util.Scanner;
+
+public class NumberToWords {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the number from the user
+        System.out.print("Enter a 3-digit positive number: ");
+        int number = input.nextInt();
+
+        // Convert the number to words
+        String words = numberToWords(number);
+
+        // Print the words
+        System.out.println(words);
+    }
+
+    public static String numberToWords(int number) {
+        // Get the hundreds, tens, and ones
+        int hundreds = number / 100;
+        int tens = (number % 100) / 10;
+        int ones = number % 10;
+
+        // Convert the hundreds to words
+        String hundredsWords = "";
+        switch (hundreds) {
+            case 1:
+                hundredsWords = "C";
+                break;
+            case 2:
+                hundredsWords = "CC";
+                break;
+            case 3:
+                hundredsWords = "CCC";
+                break;
+            case 4:
+                hundredsWords = "CD";
+                break;
+            case 5:
+                hundredsWords = "D";
+                break;
+            case 6:
+                hundredsWords = "DC";
+                break;
+            case 7:
+                hundredsWords = "DCC";
+                break;
+            case 8:
+                hundredsWords = "DCCC";
+                break;
+            case 9:
+                hundredsWords = "CM";
+                break;
+        }
+
+        // Convert the tens to words
+        String tensWords = "";
+        switch (tens) {
+            case 1:
+                tensWords = "X";
+                break;
+            case 2:
+                tensWords = "XX";
+                break;
+            case 3:
+                tensWords = "XXX";
+                break;
+            case 4:
+                tensWords = "XL";
+                break;
+            case 5:
+                tensWords = "L";
+                break;
+            case 6:
+                tensWords = "LX";
+                break;
+            case 7:
+                tensWords = "LXX";
+                break;
+            case 8:
+                tensWords = "LXXX";
+                break;
+            case 9:
+                tensWords = "XC";
+                break;
+        }
+
+        // Convert the ones to words
+        String onesWords = "";
+        switch (ones) {
+            case 1:
+                onesWords = "I";
+                break;
+            case 2:
+                onesWords = "II";
+                break;
+            case 3:
+                onesWords = "III";
+                break;
+            case 4:
+                onesWords = "IV";
+                break;
+            case 5:
+                onesWords = "V";
+                break;
+            case 6:
+                onesWords = "VI";
+                break;
+            case 7:
+                onesWords = "VII";
+                break;
+            case 8:
+                onesWords = "VIII";
+                break;
+            case 9:
+                onesWords = "IX";
+                break;
+        }
+
+        // Return the words
+        return hundredsWords + tensWords + onesWords;
+    }
+}
+```
+
+**Test cases:**
+
+* **123:** CXX123
+* **234:** CCSSS1234
+* **345:** CCCS1234
+* **456:** CD1234
+* **567:** DLX1234
+* **678:** DCLXXX1234
+* **789:** DCCCXC1234
+* **890:** DCCCXC1234
+* **901:** CM1234
+* **0:** ""
+
+**Corner cases:**
+
+* **0:** The program should output an empty string.
+* **100:** The program should output "C".
+* **999:** The program should output "CMXCIX".

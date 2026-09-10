@@ -1,0 +1,49 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E
+Time: 0.54
+There were 8 failures:
+1) test1(testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker.main(Main.java:6)
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest.test1(ParallelogramTypeChecker_ESTest.java:38)
+2) test0(testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker.main(Main.java:6)
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest.test0(ParallelogramTypeChecker_ESTest.java:28)
+3) test3(testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker.main(Main.java:6)
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest.test3(ParallelogramTypeChecker_ESTest.java:64)
+4) test2(testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker.main(Main.java:6)
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest.test2(ParallelogramTypeChecker_ESTest.java:47)
+5) test5(testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker.main(Main.java:6)
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest.test5(ParallelogramTypeChecker_ESTest.java:91)
+6) test4(testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker.main(Main.java:6)
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest.test4(ParallelogramTypeChecker_ESTest.java:81)
+7) test7(testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type ParallelogramTypeChecker must be defined in its own file
+
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest.test7(ParallelogramTypeChecker_ESTest.java:105)
+8) test6(testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker.main(Main.java:6)
+	at testing_ChatGPT_on_java.ParallelogramTypeChecker_ESTest.test6(ParallelogramTypeChecker_ESTest.java:100)
+
+FAILURES!!!
+Tests run: 8,  Failures: 8
+

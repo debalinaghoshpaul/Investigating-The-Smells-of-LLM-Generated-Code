@@ -1,0 +1,8 @@
+
+* **Corner cases:**
+    * Input: `-1`
+    * Output: No output, as the program only prints odd numbers between 1 and 99
+    * Input: `100`
+    * Output: No output, as the program only prints odd numbers between 1 and 99
+    * Input: `0`
+    * Output: No output, as 0 is not an odd number

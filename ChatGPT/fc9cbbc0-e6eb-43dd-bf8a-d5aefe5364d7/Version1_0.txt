@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91zeGAyFGInMdV51ROuZWhLGLX2V2",
+  "object" : "chat.completion",
+  "created" : 1710262332,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class BinaryArraySort {\n\n    public static void sortBinaryArray(int[] arr) {\n        int count = 0;\n\n        for(int i = 0; i < arr.length; i++) {\n            if(arr[i] == 0) {\n                count++;\n            }\n        }\n\n        for(int i = 0; i < count; i++) {\n            arr[i] = 0;\n        }\n\n        for(int i = count; i < arr.length; i++) {\n            arr[i] = 1;\n        }\n    }\n\n    public static void main(String[] args) {\n        int[] b_nums = {0, 1, 1, 0, 1, 1, 0, 1, 0, 0};\n\n        System.out.println(\"Before sorting: \" + Arrays.toString(b_nums));\n\n        sortBinaryArray(b_nums);\n\n        System.out.println(\"After sorting: \" + Arrays.toString(b_nums));\n    }\n}\n```\n\nOutput:\n```\nBefore sorting: [0, 1, 1, 0, 1, 1, 0, 1, 0, 0]\nAfter sorting: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 354,
+    "completion_tokens" : 277,
+    "total_tokens" : 631
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

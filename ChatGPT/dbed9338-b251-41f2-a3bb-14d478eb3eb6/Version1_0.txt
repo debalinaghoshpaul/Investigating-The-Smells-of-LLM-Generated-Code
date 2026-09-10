@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95F4MvXt4XhU2pXzBOaRZ0Oyh2qJR",
+  "object" : "chat.completion",
+  "created" : 1711036594,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class CompareSum {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        System.out.print(\"Enter the first integer (-2 to 2): \");\n        int num1 = input.nextInt();\n        while(num1 < -2 || num1 > 2) {\n            System.out.println(\"Please enter a number between -2 and 2.\");\n            num1 = input.nextInt();\n        }\n\n        System.out.print(\"Enter the second integer (-2 to 2): \");\n        int num2 = input.nextInt();\n        while(num2 < -2 || num2 > 2) {\n            System.out.println(\"Please enter a number between -2 and 2.\");\n            num2 = input.nextInt();\n        }\n\n        System.out.print(\"Enter the third integer (-2 to 2): \");\n        int num3 = input.nextInt();\n        while(num3 < -2 || num3 > 2) {\n            System.out.println(\"Please enter a number between -2 and 2.\");\n            num3 = input.nextInt();\n        }\n\n        if(num1 + num2 > num3) {\n            System.out.println(\"The sum of the first two integers is greater than the third integer.\");\n        } else {\n            System.out.println(\"The sum of the first two integers is not greater than the third integer.\");\n        }\n\n        input.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 88,
+    "completion_tokens" : 285,
+    "total_tokens" : 373
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

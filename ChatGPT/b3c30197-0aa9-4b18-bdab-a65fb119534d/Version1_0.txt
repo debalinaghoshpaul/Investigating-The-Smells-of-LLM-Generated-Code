@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yUiYC0AbLl9tExy4lnDAgdPufyW",
+  "object" : "chat.completion",
+  "created" : 1710257896,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class RemoveDuplicatesFromArray {\n    \n    public static void main(String[] args) {\n        int[] arr = {20, 20, 30, 40, 50, 50, 50};\n        \n        int newLength = removeDuplicates(arr);\n        \n        System.out.println(\"New length of the array after removing duplicates: \" + newLength);\n    }\n    \n    public static int removeDuplicates(int[] arr) {\n        Arrays.sort(arr);\n        \n        int index = 0;\n        \n        for (int i = 0; i < arr.length - 1; i++) {\n            if (arr[i] != arr[i + 1]) {\n                arr[index++] = arr[i];\n            }\n        }\n        \n        arr[index++] = arr[arr.length - 1];\n        \n        return index;\n    }\n}\n```\n\nOutput:\nNew length of the array after removing duplicates: 4"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 111,
+    "completion_tokens" : 191,
+    "total_tokens" : 302
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

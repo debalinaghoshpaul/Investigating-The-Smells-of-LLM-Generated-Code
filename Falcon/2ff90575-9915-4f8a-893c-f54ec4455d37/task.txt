@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to compute the sum of the first 100 prime numbers.\nSum of the first 100 prime numbers: 24133\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 2ff90575-9915-4f8a-893c-f54ec4455d37.\n

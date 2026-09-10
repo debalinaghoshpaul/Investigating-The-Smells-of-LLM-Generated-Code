@@ -1,0 +1,7 @@
+
+Input:
+triangle = new Triangle(3, 4, 10)
+triangle.draw()
+
+Output:
+Exception: Invalid triangle sides: 3, 4, 10

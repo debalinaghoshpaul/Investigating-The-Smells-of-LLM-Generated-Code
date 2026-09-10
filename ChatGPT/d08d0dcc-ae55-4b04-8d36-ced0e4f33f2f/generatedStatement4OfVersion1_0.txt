@@ -1,0 +1,6 @@
+
+
+* **Corner Cases:**
+    * **Input with no fractional part:**
+        * Input: 123
+        * Output:

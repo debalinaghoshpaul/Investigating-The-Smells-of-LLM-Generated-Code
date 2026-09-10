@@ -1,0 +1,66 @@
+```java
+import java.time.LocalDate;
+
+public class DatesBeforeAndAfter {
+
+    public static void main(String[] args) {
+        // Get today's date
+        LocalDate today = LocalDate.now();
+
+        // Get the date 10 days before today
+        LocalDate tenDaysBefore = today.minusDays(10);
+
+        // Get the date 10 days after today
+        LocalDate tenDaysAfter = today.plusDays(10);
+
+        // Print the dates
+        System.out.println("Today's date: " + today);
+        System.out.println("10 days before today: " + tenDaysBefore);
+        System.out.println("10 days after today: " + tenDaysAfter);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+```
+Input:
+Today's date: 2023-03-08
+
+Output:
+10 days before today: 2023-02-26
+10 days after today: 2023-03-18
+```
+
+**Corner Cases:**
+
+**1. First day of the month:**
+```
+Input:
+Today's date: 2023-03-01
+
+Output:
+10 days before today: 2023-02-19
+10 days after today: 2023-03-11
+```
+
+**2. Last day of the month:**
+```
+Input:
+Today's date: 2023-03-31
+
+Output:
+10 days before today: 2023-03-21
+10 days after today: 2023-04-10
+```
+
+**3. Leap year:**
+```
+Input:
+Today's date: 2024-02-29
+
+Output:
+10 days before today: 2024-02-19
+10 days after today: 2024-03-10
+```

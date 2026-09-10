@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93CNwSUG0UwW42qKmzBmZ052S8ZGZ",
+  "object" : "chat.completion",
+  "created" : 1710549620,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class SumOfOddNumbers {\n\n    public static void main(String[] args) {\n        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};\n        int sum = sumOfOddNumbers(numbers);\n        System.out.println(\"Sum of all odd numbers in the array: \" + sum);\n    }\n\n    public static int sumOfOddNumbers(int[] arr) {\n        return sumOfOddNumbersHelper(arr, 0);\n    }\n\n    private static int sumOfOddNumbersHelper(int[] arr, int index) {\n        if (index >= arr.length) {\n            return 0;\n        }\n        \n        if (arr[index] % 2 != 0) {\n            return arr[index] + sumOfOddNumbersHelper(arr, index + 1);\n        } else {\n            return sumOfOddNumbersHelper(arr, index + 1);\n        }\n    }\n}\n```\n\nThis Java program defines a recursive method `sumOfOddNumbers` that calculates the sum of all odd numbers in an array. The main method initializes an array of numbers and calls the `sumOfOddNumbers` method to compute the sum of odd numbers. The `sumOfOddNumbersHelper` method is a recursive helper function that is called for each element in the array. If the current element is odd, it adds the element to the sum, otherwise it skips the element."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 66,
+    "completion_tokens" : 299,
+    "total_tokens" : 365
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

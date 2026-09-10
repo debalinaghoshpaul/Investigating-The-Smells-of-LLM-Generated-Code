@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94uKahtrG9JV8pzkdAHD3DrkaEON3",
+  "object" : "chat.completion",
+  "created" : 1710956876,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.HashMap;\n\npublic class ContinuousSubarraySum {\n\n    public static int findContinuousSubarrays(int[] arr, int target) {\n        HashMap<Integer, Integer> map = new HashMap<>();\n        map.put(0, 1);\n\n        int sum = 0;\n        int count = 0;\n\n        for (int i = 0; i < arr.length; i++) {\n            sum += arr[i];\n\n            if (map.containsKey(sum - target)) {\n                count += map.get(sum - target);\n            }\n\n            map.put(sum, map.getOrDefault(sum, 0) + 1);\n        }\n\n        return count;\n    }\n\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, -1, 2};\n        int target = 3;\n\n        int result = findContinuousSubarrays(arr, target);\n        System.out.println(\"Total number of continuous subarrays with sum \" + target + \": \" + result);\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 77,
+    "completion_tokens" : 206,
+    "total_tokens" : 283
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

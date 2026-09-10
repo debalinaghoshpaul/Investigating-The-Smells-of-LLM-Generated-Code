@@ -1,0 +1,58 @@
+```java
+import java.util.Scanner;
+
+public class CheckIf15 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter two integers:");
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+
+        // Check if either number is 15
+        if (num1 == 15 || num2 == 15) {
+            System.out.println("True");
+            return;
+        }
+
+        // Check if the sum of the numbers is 15
+        if (num1 + num2 == 15) {
+            System.out.println("True");
+            return;
+        }
+
+        // Check if the difference of the numbers is 15
+        if (Math.abs(num1 - num2) == 15) {
+            System.out.println("True");
+            return;
+        }
+
+        // Otherwise, print false
+        System.out.println("False");
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:**
+    * Input: 15, 10
+    * Output: True
+* **Corner case 1:**
+    * Input: 15, 15
+    * Output: True
+* **Corner case 2:**
+    * Input: 0, 15
+    * Output: True
+* **Corner case 3:**
+    * Input: 5, 10
+    * Output: False
+
+**Explanation:**
+
+The program first takes two integers as input from the user. Then, it checks if either of the numbers is equal to 15. If either number is equal to 15, the program prints "True" and terminates.
+
+If neither number is equal to 15, the program checks if the sum of the two numbers is equal to 15. If the sum is equal to 15, the program prints "True" and terminates.
+
+If neither the sum nor the difference of the two numbers is equal to 15, the program prints "False".

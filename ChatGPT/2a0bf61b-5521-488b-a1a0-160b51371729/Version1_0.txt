@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DAQDOSUTvtE7IhGxrFMyZvSeR1dR",
+  "object" : "chat.completion",
+  "created" : 1712925353,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Pet {\n    private String name;\n    private double weight;\n    private String type;\n\n    public Pet(String name, double weight, String type) {\n        this.name = name;\n        this.weight = weight;\n        this.type = type;\n    }\n\n    public void setName(String name) {\n        this.name = name;\n    }\n\n    public String getName() {\n        return name;\n    }\n\n    public void setWeight(double weight) {\n        this.weight = weight;\n    }\n\n    public double getWeight() {\n        return weight;\n    }\n\n    public void setType(String type) {\n        this.type = type;\n    }\n\n    public String getType() {\n        return type;\n    }\n\n    public double acepromazine() {\n        double mgPerKg;\n        double mgPerMl;\n        \n        if (type.equals(\"dog\")) {\n            mgPerKg = 0.03;\n            mgPerMl = 10;\n        } else {\n            mgPerKg = 0.002;\n            mgPerMl = 10;\n        }\n        \n        return (weight / 2.2) * (mgPerKg / mgPerMl);\n    }\n\n    public double carprofen() {\n        double mgPerKg;\n        double mgPerMl;\n        \n        if (type.equals(\"dog\")) {\n            mgPerKg = 0.5;\n            mgPerMl = 12;\n        } else {\n            mgPerKg = 0.25;\n            mgPerMl = 12;\n        }\n        \n        return (weight / 2.2) * (mgPerKg / mgPerMl);\n    }\n\n    public static void main(String[] args) {\n        Pet dog = new Pet(\"Max\", 20, \"dog\");\n        System.out.println(\"Acepromazine dosage for dog \" + dog.getName() + \": \" + dog.acepromazine() + \" ml\");\n        System.out.println(\"Carprofen dosage for dog \" + dog.getName() + \": \" + dog.carprofen() + \" ml\");\n\n        Pet cat = new Pet(\"Whiskers\", 10, \"cat\");\n        System.out.println(\"Acepromazine dosage for cat \" + cat.getName() + \": \" + cat.acepromazine() + \" ml\");\n        System.out.println(\"Carprofen dosage for cat \" + cat.getName() + \": \" + cat.carprofen() + \" ml\");\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 311,
+    "completion_tokens" : 511,
+    "total_tokens" : 822
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

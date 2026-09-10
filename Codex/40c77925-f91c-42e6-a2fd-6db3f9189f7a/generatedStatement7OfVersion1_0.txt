@@ -1,0 +1,4 @@
+
+        The first 0 natural numbers are :
+        The Sum of Natural Number upto 0 terms : 0
+        

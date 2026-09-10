@@ -1,0 +1,51 @@
+import java.util.List;
+
+public class SumEvenOdd {
+
+    public static void main(String[] args) {
+        // Test case 1: List of even and odd numbers
+        List<Integer> numbers1 = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        System.out.println("Sum of even numbers: " + sumEvenNumbers(numbers1));
+        System.out.println("Sum of odd numbers: " + sumOddNumbers(numbers1));
+
+        // Test case 2: List with only even numbers
+        List<Integer> numbers2 = List.of(2, 4, 6, 8, 10);
+        System.out.println("Sum of even numbers: " + sumEvenNumbers(numbers2));
+        System.out.println("Sum of odd numbers: " + sumOddNumbers(numbers2));
+
+        // Test case 3: List with only odd numbers
+        List<Integer> numbers3 = List.of(1, 3, 5, 7, 9);
+        System.out.println("Sum of even numbers: " + sumEvenNumbers(numbers3));
+        System.out.println("Sum of odd numbers: " + sumOddNumbers(numbers3));
+
+        // Test case 4: Empty list
+        List<Integer> numbers4 = List.of();
+        System.out.println("Sum of even numbers: " + sumEvenNumbers(numbers4));
+        System.out.println("Sum of odd numbers: " + sumOddNumbers(numbers4));
+
+        // Test case 5: List with negative numbers
+        List<Integer> numbers5 = List.of(-1, -2, -3, -4, -5, -6, -7, -8, -9, -10);
+        System.out.println("Sum of even numbers: " + sumEvenNumbers(numbers5));
+        System.out.println("Sum of odd numbers: " + sumOddNumbers(numbers5));
+    }
+
+    public static int sumEvenNumbers(List<Integer> numbers) {
+        int sum = 0;
+        for (int number : numbers) {
+            if (number % 2 == 0) {
+                sum += number;
+            }
+        }
+        return sum;
+    }
+
+    public static int sumOddNumbers(List<Integer> numbers) {
+        int sum = 0;
+        for (int number : numbers) {
+            if (number % 2 != 0) {
+                sum += number;
+            }
+        }
+        return sum;
+    }
+}

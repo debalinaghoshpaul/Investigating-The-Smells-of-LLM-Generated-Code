@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to break an integer into a sequence of digits.\nTest Data Input six non-negative digits: 123456 Expected Output : 1 2 3 4 5 6\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 0118a279-b821-4bc7-80d5-b16ce491b64b.\n

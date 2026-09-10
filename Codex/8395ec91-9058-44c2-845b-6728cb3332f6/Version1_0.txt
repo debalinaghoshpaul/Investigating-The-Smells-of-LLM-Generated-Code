@@ -1,0 +1,43 @@
+```java
+public enum Weekend {
+    SATURDAY,
+    SUNDAY
+}
+```
+
+**Test cases:**
+
+* **Normal case:** Check if the enum contains the expected constants.
+```java
+import static org.junit.Assert.*;
+
+public class WeekendTest {
+
+    @Test
+    public void testEnumContainsExpectedConstants() {
+        assertTrue(Weekend.contains(Weekend.SATURDAY));
+        assertTrue(Weekend.contains(Weekend.SUNDAY));
+    }
+}
+```
+
+* **Corner case:** Check if the enum does not contain an unexpected constant.
+```java
+@Test
+public void testEnumDoesNotContainUnexpectedConstants() {
+    assertFalse(Weekend.contains(Weekend.MONDAY));
+    assertFalse(Weekend.contains(Weekend.TUESDAY));
+    assertFalse(Weekend.contains(Weekend.WEDNESDAY));
+    assertFalse(Weekend.contains(Weekend.THURSDAY));
+    assertFalse(Weekend.contains(Weekend.FRIDAY));
+}
+```
+
+* **Edge case:** Check if the enum contains the first and last constants.
+```java
+@Test
+public void testEnumContainsFirstAndLastConstants() {
+    assertTrue(Weekend.contains(Weekend.SATURDAY));
+    assertTrue(Weekend.contains(Weekend.SUNDAY));
+}
+```

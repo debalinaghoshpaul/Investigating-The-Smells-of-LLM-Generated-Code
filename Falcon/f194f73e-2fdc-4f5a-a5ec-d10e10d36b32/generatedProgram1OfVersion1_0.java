@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Problem {
+    public static void main(String[] args) {
+        String str = "Hello World";
+        int p = 3;
+        List<String> result = new ArrayList<>();
+        for (int i = 0; i < p; i++) {
+            result.add(str.substring(0, i));
+        }
+        for (int i = p; i < str.length(); i++) {
+            result.add(str.substring(i));
+        }
+        System.out.println(result);
+    }
+}
+
+// 

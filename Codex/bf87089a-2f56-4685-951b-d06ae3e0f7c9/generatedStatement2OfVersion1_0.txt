@@ -1,0 +1,14 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Start and stop the engine of a car.
+* Start and stop the engine of a motorcycle.
+
+**Corner Cases:**
+
+* Attempt to start the engine of a null vehicle (should throw an exception).
+* Attempt to stop the engine of a null vehicle (should throw an exception).
+* Attempt to call the startEngine() or stopEngine() methods on the Vehicle class directly (should throw an exception).

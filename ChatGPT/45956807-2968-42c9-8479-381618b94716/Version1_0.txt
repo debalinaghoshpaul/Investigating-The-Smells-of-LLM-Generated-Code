@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94q9XHCluPgVWK5I706mNgh8gUTd7",
+  "object" : "chat.completion",
+  "created" : 1710940815,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        \n        // Accepting a positive number from the user\n        System.out.print(\"Enter a positive number: \");\n        int num = input.nextInt();\n        \n        int result = num;\n        while(result > 9) {\n            int sum = 0;\n            while(result > 0) {\n                sum += result % 10;\n                result /= 10;\n            }\n            result = sum;\n        }\n        \n        System.out.println(\"The final result is: \" + result);\n        \n        input.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 73,
+    "completion_tokens" : 134,
+    "total_tokens" : 207
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

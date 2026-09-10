@@ -1,0 +1,8 @@
+
+Input:
+5
+1 3 5 7 9
+
+Output:
+Even numbers: 0
+Odd numbers: 5

@@ -1,0 +1,98 @@
+```java
+import java.util.Scanner;
+
+public class FutureInvestmentValue {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input from the user
+        System.out.println("Input the investment amount: ");
+        double investmentAmount = scanner.nextDouble();
+
+        System.out.println("Input the rate of interest: ");
+        double interestRate = scanner.nextDouble();
+
+        System.out.println("Input number of years: ");
+        int years = scanner.nextInt();
+
+        // Calculate the future investment value
+        double futureValue = calculateFutureValue(investmentAmount, interestRate, years);
+
+        // Print the output
+        System.out.println("The future investment value is: " + futureValue);
+    }
+
+    public static double calculateFutureValue(double investmentAmount, double interestRate, int years) {
+        // Convert the interest rate to a monthly rate
+        double monthlyInterestRate = interestRate / 12 / 100;
+
+        // Calculate the future value
+        double futureValue = investmentAmount * Math.pow((1 + monthlyInterestRate), years * 12);
+
+        return futureValue;
+    }
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+
+Input:
+
+* Investment amount: 1000
+* Interest rate: 10
+* Number of years: 5
+
+Output:
+
+* Future investment value: 1628.89
+
+**Test Case 2:**
+
+Input:
+
+* Investment amount: 5000
+* Interest rate: 5
+* Number of years: 10
+
+Output:
+
+* Future investment value: 6288.95
+
+**Test Case 3:**
+
+Input:
+
+* Investment amount: 0
+* Interest rate: 0
+* Number of years: 0
+
+Output:
+
+* Future investment value: 0
+
+**Test Case 4:**
+
+Input:
+
+* Investment amount: -1000
+* Interest rate: -10
+* Number of years: -5
+
+Output:
+
+* Future investment value: 0.3855
+
+**Test Case 5 (Corner Case):**
+
+Input:
+
+* Investment amount: Double.MAX_VALUE
+* Interest rate: Double.MAX_VALUE
+* Number of years: Integer.MAX_VALUE
+
+Output:
+
+* Future investment value: Infinity

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93CZOswyC6sZqbLjTXcCJVktGo4n5",
+  "object" : "chat.completion",
+  "created" : 1710550330,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class StringPermutations {\n\n    public static List<String> generatePermutations(String input) {\n        List<String> result = new ArrayList<>();\n\n        if (input.length() == 1) {\n            result.add(input);\n        } else {\n            for (int i = 0; i < input.length(); i++) {\n                String firstChar = input.substring(i, i + 1);\n                String restOfChars = input.substring(0, i) + input.substring(i + 1);\n                List<String> subPermutations = generatePermutations(restOfChars);\n                \n                for (String subPerm : subPermutations) {\n                    result.add(firstChar + subPerm);\n                }\n            }\n        }\n\n        return result;\n    }\n\n    public static void main(String[] args) {\n        String input = \"abc\";\n        List<String> permutations = generatePermutations(input);\n        \n        System.out.println(\"All possible permutations of the string '\" + input + \"': \");\n        for (String perm : permutations) {\n            System.out.println(perm);\n        }\n    }\n}\n```\n\nThis Java program defines a recursive method `generatePermutations` which takes a string as input and returns a list of all possible permutations of that string. The method recursively generates permutations by taking each character in the input string and combining it with permutations of the remaining characters. The main method demonstrates how to use this method by generating permutations of the string \"abc\" and printing them out."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 64,
+    "completion_tokens" : 308,
+    "total_tokens" : 372
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

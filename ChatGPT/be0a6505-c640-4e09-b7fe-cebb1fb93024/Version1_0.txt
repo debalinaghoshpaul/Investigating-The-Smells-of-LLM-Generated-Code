@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91zr0CtXYY1YOTGiiQd9cXuzc5LoU",
+  "object" : "chat.completion",
+  "created" : 1710263122,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\nimport java.util.Collections;\nimport java.util.List;\n\npublic class ShuffleArray {\n    public static void main(String[] args) {\n        Integer[] nums = { 1, 2, 3, 4, 5, 6 };\n        shuffleArray(nums);\n    }\n\n    public static void shuffleArray(Integer[] nums) {\n        List<Integer> list = Arrays.asList(nums);\n        Collections.shuffle(list);\n        System.out.println(\"Shuffle Array: \" + list);\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 107,
+    "completion_tokens" : 107,
+    "total_tokens" : 214
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

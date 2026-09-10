@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called "Rectangle" with width and height attributes. Calculate the area and perimeter of the rectangle.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : c1a07d29-538b-484e-a786-58cb47e3a1fd.\n

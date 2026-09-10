@@ -1,0 +1,47 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E
+Time: 0.527
+There were 7 failures:
+1) test6(testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved to a type
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest.test6(TreeDepthAndArrayWithoutDuplicates_ESTest.java:71)
+2) test5(testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved
+
+	at testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest.test5(TreeDepthAndArrayWithoutDuplicates_ESTest.java:65)
+3) test4(testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest.test4(TreeDepthAndArrayWithoutDuplicates_ESTest.java:58)
+4) test3(testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved to a type
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved to a type
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved
+
+	at testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest.test3(TreeDepthAndArrayWithoutDuplicates_ESTest.java:51)
+5) test2(testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved
+
+	at testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest.test2(TreeDepthAndArrayWithoutDuplicates_ESTest.java:45)
+6) test1(testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved
+
+	at testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest.test1(TreeDepthAndArrayWithoutDuplicates_ESTest.java:30)
+7) test0(testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	TreeDepthAndArrayWithoutDuplicates cannot be resolved
+
+	at testing_ChatGPT_on_java.TreeDepthAndArrayWithoutDuplicates_ESTest.test0(TreeDepthAndArrayWithoutDuplicates_ESTest.java:22)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+

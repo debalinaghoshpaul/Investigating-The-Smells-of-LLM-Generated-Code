@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Input a number (string): .Input a number (string): The integer value is: 3
+..Input a number (string): 
+Time: 0.361
+
+OK (4 tests)
+

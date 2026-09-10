@@ -1,0 +1,14 @@
+
+
+**Test cases including corner cases:**
+
+* **Corner case 1:** Input: 0
+* **Corner case 2:** Input: 1
+* **Corner case 3:** Input: 10
+* **Corner case 4:** Input: 11
+* **Corner case 5:** Input: 444444
+* **Corner case 6:** Input: 777777
+* **Corner case 7:** Input: 474747
+* **Corner case 8:** Input: 747474
+* **Corner case 9:** Input: 447744
+* **Corner case 10:** Input: 774477

@@ -1,0 +1,5 @@
+
+
+This program defines a static method `longestConsecutive` which takes an array of integers as input and returns the length of the longest consecutive sequence.
+
+In the `main` method, we create an array with the sample input and call the `longestConsecutive` method to find the length of the longest consecutive sequence in the array. Finally, we print the result.

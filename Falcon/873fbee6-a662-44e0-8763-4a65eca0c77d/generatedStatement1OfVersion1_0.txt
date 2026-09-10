@@ -1,0 +1,40 @@
+
+Enter a double number: 2.0
+2.0 is an integer.
+Enter a double number: -2.0
+-2.0 is not an integer.
+Enter a double number: 3.0
+3.0 is an integer.
+Enter a double number: -3.0
+-3.0 is not an integer.
+Enter a double number: 4.0
+4.0 is an integer.
+Enter a double number: -4.0
+-4.0 is not an integer.
+Enter a double number: 5.0
+5.0 is an integer.
+Enter a double number: -5.0
+-5.0 is not an integer.
+Enter a double number: 6.0
+6.0 is an integer.
+Enter a double number: -6.0
+-6.0 is not an integer.
+Enter a double number: 7.0
+7.0 is an integer.
+Enter a double number: -7.0
+-7.0 is not an integer.
+Enter a double number: 8.0
+8.0 is an integer.
+Enter a double number: -8.0
+-8.0 is not an integer.
+Enter a double number: 9.0
+9.0 is an integer.
+Enter a double number: -9.0
+-9.0 is not an integer.
+Enter a double number: 10.0
+10.0 is an integer.
+Enter a double number: -10.0
+-10.0 is not an integer.
+Enter a double number: 11.0
+11.0 is an integer.
+Enter a double

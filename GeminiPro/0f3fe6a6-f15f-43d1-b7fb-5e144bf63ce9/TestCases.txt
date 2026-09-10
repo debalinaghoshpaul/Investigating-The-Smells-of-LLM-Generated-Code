@@ -1,0 +1,62 @@
+```java
+import java.util.Scanner;
+
+public class CanonicalRepresentation {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Get the canonical representation of the string
+        String canonicalRepresentation = inputString.intern();
+
+        // Print the canonical representation of the string
+        System.out.println("The canonical representation of the string is: " + canonicalRepresentation);
+    }
+}
+```
+
+**Test cases**
+
+**Corner cases**
+
+* **Empty string:** The canonical representation of an empty string is an empty string.
+* **String with only whitespace characters:** The canonical representation of a string with only whitespace characters is an empty string.
+* **String with only digits:** The canonical representation of a string with only digits is the same as the original string.
+* **String with only uppercase letters:** The canonical representation of a string with only uppercase letters is the same as the original string.
+* **String with only lowercase letters:** The canonical representation of a string with only lowercase letters is the same as the original string.
+
+**Normal cases**
+
+* **String with mixed case letters:** The canonical representation of a string with mixed case letters is the same as the original string.
+* **String with special characters:** The canonical representation of a string with special characters is the same as the original string.
+* **String with multiple whitespace characters:** The canonical representation of a string with multiple whitespace characters is the same as the original string, but with all the whitespace characters collapsed into a single space character.
+
+**Output**
+
+For the input string "Hello World", the output will be:
+
+```
+The canonical representation of the string is: Hello World
+```
+
+For the input string "hello world", the output will be:
+
+```
+The canonical representation of the string is: hello world
+```
+
+For the input string "12345", the output will be:
+
+```
+The canonical representation of the string is: 12345
+```
+
+For the input string "!", the output will be:
+
+```
+The canonical representation of the string is: !
+```

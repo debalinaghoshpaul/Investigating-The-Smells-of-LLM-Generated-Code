@@ -1,0 +1,72 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class RemoveCharacterFromString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.print("Enter the input string: ");
+        String inputString = scanner.nextLine();
+
+        // Get the character to be removed from the user
+        System.out.print("Enter the character to be removed: ");
+        char characterToRemove = scanner.next().charAt(0);
+
+        // Create a new string after removing the specified character
+        String newString = inputString.substring(0, 1) + inputString.substring(1, inputString.length() - 1).replaceAll(String.valueOf(characterToRemove), "") + inputString.substring(inputString.length() - 1);
+
+        // Print the new string
+        System.out.println("New string: " + newString);
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+- **Input String:** "Hello World"
+  - **Character to Remove:** 'o'
+  - **Expected Output:** "Hell Wrld"
+
+- **Input String:** "Java Programming"
+  - **Character to Remove:** 'a'
+  - **Expected Output:** "Jv Prrmming"
+
+- **Input String:** "123456789"
+  - **Character to Remove:** '5'
+  - **Expected Output:** "12346789"
+
+- **Input String:** "Hello"
+  - **Character to Remove:** 'e'
+  - **Expected Output:** "Hllo"
+
+- **Input String:** "World"
+  - **Character to Remove:** 'o'
+  - **Expected Output:** "Wrld"
+
+**Corner Cases:**
+
+- **Input String:** "Hello"
+  - **Character to Remove:** 'l'
+  - **Expected Output:** "Heo"
+
+- **Input String:** "Java"
+  - **Character to Remove:** 'v'
+  - **Expected Output:** "Ja"
+
+- **Input String:** "123"
+  - **Character to Remove:** '3'
+  - **Expected Output:** "12"
+
+- **Input String:** "Empty String"
+  - **Character to Remove:** 'a'
+  - **Expected Output:** "Empty String"
+
+- **Input String:** "String with Special Characters @#$%"
+  - **Character to Remove:** '$'
+  - **Expected Output:** "String with Special Characters @#%"

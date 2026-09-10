@@ -1,0 +1,5 @@
+
+
+* **Empty file case:** A file named "numbers.txt" that is empty.
+
+* **File not found case:** Attempt to read a file named "numbers.txt" that does not exist.

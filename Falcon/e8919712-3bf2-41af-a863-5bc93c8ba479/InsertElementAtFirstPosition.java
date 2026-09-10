@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class InsertElementAtFirstPosition {
+
+    public static void main(String[] args) {
+        // create an array list
+        ArrayList<String> names = new ArrayList<>();
+        names.add("John");
+        names.add("Mary");
+        names.add("Bob");
+
+        // print the array list before insertion
+        System.out.println("ArrayList before insertion: " + names);
+
+        // insert an element at the first position
+        names.add(0, "Alice");
+
+        // print the array list after insertion
+        System.out.println("ArrayList after insertion: " + names);
+    }
+}

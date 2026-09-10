@@ -1,0 +1,9 @@
+JUnit version 4.13
+..Input the latitude of coordinate 1: .Input the latitude of coordinate 1: Input the longitude of coordinate 1: Input the latitude of coordinate 2: Input the longitude of coordinate 2: .Input the latitude of coordinate 1: Input the longitude of coordinate 1: Input the latitude of coordinate 2: Input the longitude of coordinate 2: The distance between those points is: 444.17060143684887 km
+.Input the latitude of coordinate 1: Input the longitude of coordinate 1: Input the latitude of coordinate 2: Input the longitude of coordinate 2: The distance between those points is: 2557.48732708213 km
+.Input the latitude of coordinate 1: Input the longitude of coordinate 1: Input the latitude of coordinate 2: Input the longitude of coordinate 2: The distance between those points is: 222.39020235496199 km
+
+Time: 0.361
+
+OK (6 tests)
+

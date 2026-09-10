@@ -1,0 +1,8 @@
+
+Figure.center()
+Rectangle.erase()
+Rectangle.draw()
+
+Figure.center()
+Triangle.erase()
+Triangle.draw()

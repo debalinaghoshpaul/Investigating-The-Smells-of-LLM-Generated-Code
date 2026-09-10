@@ -1,0 +1,7 @@
+
+Input:
+circle = new Circle(-5)
+circle.draw()
+
+Output:
+Exception: Invalid circle radius: -5

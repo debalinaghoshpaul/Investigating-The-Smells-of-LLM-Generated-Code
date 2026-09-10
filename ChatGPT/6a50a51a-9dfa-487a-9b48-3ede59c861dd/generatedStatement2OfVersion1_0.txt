@@ -1,0 +1,32 @@
+
+
+**Test Cases:**
+
+* **Input:** candidates = [2, 3, 4, 5], target = 7
+**Output:** [[2, 2, 3], [2, 5], [3, 4]]
+
+* **Input:** candidates = [2, 3, 4, 5], target = 8
+**Output:** [[2, 2, 2, 2], [2, 3, 3], [3, 5]]
+
+* **Input:** candidates = [2, 3, 4, 5], target = 9
+**Output:** [[2, 2, 2, 3], [2, 2, 5], [2, 3, 4], [3, 3, 3]]
+
+* **Input:** candidates = [2, 3, 4, 5], target = 10
+**Output:** [[2, 2, 2, 2, 2], [2, 2, 3, 3], [2, 3, 5], [3, 3, 4]]
+
+* **Input:** candidates = [2, 3, 4, 5], target = 11
+**Output:** [[2, 2, 2, 2, 3], [2, 2, 3, 4], [2, 3, 3, 3], [3, 3, 5]]
+
+**Corner Cases:**
+
+* **Empty candidates array:**
+**Input:** candidates = [], target = 7
+**Output:** []
+
+* **Target is less than the smallest element in the candidates array:**
+**Input:** candidates = [5], target = 4
+**Output:** []
+
+* **Target is greater than the sum of all elements in the candidates array:**
+**Input:** candidates = [2, 3], target = 10
+**Output:** []

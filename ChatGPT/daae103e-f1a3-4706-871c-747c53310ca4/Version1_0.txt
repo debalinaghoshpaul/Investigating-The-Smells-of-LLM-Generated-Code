@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93PJrU0GHjMBftM5p1YFb7Knn6lj9",
+  "object" : "chat.completion",
+  "created" : 1710599339,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Stack;\n\npublic class StackRotation {\n\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        stack.push(1);\n        stack.push(2);\n        stack.push(3);\n        stack.push(4);\n        stack.push(5);\n\n        System.out.println(\"Original stack: \" + stack);\n\n        rotateStack(stack, 2);\n\n        System.out.println(\"Rotated stack: \" + stack);\n    }\n\n    public static void rotateStack(Stack<Integer> stack, int k) {\n        if (stack.isEmpty() || k < 0) {\n            return;\n        }\n\n        int n = stack.size();\n\n        k = k % n;\n\n        for (int i = 0; i < k; i++) {\n            int temp = stack.pop();\n            stack.insertElementAt(temp, n - 1);\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 62,
+    "completion_tokens" : 181,
+    "total_tokens" : 243
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

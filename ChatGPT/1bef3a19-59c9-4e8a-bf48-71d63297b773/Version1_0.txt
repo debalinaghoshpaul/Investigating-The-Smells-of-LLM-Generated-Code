@@ -1,0 +1,23 @@
+```java
+// Animal Interface
+interface Animal {
+    void bark();
+}
+
+// Dog class implementing Animal
+class Dog implements Animal {
+
+    @Override
+    public void bark() {
+        System.out.println("Dog");
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+        Animal animal = new Dog();
+        animal.bark(); // Prints "Dog"
+    }
+}
+```

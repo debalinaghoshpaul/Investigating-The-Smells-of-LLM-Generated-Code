@@ -1,0 +1,17 @@
+JUnit version 4.13
+.Enter the input string:
+.Enter the input string:
+Enter the first substring to search for:
+Enter the second substring to search for:
+The first substring appears 14 times in the input string.
+The second substring appears 1 times in the input string.
+.Enter the input string:
+Enter the first substring to search for:
+Enter the second substring to search for:
+The first substring appears 0 times in the input string.
+The second substring appears 0 times in the input string.
+.
+Time: 0.582
+
+OK (4 tests)
+

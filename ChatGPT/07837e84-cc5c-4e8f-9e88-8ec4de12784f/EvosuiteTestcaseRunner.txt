@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter an integer: .Enter an integer: ..Enter an integer: 8 is a power of 2.
+.Enter an integer: 9 is not a power of 2.
+
+Time: 1.27
+
+OK (5 tests)
+

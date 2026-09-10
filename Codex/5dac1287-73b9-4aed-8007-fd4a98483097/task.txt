@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find the number of combinations that satisfy p + q + r + s = n where n is a given number <= 4000 and p, q, r, s range from 0 to 1000.\nSample Output:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 5dac1287-73b9-4aed-8007-fd4a98483097.\n

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class EndsWithSpecifiedString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+        System.out.println("Enter a string of length 2: ");
+        String endStr = scanner.nextLine();
+
+        boolean result = endsWithSpecifiedString(str, endStr);
+        System.out.println("Does the string end with the specified string? " + result);
+    }
+
+    public static boolean endsWithSpecifiedString(String str, String endStr) {
+        if (str.length() < endStr.length()) {
+            return false;
+        }
+
+        int startIndex = str.length() - endStr.length();
+        String substring = str.substring(startIndex);
+        return substring.equals(endStr);
+    }
+}

@@ -1,0 +1,16 @@
+JUnit version 4.13
+..Enter the first string:
+Enter the second string:
+The first string appears at the end of the second string.
+.Enter the first string:
+Enter the second string:
+Neither string appears at the end of the other string.
+.Enter the first string:
+.Enter the first string:
+Enter the second string:
+The second string appears at the end of the first string.
+
+Time: 0.494
+
+OK (5 tests)
+

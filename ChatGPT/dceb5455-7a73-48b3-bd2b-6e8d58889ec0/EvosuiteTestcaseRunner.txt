@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Data: Hello, World!
+CRC Value: ec4ac3d0
+...
+Time: 1.081
+
+OK (4 tests)
+

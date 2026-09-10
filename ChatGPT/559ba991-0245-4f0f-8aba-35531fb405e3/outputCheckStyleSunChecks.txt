@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\559ba991-0245-4f0f-8aba-35531fb405e3\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\559ba991-0245-4f0f-8aba-35531fb405e3\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\559ba991-0245-4f0f-8aba-35531fb405e3\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\559ba991-0245-4f0f-8aba-35531fb405e3\generatedProgram1OfVersion1_0.java:7:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\559ba991-0245-4f0f-8aba-35531fb405e3\generatedProgram1OfVersion1_0.java:22:41: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbsoluteJava_Arrays\559ba991-0245-4f0f-8aba-35531fb405e3\generatedProgram1OfVersion1_0.java:42: Line is longer than 80 characters (found 91). [LineLength]
+Audit done.

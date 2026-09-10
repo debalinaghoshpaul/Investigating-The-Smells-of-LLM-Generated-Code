@@ -1,0 +1,60 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class RemoveSubstring {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = input.nextLine();
+
+        int len = str.length();
+
+        if (len < 2) {
+            System.out.println("Original string: " + str);
+        } else {
+            String substring = str.substring(0, 2);
+
+            if (str.endsWith(substring)) {
+                str = str.substring(2);
+            }
+
+            System.out.println("Modified string: " + str);
+        }
+    }
+}
+```
+
+**Test Cases including Corner Cases:**
+
+**1. Corner Case (Empty String):**
+
+* Input: ""
+* Expected Output: ""
+
+**2. Corner Case (String with Length 1):**
+
+* Input: "a"
+* Expected Output: "a"
+
+**3. Basic Case (String with Beginning and Ending Substring):**
+
+* Input: "abcdab"
+* Expected Output: "cdab"
+
+**4. Basic Case (String without Beginning and Ending Substring):**
+
+* Input: "abcdefg"
+* Expected Output: "abcdefg"
+
+**5. Case (Substring at the Beginning Only):**
+
+* Input: "abcabc"
+* Expected Output: "cabc"
+
+**6. Case (Substring at the Ending Only):**
+
+* Input: "abcdbc"
+* Expected Output: "abcd"

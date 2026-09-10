@@ -1,0 +1,16 @@
+JUnit version 4.13
+.Enter a non-negative integer: 
+The number of digits with the value 2 is: 0
+.Enter a non-negative integer: 
+The number of digits with the value 2 is: 0
+Enter a non-negative integer: 
+The number of digits with the value 2 is: 0
+..Enter a non-negative integer: 
+The number of digits with the value 2 is: 1
+.Enter a non-negative integer: 
+.Enter a non-negative integer: 
+
+Time: 0.408
+
+OK (6 tests)
+

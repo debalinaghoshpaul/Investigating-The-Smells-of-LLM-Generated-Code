@@ -1,0 +1,40 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class ConvertToUppercase {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input string
+        System.out.println("Enter the string: ");
+        String inputString = scanner.nextLine();
+
+        // Convert the string to uppercase
+        String upperCaseString = inputString.toUpperCase();
+
+        // Print the upper case string
+        System.out.println("Upper case string: " + upperCaseString);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+| Input String | Expected Output |
+|---|---|
+| hello world | HELLO WORLD |
+| This is a test | THIS IS A TEST |
+| 12345 | 12345 |
+
+**Corner Cases:**
+
+| Input String | Expected Output |
+|---|---|
+| "" (empty string) | "" (empty string) |
+| null | "null" |
+| String containing special characters | Uppercase version of the string with special characters converted |

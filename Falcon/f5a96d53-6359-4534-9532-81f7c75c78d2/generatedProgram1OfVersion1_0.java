@@ -1,0 +1,27 @@
+import java.util.function.Function;
+
+public class IntegerToBinary {
+
+    public static void main(String[] args) {
+        // Create a lambda expression to convert an integer to its binary representation
+        Function<Integer, String> integerToBinary = (num) -> {
+            String binary = "";
+            while (num > 0) {
+                if (num % 2 == 0) {
+                    binary = "0" + binary;
+                } else {
+                    binary = "1" + binary;
+                }
+                num /= 2;
+            }
+            return binary;
+        };
+
+        // Test the lambda expression with different corner cases
+        System.out.println(integerToBinary.apply(0)); // Output: 0
+        System.out.println(integerToBinary.apply(1)); // Output: 1
+        System.out.println(integerToBinary.apply(10)); // Output: 1010
+        System.out.println(integerToBinary.apply(100)); // Output: 1100100
+        System.out.println(integerToBinary.apply(-1)); // Output: -1
+    }
+}

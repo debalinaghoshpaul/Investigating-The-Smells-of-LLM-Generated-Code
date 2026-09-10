@@ -1,0 +1,202 @@
+```java
+import java.util.Scanner;
+
+public class IslandCounter {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input data
+        int[][] grid = new int[10][10];
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                grid[i][j] = scanner.nextInt();
+            }
+        }
+
+        // Count the number of islands
+        int islandCount = 0;
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                if (grid[i][j] == 1 && isIsland(grid, i, j)) {
+                    islandCount++;
+                }
+            }
+        }
+
+        // Print the number of islands
+        System.out.println(islandCount);
+    }
+
+    private static boolean isIsland(int[][] grid, int i, int j) {
+        // Check if the square is out of bounds
+        if (i < 0 || i >= 10 || j < 0 || j >= 10) {
+            return false;
+        }
+
+        // Check if the square is blue
+        if (grid[i][j] == 0) {
+            return false;
+        }
+
+        // Check if the square is already visited
+        if (grid[i][j] == 2) {
+            return false;
+        }
+
+        // Mark the square as visited
+        grid[i][j] = 2;
+
+        // Check if the square is connected to other green squares
+        // Check the square above
+        if (i > 0 && grid[i - 1][j] == 1) {
+            if (!isIsland(grid, i - 1, j)) {
+                return false;
+            }
+        }
+        // Check the square below
+        if (i < 9 && grid[i + 1][j] == 1) {
+            if (!isIsland(grid, i + 1, j)) {
+                return false;
+            }
+        }
+        // Check the square to the left
+        if (j > 0 && grid[i][j - 1] == 1) {
+            if (!isIsland(grid, i, j - 1)) {
+                return false;
+            }
+        }
+        // Check the square to the right
+        if (j < 9 && grid[i][j + 1] == 1) {
+            if (!isIsland(grid, i, j + 1)) {
+                return false;
+            }
+        }
+
+        // The square is an island
+        return true;
+    }
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+Input:
+```
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+```
+Output:
+```
+1
+```
+
+**Test Case 2:**
+Input:
+```
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 0 0 0 1 1 1 1
+1 1 1 0 1 0 1 1 1 1
+1 1 1 0 1 0 1 1 1 1
+1 1 1 0 1 0 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+```
+Output:
+```
+3
+```
+
+**Test Case 3:**
+Input:
+```
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 0 0 0 0 1 1 1
+1 1 1 0 1 1 0 1 1 1
+1 1 1 0 1 1 0 1 1 1
+1 1 1 0 1 1 0 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+```
+Output:
+```
+2
+```
+
+**Test Case 4:**
+Input:
+```
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 0 1 1 1
+1 1 1 1 1 1 0 1 1 1
+1 1 1 1 1 1 0 1 1 1
+1 1 1 1 1 1 0 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+```
+Output:
+```
+1
+```
+
+**Test Case 5:**
+Input:
+```
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 0 0 0 0 0 0 0 0 1
+```
+Output:
+```
+0
+```
+
+**Test Case 6 (Corner Case: No islands):**
+Input:
+```
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+```
+Output:
+```
+0
+```
+
+**Test Case 7 (Corner Case: Single island):**
+Input:
+```
+1 0 0 0 0 0 0 0 0 0
+0 1 0

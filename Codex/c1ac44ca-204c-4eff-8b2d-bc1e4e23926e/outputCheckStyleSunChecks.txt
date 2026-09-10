@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\c1ac44ca-204c-4eff-8b2d-bc1e4e23926e\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\c1ac44ca-204c-4eff-8b2d-bc1e4e23926e\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\c1ac44ca-204c-4eff-8b2d-bc1e4e23926e\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\c1ac44ca-204c-4eff-8b2d-bc1e4e23926e\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\c1ac44ca-204c-4eff-8b2d-bc1e4e23926e\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\c1ac44ca-204c-4eff-8b2d-bc1e4e23926e\generatedProgram1OfVersion1_0.java:20:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\c1ac44ca-204c-4eff-8b2d-bc1e4e23926e\generatedProgram1OfVersion1_0.java:20:39: Parameter num1 should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\c1ac44ca-204c-4eff-8b2d-bc1e4e23926e\generatedProgram1OfVersion1_0.java:20:52: Parameter num2 should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesMethods\c1ac44ca-204c-4eff-8b2d-bc1e4e23926e\generatedProgram1OfVersion1_0.java:20:65: Parameter num3 should be final. [FinalParameters]
+Audit done.

@@ -1,0 +1,8 @@
+Violations by Category:
+OuterTypeFilename: The name of the outer type and the file do not match. [OuterTypeFilename]: 1
+LocalVariableName: Local variable name 'employee_id' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'. [LocalVariableName]: 3
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+ParameterName: Parameter name 'employee_id' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'. [ParameterName]: 6
+MemberName: Member name 'employee_id' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'. [MemberName]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+Indentation: 'member def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]: 35

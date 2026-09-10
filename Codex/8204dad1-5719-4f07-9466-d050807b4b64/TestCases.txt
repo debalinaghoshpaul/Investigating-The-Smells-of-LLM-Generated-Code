@@ -1,0 +1,69 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class CharacterSequence {
+
+    public static void main(String[] args) {
+        // Get the input string from the user
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a string:");
+        String input = scanner.nextLine();
+
+        // Get the character to check for
+        System.out.println("Enter a character:");
+        char target = scanner.next().charAt(0);
+
+        // Check if the first instance of the character is immediately followed by the same character
+        int index = input.indexOf(target);
+        boolean isFollowed = false;
+        if (index != -1 && index < input.length() - 1) {
+            isFollowed = input.charAt(index + 1) == target;
+        }
+
+        // Print the result
+        System.out.println(isFollowed ? "Yes, the first instance of the character is immediately followed by the same character." : "No, the first instance of the character is not immediately followed by the same character.");
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* Input: "hello"
+  * Target: 'l'
+  * Output: true
+
+* Input: "programming"
+  * Target: 'g'
+  * Output: true
+
+* Input: "Mississippi"
+  * Target: 's'
+  * Output: true
+
+**Negative Test Cases:**
+
+* Input: "java"
+  * Target: 'v'
+  * Output: false
+
+* Input: "computer"
+  * Target: 'm'
+  * Output: false
+
+**Corner Cases:**
+
+* Input: ""
+  * Target: 'a'
+  * Output: false (empty string)
+
+* Input: "a"
+  * Target: 'a'
+  * Output: false (only one character)
+
+* Input: "abcabc"
+  * Target: 'b'
+  * Output: true (first instance is followed by the same character)

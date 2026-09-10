@@ -1,0 +1,13 @@
+ []
+
+// Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem. For example, you can add a test case where the array is null.
+
+public class ArrayToArrayList {
+    public static void main(String[] args) {
+        int[] arr = null;
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(arr));
+        System.out.println(list);
+    }
+}
+

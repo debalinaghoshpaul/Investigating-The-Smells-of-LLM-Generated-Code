@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\820f71aa-aee2-465c-9e24-0043a8e45c93\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\820f71aa-aee2-465c-9e24-0043a8e45c93\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\820f71aa-aee2-465c-9e24-0043a8e45c93\generatedProgram1OfVersion1_0.java:7:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\820f71aa-aee2-465c-9e24-0043a8e45c93\generatedProgram1OfVersion1_0.java:8:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\820f71aa-aee2-465c-9e24-0043a8e45c93\generatedProgram1OfVersion1_0.java:8:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\820f71aa-aee2-465c-9e24-0043a8e45c93\generatedProgram1OfVersion1_0.java:9: Line is longer than 80 characters (found 98). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\820f71aa-aee2-465c-9e24-0043a8e45c93\generatedProgram1OfVersion1_0.java:12: Line is longer than 80 characters (found 84). [LineLength]
+Audit done.

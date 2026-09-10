@@ -1,0 +1,5 @@
+
+Minimum year: 1970
+Minimum month: 0
+Minimum week: 1
+Minimum date: 1

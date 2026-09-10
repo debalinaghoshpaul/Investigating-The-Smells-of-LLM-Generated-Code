@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class BinaryToOctal {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a binary number: ");
+        int binaryNumber = scanner.nextInt();
+        int octalNumber = 0;
+        while (binaryNumber!= 0) {
+            octalNumber = octalNumber * 8 + binaryNumber % 8;
+            binaryNumber = binaryNumber / 8;
+        }
+        System.out.println("Octal number: " + octalNumber);
+    }
+}
+
+// 

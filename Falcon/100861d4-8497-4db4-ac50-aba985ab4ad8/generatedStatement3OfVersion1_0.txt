@@ -1,0 +1,5 @@
+
+Input: 
+
+Output:
+The current date and time is: 2023/03/08 15:39:22

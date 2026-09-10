@@ -1,0 +1,5 @@
+
+
+
+**Java program to count the elements that differ by 1 or less between two given arrays of integers with the same length:**
+

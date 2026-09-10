@@ -1,0 +1,31 @@
+
+
+**Test Cases:**
+
+* **Test Case 1:**
+    * Input:
+        * array1 = {"Apple", "Orange", "Banana", "Grape"}
+        * array2 = {"Orange", "Strawberry", "Kiwi", "Grape"}
+    * Output:
+        * Common elements between array1 and array2: [Grape, Orange]
+
+* **Test Case 2:**
+    * Input:
+        * array3 = {"Apple", "Orange", "Banana"}
+        * array4 = {"Strawberry", "Kiwi", "Grape"}
+    * Output:
+        * Common elements between array3 and array4: []
+
+* **Test Case 3:**
+    * Input:
+        * array5 = {}
+        * array6 = {"Orange", "Strawberry", "Kiwi"}
+    * Output:
+        * Common elements between array5 and array6: []
+
+* **Test Case 4:**
+    * Input:
+        * array7 = {}
+        * array8 = {}
+    * Output:
+        * Common elements between array7 and array8: []

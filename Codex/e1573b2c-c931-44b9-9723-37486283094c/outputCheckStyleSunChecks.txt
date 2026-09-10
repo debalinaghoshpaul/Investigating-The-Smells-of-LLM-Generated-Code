@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:5:48: Parameter obstacleGrid should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:9: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:12: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:43: Line is longer than 80 characters (found 94). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:47:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:47:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\e1573b2c-c931-44b9-9723-37486283094c\generatedProgram1OfVersion1_0.java:62: Line is longer than 80 characters (found 81). [LineLength]
+Audit done.

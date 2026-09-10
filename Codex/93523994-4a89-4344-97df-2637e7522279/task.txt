@@ -1,0 +1,1 @@
+Problem Description : \nThere are four different points on a plane: P(xp, yp), Q(xq, yq), R(xr, yr) and S(xs, ys). Write a Java program to test whether AB and CD are orthogonal or not.\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 93523994-4a89-4344-97df-2637e7522279.\n

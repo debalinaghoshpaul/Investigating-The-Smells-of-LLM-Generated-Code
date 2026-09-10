@@ -1,0 +1,11 @@
+Violations by Category:
+VisibilityModifier: Variable 'balance' must be private and have accessor methods. [VisibilityModifier]: 1
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 2
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 3
+FinalParameters: Parameter balance should be final. [FinalParameters]: 8
+HiddenField: 'balance' hides a field. [HiddenField]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '1000' is a magic number. [MagicNumber]: 6

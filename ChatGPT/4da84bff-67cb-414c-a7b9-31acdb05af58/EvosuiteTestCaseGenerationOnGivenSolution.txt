@@ -1,0 +1,149 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: testing_ChatGPT_on_java.ExponentiationCalculator
+* Starting client
+* Connecting to master process on port 3664
+* Analyzing classpath: 
+  - C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\target\classes
+* Finished analyzing classpath
+* Generating tests for class testing_ChatGPT_on_java.ExponentiationCalculator
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 9
+  - Branch 4
+  - Exception 0
+  - MutationFactory 46
+  - Output 3
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 4
+
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 1710548118542
+* Starting evolution
+
+[Progress:>                             3%] [Cov:====>                              12%]
+[Progress:>                             3%] [Cov:========>                          25%]
+[Progress:>                             3%] [Cov:============>                      37%]
+[Progress:>                             3%] [Cov:===================>               55%]
+[Progress:>                             3%] [Cov:=======================>           66%]
+[Progress:>                             3%] [Cov:=========================>         73%]
+[Progress:>                             3%] [Cov:===========================>       79%]
+[Progress:====>                         16%] [Cov:====>                              12%]
+[Progress:====>                         16%] [Cov:========>                          25%]
+[Progress:====>                         16%] [Cov:============>                      37%]
+[Progress:====>                         16%] [Cov:===================>               55%]
+[Progress:====>                         16%] [Cov:=======================>           66%]
+[Progress:====>                         16%] [Cov:==========================>        77%]
+[Progress:====>                         16%] [Cov:==============================>    88%]
+[Progress:=====>                        18%] [Cov:====>                              12%]
+[Progress:=====>                        18%] [Cov:========>                          25%]
+[Progress:=====>                        18%] [Cov:============>                      37%]
+[Progress:=====>                        18%] [Cov:===================>               55%]
+[Progress:=====>                        18%] [Cov:=====================>             62%]
+[Progress:=====>                        18%] [Cov:=========================>         74%]
+[Progress:=====>                        18%] [Cov:=============================>     85%]
+[Progress:=====>                        18%] [Cov:=================================> 96%]
+[Progress:========>                     28%] [Cov:====>                              12%]
+[Progress:========>                     28%] [Cov:========>                          25%]
+[Progress:========>                     28%] [Cov:============>                      37%]
+[Progress:========>                     28%] [Cov:===================>               55%]
+[Progress:========>                     28%] [Cov:=======================>           66%]
+[Progress:========>                     28%] [Cov:==========================>        77%]
+[Progress:========>                     28%] [Cov:==============================>    88%]
+[Progress:==================>           63%] [Cov:====>                              12%]
+[Progress:==================>           63%] [Cov:========>                          25%]
+[Progress:==================>           63%] [Cov:============>                      37%]
+[Progress:==================>           63%] [Cov:===================>               55%]
+[Progress:==================>           63%] [Cov:=======================>           66%]
+[Progress:==================>           63%] [Cov:==========================>        77%]
+[Progress:==================>           63%] [Cov:=============================>     85%]
+[Progress:==================>           63%] [Cov:===============================>   90%]
+[Progress:=====================>        73%] [Cov:>                                  0%]
+[Progress:=====================>        73%] [Cov:====>                              12%]
+[Progress:========================>     83%] [Cov:====>                              12%]
+[Progress:========================>     83%] [Cov:========>                          25%]
+[Progress:========================>     83%] [Cov:============>                      37%]
+[Progress:========================>     83%] [Cov:===================>               55%]
+[Progress:========================>     83%] [Cov:=======================>           66%]
+[Progress:========================>     83%] [Cov:==========================>        77%]
+[Progress:========================>     83%] [Cov:=============================>     83%]
+[Progress:==============================100%] [Cov:====>                              12%]
+[Progress:==============================100%] [Cov:========>                          25%]
+[Progress:==============================100%] [Cov:============>                      37%]
+[Progress:==============================100%] [Cov:===================>               55%]
+[Progress:==============================100%] [Cov:=====================>             62%]
+[Progress:==============================100%] [Cov:========================>          70%]
+[Progress:==============================100%] [Cov:==========================>        75%]
+[Progress:==============================100%] [Cov:=================================> 96%]
+[Progress:==============================100%] [Cov:===================================100%]
+* Search finished after 69s and 0 generations, 530 statements, best individual has fitness: 0.5
+[MASTER] 00:16:28.376 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 8 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 00:17:18.503 [logback-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was Weak Mutation 5: testing_ChatGPT_on_java.ExponentiationCalculator.calculateExponentiation(DI)D:6 - ReplaceComparisonOperator != -> >
+[MASTER] 00:17:36.567 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 46
+* Number of covered goals: 46
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Generated 9 tests with total length 105
+* Resulting test suite's coverage: 100% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 46%
+* Compiling and checking tests
+[MASTER] 00:18:16.725 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.StackOverflowError: null
+[MASTER] 00:18:16.725 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ double double0 = 0.0;
+int int0 = (-931);
+ExponentiationCalculator.calculateExponentiation(double0, int0);
+String[] stringArray0 = new String[4];
+String string0 = "";
+stringArray0[0] = string0;
+String string1 = "";
+stringArray0[1] = string1;
+String string2 = "C-^29y";
+stringArray0[2] = string2;
+String string3 = "";
+stringArray0[3] = string3;
+ExponentiationCalculator.main(stringArray0);
+
+* Writing JUnit test case 'ExponentiationCalculator_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

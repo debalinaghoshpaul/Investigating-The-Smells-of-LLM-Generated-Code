@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int n = arr.length;
+        int l = 0;
+        int r = n - 1;
+        while (l <= r) {
+            if (arr[l]!= arr[r]) {
+                return false;
+            }
+            l++;
+            r--;
+        }
+        return true;
+    }
+}
+

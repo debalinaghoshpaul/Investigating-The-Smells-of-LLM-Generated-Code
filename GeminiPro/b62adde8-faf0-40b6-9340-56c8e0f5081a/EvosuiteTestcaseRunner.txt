@@ -1,0 +1,7 @@
+JUnit version 4.13
+.VW!dF.r: [8]
+...
+Time: 0.345
+
+OK (4 tests)
+

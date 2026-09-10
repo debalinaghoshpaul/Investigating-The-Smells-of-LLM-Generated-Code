@@ -1,0 +1,79 @@
+No GPU found. Running on CPU.
+public class Swap {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        int temp = x;
+        x = y;
+        y = temp;
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+    }
+}
+
+Output:
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x = 20
+y = 10
+x = 10
+y = 20
+x =

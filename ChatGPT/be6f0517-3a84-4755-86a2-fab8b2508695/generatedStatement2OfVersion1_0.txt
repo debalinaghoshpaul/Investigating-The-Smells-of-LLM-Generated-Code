@@ -1,0 +1,3 @@
+
+
+This program defines a method `getProductArray` that takes an array of integers as input and returns another array where each element is the product of every other element in the input array. The main method demonstrates the usage of this method with two different input arrays.

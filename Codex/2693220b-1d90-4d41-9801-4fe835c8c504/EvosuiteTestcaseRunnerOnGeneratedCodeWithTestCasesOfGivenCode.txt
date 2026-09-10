@@ -1,0 +1,49 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E
+Time: 0.356
+There were 8 failures:
+1) test0(testing_ChatGPT_on_java.Exercise28_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise28 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise28_ESTest.test0(Exercise28_ESTest.java:26)
+2) test1(testing_ChatGPT_on_java.Exercise28_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise28 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise28_ESTest.test1(Exercise28_ESTest.java:35)
+3) test6(testing_ChatGPT_on_java.Exercise28_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise28 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise28_ESTest.test6(Exercise28_ESTest.java:91)
+4) test7(testing_ChatGPT_on_java.Exercise28_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise28 cannot be resolved to a type
+	Exercise28 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise28_ESTest.test7(Exercise28_ESTest.java:97)
+5) test4(testing_ChatGPT_on_java.Exercise28_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise28 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise28_ESTest.test4(Exercise28_ESTest.java:75)
+6) test5(testing_ChatGPT_on_java.Exercise28_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise28 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise28_ESTest.test5(Exercise28_ESTest.java:83)
+7) test2(testing_ChatGPT_on_java.Exercise28_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise28 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise28_ESTest.test2(Exercise28_ESTest.java:52)
+8) test3(testing_ChatGPT_on_java.Exercise28_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise28 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise28_ESTest.test3(Exercise28_ESTest.java:67)
+
+FAILURES!!!
+Tests run: 8,  Failures: 8
+

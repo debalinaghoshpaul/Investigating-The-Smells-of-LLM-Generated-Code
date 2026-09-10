@@ -1,0 +1,19 @@
+JUnit version 4.13
+.E.E
+Time: 0.482
+There were 2 failures:
+1) test1(testing_ChatGPT_on_java.Example14_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example14.main(GetPortionMap.java:5)
+	at testing_ChatGPT_on_java.Example14_ESTest.test1(Example14_ESTest.java:26)
+2) test0(testing_ChatGPT_on_java.Example14_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Example14 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Example14.<init>(GetPortionMap.java:4)
+	at testing_ChatGPT_on_java.Example14_ESTest.test0(Example14_ESTest.java:20)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

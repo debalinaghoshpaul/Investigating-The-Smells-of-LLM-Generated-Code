@@ -1,0 +1,8 @@
+JUnit version 4.13
+....Original array of numbers: [1, -2, -5, -4, 3, -6]
+Check Negative Dominance in the said array! true
+..
+Time: 0.518
+
+OK (6 tests)
+

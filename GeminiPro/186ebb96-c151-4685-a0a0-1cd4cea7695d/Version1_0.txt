@@ -1,0 +1,65 @@
+```java
+// Resizable.java
+// Interface Resizable with methods resizeWidth(int width) and resizeHeight(int height)
+
+interface Resizable {
+    void resizeWidth(int width);
+
+    void resizeHeight(int height);
+}
+
+// Rectangle.java
+// Class Rectangle that implements the Resizable interface
+
+class Rectangle implements Resizable {
+    private int width;
+    private int height;
+
+    public Rectangle(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    public void resizeWidth(int width) {
+        this.width = width;
+    }
+
+    @Override
+    public void resizeHeight(int height) {
+        this.height = height;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+}
+
+// Main.java
+// Main class to test the Rectangle class
+
+public class Main {
+    public static void main(String[] args) {
+        Rectangle rectangle = new Rectangle(4, 5);
+
+        System.out.println("Initial dimensions: " + rectangle.getWidth() + " x " + rectangle.getHeight());
+
+        rectangle.resizeWidth(10);
+        rectangle.resizeHeight(8);
+
+        System.out.println("Resized dimensions: " + rectangle.getWidth() + " x " + rectangle.getHeight());
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal case:** Resizing the rectangle to a valid width and height (e.g., width = 10, height = 8)
+* **Corner cases:**
+    * Resizing the rectangle to a negative width or height (e.g., width = -5, height = 0)
+    * Resizing the rectangle to a zero width or height (e.g., width = 0, height = 0)
+    * Resizing the rectangle to a width or height that is too large (e.g., width = Integer.MAX_VALUE, height = Integer.MAX_VALUE)

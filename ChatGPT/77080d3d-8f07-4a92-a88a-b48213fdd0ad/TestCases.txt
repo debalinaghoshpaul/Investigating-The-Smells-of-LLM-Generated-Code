@@ -1,0 +1,48 @@
+```java
+import java.util.*;
+
+public class CharacterList {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a word: ");
+        String word = scanner.nextLine();
+
+        List<Character> characters = new ArrayList<>();
+        for (char c : word.toCharArray()) {
+            characters.add(c);
+        }
+
+        System.out.println("List of characters in the word:");
+        System.out.println(characters);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: "hello"
+* Output: [h, e, l, l, o]
+
+**Empty String:**
+
+* Input: ""
+* Output: []
+
+**Single Character:**
+
+* Input: "a"
+* Output: [a]
+
+**Special Characters:**
+
+* Input: "!@#$%^&*()"
+* Output: [!, @, #, $, %, ^, &, *, (, )]
+
+**Corner Case: Null Input**
+
+* Input: null
+* Output: NullPointerException

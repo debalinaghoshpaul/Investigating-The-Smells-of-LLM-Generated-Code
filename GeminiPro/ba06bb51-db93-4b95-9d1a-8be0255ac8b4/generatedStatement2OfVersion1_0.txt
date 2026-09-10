@@ -1,0 +1,19 @@
+
+
+**Test cases including corner cases:**
+
+**Median calculation:**
+
+* **Empty array:** `[]`
+* **Array with one element:** `[5]`
+* **Array with even number of elements:** `[10, 20, 30, 40]`
+* **Array with odd number of elements:** `[1, 2, 3, 4, 5]`
+* **Array with duplicate elements:** `[1, 2, 2, 3, 3]`
+
+**Finding the unique number:**
+
+* **Empty array:** `[]`
+* **Array with all elements the same:** `[1, 1, 1]`
+* **Array with multiple unique numbers:** `[1, 2, 3, 4, 5, 6]`
+* **Array with no unique numbers:** `[1, 1, 2, 2, 3, 3, 4, 4]`
+* **Array with negative numbers:** `[-1, -2, -3, -4, -5]`

@@ -1,0 +1,43 @@
+import java.util.*; 
+
+public class SubarrayWithZeroSum { 
+
+	static void subArraySum(int[] arr, int n) { 
+		HashMap<Integer, Integer> presum = new HashMap<>(); 
+		int sum = 0; 
+		int start = -1; 
+		int end = -1; 
+		for (int i = 0; i < n; i++) { 
+			sum += arr[i]; 
+			if (sum == 0) { 
+				start = 0; 
+				end = i; 
+				break; 
+			} 
+			if (presum.containsKey(sum)) { 
+				start = presum.get(sum) + 1; 
+				end = i; 
+				break; 
+			} 
+			presum.put(sum, i); 
+		} 
+		if (start == -1) { 
+			System.out.println("No subarray with zero sum found"); 
+		} else { 
+			System.out.println("Subarray with zero sum is from " + start + " to " + end); 
+		} 
+	} 
+
+	public static void main(String[] args) { 
+		int[] arr = { 1, 4, 2, -2, 5, -4, 3 }; 
+		int n = arr.length; 
+		subArraySum(arr, n); 
+	} 
+} 
+
+/* Test Cases */ 
+[1, 2, 3, -6, 5, 4] 
+[1, 2, 3, 4, 5, 6, 7] 
+[1, -1, 1] 
+[0, 0, 0, 0] 
+[1, -1, 2, -2, 3, -3, 4, -4] 

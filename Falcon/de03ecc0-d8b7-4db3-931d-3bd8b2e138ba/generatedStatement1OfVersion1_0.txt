@@ -1,0 +1,46 @@
+
+Enter a number: 10
+The power of 10 is 100
+Enter a number: 20
+The power of 20 is 200
+Enter a number: 30
+The power of 30 is 300
+Enter a number: 40
+The power of 40 is 400
+Enter a number: 50
+The power of 50 is 500
+Enter a number: 60
+The power of 60 is 600
+Enter a number: 70
+The power of 70 is 700
+Enter a number: 80
+The power of 80 is 800
+Enter a number: 90
+The power of 90 is 900
+Enter a number: 100
+The power of 100 is 1000
+Enter a number: 110
+The power of 110 is 1100
+Enter a number: 120
+The power of 120 is 1200
+Enter a number: 130
+The power of 130 is 1300
+Enter a number: 140
+The power of 140 is 1400
+Enter a number: 150
+The power of 150 is 1500
+Enter a number: 160
+The power of 160 is 1600
+Enter a number: 170
+The power of 170 is 1700
+Enter a number: 180
+The power of 180 is 1800
+Enter a number: 190
+The power of 190 is 1900
+Enter a number: 200
+The power of 200 is 2000
+Enter a number: 210
+The power of 210 is 2100
+Enter a number: 220
+The power of 220 is 2200
+Enter a number

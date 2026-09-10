@@ -1,0 +1,119 @@
+**Problem 1:**
+
+**Java Program:**
+
+```java
+import java.util.Arrays;
+
+class DuplicateElementsRemoval {
+
+    public static void main(String[] args) {
+        // Original array
+        int[] originalArray = {1, 1, 2, 3, 3, 3, 4, 5, 6, 7, 7, 7, 7};
+
+        // Find the length of the original array
+        int originalLength = originalArray.length;
+
+        // Remove duplicate elements
+        int[] updatedArray = removeDuplicates(originalArray);
+
+        // Find the length of the updated array
+        int updatedLength = updatedArray.length;
+
+        // Print the results
+        System.out.println("Original array: " + Arrays.toString(originalArray));
+        System.out.println("The length of the original array is: " + originalLength);
+        System.out.println("After removing duplicates, the new length of the array is: " + updatedLength);
+    }
+
+    public static int[] removeDuplicates(int[] array) {
+        // Initialize the result array
+        int[] result = new int[array.length];
+
+        // Initialize the index of the result array
+        int index = 0;
+
+        // Iterate over the input array
+        for (int i = 0; i < array.length; i++) {
+            // If the current element is not equal to the previous element
+            if (i == 0 || array[i] != array[i - 1]) {
+                // Add the current element to the result array
+                result[index] = array[i];
+                // Increment the index of the result array
+                index++;
+            } else if (i >= 2 && array[i] != array[i - 2]) {
+                // If the current element is equal to the previous element, but not the one before it
+                // Add the current element to the result array
+                result[index] = array[i];
+                // Increment the index of the result array
+                index++;
+            }
+        }
+
+        // Return the result array
+        return Arrays.copyOf(result, index);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Positive Test Case:** Original array: `[1, 1, 2, 3, 3, 3, 4, 5, 6, 7, 7, 7, 7]`. Expected output: `Updated length: 10`.
+* **Negative Test Case:** Original array: `[]`. Expected output: `Updated length: 0`.
+* **Corner Case:** Original array: `[1, 2, 3, 4, 5, 6, 7]`. Expected output: `Updated length: 7`.
+
+**Problem 2:**
+
+**Java Program:**
+
+```java
+import java.util.Arrays;
+
+class MinimumSumPath {
+
+    public static void main(String[] args) {
+        // Input matrix
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 8, 2},
+            {1, 5, 3}
+        };
+
+        // Find the minimum sum path
+        int minSum = findMinSumPath(matrix);
+
+        // Print the result
+        System.out.println("Sum of all numbers along its path: " + minSum);
+    }
+
+    public static int findMinSumPath(int[][] matrix) {
+        // Initialize the dp array
+        int[][] dp = new int[matrix.length][matrix[0].length];
+
+        // Initialize the first row and first column of the dp array
+        dp[0][0] = matrix[0][0];
+        for (int i = 1; i < matrix.length; i++) {
+            dp[i][0] = dp[i - 1][0] + matrix[i][0];
+        }
+        for (int j = 1; j < matrix[0].length; j++) {
+            dp[0][j] = dp[0][j - 1] + matrix[0][j];
+        }
+
+        // Fill the rest of the dp array
+        for (int i = 1; i < matrix.length; i++) {
+            for (int j = 1; j < matrix[0].length; j++) {
+                dp[i][j] = Math.min(dp[i - 1][j], dp[i][j - 1]) + matrix[i][j];
+            }
+        }
+
+        // Return the minimum sum
+        return dp[matrix.length - 1][matrix[0].length - 1];
+    }
+}
+```
+
+**Test Cases:**
+
+* **Positive Test Case:** Matrix: `{{1, 2, 3}, {4, 8, 2}, {1, 5, 3}}`. Expected output: `Sum of all numbers along its path: 13`.
+* **Negative Test Case:** Matrix: `{{}}`. Expected output: `Sum of all numbers along its path: 0`.
+* **Corner Case:** Matrix: `{{1}}`. Expected output: `Sum of all numbers along its path: 1`.

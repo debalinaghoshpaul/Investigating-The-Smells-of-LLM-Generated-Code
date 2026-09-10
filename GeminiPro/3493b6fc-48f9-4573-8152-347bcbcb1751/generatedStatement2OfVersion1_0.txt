@@ -1,0 +1,24 @@
+
+
+**Test Cases:**
+
+* **Valid Input:**
+    * Input weight in pounds: 150
+    * Input height in inches: 65
+    * Expected Output: Body Mass Index is 24.218285126961886
+* **Invalid Input (Negative Weight):**
+    * Input weight in pounds: -100
+    * Input height in inches: 65
+    * Expected Output: Invalid weight value
+* **Invalid Input (Negative Height):**
+    * Input weight in pounds: 150
+    * Input height in inches: -65
+    * Expected Output: Invalid height value
+* **Corner Case (Weight Equals Zero):**
+    * Input weight in pounds: 0
+    * Input height in inches: 65
+    * Expected Output: Body Mass Index is 0.0
+* **Corner Case (Height Equals Zero):**
+    * Input weight in pounds: 150
+    * Input height in inches: 0
+    * Expected Output: Invalid height value

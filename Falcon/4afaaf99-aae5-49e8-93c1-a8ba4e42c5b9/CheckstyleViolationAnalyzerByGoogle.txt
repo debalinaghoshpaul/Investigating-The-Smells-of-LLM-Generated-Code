@@ -1,0 +1,2 @@
+Violations by Category:
+OuterTypeFilename: The name of the outer type and the file do not match. [OuterTypeFilename]: 1

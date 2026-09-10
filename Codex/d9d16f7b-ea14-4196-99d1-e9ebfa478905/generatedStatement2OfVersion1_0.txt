@@ -1,0 +1,28 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+* Expected Output: the quick brown fox jumps over the lazy dog.
+
+* Input: Hello World
+* Expected Output: hello world
+
+**Corner Cases:**
+
+* Input: null (empty string)
+* Expected Output: null
+
+* Input: " " (string with only spaces)
+* Expected Output: " " (string with only spaces)
+
+* Input: "aBcDeFGhI" (string with mixed case)
+* Expected Output: "abcdefghi" (string with all lowercase)
+
+* Input: "12345" (string with only numbers)
+* Expected Output: "12345" (string remains unchanged)
+
+* Input: "!" (string with only special characters)
+* Expected Output: "!" (string remains unchanged)

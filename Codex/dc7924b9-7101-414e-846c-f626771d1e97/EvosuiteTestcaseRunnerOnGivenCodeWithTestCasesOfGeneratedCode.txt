@@ -1,0 +1,29 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.594
+There were 4 failures:
+1) test1(testing_ChatGPT_on_java.Exercise21_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise21.main(DiamondPattern.java:5)
+	at testing_ChatGPT_on_java.Exercise21_ESTest.test1(Exercise21_ESTest.java:44)
+2) test0(testing_ChatGPT_on_java.Exercise21_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise21.main(DiamondPattern.java:5)
+	at testing_ChatGPT_on_java.Exercise21_ESTest.test0(Exercise21_ESTest.java:27)
+3) test3(testing_ChatGPT_on_java.Exercise21_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise21 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise21.<init>(DiamondPattern.java:3)
+	at testing_ChatGPT_on_java.Exercise21_ESTest.test3(Exercise21_ESTest.java:65)
+4) test2(testing_ChatGPT_on_java.Exercise21_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise21.main(DiamondPattern.java:5)
+	at testing_ChatGPT_on_java.Exercise21_ESTest.test2(Exercise21_ESTest.java:59)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

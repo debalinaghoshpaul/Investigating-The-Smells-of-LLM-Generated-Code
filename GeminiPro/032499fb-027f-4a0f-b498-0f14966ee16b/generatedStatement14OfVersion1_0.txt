@@ -1,0 +1,6 @@
+
+
+**Explanation:**
+The only element in the array is a leader.
+
+**Input:**

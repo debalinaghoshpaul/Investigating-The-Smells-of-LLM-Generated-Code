@@ -1,0 +1,31 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:** 25
+* **Output:** Binary representation of 25 is: 11001
+* **Number of zero bits:** 2
+
+* **Input:** 10
+* **Output:** Binary representation of 10 is: 1010
+* **Number of zero bits:** 2
+
+* **Input:** 127
+* **Output:** Binary representation of 127 is: 1111111
+* **Number of zero bits:** 0
+
+**Corner Cases:**
+
+* **Input:** 0
+* **Output:** Binary representation of 0 is: 0
+* **Number of zero bits:** 1
+
+* **Input:** 1
+* **Output:** Binary representation of 1 is: 1
+* **Number of zero bits:** 0
+
+* **Input:** -1
+* **Output:** Binary representation of -1 is: 11111111111111111111111111111111
+* **Number of zero bits:** 0

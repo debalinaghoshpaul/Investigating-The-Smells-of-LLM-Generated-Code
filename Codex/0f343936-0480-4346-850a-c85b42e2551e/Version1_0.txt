@@ -1,0 +1,57 @@
+```java
+import java.util.Scanner;
+
+public class WordCounter {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Count the number of words in the string
+        int wordCount = countWords(inputString);
+
+        // Print the result
+        System.out.println("Number of words in the string: " + wordCount);
+    }
+
+    public static int countWords(String inputString) {
+        // Check if the input string is empty or null
+        if (inputString == null || inputString.isEmpty()) {
+            return 0;
+        }
+
+        // Split the input string into words
+        String[] words = inputString.split(" ");
+
+        // Count the number of words in the array
+        return words.length;
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: `The quick brown fox jumps over the lazy dog.`
+* Expected Output: 9
+
+* Input: `This is a sentence with multiple words.`
+* Expected Output: 7
+
+**Corner Cases:**
+
+* Input: `   ` (empty string)
+* Expected Output: 0
+
+* Input: `null`
+* Expected Output: 0
+
+* Input: `a` (single character)
+* Expected Output: 1
+
+* Input: `a b c d e f g h i j` (multiple words separated by spaces)
+* Expected Output: 10

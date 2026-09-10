@@ -1,0 +1,3 @@
+
+Enter the array elements (separated by spaces): 
+Larger value between first and last element: 0

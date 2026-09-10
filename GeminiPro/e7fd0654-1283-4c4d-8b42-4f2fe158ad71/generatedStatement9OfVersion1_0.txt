@@ -1,0 +1,4 @@
+
+Enter the base: 2
+Enter the exponent: 0
+e^0 = 1.0

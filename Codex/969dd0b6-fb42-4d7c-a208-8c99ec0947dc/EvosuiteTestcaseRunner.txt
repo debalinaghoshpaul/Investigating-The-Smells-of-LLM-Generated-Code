@@ -1,0 +1,9 @@
+JUnit version 4.13
+...Unsorted array: [5, 3, 1, 2, 4]
+....Unsorted array: [5, 3, 1, 2, 4]
+.......Unsorted array: [5, 3, 1, 2, 4]
+.
+Time: 0.536
+
+OK (15 tests)
+

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class CountUnicodeCodePoints {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String text = scanner.nextLine();
+        int start = scanner.nextInt();
+        int end = scanner.nextInt();
+        int count = 0;
+        for (int i = start; i <= end; i++) {
+            char c = text.charAt(i);
+            if (Character.isUpperCase(c)) {
+                count++;
+            }
+        }
+        System.out.println("The programming language you need to use is: java.");
+        System.out.println("Can you also add test cases including corner cases to test the program of the problem?");
+        System.out.println("Yes");
+        System.out.println("No");
+    }
+}
+
+// 

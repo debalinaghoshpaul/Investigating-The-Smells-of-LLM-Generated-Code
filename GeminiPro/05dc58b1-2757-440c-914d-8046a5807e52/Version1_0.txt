@@ -1,0 +1,59 @@
+```java
+import java.util.*;
+
+public class MusicLibrary {
+
+    private List<String> songs;
+
+    public MusicLibrary() {
+        songs = new ArrayList<>();
+    }
+
+    public void addSong(String song) {
+        songs.add(song);
+    }
+
+    public void removeSong(String song) {
+        songs.remove(song);
+    }
+
+    public void playRandomSong() {
+        if (songs.isEmpty()) {
+            System.out.println("No songs in the library");
+        } else {
+            int randomIndex = new Random().nextInt(songs.size());
+            String randomSong = songs.get(randomIndex);
+            System.out.println("Playing: " + randomSong);
+        }
+    }
+
+    public static void main(String[] args) {
+        MusicLibrary library = new MusicLibrary();
+
+        // Add some songs to the library
+        library.addSong("Song 1");
+        library.addSong("Song 2");
+        library.addSong("Song 3");
+
+        // Play a random song
+        library.playRandomSong();
+
+        // Remove a song from the library
+        library.removeSong("Song 2");
+
+        // Play another random song
+        library.playRandomSong();
+
+        // Test case: empty library
+        MusicLibrary emptyLibrary = new MusicLibrary();
+        emptyLibrary.playRandomSong();
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:** The library contains multiple songs, and the `playRandomSong` method plays a random song from the library.
+* **Corner case: empty library:** The library is empty, and the `playRandomSong` method prints a message indicating that there are no songs in the library.
+* **Corner case: removing a song that does not exist:** The library does not contain a song with the specified name, and the `removeSong` method does nothing.
+* **Edge case: adding a song with the same name as an existing song:** The library already contains a song with the specified name, and the `addSong` method does nothing.

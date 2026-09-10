@@ -1,0 +1,57 @@
+```java
+import java.util.Scanner;
+
+public class PyramidNumberPattern {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the number of rows from the user
+        System.out.println("Enter the number of rows: ");
+        int rows = scanner.nextInt();
+
+        // Create a nested loop to print the pattern
+        for (int i = 1; i <= rows; i++) {
+            // Print spaces for the current row
+            for (int j = rows; j > i; j--) {
+                System.out.print(" ");
+            }
+
+            // Print the numbers for the current row
+            for (int k = 1; k <= i; k++) {
+                System.out.print(i + " ");
+            }
+
+            // Move to the next line
+            System.out.println();
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal Case:**
+   * Input: 5
+   * Output:
+```
+    1
+   2 2
+  3 3 3
+ 4 4 4 4
+5 5 5 5 5
+```
+
+* **Corner Case 1:**
+   * Input: 1
+   * Output:
+```
+1
+```
+
+* **Corner Case 2:**
+   * Input: 0
+   * Output:
+```
+(Empty output)
+```

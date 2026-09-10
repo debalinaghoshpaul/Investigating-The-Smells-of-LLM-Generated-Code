@@ -1,0 +1,43 @@
+```java
+import java.util.Scanner;
+
+public class MatrixDisplay {
+
+    public static void displayMatrix(int n) {
+        int[][] matrix = new int[n][n];
+
+        // Initialize the matrix with values
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                matrix[i][j] = i * n + j + 1;
+            }
+        }
+
+        // Display the matrix
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the size of the matrix from the user
+        System.out.print("Enter the size of the matrix: ");
+        int n = scanner.nextInt();
+
+        // Display the matrix
+        displayMatrix(n);
+    }
+}
+```
+
+Test cases:
+
+* **Normal case:** n = 3
+* **Corner case:** n = 1
+* **Corner case:** n = 0
+* **Corner case:** n = -1

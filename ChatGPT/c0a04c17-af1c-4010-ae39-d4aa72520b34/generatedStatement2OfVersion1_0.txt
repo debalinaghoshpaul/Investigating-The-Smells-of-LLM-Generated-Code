@@ -1,0 +1,52 @@
+
+
+**Test Cases**
+
+**Normal Case:**
+
+* Input:
+    * Name: John Doe
+    * Job Title: Manager
+    * Salary: 0
+* Output:
+    * Employee{name='John Doe', jobTitle='Manager', salary=100000.0}
+
+**Corner Cases:**
+
+* **Invalid Job Title:**
+    * Input:
+        * Name: Jane Doe
+        * Job Title: Invalid
+        * Salary: 0
+    * Output:
+        * Employee{name='Jane Doe', jobTitle='Invalid', salary=0.0}
+* **Negative Salary:**
+    * Input:
+        * Name: Jack Doe
+        * Job Title: Clerk
+        * Salary: -10000
+    * Output:
+        * Employee{name='Jack Doe', jobTitle='Clerk', salary=0.0}
+* **Empty Name:**
+    * Input:
+        * Name: 
+        * Job Title: Engineer
+        * Salary: 0
+    * Output:
+        * Employee{name='', jobTitle='Engineer', salary=80000.0}
+* **Zero Percentage Update:**
+    * Input:
+        * Name: Jill Doe
+        * Job Title: Manager
+        * Salary: 100000
+        * Percentage to Update: 0
+    * Output:
+        * Employee{name='Jill Doe', jobTitle='Manager', salary=100000.0}
+* **Negative Percentage Update:**
+    * Input:
+        * Name: Joe Doe
+        * Job Title: Clerk
+        * Salary: 50000
+        * Percentage to Update: -10
+    * Output:
+        * Employee{name='Joe Doe', jobTitle='Clerk', salary=50000.0}

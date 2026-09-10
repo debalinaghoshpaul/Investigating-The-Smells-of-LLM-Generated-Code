@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a generic method that takes a list of any type and a predicate. It returns an array list containing only elements that satisfy the predicate.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 80226a02-a824-4df7-b091-9877aad3774e.\n

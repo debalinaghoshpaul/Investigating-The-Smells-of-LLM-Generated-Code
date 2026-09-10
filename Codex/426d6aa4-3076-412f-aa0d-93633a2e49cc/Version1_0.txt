@@ -1,0 +1,100 @@
+```java
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class FourSum {
+
+    public static List<List<Integer>> fourSum(int[] nums, int target) {
+        List<List<Integer>> result = new ArrayList<>();
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums.length - 3; i++) {
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                continue;
+            }
+
+            for (int j = i + 1; j < nums.length - 2; j++) {
+                if (j > i + 1 && nums[j] == nums[j - 1]) {
+                    continue;
+                }
+
+                int left = j + 1;
+                int right = nums.length - 1;
+
+                while (left < right) {
+                    int sum = nums[i] + nums[j] + nums[left] + nums[right];
+
+                    if (sum == target) {
+                        result.add(Arrays.asList(nums[i], nums[j], nums[left], nums[right]));
+
+                        while (left < right && nums[left] == nums[left + 1]) {
+                            left++;
+                        }
+
+                        while (left < right && nums[right] == nums[right - 1]) {
+                            right--;
+                        }
+
+                        left++;
+                        right--;
+                    } else if (sum < target) {
+                        left++;
+                    } else {
+                        right--;
+                    }
+                }
+            }
+        }
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int[] nums1 = {1, 0, -1, 0, 2, -2, 4, 5};
+        int target1 = 8;
+        List<List<Integer>> result1 = fourSum(nums1, target1);
+        System.out.println(result1); // Expected: [[-2, -1, 1, 4], [-2, 0, 0, 6], [0, 0, 2, 6]]
+
+        int[] nums2 = {2, 2, 2, 2, 2};
+        int target2 = 8;
+        List<List<Integer>> result2 = fourSum(nums2, target2);
+        System.out.println(result2); // Expected: [[2, 2, 2, 2]]
+
+        int[] nums3 = {1, 1, 1, 1};
+        int target3 = 4;
+        List<List<Integer>> result3 = fourSum(nums3, target3);
+        System.out.println(result3); // Expected: [[1, 1, 1, 1]]
+
+        int[] nums4 = {3, -2, 4};
+        int target4 = 7;
+        List<List<Integer>> result4 = fourSum(nums4, target4);
+        System.out.println(result4); // Expected: []
+
+        int[] nums5 = {0, 0, 0, 0};
+        int target5 = 0;
+        List<List<Integer>> result5 = fourSum(nums5, target5);
+        System.out.println(result5); // Expected: [[0, 0, 0, 0]]
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Empty array
+* Array with only one element
+* Array with only two elements
+* Array with only three elements
+* Array with all the same elements
+* Array with a single unique element that appears multiple times
+* Array with a large number of elements
+
+**General Cases:**
+
+* Array with a mix of positive and negative integers
+* Array with elements that sum up to the target
+* Array with elements that do not sum up to the target
+* Array with duplicate elements
+* Array with elements that are close to the target

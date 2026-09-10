@@ -1,0 +1,9 @@
+Violations by Category:
+DesignForExtension: Class 'Book' looks like designed for extension (can be subclassed), but the method 'getTitle' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Book' final or making the method 'getTitle' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 7
+FinalParameters: Parameter title should be final. [FinalParameters]: 6
+HiddenField: 'title' hides a field. [HiddenField]: 6
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 7
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+OperatorWrap: '+' should be on a new line. [OperatorWrap]: 4

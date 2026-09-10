@@ -1,0 +1,18 @@
+JUnit version 4.13
+...Original array: [1, 1, 2, 3, 3, 3, 4, 5, 6, 7, 7]
+The length of the original array is: 11
+After removing duplicates, the new length of the array is: 7
+Original array: [1, 1, 2, 3, 3, 3, 4, 5, 6, 7, 7, 7, 7]
+The length of the original array is: 13
+After removing duplicates, the new length of the array is: 10
+Original array: [1, 1, 1]
+The length of the original array is: 3
+After removing duplicates, the new length of the array is: 1
+Original array: [1, 1, 1]
+The length of the original array is: 3
+After removing duplicates, the new length of the array is: 2
+.....
+Time: 0.549
+
+OK (8 tests)
+

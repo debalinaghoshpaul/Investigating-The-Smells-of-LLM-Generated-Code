@@ -1,0 +1,10 @@
+
+
+**Test cases including corner cases:**
+
+* **Corner case 1:** `(0 + 0) / 0` - This expression will throw an `ArithmeticException` because division by zero is undefined.
+* **Corner case 2:** `true && false` - This expression will evaluate to `false` because the `&&` operator requires both operands to be true.
+* **Corner case 3:** `(true || false) && (false || true)` - This expression will evaluate to `true` because the `||` operator evaluates to `true` if either operand is true. The parentheses around the `false || true` expression are not necessary.
+* **Corner case 4:** `(false || false) || (true || false)` - This expression will evaluate to `true` because the `||` operator evaluates to `true` if either operand is true.
+* **Corner case 5:** `!true` - This expression will evaluate to `false` because the `!` operator negates the operand.
+* **Corner case 6:** `!!false` - This expression will evaluate to `true` because the `!!` operator negates the operand twice, effectively returning the original value.

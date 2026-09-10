@@ -1,0 +1,58 @@
+**Java Program:**
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Interleavings {
+
+    public static void main(String[] args) {
+        String str1 = "ab";
+        String str2 = "cd";
+
+        List<String> interleavings = findInterleavings(str1, str2);
+
+        System.out.println("Interleavings of " + str1 + " and " + str2 + ": " + interleavings);
+    }
+
+    public static List<String> findInterleavings(String str1, String str2) {
+        List<String> interleavings = new ArrayList<>();
+
+        if (str1.isEmpty() && str2.isEmpty()) {
+            interleavings.add("");
+        } else if (str1.isEmpty()) {
+            interleavings.addAll(findInterleavings("", str2));
+        } else if (str2.isEmpty()) {
+            interleavings.addAll(findInterleavings(str1, ""));
+        } else {
+            for (String interleaving : findInterleavings(str1.substring(1), str2)) {
+                interleavings.add(str1.charAt(0) + interleaving);
+            }
+
+            for (String interleaving : findInterleavings(str1, str2.substring(1))) {
+                interleavings.add(str2.charAt(0) + interleaving);
+            }
+        }
+
+        return interleavings;
+    }
+}
+```
+
+**Test Cases (Including Corner Cases):**
+
+* **Empty Strings:**
+    * `str1 = ""`
+    * `str2 = ""`
+* **Strings of Different Lengths:**
+    * `str1 = "abc"`
+    * `str2 = "defghij"`
+* **Strings with Repeating Characters:**
+    * `str1 = "aabb"`
+    * `str2 = "ccdd"`
+* **Long Strings:**
+    * `str1 = "0123456789"`
+    * `str2 = "abcdefghijklmnopqrstuvwxyz"`
+* **Strings with Special Characters:**
+    * `str1 = "<>&{}"`
+    * `str2 = "[]()@#$%^"`

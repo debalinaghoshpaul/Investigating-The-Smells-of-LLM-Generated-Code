@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * Empty array
+    * Array of all equal elements
+    * Array of one element
+* **General Cases:**
+    * Array of positive integers
+    * Array of integers with negative values
+    * Array of integers with duplicates
+
+**Example Output:**
+

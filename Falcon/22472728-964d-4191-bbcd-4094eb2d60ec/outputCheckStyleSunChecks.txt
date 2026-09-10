@@ -1,0 +1,7 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:1:8: Unused import - java.util.concurrent.locks.ReadWriteLock. [UnusedImports]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resouces_Thread\22472728-964d-4191-bbcd-4094eb2d60ec\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+Audit done.

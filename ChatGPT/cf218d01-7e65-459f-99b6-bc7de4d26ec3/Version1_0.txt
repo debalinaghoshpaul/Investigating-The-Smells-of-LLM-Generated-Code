@@ -1,0 +1,64 @@
+```java
+import java.time.LocalDate;
+import java.time.Period;
+
+public class DateComparison {
+
+    public static void main(String[] args) {
+        // Get the current date
+        LocalDate today = LocalDate.now();
+
+        // Get a date before 1 year
+        LocalDate oneYearAgo = today.minusYears(1);
+
+        // Get a date after 1 year
+        LocalDate oneYearFromNow = today.plusYears(1);
+
+        // Compare the dates to the current date
+        boolean isOneYearAgoBeforeToday = oneYearAgo.isBefore(today);
+        boolean isOneYearFromNowAfterToday = oneYearFromNow.isAfter(today);
+
+        // Print the results
+        System.out.println("One year ago: " + oneYearAgo);
+        System.out.println("Is one year ago before today? " + isOneYearAgoBeforeToday);
+        System.out.println("One year from now: " + oneYearFromNow);
+        System.out.println("Is one year from now after today? " + isOneYearFromNowAfterToday);
+    }
+}
+```
+
+**Test Cases**
+
+**Normal Cases**
+
+* **Test Case 1:**
+    * Input: Today's date: 2023-03-08
+    * Expected output:
+        * One year ago: 2022-03-08
+        * Is one year ago before today? true
+        * One year from now: 2024-03-08
+        * Is one year from now after today? true
+* **Test Case 2:**
+    * Input: Today's date: 2020-02-29 (leap year)
+    * Expected output:
+        * One year ago: 2019-02-28
+        * Is one year ago before today? true
+        * One year from now: 2021-02-28
+        * Is one year from now after today? true
+
+**Corner Cases**
+
+* **Test Case 3:**
+    * Input: Today's date: 2020-02-29 (leap year)
+    * Expected output:
+        * One year ago: 2019-02-28
+        * Is one year ago before today? true
+        * One year from now: 2021-03-01 (not a leap year)
+        * Is one year from now after today? true
+* **Test Case 4:**
+    * Input: Today's date: 2020-03-01
+    * Expected output:
+        * One year ago: 2019-03-01
+        * Is one year ago before today? true
+        * One year from now: 2021-03-01
+        * Is one year from now after today? true

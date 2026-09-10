@@ -1,0 +1,5 @@
+Starting audit...
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\9190fca3-eb58-4972-9799-b040fa47a3cc\generatedProgram1OfVersion1_0.java:3:1: The name of the outer type and the file do not match. [OuterTypeFilename]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\9190fca3-eb58-4972-9799-b040fa47a3cc\generatedProgram1OfVersion1_0.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\9190fca3-eb58-4972-9799-b040fa47a3cc\generatedProgram1OfVersion1_0.java:5:3: Missing a Javadoc comment. [MissingJavadocMethod]
+Audit done.

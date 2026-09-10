@@ -1,0 +1,5 @@
+
+
+**Explanation:** The input array contains only one element, and it is equal to 10, so the resulting array is empty.
+
+**Input:**

@@ -1,0 +1,7 @@
+JUnit version 4.13
+.Input the number of sides on the polygon: ..Input the number of sides on the polygon: Input the length of one of the sides: The area is: 309.01933598375615
+.Input the number of sides on the polygon: Input the length of one of the sides: 
+Time: 0.361
+
+OK (4 tests)
+

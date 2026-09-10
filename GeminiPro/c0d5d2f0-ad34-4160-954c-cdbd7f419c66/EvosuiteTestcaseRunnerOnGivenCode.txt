@@ -1,0 +1,10 @@
+JUnit version 4.13
+.List before shuffling:
+[Red, Green, Orange, White, Black]
+List after shuffling:
+[Orange, White, Red, Green, Black]
+.
+Time: 0.439
+
+OK (2 tests)
+

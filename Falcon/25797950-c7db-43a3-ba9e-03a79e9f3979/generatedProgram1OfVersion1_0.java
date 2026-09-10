@@ -1,0 +1,56 @@
+public class Airplane {
+    private int flightNumber;
+    private String destination;
+    private String departureTime;
+
+    public Airplane(int flightNumber, String destination, String departureTime) {
+        this.flightNumber = flightNumber;
+        this.destination = destination;
+        this.departureTime = departureTime;
+    }
+
+    public int getFlightNumber() {
+        return flightNumber;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public String getDepartureTime() {
+        return departureTime;
+    }
+
+    public void setFlightNumber(int flightNumber) {
+        this.flightNumber = flightNumber;
+    }
+
+    public void setDestination(String destination) {
+        this.destination = destination;
+    }
+
+    public void setDepartureTime(String departureTime) {
+        this.departureTime = departureTime;
+    }
+
+    public void checkFlightStatus() {
+        if (departureTime == null || departureTime.isEmpty()) {
+            throw new IllegalArgumentException("Departure time cannot be null or empty.");
+        }
+    }
+
+    public void checkDelay() {
+        if (departureTime == null || departureTime.isEmpty()) {
+            throw new IllegalArgumentException("Departure time cannot be null or empty.");
+        }
+    }
+}
+
+public class TestAirplane {
+    public static void main(String[] args) {
+        Airplane airplane = new Airplane(1, "New York", "10:00 AM");
+        airplane.checkFlightStatus();
+        airplane.checkDelay();
+    }
+}
+

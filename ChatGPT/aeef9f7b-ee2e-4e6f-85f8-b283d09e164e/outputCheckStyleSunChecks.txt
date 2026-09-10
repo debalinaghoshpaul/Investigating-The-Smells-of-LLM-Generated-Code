@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\aeef9f7b-ee2e-4e6f-85f8-b283d09e164e\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\aeef9f7b-ee2e-4e6f-85f8-b283d09e164e\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\aeef9f7b-ee2e-4e6f-85f8-b283d09e164e\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\aeef9f7b-ee2e-4e6f-85f8-b283d09e164e\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\aeef9f7b-ee2e-4e6f-85f8-b283d09e164e\generatedProgram1OfVersion1_0.java:12:21: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\aeef9f7b-ee2e-4e6f-85f8-b283d09e164e\generatedProgram1OfVersion1_0.java:13:21: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\aeef9f7b-ee2e-4e6f-85f8-b283d09e164e\generatedProgram1OfVersion1_0.java:14:21: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\aeef9f7b-ee2e-4e6f-85f8-b283d09e164e\generatedProgram1OfVersion1_0.java:17:19: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\aeef9f7b-ee2e-4e6f-85f8-b283d09e164e\generatedProgram1OfVersion1_0.java:19: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\aeef9f7b-ee2e-4e6f-85f8-b283d09e164e\generatedProgram1OfVersion1_0.java:21: Line is longer than 80 characters (found 86). [LineLength]
+Audit done.

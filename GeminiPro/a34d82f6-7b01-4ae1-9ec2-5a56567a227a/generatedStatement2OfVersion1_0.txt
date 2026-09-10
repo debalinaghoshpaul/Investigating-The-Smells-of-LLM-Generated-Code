@@ -1,0 +1,17 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: None
+* Expected Output: A list of all available time zones in UTC and GMT.
+
+**Corner Cases:**
+
+* Input: An invalid time zone ID
+* Expected Output: An error message indicating that the time zone ID is invalid.
+* Input: A null time zone ID
+* Expected Output: An error message indicating that the time zone ID is null.
+* Input: A time zone ID that is not supported by the Java Virtual Machine
+* Expected Output: An error message indicating that the time zone ID is not supported.

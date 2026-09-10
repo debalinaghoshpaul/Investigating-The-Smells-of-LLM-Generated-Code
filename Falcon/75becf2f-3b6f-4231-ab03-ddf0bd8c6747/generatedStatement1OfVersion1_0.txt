@@ -1,0 +1,19 @@
+ 2.138888888888889
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+"""
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double num1 = scanner.nextDouble();
+        double num2 = scanner.nextDouble();
+        double num3 = scanner.nextDouble();
+        double result = (num1 * num2 - num2 * num3) / (num3 - num3);
+        System.out.println(result);
+    }
+}
+

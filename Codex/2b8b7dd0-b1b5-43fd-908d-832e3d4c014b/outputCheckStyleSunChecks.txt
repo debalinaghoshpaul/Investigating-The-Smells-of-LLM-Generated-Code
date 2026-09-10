@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesDataTypes\2b8b7dd0-b1b5-43fd-908d-832e3d4c014b\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesDataTypes\2b8b7dd0-b1b5-43fd-908d-832e3d4c014b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesDataTypes\2b8b7dd0-b1b5-43fd-908d-832e3d4c014b\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesDataTypes\2b8b7dd0-b1b5-43fd-908d-832e3d4c014b\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesDataTypes\2b8b7dd0-b1b5-43fd-908d-832e3d4c014b\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesDataTypes\2b8b7dd0-b1b5-43fd-908d-832e3d4c014b\generatedProgram1OfVersion1_0.java:8: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesDataTypes\2b8b7dd0-b1b5-43fd-908d-832e3d4c014b\generatedProgram1OfVersion1_0.java:11: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesDataTypes\2b8b7dd0-b1b5-43fd-908d-832e3d4c014b\generatedProgram1OfVersion1_0.java:13:32: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesDataTypes\2b8b7dd0-b1b5-43fd-908d-832e3d4c014b\generatedProgram1OfVersion1_0.java:15:21: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesDataTypes\2b8b7dd0-b1b5-43fd-908d-832e3d4c014b\generatedProgram1OfVersion1_0.java:17: Line has trailing spaces. [RegexpSingleline]
+Audit done.

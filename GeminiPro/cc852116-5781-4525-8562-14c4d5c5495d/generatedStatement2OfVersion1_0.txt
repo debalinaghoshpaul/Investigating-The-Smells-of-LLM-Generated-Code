@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty array:** `[]`
+* **Array with all elements equal to zero:** `[0, 0, 0, ..., 0]`
+
+**General Cases:**
+
+* **Array with positive and negative elements:** `[1, -2, 2, -1, 3]`
+* **Array with all negative elements:** `[-1, -2, -3, -4, -5]`
+* **Array with duplicate elements:** `[1, 1, 2, 2, 3, 3]`
+* **Array with large absolute values:** `[1000000, -1000000, 2000000, -2000000]`

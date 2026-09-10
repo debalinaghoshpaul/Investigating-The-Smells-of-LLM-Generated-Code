@@ -1,0 +1,33 @@
+JUnit version 4.13
+....E.E...E.E..E
+Time: 0.408
+There were 5 failures:
+1) test07(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method printEmployeeDetails() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test07(Employee_ESTest.java:81)
+2) test00(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method raiseSalary(double) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test00(Employee_ESTest.java:22)
+3) test04(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method setName(String) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test04(Employee_ESTest.java:55)
+4) test05(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method setJobTitle(String) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test05(Employee_ESTest.java:65)
+5) test03(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method setName(String) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test03(Employee_ESTest.java:45)
+
+FAILURES!!!
+Tests run: 11,  Failures: 5
+

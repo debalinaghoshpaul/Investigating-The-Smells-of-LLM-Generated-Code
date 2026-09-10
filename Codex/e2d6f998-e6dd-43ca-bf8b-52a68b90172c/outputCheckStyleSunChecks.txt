@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:1:15: Using the '.*' form of import should be avoided - java.io.*. [AvoidStarImport]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:5:38: '8' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:14: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:26: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:45:38: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:46: Line is longer than 80 characters (found 92). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaFileIO\e2d6f998-e6dd-43ca-bf8b-52a68b90172c\generatedProgram1OfVersion1_0.java:48:39: '10' is a magic number. [MagicNumber]
+Audit done.

@@ -1,0 +1,11 @@
+JUnit version 4.13
+.....Index of 5 in the array: 4
+Index of 10 in the array: 9
+Index of 0 in the array: -1
+Index of 11 in the array: -1
+Index of 5 in the array: -1
+..
+Time: 0.344
+
+OK (7 tests)
+

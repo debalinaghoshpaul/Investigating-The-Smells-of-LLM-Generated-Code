@@ -1,0 +1,30 @@
+
+
+**Test cases:**
+
+* **Input:** 00000000
+* **Expected output:** 0
+
+* **Input:** 11111111
+* **Expected output:** 8
+
+* **Input:** 10101010
+* **Expected output:** 4
+
+* **Input:** 11001100
+* **Expected output:** 4
+
+* **Input:** 10000111
+* **Expected output:** 4
+
+* **Input:** 01111000
+* **Expected output:** 4
+
+* **Input:** "" (empty string)
+* **Expected output:** 0
+
+* **Input:** "a"
+* **Expected output:** 1
+
+* **Input:** "1a"
+* **Expected output:** 2

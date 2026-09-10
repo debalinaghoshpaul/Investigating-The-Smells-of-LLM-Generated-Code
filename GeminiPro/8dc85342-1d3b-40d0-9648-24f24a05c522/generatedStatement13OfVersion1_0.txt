@@ -1,0 +1,28 @@
+html
+<html>
+<head>
+<title>Java Source Code</title>
+<style>
+body {
+font-family: monospace;
+}
+span.keyword {
+color: navy;
+font-weight: bold;
+}
+span.comment {
+color: green;
+}
+span.literal {
+color: blue;
+}
+</style>
+</head>
+<body>
+<span class="keyword">public</span> <span class="keyword">class</span> Welcome {
+  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> main(<span class="keyword">String</span>[] args <span class="comment">{</span>
+    System.<span class="keyword">out</span>.println(<span class="literal">"Welcome to Java!"</span>);
+  }
+}
+</body>
+</html>

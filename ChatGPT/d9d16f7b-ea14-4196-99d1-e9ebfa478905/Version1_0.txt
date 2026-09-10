@@ -1,0 +1,49 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class ConvertToLowercase {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Read input string
+        System.out.print("Input a String: ");
+        String str = input.nextLine();
+
+        // Convert string to lowercase
+        String lowercaseStr = str.toLowerCase();
+
+        // Print the lowercase string
+        System.out.println(lowercaseStr);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+* Expected Output: the quick brown fox jumps over the lazy dog.
+
+* Input: Hello World
+* Expected Output: hello world
+
+**Corner Cases:**
+
+* Input: null (empty string)
+* Expected Output: null
+
+* Input: " " (string with only spaces)
+* Expected Output: " " (string with only spaces)
+
+* Input: "aBcDeFGhI" (string with mixed case)
+* Expected Output: "abcdefghi" (string with all lowercase)
+
+* Input: "12345" (string with only numbers)
+* Expected Output: "12345" (string remains unchanged)
+
+* Input: "!" (string with only special characters)
+* Expected Output: "!" (string remains unchanged)

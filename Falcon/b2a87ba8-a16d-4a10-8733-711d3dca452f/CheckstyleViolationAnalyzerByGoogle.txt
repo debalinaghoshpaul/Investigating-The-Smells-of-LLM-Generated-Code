@@ -1,0 +1,6 @@
+Violations by Category:
+WhitespaceAround: '!=' is not preceded with whitespace. [WhitespaceAround]: 1
+OneTopLevelClass: Top-level class Node has to reside in its own source file. [OneTopLevelClass]: 2
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+Indentation: 'member def type' has incorrect indentation level 4, expected level should be 2. [Indentation]: 29

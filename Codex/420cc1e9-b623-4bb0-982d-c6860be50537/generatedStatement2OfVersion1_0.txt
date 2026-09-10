@@ -1,0 +1,15 @@
+
+
+### Test Cases
+
+#### Normal Cases
+
+* **Test Case 1:** Create a truck with make "Ford", model "F-150", year 2020, fuel type "Diesel", and cargo capacity 1000.0. Verify that the truck's fuel efficiency is 10.0 / (cargo capacity + 1) = 10.0 / (1000.0 + 1) = 0.01, distance traveled is 0.01 * 100 = 1.0, and maximum speed is 80.0.
+* **Test Case 2:** Create a car with make "Toyota", model "Camry", year 2018, fuel type "Gasoline", and number of seats 5. Verify that the car's fuel efficiency is 20.0 / (number of seats + 1) = 20.0 / (5 + 1) = 4.0, distance traveled is 4.0 * 100 = 400.0, and maximum speed is 120.0.
+* **Test Case 3:** Create a motorcycle with make "Harley-Davidson", model "Sportster", year 2016, fuel type "Gasoline", and engine displacement 1200.0. Verify that the motorcycle's fuel efficiency is 50.0 / (engine displacement + 1) = 50.0 / (1200.0 + 1) = 0.042, distance traveled is 0.042 * 100 = 4.2, and maximum speed is 160.0.
+
+#### Corner Cases
+
+* **Test Case 4:** Create a truck with make "Ford", model "F-150", year 2020, fuel type "Diesel", and cargo capacity 0.0. Verify that the truck's fuel efficiency is 10.0 / (cargo capacity + 1) = 10.0 / (0.0 + 1) = 10.0.
+* **Test Case 5:** Create a car with make "Toyota", model "Camry", year 2018, fuel type "Gasoline", and number of seats 0. Verify that the car's fuel efficiency is 20.0 / (number of seats + 1) = 20.0 / (0 + 1) = 20.0.
+* **Test Case 6:** Create a motorcycle with make "Harley-Davidson", model "Sportster", year 2016, fuel type "Gasoline", and engine

@@ -1,0 +1,9 @@
+JUnit version 4.13
+...Does the array nums1 contain a subarray with 0 sum: true
+Does the array nums2 contain a subarray with 0 sum: false
+Does the array nums3 contain a subarray with 0 sum: true
+....
+Time: 0.535
+
+OK (7 tests)
+

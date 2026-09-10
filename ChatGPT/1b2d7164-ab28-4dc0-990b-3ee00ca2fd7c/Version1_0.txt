@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93PEjHQcnOd7Rc30Uq8JkKxn8uPYO",
+  "object" : "chat.completion",
+  "created" : 1710599021,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\n\npublic class StackTopBottom {\n\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        stack.push(10);\n        stack.push(20);\n        stack.push(30);\n        stack.push(40);\n        stack.push(50);\n\n        findTopElement(stack);\n        findBottomElement(stack);\n    }\n\n    public static void findTopElement(Stack<Integer> stack) {\n        if (stack.isEmpty()) {\n            System.out.println(\"Stack is empty\");\n            return;\n        }\n\n        System.out.println(\"Top element of the stack is: \" + stack.peek());\n    }\n\n    public static void findBottomElement(Stack<Integer> stack) {\n        if (stack.isEmpty()) {\n            System.out.println(\"Stack is empty\");\n            return;\n        }\n\n        int bottomElement = stack.get(0);\n        for (int i = 1; i < stack.size(); i++) {\n            bottomElement = stack.get(i);\n        }\n\n        System.out.println(\"Bottom element of the stack is: \" + bottomElement);\n    }\n}\n```\n\nOutput:\n```\nTop element of the stack is: 50\nBottom element of the stack is: 10\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 68,
+    "completion_tokens" : 248,
+    "total_tokens" : 316
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

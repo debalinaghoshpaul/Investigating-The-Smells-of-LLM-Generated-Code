@@ -1,0 +1,123 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class RemoveFirstTwoChars {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        System.out.println("Enter a character to remove: ");
+        char ch = scanner.nextLine().charAt(0);
+
+        if (str.length() < 2) {
+            System.out.println("Can't remove first two characters from a string with less than two characters.");
+        } else if (str.charAt(0) == ch && str.charAt(1) == ch) {
+            System.out.println(str.substring(2));
+        } else if (str.charAt(0) == ch) {
+            System.out.println(str.substring(1));
+        } else if (str.charAt(1) == ch) {
+            System.out.println(str.charAt(0) + str.substring(2));
+        } else {
+            System.out.println(str);
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Input:**
+
+```
+Hello
+o
+```
+
+**Output:**
+
+```
+Hell
+```
+
+**Input:**
+
+```
+Hi
+i
+```
+
+**Output:**
+
+```
+H
+```
+
+**Input:**
+
+```
+Hello
+H
+```
+
+**Output:**
+
+```
+ello
+```
+
+**Input:**
+
+```
+Hello
+z
+```
+
+**Output:**
+
+```
+Hello
+```
+
+**Input:**
+
+```
+ZZ
+z
+```
+
+**Output:**
+
+```
+Z
+```
+
+**Input:**
+
+```
+Z
+z
+```
+
+**Output:**
+
+```
+Can't remove first two characters from a string with less than two characters.
+```
+
+**Input:**
+
+```
+#
+#
+```
+
+**Output:**
+
+```
+#
+```

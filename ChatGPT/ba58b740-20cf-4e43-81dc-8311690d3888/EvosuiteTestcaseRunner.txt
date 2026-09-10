@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter first binary number: Enter second binary number: Sum of two binary numbers: 111111-2-211-21111-211
+.Enter first binary number: Enter second binary number: .Enter first binary number: Enter second binary number: Sum of two binary numbers: 1
+..Enter first binary number: 
+Time: 0.361
+
+OK (5 tests)
+

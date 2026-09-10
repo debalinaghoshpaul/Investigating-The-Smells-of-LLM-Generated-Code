@@ -1,0 +1,8 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops: 1
+CommentRequired: Class comments are required: 8
+SuspiciousEqualsMethodName: The method name and parameter number are suspiciously close to equals(Object): 1
+LiteralsFirstInComparisons: Position literals first in String comparisons: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+CloseResource: Ensure that resources like this Scanner object are closed after use: 1

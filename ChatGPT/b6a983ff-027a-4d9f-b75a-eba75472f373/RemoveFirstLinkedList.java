@@ -1,0 +1,21 @@
+import java.util.LinkedList;
+
+public class RemoveFirstLinkedList {
+
+    public static void main(String[] args) {
+        LinkedList<String> fruits = new LinkedList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Cherry");
+        fruits.add("Date");
+        fruits.add("Elderberry");
+
+        // Retrieve the first element
+        String firstFruit = fruits.getFirst();
+        System.out.println("First fruit: " + firstFruit);
+
+        // Remove the first element
+        fruits.removeFirst();
+        System.out.println("Updated list: " + fruits);
+    }
+}

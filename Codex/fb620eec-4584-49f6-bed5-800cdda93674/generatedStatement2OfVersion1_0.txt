@@ -1,0 +1,10 @@
+
+
+**Test cases including corner cases:**
+
+* **Empty array:** The program should not print any duplicate values.
+* **Array with one element:** The program should not print any duplicate values.
+* **Array with all duplicate elements:** The program should print all the elements in the array as duplicate values.
+* **Array with some duplicate elements:** The program should print the duplicate values in the array.
+* **Array with negative values:** The program should handle negative values correctly and print the duplicate values in the array.
+* **Array with floating-point values:** The program should handle floating-point values correctly and print the duplicate values in the array.

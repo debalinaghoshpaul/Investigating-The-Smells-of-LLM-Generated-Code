@@ -1,0 +1,8 @@
+
+
+**Test cases:**
+
+* **Normal case:** Create an instance of Employee and call its work() and getSalary() methods. Create an instance of HRManager and call its work(), getSalary(), and addEmployee() methods.
+* **Corner case:** Try to call addEmployee() on an instance of Employee. This should result in a compile-time error.
+* **Corner case:** Create an instance of HRManager and call its work() method multiple times. The output should indicate that the HR manager is managing HR each time.
+* **Corner case:** Create an instance of Employee and try to cast it to an instance of HRManager. This should result in a ClassCastException.

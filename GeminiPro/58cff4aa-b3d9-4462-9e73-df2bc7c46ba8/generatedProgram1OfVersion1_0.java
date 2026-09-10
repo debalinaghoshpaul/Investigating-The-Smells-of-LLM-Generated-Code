@@ -1,0 +1,35 @@
+import java.util.Arrays;
+
+public class ShellSort {
+
+    public static void main(String[] args) {
+        int[] arr = {12, 34, 15, 8, 2, 20, 3};
+        System.out.println("Before sorting: " + Arrays.toString(arr));
+
+        // Sort the array using Shell Sort algorithm
+        shellSort(arr);
+
+        System.out.println("After sorting: " + Arrays.toString(arr));
+    }
+
+    public static void shellSort(int[] arr) {
+        int n = arr.length;
+
+        // Start with a gap of n/2
+        for (int gap = n/2; gap > 0; gap /= 2) {
+            // Iterate over the array in steps of the gap
+            for (int i = gap; i < n; i++) {
+                // Store the current element in a temporary variable
+                int temp = arr[i];
+                // Find the correct position for the current element by comparing it with the previous elements in steps of the gap
+                int j = i;
+                while (j >= gap && arr[j - gap] > temp) {
+                    arr[j] = arr[j - gap];
+                    j -= gap;
+                }
+                // Insert the current element into its correct position
+                arr[j] = temp;
+            }
+        }
+    }
+}

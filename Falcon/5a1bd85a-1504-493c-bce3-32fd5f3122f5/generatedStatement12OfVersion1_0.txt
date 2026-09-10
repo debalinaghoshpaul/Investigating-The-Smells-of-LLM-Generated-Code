@@ -1,0 +1,2 @@
+
+* **Array with both positive and negative numbers:**

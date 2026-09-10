@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to separate even and odd numbers from a given array of integers. Put all even numbers first, and then odd numbers.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : f7ce0ea8-2c53-41a8-b99e-27a4e04c23b3.\n

@@ -1,0 +1,7 @@
+
+
+**Test cases including corner cases:**
+
+* **Empty array:** An empty array should not be modified.
+* **Array with one element:** An array with one element should not be modified.
+* **Array with duplicate elements:** The shuffled array should still have the same number of duplicate elements.

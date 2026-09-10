@@ -1,0 +1,9 @@
+JUnit version 4.13
+....Stack 1: [1, 2, 3]
+Stack 2: [1, 2, 3]
+The stacks are equal.
+...
+Time: 0.382
+
+OK (7 tests)
+

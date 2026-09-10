@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Lambda\9de6997e-12f4-469c-a141-bf3a4c87fbef\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Lambda\9de6997e-12f4-469c-a141-bf3a4c87fbef\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Lambda\9de6997e-12f4-469c-a141-bf3a4c87fbef\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Lambda\9de6997e-12f4-469c-a141-bf3a4c87fbef\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Lambda\9de6997e-12f4-469c-a141-bf3a4c87fbef\generatedProgram1OfVersion1_0.java:23: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Lambda\9de6997e-12f4-469c-a141-bf3a4c87fbef\generatedProgram1OfVersion1_0.java:26: Line is longer than 80 characters (found 87). [LineLength]
+Audit done.

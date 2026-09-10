@@ -1,0 +1,8 @@
+Violations by Category:
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 7
+FinalParameters: Parameter nums should be final. [FinalParameters]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '-7' is a magic number. [MagicNumber]: 4

@@ -1,0 +1,4 @@
+
+    Input: []
+    Output: First Smallest Element: Integer.MAX_VALUE, Second Smallest Element: Integer.MAX_VALUE
+    

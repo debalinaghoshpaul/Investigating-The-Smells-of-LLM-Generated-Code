@@ -1,0 +1,7 @@
+ Enter a letter from the alphabet: p
+// Input letter is Consonant
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Test Data Input an alphabet: p
+// Expected 

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94pikMUjJSnWBnvVrek3ch3n0rgTQ",
+  "object" : "chat.completion",
+  "created" : 1710939154,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nclass Node {\n    int data;\n    Node next;\n    \n    public Node(int data) {\n        this.data = data;\n        this.next = null;\n    }\n}\n\nclass LinkedList {\n    Node head;\n    \n    public LinkedList() {\n        this.head = null;\n    }\n    \n    public void insert(int data) {\n        Node newNode = new Node(data);\n        if(head == null) {\n            head = newNode;\n        } else {\n            Node temp = head;\n            while(temp.next != null) {\n                temp = temp.next;\n            }\n            temp.next = newNode;\n        }\n    }\n    \n    public void deleteNode(int position) {\n        if(head == null) {\n            System.out.println(\"List is empty\");\n            return;\n        }\n        \n        Node temp = head;\n        if(position == 0) {\n            head = temp.next;\n            return;\n        }\n        \n        for(int i=0; temp!=null && i<position-1; i++) {\n            temp = temp.next;\n        }\n        \n        if(temp == null || temp.next == null) {\n            System.out.println(\"Position is greater than number of nodes in the list\");\n            return;\n        }\n        \n        Node next = temp.next.next;\n        temp.next = next;\n    }\n    \n    public void display() {\n        Node temp = head;\n        while(temp != null) {\n            System.out.print(temp.data + \" \");\n            temp = temp.next;\n        }\n        System.out.println();\n    }\n    \n}\n\npublic class Main {\n    public static void main(String[] args) {\n        LinkedList list = new LinkedList();\n        list.insert(10);\n        list.insert(20);\n        list.insert(30);\n        list.insert(40);\n        list.insert(50);\n        \n        int positionToDelete = 3;\n        System.out.println(\"Original Linked List:\");\n        list.display();\n        \n        System.out.println(\"After deleting node at position \" + positionToDelete + \":\");\n        list.deleteNode(positionToDelete);\n        list.display();\n    }\n}\n```\n\nExpected Output:\n```\nOriginal Linked List:\n10 20 30 40 50 \nAfter deleting node at position 3:\n10 20 30 50 \n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 108,
+    "completion_tokens" : 449,
+    "total_tokens" : 557
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

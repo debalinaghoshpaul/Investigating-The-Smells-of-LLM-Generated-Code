@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to get the difference between the largest and smallest values in an array of integers. The array must have a length of at least 1.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : a650b484-982c-4cf7-847a-7b95c74ced8b.\n

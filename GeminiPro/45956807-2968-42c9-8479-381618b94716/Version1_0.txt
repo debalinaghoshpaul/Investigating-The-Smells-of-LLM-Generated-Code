@@ -1,0 +1,47 @@
+```java
+import java.util.Scanner;
+
+public class SumDigits {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read a positive number from the user
+        System.out.print("Enter a positive number: ");
+        int number = scanner.nextInt();
+
+        // Repeatedly add the digits of the number until the result has only one digit
+        int sum = 0;
+        while (number > 0) {
+            sum += number % 10;
+            number /= 10;
+
+            if (number == 0 && sum > 9) {
+                number = sum;
+                sum = 0;
+            }
+        }
+
+        // Print the result
+        System.out.println("The sum of the digits of the number is: " + sum);
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Test case 1:** Input: 1234567890
+* **Expected output:** 9
+* **Explanation:** The sum of the digits of the number is 45, which is a two-digit number. We continue to add the digits of 45, which gives us 9.
+
+* **Test case 2:** Input: 0
+* **Expected output:** 0
+* **Explanation:** The sum of the digits of the number is 0, which is a one-digit number.
+
+* **Test case 3:** Input: 9999999999
+* **Expected output:** 9
+* **Explanation:** The sum of the digits of the number is 81, which is a two-digit number. We continue to add the digits of 81, which gives us 9.
+
+* **Test case 4:** Input: 235711131719237098327460987139087639876543210987654321
+* **Expected output:** 9
+* **Explanation:** The sum of the digits of the number is 232, which is a three-digit number. We continue to add the digits of 232, which gives us 7. We continue to add the digits of 7, which gives us 9.

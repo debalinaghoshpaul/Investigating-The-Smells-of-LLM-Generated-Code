@@ -1,0 +1,55 @@
+```java
+import java.util.Scanner;
+
+public class AddDigits {
+
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    System.out.print("Input number: ");
+    int n = input.nextInt();
+
+    // Calculate the sum of n, nn, and nnn
+    int sum = n + (n * 10) + (n * 100);
+
+    // Print the result
+    System.out.println(n + " + " + (n * 10) + "  + " + (n * 100) + "\n" + sum);
+  }
+}
+```
+
+**Test Cases:**
+
+**1. Positive Integer**
+```
+Input number: 5
+5 + 55  + 555
+615
+```
+
+**2. Negative Integer**
+```
+Input number: -5
+-5 + -55  + -555
+-615
+```
+
+**3. Zero**
+```
+Input number: 0
+0 + 0  + 0
+0
+```
+
+**4. Single-Digit Integer**
+```
+Input number: 9
+9 + 99  + 999
+1107
+```
+
+**5. Large Integer**
+```
+Input number: 12345
+12345 + 123450 + 1234500
+1248345
+```

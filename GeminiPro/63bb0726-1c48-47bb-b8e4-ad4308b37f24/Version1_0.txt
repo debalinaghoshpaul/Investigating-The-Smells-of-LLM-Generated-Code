@@ -1,0 +1,26 @@
+```java
+public class MiddlePoint {
+
+    public static boolean isMiddlePoint(int a, int b, int c) {
+        // If a is the middle point between b and c, then
+        // a - b = c - a
+        // 2 * a = b + c
+
+        return 2 * a == b + c;
+    }
+
+    public static void main(String[] args) {
+        // Test cases
+        System.out.println(isMiddlePoint(2, 1, 3)); // true
+        System.out.println(isMiddlePoint(1, 2, 3)); // false
+        System.out.println(isMiddlePoint(2, 3, 1)); // false
+        System.out.println(isMiddlePoint(5, 2, 8)); // true
+        System.out.println(isMiddlePoint(8, 2, 5)); // true
+
+        // Corner cases
+        System.out.println(isMiddlePoint(0, 0, 0)); // true
+        System.out.println(isMiddlePoint(1, 1, 1)); // true
+        System.out.println(isMiddlePoint(Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE)); // true
+    }
+}
+```

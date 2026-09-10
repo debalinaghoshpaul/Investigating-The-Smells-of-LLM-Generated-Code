@@ -1,0 +1,44 @@
+```java
+import java.time.LocalDate;
+import java.time.temporal.TemporalAdjusters;
+
+public class FridayFinder {
+
+    public static void main(String[] args) {
+        // Create a LocalDate object for today
+        LocalDate today = LocalDate.now();
+
+        // Get the next Friday
+        LocalDate nextFriday = today.with(TemporalAdjusters.next(DayOfWeek.FRIDAY));
+
+        // Get the previous Friday
+        LocalDate previousFriday = today.with(TemporalAdjusters.previous(DayOfWeek.FRIDAY));
+
+        // Print the results
+        System.out.println("Next Friday: " + nextFriday);
+        System.out.println("Previous Friday: " + previousFriday);
+    }
+}
+```
+
+### Test Cases
+
+| Input           | Expected Output |
+|-----------------|-----------------|
+| Today is Friday | Next Friday: same day |
+| Today is Monday  | Next Friday: next Friday |
+| Today is Saturday | Next Friday: next Friday |
+| Today is Sunday   | Next Friday: next Friday |
+| Today is Thursday | Next Friday: next Friday |
+| Today is Tuesday  | Previous Friday: previous Friday |
+| Today is Wednesday | Previous Friday: previous Friday |
+| Today is Thursday | Previous Friday: previous Friday |
+| Today is Friday   | Previous Friday: same day |
+
+### Corner Cases
+
+* **Today is Friday:** The program should return the same day as the next Friday.
+* **Today is Saturday:** The program should return the next Friday.
+* **Today is Sunday:** The program should return the next Friday.
+* **Today is Monday:** The program should return the next Friday.
+* **Today is Thursday:** The program should return the next Friday.

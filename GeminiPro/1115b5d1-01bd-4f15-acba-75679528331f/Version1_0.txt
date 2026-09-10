@@ -1,0 +1,68 @@
+```java
+import java.util.HashSet;
+
+public class SetOperationsExample {
+
+    public static void main(String[] args) {
+        HashSet<String> stack1 = new HashSet<>();
+        stack1.add("Chemistry");
+        stack1.add("Mathematics");
+        stack1.add("Biology");
+        stack1.add("English");
+
+        HashSet<String> stack2 = new HashSet<>();
+        stack2.add("Biology");
+        stack2.add("English");
+        stack2.add("Geography");
+        stack2.add("Physics");
+
+        // Clone the sets to preserve the original sets from being changed by set methods
+        HashSet<String> stack1Clone = (HashSet<String>) stack1.clone();
+        HashSet<String> stack2Clone = (HashSet<String>) stack2.clone();
+
+        // (1) Subjects only present in the first stack
+        stack1Clone.removeAll(stack2);
+        System.out.println("Subjects only present in the first stack: " + stack1Clone);
+
+        // (2) Subjects only present in the second stack
+        stack2Clone.removeAll(stack1);
+        System.out.println("Subjects only present in the second stack: " + stack2Clone);
+
+        // (3) Subjects present in both stacks
+        stack1.retainAll(stack2);
+        System.out.println("Subjects present in both stacks: " + stack1);
+    }
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+
+* Input:
+    * stack1 = {Chemistry, Mathematics, Biology, English}
+    * stack2 = {Biology, English, Geography, Physics}
+* Expected Output:
+    * Subjects only present in the first stack: {Chemistry, Mathematics}
+    * Subjects only present in the second stack: {Geography, Physics}
+    * Subjects present in both stacks: {Biology, English}
+
+**Test Case 2:**
+
+* Input:
+    * stack1 = {Computer Science, Mathematics, Physics}
+    * stack2 = {Biology, English, Geography}
+* Expected Output:
+    * Subjects only present in the first stack: {Computer Science, Mathematics, Physics}
+    * Subjects only present in the second stack: {Biology, English, Geography}
+    * Subjects present in both stacks: {}
+
+**Test Case 3 (Corner Case):**
+
+* Input:
+    * stack1 = {}
+    * stack2 = {Biology, English, Geography}
+* Expected Output:
+    * Subjects only present in the first stack: {}
+    * Subjects only present in the second stack: {Biology, English, Geography}
+    * Subjects present in both stacks: {}

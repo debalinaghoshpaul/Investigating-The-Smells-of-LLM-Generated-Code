@@ -1,0 +1,5 @@
+Violations by Category:
+CommentRequired: Class comments are required: 8
+AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter: 2
+EmptyCatchBlock: Avoid empty catch blocks: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

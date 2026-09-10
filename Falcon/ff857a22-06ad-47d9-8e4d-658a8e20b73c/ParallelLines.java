@@ -1,0 +1,55 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class ParallelLines {
+
+    public static boolean areParallel(Point p1, Point p2, Point p3, Point p4) {
+        // Calculate the slope of line PQ
+        double slopePQ = (p2.y - p1.y) / (p2.x - p1.x);
+
+        // Calculate the slope of line RS
+        double slopeRS = (p4.y - p3.y) / (p4.x - p3.x);
+
+        // Check if the slopes are equal
+        return slopePQ == slopeRS;
+    }
+
+    public static void main(String[] args) {
+        // Test cases
+        Point p1 = new Point(1, 1);
+        Point p2 = new Point(3, 3);
+        Point p3 = new Point(2, 2);
+        Point p4 = new Point(4, 4);
+        System.out.println(areParallel(p1, p2, p3, p4)); // true
+
+        Point p5 = new Point(1, 1);
+        Point p6 = new Point(3, 2);
+        Point p7 = new Point(2, 2);
+        Point p8 = new Point(4, 3);
+        System.out.println(areParallel(p5, p6, p7, p8)); // false
+
+        // Corner cases
+        Point p9 = new Point(1, 1);
+        Point p10 = new Point(1, 2);
+        Point p11 = new Point(2, 2);
+        Point p12 = new Point(2, 1);
+        System.out.println(areParallel(p9, p10, p11, p12)); // true
+
+        Point p13 = new Point(1, 1);
+        Point p14 = new Point(1, 2);
+        Point p15 = new Point(2, 1);
+        Point p16 = new Point(2, 2);
+        System.out.println(areParallel(p13, p14, p15, p16)); // true
+    }
+}
+
+class Point {
+    int x;
+    int y;
+
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+}

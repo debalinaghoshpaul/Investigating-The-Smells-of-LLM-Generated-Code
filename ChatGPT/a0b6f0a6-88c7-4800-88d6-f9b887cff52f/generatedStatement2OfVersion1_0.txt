@@ -1,0 +1,3 @@
+
+
+This program defines a `Temperature` class with the specified functionality and includes a `main` method to test the methods. You can run this program to see the output and verify that the temperature equalities and comparison methods are working correctly.

@@ -1,0 +1,17 @@
+No GPU found. Running on CPU.
+import java.util.Arrays;
+
+public class ArrangeNegativeIntegers {
+    public static void main(String[] args) {
+        int[] arr = {-2, -1, 0, 1, 2};
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+}
+
+Output: [-2, -1, 0, 1, 2]
+
+// Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem. For example:
+
+arr = {-2, -1, 0, 1, 2}

@@ -1,0 +1,111 @@
+```java
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class AttendanceList {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        Set<String> students = new TreeSet<>();
+
+        // Read the student names and attendance days
+        System.out.println("Enter the student names and attendance days (enter -1 to stop): ");
+        while (true) {
+            String name = input.nextLine();
+            if (name.equals("-1")) {
+                break;
+            }
+
+            int days = input.nextInt();
+            input.nextLine(); // Consume the newline character
+
+            // Add the student to the set if they have attended more than one day
+            if (days > 1) {
+                students.add(name);
+            }
+        }
+
+        // Display the student names in ascending order
+        System.out.println("Students who have attended more than one day: ");
+        for (String student : students) {
+            System.out.println(student);
+        }
+    }
+}
+```
+
+**Test cases:**
+
+**Input:**
+
+```
+Jane Doe
+2
+John Smith
+3
+Mary Jones
+1
+Bob Brown
+2
+Alice Green
+3
+-1
+```
+
+**Output:**
+
+```
+Alice Green
+Bob Brown
+John Smith
+```
+
+**Input (corner case: student with the same first name):**
+
+```
+Jane Doe
+2
+John Doe
+3
+Mary Jones
+1
+Bob Brown
+2
+Alice Green
+3
+-1
+```
+
+**Output:**
+
+```
+Alice Green
+Bob Brown
+Jane Doe
+John Doe
+```
+
+**Input (corner case: student with no attendance):**
+
+```
+Jane Doe
+0
+John Smith
+3
+Mary Jones
+1
+Bob Brown
+2
+Alice Green
+3
+-1
+```
+
+**Output:**
+
+```
+Alice Green
+Bob Brown
+John Smith
+```

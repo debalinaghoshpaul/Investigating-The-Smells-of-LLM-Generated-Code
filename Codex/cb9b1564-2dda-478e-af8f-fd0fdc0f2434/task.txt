@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to implement a lambda expression to check if a list of strings are all uppercase or all lowercase or mixedcase.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : cb9b1564-2dda-478e-af8f-fd0fdc0f2434.\n

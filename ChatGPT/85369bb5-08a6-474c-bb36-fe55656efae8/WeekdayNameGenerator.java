@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class WeekdayNameGenerator {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input number from the user
+        System.out.print("Enter a number between 1 and 7: ");
+        int number = scanner.nextInt();
+
+        // Generate the weekday name based on the input number
+        String weekdayName = null;
+        switch (number) {
+            case 1:
+                weekdayName = "Sunday";
+                break;
+            case 2:
+                weekdayName = "Monday";
+                break;
+            case 3:
+                weekdayName = "Tuesday";
+                break;
+            case 4:
+                weekdayName = "Wednesday";
+                break;
+            case 5:
+                weekdayName = "Thursday";
+                break;
+            case 6:
+                weekdayName = "Friday";
+                break;
+            case 7:
+                weekdayName = "Saturday";
+                break;
+            default:
+                System.out.println("Invalid input. Please enter a number between 1 and 7.");
+                break;
+        }
+
+        // Display the weekday name
+        if (weekdayName != null) {
+            System.out.println("The weekday name is: " + weekdayName);
+        }
+    }
+}

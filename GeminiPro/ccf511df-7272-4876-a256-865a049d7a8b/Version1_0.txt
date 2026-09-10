@@ -1,0 +1,35 @@
+```java
+import java.util.*;
+
+public class SecondsConverter {
+
+    public static void main(String[] args) {
+        // Get the input seconds from the user
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of seconds:");
+        int seconds = scanner.nextInt();
+        scanner.close();
+
+        // Convert the seconds to hours, minutes, and seconds
+        int hours = seconds / 3600;
+        int minutes = (seconds % 3600) / 60;
+        seconds = seconds % 60;
+
+        // Print the result
+        System.out.println(hours + ":" + minutes + ":" + seconds);
+    }
+}
+```
+
+Test Cases:
+
+* **Corner cases:**
+    * Input seconds: 0
+    * Input seconds: 1
+    * Input seconds: 86400 (one day)
+    * Input seconds: 31536000 (one year)
+* **Regular cases:**
+    * Input seconds: 3600 (one hour)
+    * Input seconds: 86400 (one day)
+    * Input seconds: 604800 (one week)
+    * Input seconds: 2592000 (one month)

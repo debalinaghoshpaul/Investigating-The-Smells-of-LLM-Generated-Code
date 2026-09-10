@@ -1,0 +1,9 @@
+
+Original strings: xxyz yxzx
+Is permutation: true
+
+Original strings: 
+Is permutation: true
+
+Original strings: abc def
+Is permutation: false

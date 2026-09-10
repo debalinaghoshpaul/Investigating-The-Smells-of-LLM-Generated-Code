@@ -1,0 +1,29 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+Input: A1B2C3D4E5F6G7H8I9J0
+Output: A2B3C4D5E6F7G8H9I0
+
+**Corner Cases:**
+
+* **Empty String:**
+   Input: ""
+   Output: ""
+* **No Digits:**
+   Input: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+   Output: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+* **Only Digits:**
+   Input: "1234567890"
+   Output: "0123456789"
+* **Mixed Case:**
+   Input: "a1B2c3d4E5f6g7H8i9j0K"
+   Output: "A2B3a4b5c6d7e8f9g0h1i0jK"
+* **Leading Zero:**
+   Input: "A01B02C03D04E05F06G07H08I09J00"
+   Output: "A1B2C3D4E5F6G7H8I9J00"
+* **Repeated Digits:**
+   Input: "A1A1B2B2C3C3D4D4E5E5F6F6G7G7H8H8I9I9"
+   Output: "A1A1B2B2C3C3D4D4E5E5F6F6G7G7H8H8I9I9"

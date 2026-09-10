@@ -1,0 +1,40 @@
+
+
+**Test Cases:**
+
+**Test Case 1:**
+
+* Input: 2016
+* Expected Output: 2016 is a leap year
+
+**Test Case 2:**
+
+* Input: 2000
+* Expected Output: 2000 is a leap year
+
+**Test Case 3:**
+
+* Input: 1900
+* Expected Output: 1900 is not a leap year
+
+**Test Case 4:**
+
+* Input: 2023
+* Expected Output: 2023 is not a leap year
+
+**Test Case 5:**
+
+* Input: 2100
+* Expected Output: 2100 is not a leap year
+
+**Corner Cases:**
+
+**Test Case 6:**
+
+* Input: 0
+* Expected Output: 0 is not a valid year
+
+**Test Case 7:**
+
+* Input: -100
+* Expected Output: -100 is not a valid year

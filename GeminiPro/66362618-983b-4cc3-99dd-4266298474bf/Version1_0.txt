@@ -1,0 +1,29 @@
+```java
+import java.util.Scanner;
+
+public class TripletsInString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Initialize the count of triples to 0
+        int count = 0;
+
+        // Iterate over the string
+        for (int i = 0; i < str.length() - 2; i++) {
+            // Check if the current character appears three times in a row
+            if (str.charAt(i) == str.charAt(i + 1) && str.charAt(i) == str.charAt(i + 2)) {
+                // Increment the count of triples
+                count++;
+            }
+        }
+
+        // Print the count of triples
+        System.out.println("The number of triples in the string is: " + count);
+    }
+}
+```

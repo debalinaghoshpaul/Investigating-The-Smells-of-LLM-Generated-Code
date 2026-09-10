@@ -1,0 +1,39 @@
+```java
+import java.time.Instant;
+
+public class CurrentTimestamp {
+
+    public static void main(String[] args) {
+        // Get the current timestamp
+        Instant timestamp = Instant.now();
+
+        // Print the timestamp
+        System.out.println(timestamp);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: None
+* Expected Output: The current timestamp in the format "yyyy-MM-ddTHH:mm:ss.SSSXXX"
+
+**Corner Cases:**
+
+* **Negative Time:**
+    * Input: Set the system time to a negative value
+    * Expected Output: Throws an exception or prints "java.time.temporal.ChronoUnitException: Invalid unit: Nanoseconds"
+
+* **Overflow Time:**
+    * Input: Set the system time to a value that overflows the long data type
+    * Expected Output: Throws an exception or prints "java.time.temporal.ChronoUnitException: Invalid unit: Nanoseconds"
+
+* **Invalid Time:**
+    * Input: Set the system time to an invalid value, such as "abc"
+    * Expected Output: Throws an exception or prints "java.time.DateTimeException: Invalid format: "abc""
+
+* **Empty Input:**
+    * Input: Do not provide any input
+    * Expected Output: The current timestamp in the format "yyyy-MM-ddTHH:mm:ss.SSSXXX"

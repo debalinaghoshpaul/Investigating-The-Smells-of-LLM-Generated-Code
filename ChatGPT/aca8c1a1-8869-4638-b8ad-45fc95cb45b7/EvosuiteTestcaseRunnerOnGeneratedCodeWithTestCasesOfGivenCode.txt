@@ -1,0 +1,64 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.266
+There were 11 failures:
+1) test03(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise8 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test03(Exercise8_ESTest.java:54)
+2) test02(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise8 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test02(Exercise8_ESTest.java:47)
+3) test05(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise8 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test05(Exercise8_ESTest.java:69)
+4) test04(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise8 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test04(Exercise8_ESTest.java:61)
+5) test10(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise8 cannot be resolved to a type
+	Exercise8 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test10(Exercise8_ESTest.java:105)
+6) test01(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise8 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test01(Exercise8_ESTest.java:32)
+7) test00(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise8 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test00(Exercise8_ESTest.java:24)
+8) test07(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise8 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test07(Exercise8_ESTest.java:83)
+9) test06(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise8 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test06(Exercise8_ESTest.java:76)
+10) test09(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise8 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test09(Exercise8_ESTest.java:99)
+11) test08(testing_ChatGPT_on_java.Exercise8_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise8 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise8_ESTest.test08(Exercise8_ESTest.java:91)
+
+FAILURES!!!
+Tests run: 11,  Failures: 11
+

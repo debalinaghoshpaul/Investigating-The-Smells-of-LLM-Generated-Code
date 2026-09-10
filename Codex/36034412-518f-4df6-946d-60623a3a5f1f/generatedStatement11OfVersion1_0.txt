@@ -1,0 +1,8 @@
+
+Input:
+5
+-1 0 1 -2 3
+
+Output:
+Even numbers: 2
+Odd numbers: 3

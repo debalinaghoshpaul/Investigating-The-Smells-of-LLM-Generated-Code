@@ -1,0 +1,5 @@
+Violations by Category:
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 5
+MethodName: Method name 'fly_obj' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'. [MethodName]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+Indentation: 'method def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]: 18

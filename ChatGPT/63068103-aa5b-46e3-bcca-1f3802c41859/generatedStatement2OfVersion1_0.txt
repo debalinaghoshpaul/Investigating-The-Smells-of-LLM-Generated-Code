@@ -1,0 +1,7 @@
+
+
+Example Input/Output:
+- Input: "The programming language you need to use is java is is is java"
+- Output:
+  Most frequent word: is
+  Longest word: programming

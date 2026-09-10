@@ -1,0 +1,19 @@
+JUnit version 4.13
+.Enter the size of the array: 
+.Enter the size of the array: 
+Enter the elements of the array: 
+false
+..Enter the size of the array: 
+Enter the elements of the array: 
+.Enter the size of the array: 
+Enter the elements of the array: 
+false
+.Enter the size of the array: 
+Enter the elements of the array: 
+false
+.Enter the size of the array: 
+
+Time: 0.346
+
+OK (7 tests)
+

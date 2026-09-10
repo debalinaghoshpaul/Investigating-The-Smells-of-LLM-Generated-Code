@@ -1,0 +1,73 @@
+```java
+import java.util.Scanner;
+
+public class ExponentialTaylorSeries {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the base and exponent from the user
+        System.out.print("Enter the base: ");
+        double base = scanner.nextDouble();
+
+        System.out.print("Enter the exponent: ");
+        int exponent = scanner.nextInt();
+
+        // Calculate e^x using the Taylor series
+        double result = 1;
+        for (int i = 1; i <= exponent; i++) {
+            result += Math.pow(base, i) / factorial(i);
+        }
+
+        // Print the result
+        System.out.println("e^" + exponent + " = " + result);
+    }
+
+    // Calculate the factorial of a number
+    public static int factorial(int n) {
+        int factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+        }
+
+        return factorial;
+    }
+}
+```
+
+**Test cases**
+
+* **Normal case:** base = 2, exponent = 3
+```
+Enter the base: 2
+Enter the exponent: 3
+e^3 = 8.0
+```
+
+* **Large exponent:** base = 2, exponent = 10
+```
+Enter the base: 2
+Enter the exponent: 10
+e^10 = 1024.0
+```
+
+* **Negative exponent:** base = 2, exponent = -2
+```
+Enter the base: 2
+Enter the exponent: -2
+e^-2 = 0.25
+```
+
+* **Zero exponent:** base = 2, exponent = 0
+```
+Enter the base: 2
+Enter the exponent: 0
+e^0 = 1.0
+```
+
+* **Corner case:** base = 0, exponent = 0
+```
+Enter the base: 0
+Enter the exponent: 0
+e^0 = 1.0
+```

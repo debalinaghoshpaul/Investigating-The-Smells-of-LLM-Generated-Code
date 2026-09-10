@@ -1,0 +1,4 @@
+
+
+**Explanation:**
+The empty array has no leaders.

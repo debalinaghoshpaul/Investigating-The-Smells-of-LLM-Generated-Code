@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9CsDoQoSFfJ3SBhc9vi7iDW4DUV0l",
+  "object" : "chat.completion",
+  "created" : 1712855392,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class SeparateWords {\n    public static void main(String[] args) {\n        // Create a Scanner object for user input\n        Scanner input = new Scanner(System.in);\n        \n        // Ask user to enter a string containing three words separated by commas\n        System.out.print(\"Enter three words separated by commas: \");\n        String words = input.nextLine();\n        \n        // Split the input string by commas\n        String[] wordArray = words.split(\",\");\n        \n        // Output each word in a different line\n        for (String word : wordArray) {\n            System.out.println(word.trim()); // Trim to remove any leading or trailing spaces\n        }\n        \n        // Close the input scanner\n        input.close();\n    }\n} \n\n//Output\n//Enter three words separated by commas: Apple, Banana, Orange\n//Apple\n//Banana\n//Orange"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 74,
+    "completion_tokens" : 176,
+    "total_tokens" : 250
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

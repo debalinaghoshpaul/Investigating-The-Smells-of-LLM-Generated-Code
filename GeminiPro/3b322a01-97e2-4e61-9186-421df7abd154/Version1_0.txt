@@ -1,0 +1,43 @@
+```java
+import java.util.regex.*;
+
+public class FindLowercaseLetterSequences {
+
+    public static void main(String[] args) {
+        String text = "This_is_a_test_of_the_regex_pattern.";
+
+        // Create a regular expression pattern to match sequences of lowercase letters joined by an underscore
+        String pattern = "[a-z]+_[a-z]+";
+
+        // Create a Pattern object
+        Pattern p = Pattern.compile(pattern);
+
+        // Create a Matcher object
+        Matcher m = p.matcher(text);
+
+        // Find all matches of the pattern in the text
+        while (m.find()) {
+            // Print the matching sequence
+            System.out.println(m.group());
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+* **Valid Test Cases:**
+    * "This_is_a_test_of_the_regex_pattern."
+    * "The_quick_brown_fox_jumps_over_the_lazy_dog."
+    * "a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z"
+* **Invalid Test Cases:**
+    * "This is a test of the regex pattern." (no underscores)
+    * "This_is_a_t3st_of_the_regex_pattern." (number in the sequence)
+    * "This_is_a_test_of_the_regex_pattern_" (underscore at the end of the sequence)
+
+**Corner Cases:**
+
+* **Empty string:** The program should handle empty strings gracefully.
+* **Single character:** The program should handle strings that contain only a single character.
+* **Multiple matches:** The program should be able to find multiple matches of the pattern in a string.
+* **Overlapping matches:** The program should be able to find overlapping matches of the pattern in a string.

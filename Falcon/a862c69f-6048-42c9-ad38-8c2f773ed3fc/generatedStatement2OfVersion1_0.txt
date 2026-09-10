@@ -1,0 +1,13 @@
+
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * Empty string as input or pattern
+    * Input containing special characters
+* **Regular Cases:**
+    * Inputs of varying lengths
+    * Patterns with different matching strategies (*, ?, .)
+
+**Expected Output:**
+

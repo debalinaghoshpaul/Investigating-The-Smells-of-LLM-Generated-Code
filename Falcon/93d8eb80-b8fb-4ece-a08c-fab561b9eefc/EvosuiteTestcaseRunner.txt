@@ -1,0 +1,12 @@
+JUnit version 4.13
+..Enter the base of the triangle: 
+.Enter the base of the triangle: 
+Enter the height of the triangle: 
+.Enter the base of the triangle: 
+Enter the height of the triangle: 
+The area of the triangle is: 27.0
+
+Time: 0.408
+
+OK (4 tests)
+

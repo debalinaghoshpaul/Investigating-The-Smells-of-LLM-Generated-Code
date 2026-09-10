@@ -1,0 +1,28 @@
+
+
+**Test Cases:**
+
+* **Positive Test Cases:**
+    * 1 (2^0)
+    * 2 (2^1)
+    * 4 (2^2)
+    * 8 (2^3)
+    * 16 (2^4)
+    * 32 (2^5)
+    * 64 (2^6)
+    * 128 (2^7)
+    * 256 (2^8)
+
+* **Negative Test Cases:**
+    * 0 (not a power of two)
+    * 3 (not a power of two)
+    * 5 (not a power of two)
+    * 7 (not a power of two)
+    * 9 (not a power of two)
+    * 10 (not a power of two)
+    * 11 (not a power of two)
+
+* **Corner Cases:**
+    * -1 (not a power of two)
+    * Integer.MIN_VALUE (not a power of two)
+    * Integer.MAX_VALUE (not a power of two)

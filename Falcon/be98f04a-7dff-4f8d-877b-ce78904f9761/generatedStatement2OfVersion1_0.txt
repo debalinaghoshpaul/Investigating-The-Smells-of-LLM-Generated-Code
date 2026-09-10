@@ -1,0 +1,17 @@
+
+
+**Test Cases:**
+
+**Valid Cases:**
+
+* Create a rectangle with width 5.0 and height 10.0, and draw it.
+* Create a circle with radius 3.0, and draw it.
+* Resize the rectangle by a factor of 1.5, and draw it again.
+* Resize the circle by a factor of 2.0, and draw it again.
+
+**Corner Cases:**
+
+* Create a rectangle with width 0.0 and height 0.0 (will not draw anything).
+* Create a circle with radius 0.0 (will not draw anything).
+* Resize a rectangle or circle by a factor of 0.0 (will not change the shape's size).
+* Resize a rectangle or circle with negative factor (will result in an error).

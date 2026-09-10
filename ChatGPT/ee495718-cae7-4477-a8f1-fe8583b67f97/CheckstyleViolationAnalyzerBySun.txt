@@ -1,0 +1,9 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 100). [LineLength]: 3
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 6
+FinalParameters: Parameter args should be final. [FinalParameters]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '25' is a magic number. [MagicNumber]: 9

@@ -1,0 +1,93 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class SumOfNumbersInString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Initialize the sum to 0
+        int sum = 0;
+
+        // Iterate over the characters of the string
+        for (char c : str.toCharArray()) {
+            // Check if the character is a digit
+            if (Character.isDigit(c)) {
+                // Convert the character to an integer and add it to the sum
+                sum += Character.getNumericValue(c);
+            }
+        }
+
+        // Print the sum of the numbers
+        System.out.println("The sum of the numbers in the string is: " + sum);
+    }
+}
+```
+
+**Test Cases:**
+
+**1. Empty String**
+```
+Input: ""
+Output: 0
+```
+
+**2. String with No Numbers**
+```
+Input: "Hello world"
+Output: 0
+```
+
+**3. String with One Number**
+```
+Input: "123"
+Output: 123
+```
+
+**4. String with Multiple Numbers**
+```
+Input: "123abc456"
+Output: 779
+```
+
+**5. String with Negative Numbers**
+```
+Input: "-123"
+Output: -123
+```
+
+**6. String with Floating-Point Numbers**
+```
+Input: "123.45"
+Output: 123
+```
+
+**7. String with Special Characters**
+```
+Input: "#$%*123&^%"
+Output: 123
+```
+
+**8. String with Leading and Trailing Spaces**
+```
+Input: "   123   "
+Output: 123
+```
+
+**9. String with Mixed Types**
+```
+Input: "123abc456.78hello910"
+Output: 1589
+```
+
+**10. String with Invalid Input**
+```
+Input: "123&&^^%$#@!"
+Output: 123
+```

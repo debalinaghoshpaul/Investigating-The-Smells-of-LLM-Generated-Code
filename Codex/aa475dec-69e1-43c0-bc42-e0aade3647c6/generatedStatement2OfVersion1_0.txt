@@ -1,0 +1,5 @@
+
+
+In this program, the Producer class continually produces values and adds them to the buffer array, while the Consumer class continually consumes values from the buffer array. The producer waits if the buffer is full, and the consumer waits if the buffer is empty, using the wait() and notify() methods for synchronization.
+
+Feel free to modify and expand upon this code as needed.

@@ -1,0 +1,16 @@
+
+
+**Test cases:**
+
+* **Valid test cases:**
+    * Input: "Hello"
+    * Output: The string does not contain the character 'g'.
+    * Input: "Good"
+    * Output: The string contains the character 'g'.
+* **Corner cases:**
+    * Input: ""
+    * Output: The string does not contain the character 'g'.
+    * Input: "g"
+    * Output: The string contains the character 'g'.
+    * Input: "12345"
+    * Output: The string does not contain the character 'g'.

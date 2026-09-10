@@ -1,0 +1,13 @@
+JUnit version 4.13
+.E..
+Time: 0.36
+There was 1 failure:
+1) test1(testing_ChatGPT_on_java.Exercise34_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method longest_sequence(int[]) is undefined for the type Exercise34
+
+	at testing_ChatGPT_on_java.Exercise34_ESTest.test1(Exercise34_ESTest.java:39)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+

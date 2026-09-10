@@ -1,0 +1,64 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.332
+There were 11 failures:
+1) test09(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise53 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test09(Exercise53_ESTest.java:102)
+2) test08(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise53 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test08(Exercise53_ESTest.java:96)
+3) test07(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise53 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test07(Exercise53_ESTest.java:90)
+4) test06(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise53 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test06(Exercise53_ESTest.java:84)
+5) test01(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise53 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test01(Exercise53_ESTest.java:30)
+6) test00(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise53 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test00(Exercise53_ESTest.java:24)
+7) test10(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise53 cannot be resolved to a type
+	Exercise53 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test10(Exercise53_ESTest.java:108)
+8) test05(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise53 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test05(Exercise53_ESTest.java:78)
+9) test04(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise53 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test04(Exercise53_ESTest.java:65)
+10) test03(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise53 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test03(Exercise53_ESTest.java:48)
+11) test02(testing_ChatGPT_on_java.Exercise53_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise53 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise53_ESTest.test02(Exercise53_ESTest.java:36)
+
+FAILURES!!!
+Tests run: 11,  Failures: 11
+

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program which solve the equation: ax+by=c dx+ey=f Print the values of x, y where a, b, c, d, e and f are given.\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 7912d476-9e9c-40aa-8269-bdab8e213d1d.\n

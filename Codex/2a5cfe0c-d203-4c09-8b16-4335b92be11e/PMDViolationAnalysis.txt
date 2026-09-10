@@ -1,0 +1,9 @@
+Violations by Category:
+UselessParentheses: Useless parentheses.: 2
+CloneMethodReturnTypeMustMatchClassName: The return type of the clone() method must be the class name when implements Cloneable: 2
+ControlStatementBraces: This statement should have braces: 13
+CommentRequired: Class comments are required: 18
+SimplifyBooleanReturns: This if statement can be replaced by `return {condition} || {elseBranch};`: 2
+SuspiciousEqualsMethodName: The method name and parameter number are suspiciously close to equals(Object): 1
+UnnecessaryImport: Unused import 'java.util.Date': 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

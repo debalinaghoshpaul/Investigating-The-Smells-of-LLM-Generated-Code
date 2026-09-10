@@ -1,0 +1,69 @@
+JUnit version 4.13
+.Stack elements: 8 6 4 2 
+
+Check if all elements of this stack are even! true
+Check if all elements of this stack are odd! false
+Stack is empty
+.Stack is empty!
+.E.Stack is full
+.Stack is empty!
+Stack is empty
+Stack is empty!
+Stack elements: 0 51 
+Stack elements: 0 51 
+.Stack elements: 8 6 4 2 
+
+Check if all elements of this stack are even! true
+Check if all elements of this stack are odd! false
+Stack is empty
+Stack Underflow
+.Stack elements: 0 0 382 
+Stack elements: 0 0 382 
+.Stack is empty!
+Stack is full
+.Stack elements: 8 6 4 2 
+
+Check if all elements of this stack are even! true
+Check if all elements of this stack are odd! false
+Stack Underflow
+Stack Underflow
+Stack elements: 8 6 4 2 
+
+Check if all elements of this stack are even! true
+Check if all elements of this stack are odd! false
+Stack elements: 8 6 4 2 
+
+Check if all elements of this stack are even! true
+Check if all elements of this stack are odd! false
+Stack is empty
+Stack elements: -1 
+Stack elements: 8 6 4 2 
+
+Check if all elements of this stack are even! true
+Check if all elements of this stack are odd! false
+Stack elements: 8 6 4 2 
+
+Check if all elements of this stack are even! true
+Check if all elements of this stack are odd! false
+Stack Underflow
+E.Stack is empty
+.Stack elements: 1 
+Stack is empty
+Stack is empty!
+Stack Underflow
+..Stack Underflow
+.
+Time: 0.52
+There were 2 failures:
+1) test08(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.NegativeArraySizeException
+	at testing_ChatGPT_on_java.Stack.<init>(Stack.java:10)
+	at testing_ChatGPT_on_java.Stack_ESTest.test08(Stack_ESTest.java:84)
+2) test12(testing_ChatGPT_on_java.Stack_ESTest)
+java.lang.NullPointerException
+	at testing_ChatGPT_on_java.Stack.allMatch(Stack.java:58)
+	at testing_ChatGPT_on_java.Stack_ESTest.test12(Stack_ESTest.java:169)
+
+FAILURES!!!
+Tests run: 14,  Failures: 2
+

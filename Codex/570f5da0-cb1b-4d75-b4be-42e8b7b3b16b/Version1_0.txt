@@ -1,0 +1,59 @@
+```java
+import java.util.Scanner;
+
+class Solution {
+    /**
+     * Calculate the Hamming weight of a given string.
+     *
+     * @param s The input string.
+     * @return The Hamming weight of the string.
+     */
+    public int hammingWeight(String s) {
+        int weight = 0;
+        for (char c : s.toCharArray()) {
+            weight += c - '0';
+        }
+        return weight;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        int weight = solution.hammingWeight(s);
+        System.out.println(weight);
+    }
+}
+```
+
+**Test cases:**
+
+* **Input:** 00000000
+* **Expected output:** 0
+
+* **Input:** 11111111
+* **Expected output:** 8
+
+* **Input:** 10101010
+* **Expected output:** 4
+
+* **Input:** 11001100
+* **Expected output:** 4
+
+* **Input:** 10000111
+* **Expected output:** 4
+
+* **Input:** 01111000
+* **Expected output:** 4
+
+* **Input:** "" (empty string)
+* **Expected output:** 0
+
+* **Input:** "a"
+* **Expected output:** 1
+
+* **Input:** "1a"
+* **Expected output:** 2

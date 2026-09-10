@@ -1,0 +1,4 @@
+
+
+**3. Single Node Tree Test Case:**
+Input:

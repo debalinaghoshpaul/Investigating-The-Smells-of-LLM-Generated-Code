@@ -1,0 +1,3 @@
+
+
+This program creates a HashMap to store the frequency of each integer in the array. It then iterates over the array and updates the frequency in the HashMap. Finally, it prints out the duplicate values from the array by checking the frequency in the HashMap.

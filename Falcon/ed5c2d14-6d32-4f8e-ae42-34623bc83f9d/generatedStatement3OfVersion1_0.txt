@@ -1,0 +1,4 @@
+
+The square of 5 is 25
+The cube of 5 is 125
+The fourth power of 5 is 625

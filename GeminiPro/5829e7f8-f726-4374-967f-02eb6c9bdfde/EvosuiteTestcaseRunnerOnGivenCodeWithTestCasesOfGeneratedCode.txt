@@ -1,0 +1,59 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E
+Time: 0.375
+There were 10 failures:
+1) test1(testing_ChatGPT_on_java.Exercise52_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise52.sumoftwo(SumOfTwoIntegers.java:29)
+	at testing_ChatGPT_on_java.Exercise52_ESTest.test1(Exercise52_ESTest.java:30)
+2) test0(testing_ChatGPT_on_java.Exercise52_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise52.sumoftwo(SumOfTwoIntegers.java:29)
+	at testing_ChatGPT_on_java.Exercise52_ESTest.test0(Exercise52_ESTest.java:24)
+3) test7(testing_ChatGPT_on_java.Exercise52_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise52.sumoftwo(SumOfTwoIntegers.java:29)
+	at testing_ChatGPT_on_java.Exercise52_ESTest.test7(Exercise52_ESTest.java:85)
+4) test6(testing_ChatGPT_on_java.Exercise52_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise52.sumoftwo(SumOfTwoIntegers.java:29)
+	at testing_ChatGPT_on_java.Exercise52_ESTest.test6(Exercise52_ESTest.java:79)
+5) test9(testing_ChatGPT_on_java.Exercise52_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise52.main(SumOfTwoIntegers.java:5)
+	at testing_ChatGPT_on_java.Exercise52_ESTest.test9(Exercise52_ESTest.java:99)
+6) test8(testing_ChatGPT_on_java.Exercise52_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise52 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise52.<init>(SumOfTwoIntegers.java:4)
+	at testing_ChatGPT_on_java.Exercise52_ESTest.test8(Exercise52_ESTest.java:91)
+7) test3(testing_ChatGPT_on_java.Exercise52_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise52.main(SumOfTwoIntegers.java:5)
+	at testing_ChatGPT_on_java.Exercise52_ESTest.test3(Exercise52_ESTest.java:50)
+8) test2(testing_ChatGPT_on_java.Exercise52_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise52.main(SumOfTwoIntegers.java:5)
+	at testing_ChatGPT_on_java.Exercise52_ESTest.test2(Exercise52_ESTest.java:40)
+9) test5(testing_ChatGPT_on_java.Exercise52_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise52.sumoftwo(SumOfTwoIntegers.java:29)
+	at testing_ChatGPT_on_java.Exercise52_ESTest.test5(Exercise52_ESTest.java:73)
+10) test4(testing_ChatGPT_on_java.Exercise52_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise52.main(SumOfTwoIntegers.java:5)
+	at testing_ChatGPT_on_java.Exercise52_ESTest.test4(Exercise52_ESTest.java:60)
+
+FAILURES!!!
+Tests run: 10,  Failures: 10
+

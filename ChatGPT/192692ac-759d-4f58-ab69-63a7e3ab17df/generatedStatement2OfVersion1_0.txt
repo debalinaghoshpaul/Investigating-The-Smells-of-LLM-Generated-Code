@@ -1,0 +1,5 @@
+
+
+This Rational class defines rational numbers and provides methods for addition, subtraction, multiplication, and division of rational numbers. It also includes a test program in the `main` method to demonstrate the functionality of the class.
+
+You can copy and paste this code into a Java file and run it to see the output.

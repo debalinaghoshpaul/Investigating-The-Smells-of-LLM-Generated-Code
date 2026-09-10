@@ -1,0 +1,65 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int num3 = scanner.nextInt();
+        int num4 = scanner.nextInt();
+        int num5 = scanner.nextInt();
+        int num6 = scanner.nextInt();
+        int num7 = scanner.nextInt();
+        int num8 = scanner.nextInt();
+        int num9 = scanner.nextInt();
+        int diff = num1 - num2;
+        int diff2 = num3 - num4;
+        int diff3 = num5 - num6;
+        int diff4 = num7 - num8;
+        int diff5 = num9 - num8;
+        System.out.println(diff);
+        System.out.println(diff2);
+        System.out.println(diff3);
+        System.out.println(diff4);
+        System.out.println(diff5);
+    }
+}
+
+// Output: 8
+// Output: 7
+// Output: 6
+// Output: 5
+// Output: 4
+// Output: 3
+// Output: 2
+// Output: 1
+// Output: 0
+// Output: -1
+// Output: -2
+// Output: -3
+// Output: -4
+// Output: -5
+// Output: -6
+// Output: -7
+// Output: -8
+// Output: -9
+// Output: -10
+// Output: -11
+// Output: -12
+// Output: -13
+// Output: -14
+// Output: -15
+// Output: -16
+// Output: -17
+// Output: -18
+// Output: -19
+// Output: -20
+// Output: -21
+// Output: -22
+// Output: -23
+// Output: -24
+// Output: -25
+// Output: -26
+// Output: -27
+//

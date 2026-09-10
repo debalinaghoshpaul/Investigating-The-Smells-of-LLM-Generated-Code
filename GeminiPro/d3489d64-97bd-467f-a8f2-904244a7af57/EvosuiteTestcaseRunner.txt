@@ -1,0 +1,7 @@
+JUnit version 4.13
+.....Pair is (8, 7), Maximum Product: 56
+...
+Time: 0.487
+
+OK (8 tests)
+

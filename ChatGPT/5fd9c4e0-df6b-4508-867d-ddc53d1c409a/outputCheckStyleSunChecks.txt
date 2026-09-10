@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:6: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:7:20: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:8:20: '20' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:9:20: '30' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:10:20: '40' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:11:20: '50' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:13:17: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Stack\5fd9c4e0-df6b-4508-867d-ddc53d1c409a\generatedProgram1OfVersion1_0.java:17: Line is longer than 80 characters (found 99). [LineLength]
+Audit done.

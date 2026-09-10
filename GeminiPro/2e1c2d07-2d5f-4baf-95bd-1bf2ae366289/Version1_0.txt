@@ -1,0 +1,26 @@
+```java
+import java.math.BigInteger;
+
+public class FermatNumbers {
+
+    public static void main(String[] args) {
+        for (int n = 0; n < 10; n++) {
+            BigInteger fermatNumber = BigInteger.ONE.shiftLeft(n).add(BigInteger.ONE);
+            System.out.println(fermatNumber);
+        }
+    }
+}
+```
+
+Test cases:
+
+* Corner case: n = 0
+* n = 1
+* n = 2
+* n = 3
+* n = 4
+* n = 5
+* n = 6
+* n = 7
+* n = 8
+* n = 9

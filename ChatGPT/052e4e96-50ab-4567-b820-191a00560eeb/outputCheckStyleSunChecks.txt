@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\052e4e96-50ab-4567-b820-191a00560eeb\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\052e4e96-50ab-4567-b820-191a00560eeb\generatedProgram1OfVersion1_0.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\052e4e96-50ab-4567-b820-191a00560eeb\generatedProgram1OfVersion1_0.java:8:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\052e4e96-50ab-4567-b820-191a00560eeb\generatedProgram1OfVersion1_0.java:8:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\052e4e96-50ab-4567-b820-191a00560eeb\generatedProgram1OfVersion1_0.java:15:26: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\052e4e96-50ab-4567-b820-191a00560eeb\generatedProgram1OfVersion1_0.java:16:25: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\052e4e96-50ab-4567-b820-191a00560eeb\generatedProgram1OfVersion1_0.java:17:25: '5' is a magic number. [MagicNumber]
+Audit done.

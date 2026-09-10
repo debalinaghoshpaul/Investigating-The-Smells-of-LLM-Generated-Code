@@ -1,0 +1,17 @@
+JUnit version 4.13
+..........Initial values:
+m1: $10.50
+m2: $5.25
+
+Values after adding m2 to m1:
+m1: $15.75
+m2: $5.25
+
+Values after subtracting $2.75 from m2:
+m1: $15.75
+m2: $2.50
+............
+Time: 0.439
+
+OK (22 tests)
+

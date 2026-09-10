@@ -1,0 +1,52 @@
+import java.util.Arrays;
+
+public class ArrayComparison {
+
+    public static <T> boolean compareArrays(T[] arr1, T[] arr2) {
+        // Check if the arrays are of the same length
+        if (arr1.length != arr2.length) {
+            return false;
+        }
+
+        // Compare each element of the arrays
+        for (int i = 0; i < arr1.length; i++) {
+            if (!arr1[i].equals(arr2[i])) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static void main(String[] args) {
+        // Test case 1: Arrays with the same elements in the same order
+        Integer[] arr1 = {1, 2, 3, 4, 5};
+        Integer[] arr2 = {1, 2, 3, 4, 5};
+        System.out.println(compareArrays(arr1, arr2)); // Output: true
+
+        // Test case 2: Arrays with the same elements in a different order
+        Integer[] arr3 = {1, 2, 3, 4, 5};
+        Integer[] arr4 = {5, 4, 3, 2, 1};
+        System.out.println(compareArrays(arr3, arr4)); // Output: false
+
+        // Test case 3: Arrays with different lengths
+        Integer[] arr5 = {1, 2, 3};
+        Integer[] arr6 = {1, 2, 3, 4};
+        System.out.println(compareArrays(arr5, arr6)); // Output: false
+
+        // Test case 4: Arrays with different element types
+        Integer[] arr7 = {1, 2, 3};
+        String[] arr8 = {"1", "2", "3"};
+        System.out.println(compareArrays(arr7, arr8)); // Output: false
+
+        // Test case 5: Empty arrays
+        Integer[] arr9 = {};
+        Integer[] arr10 = {};
+        System.out.println(compareArrays(arr9, arr10)); // Output: true
+
+        // Test case 6: Null arrays
+        Integer[] arr11 = null;
+        Integer[] arr12 = null;
+        System.out.println(compareArrays(arr11, arr12)); // Output: true
+    }
+}

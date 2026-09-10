@@ -1,0 +1,5 @@
+
+
+This Java program defines a recursive method `isSorted` that takes an array and an index as input parameters. It recursively checks if the elements in the given array are sorted in ascending order by comparing each element with the next one. If the current element is greater than the next element, the method returns false, indicating that the array is not sorted. If all elements are in ascending order, the method returns true. 
+
+In the `main` method, two arrays are declared and passed to the `isSorted` method to check if they are sorted in ascending order. The result is printed to the console.

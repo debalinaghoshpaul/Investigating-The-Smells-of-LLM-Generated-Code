@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:1:8: Unused import - java.text.SimpleDateFormat. [UnusedImports]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:3:8: Unused import - java.util.Date. [UnusedImports]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:7:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:12:22: '2023' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:12:31: '15' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:19:9: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:26:18: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:29:18: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:32:18: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:35:18: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_DateTime\716ed644-8bbe-4384-8cde-6b95843d112f\generatedProgram1OfVersion1_0.java:38:18: '7' is a magic number. [MagicNumber]
+Audit done.

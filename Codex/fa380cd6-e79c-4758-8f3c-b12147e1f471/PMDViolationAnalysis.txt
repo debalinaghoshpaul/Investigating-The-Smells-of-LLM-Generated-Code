@@ -1,0 +1,6 @@
+Violations by Category:
+CommentRequired: Class comments are required: 10
+AtLeastOneConstructor: Each class should declare at least one constructor: 1
+UnusedPrivateField: Avoid unused private fields such as 'counterModel'.: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+UnusedLocalVariable: Avoid unused local variables such as 'counterView'.: 1

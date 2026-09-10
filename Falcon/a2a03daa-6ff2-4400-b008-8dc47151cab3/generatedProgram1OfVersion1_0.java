@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class SubarraySum {
+    public static void main(String[] args) {
+        List<Integer> nums1 = Arrays.asList(2, 1, -5, 4, -3, 1, -3, 4, -1);
+        List<Integer> nums2 = Arrays.asList(1, -2, 3, 0, 7, 8, 1, 2, -3);
+
+        int[] arr1 = new int[nums1.size()];
+        int[] arr2 = new int[nums2.size()];
+
+        for (int i = 0; i < nums1.size(); i++) {
+            arr1[i] = nums1.get(i);
+        }
+
+        for (int i = 0; i < nums2.size(); i++) {
+            arr2[i] = nums2.get(i);
+        }
+
+        int sum1 = 0;
+        int sum2 = 0;
+
+        for (int i = 0; i < nums1.size(); i++) {
+            sum1 += nums1.get(i);
+        }
+
+        for (int i = 0; i < nums2.size(); i++) {
+            sum2 += nums2.get(i);
+        }
+
+        if (sum1 == sum2) {
+            System.out.println("The sum of subarray with the largest sum is " + sum1);
+        } else if (sum1 > sum2) {
+            System.out.println("The sum of subarray with the largest sum is " + sum1);
+        } else {
+            System.out.println("The sum of subarray with the largest sum is " + sum2);
+        }
+    }
+}
+

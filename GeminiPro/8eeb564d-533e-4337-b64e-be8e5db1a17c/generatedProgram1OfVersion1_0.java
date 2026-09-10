@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class StringDecompression {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNextLine()) {
+            String compressedString = scanner.nextLine();
+            String decompressedString = decompressString(compressedString);
+            System.out.println(decompressedString);
+        }
+        scanner.close();
+    }
+
+    private static String decompressString(String compressedString) {
+        StringBuilder decompressedString = new StringBuilder();
+        int count = 0;
+        for (char c : compressedString.toCharArray()) {
+            if (Character.isDigit(c)) {
+                count = count * 10 + (c - '0');
+            } else {
+                while (count > 0) {
+                    decompressedString.append(c);
+                    count--;
+                }
+            }
+        }
+        return decompressedString.toString();
+    }
+}

@@ -1,0 +1,43 @@
+```java
+import java.util.Scanner;
+
+public class StringContains {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the first string from the user.
+        System.out.println("Input first string:");
+        String firstString = scanner.nextLine();
+
+        // Get the second string from the user.
+        System.out.println("Input second string:");
+        String secondString = scanner.nextLine();
+
+        // Check if the second string contains the first one.
+        boolean contains = secondString.contains(firstString);
+
+        // Print the result.
+        System.out.println("If the second string contains the first one? " + contains);
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:**
+    * Input first string: Once in a blue moon
+    * Input second string: See eye to eye
+    * Expected output: false
+* **Corner case 1:**
+    * Input first string: ""
+    * Input second string: abc
+    * Expected output: true
+* **Corner case 2:**
+    * Input first string: abc
+    * Input second string: ""
+    * Expected output: false
+* **Corner case 3:**
+    * Input first string: abc
+    * Input second string: abc
+    * Expected output: true

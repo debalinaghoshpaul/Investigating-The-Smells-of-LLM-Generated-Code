@@ -1,0 +1,69 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class CheckGoodIndex {
+
+    public static boolean checkGoodIndex(String str) {
+        if (str.length() < 3) {
+            return false;
+        }
+
+        if (str.substring(0, 3).equals("good") || str.substring(1, 4).equals("good")) {
+            return true;
+        }
+
+        return false;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        boolean result = checkGoodIndex(str);
+
+        if (result) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**1. Valid Case:**
+Input: "goodmorning"
+Output: true
+
+**2. Valid Case (Starting at Index 1):**
+Input: "xgoodmorning"
+Output: true
+
+**3. Invalid Case (Length < 3):**
+Input: "go"
+Output: false
+
+**4. Invalid Case (No "good" Substring):**
+Input: "helloworld"
+Output: false
+
+**5. Empty String:**
+Input: ""
+Output: false
+
+**6. Null String:**
+Input: null
+Output: false
+
+**7. String with Special Characters:**
+Input: "g@@dmorning"
+Output: true
+
+**8. String with Uppercase Characters:**
+Input: "GOODmorning"
+Output: true

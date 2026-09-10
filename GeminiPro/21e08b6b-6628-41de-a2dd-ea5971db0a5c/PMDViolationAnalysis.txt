@@ -1,0 +1,7 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CommentRequired: Class comments are required: 6
+OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.: 1
+CommentSize: Comment is too large: 1
+UnnecessaryImport: Unused import 'java.util.LinkedList': 2
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

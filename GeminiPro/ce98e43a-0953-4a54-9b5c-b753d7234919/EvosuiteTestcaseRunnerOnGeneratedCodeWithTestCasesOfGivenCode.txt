@@ -1,0 +1,17 @@
+JUnit version 4.13
+....Before modification:
+Dog 1 Name: Buddy
+Dog 1 Breed: Golden Retriever
+Dog 2 Name: Max
+Dog 2 Breed: German Shepherd
+
+After modification:
+Dog 1 Name: Cody
+Dog 1 Breed: Labrador Retriever
+Dog 2 Name: Bella
+Dog 2 Breed: Pit Bull
+....
+Time: 0.352
+
+OK (8 tests)
+

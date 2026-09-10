@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2fac173f-c2b4-4dd4-a7e0-851afe5237ee\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2fac173f-c2b4-4dd4-a7e0-851afe5237ee\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2fac173f-c2b4-4dd4-a7e0-851afe5237ee\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2fac173f-c2b4-4dd4-a7e0-851afe5237ee\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2fac173f-c2b4-4dd4-a7e0-851afe5237ee\generatedProgram1OfVersion1_0.java:20:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2fac173f-c2b4-4dd4-a7e0-851afe5237ee\generatedProgram1OfVersion1_0.java:20:47: Parameter n should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\2fac173f-c2b4-4dd4-a7e0-851afe5237ee\generatedProgram1OfVersion1_0.java:23:9: Each variable declaration must be in its own statement. [MultipleVariableDeclarations]
+Audit done.

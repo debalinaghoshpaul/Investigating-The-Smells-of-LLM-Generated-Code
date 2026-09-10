@@ -1,0 +1,35 @@
+```java
+import java.util.Scanner;
+
+public class IsFinite {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a double/float value: ");
+        double value = scanner.nextDouble();
+
+        if (Double.isFinite(value)) {
+            System.out.println("The value is finite.");
+        } else {
+            System.out.println("The value is not finite.");
+        }
+    }
+}
+```
+
+**Test cases:**
+
+* **Valid finite values:**
+    * 123.45
+    * -123.45
+    * 0.0
+* **Invalid finite values:**
+    * Infinity
+    * -Infinity
+    * NaN (Not a Number)
+* **Corner cases:**
+    * Double.MIN_VALUE
+    * Double.MAX_VALUE
+    * Float.MIN_VALUE
+    * Float.MAX_VALUE

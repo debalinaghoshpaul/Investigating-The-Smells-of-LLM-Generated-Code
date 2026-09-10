@@ -1,0 +1,17 @@
+JUnit version 4.13
+.................Temperature 1: 0.0 degrees C
+Temperature 2: 32.0 degrees F
+Temperature 3: -40.0 degrees C
+Temperature 4: -40.0 degrees F
+Temperature 5: 100.0 degrees C
+Temperature 6: 212.0 degrees F
+Temperature 1 equals Temperature 2: true
+Temperature 3 equals Temperature 4: true
+Temperature 5 equals Temperature 6: true
+Temperature 1 greater than Temperature 3: true
+Temperature 5 less than Temperature 6: false
+....
+Time: 0.535
+
+OK (21 tests)
+

@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Original Array: [10, 77, 10, 54, -11, 10]
+Result: true
+.....
+Time: 0.329
+
+OK (6 tests)
+

@@ -1,0 +1,8 @@
+JUnit version 4.13
+.First occurrence of 20 is at index: 1
+Last occurrence of 20 is at index: 5
+.
+Time: 0.313
+
+OK (2 tests)
+

@@ -1,0 +1,75 @@
+```java
+import java.util.Scanner;
+
+public class AgeCalculator {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the user's birth year, month, and day
+        System.out.println("Enter your birth year:");
+        int birthYear = input.nextInt();
+
+        System.out.println("Enter your birth month (1-12):");
+        int birthMonth = input.nextInt();
+
+        System.out.println("Enter your birth day:");
+        int birthDay = input.nextInt();
+
+        // Get the current year, month, and day
+        Calendar now = Calendar.getInstance();
+        int currentYear = now.get(Calendar.YEAR);
+        int currentMonth = now.get(Calendar.MONTH) + 1; // January is 0
+        int currentDay = now.get(Calendar.DAY_OF_MONTH);
+
+        // Calculate the user's age
+        int age = currentYear - birthYear;
+
+        // Adjust the age if the user's birthday has not yet passed this year
+        if (currentMonth < birthMonth || (currentMonth == birthMonth && currentDay < birthDay)) {
+            age--;
+        }
+
+        // Print the user's age
+        System.out.println("Your age is " + age);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal case:**
+    * Birth year: 1990
+    * Birth month: 1
+    * Birth day: 1
+    * Current year: 2023
+    * Current month: 1
+    * Current day: 1
+    * Expected age: 33
+
+* **Corner case 1: User's birthday has not yet passed this year**
+    * Birth year: 1990
+    * Birth month: 12
+    * Birth day: 31
+    * Current year: 2023
+    * Current month: 1
+    * Current day: 1
+    * Expected age: 32
+
+* **Corner case 2: User was born on February 29th of a leap year**
+    * Birth year: 1992
+    * Birth month: 2
+    * Birth day: 29
+    * Current year: 2024
+    * Current month: 2
+    * Current day: 28
+    * Expected age: 32
+
+* **Corner case 3: User was born on a leap year that is not a multiple of 400**
+    * Birth year: 1900
+    * Birth month: 2
+    * Birth day: 29
+    * Current year: 2023
+    * Current month: 2
+    * Current day: 28
+    * Expected age: 122

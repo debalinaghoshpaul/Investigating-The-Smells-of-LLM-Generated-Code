@@ -1,0 +1,32 @@
+JUnit version 4.13
+..Index of a: 0
+Index of b: 1
+Index of c: 2
+Index of d: 3
+Index of e: 4
+Index of f: 5
+Index of g: 6
+Index of h: 7
+Index of i: 8
+Index of j: 9
+Index of k: 10
+Index of l: 11
+Index of m: 12
+Index of n: 13
+Index of o: 14
+Index of p: 15
+Index of q: 16
+Index of r: 17
+Index of s: 18
+Index of t: 19
+Index of u: 20
+Index of v: 21
+Index of w: 22
+Index of x: 23
+Index of y: 24
+Index of z: 25
+
+Time: 0.329
+
+OK (2 tests)
+

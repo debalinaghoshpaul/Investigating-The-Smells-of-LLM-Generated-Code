@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94qDStr60uGCSYLP4sLeeX7mhHeWi",
+  "object" : "chat.completion",
+  "created" : 1710941058,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is a possible solution to the problem:\n\n```java\nclass TreeNode {\n    int val;\n    TreeNode left;\n    TreeNode right;\n\n    TreeNode(int x) {\n        val = x;\n    }\n}\n\npublic class LongestConsecutivePath {\n    private int longestPath = 0;\n\n    public int longestConsecutive(TreeNode root) {\n        if(root == null) {\n            return 0;\n        }\n        dfs(root, root.val, 1);\n        return longestPath;\n    }\n\n    private void dfs(TreeNode node, int target, int currentPath) {\n        if(node == null) {\n            return;\n        }\n\n        if(node.val == target + 1) {\n            currentPath++;\n        } else {\n            currentPath = 1;\n        }\n\n        longestPath = Math.max(longestPath, currentPath);\n\n        dfs(node.left, node.val, currentPath);\n        dfs(node.right, node.val, currentPath);\n    }\n\n    public static void main(String[] args) {\n        TreeNode root = new TreeNode(1);\n        root.right = new TreeNode(3);\n        root.right.left = new TreeNode(2);\n        root.right.right = new TreeNode(4);\n        root.right.right.right = new TreeNode(5);\n\n        LongestConsecutivePath solution = new LongestConsecutivePath();\n        System.out.println(\"Length of the longest consecutive sequence path: \" + solution.longestConsecutive(root)); // Output should be 3\n    }\n}\n```\n\nIn this solution, we perform a depth-first search (DFS) traversal of the binary tree while keeping track of the current consecutive path length. We update the longest path length whenever we encounter a consecutive sequence. Finally, we return the longest consecutive path length found in the binary tree."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 89,
+    "completion_tokens" : 355,
+    "total_tokens" : 444
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

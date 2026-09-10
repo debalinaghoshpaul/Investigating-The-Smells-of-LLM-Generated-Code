@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\a61e6cf2-c773-462c-9ca3-83f2c9c785bc\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\a61e6cf2-c773-462c-9ca3-83f2c9c785bc\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\a61e6cf2-c773-462c-9ca3-83f2c9c785bc\generatedProgram1OfVersion1_0.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\a61e6cf2-c773-462c-9ca3-83f2c9c785bc\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\a61e6cf2-c773-462c-9ca3-83f2c9c785bc\generatedProgram1OfVersion1_0.java:3:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\a61e6cf2-c773-462c-9ca3-83f2c9c785bc\generatedProgram1OfVersion1_0.java:18:9: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\a61e6cf2-c773-462c-9ca3-83f2c9c785bc\generatedProgram1OfVersion1_0.java:18:9: 'if' is not followed by whitespace. [WhitespaceAround]
+Audit done.

@@ -1,0 +1,13 @@
+JUnit version 4.13
+.Enter a string: 
+Enter the word to check for: 
+The string does not start with the word C
+..Enter a string: 
+.Enter a string: 
+Enter the word to check for: 
+The string starts with the word Enter the word to check for: 
+
+Time: 0.344
+
+OK (4 tests)
+

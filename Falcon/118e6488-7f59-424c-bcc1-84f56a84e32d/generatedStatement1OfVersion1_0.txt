@@ -1,0 +1,24 @@
+
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter numbers: 10 20 30 40
+// The average of the stream of numbers is: 25.0
+// Enter

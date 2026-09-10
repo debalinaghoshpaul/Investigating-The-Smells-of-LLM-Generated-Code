@@ -1,0 +1,6 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+UselessParentheses: Useless parentheses.: 1
+LocalVariableNamingConventions: The final local variable name 'SWEETENER_PER_SODA' doesn't match '[a-z][a-zA-Z0-9]*': 1
+CommentRequired: Class comments are required: 2
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

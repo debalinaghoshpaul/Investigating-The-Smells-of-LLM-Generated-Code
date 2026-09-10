@@ -1,0 +1,8 @@
+
+Input:
+4
+2 4 6 8
+
+Output:
+Even numbers: 4
+Odd numbers: 0

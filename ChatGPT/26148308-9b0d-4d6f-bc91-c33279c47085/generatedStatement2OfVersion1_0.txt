@@ -1,0 +1,34 @@
+
+
+**Test Cases:**
+
+* **Test Case 1:**
+    * Input: "Python is a programming language."
+    * Output: Java
+* **Test Case 2:**
+    * Input: "I love Java."
+    * Output: C++
+* **Test Case 3:**
+    * Input: "Python and Java are both programming languages."
+    * Output: Java
+* **Test Case 4:**
+    * Input: "C++ is a programming language."
+    * Output: C++
+* **Test Case 5:**
+    * Input: "" (empty string)
+    * Output: C++
+* **Test Case 6:**
+    * Input: "python" (all lowercase)
+    * Output: Java
+* **Test Case 7:**
+    * Input: "PYTHON" (all uppercase)
+    * Output: Java
+* **Test Case 8:**
+    * Input: "pYtHoN" (mixed case)
+    * Output: Java
+* **Test Case 9:**
+    * Input: "Pythons are snakes."
+    * Output: C++
+* **Test Case 10:**
+    * Input: "Java is a programming language. Python is a snake."
+    * Output: Java

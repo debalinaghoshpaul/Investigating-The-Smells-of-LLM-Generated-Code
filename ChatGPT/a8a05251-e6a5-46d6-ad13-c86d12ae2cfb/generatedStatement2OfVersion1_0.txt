@@ -1,0 +1,5 @@
+
+
+This program creates two stacks, pushes some elements to each stack, and then checks if the two stacks are equal using the `areStacksEqual` method. The method compares the size of the two stacks and then iterates through each element to check for equality. 
+
+You can run this program to see if the two stacks provided are equal or not.

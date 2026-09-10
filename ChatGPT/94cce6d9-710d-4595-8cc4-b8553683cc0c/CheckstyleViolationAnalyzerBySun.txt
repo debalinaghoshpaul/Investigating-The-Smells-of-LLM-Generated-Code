@@ -1,0 +1,8 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 114). [LineLength]: 3
+FinalParameters: Parameter arr should be final. [FinalParameters]: 3
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+UnusedImports: Unused import - java.util.Arrays. [UnusedImports]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 3
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '10' is a magic number. [MagicNumber]: 28

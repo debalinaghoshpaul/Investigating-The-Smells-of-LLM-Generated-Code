@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91z61R1qqibwZheKV4NPiCFGywd4s",
+  "object" : "chat.completion",
+  "created" : 1710260209,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\n\npublic class PairSumInRotatedArray {\n\n    public static boolean pairWithSumExists(int[] arr, int sum) {\n        int n = arr.length;\n        int pivot = findPivot(arr, 0, n-1);\n        \n        int left = (pivot + 1) % n;\n        int right = pivot;\n        \n        while(left != right) {\n            if(arr[left] + arr[right] == sum) {\n                return true;\n            }\n            \n            if(arr[left] + arr[right] < sum) {\n                left = (left + 1) % n;\n            } else {\n                right = (n + right - 1) % n;\n            }\n        }\n        \n        return false;\n    }\n    \n    public static int findPivot(int[] arr, int low, int high) {\n        if(high < low) {\n            return -1;\n        }\n        \n        if(high == low) {\n            return low;\n        }\n        \n        int mid = (low + high) / 2;\n        \n        if(mid < high && arr[mid] > arr[mid + 1]) {\n            return mid;\n        }\n        \n        if(mid > low && arr[mid] < arr[mid - 1]) {\n            return mid - 1;\n        }\n        \n        if(arr[low] >= arr[mid]) {\n            return findPivot(arr, low, mid - 1);\n        }\n        \n        return findPivot(arr, mid + 1, high);\n    }\n    \n    public static void main(String[] args) {\n        int[] arr = {7, 8, 9, 1, 2, 3, 4, 5, 6};\n        int sum = 10;\n        \n        boolean pairExists = pairWithSumExists(arr, sum);\n        \n        if(pairExists) {\n            System.out.println(\"A pair with the sum \" + sum + \" exists in the array.\");\n        } else {\n            System.out.println(\"No such pair exists in the array.\");\n        }\n    }\n}\n"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 78,
+    "completion_tokens" : 425,
+    "total_tokens" : 503
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-920ZOLqDkdIrlIMQXHksoyw5ipg3q",
+  "object" : "chat.completion",
+  "created" : 1710265874,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class LargestGap {\n    public static void main(String[] args) {\n        int[] arr = {23, -2, 45, 38, 12, 4, 6};\n\n        Arrays.sort(arr);\n\n        int maxGap = 0;\n        for (int i = 0; i < arr.length - 1; i++) {\n            int gap = arr[i + 1] - arr[i];\n            if (gap > maxGap) {\n                maxGap = gap;\n            }\n        }\n\n        System.out.println(\"Original array: \" + Arrays.toString(arr));\n        System.out.println(\"Largest gap between sorted elements of the said array: \" + maxGap);\n    }\n}\n```\n\nThis Java program sorts the input array of integers and then calculates the largest gap between adjacent elements. Finally, it prints the original array and the largest gap."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 110,
+    "completion_tokens" : 186,
+    "total_tokens" : 296
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

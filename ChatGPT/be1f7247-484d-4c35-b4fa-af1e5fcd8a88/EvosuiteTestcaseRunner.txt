@@ -1,0 +1,10 @@
+JUnit version 4.13
+..........Max element in stack: 7
+Min element in stack: 2
+Max element after pop: 5
+Min element after pop: 2
+...........
+Time: 0.408
+
+OK (21 tests)
+

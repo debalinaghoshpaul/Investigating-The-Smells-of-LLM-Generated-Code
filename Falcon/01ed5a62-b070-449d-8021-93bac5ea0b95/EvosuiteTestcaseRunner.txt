@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Input first integer: .Input first integer: .Input first integer: Input second integer: 5 == 5
+5 <= 5
+.Input first integer: Input second integer: 5 != 4
+5 > 4
+5 >= 4
+..Input first integer: Input second integer: 1 != 4
+1 < 4
+1 <= 4
+
+Time: 0.344
+
+OK (6 tests)
+

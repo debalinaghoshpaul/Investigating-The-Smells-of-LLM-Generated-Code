@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Original HashMap: {one=1, two=2, three=3}
+Shallow copy: {two=2, three=3, four=4, one=1}
+.
+Time: 0.449
+
+OK (2 tests)
+

@@ -1,0 +1,69 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E
+Time: 0.235
+There were 8 failures:
+1) test0(testing_ChatGPT_on_java.FibonacciCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	FibonacciCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.FibonacciCalculator_ESTest.test0(FibonacciCalculator_ESTest.java:22)
+2) test1(testing_ChatGPT_on_java.FibonacciCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved to a type
+	FibonacciCalculator cannot be resolved to a type
+	FibonacciCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.FibonacciCalculator_ESTest.test1(FibonacciCalculator_ESTest.java:27)
+3) test6(testing_ChatGPT_on_java.FibonacciCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	FibonacciCalculator cannot be resolved to a type
+	FibonacciCalculator cannot be resolved to a type
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.FibonacciCalculator_ESTest.test6(FibonacciCalculator_ESTest.java:82)
+4) test7(testing_ChatGPT_on_java.FibonacciCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	FibonacciCalculator cannot be resolved to a type
+	FibonacciCalculator cannot be resolved to a type
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.FibonacciCalculator_ESTest.test7(FibonacciCalculator_ESTest.java:104)
+5) test4(testing_ChatGPT_on_java.FibonacciCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	FibonacciCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.FibonacciCalculator_ESTest.test4(FibonacciCalculator_ESTest.java:68)
+6) test5(testing_ChatGPT_on_java.FibonacciCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved to a type
+	FibonacciCalculator cannot be resolved to a type
+	FibonacciCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.FibonacciCalculator_ESTest.test5(FibonacciCalculator_ESTest.java:74)
+7) test2(testing_ChatGPT_on_java.FibonacciCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.FibonacciCalculator_ESTest.test2(FibonacciCalculator_ESTest.java:48)
+8) test3(testing_ChatGPT_on_java.FibonacciCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	FibonacciCalculator cannot be resolved
+	FibonacciCalculator cannot be resolved
+
+	at testing_ChatGPT_on_java.FibonacciCalculator_ESTest.test3(FibonacciCalculator_ESTest.java:61)
+
+FAILURES!!!
+Tests run: 8,  Failures: 8
+

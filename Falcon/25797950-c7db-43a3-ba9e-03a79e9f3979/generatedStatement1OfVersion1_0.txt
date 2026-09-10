@@ -1,0 +1,8 @@
+
+Airplane {flightNumber=1, destination='New York', departureTime='10:00 AM'}
+Airplane {flightNumber=1, destination='New York', departureTime='10:00 AM'}
+Airplane {flightNumber=1, destination='New York', departureTime='10:00 AM'}
+Airplane {flightNumber=1, destination='New York', departureTime='10:00 AM'}
+Airplane {flightNumber=1, destination='New York', departureTime='10:00 AM'}
+Airplane {flightNumber=1, destination='New York', departureTime='10:00 AM'}
+Airplane {flightNumber

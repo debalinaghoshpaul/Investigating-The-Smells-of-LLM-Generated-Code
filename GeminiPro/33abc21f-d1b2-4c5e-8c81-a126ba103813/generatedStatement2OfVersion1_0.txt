@@ -1,0 +1,10 @@
+
+
+**Test cases:**
+
+* **Normal case:** The program should correctly find the heights of the top three buildings in descending order from the given array of building heights.
+* **Corner cases:**
+    * **Empty array:** The program should handle the case where the input array is empty and print an appropriate message.
+    * **Array with less than three elements:** The program should handle the case where the input array has less than three elements and print an appropriate message.
+    * **Array with duplicate elements:** The program should handle the case where the input array contains duplicate elements and correctly find the heights of the top three buildings.
+    * **Array with negative elements:** The program should handle the case where the input array contains negative elements and print an appropriate message.

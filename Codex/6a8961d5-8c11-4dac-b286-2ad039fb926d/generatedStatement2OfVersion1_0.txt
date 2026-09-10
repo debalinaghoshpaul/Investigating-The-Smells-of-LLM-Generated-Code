@@ -1,0 +1,3 @@
+
+
+This program defines a `MultithreadedSort` class with a main method that initializes an array of integers, sorts the array using merge sort algorithm, and then outputs the sorted array. The `mergeSort` method splits the array into two halves and recursively sorts each half in separate threads. The `merge` method merges the two sorted halves back together.

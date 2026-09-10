@@ -1,0 +1,7 @@
+Violations by Category:
+UselessParentheses: Useless parentheses.: 1
+CloneMethodReturnTypeMustMatchClassName: The return type of the clone() method must be the class name when implements Cloneable: 1
+ControlStatementBraces: This statement should have braces: 10
+CommentRequired: Class comments are required: 9
+SimplifyBooleanReturns: This if statement can be replaced by `return {condition} || {elseBranch};`: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

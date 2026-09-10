@@ -1,0 +1,8 @@
+Violations by Category:
+LineLength: Line is longer than 100 characters (found 138). [LineLength]: 1
+WhitespaceAfter: 'if' is not followed by whitespace. [WhitespaceAfter]: 3
+WhitespaceAround: 'if' is not followed by whitespace. Empty blocks                may only be represented as {} when not part of a multi-block statement (4.1.3) [WhitespaceAround]: 3
+OneTopLevelClass: Top-level class TreeNode has to reside in its own source file. [OneTopLevelClass]: 1
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+Indentation: 'member def type' has incorrect indentation level 4, expected level should be 2. [Indentation]: 36

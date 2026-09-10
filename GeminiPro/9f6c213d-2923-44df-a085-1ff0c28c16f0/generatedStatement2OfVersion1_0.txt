@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+* **Positive Test Cases:**
+    * Search for a keyword that exists in the document or web page.
+    * Search for a keyword that is a substring of a word in the document or web page.
+    * Search for a keyword that is in different casing than the text in the document or web page.
+    * Search for a keyword that appears multiple times in the document or web page.
+
+* **Negative Test Cases:**
+    * Search for a keyword that does not exist in the document or web page.
+    * Search for an empty keyword.
+    * Search for a keyword that is a substring of a word in the document or web page, but not a complete word.
+    * Search for a keyword that is in different casing than the text in the document or web page, and does not match any words in the document or web page.

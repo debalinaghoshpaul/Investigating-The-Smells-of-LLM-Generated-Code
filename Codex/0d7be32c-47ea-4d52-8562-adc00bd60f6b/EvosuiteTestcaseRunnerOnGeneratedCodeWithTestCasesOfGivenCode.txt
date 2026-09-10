@@ -1,0 +1,34 @@
+JUnit version 4.13
+...E.E...E.E.E
+Time: 0.34
+There were 5 failures:
+1) test3(testing_ChatGPT_on_java.TrafficLight_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getDuration() is undefined for the type TrafficLight
+
+	at testing_ChatGPT_on_java.TrafficLight_ESTest.test3(TrafficLight_ESTest.java:46)
+2) test2(testing_ChatGPT_on_java.TrafficLight_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method setDuration(int) is undefined for the type TrafficLight
+	The method getDuration() is undefined for the type TrafficLight
+
+	at testing_ChatGPT_on_java.TrafficLight_ESTest.test2(TrafficLight_ESTest.java:38)
+3) test7(testing_ChatGPT_on_java.TrafficLight_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getDuration() is undefined for the type TrafficLight
+
+	at testing_ChatGPT_on_java.TrafficLight_ESTest.test7(TrafficLight_ESTest.java:88)
+4) test6(testing_ChatGPT_on_java.TrafficLight_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getDuration() is undefined for the type TrafficLight
+
+	at testing_ChatGPT_on_java.TrafficLight_ESTest.test6(TrafficLight_ESTest.java:79)
+5) test8(testing_ChatGPT_on_java.TrafficLight_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getDuration() is undefined for the type TrafficLight
+
+	at testing_ChatGPT_on_java.TrafficLight_ESTest.test8(TrafficLight_ESTest.java:95)
+
+FAILURES!!!
+Tests run: 9,  Failures: 5
+

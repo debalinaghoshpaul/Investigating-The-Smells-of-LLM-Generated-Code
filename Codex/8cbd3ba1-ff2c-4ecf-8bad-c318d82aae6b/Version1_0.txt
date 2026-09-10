@@ -1,0 +1,58 @@
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class FirstNonRepeatingCharacter {
+
+    public static void main(String[] args) {
+        String str = "leetcode";
+        int result = firstNonRepeatingCharacter(str);
+        System.out.println("The index of the first non-repeating character is: " + result);
+    }
+
+    public static int firstNonRepeatingCharacter(String str) {
+        Map<Character, Integer> charCountMap = new HashMap<>();
+
+        // Count the occurrences of each character in the string
+        for (char c : str.toCharArray()) {
+            charCountMap.put(c, charCountMap.getOrDefault(c, 0) + 1);
+        }
+
+        // Find the first character with a count of 1
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (charCountMap.get(c) == 1) {
+                return i;
+            }
+        }
+
+        // No non-repeating character found
+        return -1;
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: "leetcode"
+* Expected Output: 0 (The first non-repeating character is 'l')
+
+**Corner Cases:**
+
+* **Empty String:**
+    * Input: ""
+    * Expected Output: -1 (No non-repeating character)
+* **All Characters Repeat:**
+    * Input: "aaaaa"
+    * Expected Output: -1 (No non-repeating character)
+* **Multiple Non-Repeating Characters:**
+    * Input: "abcabcde"
+    * Expected Output: 0 (The first non-repeating character is 'a')
+* **Capital and Small Letters:**
+    * Input: "Leetcode"
+    * Expected Output: 0 (The first non-repeating character is 'l', ignoring case)
+* **Special Characters:**
+    * Input: "leetcode!"
+    * Expected Output: 6 (The first non-repeating character is '!')

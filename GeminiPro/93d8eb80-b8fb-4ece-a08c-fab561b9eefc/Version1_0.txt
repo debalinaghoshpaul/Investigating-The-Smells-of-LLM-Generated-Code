@@ -1,0 +1,48 @@
+```java
+// Java program to calculate the area of a triangle
+
+import java.util.Scanner;
+
+public class TriangleArea {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the base and height of the triangle from the user.
+        System.out.println("Enter the base of the triangle: ");
+        double base = input.nextDouble();
+
+        System.out.println("Enter the height of the triangle: ");
+        double height = input.nextDouble();
+
+        // Calculate the area of the triangle using the formula: area = (1/2) * base * height
+        double area = 0.5 * base * height;
+
+        // Print the area of the triangle to the console.
+        System.out.println("The area of the triangle is: " + area);
+    }
+}
+```
+
+Here are some test cases to test the program, including corner cases:
+
+* **Test case 1:**
+    * Base: 10
+    * Height: 5
+    * Expected output: 25
+* **Test case 2:**
+    * Base: 0
+    * Height: 10
+    * Expected output: 0
+* **Test case 3:**
+    * Base: 10
+    * Height: 0
+    * Expected output: 0
+* **Test case 4:**
+    * Base: -10
+    * Height: 5
+    * Expected output: 25 (the absolute value of the base is used)
+* **Test case 5:**
+    * Base: "abc"
+    * Height: 10
+    * Expected output: "Invalid input" (the program should handle invalid input gracefully)

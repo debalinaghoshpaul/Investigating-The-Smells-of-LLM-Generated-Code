@@ -1,0 +1,27 @@
+ The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, you can test the program with different characters to remove and different strings to remove.
+// You can also test the program with different lengths of strings to remove.
+// You can also test the program with different characters to replace.
+// You can also test the program with different lengths of strings to replace.
+// You can also test the program with different characters to replace.
+// You can also test the program with different lengths of strings to replace.
+// You can also test the program with different characters to replace.
+// You can also test the program with different lengths of strings to replace.
+// You can also test the program with different characters to replace.
+// You can also test the program with different lengths of strings to replace.
+// You can also test the program with different characters to replace.
+// You can also test the program with different lengths of strings to replace.
+// You can also test the program with different characters to replace.
+// You can also test the program with different lengths of strings to replace.
+// You can also test the program with different characters to replace.
+// You can also test the program with different lengths of strings to replace.
+// You can also test the program with different characters to replace.
+// You can also test the program with different lengths of strings to replace.
+// You can also test the program with different characters to replace.
+// You can also test the program with different lengths of strings to replace.
+// You can also test the program with different characters to replace.
+// You can also test the program with different lengths of strings to replace.
+// You can also test the program with different characters to replace.
+// You

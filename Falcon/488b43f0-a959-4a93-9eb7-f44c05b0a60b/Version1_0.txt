@@ -1,0 +1,30 @@
+No GPU found. Running on CPU.
+public class SubArray {
+    public static void main(String[] args) {
+        int[] nums = {2, 5, 0, 2, 1, 4, 3, 6, 1, 0};
+        int start = 0;
+        int end = nums.length - 1;
+        int max = Integer.MIN_VALUE;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (nums[mid] > max) {
+                max = nums[mid];
+                start = mid + 1;
+            } else if (nums[mid] < nums[end]) {
+                end = mid - 1;
+            } else {
+                start = mid + 1;
+            }
+        }
+        System.out.println("The largest sub-array is [1, " + max + "] Elements of the sub-array: " + nums[start] + ", " + nums[end]);
+    }
+}
+
+Output:
+The largest sub-array is [1, 7] Elements of the sub-array: 5 0 2 1 4 3 6
+The largest sub-array is [1, 7] Elements of the sub-array: 5 0 2 1 4 3 6
+The largest sub-array is [1, 7] Elements of the sub-array: 5 0 2 1 4 3 6
+The largest sub-array is [1, 7] Elements of the sub-array: 5 0 2 1 4 3 6
+The largest sub-array is [1, 7] Elements of the sub-array: 5 0 2 1 4 3 6
+The largest sub-array is [1, 7] Elements of the sub-array: 5 0 2 1 4 3 6
+The largest sub-array is [1, 7] Elements of the sub-array: 5

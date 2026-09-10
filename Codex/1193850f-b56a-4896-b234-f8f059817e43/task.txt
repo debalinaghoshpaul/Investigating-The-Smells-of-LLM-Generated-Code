@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called Animal with a method named move(). Create a subclass called Cheetah that overrides the move() method to run.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 1193850f-b56a-4896-b234-f8f059817e43.\n

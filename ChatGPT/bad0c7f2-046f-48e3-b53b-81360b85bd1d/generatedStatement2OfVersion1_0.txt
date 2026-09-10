@@ -1,0 +1,9 @@
+
+
+Test cases:
+
+* **Valid file:** The file "input.txt" exists and contains some text.
+* **Invalid file:** The file "input.txt" does not exist.
+* **Empty file:** The file "input.txt" exists but is empty.
+* **File with spaces in name:** The file "input with spaces.txt" exists and contains some text.
+* **File with special characters in name:** The file "input!@#$%^&*().txt" exists and contains some text.

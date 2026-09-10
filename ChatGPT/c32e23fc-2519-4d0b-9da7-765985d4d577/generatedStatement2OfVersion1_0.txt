@@ -1,0 +1,19 @@
+
+
+Here are some test cases including corner cases:
+
+* **Valid test cases:**
+    * 2001, boy, Michael
+    * 2002, girl, Emma
+    * 2003, boy, Jacob
+    * 2004, girl, Isabella
+    * 2005, boy, Ethan
+    * 2006, girl, Sophia
+    * 2007, boy, Matthew
+    * 2008, girl, Olivia
+    * 2009, boy, Daniel
+    * 2010, girl, Mia
+* **Invalid test cases:**
+    * 2011, boy, Michael (invalid year)
+    * 2002, boy, Mary (invalid gender)
+    * 2003, boy, John (name not found)

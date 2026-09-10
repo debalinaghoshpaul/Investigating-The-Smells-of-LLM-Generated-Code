@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:28: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:32:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:33:3: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:33:27: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:41:3: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\3690503a-537b-41aa-894f-fcf5a35d864a\GivenSolution.java:41:41: Parameter vehicle should be final. [FinalParameters]
+Audit done.

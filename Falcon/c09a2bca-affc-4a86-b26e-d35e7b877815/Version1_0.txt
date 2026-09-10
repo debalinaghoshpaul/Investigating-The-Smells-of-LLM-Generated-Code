@@ -1,0 +1,53 @@
+```java
+import java.util.Random;
+
+public class LoadedDice extends Random {
+
+    public LoadedDice() {
+        super();
+    }
+
+    @Override
+    public int nextInt(int num) {
+        // With a 50% chance, return the largest number possible (i.e., num - 1).
+        // With a 50% chance, return what Random's nextInt method would return.
+        if (nextInt(2) == 0) {
+            return num - 1;
+        } else {
+            return super.nextInt(num);
+        }
+    }
+}
+
+public class Main {
+
+    public static void printDiceRolls(Random randGenerator) {
+        for (int i = 0; i < 100; i++) {
+            System.out.println(randGenerator.nextInt(6) + 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        LoadedDice myDice = new LoadedDice();
+        printDiceRolls(myDice);
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **num = 0:** The method should return 0.
+* **num = 1:** The method should return 0.
+* **num < 0:** The method should throw an IllegalArgumentException.
+
+**Normal Cases:**
+
+* **num = 2:** The method should return 0 or 1 with a 50% chance.
+* **num = 3:** The method should return 0, 1, or 2 with a 33.33% chance each.
+* **num = 6:** The method should return 0, 1, 2, 3, 4, or 5 with a 16.67% chance each.
+
+**Expected Output:**
+
+The output of the program will be a list of 100 numbers between 1 and 6. The distribution of the numbers will be skewed towards the largest number possible (i.e., 6).

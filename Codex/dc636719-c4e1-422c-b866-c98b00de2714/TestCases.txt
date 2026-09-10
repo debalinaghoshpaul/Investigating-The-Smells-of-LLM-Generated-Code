@@ -1,0 +1,72 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class StringStartsWith {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read input strings
+        System.out.println("Enter the main string: ");
+        String mainString = scanner.nextLine();
+
+        System.out.println("Enter the starting string: ");
+        String startingString = scanner.nextLine();
+
+        // Check if the main string starts with the starting string
+        boolean startsWith = mainString.startsWith(startingString);
+
+        // Print the result
+        if (startsWith) {
+            System.out.println("The main string starts with the starting string.");
+        } else {
+            System.out.println("The main string does not start with the starting string.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* **Input 1:**
+    * mainString: "Hello World"
+    * startingString: "Hello"
+    * **Output:** "The main string starts with the starting string."
+* **Input 2:**
+    * mainString: "Programming is fun!"
+    * startingString: "Programming"
+    * **Output:** "The main string starts with the starting string."
+
+**Negative Test Cases:**
+
+* **Input 1:**
+    * mainString: "Java is awesome"
+    * startingString: "Python"
+    * **Output:** "The main string does not start with the starting string."
+* **Input 2:**
+    * mainString: "" (empty string)
+    * startingString: "Hello"
+    * **Output:** "The main string does not start with the starting string."
+
+**Corner Cases:**
+
+* **Input 1:**
+    * mainString: "Hello"
+    * startingString: "Hello"
+    * **Output:** "The main string starts with the starting string." (Same string)
+* **Input 2:**
+    * mainString: "Hello World"
+    * startingString: "" (empty string)
+    * **Output:** "The main string starts with the starting string." (Empty starting string)
+* **Input 3:**
+    * mainString: null
+    * startingString: "Hello"
+    * **Output:** NullPointerException (Null main string)
+* **Input 4:**
+    * mainString: "Hello"
+    * startingString: null
+    * **Output:** NullPointerException (Null starting string)

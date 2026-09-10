@@ -1,0 +1,56 @@
+```java
+import java.util.Scanner;
+
+public class ReplaceVowels {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user.
+        System.out.print("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Get the character to replace the vowels with.
+        System.out.print("Enter a character to replace the vowels with: ");
+        char replacementCharacter = scanner.nextLine().charAt(0);
+
+        // Replace all vowels in the input string with the replacement character.
+        String outputString = inputString.replaceAll("[aeiouAEIOU]", String.valueOf(replacementCharacter));
+
+        // Print the output string.
+        System.out.println("The output string is: " + outputString);
+    }
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+
+* Input String: "Hello World"
+* Replacement Character: '*'
+* Expected Output: "H*ll* W*rld"
+
+**Test Case 2:**
+
+* Input String: "The quick brown fox jumps over the lazy dog"
+* Replacement Character: '#'
+* Expected Output: "Th# qu#ck br#wn f#x j#mps #v#r th# l#zy d#g"
+
+**Test Case 3:**
+
+* Input String: "12345"
+* Replacement Character: 'a'
+* Expected Output: "12345" (no vowels to replace)
+
+**Test Case 4:**
+
+* Input String: "" (empty string)
+* Replacement Character: 'x'
+* Expected Output: "" (empty string)
+
+**Test Case 5:**
+
+* Input String: "aeiouAEIOU"
+* Replacement Character: 'z'
+* Expected Output: "zzzzzzzzzzzz"

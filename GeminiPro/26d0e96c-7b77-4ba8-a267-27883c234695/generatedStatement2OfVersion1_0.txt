@@ -1,0 +1,10 @@
+
+
+**Test cases including corner cases:**
+
+| Test Case | Input | Output |
+|---|---|---|
+| **Normal case** | 5, 10, 15 | 10.0 |
+| **Corner case: all numbers are the same** | 5, 5, 5 | 5.0 |
+| **Corner case: one number is very large** | 1000, 5, 10 | 341.6666666666667 |
+| **Corner case: one number is very small** | 0.1, 5, 10 | 5.033333333333333 |

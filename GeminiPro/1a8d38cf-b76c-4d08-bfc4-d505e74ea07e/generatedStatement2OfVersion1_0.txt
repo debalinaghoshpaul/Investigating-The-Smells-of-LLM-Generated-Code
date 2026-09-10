@@ -1,0 +1,13 @@
+
+
+Test cases:
+
+* Corner cases:
+    * 0 (expected: Pronic Number)
+    * 1 (expected: Not a Pronic Number)
+    * -1 (expected: Not a Pronic Number)
+* Other test cases:
+    * 6 (expected: Pronic Number)
+    * 28 (expected: Pronic Number)
+    * 121 (expected: Not a Pronic Number)
+    * 256 (expected: Not a Pronic Number)

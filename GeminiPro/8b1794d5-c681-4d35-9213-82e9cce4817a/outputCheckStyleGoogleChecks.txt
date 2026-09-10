@@ -1,0 +1,6 @@
+Starting audit...
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\8b1794d5-c681-4d35-9213-82e9cce4817a\generatedProgram1OfVersion1_0.java:2:1: The name of the outer type and the file do not match. [OuterTypeFilename]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\8b1794d5-c681-4d35-9213-82e9cce4817a\generatedProgram1OfVersion1_0.java:2:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\8b1794d5-c681-4d35-9213-82e9cce4817a\generatedProgram1OfVersion1_0.java:2:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Collections\8b1794d5-c681-4d35-9213-82e9cce4817a\generatedProgram1OfVersion1_0.java:3:3: Missing a Javadoc comment. [MissingJavadocMethod]
+Audit done.

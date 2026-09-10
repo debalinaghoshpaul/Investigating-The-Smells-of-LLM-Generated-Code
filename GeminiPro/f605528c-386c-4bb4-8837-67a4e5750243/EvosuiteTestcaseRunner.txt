@@ -1,0 +1,12 @@
+JUnit version 4.13
+..Enter a year: 
+...Enter a year: 
+...Enter a year: 
+0 is a leap year.
+.Enter a year: 
+7 is not a leap year.
+
+Time: 0.408
+
+OK (9 tests)
+

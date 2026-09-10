@@ -1,0 +1,2 @@
+
+The maximum difference between two elements of the given array is: 10

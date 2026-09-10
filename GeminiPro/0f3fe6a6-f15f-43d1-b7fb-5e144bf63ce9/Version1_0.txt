@@ -1,0 +1,14 @@
+```java
+class Canonical {
+    public static void main(String[] args) {
+        // Get a string object
+        String str = "Hello";
+
+        // Get the canonical representation of the string object
+        String canonicalString = str.intern();
+
+        // Print the canonical representation of the string object
+        System.out.println(canonicalString);
+    }
+}
+```

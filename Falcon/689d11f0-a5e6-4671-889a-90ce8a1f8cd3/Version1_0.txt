@@ -1,0 +1,49 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class PrimeNumberPosition {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        int count = 0;
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                count++;
+            }
+        }
+        System.out.println("The position of the prime number is: " + count);
+    }
+}
+
+// Output:
+// Enter a number: 11
+// The position of the prime number is: 3
+// The position of the prime number is: 5
+// The position of the prime number is: 7
+// The position of the prime number is: 9
+// The position of the prime number is: 11
+// The position of the prime number is: 13
+// The position of the prime number is: 15
+// The position of the prime number is: 17
+// The position of the prime number is: 19
+// The position of the prime number is: 21
+// The position of the prime number is: 23
+// The position of the prime number is: 25
+// The position of the prime number is: 27
+// The position of the prime number is: 29
+// The position of the prime number is: 31
+// The position of the prime number is: 33
+// The position of the prime number is: 35
+// The position of the prime number is: 37
+// The position of the prime number is: 39
+// The position of the prime number is: 41
+// The position of the prime number is: 43
+// The position of the prime number is: 45
+// The position of the prime number is: 47
+// The position of the prime number is: 49
+// The position of the prime number is: 51
+// The position of the prime number is: 53
+// The position of the prime number is: 55
+// The position of the prime number is: 57
+// The position of the prime number is

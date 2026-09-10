@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* 6
+* 8
+* 10
+* 12
+* 100
+
+**Invalid Test Cases (Corner Cases):**
+
+* **Negative number:** -10
+* **Odd number:** 5
+* **Number less than 4:** 3
+* **Number greater than 50,000:** 50001
+* **Even prime number:** 2

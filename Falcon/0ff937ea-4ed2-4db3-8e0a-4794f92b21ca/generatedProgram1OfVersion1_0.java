@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class LongestMirrorImage {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        int[] arr = new int[str.length()];
+        int start = 0, end = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == str.charAt(i + 1)) {
+                arr[i] = 1;
+            } else {
+                arr[i] = 0;
+            }
+            if (i == 0) {
+                start = i;
+            }
+            if (i == str.length() - 1) {
+                end = i;
+            }
+        }
+        int longest = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > longest) {
+                longest = arr[i];
+            }
+        }
+        System.out.println(longest);
+    }
+}
+

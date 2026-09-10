@@ -1,0 +1,24 @@
+```java
+import java.util.PriorityQueue;
+
+public class PriorityQueueExample {
+
+    public static void main(String[] args) {
+        // Create a priority queue
+        PriorityQueue<String> colors = new PriorityQueue<>();
+
+        // Add some colors to the priority queue
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        colors.add("Orange");
+        colors.add("Yellow");
+
+        // Print out the elements of the priority queue
+        System.out.println("Colors in the priority queue:");
+        for (String color : colors) {
+            System.out.println(color);
+        }
+    }
+}
+```

@@ -1,0 +1,58 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class RoundUpDivision {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+        int result = (int) Math.ceil(num);
+        System.out.println("The rounded up result is: " + result);
+    }
+}
+
+Output:
+Enter a number: 5
+The rounded up result is: 5.0
+Enter a number: 6
+The rounded up result is: 6.0
+Enter a number: 7
+The rounded up result is: 7.0
+Enter a number: 8
+The rounded up result is: 8.0
+Enter a number: 9
+The rounded up result is: 9.0
+Enter a number: 10
+The rounded up result is: 10.0
+Enter a number: 11
+The rounded up result is: 11.0
+Enter a number: 12
+The rounded up result is: 12.0
+Enter a number: 13
+The rounded up result is: 13.0
+Enter a number: 14
+The rounded up result is: 14.0
+Enter a number: 15
+The rounded up result is: 15.0
+Enter a number: 16
+The rounded up result is: 16.0
+Enter a number: 17
+The rounded up result is: 17.0
+Enter a number: 18
+The rounded up result is: 18.0
+Enter a number: 19
+The rounded up result is: 19.0
+Enter a number: 20
+The rounded up result is: 20.0
+Enter a number: 21
+The rounded up result is: 21.0
+Enter a number: 22
+The rounded up result is: 22.0
+Enter a number: 23
+The rounded up result is: 23.0
+Enter a number: 24
+The rounded up result is: 24.0
+Enter a number: 25
+The rounded up result is: 25.0
+Enter a number: 26
+The rounded up result is:

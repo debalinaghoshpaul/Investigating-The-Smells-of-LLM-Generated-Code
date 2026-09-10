@@ -1,0 +1,3 @@
+
+
+* **Array with only 0s:**

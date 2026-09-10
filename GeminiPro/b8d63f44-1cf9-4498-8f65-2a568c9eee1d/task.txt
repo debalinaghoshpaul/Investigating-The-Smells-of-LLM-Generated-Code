@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class called "Circle" with a radius attribute. You can access and modify this attribute. Calculate the area and circumference of the circle.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : b8d63f44-1cf9-4498-8f65-2a568c9eee1d.\n

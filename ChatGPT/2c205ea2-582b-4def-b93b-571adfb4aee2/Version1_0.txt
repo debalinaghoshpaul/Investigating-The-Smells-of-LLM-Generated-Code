@@ -1,0 +1,109 @@
+```java
+// Shape.java
+
+// A simple Java program to define a Shape class.
+
+public abstract class Shape {
+
+    // Declare the getPerimeter() and getArea() methods.
+    public abstract double getPerimeter();
+    public abstract double getArea();
+}
+```
+
+```java
+// Circle.java
+
+// A simple Java program to define a Circle class that extends the Shape class.
+
+public class Circle extends Shape {
+
+    // Declare the radius instance variable.
+    private double radius;
+
+    // Constructor to initialize the radius.
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    // Override the getPerimeter() method to calculate the perimeter of a circle.
+    @Override
+    public double getPerimeter() {
+        return 2 * Math.PI * radius;
+    }
+
+    // Override the getArea() method to calculate the area of a circle.
+    @Override
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+}
+```
+
+```java
+// Main.java
+
+// A simple Java program to test the Shape and Circle classes.
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        // Create a Circle object.
+        Circle circle = new Circle(5);
+
+        // Print the perimeter and area of the circle.
+        System.out.println("Perimeter: " + circle.getPerimeter());
+        System.out.println("Area: " + circle.getArea());
+    }
+}
+```
+
+Test cases:
+
+```
+Test Case 1:
+Input:
+radius = 5
+
+Expected Output:
+Perimeter: 31.41592653589793
+Area: 78.53981633974483
+```
+
+```
+Test Case 2:
+Input:
+radius = 0
+
+Expected Output:
+Perimeter: 0.0
+Area: 0.0
+```
+
+```
+Test Case 3:
+Input:
+radius = -5
+
+Expected Output:
+Exception: Radius cannot be negative.
+```
+
+```
+Test Case 4:
+Input:
+radius = Double.MAX_VALUE
+
+Expected Output:
+Exception: Radius is too large.
+```
+
+```
+Test Case 5:
+Input:
+radius = Double.MIN_VALUE
+
+Expected Output:
+Exception: Radius is too small.
+```

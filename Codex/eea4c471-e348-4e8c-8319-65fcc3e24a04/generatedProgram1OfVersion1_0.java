@@ -1,0 +1,72 @@
+import java.util.Scanner;
+
+public class MaxRegions {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input
+        int n = scanner.nextInt();
+        double[][] lines = new double[n][4];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < 4; j++) {
+                lines[i][j] = scanner.nextDouble();
+            }
+        }
+
+        // Check if the lines are valid
+        if (!isValid(lines)) {
+            System.out.println("No");
+            return;
+        }
+
+        // Compute the maximum number of regions
+        int maxRegions = computeMaxRegions(lines);
+
+        // Output the result
+        System.out.println(maxRegions);
+    }
+
+    /**
+     * Check if the lines are valid.
+     *
+     * @param lines the lines
+     * @return true if the lines are valid, false otherwise
+     */
+    private static boolean isValid(double[][] lines) {
+        for (double[] line : lines) {
+            if (line[0] < -100 || line[0] > 100 || line[1] < -100 || line[1] > 100 ||
+                    line[2] < -100 || line[2] > 100 || line[3] < -100 || line[3] > 100) {
+                return false;
+            }
+
+            if (line[0] == line[2] && line[1] == line[3]) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * Compute the maximum number of regions.
+     *
+     * @param lines the lines
+     * @return the maximum number of regions
+     */
+    private static int computeMaxRegions(double[][] lines) {
+        int maxRegions = 1;
+
+        for (int i = 0; i < lines.length; i++) {
+            for (int j = i + 1; j < lines.length; j++) {
+                // Check if the lines intersect
+                if (lines[i][0] * lines[j][1] - lines[i][1] * lines[j][0] != lines[i][0] * lines[j][3] - lines[i][1] * lines[j][2] &&
+                        lines[i][2] * lines[j][1] - lines[i][3] * lines[j][0] != lines[i][2] * lines[j][3] - lines[i][3] * lines[j][2]) {
+                    maxRegions++;
+                }
+            }
+        }
+
+        return maxRegions;
+    }
+}

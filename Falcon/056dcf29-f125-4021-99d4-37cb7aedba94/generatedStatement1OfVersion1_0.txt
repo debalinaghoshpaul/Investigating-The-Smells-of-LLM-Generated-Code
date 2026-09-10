@@ -1,0 +1,17 @@
+
+// Enter the year: 2020
+// Enter the month: 12
+// Enter the day: 31
+// The number of months left in the year is: 1.
+// The number of months left in the year is: 0.
+// The number of months left in the year is: 31.
+// The number of months left in the year is: 30.
+// The number of months left in the year is: 29.
+// The number of months left in the year is: 28.
+// The number of months left in the year is: 27.
+// The number of months left in the year is: 26.
+// The number of months left in the year is: 25.
+// The number of months left in the year is: 24.
+// The number of months left in the year is: 23.
+// The number of months left in the year is: 22.
+// The number

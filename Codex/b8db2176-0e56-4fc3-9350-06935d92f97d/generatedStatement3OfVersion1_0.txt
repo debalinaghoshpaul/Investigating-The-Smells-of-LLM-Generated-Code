@@ -1,0 +1,5 @@
+
+Array sorted using Bubble Sort:
+11 12 22 25 34 64 90 
+Array sorted using Selection Sort:
+11 12 22 25 34 64 90 

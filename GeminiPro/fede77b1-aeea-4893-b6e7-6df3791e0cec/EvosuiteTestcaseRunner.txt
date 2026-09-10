@@ -1,0 +1,44 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.236
+There were 5 failures:
+1) test1(testing_ChatGPT_on_java.BinaryTreeInorderTraversal_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	TreeNode cannot be resolved to a type
+	TreeNode cannot be resolved to a type
+	TreeNode cannot be resolved to a type
+	TreeNode cannot be resolved to a type
+	TreeNode cannot be resolved to a type
+	BinaryTreeInorderTraversal cannot be resolved
+
+	at testing_ChatGPT_on_java.BinaryTreeInorderTraversal_ESTest.test1(BinaryTreeInorderTraversal_ESTest.java:29)
+2) test0(testing_ChatGPT_on_java.BinaryTreeInorderTraversal_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BinaryTreeInorderTraversal cannot be resolved
+	TreeNode cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.BinaryTreeInorderTraversal_ESTest.test0(BinaryTreeInorderTraversal_ESTest.java:23)
+3) test3(testing_ChatGPT_on_java.BinaryTreeInorderTraversal_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	BinaryTreeInorderTraversal cannot be resolved to a type
+	BinaryTreeInorderTraversal cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.BinaryTreeInorderTraversal_ESTest.test3(BinaryTreeInorderTraversal_ESTest.java:49)
+4) test2(testing_ChatGPT_on_java.BinaryTreeInorderTraversal_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	TreeNode cannot be resolved to a type
+	TreeNode cannot be resolved to a type
+	TreeNode cannot be resolved to a type
+	TreeNode cannot be resolved to a type
+	BinaryTreeInorderTraversal cannot be resolved
+
+	at testing_ChatGPT_on_java.BinaryTreeInorderTraversal_ESTest.test2(BinaryTreeInorderTraversal_ESTest.java:40)
+5) test4(testing_ChatGPT_on_java.BinaryTreeInorderTraversal_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	BinaryTreeInorderTraversal cannot be resolved
+
+	at testing_ChatGPT_on_java.BinaryTreeInorderTraversal_ESTest.test4(BinaryTreeInorderTraversal_ESTest.java:55)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

@@ -1,0 +1,28 @@
+```java
+import java.util.Arrays;
+
+public class FindTopThreeBuildingHeights {
+
+    public static void main(String[] args) {
+        int[] buildingHeights = {100, 200, 300, 400, 500, 600, 700, 800};
+
+        // Sort the array in descending order
+        Arrays.sort(buildingHeights);
+
+        // Print the heights of the top three buildings
+        System.out.println("The heights of the top three buildings in descending order are:");
+        for (int i = buildingHeights.length - 1; i >= buildingHeights.length - 3; i--) {
+            System.out.println(buildingHeights[i]);
+        }
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:** The program should correctly find the heights of the top three buildings in descending order from the given array of building heights.
+* **Corner cases:**
+    * **Empty array:** The program should handle the case where the input array is empty and print an appropriate message.
+    * **Array with less than three elements:** The program should handle the case where the input array has less than three elements and print an appropriate message.
+    * **Array with duplicate elements:** The program should handle the case where the input array contains duplicate elements and correctly find the heights of the top three buildings.
+    * **Array with negative elements:** The program should handle the case where the input array contains negative elements and print an appropriate message.

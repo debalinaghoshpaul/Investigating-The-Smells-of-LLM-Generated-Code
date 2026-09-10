@@ -1,0 +1,14 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * An array with no elements
+    * An array with only one element
+* **Normal cases:**
+    * An array with 10 or 30
+    * An array without 10 or 30
+
+**Input for corner cases:**
+
+* **No elements:**

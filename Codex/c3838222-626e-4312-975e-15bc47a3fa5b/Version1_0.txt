@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97lJ98MgZujpOaLwtW2zcz8ihPjmT",
+  "object" : "chat.completion",
+  "created" : 1711637175,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.concurrent.BrokenBarrierException;\nimport java.util.concurrent.CyclicBarrier;\n\npublic class CyclicBarrierExample {\n\n    private static final int NUM_THREADS = 3;\n\n    public static void main(String[] args) {\n        CyclicBarrier barrier = new CyclicBarrier(NUM_THREADS, () -> {\n            System.out.println(\"All threads have reached the barrier!\");\n        });\n\n        for (int i = 0; i < NUM_THREADS; i++) {\n            Thread thread = new Thread(new Worker(barrier));\n            thread.start();\n        }\n    }\n\n    static class Worker implements Runnable {\n\n        private CyclicBarrier barrier;\n\n        public Worker(CyclicBarrier barrier) {\n            this.barrier = barrier;\n        }\n\n        @Override\n        public void run() {\n            try {\n                System.out.println(Thread.currentThread().getName() + \" is waiting at the barrier\");\n                barrier.await();\n                System.out.println(Thread.currentThread().getName() + \" has crossed the barrier\");\n            } catch (InterruptedException | BrokenBarrierException e) {\n                e.printStackTrace();\n            }\n        }\n    }\n}\n```\n\nIn this program, we create a `CyclicBarrier` with a count of 3 and a runnable action that will be run when all threads reach the barrier. We then create 3 worker threads that will wait at the barrier and cross it once all threads have arrived. The output will show that all threads have reached the barrier and crossed it successfully."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 67,
+    "completion_tokens" : 292,
+    "total_tokens" : 359
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

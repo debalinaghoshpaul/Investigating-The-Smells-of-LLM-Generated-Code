@@ -1,0 +1,8 @@
+
+Input:
+Enter the array of elements (separated by spaces):
+[]
+Enter the element to search for:
+5
+Output:
+Element not found

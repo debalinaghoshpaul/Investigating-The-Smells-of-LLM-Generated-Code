@@ -1,0 +1,20 @@
+
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| 10 | 4 |
+| 20 | 8 |
+| 50 | 15 |
+| 100 | 25 |
+
+**Corner Cases:**
+
+| Input | Expected Output |
+|---|---|
+| 0 | 0 |
+| 1 | 0 |
+| 2 | 1 |

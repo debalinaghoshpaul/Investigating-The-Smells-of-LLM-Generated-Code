@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8yU4mjjh07pxSvopU8FE4cY0HzkxL",
+  "object" : "chat.completion",
+  "created" : 1709425984,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Car {\n    private String company_name;\n    private String model_name;\n    private int year;\n    private int mileage;\n    \n    public String getCompany_name() {\n        return company_name;\n    }\n    \n    public void setCompany_name(String company_name) {\n        this.company_name = company_name;\n    }\n    \n    public String getModel_name() {\n        return model_name;\n    }\n    \n    public void setModel_name(String model_name) {\n        this.model_name = model_name;\n    }\n    \n    public int getYear() {\n        return year;\n    }\n    \n    public void setYear(int year) {\n        this.year = year;\n    }\n    \n    public int getMileage() {\n        return mileage;\n    }\n    \n    // Constructor\n    public Car(String company_name, String model_name, int year, int mileage) {\n        this.company_name = company_name;\n        this.model_name = model_name;\n        this.year = year;\n        this.mileage = mileage;\n    }\n    \n    public static void main(String[] args) {\n        Car myCar = new Car(\"Toyota\", \"Camry\", 2020, 50000);\n        \n        System.out.println(\"Company Name: \" + myCar.getCompany_name());\n        System.out.println(\"Model Name: \" + myCar.getModel_name());\n        System.out.println(\"Year: \" + myCar.getYear());\n        System.out.println(\"Mileage: \" + myCar.getMileage());\n    }\n}\n```\nOutput:\n```\nCompany Name: Toyota\nModel Name: Camry\nYear: 2020\nMileage: 50000\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 115,
+    "completion_tokens" : 338,
+    "total_tokens" : 453
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

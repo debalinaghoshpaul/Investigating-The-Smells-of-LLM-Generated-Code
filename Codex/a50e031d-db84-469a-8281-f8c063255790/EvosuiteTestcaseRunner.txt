@@ -1,0 +1,16 @@
+JUnit version 4.13
+.Enter the first string:
+Enter the second string:
+The concatenated string is: P0Ygzhe concatenated string is: 
+.Enter the first string:
+Enter the second string:
+Invalid input. The strings must be at least 1 character long.
+..Enter the first string:
+.Enter the first string:
+Enter the second string:
+Invalid input. The strings must be at least 1 character long.
+
+Time: 0.345
+
+OK (5 tests)
+

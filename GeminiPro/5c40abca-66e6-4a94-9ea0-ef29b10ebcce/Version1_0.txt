@@ -1,0 +1,32 @@
+```java
+import java.util.Scanner;
+
+public class RectangleAreaPerimeter {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the width and height of the rectangle from the user.
+        System.out.println("Enter the width of the rectangle: ");
+        double width = input.nextDouble();
+
+        System.out.println("Enter the height of the rectangle: ");
+        double height = input.nextDouble();
+
+        // Calculate the area and perimeter of the rectangle.
+        double area = width * height;
+        double perimeter = 2 * (width + height);
+
+        // Print the area and perimeter of the rectangle.
+        System.out.println("The area of the rectangle is: " + area);
+        System.out.println("The perimeter of the rectangle is: " + perimeter);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Valid test case:** Width = 5.5, Height = 8.5
+* **Corner case 1:** Width = 0, Height = 0
+* **Corner case 2:** Width = -5, Height = 10
+* **Corner case 3:** Width = 10, Height = -5

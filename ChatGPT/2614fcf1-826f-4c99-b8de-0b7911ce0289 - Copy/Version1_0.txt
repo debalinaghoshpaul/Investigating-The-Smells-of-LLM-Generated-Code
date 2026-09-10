@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EaIsEEKZ51tYNVKbEGOGIJl25FOv",
+  "object" : "chat.completion",
+  "created" : 1713263170,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here is a sample Java program that solves the given problem:\n\n```java\nimport java.io.File;\nimport java.util.Arrays;\nimport java.util.HashMap;\nimport java.util.Map;\nimport java.util.Scanner;\n\npublic class WordGameSolver {\n    public static void main(String[] args) {\n        try {\n            Scanner input = new Scanner(System.in);\n            System.out.print(\"Enter a word: \");\n            String enteredWord = input.nextLine().toUpperCase();\n            \n            Map<Character, Integer> enteredWordMap = createLetterMap(enteredWord);\n            \n            File file = new File(\"words.txt\");\n            Scanner fileReader = new Scanner(file);\n            \n            while (fileReader.hasNextLine()) {\n                String word = fileReader.nextLine().toUpperCase();\n                if (canFormWord(enteredWordMap, word)) {\n                    System.out.println(word);\n                }\n            }\n            \n            input.close();\n            fileReader.close();\n        } catch (Exception e) {\n            System.out.println(\"An error occurred.\");\n            e.printStackTrace();\n        }\n    }\n    \n    public static Map<Character, Integer> createLetterMap(String word) {\n        Map<Character, Integer> letterMap = new HashMap<>();\n        for (char c : word.toCharArray()) {\n            letterMap.put(c, letterMap.getOrDefault(c, 0) + 1);\n        }\n        return letterMap;\n    }\n    \n    public static boolean canFormWord(Map<Character, Integer> enteredWordMap, String word) {\n        Map<Character, Integer> wordMap = createLetterMap(word);\n        for (Map.Entry<Character, Integer> entry : wordMap.entrySet()) {\n            char key = entry.getKey();\n            int value = entry.getValue();\n            if (!enteredWordMap.containsKey(key) || enteredWordMap.get(key) < value) {\n                return false;\n            }\n        }\n        return true;\n    }\n}\n```\n\nMake sure to create a file named `words.txt` and add a list of words you want to check against. Each word should be on a new line.\n\nYou can compile and run this program to enter a word and see all the words from the file that can be formed using the letters of the entered word."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 231,
+    "completion_tokens" : 436,
+    "total_tokens" : 667
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

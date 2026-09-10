@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.36
+There were 5 failures:
+1) test3(testing_ChatGPT_on_java.AdditionQuiz2_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.AdditionQuiz2.main(.java:7)
+	at testing_ChatGPT_on_java.AdditionQuiz2_ESTest.test3(AdditionQuiz2_ESTest.java:81)
+2) test2(testing_ChatGPT_on_java.AdditionQuiz2_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.AdditionQuiz2.main(.java:7)
+	at testing_ChatGPT_on_java.AdditionQuiz2_ESTest.test2(AdditionQuiz2_ESTest.java:65)
+3) test4(testing_ChatGPT_on_java.AdditionQuiz2_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type AdditionQuiz2 must be defined in its own file
+
+	at testing_ChatGPT_on_java.AdditionQuiz2.<init>(.java:6)
+	at testing_ChatGPT_on_java.AdditionQuiz2_ESTest.test4(AdditionQuiz2_ESTest.java:94)
+4) test1(testing_ChatGPT_on_java.AdditionQuiz2_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.AdditionQuiz2.main(.java:7)
+	at testing_ChatGPT_on_java.AdditionQuiz2_ESTest.test1(AdditionQuiz2_ESTest.java:46)
+5) test0(testing_ChatGPT_on_java.AdditionQuiz2_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.AdditionQuiz2.main(.java:7)
+	at testing_ChatGPT_on_java.AdditionQuiz2_ESTest.test0(AdditionQuiz2_ESTest.java:29)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

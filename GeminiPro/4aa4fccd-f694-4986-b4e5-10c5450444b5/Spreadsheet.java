@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class Spreadsheet {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the number of rows and columns
+        System.out.println("Input number of rows/columns (0 to exit)");
+        int numRows = input.nextInt();
+        int numCols = input.nextInt();
+
+        // Exit if the number of rows or columns is 0
+        if (numRows == 0 || numCols == 0) {
+            System.out.println("Exiting...");
+            return;
+        }
+
+        // Create a 2D array to store the table
+        int[][] table = new int[numRows][numCols];
+
+        // Get the values for the table
+        for (int i = 0; i < numRows; i++) {
+            for (int j = 0; j < numCols; j++) {
+                table[i][j] = input.nextInt();
+            }
+        }
+
+        // Calculate the sum of each row and column
+        int[] rowSums = new int[numRows];
+        int[] colSums = new int[numCols];
+        for (int i = 0; i < numRows; i++) {
+            for (int j = 0; j < numCols; j++) {
+                rowSums[i] += table[i][j];
+                colSums[j] += table[i][j];
+            }
+        }
+
+        // Print the table with the row and column sums
+        System.out.println("\nResult:");
+        for (int i = 0; i < numRows; i++) {
+            for (int j = 0; j < numCols; j++) {
+                System.out.printf("%4d ", table[i][j]);
+            }
+            System.out.printf("%4d", rowSums[i]);
+            System.out.println();
+        }
+
+        for (int i = 0; i < numCols; i++) {
+            System.out.printf("%4d ", colSums[i]);
+        }
+        System.out.println();
+    }
+}

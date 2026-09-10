@@ -1,0 +1,2 @@
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_AbstractClasses\bba51aae-0f40-476c-8965-3f793fb9392f\generatedProgram1OfVersion1_0.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_AbstractClasses\bba51aae-0f40-476c-8965-3f793fb9392f\generatedProgram1OfVersion1_0.java:63:	UseUtilityClass:	This utility class has a non-private constructor

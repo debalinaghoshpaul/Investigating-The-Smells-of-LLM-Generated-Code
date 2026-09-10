@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter the values of a, b, c, d, e and f:
+.Enter the values of a, b, c, d, e and f:
+.
+Time: 0.377
+
+OK (3 tests)
+

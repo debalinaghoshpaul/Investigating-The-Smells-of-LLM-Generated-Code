@@ -1,0 +1,11 @@
+JUnit version 4.13
+.Pair found: -311 + 0 = -311
+Pair found: 0 + -311 = -311
+..Pair found: 8 + 7 = 15
+Pair found: 9 + 6 = 15
+Pair found: 10 + 5 = 15
+.
+Time: 0.359
+
+OK (4 tests)
+

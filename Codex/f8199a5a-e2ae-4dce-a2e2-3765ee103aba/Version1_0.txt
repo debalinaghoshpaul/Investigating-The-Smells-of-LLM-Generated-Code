@@ -1,0 +1,83 @@
+**Program to get the value of environment variables PATH, TEMP, USERNAME:**
+
+```java
+import java.util.Map;
+import java.util.System;
+
+public class GetEnvironmentVariables {
+
+    public static void main(String[] args) {
+        // Get the environment variables
+        Map<String, String> env = System.getenv();
+
+        // Get the values of the PATH, TEMP, and USERNAME variables
+        String path = env.get("PATH");
+        String temp = env.get("TEMP");
+        String username = env.get("USERNAME");
+
+        // Print the values of the variables
+        System.out.println("PATH: " + path);
+        System.out.println("TEMP: " + temp);
+        System.out.println("USERNAME: " + username);
+    }
+}
+```
+
+**Test cases:**
+
+* **Corner cases:**
+    * The PATH, TEMP, or USERNAME variables are not set.
+    * The PATH, TEMP, or USERNAME variables are set to empty strings.
+* **Normal cases:**
+    * The PATH, TEMP, and USERNAME variables are set to valid values.
+
+**Output:**
+
+```
+PATH: /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+TEMP: /tmp
+USERNAME: user
+```
+
+**Program to measure how long code executes in nanoseconds:**
+
+```java
+import java.util.concurrent.TimeUnit;
+
+public class MeasureCodeExecutionTime {
+
+    public static void main(String[] args) {
+        // Get the start time in nanoseconds
+        long startTime = System.nanoTime();
+
+        // Execute the code that you want to measure
+        // ...
+
+        // Get the end time in nanoseconds
+        long endTime = System.nanoTime();
+
+        // Calculate the execution time in nanoseconds
+        long executionTime = endTime - startTime;
+
+        // Convert the execution time to milliseconds
+        double executionTimeInMilliseconds = executionTime / 1000000.0;
+
+        // Print the execution time
+        System.out.println("Execution time: " + executionTimeInMilliseconds + " milliseconds");
+    }
+}
+```
+
+**Test cases:**
+
+* **Corner cases:**
+    * The code that is being measured is very short.
+    * The code that is being measured is very long.
+* **Normal cases:**
+    * The code that is being measured is of a moderate length.
+
+**Output:**
+
+```
+Execution time: 123.456 milliseconds
+```

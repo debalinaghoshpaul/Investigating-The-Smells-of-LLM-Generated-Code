@@ -1,0 +1,38 @@
+
+
+Test cases:
+
+1. **Test case 1:**
+   - Input:
+     - Array: `[10, 12, 13, 16, 18, 19, 20, 21, 22, 23, 24, 33, 35, 42, 47]`
+     - Element to search for: `18`
+   - Expected output:
+     - Element `18` found at index `4`
+
+2. **Test case 2:**
+   - Input:
+     - Array: `[10, 12, 13, 16, 18, 19, 20, 21, 22, 23, 24, 33, 35, 42, 47]`
+     - Element to search for: `30`
+   - Expected output:
+     - Element `30` not found
+
+3. **Test case 3:**
+   - Input:
+     - Array: `[10, 12, 13, 16, 18, 19, 20, 21, 22, 23, 24, 33, 35, 42, 47]`
+     - Element to search for: `10`
+   - Expected output:
+     - Element `10` found at index `0`
+
+4. **Test case 4:**
+   - Input:
+     - Array: `[10, 12, 13, 16, 18, 19, 20, 21, 22, 23, 24, 33, 35, 42, 47]`
+     - Element to search for: `47`
+   - Expected output:
+     - Element `47` found at index `14`
+
+5. **Test case 5:**
+   - Input:
+     - Array: `[]`
+     - Element to search for: `10`
+   - Expected output:
+     - Element `10` not found

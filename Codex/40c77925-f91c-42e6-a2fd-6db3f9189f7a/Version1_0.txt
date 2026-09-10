@@ -1,0 +1,59 @@
+```java
+import java.util.Scanner;
+
+public class NaturalNumbersAndSum {
+
+    public static void main(String[] args) {
+        // Get the input from the user.
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input the number: ");
+        int n = scanner.nextInt();
+        scanner.close();
+
+        // Calculate the sum of the first n natural numbers.
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            sum += i;
+        }
+
+        // Display the first n natural numbers and their sum.
+        System.out.println("The first " + n + " natural numbers are : ");
+        for (int i = 1; i <= n; i++) {
+            System.out.println(i);
+        }
+        System.out.println("The Sum of Natural Number upto " + n + " terms : " + sum);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal case:**
+    * Input: 5
+    * Output:
+        ```
+        The first 5 natural numbers are :
+        1
+        2
+        3
+        4
+        5
+        The Sum of Natural Number upto 5 terms : 15
+        ```
+
+* **Boundary case:**
+    * Input: 1
+    * Output:
+        ```
+        The first 1 natural numbers are :
+        1
+        The Sum of Natural Number upto 1 terms : 1
+        ```
+
+* **Corner case:**
+    * Input: 0
+    * Output:
+        ```
+        The first 0 natural numbers are :
+        The Sum of Natural Number upto 0 terms : 0
+        ```

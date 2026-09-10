@@ -1,0 +1,13 @@
+
+
+**Corner Cases:**
+
+* **Invalid date:**
+    * Input: A date that does not exist, e.g. 2023-02-31
+    * Expected Output: An exception should be thrown
+* **Invalid time:**
+    * Input: A time that does not exist, e.g. 24:00:00
+    * Expected Output: An exception should be thrown
+* **Empty input:**
+    * Input: None
+    * Expected Output: The program should still display the current date and time without errors

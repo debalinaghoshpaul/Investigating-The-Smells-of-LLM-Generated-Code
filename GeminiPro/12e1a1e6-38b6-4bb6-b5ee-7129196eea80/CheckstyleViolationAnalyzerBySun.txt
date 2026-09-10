@@ -1,0 +1,7 @@
+Violations by Category:
+DesignForExtension: Class 'SharedResource' looks like designed for extension (can be subclassed), but the method 'getValue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SharedResource' final or making the method 'getValue' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 2
+FinalParameters: Parameter value should be final. [FinalParameters]: 1
+HiddenField: 'value' hides a field. [HiddenField]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2

@@ -1,0 +1,24 @@
+
+
+Here are some test cases to test the program, including corner cases:
+
+* **Test case 1:**
+    * Base: 10
+    * Height: 5
+    * Expected output: 25
+* **Test case 2:**
+    * Base: 0
+    * Height: 10
+    * Expected output: 0
+* **Test case 3:**
+    * Base: 10
+    * Height: 0
+    * Expected output: 0
+* **Test case 4:**
+    * Base: -10
+    * Height: 5
+    * Expected output: 25 (the absolute value of the base is used)
+* **Test case 5:**
+    * Base: "abc"
+    * Height: 10
+    * Expected output: "Invalid input" (the program should handle invalid input gracefully)

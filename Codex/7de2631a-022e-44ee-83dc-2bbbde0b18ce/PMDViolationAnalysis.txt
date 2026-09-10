@@ -1,0 +1,7 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+LooseCoupling: Avoid using implementation types like 'HashSet'; use the interface instead: 1
+UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale: 2
+CommentRequired: Class comments are required: 3
+AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter: 2
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

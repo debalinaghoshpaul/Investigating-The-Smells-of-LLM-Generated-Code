@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94pPpg1H41GwMCOngsF1dPYcLW3RE",
+  "object" : "chat.completion",
+  "created" : 1710937981,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Main {\n    public static void main(String[] args) {\n        int[] arr1 = {4, 7, 9, 2, 1};\n        int[] arr2 = {5, 3, 8};\n\n        for (int i = 0; i < arr2.length; i++) {\n            int count = 0;\n            for (int j = 0; j < arr1.length; j++) {\n                if (arr1[j] < arr2[i]) {\n                    count++;\n                }\n            }\n            System.out.print(count + \" \");\n        }\n    }\n}\n```\nOutput:\n0 3 7"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 90,
+    "completion_tokens" : 138,
+    "total_tokens" : 228
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

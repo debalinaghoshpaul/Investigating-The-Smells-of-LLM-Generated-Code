@@ -1,0 +1,62 @@
+**Java Program:**
+
+```java
+// Abstract class Vehicle
+abstract class Vehicle {
+    // Abstract methods
+    public abstract void startEngine();
+    public abstract void stopEngine();
+}
+
+// Subclass Car
+class Car extends Vehicle {
+    @Override
+    public void startEngine() {
+        System.out.println("Car engine started.");
+    }
+
+    @Override
+    public void stopEngine() {
+        System.out.println("Car engine stopped.");
+    }
+}
+
+// Subclass Motorcycle
+class Motorcycle extends Vehicle {
+    @Override
+    public void startEngine() {
+        System.out.println("Motorcycle engine started.");
+    }
+
+    @Override
+    public void stopEngine() {
+        System.out.println("Motorcycle engine stopped.");
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+        Vehicle car = new Car();
+        car.startEngine();
+        car.stopEngine();
+
+        Vehicle motorcycle = new Motorcycle();
+        motorcycle.startEngine();
+        motorcycle.stopEngine();
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Start and stop the engine of a car.
+* Start and stop the engine of a motorcycle.
+
+**Corner Cases:**
+
+* Attempt to start the engine of a null vehicle (should throw an exception).
+* Attempt to stop the engine of a null vehicle (should throw an exception).
+* Attempt to call the startEngine() or stopEngine() methods on the Vehicle class directly (should throw an exception).

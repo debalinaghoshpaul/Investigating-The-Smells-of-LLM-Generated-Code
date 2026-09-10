@@ -1,0 +1,33 @@
+
+
+**Test cases including corner cases:**
+
+1. **Deposit and withdraw a positive amount from a SavingsAccount.**
+   - Expected output: The balance should be updated accordingly.
+
+2. **Withdraw more money than the balance from a SavingsAccount.**
+   - Expected output: The withdrawal should not be allowed, and the balance should remain unchanged.
+
+3. **Deposit a negative amount from a SavingsAccount.**
+   - Expected output: The deposit should not be allowed, and the balance should remain unchanged.
+
+4. **Deposit and withdraw a positive amount from a CurrentAccount.**
+   - Expected output: The balance should be updated accordingly.
+
+5. **Withdraw more money than the balance and overdraft limit from a CurrentAccount.**
+   - Expected output: The withdrawal should not be allowed, and the balance should remain unchanged.
+
+6. **Deposit a negative amount from a CurrentAccount.**
+   - Expected output: The deposit should not be allowed, and the balance should remain unchanged.
+
+7. **Withdraw all the money from a SavingsAccount.**
+   - Expected output: The balance should be zero.
+
+8. **Withdraw all the money from a CurrentAccount.**
+   - Expected output: The balance should be zero.
+
+9. **Deposit a large amount of money into a SavingsAccount.**
+   - Expected output: The balance should be updated accordingly.
+
+10. **Deposit a large amount of money into a CurrentAccount.**
+   - Expected output: The balance should be updated accordingly.

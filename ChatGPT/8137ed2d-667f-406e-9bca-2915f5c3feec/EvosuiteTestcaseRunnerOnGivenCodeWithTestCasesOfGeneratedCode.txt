@@ -1,0 +1,24 @@
+JUnit version 4.13
+.E.E.E
+Time: 0.519
+There were 3 failures:
+1) test1(testing_ChatGPT_on_java.CountCharacterOccurrences_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.CountCharacterOccurrences.main(Main.java:6)
+	at testing_ChatGPT_on_java.CountCharacterOccurrences_ESTest.test1(CountCharacterOccurrences_ESTest.java:42)
+2) test0(testing_ChatGPT_on_java.CountCharacterOccurrences_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.CountCharacterOccurrences.main(Main.java:6)
+	at testing_ChatGPT_on_java.CountCharacterOccurrences_ESTest.test0(CountCharacterOccurrences_ESTest.java:26)
+3) test2(testing_ChatGPT_on_java.CountCharacterOccurrences_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type CountCharacterOccurrences must be defined in its own file
+
+	at testing_ChatGPT_on_java.CountCharacterOccurrences.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.CountCharacterOccurrences_ESTest.test2(CountCharacterOccurrences_ESTest.java:48)
+
+FAILURES!!!
+Tests run: 3,  Failures: 3
+

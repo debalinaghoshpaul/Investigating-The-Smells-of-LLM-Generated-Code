@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-945lOItxCZHmL0QmIAOEPLHGfMgvb",
+  "object" : "chat.completion",
+  "created" : 1710762494,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Main {\n    public static void main(String[] args) {\n        double number = 10.5; // The given floating/double number\n\n        double nextPositiveInfinity = Math.nextUp(Double.POSITIVE_INFINITY);\n        double nextNegativeInfinity = Math.nextAfter(Double.NEGATIVE_INFINITY, Double.NEGATIVE_INFINITY);\n\n        System.out.println(\"Next floating-point adjacent to positive infinity from \" + number + \" : \" + nextPositiveInfinity);\n        System.out.println(\"Next floating-point adjacent to negative infinity from \" + number + \" : \" + nextNegativeInfinity);\n    }\n}\n```\n\nOutput:\nNext floating-point adjacent to positive infinity from 10.5 : Infinity\nNext floating-point adjacent to negative infinity from 10.5 : -Infinity"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 73,
+    "completion_tokens" : 156,
+    "total_tokens" : 229
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

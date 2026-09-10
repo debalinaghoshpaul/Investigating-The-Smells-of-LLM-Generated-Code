@@ -1,0 +1,11 @@
+Violations by Category:
+TypeName: Name 'copilotTest' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]: 1
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 3
+FinalParameters: Parameter radius should be final. [FinalParameters]: 7
+HiddenField: 'radius' hides a field. [HiddenField]: 6
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 6
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '5' is a magic number. [MagicNumber]: 6

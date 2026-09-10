@@ -1,0 +1,19 @@
+JUnit version 4.13
+.E.E
+Time: 0.249
+There were 2 failures:
+1) test0(testing_ChatGPT_on_java.Find_Even_Odd_Number_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Find_Even_Odd_Number cannot be resolved to a type
+	Find_Even_Odd_Number cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Find_Even_Odd_Number_ESTest.test0(Find_Even_Odd_Number_ESTest.java:20)
+2) test1(testing_ChatGPT_on_java.Find_Even_Odd_Number_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Find_Even_Odd_Number cannot be resolved
+
+	at testing_ChatGPT_on_java.Find_Even_Odd_Number_ESTest.test1(Find_Even_Odd_Number_ESTest.java:26)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

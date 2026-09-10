@@ -1,0 +1,10 @@
+
+
+**Corner Cases:**
+
+1. **Empty Name:** Create an alien object with an empty name and non-zero damage.
+2. **Negative Damage:** Create an alien object with a negative damage value.
+3. **Null Name:** Create an alien object with a null name and non-zero damage.
+
+**Expected Output:**
+

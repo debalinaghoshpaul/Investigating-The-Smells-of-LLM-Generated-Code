@@ -1,0 +1,14 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * **Test case 1:** Input: 0
+    * **Test case 2:** Input: 1
+* **Regular cases:**
+    * **Test case 3:** Input: 5
+    * **Test case 4:** Input: 13
+    * **Test case 5:** Input: 21
+* **Negative cases:**
+    * **Test case 6:** Input: -5
+    * **Test case 7:** Input: -10

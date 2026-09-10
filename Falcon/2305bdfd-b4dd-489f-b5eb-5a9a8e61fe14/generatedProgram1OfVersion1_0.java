@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class ReadString {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        if (str.startsWith("red") || str.startsWith("black")) {
+            System.out.println(str);
+        } else {
+            System.out.println("Empty string");
+        }
+    }
+}
+

@@ -1,0 +1,26 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Input: 10000
+* Expected Output: 5 Lychrel seeds: [196, 879, 1997, 7059, 9999]
+                   244 Lychrel related 5 Lychrel palindromes: [196, 879, 1997, 7059, 9999]
+
+* Input: 5000
+* Expected Output: 2 Lychrel seeds: [196, 879]
+                   105 Lychrel related 2 Lychrel palindromes: [196, 879]
+
+* Input: 1000
+* Expected Output: 0 Lychrel seeds: []
+                   0 Lychrel related 0 Lychrel palindromes: []
+
+**Corner Cases:**
+
+* Input: 0
+* Expected Output: 0 Lychrel seeds: []
+                   0 Lychrel related 0 Lychrel palindromes: []
+
+* Input: -1000
+* Expected Output: Exception (Invalid input: Number must be a positive integer.)

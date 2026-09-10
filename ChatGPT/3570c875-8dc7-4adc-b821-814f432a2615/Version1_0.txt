@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95Z26CQYAdw2jvQ1KXuAH5tC2od70",
+  "object" : "chat.completion",
+  "created" : 1711113334,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class CompareFloatNumbers {\n\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        \n        System.out.print(\"Input first floating point number: \");\n        double num1 = input.nextDouble();\n        \n        System.out.print(\"Input second floating point number: \");\n        double num2 = input.nextDouble();\n        \n        if(Math.abs(num1 - num2) < 0.01) {\n            System.out.println(\"These numbers are the same up to two decimal places.\");\n        } else {\n            System.out.println(\"These numbers are different.\");\n        }\n        \n        input.close();\n    }\n}\n```\nOutput:\n```\nInput first floating point number: 1235\nInput second floating point number: 2534\nThese numbers are different.\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 99,
+    "completion_tokens" : 165,
+    "total_tokens" : 264
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

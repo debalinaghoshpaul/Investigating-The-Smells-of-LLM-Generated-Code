@@ -1,0 +1,5 @@
+test cases passes 7 out 26
+
+pass rate = 23%
+
+{'codebleu': 0.14699275522982613, 'ngram_match_score': 0.006508613082699335, 'weighted_ngram_match_score': 0.0391563549806802, 'syntax_match_score': 0.33152173913043476, 'dataflow_match_score': 0.2107843137254902}

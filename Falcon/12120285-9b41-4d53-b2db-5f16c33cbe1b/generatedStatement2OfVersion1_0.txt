@@ -1,0 +1,14 @@
+
+
+**Test Cases:**
+
+**Circle:**
+
+* **Normal case:** radius = 5
+* **Corner case:** radius = 0 (invalid)
+
+**Triangle:**
+
+* **Normal case:** side1 = 3, side2 = 4, side3 = 5
+* **Corner case 1:** side1 = 0, side2 = 0, side3 = 0 (invalid)
+* **Corner case 2:** side1 = 3, side2 = 4, side3 = 10 (not a valid triangle)

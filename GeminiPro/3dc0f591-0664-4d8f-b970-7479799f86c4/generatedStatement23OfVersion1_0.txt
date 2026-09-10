@@ -1,0 +1,3 @@
+
+arr = {}
+elementToRemove = 5

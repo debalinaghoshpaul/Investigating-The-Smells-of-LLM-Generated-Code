@@ -1,0 +1,7 @@
+JUnit version 4.13
+..Input a degree in Fahrenheit: .Input a degree in Fahrenheit: .Input a degree in Fahrenheit: 6.0 degree Fahrenheit is equal to -14.444444444444445 in Celsius
+
+Time: 0.331
+
+OK (4 tests)
+

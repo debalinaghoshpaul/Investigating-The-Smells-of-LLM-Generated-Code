@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DVRGIVhiPvqtZQk2GBKNpLYhQiH0",
+  "object" : "chat.completion",
+  "created" : 1713006142,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Container {\n    private double maxCapacity;\n    private double quantity;\n\n    public Container(double maxCapacity) {\n        this.maxCapacity = maxCapacity;\n        this.quantity = 0;\n    }\n\n    public double quantity() {\n        return this.quantity;\n    }\n\n    public double leftover() {\n        return this.maxCapacity - this.quantity;\n    }\n\n    public void full() {\n        this.quantity = this.maxCapacity;\n    }\n\n    public void empty() {\n        this.quantity = 0;\n    }\n\n    public void transfer(Container other, double amount) {\n        if (this.quantity >= amount) {\n            if (other.leftover() >= amount) {\n                this.quantity -= amount;\n                other.quantity += amount;\n            }\n        }\n    }\n\n    public void displayQuantity() {\n        System.out.println(\"Current quantity: \" + this.quantity + \" liters\");\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 305,
+    "completion_tokens" : 180,
+    "total_tokens" : 485
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

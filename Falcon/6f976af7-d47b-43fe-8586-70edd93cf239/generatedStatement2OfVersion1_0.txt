@@ -1,0 +1,23 @@
+
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: Person("John", "Doe")
+* Expected Output: Person: John Doe
+
+* Input: Employee("Jane", "Smith", 12345, "Software Engineer")
+* Expected Output: Employee: Jane Smith (Employee ID: 12345) (Software Engineer)
+
+**Corner Cases:**
+
+* Input: Person(null, null)
+* Expected Output: Person: null null
+
+* Input: Employee(null, null, -1, null)
+* Expected Output: Employee: null null (Employee ID: -1) (null)
+
+* Input: Employee("Jane", "Smith", 12345, "")
+* Expected Output: Employee: Jane Smith (Employee ID: 12345) ()

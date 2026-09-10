@@ -1,0 +1,10 @@
+
+Manager Details:
+Name: John Doe
+Age: 35
+Salary: $65000.0
+
+Programmer Details:
+Name: Jane Smith
+Age: 28
+Salary: $53000.0

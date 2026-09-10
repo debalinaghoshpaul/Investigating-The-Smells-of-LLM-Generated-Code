@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Enter a number: 
+...Enter a number: 
+4 is not a Fibonacci number.
+Enter a number: 
+2 is a Fibonacci number.
+..Enter a number: 
+..
+Time: 0.47
+
+OK (8 tests)
+

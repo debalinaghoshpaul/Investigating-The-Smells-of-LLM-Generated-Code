@@ -1,0 +1,39 @@
+
+
+**Test cases:**
+
+**Input:** "Hello world"
+**Output:** "Hello dlrow"
+
+**Input:** "This is a test string"
+**Output:** "This is a tset gnirts"
+
+**Input:** "12345"
+**Output:** "12345"
+
+**Input:** "a"
+**Output:** "a"
+
+**Input:** "aa"
+**Output:** "aa"
+
+**Input:** "aaa"
+**Output:** "aaa"
+
+**Input:** "aaabbb"
+**Output:** "aaabbb"
+
+**Input:** "aaabbbccc"
+**Output:** "aaabbbccc"
+
+**Input:** "aaabbbcccd"
+**Output:** "aaabbbcccd"
+
+**Input:** "aaabbbcccd "
+**Output:** "aaabbbcccd"
+
+**Input:** " aaabbbcccd"
+**Output:** " aaabbbcccd"
+
+**Input:** " aaabbbcccd "
+**Output:** " aaabbbcccd"

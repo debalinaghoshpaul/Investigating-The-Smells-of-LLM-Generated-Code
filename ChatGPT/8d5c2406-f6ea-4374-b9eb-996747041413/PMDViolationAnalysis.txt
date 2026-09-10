@@ -1,0 +1,5 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CognitiveComplexity: The method 'partition(int[], int[], int, int)' has a cognitive complexity of 15, current threshold is 15: 1
+CommentRequired: Class comments are required: 4
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

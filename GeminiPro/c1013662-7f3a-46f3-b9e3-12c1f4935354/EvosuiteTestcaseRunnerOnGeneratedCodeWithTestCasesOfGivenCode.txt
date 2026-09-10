@@ -1,0 +1,69 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.252
+There were 12 failures:
+1) test04(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test04(Exercise64_ESTest.java:62)
+2) test05(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test05(Exercise64_ESTest.java:68)
+3) test02(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test02(Exercise64_ESTest.java:39)
+4) test03(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test03(Exercise64_ESTest.java:49)
+5) test00(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test00(Exercise64_ESTest.java:24)
+6) test11(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise64 cannot be resolved to a type
+	Exercise64 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test11(Exercise64_ESTest.java:114)
+7) test01(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test01(Exercise64_ESTest.java:30)
+8) test10(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test10(Exercise64_ESTest.java:101)
+9) test08(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test08(Exercise64_ESTest.java:86)
+10) test09(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test09(Exercise64_ESTest.java:92)
+11) test06(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test06(Exercise64_ESTest.java:74)
+12) test07(testing_ChatGPT_on_java.Exercise64_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise64 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise64_ESTest.test07(Exercise64_ESTest.java:80)
+
+FAILURES!!!
+Tests run: 12,  Failures: 12
+

@@ -1,0 +1,57 @@
+```java
+import java.util.Scanner;
+
+public class SumOfTwoIntegers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the two integers from the user
+        System.out.println("Enter the first integer: ");
+        String firstInteger = scanner.nextLine();
+
+        System.out.println("Enter the second integer: ");
+        String secondInteger = scanner.nextLine();
+
+        // Check if the given integers or the sum have more than 80 digits
+        if (firstInteger.length() > 80 || secondInteger.length() > 80) {
+            System.out.println("Overflow");
+            return;
+        }
+
+        // Convert the strings to integers
+        int first = Integer.parseInt(firstInteger);
+        int second = Integer.parseInt(secondInteger);
+
+        // Compute the sum of the two integers
+        int sum = first + second;
+
+        // Convert the sum to a string and check if it has more than 80 digits
+        String sumString = String.valueOf(sum);
+        if (sumString.length() > 80) {
+            System.out.println("Overflow");
+            return;
+        }
+
+        // Print the sum of the two integers
+        System.out.println("The sum of the two integers is: " + sum);
+    }
+}
+```
+
+Test cases:
+
+* **Input 1:**
+    * First integer: 12345678901234567890123456789012345678901234567890
+    * Second integer: 98765432109876543210987654321098765432109876543210
+* **Output 1:** Overflow
+
+* **Input 2:**
+    * First integer: 1
+    * Second integer: 2
+* **Output 2:** 3
+
+* **Input 3:**
+    * First integer: 99999999999999999999999999999999999999999999999999
+    * Second integer: 1
+* **Output 3:** 100000000000000000000000000000000000000000000000000

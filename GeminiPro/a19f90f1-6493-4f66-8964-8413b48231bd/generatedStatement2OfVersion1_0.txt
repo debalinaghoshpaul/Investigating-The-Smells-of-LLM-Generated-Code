@@ -1,0 +1,23 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* a = 0 (linear equation)
+* b = 0 (quadratic equation with no x term)
+* c = 0 (quadratic equation with no constant term)
+* a = b = c = 0 (equation reduces to 0 = 0)
+
+**Valid Cases:**
+
+* a = 1, b = 5, c = 1 (roots: -0.20871215252208009 and -4.7912878474779195)
+* a = 2, b = 4, c = 2 (roots: -1 and -2)
+* a = -3, b = 6, c = -9 (roots: 3 and -1)
+
+**Invalid Cases:**
+
+* a = 0, b = 1, c = 2 (linear equation with no real roots)
+* a = 1, b = 0, c = 4 (quadratic equation with no x term and no real roots)
+* a = 1, b = 1, c = 0 (quadratic equation with no constant term and one real root: 0)
+* a = 0, b = 0, c = 0 (equation reduces to 0 = 0, which has infinite solutions)

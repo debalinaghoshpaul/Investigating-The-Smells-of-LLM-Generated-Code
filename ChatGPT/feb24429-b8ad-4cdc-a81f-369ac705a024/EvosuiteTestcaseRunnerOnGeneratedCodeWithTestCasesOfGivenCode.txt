@@ -1,0 +1,30 @@
+JUnit version 4.13
+.Factorial of 5 is: 120
+Factorial of 5 is: 120
+Factorial of 5 is: 120
+.E.Factorial of 5 is: 120
+.E.E
+Time: 0.487
+There were 3 failures:
+1) test1(testing_ChatGPT_on_java.FactorialCalculator_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from long to int
+	Type mismatch: cannot convert from long to int
+	Type mismatch: cannot convert from long to int
+	Type mismatch: cannot convert from long to int
+
+	at testing_ChatGPT_on_java.FactorialCalculator_ESTest.test1(FactorialCalculator_ESTest.java:57)
+2) test2(testing_ChatGPT_on_java.FactorialCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from long to int
+
+	at testing_ChatGPT_on_java.FactorialCalculator_ESTest.test2(FactorialCalculator_ESTest.java:124)
+3) test3(testing_ChatGPT_on_java.FactorialCalculator_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from long to int
+
+	at testing_ChatGPT_on_java.FactorialCalculator_ESTest.test3(FactorialCalculator_ESTest.java:156)
+
+FAILURES!!!
+Tests run: 5,  Failures: 3
+

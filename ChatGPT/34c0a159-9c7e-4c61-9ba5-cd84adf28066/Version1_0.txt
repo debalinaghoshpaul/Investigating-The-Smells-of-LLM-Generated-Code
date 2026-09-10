@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91x3cV09eQgoJSK3LZpSDkWyVqeGU",
+  "object" : "chat.completion",
+  "created" : 1710252372,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class ArraySorting {\n    \n    public static void main(String[] args) {\n        \n        // Numeric array\n        int[] numericArray = {9, 3, 6, 1, 8, 2, 5, 4, 7};\n        System.out.println(\"Original Numeric Array: \" + Arrays.toString(numericArray));\n        Arrays.sort(numericArray);\n        System.out.println(\"Sorted Numeric Array: \" + Arrays.toString(numericArray));\n        \n        // String array\n        String[] stringArray = {\"apple\", \"banana\", \"orange\", \"grapes\", \"kiwi\"};\n        System.out.println(\"\\nOriginal String Array: \" + Arrays.toString(stringArray));\n        Arrays.sort(stringArray);\n        System.out.println(\"Sorted String Array: \" + Arrays.toString(stringArray));\n    }\n}\n```\n\nThis program first defines a numeric array and a string array. It then sorts both arrays using the `Arrays.sort()` method and finally prints the original and sorted arrays."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 66,
+    "completion_tokens" : 210,
+    "total_tokens" : 276
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

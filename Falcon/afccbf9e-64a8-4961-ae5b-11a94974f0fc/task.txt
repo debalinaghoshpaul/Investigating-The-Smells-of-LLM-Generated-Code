@@ -1,0 +1,1 @@
+Problem Description : \n1.12 (Average speed in kilometers) Assume that a runner runs 24 miles in 1 hour, 40\nminutes, and 35 seconds. Write a program that displays the average speed in\nkilometers per hour. (Note 1 mile is equal to 1.6 kilometers.)\n\n The programming language you need to use is: Java.\n\n Problem Id is : afccbf9e-64a8-4961-ae5b-11a94974f0fc.

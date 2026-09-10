@@ -1,0 +1,19 @@
+JUnit version 4.13
+..Enter the loan amount: 
+.Enter the loan amount: 
+.Enter the loan amount: 
+Enter the number of months: 
+Month 1: $0.0
+Month 2: $0.0
+Month 3: $0.0
+Month 4: $0.0
+Month 5: $0.0
+Month 6: $0.0
+Month 7: $0.0
+Month 8: $0.0
+Month 9: $0.0
+
+Time: 0.47
+
+OK (4 tests)
+

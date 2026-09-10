@@ -1,0 +1,9 @@
+Violations by Category:
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 3
+FinalParameters: Parameter radius should be final. [FinalParameters]: 6
+HiddenField: 'radius' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+MagicNumber: '0.5' is a magic number. [MagicNumber]: 5
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1

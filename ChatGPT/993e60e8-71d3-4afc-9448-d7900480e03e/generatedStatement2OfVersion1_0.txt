@@ -1,0 +1,18 @@
+
+
+**Test cases:**
+
+* **Normal case:**
+    * Input 1: 5
+    * Input 2: 10
+    * Input 3: 15
+    * Output: true
+* **Corner cases:**
+    * Input 1: 0
+    * Input 2: 0
+    * Input 3: 0
+    * Output: true
+    * Input 1: 12345
+    * Input 2: 67890
+    * Input 3: 11111
+    * Output: false

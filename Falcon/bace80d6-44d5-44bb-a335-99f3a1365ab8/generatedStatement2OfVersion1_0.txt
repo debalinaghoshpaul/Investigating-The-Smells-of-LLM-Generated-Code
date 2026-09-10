@@ -1,0 +1,8 @@
+
+
+Test cases:
+
+* **Normal case:** n = 3
+* **Corner case:** n = 1
+* **Corner case:** n = 0
+* **Corner case:** n = -1

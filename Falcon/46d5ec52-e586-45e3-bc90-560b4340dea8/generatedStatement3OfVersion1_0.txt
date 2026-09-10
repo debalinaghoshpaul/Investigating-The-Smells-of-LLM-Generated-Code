@@ -1,0 +1,8 @@
+
+Input:
+n = 5
+arr = [1, 1, 1, 1, 1]
+target = 2
+
+Output:
+The total number of continuous subarrays whose sum equals 2 is: 10

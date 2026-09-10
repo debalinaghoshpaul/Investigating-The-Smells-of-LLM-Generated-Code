@@ -1,0 +1,2 @@
+To implement a stack in Java, you can use the built-in Stack class provided in the Java.util package. Here's a simple Java program that implements a stack and checks if one stack is a subset of another stack:
+

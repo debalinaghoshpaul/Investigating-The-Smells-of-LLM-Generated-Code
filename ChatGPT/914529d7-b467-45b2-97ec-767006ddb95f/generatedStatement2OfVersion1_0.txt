@@ -1,0 +1,3 @@
+
+
+In this program, we create two stacks - 'stack1' and 'stack2'. We then check if 'stack2' is a subset of 'stack1' using the 'isSubset' method. The 'isSubset' method pops elements from 'stack1' one by one and compares them with elements in 'stack2'. If all elements in 'stack2' are found in 'stack1', then 'stack2' is considered a subset of 'stack1'.

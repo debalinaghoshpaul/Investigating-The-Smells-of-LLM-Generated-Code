@@ -1,0 +1,24 @@
+ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, you can add a test case where the array is empty.
+// You can also add a test case where the array contains only one element.
+// You can also add a test case where the array contains two elements.
+// You can also add a test case where the array contains three elements.
+// You can also add a test case where the array contains four elements.
+// You can also add a test case where the array contains five elements.
+// You can also add a test case where the array contains six elements.
+// You can also add a test case where the array contains seven elements.
+// You can also add a test case where the array contains eight elements.
+// You can also add a test case where the array contains nine elements.
+// You can also add a test case where the array contains ten elements.
+// You can also add a test case where the array contains eleven elements.
+// You can also add a test case where the array contains twelve elements.
+// You can also add a test case where the array contains thirteen elements.
+// You can also add a test case where the array contains fourteen elements.
+// You can also add a test case where the array contains fifteen elements.
+// You can also add a test case where the array contains sixteen elements.
+// You can also add a test case where the array contains seventeen elements.
+// You can also add a test case where the array contains eighteen elements.
+// You can also add a test case where the array contains nineteen elements.

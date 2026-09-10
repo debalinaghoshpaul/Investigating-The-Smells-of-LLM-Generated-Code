@@ -1,0 +1,7 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops: 1
+CommentRequired: Class comments are required: 3
+CommentSize: Comment is too large: 1
+UnnecessaryImport: Unused import 'java.lang.*': 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

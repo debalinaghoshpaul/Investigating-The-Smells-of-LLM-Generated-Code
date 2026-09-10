@@ -1,0 +1,6 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!=': 1
+CommentRequired: Class comments are required: 2
+CompareObjectsWithEquals: Use equals() to compare object references.: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

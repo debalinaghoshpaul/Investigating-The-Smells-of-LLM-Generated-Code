@@ -1,0 +1,16 @@
+JUnit version 4.13
+.Enter the first string:
+.Enter the first string:
+Enter the second string:
+The new string is: s
+..Enter the first string:
+Enter the second string:
+The strings have the same length. Please enter two strings with different lengths.
+.Enter the first string:
+Enter the second string:
+The new string is: G5mK&UiV-G5
+
+Time: 0.345
+
+OK (5 tests)
+

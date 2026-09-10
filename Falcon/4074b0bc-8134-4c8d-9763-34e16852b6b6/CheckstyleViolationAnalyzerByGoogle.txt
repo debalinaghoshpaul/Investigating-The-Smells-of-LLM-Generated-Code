@@ -1,0 +1,5 @@
+Violations by Category:
+EmptyLineSeparator: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]: 3
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 7
+Indentation: 'method def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]: 26

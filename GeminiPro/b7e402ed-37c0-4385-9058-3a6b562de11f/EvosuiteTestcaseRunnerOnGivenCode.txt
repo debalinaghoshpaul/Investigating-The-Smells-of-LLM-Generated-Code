@@ -1,0 +1,8 @@
+JUnit version 4.13
+.....Original string: Java, World!
+Reversed string: !dlroW ,avaJ
+.
+Time: 0.313
+
+OK (6 tests)
+

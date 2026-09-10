@@ -1,0 +1,100 @@
+**Problem 1: Flip Bits to Convert Two Integers**
+
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class FlipBits {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the two integers from the user
+        System.out.print("Enter the first integer: ");
+        int num1 = input.nextInt();
+        System.out.print("Enter the second integer: ");
+        int num2 = input.nextInt();
+
+        // Calculate the XOR of the two integers
+        int xor = num1 ^ num2;
+
+        // Count the number of set bits in the XOR result
+        int count = 0;
+        while (xor > 0) {
+            count += xor & 1;
+            xor >>= 1;
+        }
+
+        // Print the number of bits required to flip
+        System.out.println("Number of bits required to flip: " + count);
+    }
+}
+```
+
+**Sample Input and Output:**
+
+```
+Enter the first integer: 15
+Enter the second integer: 7
+Number of bits required to flip: 2
+```
+
+**Test Cases:**
+
+* **Normal:** num1 = 15, num2 = 7
+* **All bits different:** num1 = 0, num2 = 255
+* **All bits same:** num1 = 64, num2 = 64
+* **Leading zeros:** num1 = 127, num2 = 128
+
+**Problem 2: Index of First Unique Character**
+
+**Java Program:**
+
+```java
+import java.util.HashMap;
+
+public class FirstUniqueCharacter {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the input string
+        System.out.print("Enter the string: ");
+        String str = input.nextLine();
+
+        // Create a HashMap to store the character counts
+        HashMap<Character, Integer> charCounts = new HashMap<>();
+
+        // Iterate over the string and update the character counts
+        for (char c : str.toCharArray()) {
+            charCounts.put(c, charCounts.getOrDefault(c, 0) + 1);
+        }
+
+        // Iterate over the string again and find the first character with count 1
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (charCounts.get(c) == 1) {
+                // Print the index of the first unique character
+                System.out.println("First unique character of the above: " + i);
+                break;
+            }
+        }
+    }
+}
+```
+
+**Sample Input and Output:**
+
+```
+Enter the string: wresource
+First unique character of the above: 0
+```
+
+**Test Cases:**
+
+* **Normal:** str = "wresource"
+* **First character unique:** str = "abcdefg"
+* **Last character unique:** str = "gfedcba"
+* **No unique characters:** str = "aaaaaa"
+* **Empty string:** str = ""

@@ -1,0 +1,5 @@
+
+
+This program initializes an array with some values and searches for a specific element (in this case, the element with value 30). If the element is found, it prints the index at which it is located. Otherwise, it prints a message indicating that the element was not found in the array. 
+
+You can run this program to find the index of any element in an array by changing the `target` value.

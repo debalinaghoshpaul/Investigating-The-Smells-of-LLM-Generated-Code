@@ -1,0 +1,10 @@
+
+
+**Test cases:**
+
+* **Positive integer:** 15
+* **Negative integer:** -15
+* **Zero:** 0
+* **Prime number:** 7
+* **Corner case:** 1
+* **Corner case:** 3

@@ -1,0 +1,14 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty array**: `nums = {}`
+* **Array with duplicate elements**: `nums = {1, 2, 2, 3}`
+
+**Regular Cases:**
+
+* **Small array**: `nums = {1, 2, 3}`
+* **Medium array**: `nums = {1, 2, 3, 4}`
+* **Large array**: `nums = {1, 2, 3, 4, 5, 6}`

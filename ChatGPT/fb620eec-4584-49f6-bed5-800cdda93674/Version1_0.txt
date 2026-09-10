@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xV4BULCnAtx2YLiXEJLZnhIvajp",
+  "object" : "chat.completion",
+  "created" : 1710254074,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.HashMap;\n\npublic class FindDuplicateInArray {\n    \n    public static void findDuplicates(int[] arr) {\n        HashMap<Integer, Integer> map = new HashMap<>();\n        boolean found = false;\n        \n        for(int num : arr) {\n            if(map.containsKey(num)) {\n                map.put(num, map.get(num) + 1);\n                found = true;\n            } else {\n                map.put(num, 1);\n            }\n        }\n        \n        if(!found) {\n            System.out.println(\"No duplicates found in the array.\");\n            return;\n        }\n        \n        System.out.println(\"Duplicate values in the array are : \");\n        for(Integer key : map.keySet()) {\n            if(map.get(key) > 1) {\n                System.out.println(key);\n            }\n        }\n    }\n\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 1, 2, 5, 6, 7, 8, 9, 4, 1};\n        \n        findDuplicates(arr);\n    }\n}\n```\n\nThis program creates a HashMap to store the frequency of each integer in the array. It then iterates over the array and updates the frequency in the HashMap. Finally, it prints out the duplicate values from the array by checking the frequency in the HashMap."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 60,
+    "completion_tokens" : 279,
+    "total_tokens" : 339
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

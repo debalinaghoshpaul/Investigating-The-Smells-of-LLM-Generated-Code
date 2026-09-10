@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91x8Vl5qBbgJ8fKS7mynW0xtV8u5M",
+  "object" : "chat.completion",
+  "created" : 1710252675,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class AverageOfArray {\n    public static void main(String[] args) {\n        int[] nums = {5, 10, 15, 20, 25};\n\n        double sum = 0;\n        for(int num : nums) {\n            sum += num;\n        }\n\n        double average = sum / nums.length;\n\n        System.out.println(\"The average value of the array elements is: \" + average);\n    }\n}\n```\n\nThis program calculates the average value of the elements in the `nums` array. It iterates through each element in the array, calculates the sum of all elements, and then divides the sum by the number of elements to get the average value."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 65,
+    "completion_tokens" : 142,
+    "total_tokens" : 207
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,15 @@
+JUnit version 4.13
+.......................Addition: -2/8
+Subtraction: 10/8
+Multiplication: -3/8
+Division: -4/6
+After adding r2 to r1: -2/8
+After subtracting r2 from r1: 16/32
+After multiplying r2 to r1: -48/128
+After dividing r2 from r1: 192/384
+r1 equals to r3? false
+....
+Time: 0.455
+
+OK (27 tests)
+

@@ -1,0 +1,15 @@
+
+
+**Test cases:**
+
+**Corner cases:**
+
+* x == 0, n == 0, y == 0
+* x == 0, n > 0, y > 0
+* x > 0, n == 0, y == 0
+
+**General cases:**
+
+* x == 2, n == 10, y == 13
+* x == 3, n == 4, y == 5
+* x == 5, n == 6, y == 7

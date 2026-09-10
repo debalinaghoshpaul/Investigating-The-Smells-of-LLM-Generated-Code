@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91zTsOIJ6qbCvy9aKgVGeLP3NhlC1",
+  "object" : "chat.completion",
+  "created" : 1710261688,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class SeparateEvenOddNumbers {\n\n    public static void main(String[] args) {\n        int[] numbers = {10, 7, 8, 3, 15, 12, 6, 11};\n\n        separateEvenOdd(numbers);\n\n        System.out.println(\"Array after separating even and odd numbers: \" + Arrays.toString(numbers));\n    }\n\n    public static void separateEvenOdd(int[] numbers) {\n        int left = 0;\n        int right = numbers.length - 1;\n\n        while (left < right) {\n            while (numbers[left] % 2 == 0 && left < right) {\n                left++;\n            }\n\n            while (numbers[right] % 2 != 0 && left < right) {\n                right--;\n            }\n\n            if (left < right) {\n                int temp = numbers[left];\n                numbers[left] = numbers[right];\n                numbers[right] = temp;\n            }\n        }\n    }\n}\n```\n\nOutput:\n```\nArray after separating even and odd numbers: [10, 8, 12, 6, 7, 3, 15, 11]\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 82,
+    "completion_tokens" : 240,
+    "total_tokens" : 322
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

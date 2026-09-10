@@ -1,0 +1,3 @@
+
+
+This program first defines a numeric array and a string array. It then sorts both arrays using the `Arrays.sort()` method and finally prints the original and sorted arrays.

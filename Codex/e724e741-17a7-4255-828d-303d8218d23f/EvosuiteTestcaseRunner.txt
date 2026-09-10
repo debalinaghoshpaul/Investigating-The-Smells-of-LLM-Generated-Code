@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Enter the start year:
+Enter the end year:
+The number of days between 0 and 5 is: 2192
+.Enter the start year:
+..Enter the start year:
+.Enter the start year:
+Enter the end year:
+The number of days between 2 and 5 is: 1461
+
+Time: 0.344
+
+OK (5 tests)
+

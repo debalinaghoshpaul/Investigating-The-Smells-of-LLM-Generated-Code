@@ -1,0 +1,6 @@
+JUnit version 4.13
+....Index: 1 Index: 2 .
+Time: 0.335
+
+OK (5 tests)
+

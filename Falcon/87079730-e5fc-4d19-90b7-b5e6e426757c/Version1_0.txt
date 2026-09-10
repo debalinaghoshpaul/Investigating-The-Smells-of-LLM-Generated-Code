@@ -1,0 +1,24 @@
+```java
+public class SwapElementsLinkedList {
+    public static void main(String[] args) {
+        // Create a linked list
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+
+        // Print the original linked list
+        System.out.println("Original linked list: " + list);
+
+        // Swap the first and last elements
+        int temp = list.getFirst();
+        list.set(0, list.getLast());
+        list.set(list.size() - 1, temp);
+
+        // Print the modified linked list
+        System.out.println("Modified linked list: " + list);
+    }
+}
+```

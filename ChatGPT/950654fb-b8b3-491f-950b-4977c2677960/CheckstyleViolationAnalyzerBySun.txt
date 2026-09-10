@@ -1,0 +1,12 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 112). [LineLength]: 7
+WhitespaceAfter: 'if' is not followed by whitespace. [WhitespaceAfter]: 4
+WhitespaceAround: 'if' is not followed by whitespace. [WhitespaceAround]: 4
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 2
+FinalParameters: Parameter sourcePhoneNumber should be final. [FinalParameters]: 9
+HiddenField: 'sourcePhoneNumber' hides a field. [HiddenField]: 3
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 8
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+MagicNumber: '60' is a magic number. [MagicNumber]: 15
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1

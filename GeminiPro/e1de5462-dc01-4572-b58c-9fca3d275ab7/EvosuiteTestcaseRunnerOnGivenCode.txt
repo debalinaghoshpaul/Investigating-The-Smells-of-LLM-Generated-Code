@@ -1,0 +1,13 @@
+JUnit version 4.13
+.Manager: Lilo Heidi
+Role: Manager
+Salary: $9000.0
+
+Programmer: Margrit Cathrin
+Role: Programmer
+Salary: $5600.0
+.
+Time: 0.359
+
+OK (2 tests)
+

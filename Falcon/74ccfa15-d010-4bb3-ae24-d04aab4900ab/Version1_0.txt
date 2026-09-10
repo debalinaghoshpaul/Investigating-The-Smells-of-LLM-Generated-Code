@@ -1,0 +1,46 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class PrimeNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int count = 0;
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i)) {
+                count++;
+            }
+        }
+        System.out.println("The number of prime numbers less than or equal to " + n + " is: " + count);
+    }
+
+    public static boolean isPrime(int n) {
+        if (n <= 1) {
+            return false;
+        }
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+// Output:
+// The number of prime numbers less than or equal to 10 is: 5
+// The number of prime numbers less than or equal to 20 is: 7
+// The number of prime numbers less than or equal to 30 is: 9
+// The number of prime numbers less than or equal to 40 is: 11
+// The number of prime numbers less than or equal to 50 is: 13
+// The number of prime numbers less than or equal to 60 is: 15
+// The number of prime numbers less than or equal to 70 is: 17
+// The number of prime numbers less than or equal to 80 is: 19
+// The number of prime numbers less than or equal to 90 is: 21
+// The number of prime numbers less than or equal to 100 is: 23
+// The number of prime numbers less than or equal to 110 is: 25
+// The number of prime numbers less than or equal to 120 is: 27
+// The number of prime numbers less than or equal to 130 is: 29
+// The number of prime numbers less than or equal to 140 is: 31
+// The number of prime numbers less than or equal to 150 is: 33
+// The number of prime numbers less than or equal to

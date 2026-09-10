@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a generic method that takes two lists of the same type and merges them into a single list. This method alternates the elements of each list.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : cd8ebc1f-4927-4506-9ff8-269e48a6ba6e.\n

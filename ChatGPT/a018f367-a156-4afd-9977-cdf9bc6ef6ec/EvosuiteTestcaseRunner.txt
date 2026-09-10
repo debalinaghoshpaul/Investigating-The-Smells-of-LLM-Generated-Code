@@ -1,0 +1,9 @@
+JUnit version 4.13
+..Enter the number of elements in the array: .Enter the number of elements in the array: Enter the elements of the array: 
+.Enter the number of elements in the array: Enter the elements of the array: 
+The array does not contain 10 or 30.
+....Enter the number of elements in the array: .
+Time: 0.376
+
+OK (9 tests)
+

@@ -1,0 +1,8 @@
+JUnit version 4.13
+.......Maximum element in the stack: 5
+Minimum element in the stack: 2147483647
+...
+Time: 0.314
+
+OK (10 tests)
+

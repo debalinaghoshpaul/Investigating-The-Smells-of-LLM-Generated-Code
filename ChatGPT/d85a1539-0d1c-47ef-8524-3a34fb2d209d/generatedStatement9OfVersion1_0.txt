@@ -1,0 +1,2 @@
+
+The difference between the largest and the smallest integer is: 96530

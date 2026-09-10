@@ -1,0 +1,56 @@
+```java
+import java.util.Scanner;
+
+public class ReverseString {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Input a string: ");
+        String str = input.nextLine();
+
+        char[] chars = str.toCharArray();
+
+        int left = 0;
+        int right = chars.length - 1;
+
+        while (left < right) {
+            char temp = chars[left];
+            chars[left] = chars[right];
+            chars[right] = temp;
+
+            left++;
+            right--;
+        }
+
+        String reversedString = new String(chars);
+
+        System.out.println("Reverse string: " + reversedString);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: "The quick brown fox"
+* Output: "xof nworb kciuq ehT"
+
+**Corner Cases:**
+
+* **Empty String:**
+    * Input: ""
+    * Output: ""
+* **Single Character String:**
+    * Input: "a"
+    * Output: "a"
+* **Palindrome String:**
+    * Input: "racecar"
+    * Output: "racecar"
+* **String with Spaces:**
+    * Input: "Hello World"
+    * Output: "dlroW olleH"
+* **String with Special Characters:**
+    * Input: "#$%^&*()_+}{|"
+    * Output: "|}{_+*()&^%$#"

@@ -1,0 +1,3 @@
+
+
+**Even-length array with all elements equal:**

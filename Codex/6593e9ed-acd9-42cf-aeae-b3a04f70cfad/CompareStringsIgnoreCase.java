@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class CompareStringsIgnoreCase {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the two strings from the user.
+        System.out.println("Enter the first string: ");
+        String firstString = scanner.nextLine();
+
+        System.out.println("Enter the second string: ");
+        String secondString = scanner.nextLine();
+
+        // Compare the two strings, ignoring case considerations.
+        boolean areEqual = firstString.equalsIgnoreCase(secondString);
+
+        // Print the result.
+        if (areEqual) {
+            System.out.println("The two strings are equal, ignoring case considerations.");
+        } else {
+            System.out.println("The two strings are not equal, ignoring case considerations.");
+        }
+    }
+}

@@ -1,0 +1,25 @@
+import java.util.Stack;
+
+public class FilterStack {
+
+    public static void main(String[] args) {
+        // Create a stack of integers
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.push(5);
+
+        // Create a new stack that will contain only the even numbers from the original stack
+        Stack<Integer> filteredStack = new Stack<>();
+        for (Integer element : stack) {
+            if (element % 2 == 0) {
+                filteredStack.push(element);
+            }
+        }
+
+        // Print the filtered stack
+        System.out.println(filteredStack);
+    }
+}

@@ -1,0 +1,30 @@
+No GPU found. Running on CPU.
+import java.util.Arrays;
+
+public class ArrangeIntegers {
+    public static void main(String[] args) {
+        int[] arr = {-2, -1, 0, 1, 2, 3, 4, 5};
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+}
+
+// Output: [0, 1, 2, 3, 4, 5, -1, -2, -3, -4, -5]
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, you can add a test case where the array contains negative numbers only.
+// You can also add a test case where the array contains negative numbers and positive numbers.
+// You can also add a test case where the array contains negative numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.
+// You can also add a test case where the array contains negative numbers, positive numbers and negative numbers.

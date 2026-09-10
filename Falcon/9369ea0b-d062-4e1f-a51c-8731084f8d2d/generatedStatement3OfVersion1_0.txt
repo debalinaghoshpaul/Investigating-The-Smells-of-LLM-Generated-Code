@@ -1,0 +1,3 @@
+
+Enter the array elements (separated by spaces): 20 30 40
+Larger value between first and last element: 40

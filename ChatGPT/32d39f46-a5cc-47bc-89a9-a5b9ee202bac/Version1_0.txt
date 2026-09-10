@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9Cs0UqJC31yCBx2pGwadsvH8eiLKJ",
+  "object" : "chat.completion",
+  "created" : 1712854566,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class GPAConverter {\n\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        System.out.print(\"Enter the percentage: \");\n        int percentage = input.nextInt();\n\n        double gpa = (double) percentage / 100 * 4;\n\n        System.out.println(\"(\" + percentage + \"/100) * 4 = \" + gpa);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 140,
+    "completion_tokens" : 85,
+    "total_tokens" : 225
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

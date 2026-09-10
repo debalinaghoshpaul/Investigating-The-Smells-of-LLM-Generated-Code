@@ -1,0 +1,32 @@
+JUnit version 4.13
+.E.E.
+Time: 0.472
+There were 2 failures:
+1) test1(testing_ChatGPT_on_java.Exercise22_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	The method add(String) is undefined for the type LinkedList<String>
+	The method add(String) is undefined for the type LinkedList<String>
+	The method add(String) is undefined for the type LinkedList<String>
+	The method add(String) is undefined for the type LinkedList<String>
+	The method add(String) is undefined for the type LinkedList<String>
+	The method contains(String) is undefined for the type LinkedList<String>
+	The method contains(String) is undefined for the type LinkedList<String>
+
+	at testing_ChatGPT_on_java.Exercise22.main(Exercise22.java:7)
+	at testing_ChatGPT_on_java.Exercise22_ESTest.test1(Exercise22_ESTest.java:34)
+2) test0(testing_ChatGPT_on_java.Exercise22_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	The method add(String) is undefined for the type LinkedList<String>
+	The method add(String) is undefined for the type LinkedList<String>
+	The method add(String) is undefined for the type LinkedList<String>
+	The method add(String) is undefined for the type LinkedList<String>
+	The method add(String) is undefined for the type LinkedList<String>
+	The method contains(String) is undefined for the type LinkedList<String>
+	The method contains(String) is undefined for the type LinkedList<String>
+
+	at testing_ChatGPT_on_java.Exercise22.main(Exercise22.java:7)
+	at testing_ChatGPT_on_java.Exercise22_ESTest.test0(Exercise22_ESTest.java:26)
+
+FAILURES!!!
+Tests run: 3,  Failures: 2
+

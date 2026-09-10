@@ -1,0 +1,16 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * Upper limit is 0
+    * Upper limit is 1
+    * Upper limit is 3
+    * Upper limit is 5
+* **Positive test cases:**
+    * Upper limit is 10
+    * Upper limit is 20
+    * Upper limit is 100
+* **Negative test cases:**
+    * Upper limit is -1
+    * Upper limit is -10

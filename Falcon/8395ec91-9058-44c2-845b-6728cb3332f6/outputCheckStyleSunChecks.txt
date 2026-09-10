@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\8395ec91-9058-44c2-845b-6728cb3332f6\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\8395ec91-9058-44c2-845b-6728cb3332f6\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Enum\8395ec91-9058-44c2-845b-6728cb3332f6\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [JavadocVariable]
+Audit done.

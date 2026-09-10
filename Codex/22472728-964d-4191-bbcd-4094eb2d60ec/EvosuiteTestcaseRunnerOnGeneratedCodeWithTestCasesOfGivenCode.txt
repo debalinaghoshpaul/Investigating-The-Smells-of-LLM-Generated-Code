@@ -1,0 +1,83 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E
+Time: 0.256
+There were 8 failures:
+1) test1(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test1(ReadWriteLockExercise_ESTest.java:52)
+2) test0(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved
+	ReadWriteLockExercise cannot be resolved
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved
+	ReadWriteLockExercise cannot be resolved
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test0(ReadWriteLockExercise_ESTest.java:23)
+3) test3(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test3(ReadWriteLockExercise_ESTest.java:96)
+4) test2(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test2(ReadWriteLockExercise_ESTest.java:74)
+5) test5(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test5(ReadWriteLockExercise_ESTest.java:132)
+6) test4(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test4(ReadWriteLockExercise_ESTest.java:119)
+7) test7(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test7(ReadWriteLockExercise_ESTest.java:152)
+8) test6(testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+	ReadWriteLockExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ReadWriteLockExercise_ESTest.test6(ReadWriteLockExercise_ESTest.java:141)
+
+FAILURES!!!
+Tests run: 8,  Failures: 8
+

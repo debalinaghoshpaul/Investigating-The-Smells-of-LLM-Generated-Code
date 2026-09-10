@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:6:19: '100' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:7: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:11: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:12: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:14: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:15:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:15:35: Parameter number should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:19: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesLambda\d8ed0567-27c5-4623-82e5-1dbf9456857c\generatedProgram1OfVersion1_0.java:25: Line has trailing spaces. [RegexpSingleline]
+Audit done.

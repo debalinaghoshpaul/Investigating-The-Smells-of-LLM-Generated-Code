@@ -1,0 +1,74 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class EndsWithSubstring {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input string
+        System.out.println("Enter a string:");
+        String str = scanner.nextLine();
+
+        // Read the specified substring of length 2
+        System.out.println("Enter a substring of length 2:");
+        String substring = scanner.nextLine();
+
+        // Check if the string ends with the specified substring
+        boolean endsWith = str.endsWith(substring);
+
+        // Print the result
+        if (endsWith) {
+            System.out.println("The string ends with the specified substring.");
+        } else {
+            System.out.println("The string does not end with the specified substring.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* Input String: "Hello"
+* Substring: "lo"
+* Expected Output: True
+
+* Input String: "Java Programming"
+* Substring: "ng"
+* Expected Output: True
+
+* Input String: "1234567890"
+* Substring: "89"
+* Expected Output: True
+
+**Negative Test Cases:**
+
+* Input String: "Hello"
+* Substring: "World"
+* Expected Output: False
+
+* Input String: "Java Programming"
+* Substring: "Python"
+* Expected Output: False
+
+* Input String: "1234567890"
+* Substring: "12"
+* Expected Output: False
+
+**Corner Cases:**
+
+* Input String: ""
+* Substring: ""
+* Expected Output: True (Empty string always ends with any other empty string)
+
+* Input String: null
+* Substring: null
+* Expected Output: NullPointerException (Cannot compare null strings)
+
+* Input String: "Hello"
+* Substring: null
+* Expected Output: NullPointerException (Cannot compare a string to null)

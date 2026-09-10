@@ -1,0 +1,4 @@
+
+Input a month number: 2
+Input a year: 2016
+February 2016 has 29 days

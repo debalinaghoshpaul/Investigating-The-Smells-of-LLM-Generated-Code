@@ -1,0 +1,7 @@
+
+
+In this program, we first create a stack and push some elements to it. We then define a `checkCondition` method that takes a stack and a `Condition` interface as parameters. The `Condition` interface defines a method `evaluate` that checks if a given element satisfies a condition.
+
+In the `main` method, we use a lambda expression to check if all elements of the stack are even numbers. The lambda expression checks if the element modulo 2 is 0, which indicates that the element is even.
+
+Feel free to modify the condition in the lambda expression to check for different conditions.

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xdsymS9mgc1iooBlffj29Eoa5er",
+  "object" : "chat.completion",
+  "created" : 1710254620,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.HashSet;\nimport java.util.Set;\n\npublic class CommonElementsInArrays {\n    public static void main(String[] args) {\n        int[] array1 = {1, 2, 3, 4, 5};\n        int[] array2 = {3, 4, 5, 6, 7};\n\n        Set<Integer> set = new HashSet<>();\n        for(int num : array1){\n            set.add(num);\n        }\n\n        Set<Integer> commonElements = new HashSet<>();\n        for(int num : array2){\n            if(set.contains(num)){\n                commonElements.add(num);\n            }\n        }\n\n        System.out.println(\"Common elements in the two arrays are: \");\n        for(int num : commonElements){\n            System.out.print(num + \" \");\n        }\n    }\n}\n```\n\nThis program takes two integer arrays and finds the common elements between them by using a `HashSet` to store elements from the first array and then checking for common elements in the second array. Finally, it prints out the common elements found in both arrays."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 64,
+    "completion_tokens" : 217,
+    "total_tokens" : 281
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

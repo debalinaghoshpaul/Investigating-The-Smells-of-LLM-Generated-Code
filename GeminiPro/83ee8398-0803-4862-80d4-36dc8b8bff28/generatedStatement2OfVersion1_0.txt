@@ -1,0 +1,16 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Dividend: 10, Divisor: 3, Expected Result: 4
+* Dividend: 15, Divisor: 4, Expected Result: 4
+* Dividend: 25, Divisor: 5, Expected Result: 5
+
+**Corner Cases:**
+
+* Dividend: 0, Divisor: 1, Expected Result: 0
+* Dividend: 1, Divisor: 10, Expected Result: 1
+* Dividend: -10, Divisor: 3, Expected Result: -4
+* Dividend: 15, Divisor: 0, Expected Result: Exception (divisor cannot be zero)

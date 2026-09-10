@@ -1,0 +1,10 @@
+
+
+**Test cases:**
+
+* **Normal case:** Input: 1, 2, 3, 4, 5 Output: 3.0
+* **Empty input:** Input: Output: 0.0
+* **Negative input:** Input: -1 Output: 0.0
+* **Decimal input:** Input: 1.5, 2.5, 3.5, 4.5, 5.5 Output: 3.5
+* **Large input:** Input: 1000000, 2000000, 3000000, 4000000, 5000000 Output: 3000000.0
+* **Small input:** Input: 0.0001, 0.0002, 0.0003, 0.0004, 0.0005 Output: 0.0003

@@ -1,0 +1,34 @@
+```java
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Function;
+
+public class CountWords {
+
+    public static void main(String[] args) {
+        // Create a list of strings
+        List<String> sentences = Arrays.asList("This is a test sentence", "This is another test sentence", "This is a third test sentence");
+
+        // Count the words in each sentence using a lambda expression
+        Function<String, Integer> wordCounter = sentence -> sentence.split(" ").length;
+        sentences.forEach(sentence -> System.out.println("The sentence '" + sentence + "' has " + wordCounter.apply(sentence) + " words"));
+
+        // Test cases
+        System.out.println("The sentence '" + "" + "' has " + wordCounter.apply("") + " words");
+        System.out.println("The sentence '" + "This" + "' has " + wordCounter.apply("This") + " words");
+        System.out.println("The sentence '" + "This is a test" + "' has " + wordCounter.apply("This is a test") + " words");
+    }
+}
+```
+
+**Test Cases:**
+
+* **Normal Cases:**
+    * `This is a test sentence`
+    * `This is another test sentence`
+    * `This is a third test sentence`
+
+* **Corner Cases:**
+    * `""` (empty string)
+    * `"This"` (single word)
+    * `"This is a test"` (sentence with spaces)

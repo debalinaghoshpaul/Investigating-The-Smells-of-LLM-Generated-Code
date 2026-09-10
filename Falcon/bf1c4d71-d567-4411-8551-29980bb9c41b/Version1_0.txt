@@ -1,0 +1,40 @@
+```java
+import java.util.function.BinaryOperator;
+
+public class LambdaSum {
+
+    public static void main(String[] args) {
+        // Create a lambda expression to find the sum of two integers
+        BinaryOperator<Integer> sumLambda = (a, b) -> a + b;
+
+        // Test the lambda expression with different test cases
+        System.out.println(sumLambda.apply(1, 2)); // 3
+        System.out.println(sumLambda.apply(0, 0)); // 0
+        System.out.println(sumLambda.apply(1, -1)); // 0
+        System.out.println(sumLambda.apply(Integer.MAX_VALUE, Integer.MAX_VALUE)); // Overflow error
+        System.out.println(sumLambda.apply(Integer.MIN_VALUE, Integer.MIN_VALUE)); // Overflow error
+    }
+}
+```
+
+**Test cases and expected outputs:**
+
+* **Test case 1:** `sumLambda.apply(1, 2)`
+* **Expected output:** 3
+* **Explanation:** The sum of 1 and 2 is 3.
+
+* **Test case 2:** `sumLambda.apply(0, 0)`
+* **Expected output:** 0
+* **Explanation:** The sum of 0 and 0 is 0.
+
+* **Test case 3:** `sumLambda.apply(1, -1)`
+* **Expected output:** 0
+* **Explanation:** The sum of 1 and -1 is 0.
+
+* **Test case 4:** `sumLambda.apply(Integer.MAX_VALUE, Integer.MAX_VALUE)`
+* **Expected output:** Overflow error
+* **Explanation:** The sum of two Integer.MAX_VALUE values overflows the maximum value of an integer.
+
+* **Test case 5:** `sumLambda.apply(Integer.MIN_VALUE, Integer.MIN_VALUE)`
+* **Expected output:** Overflow error
+* **Explanation:** The sum of two Integer.MIN_VALUE values overflows the minimum value of an integer.

@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Enter the word: .Enter the word: The word is an abecedarian word.
+..Enter the word: The word is not an abecedarian word.
+.Enter the word: The word is an abecedarian word.
+
+Time: 0.344
+
+OK (5 tests)
+

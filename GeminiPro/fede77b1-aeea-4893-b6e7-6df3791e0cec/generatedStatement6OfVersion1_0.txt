@@ -1,0 +1,4 @@
+
+
+**2. Empty Tree Test Case:**
+Input:

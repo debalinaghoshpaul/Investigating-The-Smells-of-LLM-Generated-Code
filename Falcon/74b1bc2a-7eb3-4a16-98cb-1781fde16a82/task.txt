@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to implement a lambda expression to filter out even and odd numbers from a list of integers.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 74b1bc2a-7eb3-4a16-98cb-1781fde16a82.\n

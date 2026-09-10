@@ -1,0 +1,5 @@
+
+Input: [2]
+Expected output:
+Even count: 1
+Odd count: 0

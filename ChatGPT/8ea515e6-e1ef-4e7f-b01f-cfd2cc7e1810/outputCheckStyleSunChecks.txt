@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:5:37: Parameter nums should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:5:49: Parameter targetSum should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:15: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:27:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:27:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:28:26: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:28:29: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:28:35: '8' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:28:38: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:28:44: '7' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_Array\8ea515e6-e1ef-4e7f-b01f-cfd2cc7e1810\generatedProgram1OfVersion1_0.java:29:25: '7' is a magic number. [MagicNumber]
+Audit done.

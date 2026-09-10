@@ -1,0 +1,43 @@
+
+Enter an integer: -5
+The absolute value of -5 is 5
+Enter an integer: 0
+The absolute value of 0 is 0
+Enter an integer: 10
+The absolute value of 10 is 10
+Enter an integer: -10
+The absolute value of -10 is 10
+Enter an integer: -20
+The absolute value of -20 is 20
+Enter an integer: -30
+The absolute value of -30 is 30
+Enter an integer: -40
+The absolute value of -40 is 40
+Enter an integer: -50
+The absolute value of -50 is 50
+Enter an integer: -60
+The absolute value of -60 is 60
+Enter an integer: -70
+The absolute value of -70 is 70
+Enter an integer: -80
+The absolute value of -80 is 80
+Enter an integer: -90
+The absolute value of -90 is 90
+Enter an integer: -100
+The absolute value of -100 is 100
+Enter an integer: -110
+The absolute value of -110 is 110
+Enter an integer: -120
+The absolute value of -120 is 120
+Enter an integer: -130
+The absolute value of -130 is 130
+Enter an integer: -140
+The absolute value of -140 is 140
+Enter an integer: -150
+The absolute value of -150 is 150
+Enter an integer: -160
+The absolute value of -160 is 160
+Enter an integer: -170
+The absolute value of -170 is 170
+Enter an integer: -180
+The absolute value of -180 is

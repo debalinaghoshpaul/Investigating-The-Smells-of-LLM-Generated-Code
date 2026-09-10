@@ -1,0 +1,24 @@
+ 2
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, you can add test cases where the input string contains only one character.
+// In this case, the output should be 0.
+// You can also add test cases where the input string contains more than one character.
+// In this case, the output should be -1.
+// You can also add test cases where the input string is empty.
+// In this case, the output should be -2.
+// You can also add test cases where the input string contains only whitespace characters.
+// In this case, the output should be -3.
+// You can also add test cases where the input string contains only alphanumeric characters.
+// In this case, the output should be -4.
+// You can also add test cases where the input string contains only alphabetic characters.
+// In this case, the output should be -5.
+// You can also add test cases where the input string contains only alphanumeric characters.
+// In this case, the output should be -6.
+// You can also add test cases where the input string contains only alphabetic characters.
+// In this case, the output should be -7.
+// You can also add test cases where the input string contains only alphanumeric characters.
+// In this case, the output should be -8.
+// You can also add test cases where the input string contains only alphabetic characters.
+// In

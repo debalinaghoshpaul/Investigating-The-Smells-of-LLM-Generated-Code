@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: Create an instance of the Animal class and call the move() method.
+* Expected Output: Animal is moving
+
+* Input: Create an instance of the Cheetah class and call the move() method.
+* Expected Output: Cheetah is running
+
+**Corner Case:**
+
+* Input: Create an instance of an invalid class (e.g., Dog) and try to call the move() method.
+* Expected Output: Compilation error or runtime exception (e.g., No such class found, ClassCastException)
+
+* Input: Create an instance of the Animal class and try to access the move() method of the Cheetah subclass.
+* Expected Output: Compilation error or runtime exception (e.g., Method not found, Incompatible types)

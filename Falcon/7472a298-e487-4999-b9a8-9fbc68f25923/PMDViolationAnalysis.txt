@@ -1,0 +1,8 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CognitiveComplexity: The method 'main(String[])' has a cognitive complexity of 19, current threshold is 15: 1
+CyclomaticComplexity: The method 'main(String[])' has a cyclomatic complexity of 11.: 1
+LocalVariableNamingConventions: The local variable name 'obstacle_Grid' doesn't match '[a-z][a-zA-Z0-9]*': 1
+CommentRequired: Class comments are required: 2
+UnnecessaryImport: Unused import 'java.util.ArrayList': 3
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

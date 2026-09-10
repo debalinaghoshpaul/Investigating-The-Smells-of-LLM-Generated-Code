@@ -1,0 +1,3 @@
+
+Equilibrium index found at: 3
+Equilibrium index found at: 6

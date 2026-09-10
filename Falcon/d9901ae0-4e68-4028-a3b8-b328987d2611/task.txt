@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to separate 0s and 1s in an array of 0s and 1s into left and right sides.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : d9901ae0-4e68-4028-a3b8-b328987d2611.\n

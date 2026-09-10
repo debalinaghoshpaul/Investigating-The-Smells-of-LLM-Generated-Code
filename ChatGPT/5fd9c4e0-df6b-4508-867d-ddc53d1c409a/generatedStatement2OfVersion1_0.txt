@@ -1,0 +1,5 @@
+
+
+This program creates a stack of integers, pushes some elements onto the stack, and then retrieves the nth element from the top of the stack based on the value of n. The program checks if the value of n is within the bounds of the stack size before retrieving the element to avoid an `IndexOutOfBoundsException`.
+
+You can run this program to see the output for the 3rd element from the top of the stack. Feel free to modify the value of `n` in the code to get the nth element of your choice.

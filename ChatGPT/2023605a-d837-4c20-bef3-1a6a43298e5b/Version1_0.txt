@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DCANuBvHyTlf0Ui4ohUV0w7F9P19",
+  "object" : "chat.completion",
+  "created" : 1712932059,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class PizzaOrder {\n    private int numPizzas;\n    private Pizza pizza1;\n    private Pizza pizza2;\n    private Pizza pizza3;\n\n    public void setNumPizzas(int numPizzas) {\n        if (numPizzas >= 1 && numPizzas <= 3) {\n            this.numPizzas = numPizzas;\n        } else {\n            System.out.println(\"Number of pizzas must be between 1 and 3.\");\n        }\n    }\n\n    public void setPizza1(Pizza pizza1) {\n        this.pizza1 = pizza1;\n    }\n\n    public void setPizza2(Pizza pizza2) {\n        if (numPizzas >= 2) {\n            this.pizza2 = pizza2;\n        } else {\n            System.out.println(\"There are not enough pizzas in the order to set the second pizza.\");\n        }\n    }\n\n    public void setPizza3(Pizza pizza3) {\n        if (numPizzas == 3) {\n            this.pizza3 = pizza3;\n        } else {\n            System.out.println(\"There are not enough pizzas in the order to set the third pizza.\");\n        }\n    }\n\n    public double calcTotal() {\n        double total = 0.0;\n\n        if (pizza1 != null) {\n            total += pizza1.calcCost();\n        }\n        if (pizza2 != null) {\n            total += pizza2.calcCost();\n        }\n        if (pizza3 != null) {\n            total += pizza3.calcCost();\n        }\n\n        return total;\n    }\n\n    public static void main(String[] args) {\n        Pizza pizza1 = new Pizza(\"large\", 1, 1, 1);\n        Pizza pizza2 = new Pizza(\"medium\", 2, 2, 0);\n\n        PizzaOrder order = new PizzaOrder();\n        order.setNumPizzas(2);\n        order.setPizza1(pizza1);\n        order.setPizza2(pizza2);\n\n        double total = order.calcTotal();\n        System.out.println(\"Total cost of the order: $\" + total);\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 598,
+    "completion_tokens" : 430,
+    "total_tokens" : 1028
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

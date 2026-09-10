@@ -1,0 +1,37 @@
+```java
+import java.util.Scanner;
+
+public class GetCharacterBeforeIndex {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string and the index
+        System.out.println("Enter the string:");
+        String str = scanner.nextLine();
+        System.out.println("Enter the index:");
+        int index = scanner.nextInt();
+
+        // Get the character before the specified index
+        char character = str.charAt(index - 1);
+
+        // Print the character
+        System.out.println("The character before the specified index is: " + character);
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* Input: "Hello", Index: 3
+* Input: "Java", Index: 2
+* Input: "Python", Index: 5
+
+**Corner Cases:**
+
+* **Empty String:** Input: "", Index: 1
+* **Index Out of Bounds:** Input: "Hello", Index: 0 or Index: 7
+* **Negative Index:** Input: "Hello", Index: -1
+* **Non-Integer Index:** Input: "Hello", Index: 1.5

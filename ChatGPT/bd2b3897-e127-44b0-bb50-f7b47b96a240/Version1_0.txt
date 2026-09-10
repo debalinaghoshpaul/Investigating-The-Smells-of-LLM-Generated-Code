@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-945KfZsiaFlWAssTbk4ykKyMOt3iC",
+  "object" : "chat.completion",
+  "created" : 1710760837,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class IntegersOperations {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        System.out.print(\"Input 1st integer: \");\n        int num1 = input.nextInt();\n\n        System.out.print(\"Input 2nd integer: \");\n        int num2 = input.nextInt();\n\n        int sum = num1 + num2;\n        int diff = num1 - num2;\n        int product = num1 * num2;\n        double average = (double) (num1 + num2) / 2;\n        int distance = Math.abs(num1 - num2);\n        int max = Math.max(num1, num2);\n        int min = Math.min(num1, num2);\n\n        System.out.println(\"Sum of two integers: \" + sum);\n        System.out.println(\"Difference of two integers: \" + diff);\n        System.out.println(\"Product of two integers: \" + product);\n        System.out.println(\"Average of two integers: \" + String.format(\"%.2f\", average));\n        System.out.println(\"Distance of two integers: \" + distance);\n        System.out.println(\"Max integer: \" + max);\n        System.out.println(\"Min integer: \" + min);\n\n        input.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 173,
+    "completion_tokens" : 261,
+    "total_tokens" : 434
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

@@ -1,0 +1,31 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.252
+There were 4 failures:
+1) test2(testing_ChatGPT_on_java.ConcurrentQueueExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ConcurrentQueueExercise cannot be resolved to a type
+	ConcurrentQueueExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ConcurrentQueueExercise_ESTest.test2(ConcurrentQueueExercise_ESTest.java:45)
+2) test3(testing_ChatGPT_on_java.ConcurrentQueueExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ConcurrentQueueExercise cannot be resolved to a type
+	ConcurrentQueueExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ConcurrentQueueExercise_ESTest.test3(ConcurrentQueueExercise_ESTest.java:51)
+3) test0(testing_ChatGPT_on_java.ConcurrentQueueExercise_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ConcurrentQueueExercise cannot be resolved to a type
+	ConcurrentQueueExercise cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ConcurrentQueueExercise_ESTest.test0(ConcurrentQueueExercise_ESTest.java:22)
+4) test1(testing_ChatGPT_on_java.ConcurrentQueueExercise_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ConcurrentQueueExercise cannot be resolved
+
+	at testing_ChatGPT_on_java.ConcurrentQueueExercise_ESTest.test1(ConcurrentQueueExercise_ESTest.java:39)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

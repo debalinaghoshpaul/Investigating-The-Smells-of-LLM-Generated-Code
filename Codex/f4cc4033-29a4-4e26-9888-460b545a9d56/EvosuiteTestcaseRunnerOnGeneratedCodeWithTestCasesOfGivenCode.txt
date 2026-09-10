@@ -1,0 +1,92 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.362
+There were 11 failures:
+1) test06(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Example12 cannot be resolved to a type
+	Example12 cannot be resolved to a type
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test06(Example12_ESTest.java:119)
+2) test07(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Example12 cannot be resolved to a type
+	Example12 cannot be resolved to a type
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test07(Example12_ESTest.java:144)
+3) test08(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Example12 cannot be resolved to a type
+	Example12 cannot be resolved to a type
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test08(Example12_ESTest.java:172)
+4) test09(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Example12 cannot be resolved to a type
+	Example12 cannot be resolved to a type
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test09(Example12_ESTest.java:178)
+5) test02(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test02(Example12_ESTest.java:58)
+6) test03(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test03(Example12_ESTest.java:78)
+7) test04(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test04(Example12_ESTest.java:90)
+8) test05(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test05(Example12_ESTest.java:106)
+9) test10(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Example12 cannot be resolved
+	Example12 cannot be resolved to a type
+	Example12 cannot be resolved to a type
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test10(Example12_ESTest.java:200)
+10) test00(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test00(Example12_ESTest.java:36)
+11) test01(testing_ChatGPT_on_java.Example12_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+	Example12 cannot be resolved
+
+	at testing_ChatGPT_on_java.Example12_ESTest.test01(Example12_ESTest.java:49)
+
+FAILURES!!!
+Tests run: 11,  Failures: 11
+

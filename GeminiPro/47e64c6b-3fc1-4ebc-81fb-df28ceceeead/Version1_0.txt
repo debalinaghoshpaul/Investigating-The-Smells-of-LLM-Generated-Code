@@ -1,0 +1,93 @@
+```java
+import java.util.Scanner;
+
+public class SpeedConverter {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the distance in meters
+        System.out.print("Input distance in meters: ");
+        double distance = input.nextDouble();
+
+        // Get the time taken in hours, minutes, and seconds
+        System.out.print("Input hours: ");
+        int hours = input.nextInt();
+
+        System.out.print("Input minutes: ");
+        int minutes = input.nextInt();
+
+        System.out.print("Input seconds: ");
+        int seconds = input.nextInt();
+
+        // Convert the time to seconds
+        double timeInSeconds = hours * 3600 + minutes * 60 + seconds;
+
+        // Calculate the speed in meters per second
+        double speedInMetersPerSecond = distance / timeInSeconds;
+
+        // Convert the speed to kilometers per hour
+        double speedInKmPerHour = speedInMetersPerSecond * 3.6;
+
+        // Convert the speed to miles per hour
+        double speedInMilesPerHour = speedInMetersPerSecond * 2.237;
+
+        // Display the speed in meters per second, kilometers per hour, and miles per hour
+        System.out.println("Your speed in meters/second is " + speedInMetersPerSecond);
+        System.out.println("Your speed in km/h is " + speedInKmPerHour);
+        System.out.println("Your speed in miles/h is " + speedInMilesPerHour);
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+* **Input:**
+    * Distance: 2500 meters
+    * Time: 5 hours, 56 minutes, 23 seconds
+* **Expected Output:**
+    * Speed in meters/second: 0.11691531
+    * Speed in km/h: 0.42089513
+    * Speed in miles/h: 0.26158804
+
+* **Input:**
+    * Distance: 10000 meters
+    * Time: 2 hours, 30 minutes, 0 seconds
+* **Expected Output:**
+    * Speed in meters/second: 1.38888889
+    * Speed in km/h: 5.02
+    * Speed in miles/h: 3.12
+
+* **Input:**
+    * Distance: 500 meters
+    * Time: 0 hours, 10 minutes, 20 seconds
+* **Expected Output:**
+    * Speed in meters/second: 0.013888889
+    * Speed in km/h: 0.05
+    * Speed in miles/h: 0.03
+
+**Corner Cases:**
+
+* **Input:**
+    * Distance: 0 meters
+    * Time: 5 hours, 56 minutes, 23 seconds
+* **Expected Output:**
+    * Speed in meters/second: 0
+    * Speed in km/h: 0
+    * Speed in miles/h: 0
+
+* **Input:**
+    * Distance: 2500 meters
+    * Time: 0 hours, 0 minutes, 0 seconds
+* **Expected Output:**
+    * Speed in meters/second: Infinity
+    * Speed in km/h: Infinity
+    * Speed in miles/h: Infinity
+
+* **Input:**
+    * Distance: 2500 meters
+    * Time: -5 hours, -56 minutes, -23 seconds
+* **Expected Output:**
+    * Error message: "Invalid input. Time cannot be negative."

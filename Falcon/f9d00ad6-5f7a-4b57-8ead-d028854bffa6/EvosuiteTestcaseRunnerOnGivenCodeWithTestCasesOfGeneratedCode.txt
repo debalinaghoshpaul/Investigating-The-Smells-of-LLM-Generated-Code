@@ -1,0 +1,14 @@
+JUnit version 4.13
+.Car initial speed: 0
+Motorcycle initial speed: 0
+
+Car speed increased by 22 units.
+Motorcycle speed increased by 12 units
+
+Car speed after speeding up: 10
+Motorcycle speed after speeding up: 10
+.
+Time: 0.341
+
+OK (2 tests)
+

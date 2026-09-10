@@ -1,0 +1,4 @@
+
+Area of rectangle: 20.0
+Area of circle: 28.274333882308138
+Area of triangle: 24.0

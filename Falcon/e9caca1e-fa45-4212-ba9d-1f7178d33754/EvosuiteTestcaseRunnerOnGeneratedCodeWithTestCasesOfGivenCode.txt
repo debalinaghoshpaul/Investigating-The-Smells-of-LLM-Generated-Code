@@ -1,0 +1,59 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E
+Time: 0.314
+There were 10 failures:
+1) test2(testing_ChatGPT_on_java.Exercise30_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise30 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test2(Exercise30_ESTest.java:48)
+2) test3(testing_ChatGPT_on_java.Exercise30_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise30 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test3(Exercise30_ESTest.java:57)
+3) test4(testing_ChatGPT_on_java.Exercise30_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise30 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test4(Exercise30_ESTest.java:74)
+4) test5(testing_ChatGPT_on_java.Exercise30_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise30 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test5(Exercise30_ESTest.java:91)
+5) test6(testing_ChatGPT_on_java.Exercise30_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise30 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test6(Exercise30_ESTest.java:101)
+6) test7(testing_ChatGPT_on_java.Exercise30_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise30 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test7(Exercise30_ESTest.java:111)
+7) test8(testing_ChatGPT_on_java.Exercise30_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise30 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test8(Exercise30_ESTest.java:121)
+8) test9(testing_ChatGPT_on_java.Exercise30_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise30 cannot be resolved to a type
+	Exercise30 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test9(Exercise30_ESTest.java:127)
+9) test0(testing_ChatGPT_on_java.Exercise30_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise30 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test0(Exercise30_ESTest.java:28)
+10) test1(testing_ChatGPT_on_java.Exercise30_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise30 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test1(Exercise30_ESTest.java:38)
+
+FAILURES!!!
+Tests run: 10,  Failures: 10
+

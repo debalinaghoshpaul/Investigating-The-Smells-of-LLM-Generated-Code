@@ -1,0 +1,12 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 109). [LineLength]: 3
+DesignForExtension: Class 'Doctor' looks like designed for extension (can be subclassed), but the method 'getSpecialty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Doctor' final or making the method 'getSpecialty' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 6
+FinalParameters: Parameter name should be final. [FinalParameters]: 9
+HiddenField: 'specialty' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 2
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 6
+EqualsHashCode: Definition of 'equals()' without corresponding definition of 'hashCode()'. [EqualsHashCode]: 1
+NewlineAtEndOfFile: File does not end with a newline. [NewlineAtEndOfFile]: 1
+MagicNumber: '50.0' is a magic number. [MagicNumber]: 1
+OperatorWrap: '+' should be on a new line. [OperatorWrap]: 6

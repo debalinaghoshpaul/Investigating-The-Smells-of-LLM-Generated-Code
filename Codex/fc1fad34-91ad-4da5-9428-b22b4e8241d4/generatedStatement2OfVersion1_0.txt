@@ -1,0 +1,23 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: h = 12, m = 30
+* Expected Output: 165 degrees
+
+**Corner Cases:**
+
+* **h = 0, m = 0:**
+    * Expected Output: 0 degrees
+* **h = 12, m = 0:**
+    * Expected Output: 0 degrees
+* **h = 3, m = 30:**
+    * Expected Output: 7.5 degrees
+* **h = 9, m = 0:**
+    * Expected Output: 90 degrees
+* **h = 6, m = 30:**
+    * Expected Output: 165 degrees
+* **h = 12, m = 59:**
+    * Expected Output: 359.5 degrees

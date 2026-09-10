@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Enter the base x: Enter the exponent n: Enter the modulus y: The result is: 2
+.Enter the base x: Enter the exponent n: Enter the modulus y: The result is: 1
+..Enter the base x: .Enter the base x: Enter the exponent n: Enter the modulus y: The result is: 0
+.Enter the base x: 
+Time: 0.361
+
+OK (6 tests)
+

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to print Floyd's Triangle.\nTest Data Input number of rows : 5 Expected Output :\nInput number of rows :  5\n1 \n2 3 \n4 5 6 \n7 8 9 10 \n11 12 13 14 15\n\n The programming language you need to use is: java.\n\n Problem Id is : 17b3fefe-4dce-44b9-90d6-97f98b339c80.\n

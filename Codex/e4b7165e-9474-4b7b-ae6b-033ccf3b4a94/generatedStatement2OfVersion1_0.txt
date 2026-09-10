@@ -1,0 +1,3 @@
+
+
+This program demonstrates how to use the `Callable` and `Future` interfaces in Java to execute tasks asynchronously and obtain their results. In this example, a `Callable` task is created that simulates a time-consuming operation and returns a result of type `String`. The task is submitted to an `ExecutorService` for execution, and a `Future` object is used to retrieve the result once the task is completed. While waiting for the task to finish, other tasks can be performed concurrently. Finally, the `ExecutorService` is shut down to clean up resources.

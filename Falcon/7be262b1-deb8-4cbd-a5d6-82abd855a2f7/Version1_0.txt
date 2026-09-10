@@ -1,0 +1,36 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class RemoveWord {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String text = scanner.nextLine();
+        String wordToRemove = scanner.nextLine();
+        String updatedText = text.replace(wordToRemove, "");
+        System.out.println(updatedText);
+    }
+}
+
+// Output: The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need to use is: java.
+// The updated string is: The programming language you need

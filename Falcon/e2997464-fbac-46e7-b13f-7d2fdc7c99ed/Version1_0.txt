@@ -1,0 +1,19 @@
+No GPU found. Running on CPU.
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class ExtractDateTime {
+    public static void main(String[] args) {
+        String dateString = "2020-01-01";
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        Date date = sdf.parse(dateString);
+        System.out.println("Date: " + date);
+    }
+}
+
+Output:
+Date: 2020-01-01 00:00:00
+
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.

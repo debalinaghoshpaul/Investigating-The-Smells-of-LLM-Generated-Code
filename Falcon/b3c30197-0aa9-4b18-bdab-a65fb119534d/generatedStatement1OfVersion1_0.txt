@@ -1,0 +1,16 @@
+ 4
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, if the array is empty, the program should return 0 as the new length of the array.
+// If the array contains only one element, the program should return 1 as the new length of the array.
+// If the array contains two elements, the program should return 2 as the new length of the array.
+// If the array contains three elements, the program should return 3 as the new length of the array.
+// If the array contains four elements, the program should return 4 as the new length of the array.
+// If the array contains five elements, the program should return 5 as the new length of the array.
+// If the array contains six elements, the program should return 6 as the new length of the array.
+// If the array contains seven elements, the program should return 7 as the new length of the array.
+// If the array contains eight elements, the program should return 8 as the new length of the array.
+// If the array contains nine elements, the program should return 9 as the new length of the array.
+// If the array contains ten elements, the program should return 10 as the new length of the array.
+// If the array contains

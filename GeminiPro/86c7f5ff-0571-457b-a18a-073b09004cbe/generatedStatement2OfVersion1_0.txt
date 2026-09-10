@@ -1,0 +1,16 @@
+
+
+**Test Cases (including corner cases):**
+
+* **Valid Cases:**
+    * "Hello123_"
+    * "123_abc"
+    * "a_b_c_1_2_3"
+
+* **Invalid Cases:**
+    * "hello123" (contains lowercase letters)
+    * "abc123!" (contains a special character)
+    * "" (empty string)
+    * null (null input)
+    * "123" (contains only numbers)
+    * "abc-" (contains a hyphen)

@@ -1,0 +1,16 @@
+```java
+class HelloWorld {
+    public static void main(String[] args) {
+        // Print "Hello" on screen
+        System.out.println("Hello");
+        // Print your name on a separate line
+        System.out.println("Alexandra Abramov");
+    }
+}
+```
+
+Test cases:
+
+* **Normal case:** The program should print "Hello" on screen, followed by "Alexandra Abramov" on a separate line.
+* **Corner case 1:** The user enters an empty string as their name. In this case, the program should print "Hello" on screen, followed by an empty line.
+* **Corner case 2:** The user enters a string that contains special characters. In this case, the program should print "Hello" on screen, followed by the user's name, including the special characters.

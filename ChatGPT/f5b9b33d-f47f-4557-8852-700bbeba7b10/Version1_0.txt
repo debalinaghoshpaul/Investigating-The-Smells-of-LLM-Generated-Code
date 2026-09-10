@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8yTzzS3iyC57JeUybaP5sFh0OlcxS",
+  "object" : "chat.completion",
+  "created" : 1709425687,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class BankAccount {\n    private String accountNumber;\n    private double balance;\n\n    // Getter for accountNumber\n    public String getAccountNumber() {\n        return accountNumber;\n    }\n\n    // Setter for accountNumber\n    public void setAccountNumber(String accountNumber) {\n        this.accountNumber = accountNumber;\n    }\n\n    // Getter for balance\n    public double getBalance() {\n        return balance;\n    }\n\n    // Setter for balance\n    public void setBalance(double balance) {\n        this.balance = balance;\n    }\n\n    // Main method for testing\n    public static void main(String[] args) {\n        BankAccount account = new BankAccount();\n        account.setAccountNumber(\"123456789\");\n        account.setBalance(1000);\n        \n        System.out.println(\"Account Number: \" + account.getAccountNumber());\n        System.out.println(\"Balance: $\" + account.getBalance());\n    }\n}\n```\nOutput:\n```\nAccount Number: 123456789\nBalance: $1000.0\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 83,
+    "completion_tokens" : 209,
+    "total_tokens" : 292
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

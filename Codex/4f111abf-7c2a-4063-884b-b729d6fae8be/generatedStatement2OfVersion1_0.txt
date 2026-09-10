@@ -1,0 +1,5 @@
+
+
+In this program, we first define a `SharedCounter` class with a static counter variable. We create multiple threads in a loop and start them, each executing an instance of the `CounterTask` class which increments the shared counter variable in a synchronized block to ensure thread safety. Finally, we wait for all threads to complete using the `join()` method and print out the final value of the counter variable.
+
+You can adjust the number of threads and the number of increments in each thread by modifying the `numThreads` and loop condition in the `CounterTask` class.

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class FloorLog2 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a positive integer: ");
+        int number = input.nextInt();
+
+        // Check if the number is valid
+        if (number <= 0) {
+            System.out.println("Invalid input. Please enter a positive integer.");
+            return;
+        }
+
+        // Calculate the floor log2 of the number
+        int log2 = (int) (Math.log(number) / Math.log(2));
+
+        // Print the result
+        System.out.println("The largest integer but not larger than the base-2 logarithm of " + number + " is: " + log2);
+    }
+}

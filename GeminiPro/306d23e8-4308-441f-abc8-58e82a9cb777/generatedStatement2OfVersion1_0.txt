@@ -1,0 +1,16 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty array:** []
+* **Array with a single element:** [1]
+* **Array with only 0s:** [0, 0, 0]
+* **Array with only -1s:** [-1, -1, -1]
+
+**Normal Cases:**
+
+* **Array without 0 or -1:** [1, 2, 3, 4, 5]
+* **Array with some 0s and -1s:** [1, 2, 0, -1, 3, 4]
+* **Array with a mix of positive and negative numbers:** [1, -2, 3, -4, 5]

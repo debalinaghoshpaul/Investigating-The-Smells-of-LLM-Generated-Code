@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Enter the prime number: 
+The position of the prime number 7 is: 7
+..Enter the prime number: 
+.Enter the prime number: 
+
+Time: 0.362
+
+OK (4 tests)
+

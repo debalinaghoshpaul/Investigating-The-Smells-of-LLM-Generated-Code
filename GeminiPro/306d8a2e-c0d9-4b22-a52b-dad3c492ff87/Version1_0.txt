@@ -1,0 +1,53 @@
+```java
+import java.util.Scanner;
+
+public class StringStartsWithNumber {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user.
+        System.out.println("Enter a string: ");
+        String input = scanner.nextLine();
+
+        // Check if the string starts with a number.
+        boolean startsWithNumber = Character.isDigit(input.charAt(0));
+
+        // Print the result.
+        if (startsWithNumber) {
+            System.out.println("The string starts with a number.");
+        } else {
+            System.out.println("The string does not start with a number.");
+        }
+    }
+}
+```
+
+### Test Cases
+
+**Valid Test Cases:**
+
+* **Input:** 123456
+* **Output:** The string starts with a number.
+* **Input:** 0.123456
+* **Output:** The string starts with a number.
+* **Input:** 1e10
+* **Output:** The string starts with a number.
+
+**Invalid Test Cases:**
+
+* **Input:** abcdef
+* **Output:** The string does not start with a number.
+* **Input:** ""
+* **Output:** The string does not start with a number.
+* **Input:** " "
+* **Output:** The string does not start with a number.
+
+**Corner Cases:**
+
+* **Input:** "-123456"
+* **Output:** The string starts with a number. (Even though the number is negative, it is still a number.)
+* **Input:** "123.456"
+* **Output:** The string does not start with a number. (The decimal point separates the number into two parts.)
+* **Input:** "123e456"
+* **Output:** The string does not start with a number. (The exponential notation separates the number into two parts.)

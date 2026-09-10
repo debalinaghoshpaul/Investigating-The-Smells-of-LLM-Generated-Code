@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Input an integer between 0 and 1000: The sum of all digits in 0 is 0
+.Input an integer between 0 and 1000: ..Input an integer between 0 and 1000: .Input an integer between 0 and 1000: Please enter a number between 0 and 1000.
+.Input an integer between 0 and 1000: The sum of all digits in 0 is 21
+.Input an integer between 0 and 1000: Please enter a number between 0 and 1000.
+
+Time: 0.345
+
+OK (7 tests)
+

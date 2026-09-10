@@ -1,0 +1,50 @@
+```java
+import java.util.Scanner;
+
+public class FloatingPointNumber {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input a number: ");
+        double number = scanner.nextDouble();
+
+        if (number == 0) {
+            System.out.println("Zero");
+        } else if (number > 0) {
+            if (number < 1) {
+                System.out.println("Positive small");
+            } else if (number > 1_000_000) {
+                System.out.println("Positive large");
+            } else {
+                System.out.println("Positive");
+            }
+        } else {
+            if (number > -1) {
+                System.out.println("Negative small");
+            } else if (number < -1_000_000) {
+                System.out.println("Negative large");
+            } else {
+                System.out.println("Negative");
+            }
+        }
+    }
+}
+```
+
+Test cases:
+
+* **Corner cases:**
+    * 0
+    * -0
+    * 1
+    * -1
+    * 1e-6
+    * -1e-6
+    * 1e6
+    * -1e6
+* **Normal cases:**
+    * -2534
+    * 3.14
+    * -0.000001
+    * 123456789
+    * -987654321

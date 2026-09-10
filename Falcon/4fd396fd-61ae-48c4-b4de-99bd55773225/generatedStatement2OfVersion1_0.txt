@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Array with only one element (all elements are equal)
+* Array with duplicate elements (multiple second largest and smallest elements)
+
+**Normal Cases:**
+* Array with distinct elements
+* Array with a large number of elements
+* Array with negative numbers
+
+**Expected Outputs:**
+
+* For the corner case with only one element: [null, null]
+* For the corner case with duplicate elements: [second largest duplicate value, second smallest duplicate value]
+* For normal cases: [second largest distinct value, second smallest distinct value]

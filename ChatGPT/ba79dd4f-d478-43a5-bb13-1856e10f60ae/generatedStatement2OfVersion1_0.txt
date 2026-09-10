@@ -1,0 +1,2 @@
+
+This program allows the user to assign seats in an airplane by entering the seat desired. It displays the available seats and updates the seating pattern accordingly. Users can continue to assign seats until all seats are filled or until they enter 'exit' to end the program. If a user tries to assign an already occupied seat, the program will prompt for another choice.

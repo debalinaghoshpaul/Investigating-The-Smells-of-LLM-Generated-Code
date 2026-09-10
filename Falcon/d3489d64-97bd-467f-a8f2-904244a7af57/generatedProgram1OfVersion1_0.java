@@ -1,0 +1,17 @@
+import java.util.Arrays;
+
+public class MaxProduct {
+    public static void main(String[] args) {
+        int[] nums = {2, 3, 5, 7, -7, 5, 8, -5};
+        int maxProduct = 0;
+        int maxIndex = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > maxProduct) {
+                maxProduct = nums[i];
+                maxIndex = i;
+            }
+        }
+        System.out.println("Pair is (" + nums[maxIndex] + ", " + nums[maxIndex + 1] + ")");
+    }
+}
+

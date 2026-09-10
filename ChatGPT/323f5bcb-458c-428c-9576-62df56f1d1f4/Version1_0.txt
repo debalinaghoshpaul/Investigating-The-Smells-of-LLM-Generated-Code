@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8ymHUCqedHmiDAZgV44hsOjP7uwiH",
+  "object" : "chat.completion",
+  "created" : 1709495964,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nabstract class Instrument {\n    public abstract void play();\n    public abstract void tune();\n}\n\nclass Glockenspiel extends Instrument {\n    @Override\n    public void play() {\n        System.out.println(\"Glockenspiel is playing\");\n    }\n\n    @Override\n    public void tune() {\n        System.out.println(\"Tuning the Glockenspiel\");\n    }\n}\n\nclass Violin extends Instrument {\n    @Override\n    public void play() {\n        System.out.println(\"Violin is playing\");\n    }\n\n    @Override\n    public void tune() {\n        System.out.println(\"Tuning the Violin\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Instrument glockenspiel = new Glockenspiel();\n        glockenspiel.play();\n        glockenspiel.tune();\n\n        Instrument violin = new Violin();\n        violin.play();\n        violin.tune();\n    }\n}\n```\nOutput:\n```\nGlockenspiel is playing\nTuning the Glockenspiel\nViolin is playing\nTuning the Violin\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 96,
+    "completion_tokens" : 221,
+    "total_tokens" : 317
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93Cz4qy015l8xE5Icp0TBsIhl8UK4",
+  "object" : "chat.completion",
+  "created" : 1710551922,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Main {\n    public static void main(String[] args) {\n        int[] arr1 = {1, 2, 3, 4, 5};\n        int[] arr2 = {5, 4, 3, 2, 1};\n        \n        System.out.println(\"arr1 is sorted: \" + isSorted(arr1, 0));\n        System.out.println(\"arr2 is sorted: \" + isSorted(arr2, 0));\n    }\n    \n    public static boolean isSorted(int[] arr, int index) {\n        if (index >= arr.length - 1) {\n            return true;\n        }\n        \n        if (arr[index] > arr[index + 1]) {\n            return false;\n        }\n        \n        return isSorted(arr, index + 1);\n    }\n}\n```\n\nThis Java program defines a recursive method `isSorted` that takes an array and an index as input parameters. It recursively checks if the elements in the given array are sorted in ascending order by comparing each element with the next one. If the current element is greater than the next element, the method returns false, indicating that the array is not sorted. If all elements are in ascending order, the method returns true. \n\nIn the `main` method, two arrays are declared and passed to the `isSorted` method to check if they are sorted in ascending order. The result is printed to the console."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 67,
+    "completion_tokens" : 295,
+    "total_tokens" : 362
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

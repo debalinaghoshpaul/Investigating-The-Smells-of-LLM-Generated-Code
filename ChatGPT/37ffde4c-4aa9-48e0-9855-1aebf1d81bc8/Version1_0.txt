@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91z2w1xxbN5hWqKLLt0WCtO3o4spN",
+  "object" : "chat.completion",
+  "created" : 1710260018,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class RotateArray {\n\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5};\n\n        System.out.println(\"Original Array: \" + Arrays.toString(arr));\n\n        rotateArray(arr);\n\n        System.out.println(\"Array after rotation: \" + Arrays.toString(arr));\n    }\n\n    public static void rotateArray(int[] arr) {\n        if (arr == null || arr.length <= 1) {\n            return;\n        }\n\n        int last = arr[arr.length - 1];\n\n        for (int i = arr.length - 1; i > 0; i--) {\n            arr[i] = arr[i - 1];\n        }\n\n        arr[0] = last;\n    }\n}\n```\n\nThis program defines a method `rotateArray` that takes an array as input and rotates it clockwise by one position. The main method initializes an array, prints the original array, rotates it using the `rotateArray` method, and then prints the array after rotation."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 69,
+    "completion_tokens" : 219,
+    "total_tokens" : 288
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

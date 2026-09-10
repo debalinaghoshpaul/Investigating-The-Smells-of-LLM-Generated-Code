@@ -1,0 +1,3 @@
+
+
+This program defines a `mergeStacks` method that takes two input stacks and creates a new stack with elements from both input stacks without duplicates using a HashSet to keep track of seen elements. The main method demonstrates the usage of this method by merging two example stacks and printing the result.

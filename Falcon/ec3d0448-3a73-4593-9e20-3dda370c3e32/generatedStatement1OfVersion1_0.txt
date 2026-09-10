@@ -1,0 +1,23 @@
+ true
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example, you can test if the array is empty or not.
+// You can also test if the array is sorted or not.
+// You can also test if the array contains duplicates or not.
+// You can also test if the array contains all the numbers from 1 to 10 or not.
+// You can also test if the array contains the number 5 or not.
+// You can also test if the array contains the number 6 or not.
+// You can also test if the array contains the number 7 or not.
+// You can also test if the array contains the number 8 or not.
+// You can also test if the array contains the number 9 or not.
+// You can also test if the array contains the number 10 or not.
+// You can also test if the array contains the number 11 or not.
+// You can also test if the array contains the number 12 or not.
+// You can also test if the array contains the number 13 or not.
+// You can also test if the array contains the number 14 or not.
+// You can also test if the array contains the number 15 or not.
+// You can also test if the array contains the number 16 or not.
+// You can also test if the array contains the number 17 or not.
+// You can also test if the array contains the number 18 or not.
+// You can also

@@ -1,0 +1,4 @@
+
+
+**4. Tree with Right Child Only Test Case:**
+Input:

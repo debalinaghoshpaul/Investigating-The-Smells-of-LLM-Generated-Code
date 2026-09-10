@@ -1,0 +1,14 @@
+
+
+**Test Cases:**
+
+| Column Number | Expected Output |
+|---|---|
+| 1 | A |
+| 26 | Z |
+| 52 | AZ |
+| 701 | AAB |
+| 1000 | AMJ |
+| 18278 | BEY |
+| 0 | Invalid input (must be positive) |
+| -10 | Invalid input (must be positive) |

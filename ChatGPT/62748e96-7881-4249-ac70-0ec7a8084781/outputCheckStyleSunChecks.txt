@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\62748e96-7881-4249-ac70-0ec7a8084781\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\62748e96-7881-4249-ac70-0ec7a8084781\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\62748e96-7881-4249-ac70-0ec7a8084781\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\62748e96-7881-4249-ac70-0ec7a8084781\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\62748e96-7881-4249-ac70-0ec7a8084781\generatedProgram1OfVersion1_0.java:7:47: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\62748e96-7881-4249-ac70-0ec7a8084781\generatedProgram1OfVersion1_0.java:7:51: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\62748e96-7881-4249-ac70-0ec7a8084781\generatedProgram1OfVersion1_0.java:7:54: '8' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\62748e96-7881-4249-ac70-0ec7a8084781\generatedProgram1OfVersion1_0.java:7:57: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\62748e96-7881-4249-ac70-0ec7a8084781\generatedProgram1OfVersion1_0.java:7:60: '15' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\62748e96-7881-4249-ac70-0ec7a8084781\generatedProgram1OfVersion1_0.java:7:64: '7' is a magic number. [MagicNumber]
+Audit done.

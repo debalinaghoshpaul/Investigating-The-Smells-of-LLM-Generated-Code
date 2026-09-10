@@ -1,0 +1,11 @@
+JUnit version 4.13
+.Enter a string: 
+The substring appears before a period: false
+..Enter a string: 
+.Enter a string: 
+The substring appears before a period: true
+
+Time: 0.805
+
+OK (4 tests)
+

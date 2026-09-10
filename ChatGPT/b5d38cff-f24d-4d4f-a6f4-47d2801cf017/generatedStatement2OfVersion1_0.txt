@@ -1,0 +1,3 @@
+
+
+In this example, we create a TreeMap named `treeMap` and associate values with keys using the `put()` method. The keys are of type `String` and the values are of type `Integer` in this example. Finally, we print the TreeMap using the `println()` method.

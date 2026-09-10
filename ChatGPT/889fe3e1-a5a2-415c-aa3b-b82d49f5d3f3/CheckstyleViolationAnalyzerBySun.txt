@@ -1,0 +1,10 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 90). [LineLength]: 10
+FinalParameters: Parameter args should be final. [FinalParameters]: 4
+VisibilityModifier: Variable 'val' must be private and have accessor methods. [VisibilityModifier]: 3
+HiddenField: 'val' hides a field. [HiddenField]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 3
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '3' is a magic number. [MagicNumber]: 19

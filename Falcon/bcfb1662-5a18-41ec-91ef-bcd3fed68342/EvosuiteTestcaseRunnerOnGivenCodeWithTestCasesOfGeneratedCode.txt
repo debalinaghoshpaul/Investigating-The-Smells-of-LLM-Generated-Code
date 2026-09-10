@@ -1,0 +1,53 @@
+JUnit version 4.13
+.E.E.E..E.E..E.E.E.E
+Time: 0.423
+There were 9 failures:
+1) test03(testing_ChatGPT_on_java.Exercise15_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getNumberOfDaysInMonth(int, int) is undefined for the type Exercise15
+
+	at testing_ChatGPT_on_java.Exercise15_ESTest.test03(Exercise15_ESTest.java:69)
+2) test02(testing_ChatGPT_on_java.Exercise15_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getStartDay(int, int) is undefined for the type Exercise15
+
+	at testing_ChatGPT_on_java.Exercise15_ESTest.test02(Exercise15_ESTest.java:54)
+3) test05(testing_ChatGPT_on_java.Exercise15_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method numberOfLeapYearsSince1970(long) is undefined for the type Exercise15
+
+	at testing_ChatGPT_on_java.Exercise15_ESTest.test05(Exercise15_ESTest.java:100)
+4) test10(testing_ChatGPT_on_java.Exercise15_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getNumOfDaysToReachThatMonth(int, int) is undefined for the type Exercise15
+
+	at testing_ChatGPT_on_java.Exercise15_ESTest.test10(Exercise15_ESTest.java:175)
+5) test01(testing_ChatGPT_on_java.Exercise15_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method dayNameOfWeek(int) is undefined for the type Exercise15
+
+	at testing_ChatGPT_on_java.Exercise15_ESTest.test01(Exercise15_ESTest.java:39)
+6) test07(testing_ChatGPT_on_java.Exercise15_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getMonthName(int) is undefined for the type Exercise15
+
+	at testing_ChatGPT_on_java.Exercise15_ESTest.test07(Exercise15_ESTest.java:130)
+7) test06(testing_ChatGPT_on_java.Exercise15_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getMonthFromDays(int, int) is undefined for the type Exercise15
+
+	at testing_ChatGPT_on_java.Exercise15_ESTest.test06(Exercise15_ESTest.java:115)
+8) test09(testing_ChatGPT_on_java.Exercise15_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getTotalNumberOfDays(int, int) is undefined for the type Exercise15
+
+	at testing_ChatGPT_on_java.Exercise15_ESTest.test09(Exercise15_ESTest.java:160)
+9) test08(testing_ChatGPT_on_java.Exercise15_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method isLeapYear(int) is undefined for the type Exercise15
+
+	at testing_ChatGPT_on_java.Exercise15_ESTest.test08(Exercise15_ESTest.java:145)
+
+FAILURES!!!
+Tests run: 11,  Failures: 9
+

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to make such a pattern like a pyramid with a number that repeats in the same row.\n1\n      2 2\n     3 3 3\n    4 4 4 4\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 87e848fa-3a1b-49a5-9be1-d3942417d7ae.\n

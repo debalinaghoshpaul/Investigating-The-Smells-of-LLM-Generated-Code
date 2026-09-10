@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yIvsdFWMX5REqJITrNXuS5pLjwC",
+  "object" : "chat.completion",
+  "created" : 1710257165,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\n\npublic class AverageExceptMinMax {\n    \n    public static double calculateAverage(int[] arr) {\n        if (arr.length <= 2) {\n            return 0; // There are not enough elements to calculate an average\n        }\n        \n        int sum = Arrays.stream(arr).sum();\n        int max = Arrays.stream(arr).max().getAsInt();\n        int min = Arrays.stream(arr).min().getAsInt();\n        \n        return (double) (sum - max - min) / (arr.length - 2);\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {3, 6, 2, 10, 8};\n        \n        double average = calculateAverage(nums);\n        System.out.println(\"Average value of the array except the largest and smallest values: \" + average);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 70,
+    "completion_tokens" : 174,
+    "total_tokens" : 244
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

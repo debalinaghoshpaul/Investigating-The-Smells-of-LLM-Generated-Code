@@ -1,0 +1,44 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E
+Time: 0.52
+There were 7 failures:
+1) test6(testing_ChatGPT_on_java.ArrayCompare_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArrayCompare.main(Test.java:19)
+	at testing_ChatGPT_on_java.ArrayCompare_ESTest.test6(ArrayCompare_ESTest.java:77)
+2) test4(testing_ChatGPT_on_java.ArrayCompare_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArrayCompare.compare_Arrays(Test.java:6)
+	at testing_ChatGPT_on_java.ArrayCompare_ESTest.test4(ArrayCompare_ESTest.java:65)
+3) test5(testing_ChatGPT_on_java.ArrayCompare_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type ArrayCompare must be defined in its own file
+
+	at testing_ChatGPT_on_java.ArrayCompare.<init>(Test.java:5)
+	at testing_ChatGPT_on_java.ArrayCompare_ESTest.test5(ArrayCompare_ESTest.java:71)
+4) test2(testing_ChatGPT_on_java.ArrayCompare_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArrayCompare.compare_Arrays(Test.java:6)
+	at testing_ChatGPT_on_java.ArrayCompare_ESTest.test2(ArrayCompare_ESTest.java:41)
+5) test3(testing_ChatGPT_on_java.ArrayCompare_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArrayCompare.compare_Arrays(Test.java:6)
+	at testing_ChatGPT_on_java.ArrayCompare_ESTest.test3(ArrayCompare_ESTest.java:50)
+6) test0(testing_ChatGPT_on_java.ArrayCompare_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArrayCompare.compare_Arrays(Test.java:6)
+	at testing_ChatGPT_on_java.ArrayCompare_ESTest.test0(ArrayCompare_ESTest.java:23)
+7) test1(testing_ChatGPT_on_java.ArrayCompare_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.ArrayCompare.compare_Arrays(Test.java:6)
+	at testing_ChatGPT_on_java.ArrayCompare_ESTest.test1(ArrayCompare_ESTest.java:32)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+

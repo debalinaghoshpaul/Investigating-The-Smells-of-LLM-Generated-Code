@@ -1,0 +1,1 @@
+Problem Description : \n21.4 (Count consonants and vowels) Write a program that prompts the user to enter a\ntext file name and displays the number of vowels and consonants in the file. Use\na set to store the vowels A, E, I, O, and U.\n\n The programming language you need to use is: Java.\n\n Problem Id is : 37937437-317d-46fe-92eb-76a940393570.

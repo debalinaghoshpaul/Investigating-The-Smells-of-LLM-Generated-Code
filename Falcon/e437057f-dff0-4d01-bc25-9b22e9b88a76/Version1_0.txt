@@ -1,0 +1,67 @@
+No GPU found. Running on CPU.
+public class TwoDimensionalBooleanArray {
+    public static void main(String[] args) {
+        int[][] array = {{true, false, true}, {false, true, false}};
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                System.out.print(array[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+Output:
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f
+t f t f t f

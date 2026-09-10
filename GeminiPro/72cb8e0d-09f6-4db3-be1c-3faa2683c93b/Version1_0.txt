@@ -1,0 +1,29 @@
+```java
+import java.util.*;
+
+public class ChangePriorityQueueToMaximumPriorityQueue {
+
+    public static void main(String[] args) {
+        // Create a priority queue with default min heap
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+        // Add elements to the priority queue
+        pq.add(10);
+        pq.add(5);
+        pq.add(15);
+        pq.add(2);
+        pq.add(7);
+
+        // Print the priority queue
+        System.out.println("Priority queue before converting to maximum priority queue: " + pq);
+
+        // Change the priority queue to maximum priority queue using a comparator
+        Comparator<Integer> comparator = Collections.reverseOrder();
+        PriorityQueue<Integer> maxPQ = new PriorityQueue<>(comparator);
+        maxPQ.addAll(pq);
+
+        // Print the maximum priority queue
+        System.out.println("Maximum priority queue after converting: " + maxPQ);
+    }
+}
+```

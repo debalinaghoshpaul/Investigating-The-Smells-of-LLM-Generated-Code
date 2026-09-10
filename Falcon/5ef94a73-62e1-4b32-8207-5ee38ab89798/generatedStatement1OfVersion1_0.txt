@@ -1,0 +1,41 @@
+
+Enter an octal number: 100
+The equivalent hexadecimal number is: 40
+
+Enter an octal number: 123
+The equivalent hexadecimal number is: 0F
+
+Enter an octal number: 255
+The equivalent hexadecimal number is: FF
+
+Enter an octal number: 127
+The equivalent hexadecimal number is: 07
+
+Enter an octal number: 128
+The equivalent hexadecimal number is: 08
+
+Enter an octal number: 129
+The equivalent hexadecimal number is: 09
+
+Enter an octal number: 130
+The equivalent hexadecimal number is: 0A
+
+Enter an octal number: 131
+The equivalent hexadecimal number is: 0B
+
+Enter an octal number: 132
+The equivalent hexadecimal number is: 0C
+
+Enter an octal number: 133
+The equivalent hexadecimal number is: 0D
+
+Enter an octal number: 134
+The equivalent hexadecimal number is: 0E
+
+Enter an octal number: 135
+The equivalent hexadecimal number is: 0F
+
+Enter an octal number: 136
+The equivalent hexadecimal number is: 10
+
+Enter

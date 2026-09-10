@@ -1,0 +1,3 @@
+
+Input String: pqrabcde
+Expected Output: abcd

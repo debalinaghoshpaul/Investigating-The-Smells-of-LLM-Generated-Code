@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter the input string: ..Enter the input string: Enter the pattern: The input string matches the pattern.
+...Enter the input string: Enter the pattern: The input string does not match the pattern.
+.
+Time: 0.564
+
+OK (7 tests)
+

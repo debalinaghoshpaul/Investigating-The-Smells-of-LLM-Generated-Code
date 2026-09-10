@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95BpGhJbHHQCPbZvJbua3DEMpSKEX",
+  "object" : "chat.completion",
+  "created" : 1711024126,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class PointInTriangle {\n    \n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        \n        System.out.println(\"Enter the coordinates of the triangle vertices:\");\n        System.out.print(\"Vertex 1 (x1, y1): \");\n        int x1 = sc.nextInt();\n        int y1 = sc.nextInt();\n        \n        System.out.print(\"Vertex 2 (x2, y2): \");\n        int x2 = sc.nextInt();\n        int y2 = sc.nextInt();\n        \n        System.out.print(\"Vertex 3 (x3, y3): \");\n        int x3 = sc.nextInt();\n        int y3 = sc.nextInt();\n        \n        System.out.println(\"Enter the coordinates of the point to check:\");\n        System.out.print(\"Point (x, y): \");\n        int x = sc.nextInt();\n        int y = sc.nextInt();\n        \n        boolean result = isPointInTriangle(x1, y1, x2, y2, x3, y3, x, y);\n        \n        if(result) {\n            System.out.println(\"The point is inside the triangle.\");\n        } else {\n            System.out.println(\"The point is outside the triangle.\");\n        }\n        \n        sc.close();\n    }\n    \n    public static boolean isPointInTriangle(int x1, int y1, int x2, int y2, int x3, int y3, int x, int y) {\n        int areaOfTriangle = Math.abs((x1*(y2-y3) + x2*(y3-y1) + x3*(y1-y2))/2);\n        \n        int area1 = Math.abs((x1*(y2-y) + x2*(y-y1) + x*(y1-y2))/2);\n        int area2 = Math.abs((x1*(y-y3) + x*(y3-y1) + x3*(y1-y))/2);\n        int area3 = Math.abs((x*(y2-y3) + x2*(y3-y) + x3*(y-y2))/2);\n        \n        return (area1 + area2 + area3 == areaOfTriangle);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 81,
+    "completion_tokens" : 455,
+    "total_tokens" : 536
+  },
+  "system_fingerprint" : "fp_fa89f7a861"
+}

@@ -1,0 +1,9 @@
+
+Name: John
+Grade: 90
+Courses: ["Math", "English"]
+Name: John
+Grade: 90
+Courses: ["Science"]
+Name: John
+Grade:

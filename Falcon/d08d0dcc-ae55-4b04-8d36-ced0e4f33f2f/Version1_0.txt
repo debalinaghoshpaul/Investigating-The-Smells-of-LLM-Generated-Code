@@ -1,0 +1,55 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a double value: ");
+        double num = scanner.nextDouble();
+        System.out.println("Whole part: " + getWholePart(num));
+        System.out.println("Fractional part: " + getFractionalPart(num));
+    }
+
+    public static double getWholePart(double num) {
+        return num;
+    }
+
+    public static double getFractionalPart(double num) {
+        return num - getWholePart(num);
+    }
+}
+
+// Output:
+// Enter a double value: 3.0
+// Whole part: 3.0
+// Fractional part: 0.0
+// Enter a double value: 3.1
+// Whole part: 3.1
+// Fractional part: 0.0
+// Enter a double value: 3.2
+// Whole part: 3.2
+// Fractional part: 0.0
+// Enter a double value: 3.3
+// Whole part: 3.3
+// Fractional part: 0.0
+// Enter a double value: 3.4
+// Whole part: 3.4
+// Fractional part: 0.0
+// Enter a double value: 3.5
+// Whole part: 3.5
+// Fractional part: 0.0
+// Enter a double value: 3.6
+// Whole part: 3.6
+// Fractional part: 0.0
+// Enter a double value: 3.7
+// Whole part: 3.7
+// Fractional part: 0.0
+// Enter a double value: 3.8
+// Whole part: 3.8
+// Fractional part: 0.0
+// Enter a double value: 3.9
+// Whole part: 3.9
+// Fractional part: 0.0
+// Enter a double value: 4.0
+// Whole part: 4.0
+// Fractional part:

@@ -1,0 +1,11 @@
+
+
+**Test cases including corner cases:**
+
+* **Empty array:** no triplets will be found.
+* **Array with only one element:** no triplets will be found.
+* **Array with all elements equal to zero:** no triplets will be found.
+* **Array with all elements equal to a non-zero number:** all triplets will be equal to that number.
+* **Array with a single triplet that equals the given sum:** the triplet will be found.
+* **Array with multiple triplets that equal the given sum:** all triplets will be found.
+* **Array with triplets that both equal and do not equal the given sum:** all triplets that equal the given sum will be found, and the ones that do not will not be found.

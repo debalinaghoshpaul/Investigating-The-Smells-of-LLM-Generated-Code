@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+* **Positive numbers:**
+    * 1.23
+    * 456.789
+    * Double.MAX_VALUE
+
+* **Negative numbers:**
+    * -1.23
+    * -456.789
+    * -Double.MIN_VALUE
+
+* **Corner cases:**
+    * 0.0
+    * Double.POSITIVE_INFINITY
+    * Double.NEGATIVE_INFINITY
+    * NaN

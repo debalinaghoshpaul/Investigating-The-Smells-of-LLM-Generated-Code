@@ -1,0 +1,4 @@
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\a8bf53e4-22d6-4d8c-915e-5fe98dc34c8e\generatedProgram1OfVersion1_0.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\a8bf53e4-22d6-4d8c-915e-5fe98dc34c8e\generatedProgram1OfVersion1_0.java:3:	CommentRequired:	Class comments are required
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\a8bf53e4-22d6-4d8c-915e-5fe98dc34c8e\generatedProgram1OfVersion1_0.java:3:	UseUtilityClass:	This utility class has a non-private constructor
+C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3Resources_Streams\a8bf53e4-22d6-4d8c-915e-5fe98dc34c8e\generatedProgram1OfVersion1_0.java:5:	CommentRequired:	Public method and constructor comments are required

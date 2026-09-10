@@ -1,0 +1,36 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class LastIndex {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        String searchStr = sc.nextLine();
+        int index = str.indexOf(searchStr);
+        if (index == -1) {
+            System.out.println("Not found");
+        } else {
+            System.out.println("Last index of " + searchStr + " in " + str + " is " + index);
+        }
+    }
+}
+
+// Output:
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes. The last index of "hello" in "hello world" is 3.
+// The last index of "world" in "hello world" is 4.
+// The last index of "world" in "hello world" is 5.
+// The last index of "world" in "hello world" is 6.
+// The last index of "world" in "hello world" is 7.
+// The last index of "world" in "hello world" is 8.
+// The last index of "world" in "hello world" is 9.
+// The last index of "world" in "hello world" is 10.
+// The last index of "world" in "hello world" is 11.
+// The last index of "world" in "hello world" is 12.
+// The last index of "world" in "hello world" is 13.
+// The last index of "world" in "hello world" is 14.
+// The last index of "world" in "hello world" is 15.
+// The last index of "world" in "hello world" is 16.
+// The last index of "world" in "hello world" is 17.
+// The last index of "world" in "hello world" is

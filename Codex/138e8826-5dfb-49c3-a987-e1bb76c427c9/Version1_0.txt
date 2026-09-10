@@ -1,0 +1,29 @@
+```java
+import java.util.Stack;
+
+public class StackPortion {
+
+    public static void main(String[] args) {
+        Stack<Integer> originalStack = new Stack<>();
+        originalStack.push(1);
+        originalStack.push(2);
+        originalStack.push(3);
+        originalStack.push(4);
+        originalStack.push(5);
+
+        // Create a new stack from a portion of the original stack
+        Stack<Integer> portionStack = new Stack<>();
+        int start = 2;
+        int end = 4;
+        for (int i = start; i <= end; i++) {
+            portionStack.push(originalStack.get(i));
+        }
+
+        // Print the original stack
+        System.out.println("Original Stack: " + originalStack);
+
+        // Print the portion stack
+        System.out.println("Portion Stack: " + portionStack);
+    }
+}
+```

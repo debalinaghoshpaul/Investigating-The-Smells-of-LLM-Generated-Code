@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DWxX5N8spoXmOatQjFfFrQbBfR1y",
+  "object" : "chat.completion",
+  "created" : 1713011987,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "public class Person {\n    private String name;\n    private String dateOfBirth;\n    private String dateOfDeath;\n\n    public Person(String name, String dateOfBirth, String dateOfDeath) {\n        this.name = name;\n        this.dateOfBirth = dateOfBirth;\n        if(dateOfDeath != null && dateOfDeath.compareTo(dateOfBirth) < 0) {\n            throw new IllegalArgumentException(\"Date of death cannot be before date of birth\");\n        }\n        this.dateOfDeath = dateOfDeath;\n    }\n\n    // Getters and setters for name, dateOfBirth, and dateOfDeath\n\n    public String getName() {\n        return name;\n    }\n\n    public void setName(String name) {\n        this.name = name;\n    }\n\n    public String getDateOfBirth() {\n        return dateOfBirth;\n    }\n\n    public void setDateOfBirth(String dateOfBirth) {\n        this.dateOfBirth = dateOfBirth;\n    }\n\n    public String getDateOfDeath() {\n        return dateOfDeath;\n    }\n\n    public void setDateOfDeath(String dateOfDeath) {\n        if(dateOfDeath != null && dateOfDeath.compareTo(dateOfBirth) < 0) {\n            throw new IllegalArgumentException(\"Date of death cannot be before date of birth\");\n        }\n        this.dateOfDeath = dateOfDeath;\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 140,
+    "completion_tokens" : 258,
+    "total_tokens" : 398
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

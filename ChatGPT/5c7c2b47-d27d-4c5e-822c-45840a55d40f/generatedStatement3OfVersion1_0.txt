@@ -1,0 +1,8 @@
+
+10 pushed to stack
+20 pushed to stack
+30 pushed to stack
+Stack: 30 20 10 
+Popped element: 30
+Stack: 20 10 
+Is stack empty? false

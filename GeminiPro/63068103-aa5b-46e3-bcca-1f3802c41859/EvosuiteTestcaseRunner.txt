@@ -1,0 +1,8 @@
+JUnit version 4.13
+..Most frequent word: th
+Word with the most letters: MtleNtegs:
+.
+Time: 0.503
+
+OK (3 tests)
+

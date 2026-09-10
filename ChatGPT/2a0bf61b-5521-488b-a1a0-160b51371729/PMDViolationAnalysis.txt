@@ -1,0 +1,5 @@
+Violations by Category:
+UselessParentheses: Useless parentheses.: 2
+CommentRequired: Class comments are required: 8
+LiteralsFirstInComparisons: Position literals first in String comparisons: 2
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

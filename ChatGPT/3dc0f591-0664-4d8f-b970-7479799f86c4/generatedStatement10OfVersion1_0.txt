@@ -1,0 +1,5 @@
+
+
+**3. Removing First Element Case:**
+
+Input:

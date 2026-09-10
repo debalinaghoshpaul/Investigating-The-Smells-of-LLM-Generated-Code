@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program that reads a file and throws an exception if the file is empty.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : edefa4d1-6f40-486c-9744-7c2a331db2fb.\n

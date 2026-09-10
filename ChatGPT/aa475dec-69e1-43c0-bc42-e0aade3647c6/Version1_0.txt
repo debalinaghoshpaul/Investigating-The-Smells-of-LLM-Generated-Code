@@ -1,0 +1,95 @@
+```java
+// Producer-Consumer Problem using wait() and notify() methods
+
+// Producer Thread
+class Producer implements Runnable {
+  private final Buffer buffer;
+
+  public Producer(Buffer buffer) {
+    this.buffer = buffer;
+  }
+
+  @Override
+  public void run() {
+    for (int i = 0; i < 100; i++) {
+      try {
+        buffer.put(i);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
+    }
+  }
+}
+
+// Consumer Thread
+class Consumer implements Runnable {
+  private final Buffer buffer;
+
+  public Consumer(Buffer buffer) {
+    this.buffer = buffer;
+  }
+
+  @Override
+  public void run() {
+    for (int i = 0; i < 100; i++) {
+      try {
+        int item = buffer.get();
+        // process the item
+        System.out.println("Got item: " + item);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
+    }
+  }
+}
+
+// Buffer class for producer-consumer scenario
+class Buffer {
+  private final int MAX_SIZE = 10;
+  private int[] buffer = new int[MAX_SIZE];
+  private int count = 0;
+  private int in = 0;
+  private int out = 0;
+
+  public synchronized void put(int item) throws InterruptedException {
+    while (count == MAX_SIZE) {
+      wait();
+    }
+
+    buffer[in] = item;
+    in = (in + 1) % MAX_SIZE;
+    count++;
+    notifyAll();
+  }
+
+  public synchronized int get() throws InterruptedException {
+    while (count == 0) {
+      wait();
+    }
+
+    int item = buffer[out];
+    out = (out + 1) % MAX_SIZE;
+    count--;
+    notifyAll();
+    return item;
+  }
+}
+
+// Main method to start producer and consumer threads
+public class ProducerConsumer {
+  public static void main(String[] args) {
+    // Create a buffer object
+    Buffer buffer = new Buffer();
+
+    // Create producer and consumer threads
+    Producer producer = new Producer(buffer);
+    Consumer consumer = new Consumer(buffer);
+
+    // Start the threads
+    Thread producerThread = new Thread(producer);
+    Thread consumerThread = new Thread(consumer);
+    producerThread.start();
+    consumerThread.start();
+  }
+}
+```

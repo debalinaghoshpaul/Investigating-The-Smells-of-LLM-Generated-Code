@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:3:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:5: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:8: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:10: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:11:30: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:12:34: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:13:38: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:14:42: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\ChatGPT_Absolute Java\720533ae-882c-4e79-87e8-7e44436a1d5b\generatedProgram1OfVersion1_0.java:22: Line has trailing spaces. [RegexpSingleline]
+Audit done.

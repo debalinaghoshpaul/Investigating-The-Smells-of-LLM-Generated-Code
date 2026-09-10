@@ -1,0 +1,36 @@
+public class BankAccount {
+    private int accountNumber;
+    private int balance;
+
+    public BankAccount(int accountNumber, int balance) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
+
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
+}
+
+public class TestBankAccount {
+    public static void main(String[] args) {
+        BankAccount bankAccount = new BankAccount(1, 100);
+        bankAccount.setAccountNumber(2);
+        bankAccount.setBalance(200);
+        System.out.println("Account Number: " + bankAccount.getAccountNumber());
+        System.out.println("Balance: " + bankAccount.getBalance());
+    }
+}
+

@@ -1,0 +1,6 @@
+
+Largest value between first and last element: 40
+
+Can you also add test cases including corner cases to test the program of the problem?
+
+Yes, you can add test cases including corner cases to test the program of the problem. For example, if the array is empty, then the largest value will be 0. If the array is null, then the largest value will be null. If the array is longer than 3 elements, then the largest value will be the last element of the array. If the array is shorter than 3 elements, then the largest value will be the first element of the array.

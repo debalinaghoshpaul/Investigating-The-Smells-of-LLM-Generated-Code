@@ -1,0 +1,42 @@
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class Ramanujan {
+
+    public static void main(String[] args) {
+        int n = 100000;
+        Map<Integer, Integer> cubes = new HashMap<>();
+        for (int i = 1; i <= n; i++) {
+            cubes.put(i * i * i, i);
+        }
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = i + 1; j <= n; j++) {
+                // Check if the sum of two cubes can be expressed in two different ways.
+                int sum = i * i * i + j * j * j;
+                if (cubes.containsKey(sum)) {
+                    int k = cubes.get(sum);
+                    if (k != i && k != j) {
+                        System.out.println(sum + " = " + i + "^3 + " + j + "^3 = " + k + "^3 + " + (n - k) + "^3");
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+* **Best Case:** The input is a valid integer n in the range [1, 100000]. The program should quickly find and print all Ramanujan numbers between 1 and n.
+* **Average Case:** The input is a valid integer n in the range [1, 100000]. The program should take a reasonable amount of time to find and print all Ramanujan numbers between 1 and n.
+* **Worst Case:** The input is an invalid integer n less than 1 or greater than 100000. The program should handle this case gracefully and print an error message.
+
+**Corner Cases:**
+
+* **Empty Input:** The input is an empty string or null. The program should handle this case gracefully and print an error message.
+* **Negative Input:** The input is a negative integer. The program should handle this case gracefully and print an error message.
+* **Zero Input:** The input is zero. The program should handle this case gracefully and print an error message.
+* **Decimal Input:** The input is a decimal number. The program should handle this case gracefully and print an error message.
+* **Large Input:** The input is a very large integer. The program should handle this case gracefully and print an error message.

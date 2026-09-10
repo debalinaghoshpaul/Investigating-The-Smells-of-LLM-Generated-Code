@@ -1,0 +1,14 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Empty strings and arrays
+* Elements that do not exist in the string or array
+
+**Regular Cases:**
+
+* Searching for elements at the beginning, middle, and end of the string or array
+* Searching for duplicate elements
+* Searching for elements that are not present in the string or array

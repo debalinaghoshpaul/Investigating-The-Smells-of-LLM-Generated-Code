@@ -1,0 +1,9 @@
+Violations by Category:
+FileTabCharacter: Line contains a tab character. [FileTabCharacter]: 5
+MultipleVariableDeclarations: Each variable declaration must be in its own statement. [MultipleVariableDeclarations]: 2
+EmptyLineSeparator: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]: 4
+WhitespaceAround: '+' is not followed by whitespace. Empty blocks                may only be represented as {} when not part of a multi-block statement (4.1.3) [WhitespaceAround]: 18
+OneTopLevelClass: Top-level class Shape has to reside in its own source file. [OneTopLevelClass]: 4
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+Indentation: 'method def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]: 56

@@ -1,0 +1,11 @@
+JUnit version 4.13
+...Enter your PIN:
+Your PIN is valid.
+.Enter your PIN:
+Your PIN is invalid.
+.......Enter your PIN:
+
+Time: 0.361
+
+OK (11 tests)
+

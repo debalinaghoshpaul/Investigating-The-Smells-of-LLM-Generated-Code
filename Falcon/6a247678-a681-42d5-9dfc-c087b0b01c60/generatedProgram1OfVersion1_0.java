@@ -1,0 +1,18 @@
+public class MoveZero {
+    public static void main(String[] args) {
+        int arr[] = {0, 3, 4, 0, 1, 2, 5, 0};
+        int n = arr.length;
+        int result[] = new int[n];
+        for (int i = 0; i < n; i++) {
+            if (arr[i]!= 0) {
+                result[i] = arr[i];
+            } else {
+                result[i] = arr[i] + 1;
+            }
+        }
+        for (int i = 0; i < n; i++) {
+            System.out.print(result[i] + " ");
+        }
+    }
+}
+

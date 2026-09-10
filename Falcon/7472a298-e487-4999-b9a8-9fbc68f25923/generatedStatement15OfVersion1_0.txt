@@ -1,0 +1,7 @@
+
+Enter the number of rows in the grid: 3
+Enter the number of columns in the grid: 4
+Enter the values for the grid (0 for empty space, 1 for obstacle):
+0 1 0 0
+0 0 0 0
+0 0 1 0

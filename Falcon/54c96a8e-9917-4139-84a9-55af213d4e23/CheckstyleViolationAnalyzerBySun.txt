@@ -1,0 +1,11 @@
+Violations by Category:
+WhitespaceAround: '!=' is not preceded with whitespace. [WhitespaceAround]: 2
+VisibilityModifier: Variable 'data' must be private and have accessor methods. [VisibilityModifier]: 4
+FinalParameters: Parameter data should be final. [FinalParameters]: 4
+HiddenField: 'data' hides a field. [HiddenField]: 1
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 4
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '3' is a magic number. [MagicNumber]: 5

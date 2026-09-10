@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EOOzD4GtXyrVpwoVNRaaC7Xg9YQM",
+  "object" : "chat.completion",
+  "created" : 1713217421,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nclass Student {\n    String name;\n    String id;\n    int[] marks;\n\n    public Student(String name, String id, int[] marks) {\n        this.name = name;\n        this.id = id;\n        this.marks = marks;\n    }\n\n    public void validateMarks() {\n        int validCount = 0;\n        for (int i = 0; i < marks.length; i++) {\n            if (marks[i] >= 0 && marks[i] <= 100) {\n                marks[validCount] = marks[i];\n                validCount++;\n            }\n        }\n        while (validCount < marks.length) {\n            marks[validCount] = 0;\n            validCount++;\n        }\n    }\n\n    public void displayMarks() {\n        System.out.print(\"Marks: \");\n        for (int i = 0; i < marks.length; i++) {\n            System.out.print(marks[i] + \" \");\n        }\n        System.out.println();\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        int[] marks = {10, -15, 25, 102, 30};\n        Student student = new Student(\"John Doe\", \"12345\", marks);\n        \n        System.out.print(\"Before validating: \");\n        student.displayMarks();\n        \n        student.validateMarks();\n        \n        System.out.print(\"After validating: \");\n        student.displayMarks();\n    }\n}\n```\n\nOutput:\n```\nBefore validating: Marks: 10 -15 25 102 30 \nAfter validating: Marks: 10 25 30 0 0 \n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 380,
+    "completion_tokens" : 331,
+    "total_tokens" : 711
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

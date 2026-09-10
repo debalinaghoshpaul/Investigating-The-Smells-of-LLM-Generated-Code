@@ -1,0 +1,9 @@
+
+
+**Test Cases:**
+
+* **Normal case:** Input a degree in Fahrenheit: 212
+* **Corner case:** Input a degree in Fahrenheit: -40
+* **Corner case:** Input a degree in Fahrenheit: 0
+* **Corner case:** Input a degree in Fahrenheit: 100
+* **Invalid input:** Input a degree in Fahrenheit: "abc"

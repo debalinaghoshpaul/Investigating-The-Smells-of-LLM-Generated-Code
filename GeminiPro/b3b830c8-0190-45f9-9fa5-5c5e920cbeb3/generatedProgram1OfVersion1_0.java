@@ -1,0 +1,20 @@
+import java.util.HashMap;
+import java.util.Collection;
+
+public class GetValues {
+
+    public static void main(String[] args) {
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("Apple", 10);
+        map.put("Banana", 20);
+        map.put("Orange", 30);
+
+        // Get a collection view of the values contained in this map.
+        Collection<Integer> values = map.values();
+
+        // Print the values.
+        for (Integer value : values) {
+            System.out.println(value);
+        }
+    }
+}

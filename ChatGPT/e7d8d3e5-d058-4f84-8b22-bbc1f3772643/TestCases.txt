@@ -1,0 +1,61 @@
+**Java Program to Trim Leading or Trailing Whitespace from a String**
+
+```java
+import java.util.Scanner;
+
+public class TrimWhitespace {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Trim the leading and trailing whitespace from the input string
+        String trimmedString = inputString.trim();
+
+        // Print the trimmed string
+        System.out.println("Trimmed string: " + trimmedString);
+    }
+}
+```
+
+**Test Cases**
+
+**Normal Case:**
+
+* Input: " Java is a programming language "
+* Output: "Java is a programming language"
+
+**Case with Leading Whitespace:**
+
+* Input: "    Java is a programming language "
+* Output: "Java is a programming language"
+
+**Case with Trailing Whitespace:**
+
+* Input: "Java is a programming language     "
+* Output: "Java is a programming language"
+
+**Case with Leading and Trailing Whitespace:**
+
+* Input: "    Java is a programming language     "
+* Output: "Java is a programming language"
+
+**Corner Cases:**
+
+**Empty String:**
+
+* Input: ""
+* Output: ""
+
+**String with Only Whitespace:**
+
+* Input: "    "
+* Output: ""
+
+**String with Newline Characters:**
+
+* Input: "Java is a programming language\n"
+* Output: "Java is a programming language"

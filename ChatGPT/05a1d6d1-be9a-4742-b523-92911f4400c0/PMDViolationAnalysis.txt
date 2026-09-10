@@ -1,0 +1,5 @@
+Violations by Category:
+MethodNamingConventions: The instance method name 'print_Code' doesn't match '[a-z][a-zA-Z0-9]*': 1
+CommentRequired: Class comments are required: 6
+AddEmptyString: Do not add empty strings: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

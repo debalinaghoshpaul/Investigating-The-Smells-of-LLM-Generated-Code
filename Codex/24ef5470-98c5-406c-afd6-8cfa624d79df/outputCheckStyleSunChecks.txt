@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:3:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:4:28: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:4:31: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:4:34: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:4:37: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:4:40: '7' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:4:43: '8' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:4:46: '9' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:4:49: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_BasicExercise\24ef5470-98c5-406c-afd6-8cfa624d79df\generatedProgram1OfVersion1_0.java:11:42: Parameter arr should be final. [FinalParameters]
+Audit done.

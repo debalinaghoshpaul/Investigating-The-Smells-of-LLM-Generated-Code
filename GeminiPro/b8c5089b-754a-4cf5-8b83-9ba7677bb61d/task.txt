@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a base class Animal (Animal Family) with a method called Sound(). Create two subclasses Bird and Cat. Override the Sound() method in each subclass to make a specific sound for each animal.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : b8c5089b-754a-4cf5-8b83-9ba7677bb61d.\n

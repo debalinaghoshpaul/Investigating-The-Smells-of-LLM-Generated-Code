@@ -1,0 +1,72 @@
+```java
+// Base class Sports
+class Sports {
+    public void play() {
+        System.out.println("Playing sports in general...");
+    }
+}
+
+// Subclass Football
+class Football extends Sports {
+    public void play() {
+        System.out.println("Playing football...");
+    }
+}
+
+// Subclass Basketball
+class Basketball extends Sports {
+    public void play() {
+        System.out.println("Playing basketball...");
+    }
+}
+
+// Subclass Rugby
+class Rugby extends Sports {
+    public void play() {
+        System.out.println("Playing rugby...");
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+        Sports sports = new Sports();
+        sports.play();
+
+        Football football = new Football();
+        football.play();
+
+        Basketball basketball = new Basketball();
+        basketball.play();
+
+        Rugby rugby = new Rugby();
+        rugby.play();
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty `Sports` object:** `Sports sports = new Sports();`
+* **Empty subclass objects:** 
+    * `Football football = new Football();`
+    * `Basketball basketball = new Basketball();`
+    * `Rugby rugby = new Rugby();`
+
+**Regular Cases:**
+
+* **Playing sports in general:** `sports.play();`
+* **Playing football:** `football.play();`
+* **Playing basketball:** `basketball.play();`
+* **Playing rugby:** `rugby.play();`
+
+**Expected Output:**
+
+```
+Playing sports in general...
+Playing football...
+Playing basketball...
+Playing rugby...
+```

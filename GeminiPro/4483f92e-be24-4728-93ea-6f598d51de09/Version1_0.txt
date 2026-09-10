@@ -1,0 +1,64 @@
+```java
+import java.util.Arrays;
+
+public class CreateArrayFromTwoArrays {
+
+    public static void main(String[] args) {
+        // Test data
+        int[] array1 = {50, -20, 0};
+        int[] array2 = {5, -50, 10};
+
+        // Print the original arrays
+        System.out.println("Array1: " + Arrays.toString(array1));
+        System.out.println("Array2: " + Arrays.toString(array2));
+
+        // Create a new array of length 2 from the first and last elements of the two arrays
+        int[] newArray = {array1[0], array2[array2.length - 1]};
+
+        // Print the new array
+        System.out.println("New Array: " + Arrays.toString(newArray));
+
+        // Test cases for corner cases
+        int[] emptyArray1 = {};
+        int[] emptyArray2 = {};
+        System.out.println("Corner Case Test:");
+        System.out.println("Array1: " + Arrays.toString(emptyArray1));
+        System.out.println("Array2: " + Arrays.toString(emptyArray2));
+        newArray = createArrayFromTwoArrays(emptyArray1, emptyArray2);
+        System.out.println("New Array: " + Arrays.toString(newArray));
+
+        int[] arrayWithOneElement1 = {50};
+        int[] arrayWithOneElement2 = {5};
+        System.out.println("Corner Case Test:");
+        System.out.println("Array1: " + Arrays.toString(arrayWithOneElement1));
+        System.out.println("Array2: " + Arrays.toString(arrayWithOneElement2));
+        newArray = createArrayFromTwoArrays(arrayWithOneElement1, arrayWithOneElement2);
+        System.out.println("New Array: " + Arrays.toString(newArray));
+    }
+
+    public static int[] createArrayFromTwoArrays(int[] array1, int[] array2) {
+        // Check for empty arrays
+        if (array1.length == 0 || array2.length == 0) {
+            return new int[0];
+        }
+
+        // Create a new array of length 2
+        int[] newArray = new int[2];
+
+        // Add the first element of the first array to the new array
+        newArray[0] = array1[0];
+
+        // Add the last element of the second array to the new array
+        newArray[1] = array2[array2.length - 1];
+
+        // Return the new array
+        return newArray;
+    }
+}
+```
+
+**Test cases including corner cases**
+
+* **Empty arrays:** `array1 = {}, array2 = {}`
+* **Arrays with one element:** `array1 = {50}, array2 = {5}`
+* **Regular arrays:** `array1 = {50, -20, 0}, array2 = {5, -50, 10}`

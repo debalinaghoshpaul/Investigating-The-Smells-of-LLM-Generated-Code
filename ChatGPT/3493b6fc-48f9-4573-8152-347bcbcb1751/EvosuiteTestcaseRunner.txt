@@ -1,0 +1,7 @@
+JUnit version 4.13
+....Enter weight in pounds: .Enter weight in pounds: Enter height in inches: Body Mass Index is 71.73469387755102
+..Enter weight in pounds: 
+Time: 0.351
+
+OK (7 tests)
+

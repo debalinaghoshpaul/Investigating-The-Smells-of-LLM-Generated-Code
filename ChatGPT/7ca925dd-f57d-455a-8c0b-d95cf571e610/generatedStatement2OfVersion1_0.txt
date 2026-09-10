@@ -1,0 +1,3 @@
+
+
+In this program, we create a stack and push some elements into it. Then, we specify the element we want to remove from the stack. We then call the `removeElement` method which removes the specified element from the stack. Finally, we print the stack after removing the element.

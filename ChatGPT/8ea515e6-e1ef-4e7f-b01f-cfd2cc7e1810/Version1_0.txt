@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-920VxPx1AZEeoI9VtGe1634K8vo8q",
+  "object" : "chat.completion",
+  "created" : 1710265661,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class FindTriplets {\n\n    public static void findTriplets(int[] nums, int targetSum) {\n        Arrays.sort(nums);\n\n        for (int i = 0; i < nums.length - 2; i++) {\n            int left = i + 1;\n            int right = nums.length - 1;\n\n            while (left < right) {\n                int currentSum = nums[i] + nums[left] + nums[right];\n                if (currentSum == targetSum) {\n                    System.out.printf(\"(%d %d %d) \", nums[i], nums[left], nums[right]);\n                    left++;\n                    right--;\n                } else if (currentSum < targetSum) {\n                    left++;\n                } else {\n                    right--;\n                }\n            }\n        }\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {1, 6, 3, 0, 8, 4, 1, 7};\n        int targetSum = 7;\n\n        System.out.printf(\"Triplets of sum %d: \", targetSum);\n        findTriplets(nums, targetSum);\n    }\n}\n```\n\nThe above program defines a `FindTriplets` class with a static method `findTriplets` to find triplets equal to a given sum in an unsorted array of integers. The main method demonstrates how to use this method with the example input `{1, 6, 3, 0, 8, 4, 1, 7}` and target sum `7`. \n\nOutput:\n```\nTriplets of sum 7: (0 1 6) (0 3 4)\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 127,
+    "completion_tokens" : 349,
+    "total_tokens" : 476
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

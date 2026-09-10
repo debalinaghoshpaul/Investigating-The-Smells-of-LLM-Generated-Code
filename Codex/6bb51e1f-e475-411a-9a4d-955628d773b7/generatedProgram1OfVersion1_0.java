@@ -1,0 +1,24 @@
+// Java program to create an enum called DaysOfWeek representing the days of the week
+enum DaysOfWeek {
+    SUNDAY,
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+        // Create an array of DaysOfWeek values
+        DaysOfWeek[] days = DaysOfWeek.values();
+
+        // Print the days of the week
+        for (DaysOfWeek day : days) {
+            System.out.println(day);
+        }
+    }
+}
+

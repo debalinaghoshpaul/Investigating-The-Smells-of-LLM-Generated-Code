@@ -1,0 +1,2 @@
+To remove duplicates from a given stack in Java, we can create a new empty stack and iterate through the original stack, pushing elements to the new stack only if they are not already present in the new stack. Here's a sample Java program to achieve this:
+

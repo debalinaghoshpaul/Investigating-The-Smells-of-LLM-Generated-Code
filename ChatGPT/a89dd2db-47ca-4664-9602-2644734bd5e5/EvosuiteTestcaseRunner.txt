@@ -1,0 +1,10 @@
+JUnit version 4.13
+.....Enter a string: 
+Consonants: hstng_CtGPT_njjv.SprtCns|ntsVwls
+Vowels: eiuaaaeaaeooaoe
+....Enter a string: 
+
+Time: 0.361
+
+OK (9 tests)
+

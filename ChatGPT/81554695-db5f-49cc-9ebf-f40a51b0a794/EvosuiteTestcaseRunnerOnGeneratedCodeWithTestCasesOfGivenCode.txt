@@ -1,0 +1,44 @@
+JUnit version 4.13
+.Money 1: $10.50
+Money 2: $5.25
+Money 1 + Money 2: $15.75
+Money 1 - Money 2: $5.25
+Using static add method: $15.75
+Using static minus method: $5.25
+E.E.E.E.E.E
+Time: 0.407
+There were 6 failures:
+1) test2(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.AssertionError: Exception was not thrown in testing_ChatGPT_on_java.Money but in org.junit.Assert.fail(Assert.java:89): java.lang.AssertionError: Expecting exception: Error
+	at org.evosuite.runtime.EvoAssertions.assertThrownBy(EvoAssertions.java:112)
+	at org.evosuite.runtime.EvoAssertions.verifyException(EvoAssertions.java:49)
+	at testing_ChatGPT_on_java.Money_ESTest.test2(Money_ESTest.java:63)
+2) test3(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.AssertionError: Exception was not thrown in testing_ChatGPT_on_java.Money but in org.junit.Assert.fail(Assert.java:89): java.lang.AssertionError: Expecting exception: Error
+	at org.evosuite.runtime.EvoAssertions.assertThrownBy(EvoAssertions.java:112)
+	at org.evosuite.runtime.EvoAssertions.verifyException(EvoAssertions.java:49)
+	at testing_ChatGPT_on_java.Money_ESTest.test3(Money_ESTest.java:80)
+3) test4(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.AssertionError: Exception was not thrown in testing_ChatGPT_on_java.Money but in org.junit.Assert.fail(Assert.java:89): java.lang.AssertionError: Expecting exception: Error
+	at org.evosuite.runtime.EvoAssertions.assertThrownBy(EvoAssertions.java:112)
+	at org.evosuite.runtime.EvoAssertions.verifyException(EvoAssertions.java:49)
+	at testing_ChatGPT_on_java.Money_ESTest.test4(Money_ESTest.java:97)
+4) test5(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method subtract(Money, Money) is undefined for the type Money
+
+	at testing_ChatGPT_on_java.Money_ESTest.test5(Money_ESTest.java:105)
+5) test0(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Cannot make a static reference to the non-static method add(Money, Money) from the type Money
+
+	at testing_ChatGPT_on_java.Money_ESTest.test0(Money_ESTest.java:23)
+6) test1(testing_ChatGPT_on_java.Money_ESTest)
+java.lang.AssertionError: Exception was not thrown in testing_ChatGPT_on_java.Money but in org.junit.Assert.fail(Assert.java:89): java.lang.AssertionError: Expecting exception: Error
+	at org.evosuite.runtime.EvoAssertions.assertThrownBy(EvoAssertions.java:112)
+	at org.evosuite.runtime.EvoAssertions.verifyException(EvoAssertions.java:49)
+	at testing_ChatGPT_on_java.Money_ESTest.test1(Money_ESTest.java:47)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

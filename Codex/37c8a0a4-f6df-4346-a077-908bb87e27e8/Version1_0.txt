@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93VHBPYnaTwPe5wWljwcNJWfrruZj",
+  "object" : "chat.completion",
+  "created" : 1710622237,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\n// Encryptable interface\ninterface Encryptable {\n    String encrypt(String data);\n    String decrypt(String encryptedData);\n}\n\n// AES class implementing Encryptable interface\nclass AES implements Encryptable {\n    @Override\n    public String encrypt(String data) {\n        // AES encryption algorithm implementation here\n        return \"AES Encrypted: \" + data;\n    }\n\n    @Override\n    public String decrypt(String encryptedData) {\n        // AES decryption algorithm implementation here\n        return \"AES Decrypted: \" + encryptedData;\n    }\n}\n\n// RSA class implementing Encryptable interface\nclass RSA implements Encryptable {\n    @Override\n    public String encrypt(String data) {\n        // RSA encryption algorithm implementation here\n        return \"RSA Encrypted: \" + data;\n    }\n\n    @Override\n    public String decrypt(String encryptedData) {\n        // RSA decryption algorithm implementation here\n        return \"RSA Decrypted: \" + encryptedData;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        AES aes = new AES();\n        RSA rsa = new RSA();\n\n        String data = \"Hello, World!\";\n\n        String aesEncryptedData = aes.encrypt(data);\n        String aesDecryptedData = aes.decrypt(aesEncryptedData);\n\n        String rsaEncryptedData = rsa.encrypt(data);\n        String rsaDecryptedData = rsa.decrypt(rsaEncryptedData);\n\n        System.out.println(aesEncryptedData);\n        System.out.println(aesDecryptedData);\n        System.out.println(rsaEncryptedData);\n        System.out.println(rsaDecryptedData);\n    }\n}\n```\nThis program defines an Encryptable interface with encrypt and decrypt methods. The AES and RSA classes implement the Encryptable interface and provide their own encryption and decryption algorithms. The Main class creates instances of AES and RSA, encrypts and decrypts a sample data using both algorithms, and prints the results."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 103,
+    "completion_tokens" : 386,
+    "total_tokens" : 489
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

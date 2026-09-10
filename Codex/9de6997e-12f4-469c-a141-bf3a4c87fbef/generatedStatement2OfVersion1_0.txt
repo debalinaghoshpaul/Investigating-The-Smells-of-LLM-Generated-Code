@@ -1,0 +1,14 @@
+
+
+**Test Cases:**
+
+* **Normal cases:**
+    * "racecar"
+    * "madam"
+    * "kayak"
+    * "level"
+* **Corner cases:**
+    * "hello" (not a palindrome)
+    * "world" (not a palindrome)
+    * "" (empty string, which is considered a palindrome)
+    * "a" (single-character string, which is considered a palindrome)

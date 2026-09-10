@@ -1,0 +1,6 @@
+
+Input:
+matrix = []
+target = 10
+Output:
+Target not found in matrix

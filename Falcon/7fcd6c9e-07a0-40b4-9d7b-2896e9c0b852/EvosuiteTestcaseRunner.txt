@@ -1,0 +1,10 @@
+JUnit version 4.13
+...Largest element between first, last, and middle values: 67
+.....Test case 1: true
+Test case 2: Failed (should have thrown an exception)
+Test case 3: Passed
+
+Time: 0.361
+
+OK (8 tests)
+

@@ -1,0 +1,47 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class DoubleChars {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine();
+
+        String doubledString = doubleChars(input);
+        System.out.println("Doubled string: " + doubledString);
+    }
+
+    private static String doubleChars(String input) {
+        StringBuilder doubled = new StringBuilder();
+        for (char c : input.toCharArray()) {
+            doubled.append(c).append(c);
+        }
+        return doubled.toString();
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:** "Hello"
+* **Output:** "HHeelllloo"
+* **Input:** "Java"
+* **Output:** "JJaavvaa"
+
+**Corner Cases:**
+
+* **Empty String:**
+    * **Input:** ""
+    * **Output:** ""
+* **Single Character String:**
+    * **Input:** "a"
+    * **Output:** "aa"
+* **String with Special Characters:**
+    * **Input:** "Hello@123"
+    * **Output:** "HHeelllloo@@112233"

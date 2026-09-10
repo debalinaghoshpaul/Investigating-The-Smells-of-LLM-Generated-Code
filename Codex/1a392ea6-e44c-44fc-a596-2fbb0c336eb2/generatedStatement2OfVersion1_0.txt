@@ -1,0 +1,11 @@
+
+
+**Test Cases Including Corner Cases:**
+
+* **Corner Case 1:** Concatenating two empty strings
+* **Corner Case 2:** Concatenating a non-empty string with an empty string
+* **Corner Case 3:** Concatenating two null values
+* **Test Case 1:** Concatenating two non-empty strings
+* **Test Case 2:** Concatenating a non-empty string with a string containing only whitespace characters
+* **Test Case 3:** Concatenating a string containing only whitespace characters with a non-empty string
+* **Test Case 4:** Concatenating a string containing special characters with a non-empty string

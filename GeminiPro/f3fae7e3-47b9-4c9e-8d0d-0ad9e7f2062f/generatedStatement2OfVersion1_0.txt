@@ -1,0 +1,22 @@
+
+
+**Test Cases**
+
+**Valid Keith Numbers:**
+
+* 14
+* 19
+* 28
+* 47
+
+**Invalid Keith Numbers:**
+
+* 13
+* 25
+* 36
+* 100
+
+**Corner Cases:**
+
+* **Number 0:** 0 is a Keith number because the sum of its digits is always 0.
+* **Negative Numbers:** Negative numbers are not Keith numbers.

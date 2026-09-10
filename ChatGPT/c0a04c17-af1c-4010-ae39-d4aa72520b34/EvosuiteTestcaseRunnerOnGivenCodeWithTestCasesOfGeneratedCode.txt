@@ -1,0 +1,58 @@
+JUnit version 4.13
+.E..E..E.E..E.E..E..E......E..E
+Time: 0.345
+There were 10 failures:
+1) test08(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method calculateSalary() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test08(Employee_ESTest.java:95)
+2) test09(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method calculateSalary() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test09(Employee_ESTest.java:109)
+3) test17(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test17(Employee_ESTest.java:169)
+4) test07(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test07(Employee_ESTest.java:79)
+5) test00(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method updateSalary(double) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test00(Employee_ESTest.java:25)
+6) test11(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method calculateSalary() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test11(Employee_ESTest.java:123)
+7) test12(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method calculateSalary() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test12(Employee_ESTest.java:130)
+8) test10(testing_ChatGPT_on_java.Employee_ESTest)
+org.junit.ComparisonFailure: expected:<[Employee{name='', jobTitle='', salary=-2764.23}]> but was:<[testing_ChatGPT_on_java.Employee@1]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at testing_ChatGPT_on_java.Employee_ESTest.test10(Employee_ESTest.java:117)
+9) test13(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method calculateSalary() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test13(Employee_ESTest.java:137)
+10) test14(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test14(Employee_ESTest.java:147)
+
+FAILURES!!!
+Tests run: 21,  Failures: 10
+

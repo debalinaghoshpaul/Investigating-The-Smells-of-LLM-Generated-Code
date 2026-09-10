@@ -1,0 +1,28 @@
+```java
+import java.util.Scanner;
+
+public class CountStringOccurrences {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input strings
+        System.out.println("Enter the string to search in:");
+        String haystack = scanner.nextLine();
+
+        System.out.println("Enter the string to search for:");
+        String needle = scanner.nextLine();
+
+        // Count the occurrences of the needle in the haystack
+        int count = 0;
+        int index = haystack.indexOf(needle);
+        while (index != -1) {
+            count++;
+            index = haystack.indexOf(needle, index + 1);
+        }
+
+        // Print the count
+        System.out.println("The string '" + needle + "' occurs " + count + " times in the string '" + haystack + "'");
+    }
+}
+```

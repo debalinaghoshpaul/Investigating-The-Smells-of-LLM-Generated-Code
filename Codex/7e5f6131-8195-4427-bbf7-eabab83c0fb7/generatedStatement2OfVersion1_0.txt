@@ -1,0 +1,19 @@
+
+
+Test Cases:
+- Test Case 1:
+   - Input: [16, 17, 4, 3, 5, 2]
+   - Output: [17, -1, 5, 5, -1, -1]
+
+- Test Case 2:
+   - Input: [1, 2, 3, 4, 5]
+   - Output: [2, 3, 4, 5, -1]
+
+- Test Case 3:
+   - Input: [5, 4, 3, 2, 1]
+   - Output: [-1, -1, -1, -1, -1]
+
+Corner Cases:
+- Empty array: The program should return an empty array in this case.
+- Array with all elements the same: The program should return an array filled with -1s in this case.
+- Array with only one element: The program should return an array with a single element of value -1 in this case.

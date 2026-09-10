@@ -1,0 +1,12 @@
+
+
+### Test Cases
+
+**Normal Cases:**
+
+* Get the current time in all time zones.
+
+**Corner Cases:**
+
+* Get the current time in a non-existent time zone.
+* Get the current time in an empty list of time zones.

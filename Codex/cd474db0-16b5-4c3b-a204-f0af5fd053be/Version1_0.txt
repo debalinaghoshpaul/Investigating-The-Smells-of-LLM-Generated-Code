@@ -1,0 +1,60 @@
+**Java Program to Find the Length of the Last Word in a String:**
+
+```java
+import java.util.Scanner;
+
+public class LastWordLength {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input string
+        System.out.println("Enter a string: ");
+        String input = scanner.nextLine();
+
+        // Find the length of the last word
+        int lastWordLength = 0;
+        boolean inWord = false;
+        for (int i = input.length() - 1; i >= 0; i--) {
+            if (Character.isLetter(input.charAt(i))) {
+                if (!inWord) {
+                    lastWordLength = 1;
+                    inWord = true;
+                } else {
+                    lastWordLength++;
+                }
+            } else {
+                inWord = false;
+            }
+        }
+
+        // Print the length of the last word
+        System.out.println("Length of the last word: " + lastWordLength);
+    }
+}
+```
+
+**Test Cases:**
+
+* **Input:** "Hello World"
+* **Output:** 5
+
+* **Input:** " "
+* **Output:** 0
+
+* **Input:** "A"
+* **Output:** 1
+
+* **Input:** "  "
+* **Output:** 0
+
+* **Input:** "a bb ccc dddd eeeee"
+* **Output:** 6
+
+**Corner Cases:**
+
+* **Empty string:** The length of the last word is 0.
+* **String with only spaces:** The length of the last word is 0.
+* **Single-character string:** The length of the last word is 1.
+* **String with multiple spaces before the last word:** The length of the last word is the number of characters in the last word.
+* **String with special characters:** The length of the last word is the number of characters in the last word, excluding special characters.

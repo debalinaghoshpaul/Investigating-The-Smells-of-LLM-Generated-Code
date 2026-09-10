@@ -1,0 +1,29 @@
+JUnit version 4.13
+.30 24 18 
+84 69 54 
+138 114 90 
+.E..E.E
+Time: 0.352
+There were 3 failures:
+1) test3(testing_ChatGPT_on_java.MatrixMultiplication_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	MatrixMultiplication.MultiplicationTask cannot be resolved to a type
+	MatrixMultiplication.MultiplicationTask cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.MatrixMultiplication_ESTest.test3(MatrixMultiplication_ESTest.java:66)
+2) test0(testing_ChatGPT_on_java.MatrixMultiplication_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	MatrixMultiplication.MultiplicationTask cannot be resolved to a type
+	MatrixMultiplication.MultiplicationTask cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.MatrixMultiplication_ESTest.test0(MatrixMultiplication_ESTest.java:25)
+3) test1(testing_ChatGPT_on_java.MatrixMultiplication_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	MatrixMultiplication.MultiplicationTask cannot be resolved to a type
+	MatrixMultiplication.MultiplicationTask cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.MatrixMultiplication_ESTest.test1(MatrixMultiplication_ESTest.java:42)
+
+FAILURES!!!
+Tests run: 5,  Failures: 3
+

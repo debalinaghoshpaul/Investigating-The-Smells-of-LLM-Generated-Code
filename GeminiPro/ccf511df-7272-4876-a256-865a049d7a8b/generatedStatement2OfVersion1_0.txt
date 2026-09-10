@@ -1,0 +1,14 @@
+
+
+Test Cases:
+
+* **Corner cases:**
+    * Input seconds: 0
+    * Input seconds: 1
+    * Input seconds: 86400 (one day)
+    * Input seconds: 31536000 (one year)
+* **Regular cases:**
+    * Input seconds: 3600 (one hour)
+    * Input seconds: 86400 (one day)
+    * Input seconds: 604800 (one week)
+    * Input seconds: 2592000 (one month)

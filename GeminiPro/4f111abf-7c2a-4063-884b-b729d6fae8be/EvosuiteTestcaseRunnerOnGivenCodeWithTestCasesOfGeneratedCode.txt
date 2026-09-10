@@ -1,0 +1,20 @@
+JUnit version 4.13
+.E.E
+Time: 0.33
+There were 2 failures:
+1) test0(testing_ChatGPT_on_java.Counter_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Counter must be defined in its own file
+
+	at testing_ChatGPT_on_java.Counter.<init>(SharedCounter.java:3)
+	at testing_ChatGPT_on_java.Counter_ESTest.test0(Counter_ESTest.java:20)
+2) test1(testing_ChatGPT_on_java.Counter_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Counter must be defined in its own file
+
+	at testing_ChatGPT_on_java.Counter.<init>(SharedCounter.java:3)
+	at testing_ChatGPT_on_java.Counter_ESTest.test1(Counter_ESTest.java:27)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

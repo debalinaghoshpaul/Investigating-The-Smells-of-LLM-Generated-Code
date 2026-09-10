@@ -1,0 +1,50 @@
+
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test Case 1:
+String str = "Hello World";
+int index = 0;
+char ch = str.charAt(index);
+System.out.println(ch);
+
+Test Case 2:
+String str = "Hello World";
+int index = -1;
+char ch = str.charAt(index);
+System.out.println(ch);
+
+Test Case 3:
+String str = "Hello World";
+int index = -2;
+char ch = str.charAt(index);
+System.out.println(ch);
+
+Test Case 4:
+String str = "Hello World";
+int index = -3;
+char ch = str.charAt(index);
+System.out.println(ch);
+
+Test Case 5:
+String str = "Hello World";
+int index = -4;
+char ch = str.charAt(index);
+System.out.println(ch);
+
+Test Case 6:
+String str = "Hello World";
+int index = -5;
+char ch = str.charAt(index);
+System.out.println(ch);
+
+Test Case 7:
+String str = "Hello World";
+int index = -6;
+char ch = str.charAt(index);
+System.out.println(ch);
+
+Test Case 8:
+String str = "Hello World";
+int index = -7;

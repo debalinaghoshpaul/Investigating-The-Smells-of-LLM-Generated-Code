@@ -1,0 +1,75 @@
+```java
+// Vehicle.java
+// Parent class Vehicle
+
+public abstract class Vehicle {
+    private int speed;
+
+    public Vehicle() {
+        this.speed = 0;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public abstract void speedUp();
+}
+
+// Car.java
+// Child class Car
+
+public class Car extends Vehicle {
+    @Override
+    public void speedUp() {
+        this.speed += 10;
+    }
+}
+
+// Bicycle.java
+// Child class Bicycle
+
+public class Bicycle extends Vehicle {
+    @Override
+    public void speedUp() {
+        this.speed += 5;
+    }
+}
+
+// Main.java
+// Main class
+
+public class Main {
+    public static void main(String[] args) {
+        // Create a Car object
+        Car car = new Car();
+
+        // Speed up the car 3 times
+        for (int i = 0; i < 3; i++) {
+            car.speedUp();
+        }
+
+        // Print the car's speed
+        System.out.println("Car speed: " + car.getSpeed()); // Expected output: 30
+
+        // Create a Bicycle object
+        Bicycle bicycle = new Bicycle();
+
+        // Speed up the bicycle 5 times
+        for (int i = 0; i < 5; i++) {
+            bicycle.speedUp();
+        }
+
+        // Print the bicycle's speed
+        System.out.println("Bicycle speed: " + bicycle.getSpeed()); // Expected output: 25
+
+        // Corner case: Speed up the car and bicycle with negative values
+        car.speedUp(-1);
+        bicycle.speedUp(-2);
+
+        // Print the car's and bicycle's speed
+        System.out.println("Car speed: " + car.getSpeed()); // Expected output: 30
+        System.out.println("Bicycle speed: " + bicycle.getSpeed()); // Expected output: 25
+    }
+}
+```

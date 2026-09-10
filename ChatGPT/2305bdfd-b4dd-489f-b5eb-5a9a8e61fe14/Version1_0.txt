@@ -1,0 +1,25 @@
+```java
+import java.util.Scanner;
+
+public class ReadStringReturnColor {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read a string from the console
+        System.out.println("Enter a string: ");
+        String input = scanner.nextLine();
+
+        // Check if the string begins with "red" or "black"
+        String color = "";
+        if (input.startsWith("red")) {
+            color = "red";
+        } else if (input.startsWith("black")) {
+            color = "black";
+        }
+
+        // Print the color string or an empty string
+        System.out.println("The color is: " + color);
+    }
+}
+```

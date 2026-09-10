@@ -1,0 +1,6 @@
+Violations by Category:
+LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead: 2
+MethodNamingConventions: The instance method name 'getStudent_id' doesn't match '[a-z][a-zA-Z0-9]*': 4
+CommentRequired: Class comments are required: 8
+FormalParameterNamingConventions: The method parameter name 'student_id' doesn't match '[a-z][a-zA-Z0-9]*': 4
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

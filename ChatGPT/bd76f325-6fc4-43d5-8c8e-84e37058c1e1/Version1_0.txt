@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-96OiaYImLSIx8cy41FZISWPwnCVMz",
+  "object" : "chat.completion",
+  "created" : 1711312012,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\nimport java.util.List;\nimport java.util.stream.Collectors;\n\npublic class StringSorter {\n\n    public static void main(String[] args) {\n        List<String> strings = Arrays.asList(\"banana\", \"apple\", \"grape\", \"kiwi\", \"orange\");\n\n        // Sort in ascending order\n        List<String> sortedAscending = strings.stream()\n                .sorted()\n                .collect(Collectors.toList());\n\n        System.out.println(\"Sorted in ascending order: \" + sortedAscending);\n\n        // Sort in descending order\n        List<String> sortedDescending = strings.stream()\n                .sorted((s1, s2) -> s2.compareTo(s1))\n                .collect(Collectors.toList());\n\n        System.out.println(\"Sorted in descending order: \" + sortedDescending);\n    }\n}\n    \nOutput:\nSorted in ascending order: [apple, banana, grape, kiwi, orange]\nSorted in descending order: [orange, kiwi, grape, banana, apple]"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 73,
+    "completion_tokens" : 194,
+    "total_tokens" : 267
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

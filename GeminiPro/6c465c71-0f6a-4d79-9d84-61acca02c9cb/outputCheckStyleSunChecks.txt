@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:3:38: Parameter arr should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:3:49: Parameter n should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:9: Line is longer than 80 characters (found 111). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:13:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:13:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:14:28: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:14:31: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_RecursiveMethods\6c465c71-0f6a-4d79-9d84-61acca02c9cb\generatedProgram1OfVersion1_0.java:14:34: '5' is a magic number. [MagicNumber]
+Audit done.

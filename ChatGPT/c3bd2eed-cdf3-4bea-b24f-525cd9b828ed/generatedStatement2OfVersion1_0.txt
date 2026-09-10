@@ -1,0 +1,3 @@
+
+
+This program defines a method `findSecondLargest` which takes an array as input and finds the second largest element in the array using a simple iteration. The main method demonstrates how to use this method with a sample array and prints out the second largest element.

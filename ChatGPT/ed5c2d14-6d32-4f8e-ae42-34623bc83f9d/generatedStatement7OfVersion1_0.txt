@@ -1,0 +1,4 @@
+
+The square of 0 is 0
+The cube of 0 is 0
+The fourth power of 0 is 0

@@ -1,0 +1,15 @@
+
+
+In this program, we define a `createCombinedStack` method that takes two stacks (`stack1` and `stack2`) as parameters and returns a new stack containing the elements that are in either stack1 or stack2, but not in both.
+
+The method first checks if `stack1` is empty, and if not, it pops elements from `stack1` one by one. For each popped element, it checks if it is present in `stack2`, and if not, it pushes the element into the `combinedStack`.
+
+Similarly, the method then checks if `stack2` is empty, and if not, it pops elements from `stack2` one by one. For each popped element, it checks if it is present in `stack1`, and if not, it pushes the element into the `combinedStack`.
+
+Finally, the method returns the `combinedStack`.
+
+In the `main` method, we create two stacks (`stack1` and `stack2`) and populate them with some values.
+
+Then, we call the `createCombinedStack` method passing the two stacks as arguments, and store the returned combined stack in the `combinedStack` variable.
+
+Finally, we print the `combinedStack` to verify the results.

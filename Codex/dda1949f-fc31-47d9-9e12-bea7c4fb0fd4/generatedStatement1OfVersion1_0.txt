@@ -1,0 +1,2 @@
+Here is a simple Java program that demonstrates the usage of Semaphores for thread synchronization:
+

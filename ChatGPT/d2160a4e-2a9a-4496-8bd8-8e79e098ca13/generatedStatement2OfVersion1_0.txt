@@ -1,0 +1,5 @@
+
+
+This program first creates an `ArrayList` called `colors`, adds some colors to it, and then prints out the collection using a for-each loop. It then iterates through all elements in the array list using an `Iterator`.
+
+You can run this program to see the output. Let me know if you need any more help!

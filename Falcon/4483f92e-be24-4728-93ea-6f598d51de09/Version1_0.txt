@@ -1,0 +1,44 @@
+No GPU found. Running on CPU.
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] array1 = {50, -20, 0};
+        int[] array2 = {5, -50, 10};
+        int[] newArray = new int[2];
+        newArray[0] = array1[0];
+        newArray[1] = array1[1];
+        System.out.println("Array1: " + Arrays.toString(array1));
+        System.out.println("Array2: " + Arrays.toString(array2));
+        System.out.println("New Array: " + Arrays.toString(newArray));
+    }
+}
+
+Output:
+Array1: [50, -20, 0]
+Array2: [5, -50, 10]
+New Array: [50, 10]
+Array1: [50, 10]
+Array2: [5, -50, 10]
+New Array: [50, 10]
+Array1: [50, 10]
+Array2: [5, -50, 10]
+New Array: [50, 10]
+Array1: [50, 10]
+Array2: [5, -50, 10]
+New Array: [50, 10]
+Array1: [50, 10]
+Array2: [5, -50, 10]
+New Array: [50, 10]
+Array1: [50, 10]
+Array2: [5, -50, 10]
+New Array: [50, 10]
+Array1: [50, 10]
+Array2: [5, -50, 10]
+New Array: [50, 10]
+Array1: [50, 10]
+Array2: [5, -50, 10]
+New Array: [50, 10]
+Array1: [50, 10]
+Array2: [5, -50, 10]
+New Array

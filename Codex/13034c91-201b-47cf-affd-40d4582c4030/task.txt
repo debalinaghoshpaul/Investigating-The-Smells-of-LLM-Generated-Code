@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find all the distinct triplets such that the sum of all the three elements [x, y, z (x ≤ y ≤ z)] equal to a specified number. Sample array: [1, -2, 0, 5, -1, -4] Target value: 2.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 13034c91-201b-47cf-affd-40d4582c4030.\n

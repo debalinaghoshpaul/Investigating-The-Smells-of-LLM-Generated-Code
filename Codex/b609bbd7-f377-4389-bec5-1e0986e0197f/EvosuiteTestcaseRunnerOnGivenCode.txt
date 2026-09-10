@@ -1,0 +1,20 @@
+JUnit version 4.13
+..Thread 1 starting phase 1
+Thread 3 starting phase 1
+Thread 2 starting phase 1
+Thread 4 starting phase 1
+Thread 4 performing phase 1 tasks
+All threads have completed their tasks.
+Thread 1 performing phase 1 tasks
+Thread 3 performing phase 1 tasks
+Thread 2 performing phase 1 tasks
+. starting phase 1
+ performing phase 1 tasks
+ starting phase 2
+ performing phase 2 tasks
+ completed all phases
+
+Time: 3.346
+
+OK (3 tests)
+

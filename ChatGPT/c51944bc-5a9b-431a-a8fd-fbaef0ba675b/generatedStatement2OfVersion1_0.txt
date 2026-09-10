@@ -1,0 +1,43 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input:
+    * firstVariable = 10
+    * secondVariable = 20
+* Output:
+    * firstVariable = 20
+    * secondVariable = 10
+
+**Corner Cases:**
+
+* Input:
+    * firstVariable = 0
+    * secondVariable = 0
+* Output:
+    * firstVariable = 0
+    * secondVariable = 0
+
+* Input:
+    * firstVariable = Integer.MAX_VALUE
+    * secondVariable = Integer.MIN_VALUE
+* Output:
+    * firstVariable = Integer.MIN_VALUE
+    * secondVariable = Integer.MAX_VALUE
+
+* Input:
+    * firstVariable = Integer.MIN_VALUE
+    * secondVariable = Integer.MAX_VALUE
+* Output:
+    * firstVariable = Integer.MAX_VALUE
+    * secondVariable = Integer.MIN_VALUE
+
+**Invalid Input Cases:**
+
+* Input:
+    * firstVariable = "abc"
+    * secondVariable = 20
+* Output:
+    * Exception: NumberFormatException

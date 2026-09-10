@@ -1,0 +1,5 @@
+ Original Array: [20, 30, 40]
+// New array after swaping the first and last elements: [40, 30, 20]
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// [20, 30, 40] -> [40, 30, 20] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20, 30, 40] -> [20,

@@ -1,0 +1,18 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:2:36: Parameter board should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:2:49: Parameter index should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:6: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:9: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:12: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:13:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:13:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:14:27: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:14:30: '80' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:14:34: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:14:37: '57' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaRecursion\a9fdd724-00d0-4c6b-adb3-b1ca6fad6b09\generatedProgram1OfVersion1_0.java:14:41: '10' is a magic number. [MagicNumber]
+Audit done.

@@ -1,0 +1,4 @@
+
+
+Test Data Input an alphabet: p 
+Expected Output : Input letter is Consonant

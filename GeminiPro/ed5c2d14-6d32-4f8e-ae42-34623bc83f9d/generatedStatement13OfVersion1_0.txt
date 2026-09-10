@@ -1,0 +1,4 @@
+
+The square of 3.14 is 9.8596
+The cube of 3.14 is 30.994248
+The fourth power of 3.14 is 98.129720576

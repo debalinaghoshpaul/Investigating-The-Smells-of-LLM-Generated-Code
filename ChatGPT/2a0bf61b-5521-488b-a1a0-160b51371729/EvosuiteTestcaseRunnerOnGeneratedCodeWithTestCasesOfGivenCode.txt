@@ -1,0 +1,42 @@
+JUnit version 4.13
+...Acepromazine dosage for dog Max: 0.02727272727272727 ml
+Carprofen dosage for dog Max: 0.37878787878787873 ml
+Acepromazine dosage for cat Whiskers: 9.090909090909091E-4 ml
+Carprofen dosage for cat Whiskers: 0.09469696969696968 ml
+..Acepromazine dosage for dog Max: 0.02727272727272727 ml
+Carprofen dosage for dog Max: 0.37878787878787873 ml
+Acepromazine dosage for cat Whiskers: 9.090909090909091E-4 ml
+Carprofen dosage for cat Whiskers: 0.09469696969696968 ml
+Acepromazine dosage for dog Max: 0.02727272727272727 ml
+Carprofen dosage for dog Max: 0.37878787878787873 ml
+Acepromazine dosage for cat Whiskers: 9.090909090909091E-4 ml
+Carprofen dosage for cat Whiskers: 0.09469696969696968 ml
+..Acepromazine dosage for dog Max: 0.02727272727272727 ml
+Carprofen dosage for dog Max: 0.37878787878787873 ml
+Acepromazine dosage for cat Whiskers: 9.090909090909091E-4 ml
+Carprofen dosage for cat Whiskers: 0.09469696969696968 ml
+Acepromazine dosage for dog Max: 0.02727272727272727 ml
+Carprofen dosage for dog Max: 0.37878787878787873 ml
+Acepromazine dosage for cat Whiskers: 9.090909090909091E-4 ml
+Carprofen dosage for cat Whiskers: 0.09469696969696968 ml
+Acepromazine dosage for dog Max: 0.02727272727272727 ml
+Carprofen dosage for dog Max: 0.37878787878787873 ml
+Acepromazine dosage for cat Whiskers: 9.090909090909091E-4 ml
+Carprofen dosage for cat Whiskers: 0.09469696969696968 ml
+E...Acepromazine dosage for dog Max: 0.02727272727272727 ml
+Carprofen dosage for dog Max: 0.37878787878787873 ml
+Acepromazine dosage for cat Whiskers: 9.090909090909091E-4 ml
+Carprofen dosage for cat Whiskers: 0.09469696969696968 ml
+...E....Acepromazine dosage for dog Max: 0.02727272727272727 ml
+Carprofen dosage for dog Max: 0.37878787878787873 ml
+Acepromazine dosage for cat Whiskers: 9.090909090909091E-4 ml
+Carprofen dosage for cat Whiskers: 0.09469696969696968 ml
+...Acepromazine dosage for dog Max: 0.02727272727272727 ml
+Carprofen dosage for dog Max: 0.37878787878787873 ml
+Acepromazine dosage for cat Whiskers: 9.090909090909091E-4 ml
+Carprofen dosage for cat Whiskers: 0.09469696969696968 ml
+.
+Time: 0.5
+
+OK (19 tests)
+

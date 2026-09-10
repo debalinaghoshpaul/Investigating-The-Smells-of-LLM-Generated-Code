@@ -1,0 +1,8 @@
+JUnit version 4.13
+......Enter a number: ...Enter a number: The number is a Mersenne number.
+.Enter a number: ...Enter a number: The number is not a Mersenne number.
+
+Time: 0.375
+
+OK (13 tests)
+

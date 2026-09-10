@@ -1,0 +1,1 @@
+Problem Description : \n21.9 (Guess the capitals using maps) Rewrite Programming Exercise 8.37 to store\npairs of each state and its capital in a map. Your program should prompt the user\nto enter a state, and should display the capital for the state\n\n The programming language you need to use is: Java.\n\n Problem Id is : 93164da4-d8ad-43d7-8d48-875d1d92695d.

@@ -1,0 +1,5 @@
+
+
+**2. Element to Remove Not Present Case:**
+
+Input:

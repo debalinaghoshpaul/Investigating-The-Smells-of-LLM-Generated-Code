@@ -1,0 +1,22 @@
+```java
+import java.time.LocalDateTime;
+
+public class GetCurrentDateAndTime {
+
+    public static void main(String[] args) {
+        // Get the current date and time
+        LocalDateTime now = LocalDateTime.now();
+
+        // Print the current date and time
+        System.out.println("Current date and time: " + now);
+    }
+}
+```
+
+**Test Cases**:
+
+* **Normal case:** The program should correctly print the current date and time.
+* **Corner cases:**
+    * The program should handle cases where the current date and time is null or empty.
+    * The program should handle cases where the current date and time is in a different format than expected.
+    * The program should handle cases where the current date and time is in a different time zone than expected.

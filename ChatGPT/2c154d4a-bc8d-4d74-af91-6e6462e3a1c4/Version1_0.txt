@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-945bTtCsf5MEBCAfr7f1DxrqBRSfh",
+  "object" : "chat.completion",
+  "created" : 1710761879,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.math.BigInteger;\n\npublic class Main {\n    public static void main(String[] args) {\n        BigInteger bigInteger = new BigInteger(\"12345678901234567890\");\n        \n        // Extracting primitive type values\n        byte byteValue = bigInteger.byteValue();\n        short shortValue = bigInteger.shortValue();\n        int intValue = bigInteger.intValue();\n        long longValue = bigInteger.longValue();\n        float floatValue = bigInteger.floatValue();\n        double doubleValue = bigInteger.doubleValue();\n        boolean booleanValue = bigInteger.signum() == 0 ? false : true;\n        char charValue = (char) bigInteger.intValue();\n        \n        System.out.println(\"BigInteger value: \" + bigInteger);\n        System.out.println(\"Byte value: \" + byteValue);\n        System.out.println(\"Short value: \" + shortValue);\n        System.out.println(\"Int value: \" + intValue);\n        System.out.println(\"Long value: \" + longValue);\n        System.out.println(\"Float value: \" + floatValue);\n        System.out.println(\"Double value: \" + doubleValue);\n        System.out.println(\"Boolean value: \" + booleanValue);\n        System.out.println(\"Char value: \" + charValue);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 246,
+    "completion_tokens" : 250,
+    "total_tokens" : 496
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

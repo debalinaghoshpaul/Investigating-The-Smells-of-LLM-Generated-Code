@@ -1,0 +1,51 @@
+```java
+import java.util.Scanner;
+
+public class ParallelogramTypeChecker {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the two adjoining sides and the diagonal of the parallelogram
+        System.out.println("Enter the length of the first adjoining side: ");
+        double side1 = scanner.nextDouble();
+
+        System.out.println("Enter the length of the second adjoining side: ");
+        double side2 = scanner.nextDouble();
+
+        System.out.println("Enter the length of the diagonal: ");
+        double diagonal = scanner.nextDouble();
+
+        // Check if the parallelogram is a rectangle
+        if (side1 == side2 && Math.sqrt(Math.pow(side1, 2) + Math.pow(side2, 2)) == diagonal) {
+            System.out.println("The parallelogram is a rectangle.");
+        } 
+        // Check if the parallelogram is a rhombus
+        else if (side1 == side2) {
+            System.out.println("The parallelogram is a rhombus.");
+        } 
+        // Otherwise, the parallelogram is neither a rectangle nor a rhombus
+        else {
+            System.out.println("The parallelogram is neither a rectangle nor a rhombus.");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases**
+* Side 1: 0, Side 2: 0, Diagonal: 0 (invalid input)
+* Side 1: 1, Side 2: 1, Diagonal: 0 (invalid input)
+* Side 1: 1, Side 2: 2, Diagonal: 0 (invalid input)
+* Side 1: 1, Side 2: 1, Diagonal: 1 (degenerate case, rectangle)
+* Side 1: 2, Side 2: 2, Diagonal: 2 * Math.sqrt(2) (degenerate case, rhombus)
+
+**Valid Cases**
+* Side 1: 3, Side 2: 4, Diagonal: 5 (parallelogram)
+* Side 1: 5, Side 2: 5, Diagonal: 7.0710678118654755 (rectangle)
+* Side 1: 6, Side 2: 6, Diagonal: 6 (rhombus)
+
+**Invalid Cases**
+* Side 1: -1, Side 2: 2, Diagonal: 3 (invalid side length)
+* Side 1: 2, Side 2: 3, Diagonal: 1 (invalid diagonal length)

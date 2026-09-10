@@ -1,0 +1,4 @@
+
+Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Subarray size: 1
+Output: Sub-array from 0 to 0 and sum is: 1

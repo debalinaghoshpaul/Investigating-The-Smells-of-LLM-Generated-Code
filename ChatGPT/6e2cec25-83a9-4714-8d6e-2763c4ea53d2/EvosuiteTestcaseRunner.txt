@@ -1,0 +1,16 @@
+JUnit version 4.13
+.Enter two integers:
+.Enter two integers:
+.Enter two integers:
+True
+.Enter two integers:
+True
+..Enter two integers:
+False
+.Enter two integers:
+False
+
+Time: 0.471
+
+OK (7 tests)
+

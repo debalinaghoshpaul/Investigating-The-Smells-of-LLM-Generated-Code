@@ -1,0 +1,11 @@
+JUnit version 4.13
+..Original array: [-7, 1, 5, 2, -4, 3, 0]
+Equilibrium indices found at: 3
+Equilibrium indices found at: 6
+.Equilibrium indices found at: 0
+..Equilibrium indices found at: 1
+
+Time: 0.43
+
+OK (5 tests)
+

@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\7a5a0dc1-70bd-4a0f-b818-58ddffc0622b\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\7a5a0dc1-70bd-4a0f-b818-58ddffc0622b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\7a5a0dc1-70bd-4a0f-b818-58ddffc0622b\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\7a5a0dc1-70bd-4a0f-b818-58ddffc0622b\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\7a5a0dc1-70bd-4a0f-b818-58ddffc0622b\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\7a5a0dc1-70bd-4a0f-b818-58ddffc0622b\generatedProgram1OfVersion1_0.java:10:17: '65' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\7a5a0dc1-70bd-4a0f-b818-58ddffc0622b\generatedProgram1OfVersion1_0.java:11:17: '77' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\7a5a0dc1-70bd-4a0f-b818-58ddffc0622b\generatedProgram1OfVersion1_0.java:27: Line has trailing spaces. [RegexpSingleline]
+Audit done.

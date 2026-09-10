@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Manager with base salary of 5000.00 and bonus of 1000.00 should have a salary of 6000.00.
+* Programmer with base salary of 4000.00 and overtime pay of 500.00 should have a salary of 4500.00.
+
+**Corner Cases:**
+
+* Manager with negative base salary should throw an exception.
+* Programmer with negative base salary or overtime pay should throw an exception.
+* Manager with negative bonus should throw an exception.
+* Programmer with negative overtime pay should throw an exception.

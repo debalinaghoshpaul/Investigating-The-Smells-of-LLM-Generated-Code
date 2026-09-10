@@ -1,0 +1,11 @@
+
+
+**Test Cases:**
+
+* **Corner cases:**
+    * Empty list
+* **Valid cases:**
+    * List of all uppercase strings
+    * List of all lowercase strings
+    * List of mixed case strings
+

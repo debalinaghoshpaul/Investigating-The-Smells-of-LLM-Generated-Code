@@ -1,0 +1,11 @@
+
+
+**Test Cases:**
+
+* **Corner cases:**
+    * File does not exist
+    * File is empty
+    * File is very large (e.g., over 1GB)
+* **Normal cases:**
+    * File of various sizes (e.g., 1KB, 1MB, 100MB)
+    * File with different file extensions (e.g., .txt, .jpg, .mp4)

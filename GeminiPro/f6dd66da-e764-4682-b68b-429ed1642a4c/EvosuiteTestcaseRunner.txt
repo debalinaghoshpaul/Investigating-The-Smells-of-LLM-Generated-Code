@@ -1,0 +1,50 @@
+JUnit version 4.13
+.Enter the number of students: 
+Enter the name of student 1: 
+..Enter the number of students: 
+Enter the name of student 1: 
+Enter the id of student 1: 
+Enter the mark of student 1: 
+Enter the name of student 2: 
+Enter the id of student 2: 
+Enter the mark of student 2: 
+The highest score is: 9
+The student with the highest score is: aSjR>
+The id of the student with the highest score is: Y
+The lowest score is: 2
+The student with the lowest score is: 2
+The id of the student with the lowest score is: 2
+.Enter the number of students: 
+Enter the name of student 1: 
+Enter the id of student 1: 
+Enter the mark of student 1: 
+Enter the name of student 2: 
+Enter the id of student 2: 
+Enter the mark of student 2: 
+The highest score is: 2
+The student with the highest score is: 2
+The id of the student with the highest score is: 2
+The lowest score is: 0
+The student with the lowest score is: /jR?
+The id of the student with the lowest score is: ^|
+.Enter the number of students: 
+.Enter the number of students: 
+Enter the name of student 1: 
+Enter the id of student 1: 
+Enter the mark of student 1: 
+Enter the name of student 2: 
+Enter the id of student 2: 
+Enter the mark of student 2: 
+The highest score is: 9
+The student with the highest score is: ajR>
+The id of the student with the highest score is: Y
+The lowest score is: 9
+The student with the lowest score is: ajR>
+The id of the student with the lowest score is: Y
+.Enter the number of students: 
+.Enter the number of students: 
+
+Time: 0.361
+
+OK (8 tests)
+

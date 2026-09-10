@@ -1,0 +1,19 @@
+
+
+**Test Cases:**
+
+**1. Valid Input:**
+* Input: Length = 4.0, Width = 5.0
+* Expected Output: Area of the rectangle: 20.0
+
+**2. Zero Dimensions:**
+* Input: Length = 0.0, Width = 0.0
+* Expected Output: Area of the rectangle: 0.0
+
+**3. Negative Dimensions:**
+* Input: Length = -2.0, Width = -3.0
+* Expected Output: Invalid input: Dimensions cannot be negative
+
+**4. Special Case: Square (Length = Width)**
+* Input: Length = 5.0, Width = 5.0
+* Expected Output: Area of the rectangle: 25.0

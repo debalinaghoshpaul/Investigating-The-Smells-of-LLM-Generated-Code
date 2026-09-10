@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Common elements from three sorted (in non-decreasing order) arrays: 
+[4, 8]
+.
+Time: 0.574
+
+OK (2 tests)
+

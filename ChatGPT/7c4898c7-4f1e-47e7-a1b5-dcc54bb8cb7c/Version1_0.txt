@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DWsREi2PqucdTpm5H871ElYicreW",
+  "object" : "chat.completion",
+  "created" : 1713011671,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "To solve this problem, you can start by creating a Pizza class that represents an individual pizza with its size and toppings. Then create a PizzaOrder class that contains an array of pizzas and implements the necessary methods to get the number of pizzas, get each individual pizza, and implement a copy constructor.\n\nHere is some sample code to get you started:\n\n```java\nclass Pizza {\n    private String size;\n    private String toppings;\n\n    public Pizza(String size, String toppings) {\n        this.size = size;\n        this.toppings = toppings;\n    }\n\n    public String getSize() {\n        return size;\n    }\n\n    public String getToppings() {\n        return toppings;\n    }\n\n    public void setToppings(String toppings) {\n        this.toppings = toppings;\n    }\n}\n\nclass PizzaOrder {\n    private Pizza[] pizzas;\n\n    public PizzaOrder(Pizza[] pizzas) {\n        this.pizzas = pizzas;\n    }\n\n    public int getNumPizzas() {\n        return pizzas.length;\n    }\n\n    public Pizza getPizza(int index) {\n        if (index < 0 || index >= pizzas.length) {\n            return null;\n        }\n        return pizzas[index];\n    }\n\n    public PizzaOrder(PizzaOrder other) {\n        this.pizzas = new Pizza[other.getNumPizzas()];\n        for (int i = 0; i < other.getNumPizzas(); i++) {\n            Pizza originalPizza = other.getPizza(i);\n            this.pizzas[i] = new Pizza(originalPizza.getSize(), originalPizza.getToppings());\n        }\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pizza pizza1 = new Pizza(\"Medium\", \"Pepperoni\");\n        Pizza pizza2 = new Pizza(\"Large\", \"Mushrooms\");\n\n        Pizza[] pizzas = {pizza1, pizza2};\n\n        PizzaOrder order1 = new PizzaOrder(pizzas);\n\n        // Calculate total for order1\n        int total1 = calculateTotal(order1);\n\n        // Create a copy of order1\n        PizzaOrder order2 = new PizzaOrder(order1);\n\n        // Change toppings for pizza1 in order2\n        order2.getPizza(0).setToppings(\"Sausage\");\n\n        // Calculate total for both orders\n        int total2 = calculateTotal(order2);\n\n        // Verify that total for order1 remains unchanged\n        System.out.println(\"Total for order1: \" + total1);\n        System.out.println(\"Total for order2: \" + total2);\n    }\n\n    public static int calculateTotal(PizzaOrder order) {\n        int total = 0;\n\n        for (int i = 0; i < order.getNumPizzas(); i++) {\n            Pizza pizza = order.getPizza(i);\n\n            // Add cost based on size\n            if (pizza.getSize().equals(\"Small\")) {\n                total += 8;\n            } else if (pizza.getSize().equals(\"Medium\")) {\n                total += 10;\n            } else if (pizza.getSize().equals(\"Large\")) {\n                total += 12;\n            }\n\n            // Additional cost for extra toppings\n            total += pizza.getToppings().split(\",\").length * 2;\n        }\n\n        return total;\n    }\n}\n```\n\nYou can run this code to see how the copy constructor works and ensures that changing pizzas in the new order does not affect pizzas in the original order. Feel free to customize the code further to add more features or improve functionality as needed."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 219,
+    "completion_tokens" : 709,
+    "total_tokens" : 928
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

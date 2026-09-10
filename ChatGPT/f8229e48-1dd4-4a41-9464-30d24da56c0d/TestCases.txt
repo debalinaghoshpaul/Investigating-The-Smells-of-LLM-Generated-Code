@@ -1,0 +1,58 @@
+**Java program to divide a string into n equal parts:**
+
+```java
+import java.util.Arrays;
+
+public class DivideString {
+
+    public static void main(String[] args) {
+        String str = "ABCDEFGHIJ";
+        int n = 3;
+        System.out.println(Arrays.toString(divideString(str, n)));
+    }
+
+    public static String[] divideString(String str, int n) {
+        if (str == null || str.length() <= 0) {
+            return new String[0];
+        }
+        if (n <= 0) {
+            throw new IllegalArgumentException("Invalid n value: " + n);
+        }
+        int chunkSize = str.length() / n;
+        String[] parts = new String[n];
+        int startIndex = 0;
+        for (int i = 0; i < n; i++) {
+            parts[i] = str.substring(startIndex, startIndex + chunkSize);
+            startIndex += chunkSize;
+        }
+        return parts;
+    }
+}
+```
+
+**Test cases:**
+
+**1. Normal case:**
+
+* Input: str = "ABCDEFGHIJ", n = 3
+* Output: ["ABC", "DEF", "GHI"]
+
+**2. Empty string:**
+
+* Input: str = "", n = 3
+* Output: []
+
+**3. String with less than n characters:**
+
+* Input: str = "AB", n = 3
+* Output: ["AB"]
+
+**4. n is 0:**
+
+* Input: str = "ABCDEFGHIJ", n = 0
+* Output: IllegalArgumentException: Invalid n value: 0
+
+**5. str is null:**
+
+* Input: str = null, n = 3
+* Output: []

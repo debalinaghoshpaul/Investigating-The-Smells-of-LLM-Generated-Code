@@ -1,0 +1,97 @@
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class Restaurant {
+
+    private Map<String, MenuItem> menuItems;
+
+    public Restaurant() {
+        this.menuItems = new HashMap<>();
+    }
+
+    public void addMenuItem(String name, double price, double rating) {
+        MenuItem menuItem = new MenuItem(name, price, rating);
+        menuItems.put(name, menuItem);
+    }
+
+    public void removeMenuItem(String name) {
+        menuItems.remove(name);
+    }
+
+    public double calculateAverageRating() {
+        double sum = 0;
+        int count = 0;
+        for (MenuItem menuItem : menuItems.values()) {
+            sum += menuItem.getRating();
+            count++;
+        }
+        return sum / count;
+    }
+
+    private static class MenuItem {
+        private String name;
+        private double price;
+        private double rating;
+
+        public MenuItem(String name, double price, double rating) {
+            this.name = name;
+            this.price = price;
+            this.rating = rating;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public double getPrice() {
+            return price;
+        }
+
+        public double getRating() {
+            return rating;
+        }
+    }
+}
+```
+
+**Test cases:**
+
+**Normal case:**
+
+```
+Restaurant restaurant = new Restaurant();
+restaurant.addMenuItem("Pizza", 10.0, 4.5);
+restaurant.addMenuItem("Pasta", 12.0, 4.0);
+restaurant.addMenuItem("Salad", 8.0, 4.2);
+double averageRating = restaurant.calculateAverageRating();
+System.out.println(averageRating); // Expected output: 4.233333333333333
+```
+
+**Corner cases:**
+
+**Empty menu:**
+
+```
+Restaurant restaurant = new Restaurant();
+double averageRating = restaurant.calculateAverageRating();
+System.out.println(averageRating); // Expected output: 0.0
+```
+
+**Negative rating:**
+
+```
+Restaurant restaurant = new Restaurant();
+restaurant.addMenuItem("Pizza", 10.0, -1.0);
+double averageRating = restaurant.calculateAverageRating();
+System.out.println(averageRating); // Expected output: -1.0
+```
+
+**Rating greater than 5:**
+
+```
+Restaurant restaurant = new Restaurant();
+restaurant.addMenuItem("Pizza", 10.0, 6.0);
+double averageRating = restaurant.calculateAverageRating();
+System.out.println(averageRating); // Expected output: 6.0
+```

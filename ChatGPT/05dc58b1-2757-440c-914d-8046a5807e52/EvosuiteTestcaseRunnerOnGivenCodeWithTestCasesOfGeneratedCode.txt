@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E
+Time: 0.347
+There were 4 failures:
+1) test2(testing_ChatGPT_on_java.MusicLibrary_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method removeSong(Song) in the type MusicLibrary is not applicable for the arguments (String)
+
+	at testing_ChatGPT_on_java.MusicLibrary_ESTest.test2(MusicLibrary_ESTest.java:34)
+2) test3(testing_ChatGPT_on_java.MusicLibrary_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type MusicLibrary
+
+	at testing_ChatGPT_on_java.MusicLibrary_ESTest.test3(MusicLibrary_ESTest.java:39)
+3) test0(testing_ChatGPT_on_java.MusicLibrary_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method addSong(Song) in the type MusicLibrary is not applicable for the arguments (String)
+
+	at testing_ChatGPT_on_java.MusicLibrary_ESTest.test0(MusicLibrary_ESTest.java:21)
+4) test1(testing_ChatGPT_on_java.MusicLibrary_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problems: 
+	Syntax error on token(s), misplaced construct(s)
+	The public type Song must be defined in its own file
+	Syntax error on token(s), misplaced construct(s)
+	The public type Main must be defined in its own file
+	The type Song is already defined
+	The type Main is already defined
+
+	at testing_ChatGPT_on_java.MusicLibrary.<init>(MusicLibrary.java:7)
+	at testing_ChatGPT_on_java.MusicLibrary_ESTest.test1(MusicLibrary_ESTest.java:27)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+

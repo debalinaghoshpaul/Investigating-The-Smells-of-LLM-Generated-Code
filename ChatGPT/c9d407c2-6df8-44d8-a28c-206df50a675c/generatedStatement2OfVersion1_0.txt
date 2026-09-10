@@ -1,0 +1,19 @@
+
+
+**Test cases including corner cases:**
+
+* **Positive cases:**
+    * "pq" - matches the pattern
+    * "paqr" - matches the pattern
+    * "ppq" - matches the pattern
+    * "p" - matches the pattern (empty string between 'p' and 'q')
+    * "pqrr" - matches the pattern
+    * "p1q" - matches the pattern (digit between 'p' and 'q')
+    * "p?q" - matches the pattern (special character between 'p' and 'q')
+
+* **Negative cases:**
+    * "p" - does not match the pattern (missing 'q' at the end)
+    * "pqrs" - does not match the pattern (additional characters after 'q')
+    * "pa" - does not match the pattern (missing 'q' at the end)
+    * "1pq" - does not match the pattern ('p' not at the beginning)
+    * "q" - does not match the pattern (missing 'p' at the beginning)

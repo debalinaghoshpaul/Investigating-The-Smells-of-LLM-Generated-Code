@@ -1,0 +1,13 @@
+
+
+**Test Cases:**
+
+**Normal Case:**
+
+* Input: None
+* Output: The current date and time in the format "yyyy/MM/dd HH:mm:ss.SSS".
+
+**Corner Cases:**
+
+* **Invalid date format:** If the SimpleDateFormat object is created with an invalid date format, a `IllegalArgumentException` will be thrown.
+* **Null date:** If the `date` object is null, a `NullPointerException` will be thrown.

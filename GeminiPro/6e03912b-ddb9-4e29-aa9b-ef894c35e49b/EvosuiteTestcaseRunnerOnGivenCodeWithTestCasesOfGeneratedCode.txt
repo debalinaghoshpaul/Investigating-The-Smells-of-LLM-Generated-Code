@@ -1,0 +1,125 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.35
+There were 21 failures:
+1) test08(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test08(Employee_ESTest.java:104)
+2) test19(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor Employee(String, String, double) is undefined
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test19(Employee_ESTest.java:201)
+3) test09(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Employee(String, String, double) is undefined
+	The method calculateSalary() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test09(Employee_ESTest.java:117)
+4) test06(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Employee(String, String, double) is undefined
+	The method getJobTitle() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test06(Employee_ESTest.java:84)
+5) test17(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Employee(String, String, double) is undefined
+	The method updateSalary(double) is undefined for the type Employee
+	The method getJobTitle() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test17(Employee_ESTest.java:183)
+6) test07(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Employee(String, String, double) is undefined
+	The method getJobTitle() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test07(Employee_ESTest.java:91)
+7) test18(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor Employee(String, String, double) is undefined
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test18(Employee_ESTest.java:192)
+8) test00(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test00(Employee_ESTest.java:29)
+9) test11(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Employee(String, String, double) is undefined
+	The method calculateSalary() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test11(Employee_ESTest.java:140)
+10) test01(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method main(String[]) is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test01(Employee_ESTest.java:41)
+11) test12(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Employee(String, String, double) is undefined
+	The method calculateSalary() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test12(Employee_ESTest.java:147)
+12) test20(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor Employee(String, String, double) is undefined
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test20(Employee_ESTest.java:208)
+13) test10(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Employee(String, String, double) is undefined
+	The method calculateSalary() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test10(Employee_ESTest.java:133)
+14) test04(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor Employee(String, String, double) is undefined
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test04(Employee_ESTest.java:70)
+15) test15(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor Employee(String, String, double) is undefined
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test15(Employee_ESTest.java:169)
+16) test05(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor Employee(String, String, double) is undefined
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test05(Employee_ESTest.java:77)
+17) test16(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Employee(String, String, double) is undefined
+	The method getJobTitle() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test16(Employee_ESTest.java:176)
+18) test02(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor Employee(String, String, double) is undefined
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test02(Employee_ESTest.java:54)
+19) test13(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor Employee(String, String, double) is undefined
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test13(Employee_ESTest.java:154)
+20) test03(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Employee(String, String, double) is undefined
+	The method getJobTitle() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test03(Employee_ESTest.java:61)
+21) test14(testing_ChatGPT_on_java.Employee_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor Employee(String, String, double) is undefined
+	The method setJobTitle(String) is undefined for the type Employee
+	The method calculateSalary() is undefined for the type Employee
+
+	at testing_ChatGPT_on_java.Employee_ESTest.test14(Employee_ESTest.java:161)
+
+FAILURES!!!
+Tests run: 21,  Failures: 21
+

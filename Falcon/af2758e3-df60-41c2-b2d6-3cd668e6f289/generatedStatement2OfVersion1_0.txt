@@ -1,0 +1,14 @@
+
+
+Test cases:
+
+* **Normal cases:**
+    * "123" -> true
+    * "abc123" -> true
+    * "123abc" -> false
+    * "abc" -> false
+* **Corner cases:**
+    * "" -> false
+    * "1" -> true
+    * "a1" -> true
+    * "1a" -> false

@@ -1,0 +1,65 @@
+```java
+import java.util.Scanner;
+
+public class RemoveSpecificLetters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user.
+        System.out.println("Enter the input string: ");
+        String inputString = scanner.nextLine();
+
+        // Remove the specific letters from the input string.
+        String updatedString = inputString.replaceAll("[pqr]", "");
+
+        // Print the updated string.
+        System.out.println("Updated string: " + updatedString);
+        scanner.close();
+    }
+}
+```
+
+**Test Cases including Corner Cases:**
+
+* **Test Case 1:**
+
+```
+Input String: apqrbcd
+Expected Output: abd
+```
+
+* **Test Case 2:**
+
+```
+Input String: pqr
+Expected Output: 
+```
+
+* **Test Case 3:**
+
+```
+Input String: abcd
+Expected Output: abcd
+```
+
+* **Test Case 4:**
+
+```
+Input String: pqrabcde
+Expected Output: abcd
+```
+
+* **Test Case 5:**
+
+```
+Input String: ""
+Expected Output: 
+```
+
+* **Test Case 6:**
+
+```
+Input String: null
+Expected Output: null
+```

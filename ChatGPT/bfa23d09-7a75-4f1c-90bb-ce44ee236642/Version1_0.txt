@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91zIYG9rQFijg79OboLiG1IDSBVph",
+  "object" : "chat.completion",
+  "created" : 1710260986,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class ArrangeIntegers {\n\n    public static void main(String[] args) {\n        int[] nums = {3, -1, 5, -2, 7, -4, 0, -9};\n        \n        rearrangeArray(nums);\n        \n        // Display the rearranged array\n        System.out.println(\"Rearranged Array: \" + Arrays.toString(nums));\n    }\n    \n    public static void rearrangeArray(int[] nums) {\n        int i = 0, j = nums.length - 1;\n        \n        while (i < j) {\n            if (nums[i] < 0 && nums[j] >= 0) {\n                // Swap elements if i is negative and j is positive\n                int temp = nums[i];\n                nums[i] = nums[j];\n                nums[j] = temp;\n                i++;\n                j--;\n            } else {\n                if (nums[i] >= 0) {\n                    i++;\n                }\n                if (nums[j] < 0) {\n                    j--;\n                }\n            }\n        }\n    }\n}\n```\n\nThis program takes an array of integers, rearranges the elements so that all positive integers appear before all negative integers, and then prints out the rearranged array."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 73,
+    "completion_tokens" : 261,
+    "total_tokens" : 334
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

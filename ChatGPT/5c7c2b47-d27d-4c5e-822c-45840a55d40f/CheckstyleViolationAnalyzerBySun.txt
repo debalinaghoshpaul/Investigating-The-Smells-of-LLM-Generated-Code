@@ -1,0 +1,12 @@
+Violations by Category:
+TypeName: Name 'Main_LinkedList' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]: 1
+VisibilityModifier: Variable 'data' must be private and have accessor methods. [VisibilityModifier]: 2
+RegexpSingleline: Line has trailing spaces. [RegexpSingleline]: 6
+RedundantModifier: Redundant 'public' modifier. [RedundantModifier]: 2
+FinalParameters: Parameter data should be final. [FinalParameters]: 3
+HiddenField: 'data' hides a field. [HiddenField]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1
+MagicNumber: '10' is a magic number. [MagicNumber]: 3

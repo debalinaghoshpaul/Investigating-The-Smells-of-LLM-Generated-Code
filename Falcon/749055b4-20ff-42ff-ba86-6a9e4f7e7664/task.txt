@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find common elements between two arrays (string values).\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 749055b4-20ff-42ff-ba86-6a9e4f7e7664.\n

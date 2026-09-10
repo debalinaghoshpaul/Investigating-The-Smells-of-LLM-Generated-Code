@@ -1,0 +1,6 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CognitiveComplexity: The method 'fourSum(int[], int)' has a cognitive complexity of 31, current threshold is 15: 1
+CyclomaticComplexity: The method 'fourSum(int[], int)' has a cyclomatic complexity of 14.: 1
+CommentRequired: Class comments are required: 3
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

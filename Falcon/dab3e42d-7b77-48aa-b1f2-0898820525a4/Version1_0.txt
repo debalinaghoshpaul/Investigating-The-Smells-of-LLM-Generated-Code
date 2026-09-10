@@ -1,0 +1,61 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        char[] chars = str.toCharArray();
+        System.out.println(Arrays.toString(chars));
+    }
+}
+
+Output:
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Test Case 1:
+String str = "Hello World!";
+char[] chars = str.toCharArray();
+System.out.println(Arrays.toString(chars));
+
+Test Case 2:
+String str = "";
+char[] chars = str.toCharArray();
+System.out.println(Arrays.toString(chars));
+
+Test Case 3:
+String str = null;
+char[] chars = str.toCharArray();
+System.out.println(Arrays.toString(chars));
+
+Test Case 4:
+String str = "";
+char[] chars = str.toCharArray();
+System.out.println(Arrays.toString(chars));
+
+Test Case 5:
+String str = "";
+char[] chars = str.toCharArray();
+System.out.println(Arrays.toString(chars));
+
+Test Case 6:
+String str = "";
+char[] chars = str.toCharArray();
+System.out.println(Arrays.toString(chars));
+
+Test Case 7:
+String str = "";
+char[] chars = str.toCharArray();
+System.out.println(Arrays.toString(chars));
+
+Test Case 8:
+String str = "";
+char[] chars = str.toCharArray();
+System.out.println(Arrays.toString(chars));
+
+Test Case 9:
+String str = "";
+char[] chars = str.toCharArray();
+System.out.println(Arrays

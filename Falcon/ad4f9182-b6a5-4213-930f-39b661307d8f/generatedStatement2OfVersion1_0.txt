@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Empty file
+* File with less than 3 lines
+* File does not exist
+
+**General Cases:**
+
+* File with more than 3 lines
+* File with different line lengths
+* File with empty lines

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9209nDS6rGCPKjM2z6vgJGRWbAY8H",
+  "object" : "chat.completion",
+  "created" : 1710264287,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class CircularSubarraySum {\n    \n    public static int kadaneAlgorithm(int[] nums) {\n        int maxEndingHere = nums[0];\n        int maxSoFar = nums[0];\n        for (int i = 1; i < nums.length; i++) {\n            maxEndingHere = Math.max(nums[i], maxEndingHere + nums[i]);\n            maxSoFar = Math.max(maxSoFar, maxEndingHere);\n        }\n        return maxSoFar;\n    }\n    \n    public static int maxCircularSubarraySum(int[] nums) {\n        int totalSum = 0;\n        int maxStraightSum = kadaneAlgorithm(nums);\n        for (int i = 0; i < nums.length; i++) {\n            totalSum += nums[i];\n            nums[i] = -nums[i];\n        }\n        int circularSum = totalSum + kadaneAlgorithm(nums);\n        return Math.max(circularSum, maxStraightSum);\n    }\n    \n    public static void main(String[] args) {\n        int[] nums1 = {2, 1, -5, 4, -3, 1, -3, 4, -1};\n        int[] nums2 = {1, -2, 3, 0, 7, 8, 1, 2, -3};\n        \n        System.out.println(\"The sum of subarray with the largest sum is \" + maxCircularSubarraySum(nums1));\n        System.out.println(\"The sum of subarray with the largest sum is \" + maxCircularSubarraySum(nums2));\n    }\n}\n```\n\nOutput:\n```\nThe sum of subarray with the largest sum is 6\nThe sum of subarray with the largest sum is 21\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 163,
+    "completion_tokens" : 362,
+    "total_tokens" : 525
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

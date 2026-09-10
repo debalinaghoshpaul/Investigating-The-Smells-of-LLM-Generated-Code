@@ -1,0 +1,5 @@
+Violations by Category:
+EmptyLineSeparator: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]: 2
+OneTopLevelClass: Top-level class Shape has to reside in its own source file. [OneTopLevelClass]: 4
+MissingJavadocType: Missing a Javadoc comment. [MissingJavadocType]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2

@@ -1,0 +1,24 @@
+```java
+import java.util.Stack;
+
+public class StackWithCondition {
+
+    public static void main(String[] args) {
+        // Create a stack
+        Stack<Integer> stack = new Stack<>();
+
+        // Push some elements into the stack
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.push(5);
+
+        // Check if at least one element of the stack is greater than 3
+        boolean condition = stack.stream().anyMatch(i -> i > 3);
+
+        // Print the result
+        System.out.println(condition); // true
+    }
+}
+```

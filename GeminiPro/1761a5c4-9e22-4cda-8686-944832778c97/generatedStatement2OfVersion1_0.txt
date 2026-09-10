@@ -1,0 +1,29 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Empty array
+* Single element array
+* Array with all elements equal
+* Array with elements that are out of order
+
+**Regular Cases:**
+
+* Array with elements that are in random order
+* Array with elements that are nearly sorted
+
+**Results:**
+
+**Corner Cases:**
+
+* Empty array: []
+* Single element array: [1]
+* Array with all elements equal: [1, 1, 1, 1]
+* Array with elements that are out of order: [5, 4, 3, 2, 1] -> [1, 2, 3, 4, 5]
+
+**Regular Cases:**
+
+* Array with elements that are in random order: [3, 2, 4, 1, 5] -> [1, 2, 3, 4, 5]
+* Array with elements that are nearly sorted: [1, 5, 4, 3, 2] -> [1, 2, 3, 4, 5]

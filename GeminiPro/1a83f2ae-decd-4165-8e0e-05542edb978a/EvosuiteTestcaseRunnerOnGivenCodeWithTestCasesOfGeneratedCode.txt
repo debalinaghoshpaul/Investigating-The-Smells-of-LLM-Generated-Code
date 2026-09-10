@@ -1,0 +1,44 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E
+Time: 0.469
+There were 7 failures:
+1) test3(testing_ChatGPT_on_java.Example108_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example108.main(AddDigitsUntilSingleDigit.java:5)
+	at testing_ChatGPT_on_java.Example108_ESTest.test3(Example108_ESTest.java:66)
+2) test2(testing_ChatGPT_on_java.Example108_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example108.main(AddDigitsUntilSingleDigit.java:5)
+	at testing_ChatGPT_on_java.Example108_ESTest.test2(Example108_ESTest.java:52)
+3) test5(testing_ChatGPT_on_java.Example108_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example108.main(AddDigitsUntilSingleDigit.java:5)
+	at testing_ChatGPT_on_java.Example108_ESTest.test5(Example108_ESTest.java:80)
+4) test4(testing_ChatGPT_on_java.Example108_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example108.main(AddDigitsUntilSingleDigit.java:5)
+	at testing_ChatGPT_on_java.Example108_ESTest.test4(Example108_ESTest.java:73)
+5) test6(testing_ChatGPT_on_java.Example108_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Example108 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Example108.<init>(AddDigitsUntilSingleDigit.java:4)
+	at testing_ChatGPT_on_java.Example108_ESTest.test6(Example108_ESTest.java:85)
+6) test1(testing_ChatGPT_on_java.Example108_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example108.main(AddDigitsUntilSingleDigit.java:5)
+	at testing_ChatGPT_on_java.Example108_ESTest.test1(Example108_ESTest.java:35)
+7) test0(testing_ChatGPT_on_java.Example108_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Example108.main(AddDigitsUntilSingleDigit.java:5)
+	at testing_ChatGPT_on_java.Example108_ESTest.test0(Example108_ESTest.java:26)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+

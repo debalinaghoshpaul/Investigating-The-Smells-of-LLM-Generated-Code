@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94n9Vw6j6lTPmra6KCAYrHUFgnUeY",
+  "object" : "chat.completion",
+  "created" : 1710929281,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class DoubleCheck {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        \n        System.out.print(\"Input first number: \");\n        double num1 = input.nextDouble();\n        \n        System.out.print(\"Input second number: \");\n        double num2 = input.nextDouble();\n        \n        boolean result = (num1 > 0 && num1 < 1) && (num2 > 0 && num2 < 1);\n        \n        System.out.println(result);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 92,
+    "completion_tokens" : 109,
+    "total_tokens" : 201
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

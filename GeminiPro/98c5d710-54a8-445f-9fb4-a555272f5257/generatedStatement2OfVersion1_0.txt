@@ -1,0 +1,11 @@
+
+
+**Test cases:**
+
+* **Empty array:** []
+* **Array with one element:** [1]
+* **Array with duplicate elements:** [1, 2, 3, 4, 4, 5, 5, 6, 6]
+* **Array with only duplicate elements:** [1, 1, 1, 1]
+* **Array with negative numbers:** [-1, -2, -3, -4, -4, -5, -5, -6, -6]
+* **Array with large numbers:** [1000000000, 2000000000, 3000000000, 4000000000, 4000000000, 5000000000, 5000000000, 6000000000, 6000000000]
+* **Array with decimal numbers:** [1.1, 2.2, 3.3, 4.4, 4.4, 5.5, 5.5, 6.6, 6.6]

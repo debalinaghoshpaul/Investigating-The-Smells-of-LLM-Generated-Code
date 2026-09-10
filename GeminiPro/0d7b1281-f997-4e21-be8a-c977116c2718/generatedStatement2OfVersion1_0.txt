@@ -1,0 +1,57 @@
+
+
+**Test Cases:**
+
+* **Normal case:**
+    * Input: Current time
+    * Output:
+        * Current time: Fri Sep 23 15:35:09 EDT 2022
+        * Year: 2022
+        * Month: 9
+        * Day: 23
+        * Hour: 15
+        * Minute: 35
+        * Second: 09
+* **Edge cases:**
+    * **Year 0:**
+        * Input: Date with year 0
+        * Output:
+            * **Exception:** java.lang.IllegalArgumentException: year 0 out of range 1 to 292247099
+    * **Month 0:**
+        * Input: Date with month 0
+        * Output:
+            * **Exception:** java.lang.IllegalArgumentException: month 0 out of range 1 to 12
+    * **Day 0:**
+        * Input: Date with day 0
+        * Output:
+            * **Exception:** java.lang.IllegalArgumentException: day 0 out of range 1 to 31
+    * **Hour 0:**
+        * Input: Date with hour 0
+        * Output:
+            * Current time: Fri Sep 23 00:00:00 EDT 2022
+            * Year: 2022
+            * Month: 9
+            * Day: 23
+            * Hour: 0
+            * Minute: 00
+            * Second: 00
+    * **Minute 0:**
+        * Input: Date with minute 0
+        * Output:
+            * Current time: Fri Sep 23 15:00:00 EDT 2022
+            * Year: 2022
+            * Month: 9
+            * Day: 23
+            * Hour: 15
+            * Minute: 00
+            * Second: 00
+    * **Second 0:**
+        * Input: Date with second 0
+        * Output:
+            * Current time: Fri Sep 23 15:35:00 EDT 2022
+            * Year: 2022
+            * Month: 9
+            * Day: 23
+            * Hour: 15
+            * Minute: 35
+            * Second: 00

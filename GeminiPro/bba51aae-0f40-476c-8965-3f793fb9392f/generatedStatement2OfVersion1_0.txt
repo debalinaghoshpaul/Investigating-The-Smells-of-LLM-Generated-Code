@@ -1,0 +1,18 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* Triangle with zero or negative side lengths
+* Square with zero or negative side length
+
+**Valid Cases:**
+
+* Triangle with positive side lengths
+* Square with positive side length
+
+**Invalid Cases:**
+
+* Non-triangle (sum of two sides less than or equal to the third side)
+* Non-square (all sides not equal)

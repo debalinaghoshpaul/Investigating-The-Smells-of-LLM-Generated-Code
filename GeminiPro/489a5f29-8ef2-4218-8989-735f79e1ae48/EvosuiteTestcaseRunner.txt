@@ -1,0 +1,15 @@
+JUnit version 4.13
+..Enter the elements of the array: 
+.Enter the elements of the array: 
+The array length must be greater than or equal to 2.
+.Enter the elements of the array: 
+true
+.Enter the elements of the array: 
+.Enter the elements of the array: 
+.Enter the elements of the array: 
+true
+
+Time: 0.359
+
+OK (7 tests)
+

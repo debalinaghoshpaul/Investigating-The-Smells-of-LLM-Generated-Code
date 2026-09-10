@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91ygXFVu73flTbzpzVTwD3cMVrPux",
+  "object" : "chat.completion",
+  "created" : 1710258629,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.ArrayList;\n\npublic class AntiDiagonals {\n    \n    public static ArrayList<ArrayList<Integer>> getAntiDiagonals(int[][] matrix) {\n        ArrayList<ArrayList<Integer>> result = new ArrayList<>();\n        \n        int n = matrix.length;\n        \n        for (int i = 0; i < n; i++) {\n            ArrayList<Integer> antiDiagonal = new ArrayList<>();\n            int row = 0;\n            int col = i;\n            \n            while (row < n && col >= 0) {\n                antiDiagonal.add(matrix[row][col]);\n                row++;\n                col--;\n            }\n            \n            result.add(antiDiagonal);\n        }\n        \n        for (int i = 1; i < n; i++) {\n            ArrayList<Integer> antiDiagonal = new ArrayList<>();\n            int row = i;\n            int col = n - 1;\n            \n            while (row < n && col >= 0) {\n                antiDiagonal.add(matrix[row][col]);\n                row++;\n                col--;\n            }\n            \n            result.add(antiDiagonal);\n        }\n        \n        return result;\n    }\n    \n    public static void main(String[] args) {\n        int[][] matrix = {{1, 2, 3, 4},\n                           {5, 6, 7, 8},\n                           {9, 10, 11, 12},\n                           {13, 14, 15, 16}};\n                           \n        ArrayList<ArrayList<Integer>> result = getAntiDiagonals(matrix);\n        \n        System.out.println(result);\n    }\n}\n```\nOutput:\n[[1], [2, 5], [3, 6, 9], [4, 7, 10, 13], [8, 11, 14], [12, 15], [16]]"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 97,
+    "completion_tokens" : 372,
+    "total_tokens" : 469
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

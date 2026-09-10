@@ -1,0 +1,3 @@
+
+
+In this program, we have created a class Employee with private instance variables employee_id, employee_name, and employee_salary. We have provided public getter and setter methods for the id and name variables, and a getter method for the salary variable that returns the salary formatted as a string with two decimal places. In the main method, we create an Employee object, set its attributes, and print them out with the formatted salary.

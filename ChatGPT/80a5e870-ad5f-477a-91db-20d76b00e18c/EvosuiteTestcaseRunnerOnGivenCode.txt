@@ -1,0 +1,14 @@
+JUnit version 4.13
+..Original array: [1, 2, -2, 3, 4, 5, 6]
+Does the said array contain a subarray with 0 sum: true
+
+Original array: [1, 2, 3, 4, 5, 6]
+Does the said array contain a subarray with 0 sum: false
+
+Original array: [1, 2, -3, 4, 5, 6]
+Does the said array contain a subarray with 0 sum: true
+...
+Time: 0.33
+
+OK (5 tests)
+

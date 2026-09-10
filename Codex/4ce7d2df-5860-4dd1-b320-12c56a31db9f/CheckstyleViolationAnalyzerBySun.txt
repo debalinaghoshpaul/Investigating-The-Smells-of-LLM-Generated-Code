@@ -1,0 +1,9 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 101). [LineLength]: 2
+MultipleVariableDeclarations: Each variable declaration must be in its own statement. [MultipleVariableDeclarations]: 1
+VisibilityModifier: Variable 'data' must be private and have accessor methods. [VisibilityModifier]: 4
+FinalParameters: Parameter data should be final. [FinalParameters]: 4
+HiddenField: 'data' hides a field. [HiddenField]: 2
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MagicNumber: '3' is a magic number. [MagicNumber]: 3

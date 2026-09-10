@@ -1,0 +1,39 @@
+
+// Input the first binary number: 10
+// Input the second binary number: 11
+// Product of two binary numbers: 110
+//
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+//
+// Input the first binary number: 10
+// Input the second binary number: 11
+// Product of two binary numbers: 110
+//
+// Input the first binary number: 10
+// Input the second binary number: 11
+// Product of two binary numbers: 110
+//
+// Input the first binary number: 10
+// Input the second binary number: 11
+// Product of two binary numbers: 110
+//
+// Input the first binary number: 10
+// Input the second binary number: 11
+// Product of two binary numbers: 110
+//
+// Input the first binary number: 10
+// Input the second binary number: 11
+// Product of two binary numbers: 110
+//
+// Input the first binary number: 10
+// Input the second binary number: 11
+// Product of two binary numbers: 110
+//
+// Input the first binary number: 10
+// Input the second binary number: 11
+// Product of two binary numbers: 110
+//
+// Input the first binary number: 10
+// Input the second binary number: 11
+// Product of

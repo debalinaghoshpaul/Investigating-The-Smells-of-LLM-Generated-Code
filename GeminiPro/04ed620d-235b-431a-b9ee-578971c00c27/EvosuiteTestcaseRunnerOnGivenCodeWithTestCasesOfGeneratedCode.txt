@@ -1,0 +1,39 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.376
+There were 6 failures:
+1) test2(testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	SumNumericalValuesInSentence cannot be resolved
+
+	at testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest.test2(SumNumericalValuesInSentence_ESTest.java:60)
+2) test3(testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	SumNumericalValuesInSentence cannot be resolved
+
+	at testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest.test3(SumNumericalValuesInSentence_ESTest.java:77)
+3) test4(testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	SumNumericalValuesInSentence cannot be resolved
+
+	at testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest.test4(SumNumericalValuesInSentence_ESTest.java:92)
+4) test5(testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	SumNumericalValuesInSentence cannot be resolved to a type
+	SumNumericalValuesInSentence cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest.test5(SumNumericalValuesInSentence_ESTest.java:98)
+5) test0(testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	SumNumericalValuesInSentence cannot be resolved
+
+	at testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest.test0(SumNumericalValuesInSentence_ESTest.java:26)
+6) test1(testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	SumNumericalValuesInSentence cannot be resolved
+
+	at testing_ChatGPT_on_java.SumNumericalValuesInSentence_ESTest.test1(SumNumericalValuesInSentence_ESTest.java:43)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

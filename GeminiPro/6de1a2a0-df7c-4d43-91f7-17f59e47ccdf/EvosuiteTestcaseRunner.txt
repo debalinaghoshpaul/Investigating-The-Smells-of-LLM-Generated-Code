@@ -1,0 +1,7 @@
+JUnit version 4.13
+..Does the map contain a mapping for the key "Two"? true
+
+Time: 0.442
+
+OK (2 tests)
+

@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\c254e163-160c-4beb-a457-965a70ac3788\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\c254e163-160c-4beb-a457-965a70ac3788\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\c254e163-160c-4beb-a457-965a70ac3788\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\c254e163-160c-4beb-a457-965a70ac3788\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\c254e163-160c-4beb-a457-965a70ac3788\generatedProgram1OfVersion1_0.java:8:20: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\c254e163-160c-4beb-a457-965a70ac3788\generatedProgram1OfVersion1_0.java:9:20: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\c254e163-160c-4beb-a457-965a70ac3788\generatedProgram1OfVersion1_0.java:13:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\c254e163-160c-4beb-a457-965a70ac3788\generatedProgram1OfVersion1_0.java:13:39: Parameter str should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\c254e163-160c-4beb-a457-965a70ac3788\generatedProgram1OfVersion1_0.java:13:51: Parameter len1 should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\c254e163-160c-4beb-a457-965a70ac3788\generatedProgram1OfVersion1_0.java:13:61: Parameter len2 should be final. [FinalParameters]
+Audit done.

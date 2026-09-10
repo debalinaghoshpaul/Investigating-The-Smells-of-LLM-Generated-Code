@@ -1,0 +1,37 @@
+public interface Flyable {
+    void fly_obj();
+}
+
+public class Spacecraft implements Flyable {
+    @Override
+    public void fly_obj() {
+        System.out.println("Spacecraft is flying!");
+    }
+}
+
+public class Airplane implements Flyable {
+    @Override
+    public void fly_obj() {
+        System.out.println("Airplane is flying!");
+    }
+}
+
+public class Helicopter implements Flyable {
+    @Override
+    public void fly_obj() {
+        System.out.println("Helicopter is flying!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Spacecraft spacecraft = new Spacecraft();
+        Airplane airplane = new Airplane();
+        Helicopter helicopter = new Helicopter();
+
+        spacecraft.fly_obj();
+        airplane.fly_obj();
+        helicopter.fly_obj();
+    }
+}
+

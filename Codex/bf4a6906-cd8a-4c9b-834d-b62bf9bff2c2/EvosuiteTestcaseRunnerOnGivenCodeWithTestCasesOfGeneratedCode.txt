@@ -1,0 +1,73 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.329
+There were 11 failures:
+1) test06(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Stack must be defined in its own file
+
+	at testing_ChatGPT_on_java.Stack.<init>(FilterStack.java:2)
+	at testing_ChatGPT_on_java.Stack_ESTest.test06(Stack_ESTest.java:73)
+2) test07(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Stack must be defined in its own file
+
+	at testing_ChatGPT_on_java.Stack.<init>(FilterStack.java:2)
+	at testing_ChatGPT_on_java.Stack_ESTest.test07(Stack_ESTest.java:81)
+3) test08(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Stack must be defined in its own file
+
+	at testing_ChatGPT_on_java.Stack.<init>(FilterStack.java:2)
+	at testing_ChatGPT_on_java.Stack_ESTest.test08(Stack_ESTest.java:88)
+4) test09(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Stack.main(FilterStack.java:73)
+	at testing_ChatGPT_on_java.Stack_ESTest.test09(Stack_ESTest.java:98)
+5) test10(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Stack must be defined in its own file
+
+	at testing_ChatGPT_on_java.Stack.<init>(FilterStack.java:2)
+	at testing_ChatGPT_on_java.Stack_ESTest.test10(Stack_ESTest.java:104)
+6) test00(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Stack must be defined in its own file
+
+	at testing_ChatGPT_on_java.Stack.<init>(FilterStack.java:2)
+	at testing_ChatGPT_on_java.Stack_ESTest.test00(Stack_ESTest.java:20)
+7) test01(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Stack must be defined in its own file
+
+	at testing_ChatGPT_on_java.Stack.<init>(FilterStack.java:2)
+	at testing_ChatGPT_on_java.Stack_ESTest.test01(Stack_ESTest.java:30)
+8) test02(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Stack must be defined in its own file
+
+	at testing_ChatGPT_on_java.Stack.<init>(FilterStack.java:2)
+	at testing_ChatGPT_on_java.Stack_ESTest.test02(Stack_ESTest.java:39)
+9) test03(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Stack must be defined in its own file
+
+	at testing_ChatGPT_on_java.Stack.<init>(FilterStack.java:2)
+	at testing_ChatGPT_on_java.Stack_ESTest.test03(Stack_ESTest.java:47)
+10) test04(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Stack must be defined in its own file
+
+	at testing_ChatGPT_on_java.Stack.<init>(FilterStack.java:2)
+	at testing_ChatGPT_on_java.Stack_ESTest.test04(Stack_ESTest.java:56)
+11) test05(testing_ChatGPT_on_java.Stack_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Stack must be defined in its own file
+
+	at testing_ChatGPT_on_java.Stack.<init>(FilterStack.java:2)
+	at testing_ChatGPT_on_java.Stack_ESTest.test05(Stack_ESTest.java:66)
+
+FAILURES!!!
+Tests run: 11,  Failures: 11
+

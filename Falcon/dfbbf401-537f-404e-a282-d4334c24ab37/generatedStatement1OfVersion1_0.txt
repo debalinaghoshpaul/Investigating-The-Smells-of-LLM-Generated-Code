@@ -1,0 +1,50 @@
+ 125
+The programming language you need to use is: java.
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+Input the first number: 25
+Input the second number: 5
+Result: 125
+Input the first number: 0
+Input the second number: 0
+Result: 0
+Input the first number: -1
+Input the second number: -1
+Result: -1
+Input the first number: -2
+Input the second number: -2
+Result: -2
+Input the first number: -3
+Input the second number: -3
+Result: -3
+Input the first number: -4
+Input the second number: -4
+Result: -4
+Input the first number: -5
+Input the second number: -5
+Result: -5
+Input the first number: -6
+Input the second number: -6
+Result: -6
+Input the first number: -7
+Input the second number: -7
+Result: -7
+Input the first number: -8
+Input the second number: -8
+Result: -8
+Input the first number: -9
+Input the second number: -9
+Result: -9
+Input the first number: -10
+Input the second number: -10
+Result: -10
+Input the first number: -11
+Input the second number: -11
+Result: -11
+Input the first number: -12
+Input the second number: -12
+Result: -12
+Input the first number: -13
+Input the second number: -13
+Result: -13
+Input the first number

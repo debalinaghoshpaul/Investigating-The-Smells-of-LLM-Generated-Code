@@ -1,0 +1,9 @@
+
+
+Test cases including corner cases:
+
+* **Corner case 1:** a = 0, b = 0, c = 0, d = 0
+* **Corner case 2:** a = 1, b = 1, c = 1, d = 1
+* **Corner case 3:** a = -1, b = -1, c = -1, d = -1
+* **Corner case 4:** a = Double.MAX_VALUE, b = Double.MAX_VALUE, c = Double.MAX_VALUE, d = Double.MAX_VALUE
+* **Corner case 5:** a = Double.MIN_VALUE, b = Double.MIN_VALUE, c = Double.MIN_VALUE, d = Double.MIN_VALUE

@@ -1,0 +1,4 @@
+To solve this problem, you can start by creating a Pizza class that represents an individual pizza with its size and toppings. Then create a PizzaOrder class that contains an array of pizzas and implements the necessary methods to get the number of pizzas, get each individual pizza, and implement a copy constructor.
+
+Here is some sample code to get you started:
+

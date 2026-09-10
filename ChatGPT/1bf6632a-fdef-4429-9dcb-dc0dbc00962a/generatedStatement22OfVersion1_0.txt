@@ -1,0 +1,4 @@
+
+
+**Test Case 6 (Corner Case: No islands):**
+Input:

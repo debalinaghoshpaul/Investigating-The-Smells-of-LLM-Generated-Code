@@ -1,0 +1,18 @@
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class CheckMapEmpty {
+
+    public static void main(String[] args) {
+        // Create a HashMap
+        Map<String, Integer> map = new HashMap<>();
+
+        // Check if the map is empty
+        boolean isEmpty = map.isEmpty();
+
+        // Print the result
+        System.out.println("Is the map empty? " + isEmpty);
+    }
+}
+```

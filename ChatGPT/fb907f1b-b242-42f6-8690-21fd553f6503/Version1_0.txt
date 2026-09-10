@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8rpDoedYGW3FfOYhi8AyIYK5uKkiZ",
+  "object" : "chat.completion",
+  "created" : 1707838972,
+  "model" : "gpt-3.5-turbo-0613",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Sure! Here's a Java program that implements a stack and removes elements that do not satisfy a given condition:\n\n```java\nimport java.util.*;\n\nclass Stack {\n    private int top;\n    private int[] stackArr;\n    private int maxSize;\n\n    public Stack(int size) {\n        top = -1;\n        maxSize = size;\n        stackArr = new int[maxSize];\n    }\n\n    public void push(int value) {\n        if (top == maxSize - 1) {\n            System.out.println(\"Stack is full. Cannot push element.\");\n            return;\n        }\n        stackArr[++top] = value;\n    }\n\n    public int pop() {\n        if (top == -1) {\n            System.out.println(\"Stack is empty. Cannot pop element.\");\n            return -1;\n        }\n        return stackArr[top--];\n    }\n\n    public boolean isEmpty() {\n        return top == -1;\n    }\n\n    public void removeElements(int condition) {\n        Stack tempStack = new Stack(maxSize);\n        while (!isEmpty()) {\n            int element = pop();\n            if (element % condition == 0) {\n                tempStack.push(element);\n            }\n        }\n\n        while (!tempStack.isEmpty()) {\n            push(tempStack.pop());\n        }\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Stack stack = new Stack(5);\n        stack.push(2);\n        stack.push(4);\n        stack.push(9);\n        stack.push(6);\n        stack.push(3);\n\n        int condition = 2;\n\n        System.out.println(\"Stack before removing elements:\");\n        while (!stack.isEmpty()) {\n            System.out.println(stack.pop());\n        }\n\n        stack.push(2);\n        stack.push(4);\n        stack.push(9);\n        stack.push(6);\n        stack.push(3);\n\n        stack.removeElements(condition);\n\n        System.out.println(\"\\nStack after removing elements not divisible by \" + condition + \":\");\n        while (!stack.isEmpty()) {\n            System.out.println(stack.pop());\n        }\n    }\n}\n```\n\nOutput:\n```\nStack before removing elements:\n3\n6\n9\n4\n2\n\nStack after removing elements not divisible by 2:\n6\n4\n2\n```\n\nIn this program, we define a `Stack` class that has methods for pushing, popping, and checking if the stack is empty. The `removeElements` method removes elements from the stack that do not satisfy the given condition. We use a temporary stack to store the elements that satisfy the condition and then push them back into the original stack.\n\nIn the `main` method, we create a stack, push some elements into it, and then call the `removeElements` method with a given condition. Finally, we display the updated stack after removing elements that do not satisfy the condition."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 62,
+    "completion_tokens" : 573,
+    "total_tokens" : 635
+  },
+  "system_fingerprint" : null
+}

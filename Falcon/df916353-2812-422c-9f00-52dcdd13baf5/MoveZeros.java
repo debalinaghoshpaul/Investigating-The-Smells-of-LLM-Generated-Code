@@ -1,0 +1,41 @@
+import java.util.*;
+
+public class MoveZeros {
+
+    public static void main(String[] args) {
+        // Test cases
+        int[] arr1 = {1, 0, 2, 0, 3, 0, 4, 0}; // Expected: [1, 2, 3, 4, 0, 0, 0, 0]
+        int[] arr2 = {0, 1, 0, 2, 0, 3, 0, 4}; // Expected: [1, 2, 3, 4, 0, 0, 0, 0]
+        int[] arr3 = {0, 0, 0, 0}; // Expected: [0, 0, 0, 0]
+        int[] arr4 = {1, 2, 3, 4}; // Expected: [1, 2, 3, 4]
+        int[] arr5 = {}; // Expected: []
+
+        // Function calls
+        moveZeros(arr1);
+        moveZeros(arr2);
+        moveZeros(arr3);
+        moveZeros(arr4);
+        moveZeros(arr5);
+
+        // Print results
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr3));
+        System.out.println(Arrays.toString(arr4));
+        System.out.println(Arrays.toString(arr5));
+    }
+
+    public static void moveZeros(int[] arr) {
+        int nonZeroIndex = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != 0) {
+                arr[nonZeroIndex++] = arr[i];
+            }
+        }
+
+        for (int i = nonZeroIndex; i < arr.length; i++) {
+            arr[i] = 0;
+        }
+    }
+}

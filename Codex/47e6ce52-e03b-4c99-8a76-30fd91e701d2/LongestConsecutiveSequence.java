@@ -1,0 +1,62 @@
+import java.util.*;
+
+public class LongestConsecutiveSequence {
+
+    public static int findLongestConsecutiveSequence(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+
+        // Create a set to store the numbers in the array
+        Set<Integer> numSet = new HashSet<>();
+        for (int num : nums) {
+            numSet.add(num);
+        }
+
+        // Initialize the maximum length of the consecutive sequence
+        int maxLength = 0;
+
+        // Iterate over the numbers in the array
+        for (int num : nums) {
+            // Check if the current number is the start of a consecutive sequence
+            if (!numSet.contains(num - 1)) {
+                int currentLength = 1;
+
+                // Iterate over the consecutive numbers
+                while (numSet.contains(num + currentLength)) {
+                    currentLength++;
+                }
+
+                // Update the maximum length of the consecutive sequence
+                maxLength = Math.max(maxLength, currentLength);
+            }
+        }
+
+        return maxLength;
+    }
+
+    public static void main(String[] args) {
+        // Test cases
+        int[] nums1 = {49, 1, 3, 200, 2, 4, 70, 5};
+        int[] nums2 = {100, 4, 200, 1, 3, 2};
+        int[] nums3 = {1, 2, 3, 4, 5};
+        int[] nums4 = {};
+        int[] nums5 = {1};
+        int[] nums6 = {1, 1, 1, 1, 1};
+        int[] nums7 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] nums8 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+
+        // Expected outputs
+        int[] expectedOutputs = {5, 4, 5, 0, 1, 1, 10, 10};
+
+        // Run the test cases and check the outputs
+        for (int i = 0; i < nums1.length; i++) {
+            int output = findLongestConsecutiveSequence(nums1[i]);
+            if (output == expectedOutputs[i]) {
+                System.out.println("Test case " + (i + 1) + " passed!");
+            } else {
+                System.out.println("Test case " + (i + 1) + " failed! Expected output: " + expectedOutputs[i] + ", Actual output: " + output);
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+
+
+**Test Cases:**
+
+* **Normal:** num1 = 15, num2 = 7
+* **All bits different:** num1 = 0, num2 = 255
+* **All bits same:** num1 = 64, num2 = 64
+* **Leading zeros:** num1 = 127, num2 = 128
+
+**Problem 2: Index of First Unique Character**
+
+**Java Program:**
+

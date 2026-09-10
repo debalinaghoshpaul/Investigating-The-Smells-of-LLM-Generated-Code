@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95BbgfsPKlg3czRxfdeLLGBU4Fizr",
+  "object" : "chat.completion",
+  "created" : 1711023284,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class CombinationFinder {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n        \n        System.out.print(\"Enter an integer: \");\n        int n = input.nextInt();\n        \n        int count = 0;\n        \n        for (int a = 0; a <= 9; a++) {\n            for (int b = 0; b <= 9; b++) {\n                for (int c = 0; c <= 9; c++) {\n                    for (int d = 0; d <= 9; d++) {\n                        if (a + b + c + d == n) {\n                            count++;\n                        }\n                    }\n                }\n            }\n        }\n        \n        System.out.println(\"Number of combinations: \" + count);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 99,
+    "completion_tokens" : 168,
+    "total_tokens" : 267
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

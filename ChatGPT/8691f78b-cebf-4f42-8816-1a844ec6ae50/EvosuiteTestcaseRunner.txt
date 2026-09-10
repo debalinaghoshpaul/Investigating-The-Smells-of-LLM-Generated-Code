@@ -1,0 +1,9 @@
+JUnit version 4.13
+..Combined Stack: [2, 1, 6, 5, 4, 3]
+....
+Time: 0.391
+
+OK (6 tests)
+
+
+

@@ -1,0 +1,23 @@
+import java.util.LinkedList;
+
+public class InsertAtFront {
+    public static void main(String[] args) {
+        LinkedList<Integer> list = new LinkedList<>();
+
+        // Add elements to the list
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+
+        // Print the original list
+        System.out.println("Original list: " + list);
+
+        // Insert an element at the front of the list
+        list.addFirst(0);
+
+        // Print the modified list
+        System.out.println("Modified list: " + list);
+    }
+}

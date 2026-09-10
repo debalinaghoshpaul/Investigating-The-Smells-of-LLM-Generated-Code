@@ -1,0 +1,7 @@
+JUnit version 4.13
+..Input a degree in Fahrenheit: .Input a degree in Fahrenheit: 5.0 degree Fahrenheit is equal to -15.0 in Celsius
+.Input a degree in Fahrenheit: 
+Time: 0.35
+
+OK (4 tests)
+

@@ -1,0 +1,18 @@
+JUnit version 4.13
+.Original IP Address: 000.000.000.000
+IP Address without leading zeros: 0.0.0.0
+
+Original IP Address: 192.168.1.1
+IP Address without leading zeros: 192.168.1.1
+
+Original IP Address: 10.0.0.1
+IP Address without leading zeros: 10.0.0.1
+
+Original IP Address: 0.0.0.0
+IP Address without leading zeros: 0.0.0.0
+
+....
+Time: 0.329
+
+OK (5 tests)
+

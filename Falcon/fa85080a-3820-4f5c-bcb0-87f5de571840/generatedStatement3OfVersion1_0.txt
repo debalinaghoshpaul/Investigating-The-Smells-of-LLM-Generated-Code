@@ -1,0 +1,13 @@
+
+Input:
+circle = new Circle(5)
+rectangle = new Rectangle(10, 5)
+triangle = new Triangle(3, 4, 5)
+circle.draw()
+rectangle.draw()
+triangle.draw()
+
+Output:
+Drawing a circle with radius 5
+Drawing a rectangle with length 10 and width 5
+Drawing a triangle with sides 3, 4, and 5

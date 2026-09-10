@@ -1,0 +1,7 @@
+JUnit version 4.13
+....Input a float number: .Input a float number: ..Input a float number: The rounded value of 2.000000 is: 2.00
+
+Time: 0.472
+
+OK (7 tests)
+

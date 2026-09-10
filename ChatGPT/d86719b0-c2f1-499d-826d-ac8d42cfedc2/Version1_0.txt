@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-920cT1Se8XY059VdxKCuk0WViUdmT",
+  "object" : "chat.completion",
+  "created" : 1710266065,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "public class ConsecutiveNumbers {\n\n    public static void main(String[] args) {\n        int[] array = {1, 2, 5, 0, 4, 3, 6};\n\n        boolean result = checkConsecutiveNumbers(array);\n        System.out.println(\"Check consecutive numbers in the array: \" + result);\n    }\n\n    public static boolean checkConsecutiveNumbers(int[] array) {\n        Arrays.sort(array);\n\n        for (int i = 1; i < array.length; i++) {\n            if (array[i] - array[i - 1] != 1) {\n                return false;\n            }\n        }\n\n        return true;\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 120,
+    "completion_tokens" : 138,
+    "total_tokens" : 258
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

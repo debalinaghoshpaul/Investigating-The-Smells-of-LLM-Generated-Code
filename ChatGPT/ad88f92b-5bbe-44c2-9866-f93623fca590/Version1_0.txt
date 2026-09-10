@@ -1,0 +1,42 @@
+```java
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class MinimumDate {
+
+    public static void main(String[] args) {
+        // Get the current date
+        Calendar calendar = new GregorianCalendar();
+
+        // Get the minimum value of year, month, week, date from the current date
+        int minYear = calendar.getMinimum(Calendar.YEAR);
+        int minMonth = calendar.getMinimum(Calendar.MONTH);
+        int minWeek = calendar.getMinimum(Calendar.WEEK_OF_YEAR);
+        int minDate = calendar.getMinimum(Calendar.DATE);
+
+        // Print the minimum values
+        System.out.println("Minimum year: " + minYear);
+        System.out.println("Minimum month: " + minMonth);
+        System.out.println("Minimum week: " + minWeek);
+        System.out.println("Minimum date: " + minDate);
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Corner case 1:** The current date is the first day of the year.
+* **Corner case 2:** The current date is the first day of the month.
+* **Corner case 3:** The current date is the first day of the week.
+* **Corner case 4:** The current date is the last day of the year.
+* **Corner case 5:** The current date is the last day of the month.
+* **Corner case 6:** The current date is the last day of the week.
+
+**Expected output:**
+
+```
+Minimum year: 1970
+Minimum month: 0
+Minimum week: 1
+Minimum date: 1
+```

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94ubTKd151SMsKm678eu9T9We7skW",
+  "object" : "chat.completion",
+  "created" : 1710957923,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Solution:\n\n```java\nimport java.util.Scanner;\n\npublic class PowerOfTwo {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter an integer: \");\n        int n = sc.nextInt();\n        \n        if((n & (n-1)) == 0) {\n            System.out.println(n + \" is a power of 2.\");\n        } else {\n            System.out.println(n + \" is not a power of 2.\");\n        }\n        \n        sc.close();\n    }\n}\n```\n\nIn this program, we use the bitwise operation `&` to check if the given integer `n` is a power of 2. If `(n & (n-1)) == 0`, then the integer is a power of 2. This is because in binary representation, a power of 2 will have only one '1' bit set and all other bits will be '0'. By subtracting one from a power of 2, all the bits before the '1' bit will be set to '1' and the '1' bit will be set to '0'. So, when we bitwise AND the original number `n` with `n-1`, we get 0 if `n` is a power of 2."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 155,
+    "completion_tokens" : 267,
+    "total_tokens" : 422
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

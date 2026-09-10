@@ -1,0 +1,10 @@
+JUnit version 4.13
+..Original Array: [5, 7, 2, 4, 9]
+
+Number of even elements in the array: 2
+Number of odd elements in the array: 3
+
+Time: 0.362
+
+OK (2 tests)
+

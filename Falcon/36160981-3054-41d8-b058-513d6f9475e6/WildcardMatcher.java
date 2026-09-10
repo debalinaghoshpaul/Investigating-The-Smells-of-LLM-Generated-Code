@@ -1,0 +1,17 @@
+import java.util.regex.Pattern;
+
+public class WildcardMatcher {
+
+    public static void main(String[] args) {
+        String inputString = "Java Programming";
+        String wildcardString = "J*a*P*";
+
+        boolean isMatch = Pattern.matches(wildcardString, inputString);
+
+        if (isMatch) {
+            System.out.println("The input string matches the wildcard string.");
+        } else {
+            System.out.println("The input string does not match the wildcard string.");
+        }
+    }
+}

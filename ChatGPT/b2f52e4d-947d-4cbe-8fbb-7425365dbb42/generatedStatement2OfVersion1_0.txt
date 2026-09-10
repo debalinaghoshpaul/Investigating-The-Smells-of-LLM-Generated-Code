@@ -1,0 +1,31 @@
+
+
+**Test cases:**
+
+* **Corner cases:**
+    * number = 0
+    * number = 1
+    * number = -1
+* **Positive cases:**
+    * number = 121
+    * number = 12321
+    * number = 1234321
+* **Negative cases:**
+    * number = 12345
+    * number = 123456
+    * number = 1234567
+
+**Expected output:**
+
+* For corner cases:
+    * 0 is a palindrome.
+    * 1 is a palindrome.
+    * -1 is not a palindrome.
+* For positive cases:
+    * 121 is a palindrome.
+    * 12321 is a palindrome.
+    * 1234321 is a palindrome.
+* For negative cases:
+    * 12345 is not a palindrome.
+    * 123456 is not a palindrome.
+    * 1234567 is not a palindrome.

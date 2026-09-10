@@ -1,0 +1,9 @@
+
+
+Test cases:
+
+* **Normal case:** An array containing both positive and negative integers, e.g., [1, -3, 5, -2, 3, -1, 0, 1].
+* **Empty array:** An array with no elements.
+* **Array containing only positive integers:** An array containing only positive integers, e.g., [1, 5, 3, 1, 0].
+* **Array containing only negative integers:** An array containing only negative integers, e.g., [-3, -2, -1].
+* **Array containing zero:** An array containing both positive and negative integers and zero, e.g., [1, -3, 5, -2, 3, -1, 0, 1].

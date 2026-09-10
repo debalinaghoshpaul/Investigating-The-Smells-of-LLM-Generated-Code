@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94pmkqWrkmPmVZqfphmcQDvjPzWmj",
+  "object" : "chat.completion",
+  "created" : 1710939402,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\n\npublic class EvenOddPartition {\n\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};\n        \n        int[] result = partitionEvenOdd(arr);\n        \n        System.out.println(\"Original Array: \" + Arrays.toString(arr));\n        System.out.println(\"Even-Odd Partition: \" + Arrays.toString(result));\n    }\n    \n    public static int[] partitionEvenOdd(int[] arr) {\n        int evenCount = 0;\n        int oddCount = 0;\n        \n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] % 2 == 0) {\n                evenCount++;\n            } else {\n                oddCount++;\n            }\n        }\n        \n        int[] result = new int[arr.length];\n        int evenIndex = 0;\n        int oddIndex = evenCount;\n        \n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] % 2 == 0) {\n                result[evenIndex] = arr[i];\n                evenIndex++;\n            } else {\n                result[oddIndex] = arr[i];\n                oddIndex++;\n            }\n        }\n        \n        return result;\n    }\n}\n```\n\n\nExpected Output:\nOriginal Array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nEven-Odd Partition: [2, 4, 6, 8, 10, 1, 3, 5, 7, 9]"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 71,
+    "completion_tokens" : 354,
+    "total_tokens" : 425
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

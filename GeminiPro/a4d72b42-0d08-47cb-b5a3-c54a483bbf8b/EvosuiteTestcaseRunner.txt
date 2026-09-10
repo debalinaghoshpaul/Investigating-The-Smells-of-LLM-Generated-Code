@@ -1,0 +1,11 @@
+JUnit version 4.13
+.Enter a string: 
+Enter the character to remove: 
+The new string is: 4
+.Enter a string: 
+Enter the character to remove: 
+.
+Time: 0.474
+
+OK (3 tests)
+

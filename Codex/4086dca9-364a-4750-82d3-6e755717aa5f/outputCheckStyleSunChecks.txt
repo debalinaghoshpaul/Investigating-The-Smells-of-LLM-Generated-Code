@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:9:30: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:10:31: '20' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:11:31: '30' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:12:30: '40' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:13:31: '50' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:16:29: '30' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:28: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResouresCollection\4086dca9-364a-4750-82d3-6e755717aa5f\generatedProgram1OfVersion1_0.java:30: Line is longer than 80 characters (found 88). [LineLength]
+Audit done.

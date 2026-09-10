@@ -1,0 +1,16 @@
+JUnit version 4.13
+.The sum of the two elements in the array equal to the target value is: 1 and 5
+
+Test Case 1:
+The sum of the two elements in the array equal to the target value is: 1 and 6
+
+Test Case 2:
+The sum of the two elements in the array equal to the target value is: 1 and 2
+
+Test Case 3:
+The sum of the two elements in the array equal to the target value is: 4 and 6
+......
+Time: 0.345
+
+OK (7 tests)
+

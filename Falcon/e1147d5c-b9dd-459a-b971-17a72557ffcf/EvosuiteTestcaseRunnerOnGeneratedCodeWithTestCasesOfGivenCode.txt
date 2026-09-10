@@ -1,0 +1,39 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.274
+There were 6 failures:
+1) test1(testing_ChatGPT_on_java.Exercise49_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise49 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise49_ESTest.test1(Exercise49_ESTest.java:35)
+2) test0(testing_ChatGPT_on_java.Exercise49_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise49 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise49_ESTest.test0(Exercise49_ESTest.java:26)
+3) test3(testing_ChatGPT_on_java.Exercise49_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise49 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise49_ESTest.test3(Exercise49_ESTest.java:67)
+4) test2(testing_ChatGPT_on_java.Exercise49_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise49 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise49_ESTest.test2(Exercise49_ESTest.java:52)
+5) test5(testing_ChatGPT_on_java.Exercise49_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	Exercise49 cannot be resolved to a type
+	Exercise49 cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.Exercise49_ESTest.test5(Exercise49_ESTest.java:79)
+6) test4(testing_ChatGPT_on_java.Exercise49_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	Exercise49 cannot be resolved
+
+	at testing_ChatGPT_on_java.Exercise49_ESTest.test4(Exercise49_ESTest.java:74)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

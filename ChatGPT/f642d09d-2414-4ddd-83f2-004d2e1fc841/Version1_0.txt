@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8yTymsRVPi6R8W5R8XFIRCuJ4yAIa",
+  "object" : "chat.completion",
+  "created" : 1709425612,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Person {\n    private String name;\n    private int age;\n    private String country;\n\n    // Getter for name\n    public String getName() {\n        return name;\n    }\n\n    // Setter for name\n    public void setName(String name) {\n        this.name = name;\n    }\n\n    // Getter for age\n    public int getAge() {\n        return age;\n    }\n\n    // Setter for age\n    public void setAge(int age) {\n        this.age = age;\n    }\n\n    // Getter for country\n    public String getCountry() {\n        return country;\n    }\n\n    // Setter for country\n    public void setCountry(String country) {\n        this.country = country;\n    }\n\n    public static void main(String[] args) {\n        // Create an instance of Person class\n        Person person = new Person();\n\n        // Set the values using setter methods\n        person.setName(\"John Doe\");\n        person.setAge(30);\n        person.setCountry(\"USA\");\n\n        // Display the values using getter methods\n        System.out.println(\"Name: \" + person.getName());\n        System.out.println(\"Age: \" + person.getAge());\n        System.out.println(\"Country: \" + person.getCountry());\n    }\n}\n```\nThis Java program defines a class called Person with private instance variables name, age, and country. It provides public getter and setter methods to access and modify these variables. In the main method, an instance of the Person class is created, and the setter methods are used to set the values for name, age, and country. Finally, the getter methods are used to display these values."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 84,
+    "completion_tokens" : 331,
+    "total_tokens" : 415
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

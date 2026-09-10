@@ -1,0 +1,9 @@
+
+
+Test cases:
+
+* **Corner case:** An empty tree (null root)
+* **Simple case 1:** A tree with a single node
+* **Simple case 2:** A tree with two levels and a consecutive path
+* **Simple case 3:** A tree with multiple levels and a consecutive path
+* **Complex case:** A tree with multiple branches and consecutive paths of different lengths

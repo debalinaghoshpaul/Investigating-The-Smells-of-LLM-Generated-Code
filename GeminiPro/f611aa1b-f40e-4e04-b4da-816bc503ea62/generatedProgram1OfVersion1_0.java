@@ -1,0 +1,40 @@
+import java.util.Date;
+
+public class SystemTime {
+
+    public static void main(String[] args) {
+        // Create a Date object
+        Date date = new Date();
+
+        // Display the current date and time
+        System.out.println("Current Date time: " + date);
+    }
+}
+
+//Some test cases including corner cases.
+
+Class SystemTimeTest {
+    // Test case for valid input.
+    @Test
+    public void testValidInput() {
+        Date expectedDate = new Date();
+        Date actualDate = SystemTime.getCurrentTime();
+        assertEquals(expectedDate.toString(), actualDate.toString());
+    }
+
+    // Test case for date with corner cases.
+    @Test
+    public void testInvalidDate() {
+        Date expectedDate = new Date(-1); // Invalid date.
+        Date actualDate  = SystemTime.getCurrentTime();
+        assertNotEquals(expectedDate.toString(), actualDate.toString());
+    }
+
+    // Test case for time with corner cases.
+    @Test
+    public void testInvalidTime() {
+        Date expectedDate = new Date(1234567890000L); // Invalid time.
+        Date actualDate = SystemTime.getCurrentTime();
+        assertNotEquals(expectedDate.toString(), actualDate.toString());
+    }
+}

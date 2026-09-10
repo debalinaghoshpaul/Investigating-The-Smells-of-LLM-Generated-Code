@@ -1,0 +1,20 @@
+
+
+**Test Cases:**
+
+* **Corner Cases:**
+    * n = 0 (expected output: 0)
+    * n = 1 (expected output: 0)
+    * n = 5 (expected output: 1)
+    * n = 10 (expected output: 2)
+    * n = 25 (expected output: 6)
+
+* **Positive Test Cases:**
+    * n = 100 (expected output: 24)
+    * n = 1000 (expected output: 249)
+    * n = 10000 (expected output: 2499)
+
+* **Negative Test Cases:**
+    * n = -1 (expected output: Invalid input)
+    * n = -5 (expected output: Invalid input)
+    * n = -10 (expected output: Invalid input)

@@ -1,0 +1,7 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+UselessParentheses: Useless parentheses.: 3
+ControlStatementBraces: This statement should have braces: 5
+CommentRequired: Class comments are required: 5
+ForLoopCanBeForeach: This for loop can be replaced by a foreach loop: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

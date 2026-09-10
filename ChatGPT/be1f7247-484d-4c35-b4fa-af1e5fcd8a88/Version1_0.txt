@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93Os3l9dk81Y0MAdWOXYraP0nSiJz",
+  "object" : "chat.completion",
+  "created" : 1710597615,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\n\npublic class MaxMinStack {\n    \n    Stack<Integer> stack = new Stack<>();\n    Stack<Integer> maxStack = new Stack<>();\n    Stack<Integer> minStack = new Stack<>();\n    \n    public void push(int element) {\n        stack.push(element);\n        \n        if(maxStack.isEmpty() || element >= maxStack.peek()) {\n            maxStack.push(element);\n        }\n        \n        if(minStack.isEmpty() || element <= minStack.peek()) {\n            minStack.push(element);\n        }\n    }\n    \n    public int pop() {\n        if(stack.isEmpty()) {\n            return -1;\n        }\n        \n        int popped = stack.pop();\n        \n        if(popped == maxStack.peek()) {\n            maxStack.pop();\n        }\n        \n        if(popped == minStack.peek()) {\n            minStack.pop();\n        }\n        \n        return popped;\n    }\n    \n    public int getMax() {\n        return maxStack.isEmpty() ? -1 : maxStack.peek();\n    }\n    \n    public int getMin() {\n        return minStack.isEmpty() ? -1 : minStack.peek();\n    }\n    \n    public static void main(String[] args) {\n        MaxMinStack stack = new MaxMinStack();\n        stack.push(3);\n        stack.push(5);\n        stack.push(2);\n        stack.push(7);\n        \n        System.out.println(\"Max element in stack: \" + stack.getMax());\n        System.out.println(\"Min element in stack: \" + stack.getMin());\n        \n        stack.pop();\n        System.out.println(\"Max element after pop: \" + stack.getMax());\n        System.out.println(\"Min element after pop: \" + stack.getMin());\n    }\n}\n```\n\nThis program uses three stacks - one for storing the elements, one for storing the maximum values encountered so far, and one for storing the minimum values encountered so far. The `push` method pushes an element onto the stack and updates the maxStack and minStack accordingly. The `pop` method pops an element from the stack and also updates maxStack and minStack if necessary. The `getMax` and `getMin` methods return the maximum and minimum elements in the stack respectively. \n\nIn the `main` method, we create an instance of `MaxMinStack`, push some elements onto the stack, and then print the maximum and minimum elements in the stack before and after popping an element."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 67,
+    "completion_tokens" : 482,
+    "total_tokens" : 549
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

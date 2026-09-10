@@ -1,0 +1,54 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E
+Time: 0.488
+There were 9 failures:
+1) test1(testing_ChatGPT_on_java.Exerecise11_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exerecise11.main(CheckIf15.java:4)
+	at testing_ChatGPT_on_java.Exerecise11_ESTest.test1(Exerecise11_ESTest.java:33)
+2) test0(testing_ChatGPT_on_java.Exerecise11_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exerecise11.calculate(CheckIf15.java:15)
+	at testing_ChatGPT_on_java.Exerecise11_ESTest.test0(Exerecise11_ESTest.java:24)
+3) test5(testing_ChatGPT_on_java.Exerecise11_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exerecise11.calculate(CheckIf15.java:15)
+	at testing_ChatGPT_on_java.Exerecise11_ESTest.test5(Exerecise11_ESTest.java:79)
+4) test4(testing_ChatGPT_on_java.Exerecise11_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exerecise11.calculate(CheckIf15.java:15)
+	at testing_ChatGPT_on_java.Exerecise11_ESTest.test4(Exerecise11_ESTest.java:73)
+5) test3(testing_ChatGPT_on_java.Exerecise11_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exerecise11.main(CheckIf15.java:4)
+	at testing_ChatGPT_on_java.Exerecise11_ESTest.test3(Exerecise11_ESTest.java:60)
+6) test2(testing_ChatGPT_on_java.Exerecise11_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exerecise11.main(CheckIf15.java:4)
+	at testing_ChatGPT_on_java.Exerecise11_ESTest.test2(Exerecise11_ESTest.java:43)
+7) test8(testing_ChatGPT_on_java.Exerecise11_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exerecise11 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exerecise11.<init>(CheckIf15.java:3)
+	at testing_ChatGPT_on_java.Exerecise11_ESTest.test8(Exerecise11_ESTest.java:97)
+8) test7(testing_ChatGPT_on_java.Exerecise11_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exerecise11.calculate(CheckIf15.java:15)
+	at testing_ChatGPT_on_java.Exerecise11_ESTest.test7(Exerecise11_ESTest.java:91)
+9) test6(testing_ChatGPT_on_java.Exerecise11_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exerecise11.calculate(CheckIf15.java:15)
+	at testing_ChatGPT_on_java.Exerecise11_ESTest.test6(Exerecise11_ESTest.java:85)
+
+FAILURES!!!
+Tests run: 9,  Failures: 9
+

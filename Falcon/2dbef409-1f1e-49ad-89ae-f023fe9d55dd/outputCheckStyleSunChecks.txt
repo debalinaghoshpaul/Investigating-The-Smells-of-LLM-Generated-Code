@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\2dbef409-1f1e-49ad-89ae-f023fe9d55dd\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\2dbef409-1f1e-49ad-89ae-f023fe9d55dd\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\2dbef409-1f1e-49ad-89ae-f023fe9d55dd\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\2dbef409-1f1e-49ad-89ae-f023fe9d55dd\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\2dbef409-1f1e-49ad-89ae-f023fe9d55dd\generatedProgram1OfVersion1_0.java:11:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\2dbef409-1f1e-49ad-89ae-f023fe9d55dd\generatedProgram1OfVersion1_0.java:11:31: Parameter number should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\2dbef409-1f1e-49ad-89ae-f023fe9d55dd\generatedProgram1OfVersion1_0.java:14:47: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\2dbef409-1f1e-49ad-89ae-f023fe9d55dd\generatedProgram1OfVersion1_0.java:14:61: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_Liang_Methods\2dbef409-1f1e-49ad-89ae-f023fe9d55dd\generatedProgram1OfVersion1_0.java:15:23: '10' is a magic number. [MagicNumber]
+Audit done.

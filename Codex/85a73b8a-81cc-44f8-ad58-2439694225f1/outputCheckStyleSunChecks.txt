@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:4:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:14:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:14:42: Parameter number should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:23:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:23:40: Parameter number should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:28:38: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:29:33: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResoursesMath\85a73b8a-81cc-44f8-ad58-2439694225f1\generatedProgram1OfVersion1_0.java:30:23: '10' is a magic number. [MagicNumber]
+Audit done.

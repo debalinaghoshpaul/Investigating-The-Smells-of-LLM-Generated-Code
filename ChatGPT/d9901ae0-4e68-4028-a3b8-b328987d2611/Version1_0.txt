@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91ytPb6hULUrjT0jh7jsRQYoxiTka",
+  "object" : "chat.completion",
+  "created" : 1710259427,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class SeparateZerosOnes {\n    \n    public static void separateZerosOnes(int[] arr) {\n        int left = 0;\n        int right = arr.length - 1;\n        \n        while (left < right) {\n            while (arr[left] == 0 && left < right) {\n                left++;\n            }\n            while (arr[right] == 1 && left < right) {\n                right--;\n            }\n            \n            if (left < right) {\n                arr[left++] = 0;\n                arr[right--] = 1;\n            }\n        }\n        \n        System.out.println(\"Array after separating 0s and 1s: \" + Arrays.toString(arr));\n    }\n\n    public static void main(String[] args) {\n        int[] arr = {0, 1, 0, 1, 1, 0, 1, 0};\n        \n        System.out.println(\"Original Array: \" + Arrays.toString(arr));\n\n        separateZerosOnes(arr);\n    }\n}\n```\n\nOutput:\n```\nOriginal Array: [0, 1, 0, 1, 1, 0, 1, 0]\nArray after separating 0s and 1s: [0, 0, 0, 0, 1, 1, 1, 1]\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 79,
+    "completion_tokens" : 286,
+    "total_tokens" : 365
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

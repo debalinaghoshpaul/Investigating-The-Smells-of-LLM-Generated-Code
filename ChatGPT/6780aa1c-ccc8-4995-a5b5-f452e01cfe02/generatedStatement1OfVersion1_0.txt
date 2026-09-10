@@ -1,0 +1,126 @@
+// Rational class
+class Rational {
+    private int numerator;
+    private int denominator;
+
+    // Constructors
+    public Rational(int numerator, int denominator) {
+        this.numerator = numerator;
+        this.denominator = denominator;
+        normalize();
+    }
+
+    public Rational(int wholeNumber) {
+        this.numerator = wholeNumber;
+        this.denominator = 1;
+    }
+
+    public Rational() {
+        this.numerator = 0;
+        this.denominator = 1;
+    }
+
+    // Static methods for arithmetic operations
+    public static Rational add(Rational r1, Rational r2) {
+        int newNumerator = r1.numerator * r2.denominator + r2.numerator * r1.denominator;
+        int newDenominator = r1.denominator * r2.denominator;
+        return new Rational(newNumerator, newDenominator);
+    }
+
+    public static Rational subtract(Rational r1, Rational r2) {
+        int newNumerator = r1.numerator * r2.denominator - r2.numerator * r1.denominator;
+        int newDenominator = r1.denominator * r2.denominator;
+        return new Rational(newNumerator, newDenominator);
+    }
+
+    public static Rational multiply(Rational r1, Rational r2) {
+        int newNumerator = r1.numerator * r2.numerator;
+        int newDenominator = r1.denominator * r2.denominator;
+        return new Rational(newNumerator, newDenominator);
+    }
+
+    public static Rational divide(Rational r1, Rational r2) {
+        int newNumerator = r1.numerator * r2.denominator;
+        int newDenominator = r1.denominator * r2.numerator;
+        return new Rational(newNumerator, newDenominator);
+    }
+
+    // Instance methods for arithmetic operations
+    public Rational add(Rational r) {
+        return add(this, r);
+    }
+
+    public Rational subtract(Rational r) {
+        return subtract(this, r);
+    }
+
+    public Rational multiply(Rational r) {
+        return multiply(this, r);
+    }
+
+    public Rational divide(Rational r) {
+        return divide(this, r);
+    }
+
+    // Getter and setter methods
+    public int getNumerator() {
+        return numerator;
+    }
+
+    public void setNumerator(int numerator) {
+        this.numerator = numerator;
+        normalize();
+    }
+
+    public int getDenominator() {
+        return denominator;
+    }
+
+    public void setDenominator(int denominator) {
+        this.denominator = denominator;
+        normalize();
+    }
+
+    // Normalize the sign of the rational number
+    private void normalize() {
+        if (denominator < 0) {
+            numerator *= -1;
+            denominator *= -1;
+        }
+    }
+
+    // Equals method
+    public boolean equals(Rational r) {
+        return this.numerator == r.numerator && this.denominator == r.denominator;
+    }
+
+    // toString method
+    public String toString() {
+        return numerator + "/" + denominator;
+    }
+} 
+
+// Test program
+public class TestRational {
+    public static void main(String[] args) {
+        Rational r1 = new Rational(1, 2);
+        Rational r2 = new Rational(3, 4);
+
+        System.out.println("r1: " + r1.toString());
+        System.out.println("r2: " + r2.toString());
+
+        Rational sum = Rational.add(r1, r2);
+        System.out.println("Sum: " + sum.toString());
+
+        Rational difference = Rational.subtract(r2, r1);
+        System.out.println("Difference: " + difference.toString());
+
+        Rational product = Rational.multiply(r1, r2);
+        System.out.println("Product: " + product.toString());
+
+        Rational quotient = Rational.divide(r1, r2);
+        System.out.println("Quotient: " + quotient.toString());
+
+        System.out.println("r1 equals r2: " + r1.equals(r2));
+    }
+}

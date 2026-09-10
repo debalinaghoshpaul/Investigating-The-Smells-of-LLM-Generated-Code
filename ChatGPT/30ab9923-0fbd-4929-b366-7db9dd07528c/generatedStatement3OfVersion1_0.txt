@@ -1,0 +1,12 @@
+
+Behavior of Lion:
+Lion eats meat
+Lion sleeps in the shade
+
+Behavior of Tiger:
+Tiger eats fresh meat
+Tiger sleeps in dense forest
+
+Behavior of Deer:
+Deer eats grass and leaves
+Deer sleeps in open fields

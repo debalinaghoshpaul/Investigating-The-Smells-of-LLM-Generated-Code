@@ -1,0 +1,24 @@
+```java
+import java.util.*;
+
+public class ReverseOrderTreeSet {
+
+    public static void main(String[] args) {
+        // Create a tree set
+        TreeSet<Integer> treeSet = new TreeSet<>();
+
+        // Add elements to the tree set
+        treeSet.add(1);
+        treeSet.add(2);
+        treeSet.add(3);
+        treeSet.add(4);
+        treeSet.add(5);
+
+        // Create a reverse order view of the tree set
+        NavigableSet<Integer> reverseOrderTreeSet = treeSet.descendingSet();
+
+        // Print the elements in reverse order
+        System.out.println(reverseOrderTreeSet);
+    }
+}
+```

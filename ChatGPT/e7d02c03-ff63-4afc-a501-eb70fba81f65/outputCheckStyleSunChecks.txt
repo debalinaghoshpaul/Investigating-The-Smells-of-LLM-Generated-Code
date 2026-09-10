@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedProgram1OfVersion1_0.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedProgram1OfVersion1_0.java:10:19: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedProgram1OfVersion1_0.java:11:19: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedProgram1OfVersion1_0.java:12:19: '20' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedProgram1OfVersion1_0.java:13:19: '15' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedProgram1OfVersion1_0.java:18: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_DataStructureCollectionExercise\e7d02c03-ff63-4afc-a501-eb70fba81f65\generatedProgram1OfVersion1_0.java:19: Line is longer than 80 characters (found 90). [LineLength]
+Audit done.

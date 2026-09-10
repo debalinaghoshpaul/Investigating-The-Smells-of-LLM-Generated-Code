@@ -1,0 +1,85 @@
+```java
+interface Flyable {
+    void fly_obj();
+}
+
+class Spacecraft implements Flyable {
+    @Override
+    public void fly_obj() {
+        System.out.println("Spacecraft is flying");
+    }
+}
+
+class Airplane implements Flyable {
+    @Override
+    public void fly_obj() {
+        System.out.println("Airplane is flying");
+    }
+}
+
+class Helicopter implements Flyable {
+    @Override
+    public void fly_obj() {
+        System.out.println("Helicopter is flying");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Flyable[] flyables = { new Spacecraft(), new Airplane(), new Helicopter() };
+
+        for (Flyable flyable : flyables) {
+            flyable.fly_obj();
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Case:**
+
+```
+Expected Output:
+Spacecraft is flying
+Airplane is flying
+Helicopter is flying
+```
+
+**Corner Cases:**
+
+**Null Object:**
+
+```
+Flyable flyable = null;
+flyable.fly_obj(); // NullPointerException
+```
+
+**Object of Non-Implementing Class:**
+
+```
+class NonFlyable {
+
+}
+
+NonFlyable nonFlyable = new NonFlyable();
+nonFlyable.fly_obj(); // ClassCastException
+```
+
+**Empty Implementation:**
+
+```
+interface Flyable {
+    void fly_obj();
+}
+
+class SomeClass implements Flyable {
+    @Override
+    public void fly_obj() {
+        // Empty implementation
+    }
+}
+
+SomeClass someClass = new SomeClass();
+someClass.fly_obj(); // No visible output
+```

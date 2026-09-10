@@ -1,0 +1,27 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class CountCharacters {
+
+    public static void main(String[] args) {
+        String str = "This is a sample string";
+        Map<Character, Integer> charCountMap = new HashMap<>();
+
+        // Count the occurrences of each character in the string
+        for (char c : str.toCharArray()) {
+            if (Character.isAlphabetic(c) || Character.isDigit(c)) {
+                charCountMap.merge(c, 1, Integer::sum);
+            }
+        }
+
+        // Count the number of characters that occur more than twice
+        int count = 0;
+        for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
+            if (entry.getValue() > 2) {
+                count++;
+            }
+        }
+
+        System.out.println("The number of characters that occur more than twice is: " + count);
+    }
+}

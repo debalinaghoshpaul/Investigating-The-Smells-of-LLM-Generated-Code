@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_ExceptionHandling\330ec044-2a22-4356-bed5-a125f0db0c3d\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_ExceptionHandling\330ec044-2a22-4356-bed5-a125f0db0c3d\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_ExceptionHandling\330ec044-2a22-4356-bed5-a125f0db0c3d\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_ExceptionHandling\330ec044-2a22-4356-bed5-a125f0db0c3d\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_ExceptionHandling\330ec044-2a22-4356-bed5-a125f0db0c3d\generatedProgram1OfVersion1_0.java:18:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_ExceptionHandling\330ec044-2a22-4356-bed5-a125f0db0c3d\generatedProgram1OfVersion1_0.java:18:36: Parameter number should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_ExceptionHandling\330ec044-2a22-4356-bed5-a125f0db0c3d\generatedProgram1OfVersion1_0.java:27:5: Redundant 'public' modifier. [RedundantModifier]
+Audit done.

@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Enter a string: 
+..Enter a string: 
+Enter the index of the character to retrieve: 
+The character at index 1 is: I
+.Enter a string: 
+Enter the index of the character to retrieve: 
+
+Time: 0.342
+
+OK (4 tests)
+

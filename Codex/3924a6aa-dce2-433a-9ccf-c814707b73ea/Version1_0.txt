@@ -1,0 +1,81 @@
+```java
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class ReadFileLineByLine {
+
+    public static void main(String[] args) {
+        String filePath = "path/to/file.txt";
+        String line;
+
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath));
+
+            while ((line = bufferedReader.readLine()) != null) {
+                // Do something with the line
+                System.out.println(line);
+            }
+
+            bufferedReader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**1. Normal Case:**
+
+```txt
+Hello
+World
+```
+
+**Expected Output:**
+
+```
+Hello
+World
+```
+
+**2. Empty File:**
+
+```txt
+```
+
+**Expected Output:**
+
+No output
+
+**3. File with Blank Lines:**
+
+```txt
+Hello
+
+
+World
+```
+
+**Expected Output:**
+
+```
+Hello
+
+
+World
+```
+
+**4. File with Long Lines:**
+
+```txt
+This is a very long line that wraps around multiple lines in the file.
+```
+
+**Expected Output:**
+
+```
+This is a very long line that wraps around multiple lines in the file.
+```

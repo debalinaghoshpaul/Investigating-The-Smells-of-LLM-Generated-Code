@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_Interface\37c8a0a4-f6df-4346-a077-908bb87e27e8\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_Interface\37c8a0a4-f6df-4346-a077-908bb87e27e8\generatedProgram1OfVersion1_0.java:10:27: Parameter data should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_Interface\37c8a0a4-f6df-4346-a077-908bb87e27e8\generatedProgram1OfVersion1_0.java:16:27: Parameter encryptedData should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_Interface\37c8a0a4-f6df-4346-a077-908bb87e27e8\generatedProgram1OfVersion1_0.java:25:27: Parameter data should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_Interface\37c8a0a4-f6df-4346-a077-908bb87e27e8\generatedProgram1OfVersion1_0.java:31:27: Parameter encryptedData should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_Interface\37c8a0a4-f6df-4346-a077-908bb87e27e8\generatedProgram1OfVersion1_0.java:37:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_Interface\37c8a0a4-f6df-4346-a077-908bb87e27e8\generatedProgram1OfVersion1_0.java:38:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3Resources_Interface\37c8a0a4-f6df-4346-a077-908bb87e27e8\generatedProgram1OfVersion1_0.java:38:29: Parameter args should be final. [FinalParameters]
+Audit done.

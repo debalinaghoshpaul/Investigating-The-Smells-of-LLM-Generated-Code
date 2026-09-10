@@ -1,0 +1,119 @@
+```java
+import java.util.Scanner;
+
+public class LargestPrimeFactor {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input number
+        System.out.println("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // Check if the number is valid
+        if (number <= 1) {
+            System.out.println("Invalid number");
+            return;
+        }
+
+        // Find the largest prime factor of the number using lambda expression
+        int largestPrimeFactor = findLargestPrimeFactor(number, (n) -> {
+            for (int i = 2; i <= Math.sqrt(n); i++) {
+                if (n % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        });
+
+        // Print the largest prime factor
+        System.out.println("The largest prime factor of " + number + " is: " + largestPrimeFactor);
+    }
+
+    public static int findLargestPrimeFactor(int number, PrimeNumberChecker primeNumberChecker) {
+        int largestPrimeFactor = -1;
+
+        // Iterate from 2 to the square root of the number
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            // Check if the number is divisible by the current factor
+            if (number % i == 0) {
+                // Check if the factor is prime
+                if (primeNumberChecker.isPrime(i)) {
+                    // Update the largest prime factor if the current factor is larger
+                    largestPrimeFactor = i;
+                }
+            }
+        }
+
+        return largestPrimeFactor;
+    }
+
+    @FunctionalInterface
+    public interface PrimeNumberChecker {
+        boolean isPrime(int number);
+    }
+
+    // Test cases including corner cases
+    public static void testCases() {
+        // Test case 1: A prime number
+        int number1 = 11;
+        int expected1 = 11;
+        int actual1 = findLargestPrimeFactor(number1, (n) -> {
+            for (int i = 2; i <= Math.sqrt(n); i++) {
+                if (n % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        });
+        System.out.println("Test case 1: Expected: " + expected1 + ", Actual: " + actual1);
+
+        // Test case 2: A composite number with a large prime factor
+        int number2 = 1000000;
+        int expected2 = 100003;
+        int actual2 = findLargestPrimeFactor(number2, (n) -> {
+            for (int i = 2; i <= Math.sqrt(n); i++) {
+                if (n % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        });
+        System.out.println("Test case 2: Expected: " + expected2 + ", Actual: " + actual2);
+
+        // Test case 3: A corner case: 1
+        int number3 = 1;
+        int expected3 = -1;
+        int actual3 = findLargestPrimeFactor(number3, (n) -> {
+            for (int i = 2; i <= Math.sqrt(n); i++) {
+                if (n % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        });
+        System.out.println("Test case 3: Expected: " + expected3 + ", Actual: " + actual3);
+
+        // Test case 4: A corner case: 0
+        int number4 = 0;
+        int expected4 = -1;
+        int actual4 = findLargestPrimeFactor(number4, (n) -> {
+            for (int i = 2; i <= Math.sqrt(n); i++) {
+                if (n % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        });
+        System.out.println("Test case 4: Expected: " + expected4 + ", Actual: " + actual4);
+    }
+}
+```
+**Test Cases:**
+
+```
+Test case 1: Expected: 11, Actual: 11
+Test case 2: Expected: 100003, Actual: 100003
+Test case 3: Expected: -1, Actual: -1
+Test case 4: Expected: -1, Actual: -1
+```

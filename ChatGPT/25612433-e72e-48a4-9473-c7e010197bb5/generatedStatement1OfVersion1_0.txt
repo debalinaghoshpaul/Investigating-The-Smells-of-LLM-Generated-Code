@@ -1,0 +1,2 @@
+Here is the Java implementation of the WordCount class as described in the problem description:
+

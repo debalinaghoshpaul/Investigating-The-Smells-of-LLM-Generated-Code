@@ -1,0 +1,7 @@
+JUnit version 4.13
+...The length of the string "Java Exercises!" is: 15
+..
+Time: 0.486
+
+OK (5 tests)
+

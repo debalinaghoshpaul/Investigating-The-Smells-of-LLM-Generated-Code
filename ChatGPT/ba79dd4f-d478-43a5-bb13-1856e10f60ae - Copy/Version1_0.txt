@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EZn27vo276e0ncG5vZpcquRmBBSG",
+  "object" : "chat.completion",
+  "created" : 1713261196,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class AirplaneSeating {\n\n    private static char[][] seats = new char[7][4];\n\n    public static void main(String[] args) {\n        initializeSeats();\n        displaySeatPattern();\n        \n        Scanner input = new Scanner(System.in);\n        String seat;\n        \n        while (true) {\n            System.out.print(\"Enter the seat you want (enter 'exit' to end): \");\n            seat = input.next();\n            \n            if (seat.equalsIgnoreCase(\"exit\")) {\n                break;\n            }\n            \n            if (!assignSeat(seat)) {\n                System.out.println(\"Seat is already occupied. Please choose another seat.\");\n            }\n            \n            displaySeatPattern();\n        }\n\n        input.close();\n    }\n\n    public static void initializeSeats() {\n        for (int i = 0; i < 7; i++) {\n            for (int j = 0; j < 4; j++) {\n                seats[i][j] = (char)('A' + j);\n            }\n        }\n    }\n\n    public static void displaySeatPattern() {\n        for (int i = 0; i < 7; i++) {\n            for (int j = 0; j < 4; j++) {\n                System.out.print(seats[i][j] + \" \");\n            }\n            System.out.println();\n        }\n    }\n\n    public static boolean assignSeat(String seat) {\n        char rowChar = seat.charAt(0);\n        int row = Character.getNumericValue(rowChar) - 1;\n        char seatChar = seat.charAt(1);\n        \n        for (int i = 0; i < 4; i++) {\n            if (seats[row][i] == seatChar) {\n                seats[row][i] = 'X';\n                return true;\n            }\n        }\n        \n        return false;\n    }\n}\n```\nThis program allows the user to assign seats in an airplane by entering the seat desired. It displays the available seats and updates the seating pattern accordingly. Users can continue to assign seats until all seats are filled or until they enter 'exit' to end the program. If a user tries to assign an already occupied seat, the program will prompt for another choice."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 281,
+    "completion_tokens" : 457,
+    "total_tokens" : 738
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

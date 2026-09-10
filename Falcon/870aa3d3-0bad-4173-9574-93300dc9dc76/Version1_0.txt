@@ -1,0 +1,36 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class ConcatenateStrings {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str1 = scanner.nextLine();
+        String str2 = scanner.nextLine();
+        String result = str1 + str2;
+        System.out.println(result);
+    }
+}
+
+// Output: The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Sample Output: The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Sample Output: The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Sample Output: The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Sample Output: The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Sample Output: The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Sample Output: The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// Sample Output: The programming language you need to use is: java.
+// Can you also add test cases including corner cases

@@ -1,0 +1,25 @@
+
+// The programming language you need to use is: java.
+// Can you also add test cases including corner cases to test the program of the problem?
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character immediately before and after the character is not the same.
+// The character

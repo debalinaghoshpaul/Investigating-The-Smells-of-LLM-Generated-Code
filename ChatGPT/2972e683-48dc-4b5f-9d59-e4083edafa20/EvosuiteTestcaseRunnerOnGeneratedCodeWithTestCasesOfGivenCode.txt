@@ -1,0 +1,39 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.36
+There were 6 failures:
+1) test5(testing_ChatGPT_on_java.ArraySortChecker_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArraySortChecker cannot be resolved
+
+	at testing_ChatGPT_on_java.ArraySortChecker_ESTest.test5(ArraySortChecker_ESTest.java:73)
+2) test4(testing_ChatGPT_on_java.ArraySortChecker_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	ArraySortChecker cannot be resolved to a type
+	ArraySortChecker cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.ArraySortChecker_ESTest.test4(ArraySortChecker_ESTest.java:67)
+3) test3(testing_ChatGPT_on_java.ArraySortChecker_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArraySortChecker cannot be resolved
+
+	at testing_ChatGPT_on_java.ArraySortChecker_ESTest.test3(ArraySortChecker_ESTest.java:54)
+4) test2(testing_ChatGPT_on_java.ArraySortChecker_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArraySortChecker cannot be resolved
+
+	at testing_ChatGPT_on_java.ArraySortChecker_ESTest.test2(ArraySortChecker_ESTest.java:38)
+5) test1(testing_ChatGPT_on_java.ArraySortChecker_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArraySortChecker cannot be resolved
+
+	at testing_ChatGPT_on_java.ArraySortChecker_ESTest.test1(ArraySortChecker_ESTest.java:30)
+6) test0(testing_ChatGPT_on_java.ArraySortChecker_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	ArraySortChecker cannot be resolved
+
+	at testing_ChatGPT_on_java.ArraySortChecker_ESTest.test0(ArraySortChecker_ESTest.java:22)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

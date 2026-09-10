@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EZpuWPMe4sf8RHwju1dDJrwHnoTk",
+  "object" : "chat.completion",
+  "created" : 1713261374,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Scanner;\n\npublic class TriviaGame {\n    public static void main(String[] args) {\n        String[] questions = {\n            \"What is the capital of France?\",\n            \"Who painted the Mona Lisa?\",\n            \"What is the largest mammal on Earth?\",\n            \"What is the boiling point of water in Celsius?\",\n            \"Who wrote Romeo and Juliet?\"\n        };\n\n        String[] answers = {\n            \"Paris\",\n            \"Leonardo da Vinci\",\n            \"Blue whale\",\n            \"100\",\n            \"William Shakespeare\"\n        };\n\n        int[] pointValues = {2, 3, 3, 1, 2};\n\n        Scanner scanner = new Scanner(System.in);\n\n        int totalScore = 0;\n        for (int i = 0; i < questions.length; i++) {\n            System.out.println(\"Question \" + (i + 1) + \": \" + questions[i]);\n            System.out.print(\"Your answer: \");\n            String userAnswer = scanner.nextLine();\n\n            if (userAnswer.equalsIgnoreCase(answers[i])) {\n                System.out.println(\"Correct! You've won \" + pointValues[i] + \" points.\\n\");\n                totalScore += pointValues[i];\n            } else {\n                System.out.println(\"Incorrect. The correct answer is: \" + answers[i] + \"\\n\");\n            }\n        }\n\n        System.out.println(\"Game over! Your total score is: \" + totalScore);\n\n        scanner.close();\n    }\n}\n```\nThis Java program sets up a simple trivia game with five questions, answers, and point values. It prompts the player with each question, checks their answer, and keeps track of their total score. Finally, it displays the total score at the end of the game."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 350,
+    "completion_tokens" : 356,
+    "total_tokens" : 706
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

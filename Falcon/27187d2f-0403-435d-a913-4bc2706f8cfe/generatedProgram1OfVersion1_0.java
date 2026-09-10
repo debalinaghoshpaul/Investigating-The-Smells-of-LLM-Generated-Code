@@ -1,0 +1,54 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Library {
+    private List<Book> books = new ArrayList<>();
+
+    public void addBook(Book book) {
+        books.add(book);
+    }
+
+    public void removeBook(Book book) {
+        books.remove(book);
+    }
+
+    public List<Book> getBooks() {
+        return books;
+    }
+}
+
+public class Book {
+    private String title;
+    private String author;
+
+    public Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Library library = new Library();
+        library.addBook(new Book("The Catcher in the Rye", "J.D. Salinger"));
+        library.addBook(new Book("To Kill a Mockingbird", "Harper Lee"));
+        library.addBook(new Book("The Great Gatsby", "F. Scott Fitzgerald"));
+        library.removeBook(new Book("The Catcher in the Rye", "J.D. Salinger"));
+        library.removeBook(new Book("To Kill a Mockingbird", "Harper Lee"));
+        library.removeBook(new Book("The Great Gatsby", "F. Scott Fitzgerald"));
+
+        List<Book> books = library.getBooks();
+        for (Book book : books) {
+            System.out.println(book.getTitle() + " by " + book.getAuthor());
+        }
+    }
+}
+

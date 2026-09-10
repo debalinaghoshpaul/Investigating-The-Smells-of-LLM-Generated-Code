@@ -1,0 +1,7 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+UselessParentheses: Useless parentheses.: 2
+UnusedFormalParameter: Avoid unused method parameters such as 'a'.: 4
+CommentRequired: Class comments are required: 1
+CommentSize: Comment is too large: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

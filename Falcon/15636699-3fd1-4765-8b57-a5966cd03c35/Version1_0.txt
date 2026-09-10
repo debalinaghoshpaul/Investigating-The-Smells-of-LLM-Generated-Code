@@ -1,0 +1,20 @@
+```java
+import java.util.*;
+
+public class ShuffleLinkedList {
+
+    public static void main(String[] args) {
+        // Create a linked list
+        LinkedList<Integer> list = new LinkedList<>();
+        for (int i = 1; i <= 10; i++) {
+            list.add(i);
+        }
+
+        // Shuffle the elements in the linked list
+        Collections.shuffle(list);
+
+        // Print the shuffled linked list
+        System.out.println(list);
+    }
+}
+```

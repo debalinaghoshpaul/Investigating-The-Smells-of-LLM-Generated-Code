@@ -1,0 +1,60 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class CheckFirstTwoCharactersAtEnd {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Check if the string is empty or less than 2 characters long
+        if (str.isEmpty() || str.length() < 2) {
+            System.out.println("The string is empty or less than 2 characters long.");
+            return;
+        }
+
+        // Get the first two characters of the string
+        String firstTwoChars = str.substring(0, 2);
+
+        // Check if the first two characters appear at the end of the string
+        if (str.endsWith(firstTwoChars)) {
+            System.out.println("The first two characters appear at the end of the string.");
+        } else {
+            System.out.println("The first two characters do not appear at the end of the string.");
+        }
+    }
+}
+```
+
+**Test Cases and Expected Output:**
+
+**Test Case 1:**
+* Input String: "Hello"
+* Expected Output: "The first two characters appear at the end of the string."
+
+**Test Case 2:**
+* Input String: "Java"
+* Expected Output: "The first two characters do not appear at the end of the string."
+
+**Test Case 3:**
+* Input String: "12345"
+* Expected Output: "The first two characters do not appear at the end of the string."
+
+**Test Case 4:**
+* Input String: "" (empty string)
+* Expected Output: "The string is empty or less than 2 characters long."
+
+**Test Case 5:**
+* Input String: "a"
+* Expected Output: "The string is empty or less than 2 characters long."
+
+**Corner Cases:**
+
+* **Empty string:** The program should handle empty strings by printing a message.
+* **String with less than 2 characters:** The program should handle strings with less than 2 characters by printing a message.
+* **Case-insensitive comparison:** The program should compare the first two characters and the substring at the end of the string in a case-insensitive manner.

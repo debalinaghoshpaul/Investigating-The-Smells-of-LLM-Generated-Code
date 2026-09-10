@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9DCRIFnKvJM48Wmrvy2INfGwWnJ7c",
+  "object" : "chat.completion",
+  "created" : 1712933108,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.io.File;\nimport java.io.FileNotFoundException;\nimport java.util.Scanner;\n\npublic class CustomerSimilarity {\n\n    public static void main(String[] args) {\n        int[] userRatings = new int[4];\n\n        Scanner input = new Scanner(System.in);\n\n        System.out.println(\"Please enter ratings for the first four products:\");\n        for (int i = 0; i < 4; i++) {\n            System.out.print(\"Product \" + (char)('A' + i) + \": \");\n            userRatings[i] = input.nextInt();\n        }\n\n        int[] mostSimilarCustomerRatings = findMostSimilarCustomer(userRatings);\n\n        if (mostSimilarCustomerRatings != null) {\n            System.out.println(\"Prediction for Product E: \" + mostSimilarCustomerRatings[4]);\n        } else {\n            System.out.println(\"No similar customer found.\");\n        }\n    }\n\n    public static int[] findMostSimilarCustomer(int[] userRatings) {\n        int[] mostSimilarCustomerRatings = null;\n        int minSimilarity = Integer.MAX_VALUE;\n\n        try {\n            File file = new File(\"customer_ratings.csv\");\n            Scanner scanner = new Scanner(file);\n\n            while (scanner.hasNextLine()) {\n                String line = scanner.nextLine();\n                String[] ratings = line.split(\",\");\n\n                int similarity = Math.abs(userRatings[0] - Integer.parseInt(ratings[0]))\n                        + Math.abs(userRatings[1] - Integer.parseInt(ratings[1]))\n                        + Math.abs(userRatings[2] - Integer.parseInt(ratings[2]))\n                        + Math.abs(userRatings[3] - Integer.parseInt(ratings[3]));\n\n                if (similarity < minSimilarity) {\n                    minSimilarity = similarity;\n                    mostSimilarCustomerRatings = new int[5];\n                    for (int i = 0; i < 5; i++) {\n                        mostSimilarCustomerRatings[i] = Integer.parseInt(ratings[i]);\n                    }\n                }\n            }\n\n            scanner.close();\n        } catch (FileNotFoundException e) {\n            e.printStackTrace();\n        }\n\n        return mostSimilarCustomerRatings;\n    }\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 383,
+    "completion_tokens" : 440,
+    "total_tokens" : 823
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

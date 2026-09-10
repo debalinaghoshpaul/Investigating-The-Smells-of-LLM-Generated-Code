@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97m21Xze7qzCWK4Qh4GeWtMd0uNj6",
+  "object" : "chat.completion",
+  "created" : 1711639957,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.concurrent.Executors;\nimport java.util.concurrent.ScheduledExecutorService;\nimport java.util.concurrent.TimeUnit;\n\npublic class ScheduledTaskExample {\n\n    public static void main(String[] args) {\n        ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();\n\n        // Task to be scheduled\n        Runnable task = () -> {\n            System.out.println(\"Task executed at: \" + System.currentTimeMillis());\n        };\n\n        // Schedule the task to run after 3 seconds\n        executor.schedule(task, 3, TimeUnit.SECONDS);\n\n        // Schedule the task to run after an initial delay of 2 seconds and then repeat every 5 seconds\n        executor.scheduleAtFixedRate(task, 2, 5, TimeUnit.SECONDS);\n\n        // Shutdown the executor after 20 seconds\n        executor.schedule(() -> executor.shutdown(), 20, TimeUnit.SECONDS);\n    }\n}\n```\n\nThis Java program demonstrates how to use the `ScheduledExecutorService` interface to schedule tasks for execution at a specified time or with a fixed delay. The program creates a single-threaded executor, defines a task to be executed, schedules the task to run after a delay of 3 seconds, schedules the task to run periodically with an initial delay of 2 seconds and a fixed rate of 5 seconds, and finally shuts down the executor after 20 seconds."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 78,
+    "completion_tokens" : 268,
+    "total_tokens" : 346
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

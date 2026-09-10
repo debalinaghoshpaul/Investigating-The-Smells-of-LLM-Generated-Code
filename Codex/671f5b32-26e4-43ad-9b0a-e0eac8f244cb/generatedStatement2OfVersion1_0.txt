@@ -1,0 +1,7 @@
+
+
+In this program, we have a `BankAccount` class that has methods for depositing and withdrawing money from the account. We use a `ReentrantLock` to ensure that the operations are thread-safe.
+
+In the `BankAccountThreads` class, we create an instance of `BankAccount` with an initial balance of 1000. We then create two threads, `depositThread` and `withdrawThread`, that will deposit and withdraw money from the account concurrently. The `depositThread` makes 5 deposits of 100 each, while the `withdrawThread` makes 3 withdrawals of 200 each.
+
+When you run the program, you will see the deposits and withdrawals being processed concurrently, with the account balance being updated accordingly.

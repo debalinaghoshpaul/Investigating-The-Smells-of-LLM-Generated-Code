@@ -1,0 +1,51 @@
+```java
+// Java program to display the first 10 natural numbers
+
+public class NaturalNumbers {
+
+    public static void main(String[] args) {
+        // Initialize the first natural number
+        int number = 1;
+
+        // Iterate until the 10th natural number is reached
+        while (number <= 10) {
+            // Display the current natural number
+            System.out.println(number);
+
+            // Increment the natural number by 1
+            number++;
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Test Case:**
+
+* Input: None
+* Expected Output:
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+**Corner Cases:**
+
+* **Negative Input:**
+    * Input: -5
+    * Expected Output: "Invalid input. Natural numbers must be positive."
+* **Zero Input:**
+    * Input: 0
+    * Expected Output: "Invalid input. Natural numbers must be greater than 0."
+* **Large Input:**
+    * Input: 100000
+    * Expected Output: "Invalid input. Natural numbers must be less than or equal to 10."

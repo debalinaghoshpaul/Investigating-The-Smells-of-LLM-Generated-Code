@@ -1,0 +1,7 @@
+
+Input:
+Enter the size of the array: 5
+Enter the elements of the array: 1 2 2 2 3
+Enter the specified number: 2
+Output:
+The specified number appears in every pair of adjacent integers of the given array.

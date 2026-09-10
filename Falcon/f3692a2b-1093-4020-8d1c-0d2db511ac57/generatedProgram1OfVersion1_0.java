@@ -1,0 +1,22 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class CopyMap {
+
+    public static void main(String[] args) {
+        // Create a HashMap
+        Map<String, Integer> map1 = new HashMap<>();
+        map1.put("One", 1);
+        map1.put("Two", 2);
+        map1.put("Three", 3);
+
+        // Create a new HashMap
+        Map<String, Integer> map2 = new HashMap<>();
+
+        // Copy all mappings from map1 to map2
+        map2.putAll(map1);
+
+        // Print the contents of map2
+        System.out.println(map2);
+    }
+}

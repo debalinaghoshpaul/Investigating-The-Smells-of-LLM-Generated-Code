@@ -1,0 +1,19 @@
+JUnit version 4.13
+.E.E
+Time: 0.329
+There were 2 failures:
+1) test0(testing_ChatGPT_on_java.Exercise105_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise105.main(CheckArrayStartEndSame.java:5)
+	at testing_ChatGPT_on_java.Exercise105_ESTest.test0(Exercise105_ESTest.java:21)
+2) test1(testing_ChatGPT_on_java.Exercise105_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise105 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise105.<init>(CheckArrayStartEndSame.java:4)
+	at testing_ChatGPT_on_java.Exercise105_ESTest.test1(Exercise105_ESTest.java:27)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

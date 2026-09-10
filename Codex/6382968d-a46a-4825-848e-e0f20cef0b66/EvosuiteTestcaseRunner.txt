@@ -1,0 +1,7 @@
+JUnit version 4.13
+..Input the number of minutes: .Input the number of minutes: .Input the number of minutes: 5 minutes is approximately 0 years and 0 days
+
+Time: 0.479
+
+OK (4 tests)
+

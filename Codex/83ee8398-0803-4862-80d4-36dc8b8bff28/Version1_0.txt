@@ -1,0 +1,37 @@
+```java
+import java.util.Scanner;
+
+public class RoundUpIntegerDivision {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the dividend and divisor from the user.
+        System.out.println("Enter the dividend:");
+        int dividend = scanner.nextInt();
+        System.out.println("Enter the divisor:");
+        int divisor = scanner.nextInt();
+
+        // Round up the result of the integer division.
+        int result = (int) Math.ceil((double) dividend / divisor);
+
+        // Print the result.
+        System.out.println("The rounded up result of the integer division is: " + result);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* Dividend: 10, Divisor: 3, Expected Result: 4
+* Dividend: 15, Divisor: 4, Expected Result: 4
+* Dividend: 25, Divisor: 5, Expected Result: 5
+
+**Corner Cases:**
+
+* Dividend: 0, Divisor: 1, Expected Result: 0
+* Dividend: 1, Divisor: 10, Expected Result: 1
+* Dividend: -10, Divisor: 3, Expected Result: -4
+* Dividend: 15, Divisor: 0, Expected Result: Exception (divisor cannot be zero)

@@ -1,0 +1,8 @@
+JUnit version 4.13
+...Array with product of every other element: [5040, 2520, 1680, 1260, 1008, 840, 720]
+Array with product of every other element: [5040, 0, 0, 0, 0, 0, 0, 0]
+..
+Time: 0.579
+
+OK (5 tests)
+

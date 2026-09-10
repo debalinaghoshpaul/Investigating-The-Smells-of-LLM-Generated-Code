@@ -1,0 +1,15 @@
+
+
+**Corner Cases:**
+
+**Corner Case 1:**
+An array with only negative numbers.
+**Expected Output:** The smallest negative number in the array.
+
+**Corner Case 2:**
+An empty array.
+**Expected Output:** 0
+
+**Corner Case 3:**
+A null array.
+**Expected Output:** 0

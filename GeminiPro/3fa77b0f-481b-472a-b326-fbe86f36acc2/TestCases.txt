@@ -1,0 +1,46 @@
+**Test Cases:**
+
+**1. Positive Cases**
+- Input: "abc"
+- Output: ""
+
+- Input: "bbaccc"
+- Output: "bc"
+
+- Input: "baaccaabba"
+- Output: "aa"
+
+- Input: "ccbbbbbac"
+- Output: "cca"
+
+- Input: "abccbcba"
+- Output: ""
+
+**2. Negative Cases**
+- Input: null
+- Output: "The input string cannot be null."
+
+- Input: ""
+- Output: "The input string cannot be empty."
+
+- Input: "123"
+- Output: "The input string must contain only alphabetical characters."
+
+- Input: "abcedfg"
+- Output: "The input string does not contain 'b' or 'ac'."
+
+**3. Corner Cases**
+- Input: "b"
+- Output: ""
+
+- Input: "ac"
+- Output: ""
+
+- Input: "ba"
+- Output: ""
+
+- Input: "ca"
+- Output: ""
+
+- Input: "bbb"
+- Output: ""

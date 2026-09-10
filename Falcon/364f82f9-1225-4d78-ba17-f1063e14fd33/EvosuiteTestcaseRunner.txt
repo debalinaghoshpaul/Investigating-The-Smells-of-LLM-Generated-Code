@@ -1,0 +1,10 @@
+JUnit version 4.13
+.Missing letter: q
+Missing letter: f
+Missing letter: E
+Missing letter:  
+.......
+Time: 0.36
+
+OK (8 tests)
+

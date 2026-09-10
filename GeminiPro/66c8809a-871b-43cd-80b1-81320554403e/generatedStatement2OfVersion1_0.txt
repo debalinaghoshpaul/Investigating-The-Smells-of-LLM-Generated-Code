@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+* **Input:** "wresource"
+* **Output:** 0
+* **Input:** "geeksforgeeks"
+* **Output:** 0
+* **Input:** "aaaaa"
+* **Output:** -1 (No unique character)
+
+**Problem 2: Check if a String is a Permutation of Another String**
+
+**Java Code:**
+

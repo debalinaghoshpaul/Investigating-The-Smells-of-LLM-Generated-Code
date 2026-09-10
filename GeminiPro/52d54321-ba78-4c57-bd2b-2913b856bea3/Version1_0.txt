@@ -1,0 +1,50 @@
+```java
+import java.util.Arrays;
+
+public class SecondSmallestElement {
+
+    public static int findSecondSmallestElement(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            throw new IllegalArgumentException("Array must contain at least two elements.");
+        }
+
+        // Sort the array in ascending order
+        Arrays.sort(arr);
+
+        // Return the second element of the sorted array
+        return arr[1];
+    }
+
+    public static void main(String[] args) {
+        // Test case 1: Array with distinct elements
+        int[] arr1 = {1, 2, 3, 4, 5};
+        System.out.println("Second smallest element in arr1: " + findSecondSmallestElement(arr1)); // Expected: 2
+
+        // Test case 2: Array with duplicate elements
+        int[] arr2 = {1, 2, 2, 3, 4, 5};
+        System.out.println("Second smallest element in arr2: " + findSecondSmallestElement(arr2)); // Expected: 2
+
+        // Test case 3: Array with negative elements
+        int[] arr3 = {-1, -2, -3, -4, -5};
+        System.out.println("Second smallest element in arr3: " + findSecondSmallestElement(arr3)); // Expected: -4
+
+        // Test case 4: Array with empty elements
+        int[] arr4 = {};
+        try {
+            findSecondSmallestElement(arr4);
+            System.out.println("Second smallest element in arr4: " + findSecondSmallestElement(arr4)); // Expected: Exception
+        } catch (IllegalArgumentException e) {
+            System.out.println("Exception caught: " + e.getMessage()); // Expected: Exception
+        }
+
+        // Test case 5: Array with one element
+        int[] arr5 = {1};
+        try {
+            findSecondSmallestElement(arr5);
+            System.out.println("Second smallest element in arr5: " + findSecondSmallestElement(arr5)); // Expected: Exception
+        } catch (IllegalArgumentException e) {
+            System.out.println("Exception caught: " + e.getMessage()); // Expected: Exception
+        }
+    }
+}
+```

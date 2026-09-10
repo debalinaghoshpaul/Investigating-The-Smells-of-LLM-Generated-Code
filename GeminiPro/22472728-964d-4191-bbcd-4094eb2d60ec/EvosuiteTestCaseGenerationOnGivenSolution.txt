@@ -1,0 +1,110 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: testing_ChatGPT_on_java.ReadWriteLockExercise
+* Starting client
+* Connecting to master process on port 12106
+* Analyzing classpath: 
+  - C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\target\classes
+* Finished analyzing classpath
+* Generating tests for class testing_ChatGPT_on_java.ReadWriteLockExercise
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 37
+  - Branch 12
+  - Exception 0
+  - MutationFactory 46
+  - Output 0
+  - Method 9
+  - MethodNoException 9
+  - CBranchFitnessFactory 12
+
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 1719077048778
+* Starting evolution
+
+[Progress:=========>                    30%] [Cov:==>                                8%]
+[Progress:=========>                    30%] [Cov:======>                            19%]
+[Progress:=========>                    30%] [Cov:===========>                       32%]
+[Progress:=========>                    30%] [Cov:================>                  46%]
+[Progress:=========>                    30%] [Cov:===================>               57%]
+[Progress:=========>                    30%] [Cov:=======================>           67%]
+[Progress:=========>                    30%] [Cov:==========================>        76%]
+[Progress:=========>                    30%] [Cov:==============================>    86%]
+[Progress:============>                 40%] [Cov:==>                                7%]
+[Progress:============>                 40%] [Cov:======>                            18%]
+[Progress:============>                 40%] [Cov:==========>                        30%]
+[Progress:============>                 40%] [Cov:==============>                    41%]
+[Progress:============>                 40%] [Cov:==================>                52%]
+[Progress:============>                 40%] [Cov:=====================>             60%]
+[Progress:============>                 40%] [Cov:=======================>           67%]
+[Progress:============>                 40%] [Cov:==========================>        76%]
+[Progress:==================>           60%] [Cov:==>                                7%]
+[Progress:==================>           60%] [Cov:=====>                             15%]
+[Progress:==================>           60%] [Cov:=========>                         27%]
+[Progress:==================>           60%] [Cov:=============>                     39%]
+[Progress:==================>           60%] [Cov:=================>                 51%]
+[Progress:==================>           60%] [Cov:==================>                54%]
+[Progress:==================>           60%] [Cov:===================>               57%]
+[Progress:==================>           60%] [Cov:======================>            63%]
+[Progress:======================>       75%] [Cov:==>                                7%]
+[Progress:======================>       75%] [Cov:======>                            18%]
+[Progress:======================>       75%] [Cov:==========>                        30%]
+[Progress:======================>       75%] [Cov:==============>                    41%]
+[Progress:======================>       75%] [Cov:==================>                52%]
+[Progress:======================>       75%] [Cov:=====================>             60%]
+[Progress:======================>       75%] [Cov:=======================>           67%]
+[Progress:======================>       75%] [Cov:==========================>        76%]
+[Progress:==============================100%] [Cov:>                                  0%]
+[Progress:==============================100%] [Cov:====>                              12%]
+[Progress:==============================100%] [Cov:=======>                           22%]
+[Progress:==============================100%] [Cov:==============================>    86%]
+* Search finished after 68s and 0 generations, 248 statements, best individual has fitness: 21.923076923076923
+[MASTER] 18:25:17.137 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 7 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 18:26:26.238 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 68%
+* Total number of goals: 37
+* Number of covered goals: 25
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 12
+* Number of covered goals: 11
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 70%
+* Total number of goals: 46
+* Number of covered goals: 32
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 89%
+* Total number of goals: 9
+* Number of covered goals: 8
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 78%
+* Total number of goals: 9
+* Number of covered goals: 7
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 92%
+* Total number of goals: 12
+* Number of covered goals: 11
+* Generated 5 tests with total length 87
+* Resulting test suite's coverage: 86% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 18:27:47.750 [logback-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 7%
+* Compiling and checking tests
+* Writing JUnit test case 'ReadWriteLockExercise_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

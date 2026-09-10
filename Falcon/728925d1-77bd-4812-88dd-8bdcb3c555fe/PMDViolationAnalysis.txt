@@ -1,0 +1,2 @@
+Violations by Category:
+\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Thread\728925d1-77bd-4812-88dd-8bdcb3c555fe\generatedProgram1OfVersion1_0.java' at line 19, column 1: Encountered .: 1

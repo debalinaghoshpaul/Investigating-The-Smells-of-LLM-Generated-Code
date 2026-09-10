@@ -1,0 +1,23 @@
+import java.util.TreeMap;
+
+public class DeleteAllElementsFromTreeMap {
+
+    public static void main(String[] args) {
+        // create a tree map
+        TreeMap<String, Integer> treeMap = new TreeMap<>();
+
+        // add some elements to the tree map
+        treeMap.put("one", 1);
+        treeMap.put("two", 2);
+        treeMap.put("three", 3);
+
+        // print the tree map before deleting all elements
+        System.out.println("Tree map before deleting all elements: " + treeMap);
+
+        // delete all elements from the tree map
+        treeMap.clear();
+
+        // print the tree map after deleting all elements
+        System.out.println("Tree map after deleting all elements: " + treeMap);
+    }
+}

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to find the smallest and second smallest elements of a given array.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 4a40b92e-4bed-4858-b1bd-ae9784d093d9.\n

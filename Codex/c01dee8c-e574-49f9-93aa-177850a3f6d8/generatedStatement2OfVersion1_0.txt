@@ -1,0 +1,28 @@
+
+
+Test cases:
+
+* **Corner case:** n = 3 (triangle)
+    * Input:
+        * Number of sides: 3
+        * Side length: 5
+    * Output:
+        * Area: 6.495190513138089
+* **Corner case:** n = 4 (square)
+    * Input:
+        * Number of sides: 4
+        * Side length: 10
+    * Output:
+        * Area: 100.0
+* **General case:** n = 7 (heptagon)
+    * Input:
+        * Number of sides: 7
+        * Side length: 6
+    * Output:
+        * Area: 130.82084798405722
+* **Large n:** n = 10000 (decagon)
+    * Input:
+        * Number of sides: 10000
+        * Side length: 1
+    * Output:
+        * Area: 25000.000000000004 (approximately)

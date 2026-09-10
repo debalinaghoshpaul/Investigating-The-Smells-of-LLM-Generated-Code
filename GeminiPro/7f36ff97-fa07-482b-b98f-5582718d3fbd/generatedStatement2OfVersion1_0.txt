@@ -1,0 +1,24 @@
+
+
+**Test Cases with Expected Results:**
+
+**isPowerOf4()**
+
+| Test Number | Expected Result |
+|---|---|
+| 64 | true |
+| 6 | false |
+| 16 | true |
+| 256 | true |
+| 1024 | true |
+| 0 | false |
+
+**addWithoutArithmeticOperators()**
+
+| Test Pair | Expected Result |
+|---|---|
+| {10, 12} | 22 |
+| {5, 7} | 12 |
+| {0, 0} | 0 |
+| {-5, 7} | 2 |
+| {100, -20} | 80 |

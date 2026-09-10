@@ -1,0 +1,49 @@
+
+// Enter a number: 10
+// Square: 100
+// Cube: 1000
+// Fourth power: 1000000
+// Enter a number: 20
+// Square: 200
+// Cube: 2000
+// Fourth power: 2000000
+// Enter a number: 30
+// Square: 300
+// Cube: 3000
+// Fourth power: 3000000
+// Enter a number: 40
+// Square: 400
+// Cube: 4000
+// Fourth power: 4000000
+// Enter a number: 50
+// Square: 500
+// Cube: 5000
+// Fourth power: 5000000
+// Enter a number: 60
+// Square: 600
+// Cube: 6000
+// Fourth power: 6000000
+// Enter a number: 70
+// Square: 700
+// Cube: 7000
+// Fourth power: 7000000
+// Enter a number: 80
+// Square: 800
+// Cube: 8000
+// Fourth power: 8000000
+// Enter a number: 90
+// Square: 900
+// Cube: 9000
+// Fourth power: 9000000
+// Enter a number: 100
+// Square: 1000
+// Cube: 1000
+// Fourth power: 1000000
+// Enter a number: 110
+// Square: 1100
+// Cube: 1100
+// Fourth power: 1100000
+// Enter a number: 120
+// Square: 1200
+// Cube: 1200
+// Fourth power:

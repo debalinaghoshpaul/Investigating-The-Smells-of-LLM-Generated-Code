@@ -1,0 +1,25 @@
+JUnit version 4.13
+.Stack elements: 1 
+.Original Stack:
+Stack elements: 8 7 6 5 4 3 2 1 
+
+Extract a portion from the said stack:
+
+Index Position1 = 1 Index Position2 = 3
+Stack elements: 4 3 2 
+
+Index Position1 = 3 Index Position2 = 7
+Stack elements: 8 7 6 5 4 
+.Stack is empty!
+..Invalid indices
+.Invalid indices
+..Invalid indices
+..Invalid indices
+.Stack is empty
+....Stack Underflow
+....Stack is full
+
+Time: 0.394
+
+OK (19 tests)
+

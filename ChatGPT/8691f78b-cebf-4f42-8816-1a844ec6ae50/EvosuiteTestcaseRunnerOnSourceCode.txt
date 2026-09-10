@@ -1,0 +1,152 @@
+JUnit version 4.13
+.E.Combined Stack: [2, 1, 6, 5, 4, 3]
+.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.518
+There were 19 failures:
+1) test06(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method contains(int) is undefined for the type StackOperationsTwo
+	The method getSize() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test06(StackOperationsTwo_ESTest.java:82)
+2) test07(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method display() is undefined for the type StackOperationsTwo
+	The method getSize() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test07(StackOperationsTwo_ESTest.java:91)
+3) test18(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method getSize() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test18(StackOperationsTwo_ESTest.java:182)
+4) test08(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method symmetricDifference(StackOperationsTwo) is undefined for the type StackOperationsTwo
+	The method symmetricDifference(StackOperationsTwo) is undefined for the type StackOperationsTwo
+	The method isEmpty() is undefined for the type StackOperationsTwo
+	The method getSize() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test08(StackOperationsTwo_ESTest.java:98)
+5) test19(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The constructor StackOperationsTwo(int) is undefined
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test19(StackOperationsTwo_ESTest.java:191)
+6) test09(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method symmetricDifference(StackOperationsTwo) is undefined for the type StackOperationsTwo
+	The method isEmpty() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test09(StackOperationsTwo_ESTest.java:109)
+7) test02(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method getSize() is undefined for the type StackOperationsTwo
+	The method isEmpty() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test02(StackOperationsTwo_ESTest.java:40)
+8) test13(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method peek() is undefined for the type StackOperationsTwo
+	The method isEmpty() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test13(StackOperationsTwo_ESTest.java:142)
+9) test03(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method symmetricDifference(StackOperationsTwo) is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test03(StackOperationsTwo_ESTest.java:49)
+10) test14(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method pop() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test14(StackOperationsTwo_ESTest.java:151)
+11) test04(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method display() is undefined for the type StackOperationsTwo
+	The method isEmpty() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test04(StackOperationsTwo_ESTest.java:65)
+12) test15(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method isEmpty() is undefined for the type StackOperationsTwo
+	The method pop() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test15(StackOperationsTwo_ESTest.java:158)
+13) test05(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method contains(int) is undefined for the type StackOperationsTwo
+	The method isEmpty() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test05(StackOperationsTwo_ESTest.java:73)
+14) test16(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method getSize() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test16(StackOperationsTwo_ESTest.java:168)
+15) test10(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method isEmpty() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test10(StackOperationsTwo_ESTest.java:119)
+16) test00(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method isEmpty() is undefined for the type StackOperationsTwo
+	The method pop() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test00(StackOperationsTwo_ESTest.java:21)
+17) test11(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method isEmpty() is undefined for the type StackOperationsTwo
+	The method getSize() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test11(StackOperationsTwo_ESTest.java:126)
+18) test01(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method push(int) is undefined for the type StackOperationsTwo
+	The method peek() is undefined for the type StackOperationsTwo
+	The method getSize() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test01(StackOperationsTwo_ESTest.java:31)
+19) test12(testing_ChatGPT_on_java.StackOperationsTwo_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The constructor StackOperationsTwo(int) is undefined
+	The method peek() is undefined for the type StackOperationsTwo
+
+	at testing_ChatGPT_on_java.StackOperationsTwo_ESTest.test12(StackOperationsTwo_ESTest.java:135)
+
+FAILURES!!!
+Tests run: 20,  Failures: 19
+
+

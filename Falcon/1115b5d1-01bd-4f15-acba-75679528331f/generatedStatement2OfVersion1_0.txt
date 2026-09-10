@@ -1,0 +1,33 @@
+
+
+**Test Cases:**
+
+**Test Case 1:**
+
+* Input:
+    * stack1 = {Chemistry, Mathematics, Biology, English}
+    * stack2 = {Biology, English, Geography, Physics}
+* Expected Output:
+    * Subjects only present in the first stack: {Chemistry, Mathematics}
+    * Subjects only present in the second stack: {Geography, Physics}
+    * Subjects present in both stacks: {Biology, English}
+
+**Test Case 2:**
+
+* Input:
+    * stack1 = {Computer Science, Mathematics, Physics}
+    * stack2 = {Biology, English, Geography}
+* Expected Output:
+    * Subjects only present in the first stack: {Computer Science, Mathematics, Physics}
+    * Subjects only present in the second stack: {Biology, English, Geography}
+    * Subjects present in both stacks: {}
+
+**Test Case 3 (Corner Case):**
+
+* Input:
+    * stack1 = {}
+    * stack2 = {Biology, English, Geography}
+* Expected Output:
+    * Subjects only present in the first stack: {}
+    * Subjects only present in the second stack: {Biology, English, Geography}
+    * Subjects present in both stacks: {}

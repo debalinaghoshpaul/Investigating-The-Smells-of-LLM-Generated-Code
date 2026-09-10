@@ -1,0 +1,25 @@
+
+
+**Test Cases**
+
+**Normal Cases**
+
+* Input: 142857
+* Output: It is a cyclic number.
+
+* Input: 678954321
+* Output: It is not a cyclic number.
+
+* Input: 123456789
+* Output: It is a cyclic number.
+
+**Corner Cases**
+
+* Input: 0
+* Output: It is not a cyclic number.
+
+* Input: 1
+* Output: It is not a cyclic number.
+
+* Input: 999999999
+* Output: It is not a cyclic number.

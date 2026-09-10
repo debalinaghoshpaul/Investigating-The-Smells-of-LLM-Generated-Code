@@ -1,0 +1,97 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class GetCharacterAtIndex {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the string from the user
+        System.out.println("Enter a string: ");
+        String str = input.nextLine();
+
+        // Get the index from the user
+        System.out.println("Enter the index of the character (0-based): ");
+        int index = input.nextInt();
+
+        // Check if the index is valid
+        if (index < 0 || index >= str.length()) {
+            System.out.println("Invalid index");
+        } else {
+            // Get the character at the given index
+            char ch = str.charAt(index);
+
+            // Print the character (Unicode code point)
+            System.out.println("The character at index " + index + " is: " + ch + " (Unicode code point: " + (int) ch + ")");
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Test Cases:**
+
+1. **Input:**
+```
+Enter a string: Hello World
+Enter the index of the character (0-based): 0
+```
+**Output:**
+```
+The character at index 0 is: H (Unicode code point: 72)
+```
+
+2. **Input:**
+```
+Enter a string: Java Programming
+Enter the index of the character (0-based): 5
+```
+**Output:**
+```
+The character at index 5 is:  (Unicode code point: 32)
+```
+
+3. **Input:**
+```
+Enter a string: 123456789
+Enter the index of the character (0-based): 8
+```
+**Output:**
+```
+The character at index 8 is: 9 (Unicode code point: 57)
+```
+
+**Corner Test Cases:**
+
+1. **Empty String:**
+```
+Enter a string: 
+Enter the index of the character (0-based): 0
+```
+**Output:**
+```
+Invalid index
+```
+
+2. **Negative Index:**
+```
+Enter a string: Hello World
+Enter the index of the character (0-based): -1
+```
+**Output:**
+```
+Invalid index
+```
+
+3. **Index Out of Bounds:**
+```
+Enter a string: Hello World
+Enter the index of the character (0-based): 10
+```
+**Output:**
+```
+Invalid index
+```

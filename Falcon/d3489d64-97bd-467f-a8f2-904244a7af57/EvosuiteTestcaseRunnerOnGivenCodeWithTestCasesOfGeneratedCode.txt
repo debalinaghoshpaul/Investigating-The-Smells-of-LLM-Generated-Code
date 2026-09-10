@@ -1,0 +1,49 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E
+Time: 0.516
+There were 8 failures:
+1) test5(testing_ChatGPT_on_java.MaximumProductPair_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.MaximumProductPair.findMaximumProductPair(solution.java:12)
+	at testing_ChatGPT_on_java.MaximumProductPair_ESTest.test5(MaximumProductPair_ESTest.java:70)
+2) test4(testing_ChatGPT_on_java.MaximumProductPair_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.MaximumProductPair.findMaximumProductPair(solution.java:12)
+	at testing_ChatGPT_on_java.MaximumProductPair_ESTest.test4(MaximumProductPair_ESTest.java:61)
+3) test3(testing_ChatGPT_on_java.MaximumProductPair_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.MaximumProductPair.findMaximumProductPair(solution.java:12)
+	at testing_ChatGPT_on_java.MaximumProductPair_ESTest.test3(MaximumProductPair_ESTest.java:54)
+4) test2(testing_ChatGPT_on_java.MaximumProductPair_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.MaximumProductPair.findMaximumProductPair(solution.java:12)
+	at testing_ChatGPT_on_java.MaximumProductPair_ESTest.test2(MaximumProductPair_ESTest.java:38)
+5) test7(testing_ChatGPT_on_java.MaximumProductPair_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.MaximumProductPair.main(solution.java:6)
+	at testing_ChatGPT_on_java.MaximumProductPair_ESTest.test7(MaximumProductPair_ESTest.java:88)
+6) test6(testing_ChatGPT_on_java.MaximumProductPair_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type MaximumProductPair must be defined in its own file
+
+	at testing_ChatGPT_on_java.MaximumProductPair.<init>(solution.java:4)
+	at testing_ChatGPT_on_java.MaximumProductPair_ESTest.test6(MaximumProductPair_ESTest.java:83)
+7) test1(testing_ChatGPT_on_java.MaximumProductPair_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.MaximumProductPair.findMaximumProductPair(solution.java:12)
+	at testing_ChatGPT_on_java.MaximumProductPair_ESTest.test1(MaximumProductPair_ESTest.java:30)
+8) test0(testing_ChatGPT_on_java.MaximumProductPair_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.MaximumProductPair.findMaximumProductPair(solution.java:12)
+	at testing_ChatGPT_on_java.MaximumProductPair_ESTest.test0(MaximumProductPair_ESTest.java:23)
+
+FAILURES!!!
+Tests run: 8,  Failures: 8
+

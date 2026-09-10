@@ -1,0 +1,59 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class GetCharacterAtIndex {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Get the index of the character to retrieve
+        System.out.println("Enter the index of the character to retrieve: ");
+        int index = scanner.nextInt();
+
+        // Check if the index is valid
+        if (index < 0 || index >= str.length()) {
+            System.out.println("Invalid index.");
+        } else {
+            // Get the character at the given index
+            char character = str.charAt(index);
+
+            // Print the character
+            System.out.println("The character at index " + index + " is: " + character);
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Valid Cases:**
+
+* Input String: "Hello World"
+* Index: 0
+* Expected Output: "H"
+* Index: 4
+* Expected Output: "o"
+* Input String: ""
+* Index: 0
+* Expected Output: ""
+
+**Corner Cases:**
+
+* **Negative Index:**
+    * Input String: "Hello World"
+    * Index: -1
+    * Expected Output: "Invalid index."
+* **Index Out of Bounds:**
+    * Input String: "Hello World"
+    * Index: 11
+    * Expected Output: "Invalid index."
+* **Empty String:**
+    * Input String: ""
+    * Index: 1
+    * Expected Output: "Invalid index."

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8yU2Nf3SUK6JwLculxMDRCJOwNIdE",
+  "object" : "chat.completion",
+  "created" : 1709425835,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class Employee {\n    private int employee_id;\n    private String employee_name;\n    private double employee_salary;\n\n    public int getEmployeeId() {\n        return employee_id;\n    }\n\n    public void setEmployeeId(int id) {\n        this.employee_id = id;\n    }\n\n    public String getEmployeeName() {\n        return employee_name;\n    }\n\n    public void setEmployeeName(String name) {\n        this.employee_name = name;\n    }\n\n    public double getEmployeeSalary() {\n        return employee_salary;\n    }\n\n    public void setEmployeeSalary(double salary) {\n        this.employee_salary = salary;\n    }\n\n    public String getFormattedSalary() {\n        return String.format(\"%.2f\", employee_salary);\n    }\n\n    public static void main(String[] args) {\n        Employee emp = new Employee();\n        emp.setEmployeeId(101);\n        emp.setEmployeeName(\"John Doe\");\n        emp.setEmployeeSalary(50000.0);\n\n        System.out.println(\"Employee ID: \" + emp.getEmployeeId());\n        System.out.println(\"Employee Name: \" + emp.getEmployeeName());\n        System.out.println(\"Employee Salary: $\" + emp.getFormattedSalary());\n    }\n}\n```\n\nIn this program, we have created a class Employee with private instance variables employee_id, employee_name, and employee_salary. We have provided public getter and setter methods for the id and name variables, and a getter method for the salary variable that returns the salary formatted as a string with two decimal places. In the main method, we create an Employee object, set its attributes, and print them out with the formatted salary."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 105,
+    "completion_tokens" : 327,
+    "total_tokens" : 432
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

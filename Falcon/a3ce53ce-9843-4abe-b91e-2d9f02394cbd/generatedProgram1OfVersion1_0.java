@@ -1,0 +1,28 @@
+public class RotateArray {
+    public static void main(String[] args) {
+        int arr[] = {20, 30, 40};
+        int n = arr.length;
+        int temp[] = new int[n];
+        for (int i = 0; i < n; i++) {
+            temp[i] = arr[n - 1 - i];
+        }
+        for (int i = 0; i < n - 1; i++) {
+            temp[n - 1 - i] = arr[i];
+        }
+        for (int i = 0; i < n - 2; i++) {
+            temp[i] = arr[n - 1 - i - 1];
+        }
+        for (int i = 0; i < n - 2; i++) {
+            arr[n - 1 - i - 1] = temp[i];
+        }
+        for (int i = 0; i < n - 2; i++) {
+            arr[i] = temp[n - 1 - i];
+        }
+        System.out.println("Rotated Array: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+
+// 

@@ -1,0 +1,82 @@
+import java.util.*;
+
+public class LongestConsecutivePath {
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
+
+    public static int longestConsecutivePath(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+
+        int[] max = new int[1]; // To store the maximum length of the consecutive path
+
+        helper(root, root.val, 1, max);
+
+        return max[0];
+    }
+
+    private static void helper(TreeNode node, int parentVal, int currentLength, int[] max) {
+        if (node == null) {
+            return;
+        }
+
+        if (node.val == parentVal + 1) {
+            currentLength++;
+        } else {
+            currentLength = 1;
+        }
+
+        max[0] = Math.max(max[0], currentLength);
+
+        helper(node.left, node.val, currentLength, max);
+        helper(node.right, node.val, currentLength, max);
+    }
+
+    public static void main(String[] args) {
+        // Test case 1
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        root.right.right = new TreeNode(5);
+        int result = longestConsecutivePath(root);
+        System.out.println(result); // Expected: 3
+
+        // Test case 2
+        root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.left.left = new TreeNode(3);
+        root.right = new TreeNode(4);
+        root.right.right = new TreeNode(5);
+        result = longestConsecutivePath(root);
+        System.out.println(result); // Expected: 2
+
+        // Test case 3
+        root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.left.left = new TreeNode(3);
+        root.left.right = new TreeNode(4);
+        root.right = new TreeNode(5);
+        root.right.right = new TreeNode(6);
+        result = longestConsecutivePath(root);
+        System.out.println(result); // Expected: 4
+
+        // Test case 4
+        root = new TreeNode(1);
+        result = longestConsecutivePath(root);
+        System.out.println(result); // Expected: 1
+
+        // Test case 5
+        root = null;
+        result = longestConsecutivePath(root);
+        System.out.println(result); // Expected: 0
+    }
+}

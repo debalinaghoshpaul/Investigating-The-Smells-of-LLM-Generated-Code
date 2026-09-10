@@ -1,0 +1,39 @@
+
+Enter the side of the triangle: 5
+Enter the other two sides of the triangle: 4
+The area of the triangle is: 10
+
+Enter the side of the triangle: 5
+Enter the other two sides of the triangle: 4
+The area of the triangle is: 10
+
+Enter the side of the triangle: 5
+Enter the other two sides of the triangle: 4
+The area of the triangle is: 10
+
+Enter the side of the triangle: 5
+Enter the other two sides of the triangle: 4
+The area of the triangle is: 10
+
+Enter the side of the triangle: 5
+Enter the other two sides of the triangle: 4
+The area of the triangle is: 10
+
+Enter the side of the triangle: 5
+Enter the other two sides of the triangle: 4
+The area of the triangle is: 10
+
+Enter the side of the triangle: 5
+Enter the other two sides of the triangle: 4
+The area of the triangle is: 10
+
+Enter the side of the triangle: 5
+Enter the other two sides of the triangle: 4
+The area of the triangle is: 10
+
+Enter the side of the triangle: 5
+Enter the other two sides of the triangle: 4
+The area of the triangle is: 10
+
+Enter the side of the triangle: 5
+Enter the other two

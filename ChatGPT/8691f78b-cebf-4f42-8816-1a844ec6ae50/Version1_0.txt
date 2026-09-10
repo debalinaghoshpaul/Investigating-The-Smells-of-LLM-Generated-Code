@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8rpcIZY9XEQ2qTi2iJiMwUgUAHz27",
+  "object" : "chat.completion",
+  "created" : 1707840490,
+  "model" : "gpt-3.5-turbo-0613",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "Here's the Java program that implements a stack and creates a new stack containing elements that are in either the first or the second stack, but not in both:\n\n```java\nimport java.util.Stack;\n\npublic class StackOperations {\n\n    public static Stack<Integer> createCombinedStack(Stack<Integer> stack1, Stack<Integer> stack2) {\n        Stack<Integer> combinedStack = new Stack<>();\n\n        while (!stack1.empty()) {\n            int element = stack1.pop();\n            if (!stack2.contains(element)) {\n                combinedStack.push(element);\n            }\n        }\n\n        while (!stack2.empty()) {\n            int element = stack2.pop();\n            if (!stack1.contains(element)) {\n                combinedStack.push(element);\n            }\n        }\n\n        return combinedStack;\n    }\n\n    public static void main(String[] args) {\n        Stack<Integer> stack1 = new Stack<>();\n        Stack<Integer> stack2 = new Stack<>();\n\n        stack1.push(1);\n        stack1.push(2);\n        stack1.push(3);\n        stack1.push(4);\n\n        stack2.push(3);\n        stack2.push(4);\n        stack2.push(5);\n        stack2.push(6);\n\n        Stack<Integer> combinedStack = createCombinedStack(stack1, stack2);\n\n        System.out.println(\"Combined Stack: \" + combinedStack); // Output: Combined Stack: [6, 5, 2, 1]\n    }\n}\n```\n\nIn this program, we define a `createCombinedStack` method that takes two stacks (`stack1` and `stack2`) as parameters and returns a new stack containing the elements that are in either stack1 or stack2, but not in both.\n\nThe method first checks if `stack1` is empty, and if not, it pops elements from `stack1` one by one. For each popped element, it checks if it is present in `stack2`, and if not, it pushes the element into the `combinedStack`.\n\nSimilarly, the method then checks if `stack2` is empty, and if not, it pops elements from `stack2` one by one. For each popped element, it checks if it is present in `stack1`, and if not, it pushes the element into the `combinedStack`.\n\nFinally, the method returns the `combinedStack`.\n\nIn the `main` method, we create two stacks (`stack1` and `stack2`) and populate them with some values.\n\nThen, we call the `createCombinedStack` method passing the two stacks as arguments, and store the returned combined stack in the `combinedStack` variable.\n\nFinally, we print the `combinedStack` to verify the results."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 74,
+    "completion_tokens" : 544,
+    "total_tokens" : 618
+  },
+  "system_fingerprint" : null
+}

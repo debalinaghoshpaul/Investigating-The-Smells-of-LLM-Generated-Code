@@ -1,0 +1,52 @@
+No GPU found. Running on CPU.
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class MostFrequentCharacter {
+    public static void main(String[] args) {
+        String str = "Hello World";
+        Map<Character, Integer> map = new HashMap<>();
+        Set<Character> set = new HashSet<>();
+        for (char c : str.toCharArray()) {
+            if (map.containsKey(c)) {
+                map.put(c, map.get(c)+1);
+            } else {
+                map.put(c, 1);
+            }
+        }
+        for (char c : map.keySet()) {
+            if (map.get(c) > 1) {
+                set.add(c);
+            }
+        }
+        for (char c : set) {
+            System.out.print(c + " " + map.get(c) + " times");
+        }
+    }
+}
+
+Output:
+The programming language you need to use is: java.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character 'o' occurs the most frequently.
+The character

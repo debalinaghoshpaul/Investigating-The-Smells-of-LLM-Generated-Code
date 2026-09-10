@@ -1,0 +1,67 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.86
+There were 11 failures:
+1) test07(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type CombinationSum must be defined in its own file
+
+	at testing_ChatGPT_on_java.CombinationSum.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test07(CombinationSum_ESTest.java:163)
+2) test06(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.CombinationSum.combinationSum(Main.java:32)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test06(CombinationSum_ESTest.java:142)
+3) test09(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.CombinationSum.main(Main.java:6)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test09(CombinationSum_ESTest.java:216)
+4) test08(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.CombinationSum.main(Main.java:6)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test08(CombinationSum_ESTest.java:194)
+5) test10(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.CombinationSum.combinationSum(Main.java:32)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test10(CombinationSum_ESTest.java:231)
+6) test01(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type CombinationSum must be defined in its own file
+
+	at testing_ChatGPT_on_java.CombinationSum.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test01(CombinationSum_ESTest.java:38)
+7) test00(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.CombinationSum.combinationSum(Main.java:32)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test00(CombinationSum_ESTest.java:25)
+8) test03(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type CombinationSum must be defined in its own file
+
+	at testing_ChatGPT_on_java.CombinationSum.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test03(CombinationSum_ESTest.java:86)
+9) test02(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.CombinationSum.main(Main.java:6)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test02(CombinationSum_ESTest.java:73)
+10) test05(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type CombinationSum must be defined in its own file
+
+	at testing_ChatGPT_on_java.CombinationSum.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test05(CombinationSum_ESTest.java:112)
+11) test04(testing_ChatGPT_on_java.CombinationSum_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.CombinationSum.combinationSum(Main.java:32)
+	at testing_ChatGPT_on_java.CombinationSum_ESTest.test04(CombinationSum_ESTest.java:106)
+
+FAILURES!!!
+Tests run: 11,  Failures: 11
+

@@ -1,0 +1,13 @@
+JUnit version 4.13
+.Enter a string: 
+..Enter a string: 
+int: 1
+long: 1
+float: 1.0
+double: 1.0
+.Enter a string: 
+
+Time: 0.537
+
+OK (4 tests)
+

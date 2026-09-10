@@ -1,0 +1,21 @@
+
+
+**Test cases:**
+
+* **Input:** "Hello"
+**Output:** "Hll"
+
+* **Input:** "The quick brown fox jumps over the lazy dog"
+**Output:** "Th qck brwn fx jmps vr th lzy dg"
+
+* **Input:** "12345"
+**Output:** "12345"
+
+* **Input:** ""
+**Output:** ""
+
+* **Input:** "aAeee"
+**Output:** ""
+
+* **Input:** "Aeiou"
+**Output:** ""

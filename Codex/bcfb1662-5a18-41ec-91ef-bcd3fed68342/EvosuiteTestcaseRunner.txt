@@ -1,0 +1,12 @@
+JUnit version 4.13
+.Enter the number of terms: The odd numbers are:
+1
+3
+5
+7
+The sum of odd natural numbers up to 4 terms is: 16
+.Enter the number of terms: .Enter the number of terms: .
+Time: 0.361
+
+OK (4 tests)
+

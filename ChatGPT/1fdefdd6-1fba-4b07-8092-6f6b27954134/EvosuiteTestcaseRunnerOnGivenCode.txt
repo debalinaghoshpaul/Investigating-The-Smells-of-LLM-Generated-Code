@@ -1,0 +1,28 @@
+JUnit version 4.13
+.Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+Task executed at: Fri Feb 14 20:21:21 GMT 2014
+
+Time: 2.817
+
+OK (1 test)
+

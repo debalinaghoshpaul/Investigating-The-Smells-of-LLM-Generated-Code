@@ -1,0 +1,8 @@
+Enter the program name: Bird
+JUnit version 4.13
+.Eagle flies high in the sky
+.Eagle makes a screeching sound
+
+Time: 0.326
+
+OK (2 tests)

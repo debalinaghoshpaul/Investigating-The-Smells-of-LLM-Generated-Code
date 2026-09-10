@@ -1,0 +1,65 @@
+```java
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.format.TextStyle;
+import java.util.Locale;
+
+public class GetLocalizedDayOfWeeks {
+
+    public static void main(String[] args) {
+        LocalDate today = LocalDate.now();
+
+        // Get the day-of-week names in the default locale
+        DayOfWeek[] daysOfWeek = DayOfWeek.values();
+        for (DayOfWeek dayOfWeek : daysOfWeek) {
+            String localizedName = dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault());
+            System.out.println(localizedName);
+        }
+
+        // Get the day-of-week names in a specific locale
+        Locale locale = Locale.FRANCE;
+        for (DayOfWeek dayOfWeek : daysOfWeek) {
+            String localizedName = dayOfWeek.getDisplayName(TextStyle.FULL, locale);
+            System.out.println(localizedName);
+        }
+    }
+}
+```
+
+### Test cases:
+
+**Corner cases:**
+
+* Test with a locale that does not have a translation for the day-of-week names.
+* Test with a day-of-week that is not valid.
+
+**Normal cases:**
+
+* Test with different locales.
+* Test with different day-of-week values.
+
+### Example output:
+
+**Default locale:**
+
+```
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+```
+
+**French locale:**
+
+```
+dimanche
+lundi
+mardi
+mercredi
+jeudi
+vendredi
+samedi
+```

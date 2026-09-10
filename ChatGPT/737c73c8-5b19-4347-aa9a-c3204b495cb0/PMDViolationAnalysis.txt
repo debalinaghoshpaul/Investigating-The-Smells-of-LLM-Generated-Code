@@ -1,0 +1,5 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+CommentRequired: Class comments are required: 3
+UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'log': 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

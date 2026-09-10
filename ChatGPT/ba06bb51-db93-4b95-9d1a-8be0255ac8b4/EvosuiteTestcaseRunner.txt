@@ -1,0 +1,24 @@
+JUnit version 4.13
+........Original array: [10, 2, 38, 22, 38, 23]
+Median of the said array of integers: 22.5
+
+Original array: [10, 2, 38, 23, 38, 23, 21]
+Median of the said array of integers: 23.0
+
+Original array: [1, 2, 3, 4, 5, 6, 7]
+Median of the said array of integers: 4.0
+
+Source Array : [10, 20, 10, 20, 30, 40, 40, 30, 50]
+50 appears only once
+
+Source Array : [1, 2, 3, 4, 5, 6, 6, 5, 3, 2, 1]
+4 appears only once
+
+Source Array : [1]
+1 appears only once
+
+....
+Time: 0.34
+
+OK (12 tests)
+

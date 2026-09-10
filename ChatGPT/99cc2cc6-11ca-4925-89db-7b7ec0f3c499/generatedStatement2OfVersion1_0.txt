@@ -1,0 +1,15 @@
+
+
+**Test cases:**
+
+* **Positive numbers:**
+    * 4 -> 2.0
+    * 9 -> 3.0
+    * 16 -> 4.0
+* **Negative numbers:**
+    * -4 -> The number must be non-negative
+* **Zero:**
+    * 0 -> 0.0
+* **Corner cases:**
+    * 1 -> 1.0
+    * 2 -> 1.4142135623730951

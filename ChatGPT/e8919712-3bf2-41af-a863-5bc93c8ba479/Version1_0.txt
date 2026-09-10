@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9329ajsG6eVujFUalLKguruSbc0Qm",
+  "object" : "chat.completion",
+  "created" : 1710510290,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.ArrayList;\n\npublic class ArrayListOperations {\n\n    public static void main(String[] args) {\n        // Create an ArrayList\n        ArrayList<Integer> numbers = new ArrayList<>();\n\n        // Add elements to the ArrayList\n        numbers.add(10);\n        numbers.add(20);\n        numbers.add(30);\n        numbers.add(40);\n        numbers.add(50);\n\n        // Insert an element at the first position\n        numbers.add(0, 5);\n        System.out.println(\"Element inserted at the first position: \" + numbers);\n\n        // Retrieve an element from a specified index\n        int index = 2;\n        if(index < numbers.size()) {\n            int element = numbers.get(index);\n            System.out.println(\"Element at position \" + index + \": \" + element);\n        } else {\n            System.out.println(\"Index out of bounds.\");\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 88,
+    "completion_tokens" : 177,
+    "total_tokens" : 265
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

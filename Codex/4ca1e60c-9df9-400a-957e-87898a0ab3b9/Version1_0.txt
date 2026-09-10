@@ -1,0 +1,41 @@
+```java
+import java.util.Scanner;
+
+public class AppendStringsOmittingDoubleCharacters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the two strings from the user.
+        System.out.println("Enter the first string:");
+        String firstString = scanner.nextLine();
+
+        System.out.println("Enter the second string:");
+        String secondString = scanner.nextLine();
+
+        // Create a new string that will store the appended strings.
+        StringBuilder appendedString = new StringBuilder();
+
+        // Append the first string to the new string.
+        appendedString.append(firstString);
+
+        // Iterate over the second string.
+        for (int i = 0; i < secondString.length(); i++) {
+            // Get the character at the current index.
+            char character = secondString.charAt(i);
+
+            // Check if the character is already in the appended string.
+            if (appendedString.toString().contains(Character.toString(character))) {
+                // If the character is already in the appended string, skip it.
+                continue;
+            }
+
+            // If the character is not in the appended string, append it.
+            appendedString.append(character);
+        }
+
+        // Print the appended string.
+        System.out.println("The appended string is: " + appendedString.toString());
+    }
+}
+```

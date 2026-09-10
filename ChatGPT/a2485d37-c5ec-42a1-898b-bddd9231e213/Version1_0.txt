@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94pGrXEqDG6aIMKbCxK9sB3uZgSJg",
+  "object" : "chat.completion",
+  "created" : 1710937425,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class ReverseSentence {\n\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        System.out.print(\"Input a sentence: \");\n        String sentence = input.nextLine();\n\n        String reversedSentence = reverseSentence(sentence);\n        \n        System.out.println(\"Result: \" + reversedSentence);\n    }\n\n    public static String reverseSentence(String sentence) {\n        String[] words = sentence.split(\" \");\n        StringBuilder reversedSentence = new StringBuilder();\n\n        for (int i = words.length - 1; i >= 0; i--) {\n            reversedSentence.append(words[i]);\n            if (i != 0) {\n                reversedSentence.append(\" \");\n            }\n        }\n\n        return reversedSentence.toString();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 95,
+    "completion_tokens" : 152,
+    "total_tokens" : 247
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,6 @@
+
+
+* **Boundary case:**
+    * Input: 1
+    * Output:
+        

@@ -1,0 +1,16 @@
+JUnit version 4.13
+.10 book(s) of 'Adventure Time' sold successfully.
+Quantity available for book 'Adventure Time': 40
+Total number of books sold: 10
+5 book(s) of 'Introduction to Java' sold successfully.
+Quantity available for book 'Introduction to Java': 25
+Total number of books sold: 15
+.2473 book(s) of 'S4Xs`%z "`&AK' sold successfully.
+Insufficient quantity available for sale.
+.Quantity available for book 'S4Xs`%z "`&AK': 2473
+.Total number of books sold: 0
+
+Time: 0.377
+
+OK (4 tests)
+

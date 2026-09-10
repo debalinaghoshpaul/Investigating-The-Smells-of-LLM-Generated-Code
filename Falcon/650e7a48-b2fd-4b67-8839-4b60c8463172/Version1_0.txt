@@ -1,0 +1,84 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a word: ");
+        String word = scanner.nextLine();
+
+        if (word.contains("g")) {
+            System.out.println("Word contains 'g'");
+        } else {
+            System.out.println("Word does not contain 'g'");
+        }
+    }
+}
+
+Output:
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: goodbye
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: goodbye
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: goodbye
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: goodbye
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: goodbye
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: hello
+Word contains 'g'
+Word does not contain 'g'
+
+Enter a word: world
+Word contains 'g'

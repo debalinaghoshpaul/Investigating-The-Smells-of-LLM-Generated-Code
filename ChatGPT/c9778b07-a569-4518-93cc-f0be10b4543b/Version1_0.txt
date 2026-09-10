@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93OdtrxqZmYAgGrjRk2qYjuLSgnNh",
+  "object" : "chat.completion",
+  "created" : 1710596737,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Stack;\n\npublic class SortStack {\n\n    public static void sortStack(Stack<Integer> stack) {\n        Stack<Integer> tempStack = new Stack<>();\n\n        while (!stack.isEmpty()) {\n            int temp = stack.pop();\n\n            while (!tempStack.isEmpty() && tempStack.peek() > temp) {\n                stack.push(tempStack.pop());\n            }\n            tempStack.push(temp);\n        }\n\n        while (!tempStack.isEmpty()) {\n            stack.push(tempStack.pop());\n        }\n    }\n\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        stack.push(30);\n        stack.push(-5);\n        stack.push(18);\n        stack.push(14);\n        stack.push(-3);\n\n        System.out.println(\"Stack before sorting: \" + stack);\n        sortStack(stack);\n        System.out.println(\"Stack after sorting: \" + stack);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 64,
+    "completion_tokens" : 181,
+    "total_tokens" : 245
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

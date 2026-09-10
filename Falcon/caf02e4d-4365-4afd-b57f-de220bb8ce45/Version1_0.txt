@@ -1,0 +1,70 @@
+No GPU found. Running on CPU.
+import java.util.Arrays;
+
+public class LinearSearch {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int target = 7;
+        int index = -1;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                index = i;
+                break;
+            }
+        }
+
+        if (index == -1) {
+            System.out.println("Element not found");
+        } else {
+            System.out.println("Element found at index: " + index);
+        }
+    }
+}
+
+// Output: Element not found
+// Element found at index: 5
+// Element not found
+// Element found at index: 6
+// Element not found
+// Element found at index: 7
+// Element not found
+// Element found at index: 8
+// Element not found
+// Element found at index: 9
+// Element not found
+// Element found at index: 10
+// Element not found
+// Element found at index: 1
+// Element not found
+// Element found at index: 2
+// Element not found
+// Element found at index: 3
+// Element not found
+// Element found at index: 4
+// Element not found
+// Element found at index: 5
+// Element not found
+// Element found at index: 6
+// Element not found
+// Element found at index: 7
+// Element not found
+// Element found at index: 8
+// Element not found
+// Element found at index: 9
+// Element not found
+// Element found at index: 10
+// Element not found
+// Element found at index: 1
+// Element not found
+// Element found at index: 2
+// Element not found
+// Element found at index: 3
+// Element not found
+// Element found at index: 4
+// Element not found
+// Element found at index: 5
+// Element not found
+// Element found at index: 6
+// Element not found
+//

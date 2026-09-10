@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaLinkedDataStructure\7de2631a-022e-44ee-83dc-2bbbde0b18ce\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaLinkedDataStructure\7de2631a-022e-44ee-83dc-2bbbde0b18ce\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaLinkedDataStructure\7de2631a-022e-44ee-83dc-2bbbde0b18ce\generatedProgram1OfVersion1_0.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaLinkedDataStructure\7de2631a-022e-44ee-83dc-2bbbde0b18ce\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaLinkedDataStructure\7de2631a-022e-44ee-83dc-2bbbde0b18ce\generatedProgram1OfVersion1_0.java:9:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaLinkedDataStructure\7de2631a-022e-44ee-83dc-2bbbde0b18ce\generatedProgram1OfVersion1_0.java:9:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaLinkedDataStructure\7de2631a-022e-44ee-83dc-2bbbde0b18ce\generatedProgram1OfVersion1_0.java:20: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaLinkedDataStructure\7de2631a-022e-44ee-83dc-2bbbde0b18ce\generatedProgram1OfVersion1_0.java:25: Line is longer than 80 characters (found 114). [LineLength]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\Codex_AbsoluteJavaLinkedDataStructure\7de2631a-022e-44ee-83dc-2bbbde0b18ce\generatedProgram1OfVersion1_0.java:39: Line is longer than 80 characters (found 90). [LineLength]
+Audit done.

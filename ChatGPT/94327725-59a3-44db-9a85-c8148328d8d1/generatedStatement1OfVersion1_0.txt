@@ -1,0 +1,2 @@
+Here is a sample Java program that implements a stack and creates a new stack by removing elements that do not satisfy a condition (for example, removing all even numbers from the original stack):
+

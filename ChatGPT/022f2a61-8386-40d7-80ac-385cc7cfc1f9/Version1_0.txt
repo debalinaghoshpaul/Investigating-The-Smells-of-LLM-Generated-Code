@@ -1,0 +1,123 @@
+```java
+import java.util.Scanner;
+
+public class MagicSquare {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Get the order of the magic square from the user
+        System.out.print("Enter the order of the magic square: ");
+        int n = input.nextInt();
+
+        // Check if the order is valid
+        if (n <= 0) {
+            System.out.println("Invalid order: " + n);
+            return;
+        }
+
+        // Create a 2D array to represent the magic square
+        int[][] square = new int[n][n];
+
+        // Initialize the magic square with zeros
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                square[i][j] = 0;
+            }
+        }
+
+        // Generate the magic square
+        generateMagicSquare(square, n);
+
+        // Print the magic square
+        System.out.println("Magic square of order " + n + ":");
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(square[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    private static void generateMagicSquare(int[][] square, int n) {
+        // Set the starting row and column to the middle of the square
+        int row = n / 2;
+        int col = n / 2;
+
+        // Place the number 1 in the middle of the square
+        square[row][col] = 1;
+
+        // Iterate over the remaining numbers from 2 to n^2
+        for (int number = 2; number <= n * n; number++) {
+            // Move to the next row and column
+            row--;
+            col++;
+
+            // If the row or column is out of bounds, wrap around to the other side of the square
+            if (row < 0) {
+                row += n;
+            } else if (row >= n) {
+                row -= n;
+            }
+            if (col < 0) {
+                col += n;
+            } else if (col >= n) {
+                col -= n;
+            }
+
+            // If the cell is already occupied, move to the next row and column
+            if (square[row][col] != 0) {
+                row += 2;
+                col--;
+                if (row < 0) {
+                    row += n;
+                } else if (row >= n) {
+                    row -= n;
+                }
+                if (col < 0) {
+                    col += n;
+                } else if (col >= n) {
+                    col -= n;
+                }
+            }
+
+            // Place the number in the cell
+            square[row][col] = number;
+        }
+    }
+}
+```
+
+**Test cases:**
+
+* **Valid order:**
+    * Input: 3
+    * Output:
+    ```
+    Magic square of order 3:
+    8 1 6
+    3 5 7
+    4 9 2
+    ```
+* **Invalid order:**
+    * Input: 0
+    * Output:
+    ```
+    Invalid order: 0
+    ```
+* **Large order:**
+    * Input: 10
+    * Output:
+    ```
+    Magic square of order 10:
+    73 72 71 70 69 68 67 66 65 64
+    74 75 76 77 78 79 80 81 82 63
+    7 8 9 10 11 12 13 14 15 62
+    6 5 4 3 2 1 16 17 18 61
+    19 20 21 22 23 24 25 26 27 60
+    28 29 30 31 32 33 34 35 36 59
+    37 38 39 40 41 42 43 44 45 58
+    46 47 48 49 50 51 52 53 54 57
+    55 56 57 58 59 60 61 62 63 56
+    64 65 66 67 68 69 70 71 72 55
+    ```

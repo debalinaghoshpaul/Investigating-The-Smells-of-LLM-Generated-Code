@@ -1,0 +1,65 @@
+```java
+import java.util.concurrent.locks.StampedLock;
+
+public class StampedLockExample {
+
+    private static final StampedLock lock = new StampedLock();
+
+    private static int counter = 0;
+
+    public static void main(String[] args) {
+        // Create multiple threads to read and write to the shared resource
+        Thread[] threads = new Thread[10];
+        for (int i = 0; i < threads.length; i++) {
+            if (i % 2 == 0) {
+                // Create a reader thread
+                threads[i] = new Thread(() -> {
+                    for (int j = 0; j < 10000; j++) {
+                        // Acquire a read lock
+                        long stamp = lock.readLock();
+                        try {
+                            // Read the shared resource
+                            int value = counter;
+                        } finally {
+                            // Release the read lock
+                            lock.unlockRead(stamp);
+                        }
+                    }
+                });
+            } else {
+                // Create a writer thread
+                threads[i] = new Thread(() -> {
+                    for (int j = 0; j < 10000; j++) {
+                        // Acquire a write lock
+                        long stamp = lock.writeLock();
+                        try {
+                            // Write to the shared resource
+                            counter++;
+                        } finally {
+                            // Release the write lock
+                            lock.unlockWrite(stamp);
+                        }
+                    }
+                });
+            }
+        }
+
+        // Start all the threads
+        for (Thread thread : threads) {
+            thread.start();
+        }
+
+        // Join all the threads
+        for (Thread thread : threads) {
+            try {
+                thread.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+        // Print the final value of the shared resource
+        System.out.println("Final value of counter: " + counter);
+    }
+}
+```

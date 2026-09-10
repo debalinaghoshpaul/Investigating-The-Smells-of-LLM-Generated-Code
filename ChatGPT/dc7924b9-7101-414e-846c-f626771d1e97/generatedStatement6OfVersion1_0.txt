@@ -1,0 +1,11 @@
+
+
+**Corner Cases:**
+
+* **Test Case 3:**
+   * Input: 0
+   * Output: No diamond pattern will be printed.
+
+* **Test Case 4:**
+   * Input: -1
+   * Output: No diamond pattern will be printed.

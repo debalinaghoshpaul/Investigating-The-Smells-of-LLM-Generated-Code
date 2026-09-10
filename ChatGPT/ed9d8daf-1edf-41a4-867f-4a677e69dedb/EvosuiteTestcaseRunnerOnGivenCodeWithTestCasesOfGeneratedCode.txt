@@ -1,0 +1,85 @@
+JUnit version 4.13
+.E.E.E.E.E.E.E.E.E.E.E.E.E.E
+Time: 0.45
+There were 14 failures:
+1) test08(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method addProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+	The method removeProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test08(Inventory_ESTest.java:102)
+2) test09(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method removeProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test09(Inventory_ESTest.java:121)
+3) test06(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method isLowInventory(String, int) is undefined for the type Inventory
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test06(Inventory_ESTest.java:81)
+4) test07(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method addProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+	The method removeProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test07(Inventory_ESTest.java:95)
+5) test04(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method addProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+	The method isLowInventory(String, int) is undefined for the type Inventory
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test04(Inventory_ESTest.java:62)
+6) test05(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method addProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+	The method isLowInventory(String, int) is undefined for the type Inventory
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test05(Inventory_ESTest.java:70)
+7) test02(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method removeProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test02(Inventory_ESTest.java:40)
+8) test13(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getQuantity(String) is undefined for the type Inventory
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test13(Inventory_ESTest.java:165)
+9) test03(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method addProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+	The method getQuantity(String) is undefined for the type Inventory
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test03(Inventory_ESTest.java:54)
+10) test00(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method addProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+	The method isLowInventory(String, int) is undefined for the type Inventory
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test00(Inventory_ESTest.java:23)
+11) test11(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	The method addProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+	The method removeProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test11(Inventory_ESTest.java:151)
+12) test01(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method isLowInventory(String, int) is undefined for the type Inventory
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test01(Inventory_ESTest.java:31)
+13) test12(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method getProducts() is undefined for the type Inventory
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test12(Inventory_ESTest.java:158)
+14) test10(testing_ChatGPT_on_java.Inventory_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	The method addProduct(Product) in the type Inventory is not applicable for the arguments (String, int)
+
+	at testing_ChatGPT_on_java.Inventory_ESTest.test10(Inventory_ESTest.java:137)
+
+FAILURES!!!
+Tests run: 14,  Failures: 14
+

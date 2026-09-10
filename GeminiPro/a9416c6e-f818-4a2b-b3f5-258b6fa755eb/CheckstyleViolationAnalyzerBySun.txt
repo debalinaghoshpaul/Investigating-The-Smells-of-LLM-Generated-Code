@@ -1,0 +1,6 @@
+Violations by Category:
+DesignForExtension: Class 'Vehicle' looks like designed for extension (can be subclassed), but the method 'drive' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Vehicle' final or making the method 'drive' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 2
+FinalParameters: Parameter args should be final. [FinalParameters]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 2
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1

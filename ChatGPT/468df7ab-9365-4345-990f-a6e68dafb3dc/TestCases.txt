@@ -1,0 +1,57 @@
+**Java Program:**
+
+```java
+import java.util.Scanner;
+
+public class RemoveSubstring {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the main string from the user
+        System.out.println("Enter the main string: ");
+        String mainString = scanner.nextLine();
+
+        // Get the substring to be removed from the user
+        System.out.println("Enter the substring to be removed: ");
+        String removeString = scanner.nextLine();
+
+        // Remove all instances of the substring from the main string
+        String resultString = mainString.replaceAll(removeString, "");
+
+        // Print the result string
+        System.out.println("The resulting string is: " + resultString);
+    }
+}
+```
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:**
+    * Main string: "Hello World"
+    * Substring to be removed: "World"
+* **Output:** "Hello"
+
+* **Input:**
+    * Main string: "Java Programming"
+    * Substring to be removed: "Programming"
+* **Output:** "Java"
+
+**Corner Cases:**
+
+* **Input:**
+    * Main string: "Empty String"
+    * Substring to be removed: "Empty String"
+* **Output:** "" (an empty string)
+
+* **Input:**
+    * Main string: "Substring is not present"
+    * Substring to be removed: "Java"
+* **Output:** "Substring is not present" (the main string remains unchanged)
+
+* **Input:**
+    * Main string: null
+    * Substring to be removed: "null"
+* **Output:** NullPointerException (the program will throw an exception)

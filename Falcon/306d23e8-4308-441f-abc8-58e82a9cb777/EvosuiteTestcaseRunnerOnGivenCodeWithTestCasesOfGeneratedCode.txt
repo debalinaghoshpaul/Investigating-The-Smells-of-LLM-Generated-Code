@@ -1,0 +1,39 @@
+JUnit version 4.13
+.E.E.E.E.E.E
+Time: 0.345
+There were 6 failures:
+1) test2(testing_ChatGPT_on_java.Exercise30_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise30.test(ArrayWithoutZeroAndMinusOne.java:23)
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test2(Exercise30_ESTest.java:46)
+2) test3(testing_ChatGPT_on_java.Exercise30_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise30.test(ArrayWithoutZeroAndMinusOne.java:23)
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test3(Exercise30_ESTest.java:53)
+3) test4(testing_ChatGPT_on_java.Exercise30_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise30.main(ArrayWithoutZeroAndMinusOne.java:11)
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test4(Exercise30_ESTest.java:59)
+4) test5(testing_ChatGPT_on_java.Exercise30_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise30 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise30.<init>(ArrayWithoutZeroAndMinusOne.java:9)
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test5(Exercise30_ESTest.java:64)
+5) test0(testing_ChatGPT_on_java.Exercise30_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise30.test(ArrayWithoutZeroAndMinusOne.java:23)
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test0(Exercise30_ESTest.java:23)
+6) test1(testing_ChatGPT_on_java.Exercise30_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise30.test(ArrayWithoutZeroAndMinusOne.java:23)
+	at testing_ChatGPT_on_java.Exercise30_ESTest.test1(Exercise30_ESTest.java:38)
+
+FAILURES!!!
+Tests run: 6,  Failures: 6
+

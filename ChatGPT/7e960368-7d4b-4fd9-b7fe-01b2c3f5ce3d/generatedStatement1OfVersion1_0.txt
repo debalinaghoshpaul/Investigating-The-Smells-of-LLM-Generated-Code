@@ -1,0 +1,2 @@
+To solve this problem, we can use an additional temporary stack to hold the sorted elements. Here is the Java program to sort the elements of the stack in descending order:
+

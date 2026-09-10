@@ -1,0 +1,7 @@
+Violations by Category:
+DesignForExtension: Class 'Shape' looks like designed for extension (can be subclassed), but the method 'calculateArea' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Shape' final or making the method 'calculateArea' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 4
+FinalParameters: Parameter args should be final. [FinalParameters]: 1
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 5
+MagicNumber: '0.5' is a magic number. [MagicNumber]: 1
+HideUtilityClassConstructor: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]: 1

@@ -1,0 +1,43 @@
+JUnit version 4.13
+.Enter the coordinates of point P (xp, yp): 
+Enter the coordinates of point Q (xq, yq): 
+Enter the coordinates of point R (xr, yr): 
+Enter the coordinates of point S (xs, ys): 
+The lines AB and CD are not orthogonal.
+.Enter the coordinates of point P (xp, yp): 
+Enter the coordinates of point Q (xq, yq): 
+Enter the coordinates of point R (xr, yr): 
+Enter the coordinates of point S (xs, ys): 
+The lines AB and CD are not orthogonal.
+.Enter the coordinates of point P (xp, yp): 
+Enter the coordinates of point Q (xq, yq): 
+Enter the coordinates of point R (xr, yr): 
+Enter the coordinates of point S (xs, ys): 
+The lines AB and CD are not orthogonal.
+.Enter the coordinates of point P (xp, yp): 
+Enter the coordinates of point Q (xq, yq): 
+Enter the coordinates of point R (xr, yr): 
+Enter the coordinates of point S (xs, ys): 
+The lines AB and CD are not orthogonal.
+..Enter the coordinates of point P (xp, yp): 
+.Enter the coordinates of point P (xp, yp): 
+.Enter the coordinates of point P (xp, yp): 
+Enter the coordinates of point Q (xq, yq): 
+Enter the coordinates of point R (xr, yr): 
+Enter the coordinates of point S (xs, ys): 
+The lines AB and CD are not orthogonal.
+.Enter the coordinates of point P (xp, yp): 
+Enter the coordinates of point Q (xq, yq): 
+Enter the coordinates of point R (xr, yr): 
+Enter the coordinates of point S (xs, ys): 
+The lines AB and CD are not orthogonal.
+.Enter the coordinates of point P (xp, yp): 
+Enter the coordinates of point Q (xq, yq): 
+Enter the coordinates of point R (xr, yr): 
+Enter the coordinates of point S (xs, ys): 
+The lines AB and CD are not orthogonal.
+
+Time: 0.361
+
+OK (10 tests)
+

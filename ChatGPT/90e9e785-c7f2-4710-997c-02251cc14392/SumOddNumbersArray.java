@@ -1,0 +1,30 @@
+import java.util.Arrays;
+
+public class SumOddNumbersArray {
+
+    public static int sumOddNumbers(int[] arr, int n) {
+        // Base case: if the array is empty, return 0
+        if (n == 0) {
+            return 0;
+        }
+
+        // If the last element of the array is odd, add it to the sum
+        int sum = 0;
+        if (arr[n - 1] % 2 != 0) {
+            sum += arr[n - 1];
+        }
+
+        // Recursively call the function on the remaining array
+        sum += sumOddNumbers(arr, n - 1);
+
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int n = arr.length;
+
+        System.out.println(Arrays.toString(arr));
+        System.out.println("Sum of odd numbers in the array: " + sumOddNumbers(arr, n));
+    }
+}

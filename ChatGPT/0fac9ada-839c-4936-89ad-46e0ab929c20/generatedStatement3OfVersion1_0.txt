@@ -1,0 +1,8 @@
+
+
+**Test cases:**
+
+* **Normal case:** Input: a = 10, b = 15. Expected output: 2
+* **Zero input:** Input: a = 0, b = 0. Expected output: 0
+* **Negative input:** Input: a = -10, b = 15. Expected output: 32
+* **Large input:** Input: a = 1000000000, b = 999999999. Expected output: 1

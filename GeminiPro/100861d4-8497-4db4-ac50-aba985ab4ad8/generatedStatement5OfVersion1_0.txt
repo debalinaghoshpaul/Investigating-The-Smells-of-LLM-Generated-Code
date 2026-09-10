@@ -1,0 +1,5 @@
+
+Input: 
+
+Output:
+The current date and time is: 2022/12/31 23:59:59

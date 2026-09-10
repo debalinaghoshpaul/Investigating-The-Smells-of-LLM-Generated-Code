@@ -1,0 +1,64 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class IntegerFromString {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = scanner.nextLine();
+        int num = Integer.parseInt(str);
+        System.out.println("The integer value is: " + num);
+    }
+}
+
+Output:
+Enter a string: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is: 25
+The integer value is:

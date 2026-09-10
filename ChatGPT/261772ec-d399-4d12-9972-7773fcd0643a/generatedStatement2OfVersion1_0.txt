@@ -1,0 +1,17 @@
+
+
+**Test cases:**
+
+* **Valid binary numbers:**
+    * 1101
+    * 10101011
+    * 1111111111111111
+* **Invalid binary numbers:**
+    * 123
+    * 10101a
+    * 11111111111111112
+* **Corner cases:**
+    * Empty string
+    * String containing only 0s
+    * String containing only 1s
+    * String containing leading or trailing spaces

@@ -1,0 +1,19 @@
+JUnit version 4.13
+.E.E
+Time: 0.424
+There were 2 failures:
+1) test0(testing_ChatGPT_on_java.EmptyStringChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.EmptyStringChecker.main(Main.java:5)
+	at testing_ChatGPT_on_java.EmptyStringChecker_ESTest.test0(EmptyStringChecker_ESTest.java:20)
+2) test1(testing_ChatGPT_on_java.EmptyStringChecker_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type EmptyStringChecker must be defined in its own file
+
+	at testing_ChatGPT_on_java.EmptyStringChecker.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.EmptyStringChecker_ESTest.test1(EmptyStringChecker_ESTest.java:25)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

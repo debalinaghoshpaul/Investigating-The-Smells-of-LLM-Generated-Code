@@ -1,0 +1,102 @@
+```java
+import java.util.Scanner;
+
+public class AddTwoMatrices {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the number of rows and columns of the matrices
+        System.out.println("Enter the number of rows: ");
+        int rows = scanner.nextInt();
+        System.out.println("Enter the number of columns: ");
+        int columns = scanner.nextInt();
+
+        // Create two matrices of the specified size
+        int[][] matrix1 = new int[rows][columns];
+        int[][] matrix2 = new int[rows][columns];
+
+        // Read the elements of the first matrix
+        System.out.println("Enter the elements of the first matrix: ");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                matrix1[i][j] = scanner.nextInt();
+            }
+        }
+
+        // Read the elements of the second matrix
+        System.out.println("Enter the elements of the second matrix: ");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                matrix2[i][j] = scanner.nextInt();
+            }
+        }
+
+        // Add the two matrices
+        int[][] sumMatrix = new int[rows][columns];
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                sumMatrix[i][j] = matrix1[i][j] + matrix2[i][j];
+            }
+        }
+
+        // Print the sum matrix
+        System.out.println("The sum of the two matrices is: ");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                System.out.print(sumMatrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
+**Test Cases:**
+
+**Test Case 1:**
+
+* **Input:**
+    * Number of rows: 2
+    * Number of columns: 2
+    * Elements of the first matrix: 1 2 3 4
+    * Elements of the second matrix: 5 6 7 8
+* **Output:**
+    * The sum of the two matrices is:
+    * 6 8
+    * 10 12
+
+**Test Case 2:**
+
+* **Input:**
+    * Number of rows: 3
+    * Number of columns: 3
+    * Elements of the first matrix: 1 2 3 4 5 6 7 8 9
+    * Elements of the second matrix: 10 11 12 13 14 15 16 17 18
+* **Output:**
+    * The sum of the two matrices is:
+    * 11 13 15
+    * 17 19 21
+    * 23 25 27
+
+**Test Case 3:**
+
+* **Input:**
+    * Number of rows: 0
+    * Number of columns: 0
+    * Elements of the first matrix: (empty)
+    * Elements of the second matrix: (empty)
+* **Output:**
+    * The sum of the two matrices is:
+    * (empty)
+
+**Test Case 4:**
+
+* **Input:**
+    * Number of rows: 1
+    * Number of columns: 1
+    * Elements of the first matrix: 1
+    * Elements of the second matrix: 2
+* **Output:**
+    * The sum of the two matrices is:
+    * 3

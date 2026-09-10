@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Interfaces\b2c91fbb-dbb0-451c-bb5b-f44e642d8a88\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Interfaces\b2c91fbb-dbb0-451c-bb5b-f44e642d8a88\generatedProgram1OfVersion1_0.java:2:10: Name 'fly_obj' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Interfaces\b2c91fbb-dbb0-451c-bb5b-f44e642d8a88\generatedProgram1OfVersion1_0.java:26:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Interfaces\b2c91fbb-dbb0-451c-bb5b-f44e642d8a88\generatedProgram1OfVersion1_0.java:27:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Interfaces\b2c91fbb-dbb0-451c-bb5b-f44e642d8a88\generatedProgram1OfVersion1_0.java:27:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Interfaces\b2c91fbb-dbb0-451c-bb5b-f44e642d8a88\generatedProgram1OfVersion1_0.java:28: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Interfaces\b2c91fbb-dbb0-451c-bb5b-f44e642d8a88\generatedProgram1OfVersion1_0.java:28:30: '{' is followed by whitespace. [NoWhitespaceAfter]
+Audit done.

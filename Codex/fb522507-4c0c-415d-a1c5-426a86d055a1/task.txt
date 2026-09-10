@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to implement a lambda expression to create a lambda expression to check if a number is prime.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : fb522507-4c0c-415d-a1c5-426a86d055a1.\n

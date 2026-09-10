@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to check if an array of integers contains two specified elements 65 and 77.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 7a5a0dc1-70bd-4a0f-b818-58ddffc0622b.\n

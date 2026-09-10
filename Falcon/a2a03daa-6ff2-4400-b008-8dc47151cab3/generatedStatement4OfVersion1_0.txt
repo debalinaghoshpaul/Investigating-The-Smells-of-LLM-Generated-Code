@@ -1,0 +1,2 @@
+
+* **Corner case 2:** The array contains only one element.

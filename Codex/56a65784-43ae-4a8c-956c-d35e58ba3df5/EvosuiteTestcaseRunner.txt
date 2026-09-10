@@ -1,0 +1,11 @@
+JUnit version 4.13
+........Original array: [1, 4, 6, 7, 6, 2]
+Updated array: [1, 4, 7, 2, 0]
+The length of the new array is: 5
+Original node: 1 2 3 5 
+After removing 2th element from end: 1 2 3 5 
+......
+Time: 0.548
+
+OK (14 tests)
+

@@ -1,0 +1,33 @@
+**Java Program:**
+
+```java
+public class CharacterArray {
+
+    public static void main(String[] args) {
+        String str = "Hello World";
+
+        // Create a character array from the string
+        char[] charArray = str.toCharArray();
+
+        // Print the character array
+        for (char c : charArray) {
+            System.out.print(c);
+        }
+    }
+}
+```
+
+**Sample Output:**
+
+```
+HelloWorld
+```
+
+**Test Cases:**
+
+* **Normal Case:** Input string: "Hello World"
+* **Empty String:** Input string: ""
+* **Whitespace String:** Input string: " "
+* **Special Characters:** Input string: "#!$%^&*()_+"
+* **Long String:** Input string: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget lacus eget nunc tincidunt laoreet."
+* **Null String:** Input string: null (should throw a NullPointerException)

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-97lUlKOxFwPSmsW5Yk1Uquo2tucpC",
+  "object" : "chat.completion",
+  "created" : 1711637895,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.concurrent.locks.ReadWriteLock;\nimport java.util.concurrent.locks.ReentrantReadWriteLock;\n\npublic class SharedResource {\n    private String data = \"Initial Data\";\n    private ReadWriteLock rwLock = new ReentrantReadWriteLock();\n\n    public String readData() {\n        rwLock.readLock().lock();\n        try {\n            return data;\n        } finally {\n            rwLock.readLock().unlock();\n        }\n    }\n\n    public void writeData(String newData) {\n        rwLock.writeLock().lock();\n        try {\n            data = newData;\n        } finally {\n            rwLock.writeLock().unlock();\n        }\n    }\n\n    public static void main(String[] args) {\n        SharedResource sharedResource = new SharedResource();\n\n        Runnable readTask = () -> {\n            System.out.println(\"Reading Data: \" + sharedResource.readData());\n        };\n\n        Runnable writeTask = () -> {\n            sharedResource.writeData(\"New Data\");\n            System.out.println(\"Data has been written.\");\n        };\n\n        Thread writerThread = new Thread(writeTask);\n        Thread readerThread1 = new Thread(readTask);\n        Thread readerThread2 = new Thread(readTask);\n\n        writerThread.start();\n        readerThread1.start();\n        readerThread2.start();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 71,
+    "completion_tokens" : 254,
+    "total_tokens" : 325
+  },
+  "system_fingerprint" : "fp_3bc1b5746c"
+}

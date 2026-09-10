@@ -1,0 +1,34 @@
+JUnit version 4.13
+.E.E.E.E.E
+Time: 0.253
+There were 5 failures:
+1) test4(testing_ChatGPT_on_java.PerfectSquare_ESTest)
+java.lang.Error: Unresolved compilation problems: 
+	PerfectSquare cannot be resolved to a type
+	PerfectSquare cannot be resolved to a type
+
+	at testing_ChatGPT_on_java.PerfectSquare_ESTest.test4(PerfectSquare_ESTest.java:73)
+2) test3(testing_ChatGPT_on_java.PerfectSquare_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	PerfectSquare cannot be resolved
+
+	at testing_ChatGPT_on_java.PerfectSquare_ESTest.test3(PerfectSquare_ESTest.java:67)
+3) test2(testing_ChatGPT_on_java.PerfectSquare_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	PerfectSquare cannot be resolved
+
+	at testing_ChatGPT_on_java.PerfectSquare_ESTest.test2(PerfectSquare_ESTest.java:52)
+4) test1(testing_ChatGPT_on_java.PerfectSquare_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	PerfectSquare cannot be resolved
+
+	at testing_ChatGPT_on_java.PerfectSquare_ESTest.test1(PerfectSquare_ESTest.java:35)
+5) test0(testing_ChatGPT_on_java.PerfectSquare_ESTest)
+java.lang.Error: Unresolved compilation problem: 
+	PerfectSquare cannot be resolved
+
+	at testing_ChatGPT_on_java.PerfectSquare_ESTest.test0(PerfectSquare_ESTest.java:26)
+
+FAILURES!!!
+Tests run: 5,  Failures: 5
+

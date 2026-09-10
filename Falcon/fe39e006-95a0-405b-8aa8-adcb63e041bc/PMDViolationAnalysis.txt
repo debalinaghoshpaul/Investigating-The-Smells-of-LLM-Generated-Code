@@ -1,0 +1,9 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+UselessParentheses: Useless parentheses.: 1
+SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches): 3
+CyclomaticComplexity: The method 'numberToWords(int)' has a cyclomatic complexity of 28.: 1
+CommentRequired: Class comments are required: 3
+NPathComplexity: The method 'numberToWords(int)' has an NPath complexity of 729, current threshold is 200: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+CloseResource: Ensure that resources like this Scanner object are closed after use: 1

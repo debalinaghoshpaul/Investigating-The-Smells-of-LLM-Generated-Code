@@ -1,0 +1,10 @@
+
+
+Test cases:
+
+* **Empty directory:** A directory that contains no files or directories.
+* **Directory with files:** A directory that contains one or more files.
+* **Directory with subdirectories:** A directory that contains one or more subdirectories.
+* **Directory with special characters:** A directory that contains files or directories with special characters in their names.
+* **Directory with hidden files:** A directory that contains hidden files.
+* **Directory with symbolic links:** A directory that contains symbolic links.

@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:4:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:4:19: Parameter radius should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:4:26: 'radius' hides a field. [HiddenField]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:12:27: Parameter radius should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:12:34: 'radius' hides a field. [HiddenField]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:25:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:26:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:26:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\CodexW3ResourcesOOP\b8d63f44-1cf9-4498-8f65-2a568c9eee1d\generatedProgram1OfVersion1_0.java:27:36: '5.0' is a magic number. [MagicNumber]
+Audit done.

@@ -1,0 +1,15 @@
+```java
+public class StringCreationWithArray {
+
+    public static void main(String[] args) {
+        // create a character array
+        char[] chars = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'};
+
+        // create a String object with the character array
+        String string = new String(chars);
+
+        // print the String object
+        System.out.println(string);
+    }
+}
+```

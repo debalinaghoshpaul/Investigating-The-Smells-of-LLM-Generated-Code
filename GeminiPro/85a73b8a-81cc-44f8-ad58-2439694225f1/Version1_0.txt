@@ -1,0 +1,58 @@
+```java
+import java.util.Scanner;
+
+public class NextSmallestPalindrome {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int number = input.nextInt();
+
+        int nextPalindrome = findNextPalindrome(number);
+
+        System.out.println("The next smallest palindrome is: " + nextPalindrome);
+    }
+
+    public static int findNextPalindrome(int number) {
+        int nextPalindrome = number + 1;
+
+        while (!isPalindrome(nextPalindrome)) {
+            nextPalindrome++;
+        }
+
+        return nextPalindrome;
+    }
+
+    public static boolean isPalindrome(int number) {
+        int reversedNumber = 0;
+        int originalNumber = number;
+
+        while (number > 0) {
+            int lastDigit = number % 10;
+            reversedNumber = reversedNumber * 10 + lastDigit;
+            number /= 10;
+        }
+
+        return originalNumber == reversedNumber;
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:**
+    * Input: 123
+    * Output: 131
+* **Corner case:**
+    * Input: 999
+    * Output: 1001
+* **Negative number:**
+    * Input: -123
+    * Output: Error message: "Invalid input. Please enter a non-negative number."
+* **Zero:**
+    * Input: 0
+    * Output: 1
+* **Single digit number:**
+    * Input: 9
+    * Output: 11

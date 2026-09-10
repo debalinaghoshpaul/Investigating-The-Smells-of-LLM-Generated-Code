@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to create a class Vehicle with a method called speedUp(). Create two subclasses Car and Bicycle. Override the speedUp() method in each subclass to increase the vehicle's speed differently.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : f9d00ad6-5f7a-4b57-8ead-d028854bffa6.\n

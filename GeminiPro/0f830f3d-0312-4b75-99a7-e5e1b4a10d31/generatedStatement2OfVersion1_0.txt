@@ -1,0 +1,21 @@
+
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* Create a circle with radius 5.0 and calculate its area.
+* Create a square with side length 4.0 and calculate its area.
+* Create a triangle with base 3.0 and height 4.0 and calculate its area.
+
+**Negative Test Cases:**
+
+* Create a circle with a negative radius. (Expected: IllegalArgumentException)
+* Create a square with a negative side length. (Expected: IllegalArgumentException)
+* Create a triangle with a negative base or height. (Expected: IllegalArgumentException)
+
+**Corner Cases:**
+
+* Create a circle with a radius of 0.0. (Expected: Area should be 0.0)
+* Create a square with a side length of 0.0. (Expected: Area should be 0.0)
+* Create a triangle with a base of 0.0 or height of 0.0. (Expected: Area should be 0.0)

@@ -1,0 +1,135 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class FloatingPointAdjacent {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double number = scanner.nextDouble();
+        System.out.println(getNextFloatingPointAdjacent(number));
+    }
+
+    public static double getNextFloatingPointAdjacent(double number) {
+        if (number < 0) {
+            return Double.NEGATIVE_INFINITY;
+        } else if (number > 0) {
+            return Double.POSITIVE_INFINITY;
+        } else {
+            return Double.NaN;
+        }
+    }
+}
+
+Output:
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN

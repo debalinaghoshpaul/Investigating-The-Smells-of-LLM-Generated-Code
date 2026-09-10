@@ -1,0 +1,28 @@
+```java
+import java.util.TreeSet;
+
+public class TreeSetGetFirstAndLast {
+
+    public static void main(String[] args) {
+        // create a tree set
+        TreeSet<Integer> treeSet = new TreeSet<>();
+
+        // add some elements to the tree set
+        treeSet.add(1);
+        treeSet.add(2);
+        treeSet.add(3);
+        treeSet.add(4);
+        treeSet.add(5);
+
+        // get the first element in the tree set
+        Integer firstElement = treeSet.first();
+
+        // get the last element in the tree set
+        Integer lastElement = treeSet.last();
+
+        // print the first and last elements
+        System.out.println("First element: " + firstElement);
+        System.out.println("Last element: " + lastElement);
+    }
+}
+```

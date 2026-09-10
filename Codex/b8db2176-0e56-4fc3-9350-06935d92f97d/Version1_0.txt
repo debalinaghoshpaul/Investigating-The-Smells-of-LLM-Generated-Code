@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93V7QFHsTGdX1PP0TimjvboVX9t1a",
+  "object" : "chat.completion",
+  "created" : 1710621632,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic interface Sortable {\n    void sort(int[] arr);\n}\n\nclass BubbleSort implements Sortable {\n    @Override\n    public void sort(int[] arr) {\n        int n = arr.length;\n        for (int i = 0; i < n - 1; i++) {\n            for (int j = 0; j < n - i - 1; j++) {\n                if (arr[j] > arr[j + 1]) {\n                    int temp = arr[j];\n                    arr[j] = arr[j + 1];\n                    arr[j + 1] = temp;\n                }\n            }\n        }\n    }\n}\n\nclass SelectionSort implements Sortable {\n    @Override\n    public void sort(int[] arr) {\n        int n = arr.length;\n        \n        for (int i = 0; i < n - 1; i++) {\n            int minIndex = i;\n            for (int j = i + 1; j < n; j++) {\n                if (arr[j] < arr[minIndex]) {\n                    minIndex = j;\n                }\n            }\n            if (minIndex != i) {\n                int temp = arr[i];\n                arr[i] = arr[minIndex];\n                arr[minIndex] = temp;\n            }\n        }\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        int[] arr = {64, 34, 25, 12, 22, 11, 90};\n        \n        Sortable bubbleSort = new BubbleSort();\n        bubbleSort.sort(arr);\n        \n        System.out.println(\"Array sorted using Bubble Sort:\");\n        for (int num : arr) {\n            System.out.print(num + \" \");\n        }\n        System.out.println();\n        \n        int[] arr2 = {64, 34, 25, 12, 22, 11, 90};\n        \n        Sortable selectionSort = new SelectionSort();\n        selectionSort.sort(arr2);\n        \n        System.out.println(\"Array sorted using Selection Sort:\");\n        for (int num : arr2) {\n            System.out.print(num + \" \");\n        }\n        System.out.println();\n    }\n}\n```\nOutput:\n```\nArray sorted using Bubble Sort:\n11 12 22 25 34 64 90 \nArray sorted using Selection Sort:\n11 12 22 25 34 64 90 \n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 101,
+    "completion_tokens" : 494,
+    "total_tokens" : 595
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

@@ -1,0 +1,52 @@
+```java
+import java.util.Stack;
+
+public class StackSubset {
+
+    public static void main(String[] args) {
+        // Create two stacks
+        Stack<Integer> stack1 = new Stack<>();
+        stack1.push(1);
+        stack1.push(2);
+        stack1.push(3);
+
+        Stack<Integer> stack2 = new Stack<>();
+        stack2.push(1);
+        stack2.push(2);
+
+        // Check if stack2 is a subset of stack1
+        boolean isSubset = isSubset(stack1, stack2);
+
+        // Print the result
+        System.out.println(isSubset); // Output: true
+    }
+
+    public static boolean isSubset(Stack<Integer> stack1, Stack<Integer> stack2) {
+        // Check if stack2 is empty
+        if (stack2.isEmpty()) {
+            return true;
+        }
+
+        // Check if stack1 is empty
+        if (stack1.isEmpty()) {
+            return false;
+        }
+
+        // Check if the top element of stack2 is equal to the top element of stack1
+        if (stack2.peek() == stack1.peek()) {
+            // Pop the top element from both stacks
+            stack1.pop();
+            stack2.pop();
+
+            // Recursively check if the remaining elements of stack2 are a subset of the remaining elements of stack1
+            return isSubset(stack1, stack2);
+        } else {
+            // Pop the top element from stack1
+            stack1.pop();
+
+            // Recursively check if the remaining elements of stack2 are a subset of the remaining elements of stack1
+            return isSubset(stack1, stack2);
+        }
+    }
+}
+```

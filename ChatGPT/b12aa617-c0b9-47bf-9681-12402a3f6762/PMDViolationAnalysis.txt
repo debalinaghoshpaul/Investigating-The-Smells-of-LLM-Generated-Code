@@ -1,0 +1,8 @@
+Violations by Category:
+UselessParentheses: Useless parentheses.: 3
+UseUtilityClass: This utility class has a non-private constructor: 1
+CommentRequired: Class comments are required: 7
+OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.: 1
+MissingOverride: The method 'toString()' is missing an @Override annotation.: 1
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1
+CloseResource: Ensure that resources like this Scanner object are closed after use: 1

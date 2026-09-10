@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94u0dfqJ6DIPp3sgh54VL8b2DYomF",
+  "object" : "chat.completion",
+  "created" : 1710955639,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\nimport java.util.LinkedHashSet;\nimport java.util.Scanner;\nimport java.util.Set;\n\npublic class RemoveDuplicateAndSort {\n    \n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.println(\"Enter a string of lowercase letters: \");\n        String input = scanner.nextLine();\n        \n        String result = removeDuplicatesAndSort(input);\n        \n        System.out.println(\"Result after removing duplicates and arranging in lexicographical order: \");\n        System.out.println(result);\n        \n        scanner.close();\n    }\n    \n    public static String removeDuplicatesAndSort(String input) {\n        char[] chars = input.toCharArray();\n        Arrays.sort(chars);\n        \n        Set<Character> set = new LinkedHashSet<>();\n        for(char c : chars) {\n            set.add(c);\n        }\n        \n        StringBuilder sb = new StringBuilder();\n        for(Character c : set) {\n            sb.append(c);\n        }\n        \n        return sb.toString();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 130,
+    "completion_tokens" : 195,
+    "total_tokens" : 325
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

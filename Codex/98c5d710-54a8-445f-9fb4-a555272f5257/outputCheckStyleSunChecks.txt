@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:7:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:8:28: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:8:31: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:8:34: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:8:37: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:8:40: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:8:43: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_Array\98c5d710-54a8-445f-9fb4-a555272f5257\generatedProgram1OfVersion1_0.java:8:46: '6' is a magic number. [MagicNumber]
+Audit done.

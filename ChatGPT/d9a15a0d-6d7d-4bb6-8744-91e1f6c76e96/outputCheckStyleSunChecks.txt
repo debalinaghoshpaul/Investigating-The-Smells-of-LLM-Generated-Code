@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\d9a15a0d-6d7d-4bb6-8744-91e1f6c76e96\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\d9a15a0d-6d7d-4bb6-8744-91e1f6c76e96\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\d9a15a0d-6d7d-4bb6-8744-91e1f6c76e96\generatedProgram1OfVersion1_0.java:3:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\d9a15a0d-6d7d-4bb6-8744-91e1f6c76e96\generatedProgram1OfVersion1_0.java:3:40: Parameter str should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\d9a15a0d-6d7d-4bb6-8744-91e1f6c76e96\generatedProgram1OfVersion1_0.java:14:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\d9a15a0d-6d7d-4bb6-8744-91e1f6c76e96\generatedProgram1OfVersion1_0.java:14:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPTW3ResourcesRecursiveMethods\d9a15a0d-6d7d-4bb6-8744-91e1f6c76e96\generatedProgram1OfVersion1_0.java:17: Line has trailing spaces. [RegexpSingleline]
+Audit done.

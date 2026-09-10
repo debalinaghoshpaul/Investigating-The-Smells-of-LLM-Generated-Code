@@ -1,0 +1,11 @@
+JUnit version 4.13
+.......Password123 is valid
+password123 is valid
+1234567890 is valid
+abcdefghij is invalid
+12345678901234567890 is valid
+.
+Time: 0.407
+
+OK (8 tests)
+

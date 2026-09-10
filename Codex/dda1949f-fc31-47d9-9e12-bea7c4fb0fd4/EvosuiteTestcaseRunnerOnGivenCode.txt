@@ -1,0 +1,16 @@
+JUnit version 4.13
+..Thread MockThread-2 acquired the semaphore.
+Thread MockThread-0 acquired the semaphore.
+Thread MockThread-0 released the semaphore.
+Thread MockThread-2 released the semaphore.
+Thread MockThread-1 acquired the semaphore.
+Thread MockThread-3 acquired the semaphore.
+Thread MockThread-3 released the semaphore.
+Thread MockThread-1 released the semaphore.
+Thread MockThread-4 acquired the semaphore.
+Thread MockThread-4 released the semaphore.
+.
+Time: 0.633
+
+OK (3 tests)
+

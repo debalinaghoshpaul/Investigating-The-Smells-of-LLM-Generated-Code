@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-932B7VNjm0h08cjzXvKFinW2VM5z3",
+  "object" : "chat.completion",
+  "created" : 1710510385,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.ArrayList;\n\npublic class ArrayListExample {\n\n    public static void main(String[] args) {\n        \n        // Create an ArrayList\n        ArrayList<String> fruits = new ArrayList<>();\n        \n        // Add elements to the ArrayList\n        fruits.add(\"Apple\");\n        fruits.add(\"Banana\");\n        fruits.add(\"Orange\");\n        fruits.add(\"Mango\");\n        fruits.add(\"Grapes\");\n        \n        // Retrieve an element at a specified index\n        int index = 2;\n        if(index >= 0 && index < fruits.size()) {\n            String element = fruits.get(index);\n            System.out.println(\"Element at index \" + index + \": \" + element);\n        } else {\n            System.out.println(\"Invalid index\");\n        }\n        \n        // Update an element by the given element\n        String newElement = \"Pineapple\";\n        index = 3;\n        if(index >= 0 && index < fruits.size()) {\n            fruits.set(index, newElement);\n            System.out.println(\"Updated element at index \" + index + \" with: \" + newElement);\n        } else {\n            System.out.println(\"Invalid index\");\n        }\n        \n        // Display the updated ArrayList\n        System.out.println(\"Updated ArrayList: \" + fruits);\n    }\n\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 86,
+    "completion_tokens" : 255,
+    "total_tokens" : 341
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

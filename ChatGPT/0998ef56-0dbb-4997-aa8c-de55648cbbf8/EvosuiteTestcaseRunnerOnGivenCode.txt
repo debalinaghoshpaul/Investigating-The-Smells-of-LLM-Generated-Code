@@ -1,0 +1,9 @@
+JUnit version 4.13
+..
+Original array: [1, 2, -3, -4, 0, 6, 7, 8, 9]
+The largest sum of a contiguous sub-array: 30
+...
+Time: 0.33
+
+OK (5 tests)
+

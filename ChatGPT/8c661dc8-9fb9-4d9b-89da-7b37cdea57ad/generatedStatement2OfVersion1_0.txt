@@ -1,0 +1,5 @@
+
+
+You can copy and paste this code into a Java IDE or online compiler to run it. 
+
+In this program, we first convert inches to meters by taking the input from the user and performing the conversion. Then, we prompt the user to enter an integer between 0 and 1000 and sum up all the digits in the integer.

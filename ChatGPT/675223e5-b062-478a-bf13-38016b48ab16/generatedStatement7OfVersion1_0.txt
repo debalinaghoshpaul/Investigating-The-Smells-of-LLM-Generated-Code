@@ -1,0 +1,9 @@
+
+
+**Test Cases:**
+
+* **Normal:** str = "wresource"
+* **First character unique:** str = "abcdefg"
+* **Last character unique:** str = "gfedcba"
+* **No unique characters:** str = "aaaaaa"
+* **Empty string:** str = ""

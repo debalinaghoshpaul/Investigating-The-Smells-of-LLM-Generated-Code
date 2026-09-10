@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91yzUlY2VSgPYGIsA1DtjpQcOHMT8",
+  "object" : "chat.completion",
+  "created" : 1710259804,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Arrays;\n\npublic class CountTriangles {\n\n    public static int countTriangles(int[] arr) {\n        Arrays.sort(arr);\n        int count = 0;\n\n        for (int i = 0; i < arr.length - 2; i++) {\n            int k = i + 2;\n            for (int j = i + 1; j < arr.length - 1; j++) {\n                while (k < arr.length && arr[i] + arr[j] > arr[k]) {\n                    k++;\n                }\n                count += k - j - 1;\n            }\n        }\n\n        return count;\n    }\n\n    public static void main(String[] args) {\n        int[] arr = {4, 6, 3, 7};\n        System.out.println(\"Number of possible triangles: \" + countTriangles(arr));\n    }\n}\n```\n\nOutput:\nNumber of possible triangles: 3"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 101,
+    "completion_tokens" : 189,
+    "total_tokens" : 290
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

@@ -1,0 +1,76 @@
+No GPU found. Running on CPU.
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class BankAccount {
+
+    public static void main(String[] args) throws InterruptedException {
+        Lock lock = new ReentrantLock();
+        Condition condition = lock.newCondition();
+        ScheduledExecutorService executorService = Executors.newScheduledThreadPool(1);
+        executorService.scheduleAtFixedRate(new Runnable() {
+            @Override
+            public void run() {
+                deposit(lock, condition);
+            }
+        }, 0, 1000, TimeUnit.MILLISECONDS);
+        executorService.scheduleAtFixedRate(new Runnable() {
+            @Override
+            public void run() {
+                withdraw(lock, condition);
+            }
+        }, 0, 1000, TimeUnit.MILLISECONDS);
+        executorService.shutdown();
+    }
+
+    private static void deposit(Lock lock, Condition condition) {
+        lock.lock();
+        try {
+            condition.await();
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    private static void withdraw(Lock lock, Condition condition) {
+        lock.lock();
+        try {
+            condition.signal();
+        } finally {
+            lock.unlock();
+        }
+    }
+}
+
+// Output:
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit 1000
+// Withdraw 1000
+// Deposit

@@ -1,0 +1,2 @@
+
+* **Corner case 3:** The array contains only positive elements.

@@ -1,0 +1,14 @@
+JUnit version 4.13
+.............Test case 1: false
+Test case 2: false
+Test case 3: false
+Test case 4: false
+Test case 5: false
+Test case 6: false
+Test case 7: false
+Test case 8: false
+
+Time: 0.361
+
+OK (13 tests)
+

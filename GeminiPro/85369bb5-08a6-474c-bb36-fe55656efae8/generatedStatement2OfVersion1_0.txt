@@ -1,0 +1,28 @@
+
+
+**Test Cases with Corner Cases:**
+
+**Test Case 1:**
+
+* Input: 1
+* Expected Output: Sunday
+
+**Test Case 2:**
+
+* Input: 7
+* Expected Output: Saturday
+
+**Test Case 3 (Corner Case):**
+
+* Input: 0
+* Expected Output: Invalid input. Please enter a number between 1 and 7.
+
+**Test Case 4 (Corner Case):**
+
+* Input: 8
+* Expected Output: Invalid input. Please enter a number between 1 and 7.
+
+**Test Case 5:**
+
+* Input: 3
+* Expected Output: Wednesday

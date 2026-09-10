@@ -1,0 +1,65 @@
+```java
+import java.util.Arrays;
+
+public class RemoveLeadingZerosFromIPAddress {
+
+    public static void main(String[] args) {
+        String[] ipAddresses = {
+                "000.000.000.000",
+                "192.168.1.1",
+                "10.0.0.1",
+                "0.0.0.0"
+        };
+
+        for (String ipAddress : ipAddresses) {
+            System.out.println("Original IP Address: " + ipAddress);
+            System.out.println("IP Address without leading zeros: " + removeLeadingZeros(ipAddress));
+            System.out.println();
+        }
+    }
+
+    public static String removeLeadingZeros(String ipAddress) {
+        String[] octets = ipAddress.split("\\.");
+
+        for (int i = 0; i < octets.length; i++) {
+            octets[i] = octets[i].replaceFirst("^0+(?!$)", "");
+        }
+
+        return String.join(".", octets);
+    }
+}
+```
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* IP address with all zeros: "0.0.0.0"
+* IP address with leading zeros in all octets: "000.000.000.000"
+* IP address with leading zeros in some octets: "192.0.0.1", "10.00.0.1"
+
+**Normal Cases:**
+
+* IP address without leading zeros: "192.168.1.1"
+* IP address with a single leading zero in one octet: "10.0.0.1"
+* IP address with multiple leading zeros in one octet: "192.168.001.001"
+
+**Expected Output:**
+
+* Original IP Address: 0.0.0.0
+* IP Address without leading zeros: 0.0.0.0
+
+* Original IP Address: 000.000.000.000
+* IP Address without leading zeros: 0.0.0.0
+
+* Original IP Address: 192.0.0.1
+* IP Address without leading zeros: 192.0.0.1
+
+* Original IP Address: 10.00.0.1
+* IP Address without leading zeros: 10.0.0.1
+
+* Original IP Address: 192.168.1.1
+* IP Address without leading zeros: 192.168.1.1
+
+* Original IP Address: 192.168.001.001
+* IP Address without leading zeros: 192.168.1.1

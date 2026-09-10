@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class LongestWordsInDictionary {
+
+    public static void main(String[] args) {
+        // Create a dictionary
+        Set<String> dictionary = new HashSet<>();
+        dictionary.add("cat");
+        dictionary.add("flag");
+        dictionary.add("green");
+        dictionary.add("country");
+        dictionary.add("w3resource");
+
+        // Find the longest words in the dictionary
+        int maxLength = 0;
+        List<String> longestWords = new ArrayList<>();
+        for (String word : dictionary) {
+            if (word.length() > maxLength) {
+                maxLength = word.length();
+                longestWords.clear();
+                longestWords.add(word);
+            } else if (word.length() == maxLength) {
+                longestWords.add(word);
+            }
+        }
+
+        // Print the longest words
+        System.out.println("Longest words in the dictionary:");
+        for (String word : longestWords) {
+            System.out.println(word);
+        }
+    }
+}

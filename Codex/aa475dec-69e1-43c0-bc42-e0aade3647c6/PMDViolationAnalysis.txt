@@ -1,0 +1,5 @@
+Violations by Category:
+UseUtilityClass: This utility class has a non-private constructor: 1
+UseNotifyAllInsteadOfNotify: Call Thread.notifyAll() rather than Thread.notify(): 2
+CommentRequired: Class comments are required: 7
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

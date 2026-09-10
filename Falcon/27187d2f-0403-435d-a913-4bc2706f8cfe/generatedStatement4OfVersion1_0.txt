@@ -1,0 +1,11 @@
+
+
+**Corner Cases**
+
+* Add a book to the library that is already in the library
+* Remove a book from the library that is not in the library
+* Add a null book to the library
+* Remove a null book from the library
+
+**Expected Output**
+

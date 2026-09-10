@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Original Array: [5, 7, 2, 4, 9]
+Difference between the largest and smallest values of the said array: 7
+.
+Time: 0.345
+
+OK (2 tests)
+

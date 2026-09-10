@@ -1,0 +1,15 @@
+
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| The programming language you need to use is: java. | The programming language you need to use is: python. |
+| Can you also generate test cases including corner cases to test the program? | Can you also generate test cases including corner cases to test the program? |
+| java java java | python python python |
+| python python python | java java java |
+| java python java python | python java python java |
+| empty string | empty string |
+| null | null |
+| string with special characters | string with special characters |
+| string with numbers | string with numbers |

@@ -1,0 +1,9 @@
+JUnit version 4.13
+.Enter a string: 
+.Enter a string: 
+Length of the last word: 6
+.
+Time: 0.455
+
+OK (3 tests)
+

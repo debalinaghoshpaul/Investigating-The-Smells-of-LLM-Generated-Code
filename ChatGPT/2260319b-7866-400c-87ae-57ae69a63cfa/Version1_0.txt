@@ -1,0 +1,64 @@
+```java
+import java.util.Scanner;
+
+public class NumberClassification {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read a floating-point number from the user
+        System.out.print("Input a number: ");
+        float number = scanner.nextFloat();
+
+        // Check if the number is zero
+        if (number == 0) {
+            System.out.println("Input value: " + number);
+            System.out.println("Zero");
+        } else {
+            // Check if the number is positive or negative
+            String sign = number > 0 ? "Positive" : "Negative";
+
+            // Check if the absolute value of the number is less than 1 or greater than 1,000,000
+            String magnitude = Math.abs(number) < 1 ? "small" : (Math.abs(number) > 1000000 ? "large" : "");
+
+            // Print the number classification
+            System.out.println("Input value: " + number);
+            System.out.println(sign + " number" + (magnitude.isEmpty() ? "" : " (" + magnitude + ")"));
+        }
+    }
+}
+```
+
+### Test Cases
+
+**Corner Cases:**
+
+* **Input:** 0
+* **Expected Output:** Input value: 0
+                     Zero
+
+* **Input:** -0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+* **Expected Output:** Input value: -1E-100
+                     Negative number (small)
+
+* **Input:** 1000000.00000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+* **Expected Output:** Input value: 1E+6
+                     Positive number (large)
+
+**Regular Cases:**
+
+* **Input:** 25
+* **Expected Output:** Input value: 25
+                     Positive number
+
+* **Input:** -123.456
+* **Expected Output:** Input value: -123.456
+                     Negative number
+
+* **Input:** 0.000000123
+* **Expected Output:** Input value: 1.23E-7
+                     Positive number (small)
+
+* **Input:** 987654.321
+* **Expected Output:** Input value: 987654.321
+                     Positive number (large)

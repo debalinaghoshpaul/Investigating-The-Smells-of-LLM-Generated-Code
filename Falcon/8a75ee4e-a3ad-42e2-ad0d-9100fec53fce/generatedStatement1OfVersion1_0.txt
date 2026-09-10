@@ -1,0 +1,18 @@
+
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem? (y/n): y
+// Enter the number of months: 12
+// The debt amount is: 144000.0
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem? (y/n): y
+// Enter the number of months: 12
+// The debt amount is: 144000.0
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem? (y/n): y
+// Enter the number of months: 12
+// The debt amount is: 144000.0
+// The programming language you need to use is: java
+// Can you also add test cases including corner cases to test the program of the problem? (y/n): y
+// Enter the number of months: 12
+// The debt amount is: 144000.0
+//

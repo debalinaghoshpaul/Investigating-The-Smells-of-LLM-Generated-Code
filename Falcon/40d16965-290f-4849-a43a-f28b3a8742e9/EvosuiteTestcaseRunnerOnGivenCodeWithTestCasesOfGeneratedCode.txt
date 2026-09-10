@@ -1,0 +1,19 @@
+JUnit version 4.13
+.E.E
+Time: 0.361
+There were 2 failures:
+1) test0(testing_ChatGPT_on_java.Exercise68_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type Exercise68 must be defined in its own file
+
+	at testing_ChatGPT_on_java.Exercise68.<init>(LastThreeCharsRepeat4Times.java:4)
+	at testing_ChatGPT_on_java.Exercise68_ESTest.test0(Exercise68_ESTest.java:20)
+2) test1(testing_ChatGPT_on_java.Exercise68_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.Exercise68.main(LastThreeCharsRepeat4Times.java:5)
+	at testing_ChatGPT_on_java.Exercise68_ESTest.test1(Exercise68_ESTest.java:26)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+

@@ -1,0 +1,4 @@
+Violations by Category:
+OverrideBothEqualsAndHashcode: Ensure you override both equals() and hashCode(): 1
+CommentRequired: Class comments are required: 5
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package: 1

@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9CrvAp7WISAlIHb98UPnSx1UI3tZ1",
+  "object" : "chat.completion",
+  "created" : 1712854236,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class CalculateTimeTaken {\n\n    public static void main(String[] args) {\n        int distance = 55;\n        int speed = 15;\n        \n        double timeInHours = (double) distance / speed;\n        int hours = (int) timeInHours;\n        int minutes = (int) ((timeInHours - hours) * 60);\n        \n        System.out.println(\"Total time taken: \" + hours + \" hours and \" + minutes + \" minutes.\");\n    }\n\n}\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 113,
+    "completion_tokens" : 104,
+    "total_tokens" : 217
+  },
+  "system_fingerprint" : "fp_b28b39ffa8"
+}

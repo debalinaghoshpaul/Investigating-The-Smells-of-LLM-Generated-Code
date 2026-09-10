@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        // Get the character to check
+        System.out.println("Enter a character to check: ");
+        char ch = scanner.nextLine().charAt(0);
+
+        // Check if the character immediately before and after the specified character is the same
+        boolean same = false;
+        if (str.length() >= 3) {
+            if (str.charAt(str.indexOf(ch) - 1) == str.charAt(str.indexOf(ch) + 1)) {
+                same = true;
+            }
+        }
+
+        // Print the result
+        if (same) {
+            System.out.println("The character immediately before and after the specified character is the same.");
+        } else {
+            System.out.println("The character immediately before and after the specified character is not the same.");
+        }
+    }
+}

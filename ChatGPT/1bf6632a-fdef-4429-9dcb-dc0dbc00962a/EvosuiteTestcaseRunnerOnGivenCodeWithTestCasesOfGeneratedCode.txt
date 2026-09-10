@@ -1,0 +1,24 @@
+JUnit version 4.13
+.E.E.E
+Time: 0.377
+There were 3 failures:
+1) test2(testing_ChatGPT_on_java.IslandCounter_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+	The public type IslandCounter must be defined in its own file
+
+	at testing_ChatGPT_on_java.IslandCounter.<init>(Main.java:4)
+	at testing_ChatGPT_on_java.IslandCounter_ESTest.test2(IslandCounter_ESTest.java:66)
+2) test0(testing_ChatGPT_on_java.IslandCounter_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.IslandCounter.main(Main.java:6)
+	at testing_ChatGPT_on_java.IslandCounter_ESTest.test0(IslandCounter_ESTest.java:28)
+3) test1(testing_ChatGPT_on_java.IslandCounter_ESTest)
+org.evosuite.runtime.mock.java.lang.MockError: Unresolved compilation problem: 
+
+	at testing_ChatGPT_on_java.IslandCounter.main(Main.java:6)
+	at testing_ChatGPT_on_java.IslandCounter_ESTest.test1(IslandCounter_ESTest.java:53)
+
+FAILURES!!!
+Tests run: 3,  Failures: 3
+

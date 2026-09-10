@@ -1,0 +1,14 @@
+
+
+**Test Cases:**
+
+* **Input:** "xxyz", "yxzx"
+* **Output:** true (Permutation)
+* **Input:** "abc", "def"
+* **Output:** false (Not a permutation)
+* **Input:** "a", "aa"
+* **Output:** false (Not a permutation)
+* **Input:** "Hello", "hello"
+* **Output:** true (Permutation, ignoring case)
+* **Corner Case:** **Input:** "null", "not null"
+* **Output:** false (Second string is not a permutation of the null string)

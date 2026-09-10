@@ -1,0 +1,3 @@
+
+
+This Java program defines a recursive method `generatePermutations` which takes a string as input and returns a list of all possible permutations of that string. The method recursively generates permutations by taking each character in the input string and combining it with permutations of the remaining characters. The main method demonstrates how to use this method by generating permutations of the string "abc" and printing them out.

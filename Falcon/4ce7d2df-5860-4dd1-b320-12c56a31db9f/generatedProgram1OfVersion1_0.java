@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+class BinaryTree {
+    int data;
+    BinaryTree left;
+    BinaryTree right;
+
+    public BinaryTree(int data) {
+        this.data = data;
+        this.left = null;
+        this.right = null;
+    }
+}
+
+public class UpdateBinaryTree {
+    public static void main(String[] args) {
+        BinaryTree root = new BinaryTree(1);
+        root.left = new BinaryTree(2);
+        root.right = new BinaryTree(3);
+        root.left.left = new BinaryTree(4);
+        root.left.right = new BinaryTree(5);
+        root.right.left = new BinaryTree(6);
+        root.right.right = new BinaryTree(7);
+        root.left.left.left = new BinaryTree(8);
+        root.left.left.right = new BinaryTree(9);
+        root.left.right.left = new BinaryTree(10);
+        root.left.right.right = new BinaryTree(11);
+        root.right.left.left = new BinaryTree(12);
+        root.right.left.right = new BinaryTree(13);
+        root.right.right.left = new BinaryTree(14);
+        root.right.right.right = new BinaryTree(15);
+
+        Queue<BinaryTree> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            BinaryTree node = queue.poll();
+            System.out.print(node.data + " ");
+            if (node.left!= null) {
+                queue.offer(node.left);
+            }
+            if (node.right!= null) {
+                queue.offer(node.right);
+            }
+        }
+    }
+}
+

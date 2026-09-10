@@ -1,0 +1,59 @@
+```java
+import java.util.Arrays;
+
+public class Find1020AndAdjacentNumbers {
+
+    public static boolean find1020(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (arr[i] == 10 && arr[i + 1] == 20) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static boolean findAdjacentNumbers(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (arr[i] == arr[i + 1] || arr[i] == arr[i + 2]) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        int[] arr1 = {1, 2, 3, 10, 20, 5, 6, 7};
+        int[] arr2 = {1, 2, 3, 10, 20, 5, 10, 7}; // Corner case: 10 and 20 are separated by more than one element
+        int[] arr3 = {1, 2, 3, 10, 5, 20, 7}; // Corner case: 20 appears before 10
+        int[] arr4 = {1, 2, 3, 4, 5, 6, 7}; // Corner case: no 10 or 20 in the array
+        int[] arr5 = {1, 2, 3, 10, 10, 7}; // Corner case: two adjacent 10s
+
+        System.out.println(find1020(arr1)); // true
+        System.out.println(find1020(arr2)); // false
+        System.out.println(find1020(arr3)); // false
+        System.out.println(find1020(arr4)); // false
+        System.out.println(find1020(arr5)); // true
+
+        System.out.println(findAdjacentNumbers(arr1)); // false
+        System.out.println(findAdjacentNumbers(arr2)); // true
+        System.out.println(findAdjacentNumbers(arr3)); // true
+        System.out.println(findAdjacentNumbers(arr4)); // false
+        System.out.println(findAdjacentNumbers(arr5)); // true
+    }
+}
+```
+
+**Test Cases for Corner Cases:**
+
+* **Test Case 1**: Input: [1, 2, 3, 10, 20, 5, 10, 7]
+   * Expected Output: false
+   * Explanation: 10 and 20 are separated by more than one element.
+* **Test Case 2**: Input: [1, 2, 3, 10, 5, 20, 7]
+   * Expected Output: false
+   * Explanation: 20 appears before 10.
+* **Test Case 3**: Input: [1, 2, 3, 4, 5, 6, 7]
+   * Expected Output: false
+   * Explanation: No 10 or 20 in the array.
+* **Test Case 4**: Input: [1, 2, 3, 10, 10, 7]
+   * Expected Output: true
+   * Explanation: Two adjacent 10s.

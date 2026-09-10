@@ -1,0 +1,11 @@
+JUnit version 4.13
+.Enter a string to check if it is a valid hex code:
+The string is not a valid hex code.
+..Enter a string to check if it is a valid hex code:
+.Enter a string to check if it is a valid hex code:
+The string is a valid hex code.
+
+Time: 0.356
+
+OK (4 tests)
+

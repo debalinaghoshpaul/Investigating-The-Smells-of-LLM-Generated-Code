@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-94p8afXBjVA6Qt9caoHwnuHqj9zyA",
+  "object" : "chat.completion",
+  "created" : 1710936912,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class IntegerToString {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        // Input an integer from the user\n        System.out.print(\"Input an integer: \");\n        int num = input.nextInt();\n\n        // Convert the integer to String format\n        String numStr = String.valueOf(num);\n\n        // Print the String format of the integer\n        System.out.println(\"String format of the said integer: \" + numStr);\n    }\n}\n"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 80,
+    "completion_tokens" : 103,
+    "total_tokens" : 183
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

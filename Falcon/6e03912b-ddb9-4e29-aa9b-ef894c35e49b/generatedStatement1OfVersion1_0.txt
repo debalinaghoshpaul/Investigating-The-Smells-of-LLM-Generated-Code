@@ -1,0 +1,8 @@
+
+John
+50000
+2020-01-01
+### Explanation:
+This program creates a class called Employee with a name, salary, and hire date attributes, and a method to calculate years of service. The programming language you need to use is: Java. Can you also add test cases including corner cases to test the program of the problem? Yes, you can add test cases including corner cases to test the program of the problem. The test cases can be used to ensure that the program works as expected in all cases. For example, you can test the program by setting the salary to a negative value and checking if the program throws an exception. You can also test the program by setting the hire date to a date in the future and checking if the program throws an exception. You can also test the program by setting the hire date to a date in the past and checking if the program throws an exception. Finally, you can test the program by setting the name to an empty string and checking if the program throws an exception. By adding these test cases, you can ensure that the program works as expected in all cases.
+
+### Solution

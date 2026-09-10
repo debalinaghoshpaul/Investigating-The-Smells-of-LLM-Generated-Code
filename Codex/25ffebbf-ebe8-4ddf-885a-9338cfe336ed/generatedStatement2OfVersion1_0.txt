@@ -1,0 +1,17 @@
+
+
+**Test Cases:**
+
+**Corner Cases:**
+
+* **Empty array:** `[]`
+* **Array with single element:** `[1]`
+* **Array with all elements the same:** `[1, 1, 1, 1, 1]`
+* **Array with only decreasing elements:** `[5, 4, 3, 2, 1]`
+
+**Regular Cases:**
+
+* **Array with increasing elements:** `[1, 2, 3, 4, 5]`
+* **Array with both increasing and decreasing elements:** `[1, 2, 3, 4, 5, 6, 2, 3, 4, 5]`
+* **Array with large number of elements:** `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]`
+* **Array with elements that are not consecutive:** `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]`

@@ -1,0 +1,22 @@
+public class Animal {
+    public void makeSound() {
+        System.out.println("Meow!");
+    }
+}
+
+public class Cat extends Animal {
+    @Override
+    public void makeSound() {
+        System.out.println("Bark!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal animal = new Animal();
+        animal.makeSound();
+        Cat cat = new Cat();
+        cat.makeSound();
+    }
+}
+

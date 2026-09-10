@@ -1,0 +1,9 @@
+JUnit version 4.13
+..
+Original array: [2, 3, 1, 7, 9, 5, 11, 3, 5]
+The maximum difference between two elements of the said array elements
+10....
+Time: 0.345
+
+OK (6 tests)
+

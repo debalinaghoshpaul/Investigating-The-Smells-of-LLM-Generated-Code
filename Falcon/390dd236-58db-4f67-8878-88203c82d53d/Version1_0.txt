@@ -1,0 +1,52 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class OctalToBinary {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter an octal number: ");
+        int octalNumber = scanner.nextInt();
+        System.out.println("The equivalent binary number is: " + octalToBinary(octalNumber));
+    }
+
+    public static int octalToBinary(int octalNumber) {
+        int binaryNumber = 0;
+        while (octalNumber!= 0) {
+            binaryNumber = binaryNumber * 8 + octalNumber % 8;
+            octalNumber /= 8;
+        }
+        return binaryNumber;
+    }
+}
+
+// Output: Enter an octal number: 7
+// The equivalent binary number is: 111
+// Enter an octal number: 8
+// The equivalent binary number is: 1000
+// Enter an octal number: 9
+// The equivalent binary number is: 1001
+// Enter an octal number: 10
+// The equivalent binary number is: 1010
+// Enter an octal number: 11
+// The equivalent binary number is: 1011
+// Enter an octal number: 12
+// The equivalent binary number is: 1100
+// Enter an octal number: 13
+// The equivalent binary number is: 1101
+// Enter an octal number: 14
+// The equivalent binary number is: 1110
+// Enter an octal number: 15
+// The equivalent binary number is: 1111
+// Enter an octal number: 16
+// The equivalent binary number is: 10000
+// Enter an octal number: 17
+// The equivalent binary number is: 10001
+// Enter an octal number: 18
+// The equivalent binary number is: 10010
+// Enter an octal number: 19
+// The equivalent binary number is: 10011
+// Enter an octal number: 20
+// The equivalent binary number is: 10100
+// Enter an octal number: 21
+// The equivalent binary number is: 10101
+// Enter an octal

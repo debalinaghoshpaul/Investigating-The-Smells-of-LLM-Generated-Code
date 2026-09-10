@@ -1,0 +1,11 @@
+JUnit version 4.13
+.Enter the radius of the circle: 
+..Enter the radius of the circle: 
+.Enter the radius of the circle: 
+The area of the circle is: 9503.317777109125
+The perimeter of the circle is: 345.57519189487726
+
+Time: 0.36
+
+OK (4 tests)
+

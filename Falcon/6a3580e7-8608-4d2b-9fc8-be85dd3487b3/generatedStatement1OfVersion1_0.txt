@@ -1,0 +1,27 @@
+ Largest gap between sorted elements of the said array: 15
+// Can you also add test cases including corner cases to test the program of the problem?
+// Yes, you can add test cases including corner cases to test the program of the problem.
+// For example:
+// arr = [23, -2, 45, 38, 12, 4, 6]
+// n = arr.length
+// maxGap = Integer.MIN_VALUE
+// arr[0] = 23
+// arr[1] = -2
+// arr[2] = 45
+// arr[3] = 38
+// arr[4] = 12
+// arr[5] = 4
+// arr[6] = 6
+// arr[7] = 23
+// arr[8] = -2
+// arr[9] = 45
+// arr[10] = 38
+// arr[11] = 12
+// arr[12] = 4
+// arr[13] = 6
+// arr[14] = 23
+// arr[15] = -2
+// arr[16] = 45
+// arr[17] = 38
+// arr[18] = 12
+// arr[19] =

@@ -1,0 +1,56 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class ReverseSentence {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String sentence = scanner.nextLine();
+        String reversedSentence = "";
+        for (int i = sentence.length() - 1; i >= 0; i--) {
+            reversedSentence += sentence.charAt(i);
+        }
+        System.out.println(reversedSentence);
+    }
+}
+
+Output:
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps fox brown quick
+The quick brown fox jumps over the lazy dog
+dog lazy the over jumps

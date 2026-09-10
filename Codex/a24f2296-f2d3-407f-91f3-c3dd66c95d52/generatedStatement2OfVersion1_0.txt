@@ -1,0 +1,10 @@
+
+
+**Test Cases:**
+
+* **Regular case:** An array of integers [1, 2, 3, 4, 5] should be reversed to [5, 4, 3, 2, 1].
+* **Empty array:** An empty array [] should remain empty after reversal.
+* **Single-element array:** An array with a single element [1] should remain the same after reversal.
+* **Array with duplicate elements:** An array with duplicate elements [1, 2, 3, 2, 1] should be reversed to [1, 2, 3, 2, 1].
+* **Negative elements:** An array with negative elements [-1, -2, -3, -4, -5] should be reversed to [-5, -4, -3, -2, -1].
+* **Long array:** An array with a large number of elements (e.g., 100,000 elements) should be reversed correctly without any performance issues.

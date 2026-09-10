@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-932LM6aDZJIm8xehGcusFltwhH3Wj",
+  "object" : "chat.completion",
+  "created" : 1710511020,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.ArrayList;\nimport java.util.Collections;\n\npublic class ReverseArrayList {\n    public static void main(String[] args) {\n        // create an array list\n        ArrayList<Integer> numbers = new ArrayList<>();\n        numbers.add(1);\n        numbers.add(2);\n        numbers.add(3);\n        numbers.add(4);\n        numbers.add(5);\n\n        // print original array list\n        System.out.println(\"Original array list: \" + numbers);\n\n        // reverse elements in the array list\n        Collections.reverse(numbers);\n\n        // print reversed array list\n        System.out.println(\"Reversed array list: \" + numbers);\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 78,
+    "completion_tokens" : 129,
+    "total_tokens" : 207
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

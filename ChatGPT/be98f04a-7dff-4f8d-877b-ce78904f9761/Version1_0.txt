@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-8ymJSvX1wnagqt1ysRSrXvfAZNoyT",
+  "object" : "chat.completion",
+  "created" : 1709496086,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nabstract class Shape2D {\n    abstract void draw();\n    abstract void resize();\n}\n\nclass Rectangle extends Shape2D {\n    @Override\n    void draw() {\n        System.out.println(\"Drawing a rectangle\");\n    }\n\n    @Override\n    void resize() {\n        System.out.println(\"Resizing the rectangle\");\n    }\n}\n\nclass Circle extends Shape2D {\n    @Override\n    void draw() {\n        System.out.println(\"Drawing a circle\");\n    }\n\n    @Override\n    void resize() {\n        System.out.println(\"Resizing the circle\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Rectangle rect = new Rectangle();\n        Circle circle = new Circle();\n\n        rect.draw();\n        rect.resize();\n\n        circle.draw();\n        circle.resize();\n    }\n}\n```\nOutput:\n```\nDrawing a rectangle\nResizing the rectangle\nDrawing a circle\nResizing the circle\n```"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 93,
+    "completion_tokens" : 190,
+    "total_tokens" : 283
+  },
+  "system_fingerprint" : "fp_2b778c6b35"
+}

@@ -1,0 +1,21 @@
+import java.util.HashSet;
+import java.util.TreeSet;
+
+public class HashSetToTreeSet {
+
+    public static void main(String[] args) {
+        // create a hash set
+        HashSet<String> hashSet = new HashSet<>();
+        hashSet.add("apple");
+        hashSet.add("banana");
+        hashSet.add("cherry");
+        hashSet.add("dog");
+        hashSet.add("cat");
+
+        // create a tree set
+        TreeSet<String> treeSet = new TreeSet<>(hashSet);
+
+        // print the tree set
+        System.out.println(treeSet);
+    }
+}

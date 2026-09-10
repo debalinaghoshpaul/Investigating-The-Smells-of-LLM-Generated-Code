@@ -1,0 +1,66 @@
+```java
+import java.util.Scanner;
+
+public class WordExtractor {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input sentence
+        String sentence = scanner.nextLine();
+
+        // Extract words of length 3 to 6 characters
+        String[] words = sentence.split("[\\s\\p{Punct}]+");
+        for (String word : words) {
+            if (word.length() >= 3 && word.length() <= 6) {
+                System.out.print(word + " ");
+            }
+        }
+        System.out.println();
+    }
+}
+```
+
+### Test Cases
+
+**Test Case 1:**
+
+```
+Input: I love programming and solving problems.
+Output: love and
+```
+
+**Test Case 2:**
+
+```
+Input: The quick brown fox jumps over the lazy dog.
+Output: quick brown fox jumps lazy dog
+```
+
+**Test Case 3:**
+
+```
+Input: 1234567890
+Output:
+```
+
+**Test Case 4:**
+
+```
+Input: !@#$%^&*()_+=-
+Output:
+```
+
+**Test Case 5:**
+
+```
+Input: This is a sentence with a very long word.
+Output: This is a very
+```
+
+**Test Case 6:**
+
+```
+Input: I have a long sentence that contains words of different lengths.
+Output: have long that contains words
+```

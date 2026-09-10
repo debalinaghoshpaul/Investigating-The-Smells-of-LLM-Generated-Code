@@ -1,0 +1,25 @@
+JUnit version 4.13
+..Stack is empty
+.Stack is empty
+.Stack Underflow
+.Stack is full
+..Initialize a stack:
+Is the stack empty? true
+
+Input some elements on the stack:
+Stack elements: 5 4 3 2 1 
+
+Top element of the stack: 5
+
+Remove two element from the stack:
+Stack elements: 3 2 1 
+
+Top element of the stack after popping: 3
+
+Is the stack empty? false
+...Stack elements: 2218 
+...
+Time: 0.315
+
+OK (13 tests)
+

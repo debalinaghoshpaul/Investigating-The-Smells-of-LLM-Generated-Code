@@ -1,0 +1,40 @@
+
+Enter the radius of the circle: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25.0
+
+The radius of the circle is: 5.0
+The area of the circle is: 25.0
+The circumference of the circle is: 25

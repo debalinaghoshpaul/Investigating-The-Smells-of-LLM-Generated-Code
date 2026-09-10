@@ -1,0 +1,5 @@
+
+
+Test cases:
+
+* Corner case: number is 0

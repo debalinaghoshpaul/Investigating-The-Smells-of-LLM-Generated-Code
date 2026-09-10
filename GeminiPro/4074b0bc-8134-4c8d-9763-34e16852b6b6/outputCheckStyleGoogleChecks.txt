@@ -1,0 +1,9 @@
+Starting audit...
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:2:1: Top-level class Animal has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:13:1: Top-level class Bird has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:26:1: Top-level class Panthera has to reside in its own source file. [OneTopLevelClass]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:38:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:38:1: 'CLASS_DEF' should be separated from previous line. [EmptyLineSeparator]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:39:3: Missing a Javadoc comment. [MissingJavadocMethod]
+[WARN] C:\Users\debal\OneDrive\Desktop\PhD folder\GeminiPro\GeminiPro_W3Resources_Polymorphism\4074b0bc-8134-4c8d-9763-34e16852b6b6\GivenSolution.java:47:3: Missing a Javadoc comment. [MissingJavadocMethod]
+Audit done.

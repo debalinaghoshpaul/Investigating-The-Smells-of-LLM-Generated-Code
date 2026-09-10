@@ -1,0 +1,31 @@
+JUnit version 4.13
+.Stack elements: 4195 
+..Common elements: Stack elements: 242 1130 
+.Common elements: Stack is empty!
+....Stack is empty
+....Stack Underflow
+....Stack is full
+.Stack is empty!
+.
+Stack-1
+Stack elements: 3 2 1 
+
+Stack-2
+Stack elements: 6 5 3 
+
+Stack-3
+Stack elements: 4 2 1 
+
+Find elements that are common in stack1 and stack2:
+Common elements: Stack elements: 3 
+
+Find elements that are common in stack1 and stack3:
+Common elements: Stack elements: 2 1 
+
+Find elements that are common in stack3 and stack2:
+Common elements: Stack is empty!
+
+Time: 0.426
+
+OK (18 tests)
+

@@ -1,0 +1,22 @@
+import java.util.TreeSet;
+
+public class GetCeilingElementInTreeSet {
+
+    public static void main(String[] args) {
+        // create a tree set
+        TreeSet<String> treeSet = new TreeSet<>();
+
+        // add elements to the tree set
+        treeSet.add("apple");
+        treeSet.add("banana");
+        treeSet.add("cherry");
+        treeSet.add("date");
+        treeSet.add("elderberry");
+
+        // get the element in the tree set strictly greater than or equal to the given element
+        String ceilingElement = treeSet.ceiling("cherry");
+
+        // print the ceiling element
+        System.out.println("The ceiling element of \"cherry\" in the tree set is: " + ceilingElement);
+    }
+}

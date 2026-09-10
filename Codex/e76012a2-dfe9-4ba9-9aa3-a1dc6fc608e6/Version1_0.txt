@@ -1,0 +1,61 @@
+```java
+// Java program to count the number of ways to reach the top of stairs
+// using step 1 or 2
+
+class CountWaysToClimbStairs {
+    // Recursive function to count the number of ways to reach the top of stairs
+    // using step 1 or 2
+    static int countWays(int n) {
+        // If the number of stairs is 0 or 1, then there is only one way to reach the top
+        if (n <= 1)
+            return 1;
+        // If the number of stairs is 2, then there are two ways to reach the top
+        else if (n == 2)
+            return 2;
+        // If the number of stairs is greater than 2, then the number
+        // of ways to reach the top is the sum of the number of ways
+        // to reach the top from the previous step and the step before that
+        else
+            return countWays(n - 1) + countWays(n - 2);
+    }
+
+    // Main function to test the countWays function
+    public static void main(String[] args) {
+        // Test case: n = 5
+        int n = 5;
+        int result = countWays(n);
+
+        // Print the result
+        System.out.println("Number of ways to climb to the top of " + n + " stairs: " + result);
+
+        // Test case: n = 10
+        n = 10;
+        result = countWays(n);
+
+        // Print the result
+        System.out.println("Number of ways to climb to the top of " + n + " stairs: " + result);
+
+        // Test case: n = 15
+        n = 15;
+        result = countWays(n);
+
+        // Print the result
+        System.out.println("Number of ways to climb to the top of " + n + " stairs: " + result);
+    }
+}
+```
+
+## Test cases
+
+### Positive test cases
+- n = 5
+- n = 10
+- n = 15
+
+### Negative test cases
+- n = 0
+- n = -5
+
+### Corner cases
+- n = 1
+- n = 2

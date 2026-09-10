@@ -1,0 +1,75 @@
+**Java program to check whether a specified character is happy or not:**
+
+```java
+import java.util.Scanner;
+
+public class HappyCharacter {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+
+        System.out.println("Enter a character: ");
+        char ch = scanner.next().charAt(0);
+
+        boolean isHappy = false;
+
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == ch) {
+                if (i > 0 && str.charAt(i - 1) == ch) {
+                    isHappy = true;
+                } else if (i < str.length() - 1 && str.charAt(i + 1) == ch) {
+                    isHappy = true;
+                }
+            }
+        }
+
+        if (isHappy) {
+            System.out.println("The character is happy.");
+        } else {
+            System.out.println("The character is not happy.");
+        }
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Test case 1:**
+    * Input:
+        * String: "hello"
+        * Character: 'l'
+    * Output:
+        * The character is happy.
+* **Test case 2:**
+    * Input:
+        * String: "world"
+        * Character: 'o'
+    * Output:
+        * The character is not happy.
+* **Test case 3:**
+    * Input:
+        * String: "abcabc"
+        * Character: 'a'
+    * Output:
+        * The character is happy.
+* **Test case 4:**
+    * Input:
+        * String: "xyz"
+        * Character: 'z'
+    * Output:
+        * The character is happy.
+* **Test case 5:**
+    * Input:
+        * String: ""
+        * Character: 'a'
+    * Output:
+        * The character is not happy.
+* **Test case 6:**
+    * Input:
+        * String: " "
+        * Character: ' '
+    * Output:
+        * The character is happy.

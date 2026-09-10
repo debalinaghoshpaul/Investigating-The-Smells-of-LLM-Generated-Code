@@ -1,0 +1,8 @@
+JUnit version 4.13
+..Original array list: [Item 1, Item 2, Item 3]
+Cloned array list: [Item 1, Item 2, Item 3]
+
+Time: 0.471
+
+OK (2 tests)
+

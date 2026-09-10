@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Original Array: [1, 2, 3, 4, 5]
+Array after rotation: [5, 1, 2, 3, 4]
+....
+Time: 0.485
+
+OK (5 tests)
+

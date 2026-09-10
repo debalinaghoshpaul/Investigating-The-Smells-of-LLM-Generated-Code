@@ -1,0 +1,6 @@
+JUnit version 4.13
+..Enter the value of n: ...
+Time: 0.899
+
+OK (5 tests)
+

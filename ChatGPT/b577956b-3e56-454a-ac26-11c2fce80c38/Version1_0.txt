@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EOXSJxA9mWUEOiM9oSZnklsRTurL",
+  "object" : "chat.completion",
+  "created" : 1713217946,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.HashMap;\nimport java.util.Map;\nimport java.util.Scanner;\n\npublic class MergeArrays {\n\n    public static void main(String[] args) {\n        int[] array1 = new int[15];\n        int[] array2 = new int[15];\n\n        Scanner scanner = new Scanner(System.in);\n\n        System.out.println(\"Enter elements of the first array:\");\n        for (int i = 0; i < 15; i++) {\n            array1[i] = scanner.nextInt();\n        }\n\n        System.out.println(\"Enter elements of the second array:\");\n        for (int i = 0; i < 15; i++) {\n            array2[i] = scanner.nextInt();\n        }\n\n        Map<Integer, Integer> mergedMap = mergeArrays(array1, array2);\n\n        System.out.println(\"N Count\");\n        for (Map.Entry<Integer, Integer> entry : mergedMap.entrySet()) {\n            System.out.println(entry.getKey() + \" \" + entry.getValue());\n        }\n    }\n\n    public static Map<Integer, Integer> mergeArrays(int[] array1, int[] array2) {\n        Map<Integer, Integer> mergedMap = new HashMap<>();\n\n        for (int num : array1) {\n            mergedMap.put(num, mergedMap.getOrDefault(num, 0) + 1);\n        }\n\n        for (int num : array2) {\n            mergedMap.put(num, mergedMap.getOrDefault(num, 0) + 1);\n        }\n\n        return mergedMap;\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 282,
+    "completion_tokens" : 303,
+    "total_tokens" : 585
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to implement a lambda expression to find the length of the longest and smallest string in a list.\n\n\n\n The programming language you need to use is: java.\n\n Problem Id is : 7d1a4bc8-ffa7-49e4-a502-aa75c3d308f5.\n

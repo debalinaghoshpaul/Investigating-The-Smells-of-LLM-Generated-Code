@@ -1,0 +1,64 @@
+```java
+import java.util.*;
+
+public class DuplicateCharacters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a string: ");
+        String input = scanner.nextLine();
+        Map<Character, Integer> charCountMap = new HashMap<>();
+        for (char c : input.toCharArray()) {
+            if (charCountMap.containsKey(c)) {
+                charCountMap.put(c, charCountMap.get(c) + 1);
+            } else {
+                charCountMap.put(c, 1);
+            }
+        }
+        Set<Character> duplicateChars = new HashSet<>();
+        for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
+            if (entry.getValue() > 1) {
+                duplicateChars.add(entry.getKey());
+            }
+        }
+        System.out.println("Duplicate characters: " + duplicateChars);
+    }
+}
+```
+
+Test cases:
+
+**1. Normal case**
+
+```
+Input: hello world
+Output: e, l
+```
+
+**2. Case with no duplicates**
+
+```
+Input: abcdefghijklmnopqrstuvwxyz
+Output: No duplicates found
+```
+
+**3. Case with all characters as duplicates**
+
+```
+Input: aaaaa
+Output: a
+```
+
+**4. Case with special characters**
+
+```
+Input: !@#$%^&*()_+=-
+Output: No duplicates found
+```
+
+**5. Case with empty string**
+
+```
+Input: 
+Output: No duplicates found
+```

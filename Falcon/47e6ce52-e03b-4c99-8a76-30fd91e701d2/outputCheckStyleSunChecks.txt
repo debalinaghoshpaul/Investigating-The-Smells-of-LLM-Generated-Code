@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:2:50: Parameter arr should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:21:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:21:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:22:22: '49' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:22:29: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:22:32: '200' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:22:40: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:22:43: '70' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:22:47: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Arrays\47e6ce52-e03b-4c99-8a76-30fd91e701d2\generatedProgram1OfVersion1_0.java:25: Line is longer than 80 characters (found 99). [LineLength]
+Audit done.

@@ -1,0 +1,8 @@
+JUnit version 4.13
+.Enter a number: The number must be non-negative
+.Enter a number: The square root of 3 is 1.7321428571428572
+..Enter a number: .Enter a number: .Enter a number: 
+Time: 0.541
+
+OK (6 tests)
+

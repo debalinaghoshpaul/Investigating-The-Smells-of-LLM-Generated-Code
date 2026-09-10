@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95D1XqBLEHEFE0JtO5KAOeVOCu84O",
+  "object" : "chat.completion",
+  "created" : 1711028731,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class SumOfFirstNPrimes {\n\n    public static boolean isPrime(int num) {\n        if (num <= 1) {\n            return false;\n        }\n        for (int i = 2; i <= Math.sqrt(num); i++) {\n            if (num % i == 0) {\n                return false;\n            }\n        }\n        return true;\n    }\n\n    public static int sumOfFirstNPrimes(int n) {\n        int count = 0;\n        int sum = 0;\n        int num = 2;\n\n        while (count < n) {\n            if (isPrime(num)) {\n                sum += num;\n                count++;\n            }\n            num++;\n        }\n\n        return sum;\n    }\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter the value of n: \");\n        int n = scanner.nextInt();\n\n        int sum = sumOfFirstNPrimes(n);\n        System.out.println(\"Sum of the first \" + n + \" prime numbers is: \" + sum);\n\n        scanner.close();\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 64,
+    "completion_tokens" : 233,
+    "total_tokens" : 297
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

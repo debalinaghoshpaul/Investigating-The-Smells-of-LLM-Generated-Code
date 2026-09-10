@@ -1,0 +1,21 @@
+JUnit version 4.13
+.Enter the size of the array: 
+Enter the elements of the array: 
+The array alternates between positive and negative values.
+.Enter the size of the array: 
+Enter the elements of the array: 
+.Enter the size of the array: 
+Enter the elements of the array: 
+.Enter the size of the array: 
+Enter the elements of the array: 
+The array does not alternate between positive and negative values.
+..Enter the size of the array: 
+Enter the elements of the array: 
+.Enter the size of the array: 
+Enter the elements of the array: 
+The array alternates between positive and negative values.
+
+Time: 0.345
+
+OK (7 tests)
+

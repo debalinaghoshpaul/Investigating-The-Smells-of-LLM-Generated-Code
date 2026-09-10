@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xBOFVZYWCRYVuQuqQ1YjuEtyDrz",
+  "object" : "chat.completion",
+  "created" : 1710252854,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\npublic class ArrayContainsValue {\n\n    public static boolean containsValue(int[] arr, int value) {\n        for (int num : arr) {\n            if (num == value) {\n                return true;\n            }\n        }\n        return false;\n    }\n\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5};\n        int valueToFind = 3;\n\n        if (containsValue(arr, valueToFind)) {\n            System.out.println(\"Array contains the value \" + valueToFind);\n        } else {\n            System.out.println(\"Array does not contain the value \" + valueToFind);\n        }\n    }\n}\n```\n\nThis program defines a method `containsValue` that takes an array of integers and a value to search for. It then iterates through the array and checks if the value is found. The main method tests this method with an example array and value."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 64,
+    "completion_tokens" : 198,
+    "total_tokens" : 262
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

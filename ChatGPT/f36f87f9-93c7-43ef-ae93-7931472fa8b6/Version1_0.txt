@@ -1,0 +1,27 @@
+```java
+import java.util.Scanner;
+
+public class CheckFirstTwoCharsAtEnd {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Get the first two characters of the string
+        String firstTwoChars = inputString.substring(0, 2);
+
+        // Check if the first two characters appear at the end of the string
+        boolean firstTwoCharsAtEnd = inputString.endsWith(firstTwoChars);
+
+        // Print the result
+        if (firstTwoCharsAtEnd) {
+            System.out.println("The first two characters appear at the end of the string.");
+        } else {
+            System.out.println("The first two characters do not appear at the end of the string.");
+        }
+    }
+}
+```

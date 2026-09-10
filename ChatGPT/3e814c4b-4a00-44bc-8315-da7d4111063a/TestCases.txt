@@ -1,0 +1,58 @@
+**Java Program**:
+
+```java
+import java.util.*;
+
+public class LongestSubstringWithoutRepeatingCharacters {
+
+    public static int lengthOfLongestSubstring(String str) {
+        if (str == null || str.length() == 0) {
+            return 0;
+        }
+
+        // Initialize sliding window variables
+        int start = 0;
+        int end = 0;
+
+        // Initialize the maximum length
+        int maxLen = 0;
+
+        // Create a set to store visited characters
+        Set<Character> visited = new HashSet<>();
+
+        while (end < str.length()) {
+            if (!visited.contains(str.charAt(end))) {
+                // If the character is not visited, add it to the set and expand the window
+                visited.add(str.charAt(end));
+                end++;
+                maxLen = Math.max(maxLen, end - start);
+            } else {
+                // If the character is already visited, remove the character from the set and slide the window
+                visited.remove(str.charAt(start));
+                start++;
+            }
+        }
+
+        return maxLen;
+    }
+
+    public static void main(String[] args) {
+        String str = "abcabcbb";
+        int len = lengthOfLongestSubstring(str);
+        System.out.println("The length of the longest substring without repeating characters is: " + len);
+    }
+}
+```
+
+**Test Cases**:
+
+1. **Valid Input**: `"abcabcbb"` should return 3 (abc)
+2. **Valid Input**: `"bbbbb"` should return 1 (b)
+3. **Empty Input**: `""` should return 0
+4. **Null Input**: `null` should return 0
+5. **Single Character Input**: `"a"` should return 1 (a)
+6. **No Repeating Characters Input**: `"abcdefg"` should return 7 (abcdefg)
+7. **Repeat Sequence Input**: `"abcabcab"` should return 3 (abc)
+8. **Repeat Prefix Input**: `"aabaadd"` should return 2 (aa)
+9. **Consecutive Repeats Input**: `"aaa"` should return 1 (a)
+10. **Long Input**: `"asjdflaskjdsafhdaskjhfjkasdhjfkashdkfjhasdkfjhasdkjfhaskjdfhasdfh"` should return 18

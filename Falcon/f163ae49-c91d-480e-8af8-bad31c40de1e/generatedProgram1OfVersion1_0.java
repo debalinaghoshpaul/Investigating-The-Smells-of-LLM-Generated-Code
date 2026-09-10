@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] nums1 = { 1, 3, -7, 3, 2, 3, 1, -3, -2, -2 };
+        int[] nums2 = { 1, 2, -3, 4, 5, 6 };
+        int[] nums3 = { 1, 2, -2, 3, 4, 5, 6 };
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        for (int i = 0; i < nums1.length; i++) {
+            for (int j = 0; j < nums2.length; j++) {
+                for (int k = 0; k < nums3.length; k++) {
+                    if (nums1[i] + nums2[j] + nums3[k] == 0) {
+                        List<Integer> list = new ArrayList<>();
+                        list.add(nums1[i]);
+                        list.add(nums2[j]);
+                        list.add(nums3[k]);
+                        result.add(list);
+                    }
+                }
+            }
+        }
+
+        for (List<Integer> list : result) {
+            System.out.println(list);
+        }
+    }
+}
+

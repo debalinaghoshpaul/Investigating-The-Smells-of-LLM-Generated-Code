@@ -1,0 +1,11 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\e7ff5a14-640a-47de-aab0-8bdc6817f21b\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\e7ff5a14-640a-47de-aab0-8bdc6817f21b\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\e7ff5a14-640a-47de-aab0-8bdc6817f21b\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\e7ff5a14-640a-47de-aab0-8bdc6817f21b\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\e7ff5a14-640a-47de-aab0-8bdc6817f21b\generatedProgram1OfVersion1_0.java:27:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\e7ff5a14-640a-47de-aab0-8bdc6817f21b\generatedProgram1OfVersion1_0.java:27:40: Parameter s1 should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\e7ff5a14-640a-47de-aab0-8bdc6817f21b\generatedProgram1OfVersion1_0.java:27:51: Parameter s2 should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\e7ff5a14-640a-47de-aab0-8bdc6817f21b\generatedProgram1OfVersion1_0.java:27:62: Parameter s3 should be final. [FinalParameters]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_String\e7ff5a14-640a-47de-aab0-8bdc6817f21b\generatedProgram1OfVersion1_0.java:48: Line is longer than 80 characters (found 148). [LineLength]
+Audit done.

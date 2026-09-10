@@ -1,0 +1,6 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\30ab9923-0fbd-4929-b366-7db9dd07528c\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\30ab9923-0fbd-4929-b366-7db9dd07528c\generatedProgram1OfVersion1_0.java:48:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\30ab9923-0fbd-4929-b366-7db9dd07528c\generatedProgram1OfVersion1_0.java:49:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\ASUS_PhDFolder\ChatGPT_generated_programs\ChatGPT_AbstractClass\30ab9923-0fbd-4929-b366-7db9dd07528c\generatedProgram1OfVersion1_0.java:49:29: Parameter args should be final. [FinalParameters]
+Audit done.

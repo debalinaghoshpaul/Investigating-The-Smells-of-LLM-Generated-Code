@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-91xjkatbxfnWqaJ6KrQZCDd0lAeJn",
+  "object" : "chat.completion",
+  "created" : 1710254984,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Arrays;\n\npublic class SecondLargestElement {\n\n    public static void main(String[] args) {\n        int[] arr = {10, 25, 13, 50, 17, 32};\n\n        int secondLargest = findSecondLargest(arr);\n\n        System.out.println(\"Second largest element in the array is: \" + secondLargest);\n    }\n\n    public static int findSecondLargest(int[] arr) {\n        Arrays.sort(arr);\n\n        int n = arr.length;\n\n        if (n < 2) {\n            System.out.println(\"Array should have at least 2 elements\");\n            return -1;\n        }\n\n        return arr[n - 2];\n    }\n\n}\n"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 63,
+    "completion_tokens" : 144,
+    "total_tokens" : 207
+  },
+  "system_fingerprint" : "fp_4f0b692a78"
+}

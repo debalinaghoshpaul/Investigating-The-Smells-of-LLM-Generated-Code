@@ -1,0 +1,6 @@
+Starting audit...
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_InputOutput\a1c0c34e-c582-4191-86a8-a0dffc60cb8e\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_InputOutput\a1c0c34e-c582-4191-86a8-a0dffc60cb8e\generatedProgram1OfVersion1_0.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_InputOutput\a1c0c34e-c582-4191-86a8-a0dffc60cb8e\generatedProgram1OfVersion1_0.java:5:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\debal\OneDrive\Desktop\PhD folder\ChatGPT_generated_programs\GeminiPro_W3Resources_InputOutput\a1c0c34e-c582-4191-86a8-a0dffc60cb8e\generatedProgram1OfVersion1_0.java:5:29: Parameter args should be final. [FinalParameters]
+Audit done.

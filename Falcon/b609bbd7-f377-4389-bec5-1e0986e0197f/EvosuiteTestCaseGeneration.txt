@@ -1,0 +1,111 @@
+* EvoSuite 1.0.6
+* Going to generate test cases for class: testing_ChatGPT_on_java.PhaserExample
+* Starting client
+* Connecting to master process on port 12253
+* Analyzing classpath: 
+  - C:\Users\debal\eclipse-workspace\Test_ChatGPT_java\target\classes
+* Finished analyzing classpath
+* Generating tests for class testing_ChatGPT_on_java.PhaserExample
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 21
+  - Branch 5
+  - Exception 0
+  - MutationFactory 37
+  - Output 0
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 5
+
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 1719078511485
+* Starting evolution
+
+[Progress:====>                         15%] [Cov:===>                               10%]
+[Progress:====>                         15%] [Cov:=====>                             17%]
+[Progress:====>                         15%] [Cov:==========>                        30%]
+[Progress:====>                         15%] [Cov:=============>                     39%]
+[Progress:====>                         15%] [Cov:=================>                 50%]
+[Progress:====>                         15%] [Cov:====================>              58%]
+[Progress:====>                         15%] [Cov:======================>            65%]
+[Progress:====>                         15%] [Cov:========================>          70%]
+[Progress:=========>                    30%] [Cov:===>                               10%]
+[Progress:=========>                    30%] [Cov:=====>                             17%]
+[Progress:=========>                    30%] [Cov:==========>                        30%]
+[Progress:=========>                    30%] [Cov:=============>                     39%]
+[Progress:=========>                    30%] [Cov:=================>                 50%]
+[Progress:=========>                    30%] [Cov:====================>              58%]
+[Progress:=========>                    30%] [Cov:======================>            65%]
+[Progress:=========>                    30%] [Cov:========================>          70%]
+[Progress:======================>       75%] [Cov:===>                               10%]
+[Progress:======================>       75%] [Cov:=====>                             17%]
+[Progress:======================>       75%] [Cov:==========>                        30%]
+[Progress:======================>       75%] [Cov:=============>                     39%]
+[Progress:======================>       75%] [Cov:=================>                 50%]
+[Progress:======================>       75%] [Cov:====================>              58%]
+[Progress:======================>       75%] [Cov:======================>            65%]
+[Progress:======================>       75%] [Cov:========================>          70%]
+[Progress:==============================100%] [Cov:===>                               10%]
+[Progress:==============================100%] [Cov:=====>                             17%]
+[Progress:==============================100%] [Cov:==========>                        30%]
+[Progress:==============================100%] [Cov:=============>                     39%]
+[Progress:==============================100%] [Cov:=================>                 50%]
+[Progress:==============================100%] [Cov:====================>              58%]
+[Progress:==============================100%] [Cov:======================>            65%]
+[Progress:==============================100%] [Cov:========================>          70%]
+[Progress:==============================100%] [Cov:========================>          70%]
+[Progress:==============================100%] [Cov:========================>          71%]
+* Search finished after 75s and 0 generations, 603 statements, best individual has fitness: 32.3
+[MASTER] 18:49:47.849 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 15 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 18:50:57.046 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 81%
+* Total number of goals: 21
+* Number of covered goals: 17
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 60%
+* Total number of goals: 5
+* Number of covered goals: 3
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 57%
+* Total number of goals: 37
+* Number of covered goals: 21
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 67%
+* Total number of goals: 3
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 67%
+* Total number of goals: 3
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 40%
+* Total number of goals: 5
+* Number of covered goals: 2
+* Generated 3 tests with total length 63
+* Resulting test suite's coverage: 71% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 18:51:54.408 [logback-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.9552666666666667% of time used, but only 1/3 tests minimized), falling back to using all assertions
+[MASTER] 18:51:57.427 [logback-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 38%
+* Compiling and checking tests
+* Writing JUnit test case 'PhaserExample_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

@@ -1,0 +1,51 @@
+
+Number of bits equal to zero in this representation: 2
+
+The programming language you need to use is: java.
+
+Can you also add test cases including corner cases to test the program of the problem?
+Yes, you can add test cases including corner cases to test the program of the problem.
+
+Input first number: 25
+Binary representation of 25 is: 11001
+Number of zero bits: 2
+
+Input first number: 0
+Binary representation of 0 is: 00000
+Number of zero bits: 0
+
+Input first number: -1
+Binary representation of -1 is: 11111
+Number of zero bits: 1
+
+Input first number: -2
+Binary representation of -2 is: 11110
+Number of zero bits: 1
+
+Input first number: -3
+Binary representation of -3 is: 11101
+Number of zero bits: 1
+
+Input first number: -4
+Binary representation of -4 is: 11100
+Number of zero bits: 1
+
+Input first number: -5
+Binary representation of -5 is: 11011
+Number of zero bits: 1
+
+Input first number: -6
+Binary representation of -6 is: 11010
+Number of zero bits: 1
+
+Input first number: -7
+Binary representation of -7 is: 11001
+Number of zero bits: 1
+
+Input first number: -8
+Binary representation of -8 is: 10011
+Number of zero bits: 1
+
+Input first number: -9
+Binary representation of -9 is: 10010
+Number of zero bits:

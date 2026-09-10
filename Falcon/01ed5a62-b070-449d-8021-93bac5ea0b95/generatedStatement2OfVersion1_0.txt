@@ -1,0 +1,44 @@
+
+
+**Test cases:**
+
+* **Test case 1:**
+    * Input:
+        * firstNumber = 25
+        * secondNumber = 39
+    * Expected output:
+        * 25 != 39
+        * 25 < 39
+        * 25 <= 39
+* **Test case 2:**
+    * Input:
+        * firstNumber = 100
+        * secondNumber = 100
+    * Expected output:
+        * 100 == 100
+        * 100 <= 100
+        * 100 >= 100
+* **Test case 3:**
+    * Input:
+        * firstNumber = -10
+        * secondNumber = 0
+    * Expected output:
+        * -10 != 0
+        * -10 < 0
+        * -10 <= 0
+* **Test case 4:**
+    * Input:
+        * firstNumber = Integer.MAX_VALUE
+        * secondNumber = Integer.MIN_VALUE
+    * Expected output:
+        * Integer.MAX_VALUE != Integer.MIN_VALUE
+        * Integer.MAX_VALUE > Integer.MIN_VALUE
+        * Integer.MAX_VALUE >= Integer.MIN_VALUE
+* **Test case 5:**
+    * Input:
+        * firstNumber = Integer.MIN_VALUE
+        * secondNumber = Integer.MIN_VALUE
+    * Expected output:
+        * Integer.MIN_VALUE == Integer.MIN_VALUE
+        * Integer.MIN_VALUE <= Integer.MIN_VALUE
+        * Integer.MIN_VALUE >= Integer.MIN_VALUE

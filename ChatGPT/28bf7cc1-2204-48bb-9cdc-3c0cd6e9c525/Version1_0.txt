@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-95D6UZwODNgvT6Lo5YlFGk3G9LDdQ",
+  "object" : "chat.completion",
+  "created" : 1711029038,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "import java.util.Scanner;\n\npublic class GoldbachNumber {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Taking input of even number from user\n        System.out.print(\"Enter an even number (greater than or equal to 4 and less than or equal to 50000): \");\n        int n = sc.nextInt();\n\n        if (n < 4 || n % 2 != 0 || n > 50000) {\n            System.out.println(\"Invalid input. Please enter a valid even number.\");\n        } else {\n            int count = findGoldbachPartitions(n);\n            System.out.println(\"Number of Goldbach partitions for \" + n + \" are: \" + count);\n        }\n\n        sc.close();\n    }\n\n    // Function to find Goldbach Partitions for a given even number\n    public static int findGoldbachPartitions(int n) {\n        int count = 0;\n\n        for (int i = 2; i <= n/2; i++) {\n            if (isPrime(i) && isPrime(n - i)) {\n                System.out.println(i + \" + \" + (n - i));\n                count++;\n            }\n        }\n\n        return count;\n    }\n\n    // Function to check if a number is prime\n    public static boolean isPrime(int num) {\n        if (num <= 1) {\n            return false;\n        }\n        for (int i = 2; i <= Math.sqrt(num); i++) {\n            if (num % i == 0) {\n                return false;\n            }\n        }\n        return true;\n    }\n} \n\nIn this program, we first take an even number input from the user within the specified range. Then, we check if the input is a valid even number. If it is a valid even number, we call the findGoldbachPartitions() method to find the Goldbach partitions for the given number.\n\nThe findGoldbachPartitions() method iterates through numbers from 2 to n/2 and checks if both the number and its complement (n - number) are prime numbers. If they are prime numbers, it prints the Goldbach partition and increments the count.\n\nThe isPrime() method is used to check if a given number is prime or not.\n\nFinally, the program prints the total number of Goldbach partitions for the given even number."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 308,
+    "completion_tokens" : 486,
+    "total_tokens" : 794
+  },
+  "system_fingerprint" : "fp_fa89f7a861"
+}

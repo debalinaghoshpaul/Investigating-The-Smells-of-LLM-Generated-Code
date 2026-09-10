@@ -1,0 +1,21 @@
+
+Even Number: 2
+Odd Number: 1
+Even Number: 4
+Odd Number: 3
+Even Number: 6
+Odd Number: 5
+Even Number: 8
+Odd Number: 7
+Even Number: 10
+Odd Number: 9
+Even Number: 12
+Odd Number: 11
+Even Number: 14
+Odd Number: 13
+Even Number: 16
+Odd Number: 15
+Even Number: 18
+Odd Number: 17
+Even Number: 20
+Odd Number: 19

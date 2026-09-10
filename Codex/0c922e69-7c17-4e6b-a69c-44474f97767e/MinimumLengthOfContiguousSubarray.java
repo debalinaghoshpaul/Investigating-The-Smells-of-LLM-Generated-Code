@@ -1,0 +1,58 @@
+import java.util.Arrays;
+
+public class MinimumLengthOfContiguousSubarray {
+
+    public static int findMinimumLength(int[] nums, int target) {
+        int minLength = Integer.MAX_VALUE;
+        int start = 0;
+        int end = 0;
+        int sum = 0;
+
+        while (end < nums.length) {
+            sum += nums[end];
+
+            while (sum >= target) {
+                minLength = Math.min(minLength, end - start + 1);
+                sum -= nums[start];
+                start++;
+            }
+
+            end++;
+        }
+
+        return minLength == Integer.MAX_VALUE ? 0 : minLength;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3, 4, 6};
+        int target = 8;
+        int minLength = findMinimumLength(nums, target);
+        System.out.println("Minimum length of a contiguous subarray of which the sum is " + target + ": " + minLength);
+
+        // Test cases
+        int[] nums1 = {1, 2, 3, 4, 6};
+        int target1 = 15;
+        int minLength1 = findMinimumLength(nums1, target1);
+        System.out.println("Minimum length of a contiguous subarray of which the sum is " + target1 + ": " + minLength1);
+
+        int[] nums2 = {1, 2, 3, 4, 6};
+        int target2 = 2;
+        int minLength2 = findMinimumLength(nums2, target2);
+        System.out.println("Minimum length of a contiguous subarray of which the sum is " + target2 + ": " + minLength2);
+
+        int[] nums3 = {1, 2, 3, 4, 6};
+        int target3 = 1;
+        int minLength3 = findMinimumLength(nums3, target3);
+        System.out.println("Minimum length of a contiguous subarray of which the sum is " + target3 + ": " + minLength3);
+
+        int[] nums4 = {1, 2, 3, 4, 6};
+        int target4 = 0;
+        int minLength4 = findMinimumLength(nums4, target4);
+        System.out.println("Minimum length of a contiguous subarray of which the sum is " + target4 + ": " + minLength4);
+
+        int[] nums5 = {};
+        int target5 = 8;
+        int minLength5 = findMinimumLength(nums5, target5);
+        System.out.println("Minimum length of a contiguous subarray of which the sum is " + target5 + ": " + minLength5);
+    }
+}

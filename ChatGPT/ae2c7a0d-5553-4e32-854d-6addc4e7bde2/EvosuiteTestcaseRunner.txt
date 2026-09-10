@@ -1,0 +1,13 @@
+JUnit version 4.13
+.Common elements in the two stacks are:
+3
+4
+5
+.Common elements in the two stacks are:
+0
+..Common elements in the two stacks are:
+.
+Time: 0.383
+
+OK (5 tests)
+

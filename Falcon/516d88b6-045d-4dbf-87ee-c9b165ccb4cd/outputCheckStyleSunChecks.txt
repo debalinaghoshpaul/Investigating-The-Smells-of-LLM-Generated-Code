@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:1: Missing package-info.java file. [JavadocPackage]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:2:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:2:13: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:2:21: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:2:31: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\19217422\Desktop\PhD Folder\ChatGPT_generated_programs\Falcon_new\Falcon_W3Resources_Enum\516d88b6-045d-4dbf-87ee-c9b165ccb4cd\generatedProgram1OfVersion1_0.java:6:29: Parameter args should be final. [FinalParameters]
+Audit done.

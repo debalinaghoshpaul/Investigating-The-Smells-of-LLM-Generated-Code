@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-9EZvZfMK0rbpQtMN1GrrcC3YnRRFl",
+  "object" : "chat.completion",
+  "created" : 1713261725,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "// Importing necessary libraries\nimport java.util.Scanner;\nimport java.util.Random;\n\npublic class ChallengeResponseAuthentication {\n    public static void main(String[] args) {\n        // Actual PIN number\n        String actualPIN = \"12345\";\n        \n        // Array to assign random numbers to digits from 0 to 9\n        int[] randomNums = new int[10];\n        Random rand = new Random();\n        for (int i = 0; i < 10; i++) {\n            randomNums[i] = rand.nextInt(3) + 1;\n        }\n        \n        // Displaying the PIN and corresponding random numbers\n        System.out.println(\"PIN: 0 1 2 3 4 5 6 7 8 9\");\n        System.out.print(\"NUM: \");\n        for (int i = 0; i < 10; i++) {\n            System.out.print(randomNums[i] + \" \");\n        }\n        System.out.println();\n        \n        // Getting user's response\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter your response: \");\n        String response = scanner.nextLine();\n        \n        // Checking if user's response matches the actual PIN number\n        StringBuilder sb = new StringBuilder();\n        for (int i = 0; i < response.length(); i++) {\n            char c = response.charAt(i);\n            int digit = Character.getNumericValue(c);\n            sb.append(randomNums[digit]);\n        }\n        \n        if (sb.toString().equals(actualPIN)) {\n            System.out.println(\"Authentication successful! Response matches the actual PIN number.\");\n        } else {\n            System.out.println(\"Authentication failed. Response does not match the actual PIN number.\");\n        }\n    }\n}"
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 448,
+    "completion_tokens" : 356,
+    "total_tokens" : 804
+  },
+  "system_fingerprint" : "fp_c2295e73ad"
+}

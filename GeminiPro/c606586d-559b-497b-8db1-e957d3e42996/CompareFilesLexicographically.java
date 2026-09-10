@@ -1,0 +1,57 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class CompareFilesLexicographically {
+
+    public static void main(String[] args) throws FileNotFoundException {
+        // Get the two files from the user
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the path to the first file: ");
+        String file1Path = scanner.nextLine();
+        System.out.println("Enter the path to the second file: ");
+        String file2Path = scanner.nextLine();
+
+        // Create File objects for the two files
+        File file1 = new File(file1Path);
+        File file2 = new File(file2Path);
+
+        // Check if the files exist
+        if (!file1.exists() || !file2.exists()) {
+            System.out.println("One or both of the files do not exist.");
+            return;
+        }
+
+        // Create scanners for the two files
+        Scanner file1Scanner = new Scanner(file1);
+        Scanner file2Scanner = new Scanner(file2);
+
+        // Compare the two files lexicographically
+        int comparisonResult = 0;
+        while (file1Scanner.hasNextLine() && file2Scanner.hasNextLine()) {
+            String line1 = file1Scanner.nextLine();
+            String line2 = file2Scanner.nextLine();
+
+            // Compare the two lines lexicographically
+            comparisonResult = line1.compareTo(line2);
+
+            // If the lines are not equal, break out of the loop
+            if (comparisonResult != 0) {
+                break;
+            }
+        }
+
+        // Print the result of the comparison
+        if (comparisonResult == 0) {
+            System.out.println("The two files are lexicographically equal.");
+        } else if (comparisonResult < 0) {
+            System.out.println("The first file is lexicographically less than the second file.");
+        } else {
+            System.out.println("The first file is lexicographically greater than the second file.");
+        }
+
+        // Close the scanners
+        file1Scanner.close();
+        file2Scanner.close();
+    }
+}

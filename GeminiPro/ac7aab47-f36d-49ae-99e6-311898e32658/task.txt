@@ -1,0 +1,1 @@
+Problem Description : \nWrite a Java program to compute the sum of the first n prime numbers.\nInput:\n\n\n The programming language you need to use is: java.\n\n Problem Id is : ac7aab47-f36d-49ae-99e6-311898e32658.\n

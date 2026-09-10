@@ -1,0 +1,21 @@
+{
+  "id" : "chatcmpl-93PpjdKBv70F1JkWu8Il4QWJi66Tv",
+  "object" : "chat.completion",
+  "created" : 1710601315,
+  "model" : "gpt-3.5-turbo-0125",
+  "choices" : [ {
+    "index" : 0,
+    "message" : {
+      "role" : "assistant",
+      "content" : "```java\nimport java.util.Stack;\n\npublic class MergeStacks {\n    \n    public static void main(String[] args) {\n        Stack<Integer> stack1 = new Stack<>();\n        Stack<Integer> stack2 = new Stack<>();\n        \n        stack1.push(1);\n        stack1.push(2);\n        stack1.push(3);\n        \n        stack2.push(4);\n        stack2.push(5);\n        stack2.push(6);\n        \n        mergeStacks(stack1, stack2);\n        \n        System.out.println(\"Merged Stack: \" + stack1);\n    }\n    \n    public static void mergeStacks(Stack<Integer> stack1, Stack<Integer> stack2) {\n        Stack<Integer> tempStack = new Stack<>();\n        \n        while(!stack1.isEmpty()) {\n            tempStack.push(stack1.pop());\n        }\n        \n        while(!stack2.isEmpty()) {\n            tempStack.push(stack2.pop());\n        }\n        \n        while(!tempStack.isEmpty()) {\n            stack1.push(tempStack.pop());\n        }\n    }\n}\n```\n\nThis program creates two stacks `stack1` and `stack2`, pushes some elements into them, and then merges them into `stack1` using a temporary stack `tempStack`. Finally, it prints the merged stack."
+    },
+    "logprobs" : null,
+    "finish_reason" : "stop"
+  } ],
+  "usage" : {
+    "prompt_tokens" : 61,
+    "completion_tokens" : 255,
+    "total_tokens" : 316
+  },
+  "system_fingerprint" : "fp_4f2ebda25a"
+}

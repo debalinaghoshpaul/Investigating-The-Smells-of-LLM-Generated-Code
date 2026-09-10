@@ -1,0 +1,81 @@
+**Java program to find the longest Palindromic Substring:**
+
+```java
+import java.util.Scanner;
+
+public class PalindromicSubstring {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user
+        System.out.println("Enter a string: ");
+        String input = scanner.nextLine();
+
+        // Find the longest palindromic substring
+        String longestPalindrome = findLongestPalindrome(input);
+
+        // Print the longest palindromic substring
+        System.out.println("The longest palindromic substring is: " + longestPalindrome);
+    }
+
+    private static String findLongestPalindrome(String input) {
+        // Initialize the longest palindrome length and starting index
+        int maxLength = 0;
+        int startIndex = 0;
+
+        // Iterate over the string to find all possible substrings
+        for (int i = 0; i < input.length(); i++) {
+            for (int j = i + 1; j <= input.length(); j++) {
+                String substring = input.substring(i, j);
+
+                // Check if the substring is a palindrome
+                if (isPalindrome(substring)) {
+                    // Update the longest palindrome length and starting index if necessary
+                    if (substring.length() > maxLength) {
+                        maxLength = substring.length();
+                        startIndex = i;
+                    }
+                }
+            }
+        }
+
+        // Return the longest palindromic substring
+        return input.substring(startIndex, startIndex + maxLength);
+    }
+
+    private static boolean isPalindrome(String substring) {
+        // Initialize the left and right indices
+        int left = 0;
+        int right = substring.length() - 1;
+
+        // Compare the characters from the left and right indices
+        while (left <= right) {
+            if (substring.charAt(left) != substring.charAt(right)) {
+                return false;
+            }
+
+            // Increment the left index and decrement the right index
+            left++;
+            right--;
+        }
+
+        // Return true if the substring is a palindrome
+        return true;
+    }
+}
+```
+
+**Test cases:**
+
+* **Normal case:** "abccba" should return "abccba"
+* **Empty string:** "" should return ""
+* **Single character:** "a" should return "a"
+* **Palindromic string with spaces:** "race car" should return "race car"
+* **Palindromic string with special characters:** "!@#$%^&*()_+" should return "!@#$%^&*()_+"
+
+**Corner cases:**
+
+* **Null string:** Should throw an **IllegalArgumentException**
+* **String with only spaces:** "    " should return ""
+* **String with only special characters:** ")!@#$%^&*()" should return ""

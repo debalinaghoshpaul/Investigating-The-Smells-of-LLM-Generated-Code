@@ -1,0 +1,8 @@
+
+Test Case 2:
+Input:
+radius = 0
+
+Expected Output:
+Perimeter: 0.0
+Area: 0.0

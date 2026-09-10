@@ -1,0 +1,39 @@
+No GPU found. Running on CPU.
+import java.util.Scanner;
+
+public class SquareRoot {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        double root = Math.sqrt(number);
+        System.out.println("The square root of " + number + " is " + root);
+    }
+}
+
+Output:
+Enter a number: 5
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979
+The square root of 5 is 2.23606797749979

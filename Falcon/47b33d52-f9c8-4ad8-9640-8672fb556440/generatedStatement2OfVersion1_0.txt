@@ -1,0 +1,17 @@
+
+
+**Test cases:**
+
+* **Valid Harshad Numbers:**
+    * 171
+    * 12345
+    * 6174
+* **Invalid Harshad Numbers:**
+    * 123
+    * 456
+    * 789
+* **Corner cases:**
+    * 0 (not a Harshad Number)
+    * 1 (a Harshad Number)
+    * 10 (a Harshad Number)
+    * 99 (a Harshad Number)

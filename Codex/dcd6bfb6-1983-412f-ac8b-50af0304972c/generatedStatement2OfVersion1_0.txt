@@ -1,0 +1,22 @@
+
+
+**Test Cases:**
+
+**Normal Cases:**
+
+* **Input:** Python
+* **Output:** Pyt
+
+* **Input:** Java
+* **Output:** Ja
+
+**Corner Cases:**
+
+* **Input:** "" (empty string)
+* **Output:** "" (empty string)
+
+* **Input:** "a" (odd string)
+* **Output:** "The input string is odd. Please enter an even string."
+
+* **Input:** null
+* **Output:** "The input string is odd. Please enter an even string."

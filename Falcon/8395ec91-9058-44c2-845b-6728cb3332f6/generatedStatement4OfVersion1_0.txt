@@ -1,0 +1,3 @@
+
+
+* **Edge case:** Check if the enum contains the first and last constants.

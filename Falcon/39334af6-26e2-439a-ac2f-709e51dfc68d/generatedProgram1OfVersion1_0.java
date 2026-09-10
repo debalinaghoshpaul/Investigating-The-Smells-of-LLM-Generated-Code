@@ -1,0 +1,25 @@
+import java.util.Arrays;
+
+public class MoveNumbers {
+    public static void main(String[] args) {
+        int[] arr = {-2, 3, 4, -1, -3, 1, 2, -4, 0};
+        int n = arr.length;
+
+        int[] result = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            if (arr[i] < 0) {
+                result[i] = -arr[i];
+            } else {
+                result[i] = arr[i];
+            }
+        }
+
+        Arrays.sort(result);
+
+        for (int i = 0; i < n; i++) {
+            System.out.print(result[i] + " ");
+        }
+    }
+}
+

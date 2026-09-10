@@ -1,0 +1,22 @@
+
+Enter a number: 25
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5
+The prime factors of 25 are: 5, 5, 5

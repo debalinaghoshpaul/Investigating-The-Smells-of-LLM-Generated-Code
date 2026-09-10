@@ -1,0 +1,7 @@
+
+
+In this implementation, we have defined the Vehicle class with instance variables tankSize, efficiency, and fuelInTank. We have created an accessor method `getInitialValues()` to return the initial values of these variables, a mutator method `addPetrol()` to add petrol to the tank, and a method `driveTo()` to calculate the distance that can be traveled with the available fuel and efficiency.
+
+In the `main` method, we create an instance of the Vehicle class, set initial values, add petrol, and calculate the distance traveled using the `driveTo()` method.
+
+You can run this code to test the functionality of the Vehicle class.

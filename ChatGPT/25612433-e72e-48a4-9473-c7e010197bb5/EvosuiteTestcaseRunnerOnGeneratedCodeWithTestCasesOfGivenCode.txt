@@ -1,0 +1,11 @@
+JUnit version 4.13
+....Current word count: 0
+.Current word count: 0
+Current word count: 2
+Current word count: 1
+Current word count: 0
+..
+Time: 0.504
+
+OK (7 tests)
+

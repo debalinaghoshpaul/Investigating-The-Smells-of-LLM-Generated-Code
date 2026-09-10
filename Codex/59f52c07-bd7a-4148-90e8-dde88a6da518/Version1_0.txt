@@ -1,0 +1,28 @@
+```java
+import java.util.Map;
+import java.util.TreeMap;
+
+public class GreatestKeyLessThanOrEqualToGivenKey {
+
+    public static void main(String[] args) {
+        // Create a TreeMap
+        TreeMap<Integer, String> treeMap = new TreeMap<>();
+
+        // Put elements into the TreeMap
+        treeMap.put(1, "One");
+        treeMap.put(2, "Two");
+        treeMap.put(3, "Three");
+        treeMap.put(4, "Four");
+        treeMap.put(5, "Five");
+
+        // Get the given key
+        Integer key = 3;
+
+        // Get the greatest key less than or equal to the given key
+        Integer greatestKey = treeMap.floorKey(key);
+
+        // Print the greatest key less than or equal to the given key
+        System.out.println("The greatest key less than or equal to " + key + " is: " + greatestKey);
+    }
+}
+```

@@ -1,0 +1,65 @@
+```java
+import java.time.LocalDate;
+import java.time.Year;
+
+public class GetCurrentYearInformation {
+    public static void main(String[] args) {
+        // Getting the current year information
+        Year currentYear = Year.now();
+
+        // Printing the current year information
+        System.out.println("Current year: " + currentYear);
+        System.out.println("Is current year a leap year? " + currentYear.isLeap());
+        System.out.println("Length of current year in days: " + currentYear.length());
+
+        // Getting the information of a given year
+        int givenYear = 2020;
+        Year year = Year.of(givenYear);
+
+        // Printing the given year information
+        System.out.println("\nGiven year: " + year);
+        System.out.println("Is given year a leap year? " + year.isLeap());
+        System.out.println("Length of given year in days: " + year.length());
+    }
+}
+```
+
+**Test Cases:**
+
+**Positive Test Cases:**
+
+* **Test Case 1:**
+   * Input: Current year (e.g., 2023)
+   * Expected Output:
+     * Current year: 2023
+     * Is current year a leap year? false
+     * Length of current year in days: 365
+
+* **Test Case 2:**
+   * Input: Given year (e.g., 2000)
+   * Expected Output:
+     * Given year: 2000
+     * Is given year a leap year? true
+     * Length of given year in days: 366
+
+**Negative Test Cases:**
+
+* **Test Case 3:**
+   * Input: Invalid year (e.g., -1000)
+   * Expected Output: Exception (e.g., IllegalArgumentException)
+
+**Corner Cases:**
+
+* **Test Case 4:**
+   * Input: Year 0
+   * Expected Output:
+     * Given year: 0
+     * Is given year a leap year? true
+     * Length of given year in days: 366
+
+* **Test Case 5:**
+   * Input: Year 10000
+   * Expected Output:
+     * Given year: 10000
+     * Is given year a leap year? false
+     * Length of given year in days: 365

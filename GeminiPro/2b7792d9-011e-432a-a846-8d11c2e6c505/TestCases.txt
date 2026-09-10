@@ -1,0 +1,55 @@
+```java
+import java.util.Scanner;
+
+public class RemoveFirstLastCharacters {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the input string from the user.
+        System.out.println("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+        // Check if the first and last characters are the same.
+        char firstCharacter = inputString.charAt(0);
+        char lastCharacter = inputString.charAt(inputString.length() - 1);
+        if (firstCharacter == lastCharacter) {
+            // If the first and last characters are the same, remove them from the string.
+            inputString = inputString.substring(1, inputString.length() - 1);
+        } else {
+            // If the first and last characters are not the same, remove them from the string.
+            inputString = inputString.substring(1);
+            inputString = inputString.substring(0, inputString.length() - 1);
+        }
+
+        // Print the resulting string.
+        System.out.println("The resulting string is: " + inputString);
+    }
+}
+```
+
+**Test cases including corner cases:**
+
+* **Test case 1:**
+    * Input: "Hello"
+    * Expected output: "ell"
+
+* **Test case 2:**
+    * Input: "123456789"
+    * Expected output: "2345678"
+
+* **Test case 3:**
+    * Input: "a"
+    * Expected output: ""
+
+* **Test case 4:**
+    * Input: ""
+    * Expected output: ""
+
+* **Test case 5:**
+    * Input: "12321"
+    * Expected output: "23"
+
+* **Test case 6:**
+    * Input: "111"
+    * Expected output: ""

@@ -1,0 +1,11 @@
+Violations by Category:
+LineLength: Line is longer than 80 characters (found 84). [LineLength]: 1
+DesignForExtension: Class 'Student' looks like designed for extension (can be subclassed), but the method 'getStudentId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Student' final or making the method 'getStudentId' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]: 6
+FinalParameters: Parameter student_id should be final. [FinalParameters]: 6
+HiddenField: 'student_id' hides a field. [HiddenField]: 4
+JavadocPackage: Missing package-info.java file. [JavadocPackage]: 1
+ParameterName: Name 'student_id' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]: 4
+MemberName: Name 'student_id' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]: 2
+JavadocVariable: Missing a Javadoc comment. [JavadocVariable]: 3
+MissingJavadocMethod: Missing a Javadoc comment. [MissingJavadocMethod]: 8
+MagicNumber: '100' is a magic number. [MagicNumber]: 3

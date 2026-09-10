@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class KeithNumber {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the input number
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // Check if the number is a Keith number
+        boolean isKeithNumber = isKeithNumber(number);
+
+        // Print the result
+        if (isKeithNumber) {
+            System.out.println(number + " is a Keith number.");
+        } else {
+            System.out.println(number + " is not a Keith number.");
+        }
+    }
+
+    private static boolean isKeithNumber(int number) {
+        // Convert the number to a string
+        String numberString = String.valueOf(number);
+
+        // Find the length of the number
+        int length = numberString.length();
+
+        // Initialize the sum to the number itself
+        int sum = number;
+
+        // Iterate over the digits of the number
+        for (int i = 1; i <= length; i++) {
+            // Get the last i digits of the sum
+            String lastIDigits = String.valueOf(sum).substring(Math.max(0, sum - i));
+
+            // Convert the last i digits to an integer
+            int lastIDigitsInt = Integer.parseInt(lastIDigits);
+
+            // Add the last i digits to the sum
+            sum += lastIDigitsInt;
+
+            // Check if the sum is equal to the number
+            if (sum == number) {
+                return true;
+            }
+        }
+
+        // If the sum is not equal to the number, the number is not a Keith number
+        return false;
+    }
+}
